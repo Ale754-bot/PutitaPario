@@ -1,0 +1,40 @@
+
+
+[
+    {
+      "id": "J001",
+      "nombre": "Vibrador Clásico Velvet",
+      "precio": 35.00,
+      "stock": true,
+      "categoria": "Juguetes",
+      "descripcion": "Acabado de silicona aterciopelada y 10 modos de vibración.",
+      "imagenUrl": "/images/juguete-01.webp" 
+    },
+    {
+      "id": "G002",
+      "nombre": "Gel Lubricante Fresa",
+      "precio": 12.50,
+      "stock": true,
+      "categoria": "Geles",
+      "descripcion": "Sabor dulce, base de agua, compatible con látex.",
+      "imagenUrl": "/images/gel-02.webp"
+    },
+    {
+      "id": "I003",
+      "nombre": "Conjunto Lencería Encaje",
+      "precio": 55.99,
+      "stock": true,
+      "categoria": "Indumentaria",
+      "descripcion": "Conjunto de dos piezas en color negro con detalles en rojo.",
+      "imagenUrl": "/images/lenceria-03.webp"
+    },
+    {
+      "id": "P004",
+      "nombre": "Perfume Feromonas 'Deseo'",
+      "precio": 48.00,
+      "stock": false,
+      "categoria": "Perfumes",
+      "descripcion": "Aroma intenso y duradero con concentrado de feromonas.",
+      "imagenUrl": "/images/perfume-04.webp"
+    }
+]

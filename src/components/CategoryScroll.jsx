@@ -4,14 +4,14 @@ import React, { useRef, useEffect, useState } from 'react';
 
 // Datos de prueba
 const CATEGORIES = [
-    { id: 1, name: "Juguetes", image: "/Aji.jpg" }, 
-    { id: 2, name: "Geles y Aceites", image: "/Aji.jpg" },
-    { id: 3, name: "Indumentaria", image: "/Aji.jpg" },
-    { id: 4, name: "Cuidado Íntimo", image: "/Aji.jpg" },
-    { id: 5, name: "Perfumes", image: "/Aji.jpg" },
+    { id: 1, name: "Juguetes", image: "/PP1.png" }, 
+    { id: 2, name: "Geles y Aceites", image: "/PP1.png" },
+    { id: 3, name: "Indumentaria", image: "/PP1.png" },
+    { id: 4, name: "Cuidado Íntimo", image: "/PP1.png" },
+    { id: 5, name: "Perfumes", image: "/PP1.png" },
     // Duplicados para el loop (¡Asegúrate que tienes estos archivos también!)
-    { id: 6, name: "Juguetes", image: "/Aji.jpg" },
-    { id: 7, name: "Geles y Aceites", image: "/Aji.jpg" },
+    { id: 6, name: "Juguetes", image: "/PP1.png" },
+    { id: 7, name: "Geles y Aceites", image: "/PP1.png" },
 ];
 
 const CategoryScroll = () => {
@@ -88,13 +88,13 @@ const CategoryScroll = () => {
                             // OJO: Esta ruta debe funcionar correctamente si ya tienes las imágenes en public/images/
                             src={category.image} 
                             alt={category.name} 
-                            className="w-full h-full object-cover"
+                className="w-full h-full object-contain rounded-md transition-transform duration-500 hover:scale-105"
                         />
                         
                         <div className="absolute inset-0 transition-opacity duration-300 hover:bg-opacity-20"></div>
 
                         <div className="absolute bottom-4 left-4 z-10"> {/* 👈 AÑADIMOS Z-10 */}
-    <h3 className="text-3xl font-extrabold text-white leading-none drop-shadow-lg uppercase">
+    <h3 className="text-2xl font-extrabold text-white leading-none drop-shadow-lg uppercase">
         {category.name}
     </h3>
     <p className="text-sm text-white font-medium text-white">Ver más &rarr;</p>

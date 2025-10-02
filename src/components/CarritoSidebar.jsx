@@ -7,7 +7,7 @@ const CarritoSidebar = ({ isOpen, closeCart }) => {
 
     // Clases de Tailwind para controlar el slide-in/slide-out
     const sidebarClasses = `
-        fixed top-0 right-0 h-full w-full sm:w-80 bg-bg-principal text-texto-claro shadow-2xl z-50 p-4 
+        fixed top-0 right-0 h-full w-full sm:w-80 bg-bg-principal text-white shadow-2xl z-50 p-4 
         transform transition-transform duration-500 ease-in-out
         ${isOpen ? 'translate-x-0' : 'translate-x-full'}
     `;
@@ -50,7 +50,7 @@ const CarritoSidebar = ({ isOpen, closeCart }) => {
             {/* Sidebar principal */}
             <div className={sidebarClasses}>
                 <div className="flex justify-between items-center pb-4 border-b border-gray-800">
-                    <h2 className="text-2xl font-bold text-acento">Tu Pedido ({items.length})</h2>
+                    <h2 className="text-2xl font-bold text-red-600">Tu Pedido ({items.length})</h2>
                     <button 
                         onClick={closeCart} 
                         className="text-texto-claro text-3xl hover:text-acento transition-colors"
@@ -97,7 +97,7 @@ const CarritoSidebar = ({ isOpen, closeCart }) => {
                 <div className="absolute bottom-0 left-0 right-0 p-4 border-t border-gray-800 bg-bg-principal">
                     <div className="flex justify-between font-extrabold text-xl mb-4">
                         <span>TOTAL ESTIMADO:</span>
-                        <span className="text-acento">${calcularTotal().toFixed(2)}</span>
+                        <span className="text-red-600">${calcularTotal().toFixed(2)}</span>
                     </div>
                     
                     <button 

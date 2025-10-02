@@ -15,7 +15,7 @@ const ProductCard = ({ producto }) => {
 
   // Clases de estilos para el botón cuando no hay stock
   const buttonClasses = producto.stock
-    ? "bg-acento hover:bg-red-800" // Rojo cuando hay stock
+    ? "bg-red-600 hover:bg-red-800" // Rojo cuando hay stock
     : "bg-gray-700 cursor-not-allowed"; // Gris cuando no hay stock
 
   return (

@@ -36,7 +36,7 @@ export const CarritoProvider = ({ children }) => {
   
   const generarMensajeWhatsapp = () => {
       // 🚨 IMPORTANTE: Reemplaza este número por el de la dueña del local (formato internacional sin +)
-      const numeroDuena = "54911xxxxxxxx"; 
+      const numeroDuena = "5493412634440"; 
       
       let mensaje = '*🛒 NUEVO PEDIDO WEB (Tienda Online)*\n';
       // ... (El resto de la generación del mensaje que ya teníamos)

@@ -9,7 +9,7 @@ const Hero = () => {
     const logoVariants = {
         hidden: { opacity: 0, scale: 0.9 },
         visible: { 
-            opacity: 0.09, // 🚨 Opacidad muy baja para que sea sutil
+            opacity: 0.10, // 🚨 Opacidad muy baja para que sea sutil
             scale: 1, 
             transition: { 
                 duration: 1.5, // Animación larga para un efecto "épico"
@@ -22,7 +22,7 @@ const Hero = () => {
     const textVariants = {
         hidden: { opacity: 0, y: 20 },
         visible: { 
-            opacity: 1, 
+            opacity: 5, 
             y: 0, 
             transition: { 
                 delay: 1.2, // Aparece después de que el logo se asienta
@@ -55,7 +55,7 @@ const Hero = () => {
             
             {/* 🚨 LOGO DE FONDO (Grande, centrado, baja opacidad) */}
             <motion.img 
-                src="PP1.png" 
+                src="PP.png" 
                 alt="Logo Principal"
                 variants={logoVariants}
                 initial="hidden"
@@ -75,14 +75,7 @@ const Hero = () => {
                 className="text-center z-10 p-4" // z-10 para que quede encima del logo
             >
                 
-                {/* Título Principal */}
-                <h1 className="
-                    text-6xl md:text-7xl font-extrabold text-white mb-6 
-                    drop-shadow-lg leading-tight uppercase
-                ">
-                    TU PLACER. <span className="text-acento">NUESTRO SECRETO.</span>
-                </h1>
-                
+    
             
             </motion.div>
         </section>

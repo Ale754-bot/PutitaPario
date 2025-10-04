@@ -1,109 +1,67 @@
-// src/components/CategoryScroll.jsx
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
-import React, { useRef, useEffect, useState } from 'react';
-
-// Datos de prueba
 const CATEGORIES = [
-    { id: 1, name: "Juguetes", image: "/PP1.png" }, 
-    { id: 2, name: "Geles y Aceites", image: "/PP1.png" },
-    { id: 3, name: "Indumentaria", image: "/PP1.png" },
-    { id: 4, name: "Cuidado Íntimo", image: "/PP1.png" },
-    { id: 5, name: "Perfumes", image: "/PP1.png" },
-    // Duplicados para el loop (¡Asegúrate que tienes estos archivos también!)
-    { id: 6, name: "Juguetes", image: "/PP1.png" },
-    { id: 7, name: "Geles y Aceites", image: "/PP1.png" },
+  "Geles y Aceites",
+  "Accesorios",
+  "Juegos",
+  "Juguetes",
+  "Disfraces",
+  "Body Splash",
+  "Perfumes Afro",
+  "Hotmetica",
+  "Indumentaria"
 ];
 
 const CategoryScroll = () => {
-    // Referencia al elemento div para manipular el scroll
-    const scrollRef = useRef(null);
-    // Estado para controlar si la animación debe pausarse
-    const [isHovered, setIsHovered] = useState(false);
+  const navigate = useNavigate();
 
-    useEffect(() => {
-        const scrollElement = scrollRef.current;
-        if (!scrollElement) return;
+  const handleCategoryClick = (name) => {
+    const categoriaParam = name.toLowerCase().replace(/\s/g, '-');
+    navigate(`/productos?categoria=${categoriaParam}`);
+  };
 
-        let interval;
-        
-        // Función para desplazar el scroll
-        const startScroll = () => {
-            interval = setInterval(() => {
-                // 1. Desplazar: Mueve 280px (el tamaño de la tarjeta + margin)
-                scrollElement.scrollBy({ left: 280, behavior: 'smooth' });
+  return (
+    <section className="py-20 px-4 overflow-hidden min-h-[400px]">
+      <h2 className="text-3xl font-bold mb-8 text-center text-white mx-auto pb-1 w-fit animate-float">
+        Explora por Categoría
+      </h2>
 
-                // 2. Reiniciar (Loop Infinito): Si llega al final, vuelve al inicio sin que se note
-                // La condición es que el scroll llegue al final (scrollWidth - clientWidth)
-                const isNearEnd = scrollElement.scrollLeft + scrollElement.clientWidth >= scrollElement.scrollWidth - 10;
-                
-                if (isNearEnd) {
-                    // Esperamos un momento para que se complete el scroll smooth
-                    setTimeout(() => {
-                        scrollElement.scrollLeft = 0;
-                    }, 500); // Pequeña espera
-                }
-            }, 3000); // 3 segundos de espera entre movimientos
-        };
+      <div className="relative w-full overflow-x-scroll overflow-y-hidden touch-pan-x mask-fade-horizontal">
+        <div className="flex gap-6 px-6 py-6 animate-marquee hover:pause-marquee">
+          {[...CATEGORIES, ...CATEGORIES].map((name, index) => (
+            <div
+  key={`${name}-${index}`}
+  onClick={() => handleCategoryClick(name)}
+  className="
+    relative flex-shrink-0 w-64 h-72 rounded-lg overflow-hidden
+    shadow-[0_10px_30px_rgba(255,255,255,0.1)] snap-center
+    transition-transform duration-300 ease-in-out hover:scale-[1.05] hover:shadow-[0_12px_32px_rgba(255,0,0,0.4)]
+    border border-transparent hover:border-white/30 cursor-pointer
+    bg-black bg-opacity-30 backdrop-blur-sm group
+    flex flex-col items-center justify-center gap-4 px-4
+  "
+  aria-label={`Ver productos en la categoría ${name}`}
+>
+  <img
+    src={`/PP1.png`}
+    alt={name}
+    className="max-w-[160px] max-h-[160px] object-contain transition-transform duration-500 group-hover:scale-105"
+  />
 
-        // Si el usuario no está interactuando, inicia la animación
-        if (!isHovered) {
-            startScroll();
-        }
-
-        // Limpieza: Detener el intervalo cuando el componente se desmonta o el estado cambia
-        return () => clearInterval(interval);
-    }, [isHovered]); // Se ejecuta cada vez que el estado de 'hover' cambia
-
-    return (
-        <section className="py-12 px-4">
-            
-            <h2 className="text-3xl font-bold mb-8 text-center text-white mx-auto pb-1 w-fit">
-                Explora por Categoría
-            </h2>
-            
-            {/* Contenedor del Carrusel */}
-            <div 
-                ref={scrollRef} // Asignamos la referencia al div
-                onMouseEnter={() => setIsHovered(true)} // Pausar al pasar el ratón
-                onMouseLeave={() => setIsHovered(false)} // Reanudar al salir
-                // Añado 'overflow-x-scroll' para asegurar el movimiento en todos los navegadores
-                className="
-                    flex space-x-6 overflow-x-scroll py-4 snap-x snap-mandatory 
-                    // Scrollbars más sutiles (depende de la configuración de Tailwind)
-                    scrollbar-thin scrollbar-thumb-red-600 scrollbar-track-black
-                "
-            >
-                {CATEGORIES.map((category, index) => (
-                    <a 
-                        key={index} // Usamos el índice porque duplicamos elementos
-                        href={`#${category.name.toLowerCase().replace(/\s/g, '-')}`} 
-                        className="
-                            relative flex-shrink-0 w-64 h-72 rounded-lg overflow-hidden shadow-xl snap-center
-                            transition-transform duration-300 ease-in-out hover:scale-[1.05]
-                            border border-transparent hover:border-red-600
-                        "
-                        aria-label={`Ver productos en la categoría ${category.name}`}
-                    >
-                        <img 
-                            // OJO: Esta ruta debe funcionar correctamente si ya tienes las imágenes en public/images/
-                            src={category.image} 
-                            alt={category.name} 
-                className="w-full h-full object-contain rounded-md transition-transform duration-500 hover:scale-105"
-                        />
-                        
-                        <div className="absolute inset-0 transition-opacity duration-300 hover:bg-opacity-20"></div>
-
-                        <div className="absolute bottom-4 left-4 z-10"> {/* 👈 AÑADIMOS Z-10 */}
+  <div className="text-center">
     <h3 className="text-2xl font-extrabold text-white leading-none drop-shadow-lg uppercase">
-        {category.name}
+      {name}
     </h3>
-    <p className="text-sm text-white font-medium text-white">Ver más &rarr;</p>
+    <p className="text-sm text-white font-medium">Ver más &rarr;</p>
+  </div>
 </div>
-                    </a>
-                ))}
-            </div>
-        </section>
-    );
+
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default CategoryScroll;

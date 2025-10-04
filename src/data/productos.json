@@ -1,40 +1,92 @@
-
-
 [
-    {
-      "id": "J001",
-      "nombre": "Vibrador Clásico Velvet",
-      "precio": 35.00,
-      "stock": true,
-      "categoria": "Juguetes",
-      "descripcion": "Acabado de silicona aterciopelada y 10 modos de vibración.",
-      "imagenUrl": "/images/juguete-01.webp" 
-    },
-    {
-      "id": "G002",
-      "nombre": "Gel Lubricante Fresa",
-      "precio": 12.50,
-      "stock": true,
-      "categoria": "Geles",
-      "descripcion": "Sabor dulce, base de agua, compatible con látex.",
-      "imagenUrl": "/images/gel-02.webp"
-    },
-    {
-      "id": "I003",
-      "nombre": "Conjunto Lencería Encaje",
-      "precio": 55.99,
-      "stock": true,
-      "categoria": "Indumentaria",
-      "descripcion": "Conjunto de dos piezas en color negro con detalles en rojo.",
-      "imagenUrl": "/images/lenceria-03.webp"
-    },
-    {
-      "id": "P004",
-      "nombre": "Perfume Feromonas 'Deseo'",
-      "precio": 48.00,
-      "stock": false,
-      "categoria": "Perfumes",
-      "descripcion": "Aroma intenso y duradero con concentrado de feromonas.",
-      "imagenUrl": "/images/perfume-04.webp"
-    }
+  {
+    "id": 1,
+    "nombre": "Gel Íntimo Sensual",
+    "descripcion": "Gel lubricante con aroma a vainilla, ideal para masajes y momentos íntimos.",
+    "precio": 3200,
+    "imagen": "/images/gel-intimo-vainilla.png",
+    "categoria": "Geles y Aceites",
+    "stock": true,
+    "talles": []
+  },
+  {
+    "id": 2,
+    "nombre": "Antifaz de Seda",
+    "descripcion": "Accesorio elegante para juegos sensoriales. Tela suave y elástica.",
+    "precio": 1800,
+    "imagen": "/images/antifaz-seda.png",
+    "categoria": "Accesorios",
+    "stock": true,
+    "talles": ["Único"]
+  },
+  {
+    "id": 3,
+    "nombre": "Dados Eróticos",
+    "descripcion": "Juego de dados con acciones y zonas del cuerpo. Ideal para romper el hielo.",
+    "precio": 1500,
+    "imagen": "/images/dados-eroticos.png",
+    "categoria": "Juegos",
+    "stock": true,
+    "talles": []
+  },
+  {
+    "id": 4,
+    "nombre": "Vibrador Silencioso",
+    "descripcion": "Diseño discreto, potente y silencioso. Recargable vía USB.",
+    "precio": 8900,
+    "imagen": "/images/vibrador-silencioso.png",
+    "categoria": "Juguetes",
+    "stock": true,
+    "talles": []
+  },
+  {
+    "id": 5,
+    "nombre": "Disfraz de Enfermera",
+    "descripcion": "Incluye vestido, gorro y accesorios. Talle único.",
+    "precio": 6200,
+    "imagen": "/images/disfraz-enfermera.png",
+    "categoria": "Disfraces",
+    "stock": true,
+    "talles": ["Único"]
+  },
+  {
+    "id": 6,
+    "nombre": "Body Splash Frambuesa",
+    "descripcion": "Fragancia fresca y dulce para el cuerpo. Ideal para después del baño.",
+    "precio": 2400,
+    "imagen": "/images/body-splash-frambuesa.png",
+    "categoria": "Body Splash",
+    "stock": true,
+    "talles": []
+  },
+  {
+    "id": 7,
+    "nombre": "Perfume Afrodisíaco Nocturno",
+    "descripcion": "Notas intensas de ámbar y sándalo. Estimula los sentidos.",
+    "precio": 5200,
+    "imagen": "/images/perfume-afro-nocturno.png",
+    "categoria": "Perfumes Afro",
+    "stock": false,
+    "talles": []
+  },
+  {
+    "id": 8,
+    "nombre": "Crema Hotmetica Calor",
+    "descripcion": "Activa la circulación y genera sensación de calor. Uso externo.",
+    "precio": 3100,
+    "imagen": "/images/hotmetica-calor.png",
+    "categoria": "Hotmetica",
+    "stock": true,
+    "talles": []
+  },
+  {
+    "id": 9,
+    "nombre": "Conjunto Lencería Bordado",
+    "descripcion": "Incluye corpiño y colaless. Bordado delicado y elástico.",
+    "precio": 7800,
+    "imagen": "/images/lenceria-bordado.png",
+    "categoria": "Indumentaria",
+    "stock": true,
+    "talles": ["S", "M", "L"]
+  }
 ]

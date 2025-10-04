@@ -1,0 +1,38 @@
+[
+  {
+    "id": "d1",
+    "nombre": "Aceite Afrodisíaco",
+    "precio": 1200,
+    "imagenUrl": "/img/aceite.jpg",
+    "stock": true,
+    "talles": [],
+    "descripcion": "Aceite con fragancia estimulante para masajes sensuales."
+  },
+  {
+    "id": "d2",
+    "nombre": "Body Splash Tentación",
+    "precio": 980,
+    "imagenUrl": "/img/splash.jpg",
+    "stock": false,
+    "talles": [],
+    "descripcion": "Aroma fresco y provocador para todo el día."
+  },
+  {
+    "id": "d3",
+    "nombre": "Body Splash Tentación",
+    "precio": 980,
+    "imagenUrl": "/img/splash.jpg",
+    "stock": false,
+    "talles": [],
+    "descripcion": "Aroma fresco y provocador para todo el día."
+  },
+  {
+    "id": "d4",
+    "nombre": "Body Splash Tentación",
+    "precio": 980,
+    "imagenUrl": "/img/splash.jpg",
+    "stock": false,
+    "talles": [],
+    "descripcion": "Aroma fresco y provocador para todo el día."
+  }
+]

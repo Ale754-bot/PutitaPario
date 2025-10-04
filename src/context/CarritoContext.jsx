@@ -38,7 +38,7 @@ export const CarritoProvider = ({ children }) => {
       // 🚨 IMPORTANTE: Reemplaza este número por el de la dueña del local (formato internacional sin +)
       const numeroDuena = "5493412634440"; 
       
-      let mensaje = '*🛒 NUEVO PEDIDO WEB (Tienda Online)*\n';
+      let mensaje = '*🛒 HOLA ! ME GUSTARIA HACER UN PEDIDO*\n';
       // ... (El resto de la generación del mensaje que ya teníamos)
       
       items.forEach(item => {
@@ -50,7 +50,7 @@ export const CarritoProvider = ({ children }) => {
       mensaje += `*TOTAL ESTIMADO: $${calcularTotal().toFixed(2)}*\n\n`;
       // ...
       mensaje += '*Nombre y Apellido:* \n';
-      mensaje += '*Dirección de Entrega:* \n';
+      mensaje += '*Retiro o envío* \n';
       
       const mensajeCodificado = encodeURIComponent(mensaje);
       

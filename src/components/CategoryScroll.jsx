@@ -37,7 +37,7 @@ const CategoryScroll = () => {
     relative flex-shrink-0 w-64 h-72 rounded-lg overflow-hidden
     shadow-[0_10px_30px_rgba(255,255,255,0.1)] snap-center
     transition-transform duration-300 ease-in-out hover:scale-[1.05] hover:shadow-[0_12px_32px_rgba(255,0,0,0.4)]
-    border border-transparent hover:border-white/30 cursor-pointer
+    border border-transparent cursor-pointer
     bg-black bg-opacity-30 backdrop-blur-sm group
     flex flex-col items-center justify-center gap-4 px-4
   "

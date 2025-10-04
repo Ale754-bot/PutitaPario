@@ -1,5 +1,3 @@
-// src/pages/Productos.jsx
-
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
@@ -20,12 +18,11 @@ const groupProductsByCategory = (products) => {
 const Productos = () => {
   const location = useLocation();
   const params = new URLSearchParams(location.search);
-  const categoriaParam = params.get("categoria"); // ej: "geles-y-aceites"
+  const categoriaParam = params.get("categoria");
 
   const groupedProducts = groupProductsByCategory(productos);
   const categories = Object.keys(groupedProducts);
 
-  // Scroll suave al bloque correspondiente
   useEffect(() => {
     if (categoriaParam) {
       const decodedCategoria = decodeURIComponent(categoriaParam).replace(/-/g, ' ');
@@ -38,7 +35,7 @@ const Productos = () => {
         if (target) {
           setTimeout(() => {
             target.scrollIntoView({ behavior: "smooth", block: "start" });
-          }, 300); // Espera breve para asegurar que el DOM esté listo
+          }, 300);
         }
       }
     }
@@ -51,18 +48,14 @@ const Productos = () => {
       </h1>
 
       {categories.map((category) => (
-        <section
-          key={category}
-          id={category}
-          className="mb-16 pt-8"
-        >
+        <section key={category} id={category} className="mb-16 pt-8">
           <h2 className="text-3xl font-bold mb-8 text-texto-claro border-b-2 border-acento inline-block">
             {category}
           </h2>
 
           <div className="
-            grid grid-cols-1 gap-8 
-            sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4
+            grid grid-cols-2 gap-6 
+            md:grid-cols-3 lg:grid-cols-4
           ">
             {groupedProducts[category].map((producto, index) => (
               <ProductCard

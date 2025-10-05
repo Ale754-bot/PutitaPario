@@ -85,63 +85,64 @@ const ProductCard = ({ producto }) => {
 
       {/* Información */}
       <div className="p-4 flex flex-col gap-2">
-        <h3 className="text-xl font-bold h-12 overflow-hidden hover:text-acento transition-colors cursor-pointer">
-          {nombre}
-        </h3>
+        <div className="text-center">
+  <h2 className="text-lg font-semibold text-white">{nombre}</h2>
+  <p className="text-sm text-gray-300 mt-1">{descripcion}</p>
+  <p className="text-lg text-red-700 font-bold mt-2">
+    ${precioFinal}
+  </p>
+</div>
 
-        <p className="text-sm text-gray-400">{descripcion}</p>
-
-        <p className="text-2xl font-extrabold text-acento">
-          ${precioFinal.toFixed(2)}
-        </p>
 
         {/* Selector visual de variantes */}
-        {tieneVariantes && (
-          <div>
-            <label className="block text-sm font-medium text-gray-300 mb-1">
-              Elegí un tamaño:
-            </label>
-            <div className="flex gap-2 flex-wrap">
-              {variantes.map((v, idx) => (
-                <button
-                  key={idx}
-                  onClick={() => setVarianteSeleccionada(v)}
-                  className={`
-                    px-3 py-1 rounded-full border text-sm
-                    ${varianteSeleccionada?.tamaño === v.tamaño ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
-                    hover:bg-red-800 transition-all
-                  `}
-                >
-                  {v.tamaño}
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
+{tieneVariantes && (
+  <div className="text-center mt-4">
+    <label className="block text-sm font-medium text-gray-300 mb-2">
+      Elegí un tamaño:
+    </label>
+    <div className="flex justify-center gap-2 flex-wrap">
+      {variantes.map((v, idx) => (
+        <button
+          key={idx}
+          onClick={() => setVarianteSeleccionada(v)}
+          className={`
+            px-3 py-1 rounded-full border text-sm
+            ${varianteSeleccionada?.tamaño === v.tamaño ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
+            hover:bg-red-800 transition-all
+          `}
+        >
+          {v.tamaño}
+        </button>
+      ))}
+    </div>
+  </div>
+)}
 
-        {/* Selector visual de talles */}
-        {tieneTalles && (
-          <div>
-            <label className="block text-sm font-medium text-gray-300 mb-1">
-              Seleccioná tu talle:
-            </label>
-            <div className="flex gap-2 flex-wrap">
-              {talles.map((talle) => (
-                <button
-                  key={talle}
-                  onClick={() => setTalleSeleccionado(talle)}
-                  className={`
-                    px-3 py-1 rounded-full border text-sm
-                    ${talleSeleccionado === talle ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
-                    hover:bg-red-800 transition-all
-                  `}
-                >
-                  {talle}
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
+{/* Selector visual de talles */}
+{tieneTalles && (
+  <div className="text-center mt-4">
+    <label className="block text-sm font-medium text-gray-300 mb-2">
+      Seleccioná tu talle:
+    </label>
+    <div className="flex justify-center gap-2 flex-wrap">
+      {talles.map((talle) => (
+        <button
+          key={talle}
+          onClick={() => setTalleSeleccionado(talle)}
+          className={`
+            px-3 py-1 rounded-full border text-sm
+            ${talleSeleccionado === talle ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
+            hover:bg-red-800 transition-all
+          `}
+        >
+          {talle}
+        </button>
+      ))}
+    </div>
+  </div>
+)}
+
+        
 
         <button
           onClick={handleAgregar}

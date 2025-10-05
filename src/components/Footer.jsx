@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="bg-black border-t border-acento/50 mt-16 px-6 py-12 text-texto-claro">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+<div className="mx-auto max-w-screen-xl px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
 
         {/* 🏠 Información del negocio */}
         <div>

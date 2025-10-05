@@ -1,5 +1,3 @@
-// src/components/ProductCard.jsx
-
 import React, { useState } from 'react';
 import { useCarrito } from '../context/CarritoContext';
 
@@ -11,31 +9,36 @@ const ProductCard = ({ producto }) => {
     imagen,
     imagenUrl,
     stock,
-    talles
+    talles,
+    variantes
   } = producto;
 
   const [talleSeleccionado, setTalleSeleccionado] = useState("");
+  const [varianteSeleccionada, setVarianteSeleccionada] = useState(null);
   const { agregarItem } = useCarrito();
 
-  const puedeAgregar = stock && (!talles || talles.length === 0 || talleSeleccionado);
+  const tieneTalles = talles && talles.length > 0;
+  const tieneVariantes = variantes && variantes.length > 0;
 
-  const handleAgregar = () => {
-    if (puedeAgregar) {
-      agregarItem({ ...producto, talle: talleSeleccionado }, 1);
-    }
-  };
+  const puedeAgregar =
+    stock &&
+    (
+      (!tieneTalles && !tieneVariantes) ||
+      (tieneTalles && talleSeleccionado) ||
+      (tieneVariantes && varianteSeleccionada)
+    );
 
-  // Imagen final desde imagen o imagenUrl
+  const precioFinal = varianteSeleccionada?.precio ?? precio ?? 0;
   const imagenFinal = imagen || imagenUrl || "/images/placeholder.png";
 
-  // Texto del botón
   const textoBoton = !stock
     ? "Sin stock"
-    : talles && talles.length > 0 && !talleSeleccionado
+    : tieneTalles && !talleSeleccionado
     ? "Seleccioná un talle"
+    : tieneVariantes && !varianteSeleccionada
+    ? "Elegí un tamaño"
     : "Agregar al carrito";
 
-  // Clases visuales del botón
   const clasesBoton = `
     w-full py-3 mt-2 rounded font-bold transition-colors
     ${puedeAgregar
@@ -45,12 +48,26 @@ const ProductCard = ({ producto }) => {
       : "bg-gray-600 text-white cursor-not-allowed"}
   `;
 
+  const handleAgregar = () => {
+    if (!puedeAgregar) return;
+
+    const item = {
+      ...producto,
+      talle: talleSeleccionado || null,
+      variante: varianteSeleccionada?.tamaño || null,
+      precio: precioFinal
+    };
+
+    agregarItem(item, 1);
+  };
+
   return (
     <div className="
-      bg-black text-white rounded-lg overflow-hidden shadow-lg 
+      w-full min-h-[340px] bg-black text-white rounded-xl overflow-hidden shadow-lg 
       transition duration-300 ease-in-out 
       hover:shadow-acento/50 hover:scale-[1.02]
       border border-gray-800 hover:border-acento
+      flex flex-col justify-between
     ">
       {/* Imagen */}
       <div className="relative h-56 overflow-hidden">
@@ -67,39 +84,65 @@ const ProductCard = ({ producto }) => {
       </div>
 
       {/* Información */}
-      <div className="p-4 flex flex-col justify-between">
+      <div className="p-4 flex flex-col gap-2">
         <h3 className="text-xl font-bold h-12 overflow-hidden hover:text-acento transition-colors cursor-pointer">
           {nombre}
         </h3>
 
-        <p className="text-sm text-gray-400 mb-2">{descripcion}</p>
+        <p className="text-sm text-gray-400">{descripcion}</p>
 
-        <p className="text-2xl font-extrabold text-acento mb-4">
-          ${precio.toFixed(2)}
+        <p className="text-2xl font-extrabold text-acento">
+          ${precioFinal.toFixed(2)}
         </p>
 
-        {/* Selector de talles */}
-        {talles && talles.length > 0 && (
-          <div className="mb-4">
+        {/* Selector visual de variantes */}
+        {tieneVariantes && (
+          <div>
             <label className="block text-sm font-medium text-gray-300 mb-1">
-              Seleccioná tu talle:
+              Elegí un tamaño:
             </label>
-            <select
-              value={talleSeleccionado}
-              onChange={(e) => setTalleSeleccionado(e.target.value)}
-              className="w-full border border-gray-700 bg-black text-white rounded px-3 py-2"
-            >
-              <option value="">Elegí un talle</option>
-              {talles.map((talle) => (
-                <option key={talle} value={talle}>
-                  {talle}
-                </option>
+            <div className="flex gap-2 flex-wrap">
+              {variantes.map((v, idx) => (
+                <button
+                  key={idx}
+                  onClick={() => setVarianteSeleccionada(v)}
+                  className={`
+                    px-3 py-1 rounded-full border text-sm
+                    ${varianteSeleccionada?.tamaño === v.tamaño ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
+                    hover:bg-red-800 transition-all
+                  `}
+                >
+                  {v.tamaño}
+                </button>
               ))}
-            </select>
+            </div>
           </div>
         )}
 
-        {/* Botón */}
+        {/* Selector visual de talles */}
+        {tieneTalles && (
+          <div>
+            <label className="block text-sm font-medium text-gray-300 mb-1">
+              Seleccioná tu talle:
+            </label>
+            <div className="flex gap-2 flex-wrap">
+              {talles.map((talle) => (
+                <button
+                  key={talle}
+                  onClick={() => setTalleSeleccionado(talle)}
+                  className={`
+                    px-3 py-1 rounded-full border text-sm
+                    ${talleSeleccionado === talle ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
+                    hover:bg-red-800 transition-all
+                  `}
+                >
+                  {talle}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
         <button
           onClick={handleAgregar}
           disabled={!puedeAgregar}

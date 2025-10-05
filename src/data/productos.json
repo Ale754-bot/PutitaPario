@@ -1,92 +1,299 @@
 [
+  
   {
     "id": 1,
-    "nombre": "Gel Íntimo Sensual",
-    "descripcion": "Gel lubricante con aroma a vainilla, ideal para masajes y momentos íntimos.",
-    "precio": 3200,
-    "imagen": "/images/gel-intimo-vainilla.png",
+    "nombre": "Gel Neutro",
+    "descripcion": "Lubricante neutro sin aroma. Ideal para pieles sensibles.",
+    "imagen": "/images/Geles/neutro.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
-    "talles": []
+    "variantes": [
+      { "tamaño": "80ml", "precio": 2500 },
+      { "tamaño": "200ml", "precio": 4000 }
+    ]
   },
   {
     "id": 2,
-    "nombre": "Antifaz de Seda",
-    "descripcion": "Accesorio elegante para juegos sensoriales. Tela suave y elástica.",
-    "precio": 1800,
-    "imagen": "/images/antifaz-seda.png",
-    "categoria": "Accesorios",
+    "nombre": "Gel Natural Aloe Vera",
+    "descripcion": "Con extracto de aloe vera. Refrescante y suave.",
+    "imagen": "/images/Geles/aloevera.jpg",
+    "categoria": "Geles y Aceites",
     "stock": true,
-    "talles": ["Único"]
+    "variantes": [
+      { "tamaño": "80ml", "precio": null }
+    ]
   },
   {
     "id": 3,
-    "nombre": "Dados Eróticos",
-    "descripcion": "Juego de dados con acciones y zonas del cuerpo. Ideal para romper el hielo.",
-    "precio": 1500,
-    "imagen": "/images/dados-eroticos.png",
-    "categoria": "Juegos",
+    "nombre": "Gel Dulce de Leche",
+    "descripcion": "Lubricante comestible con sabor dulce de leche.",
+    "imagen": "/images/Geles/dulcedeleche.jpg",
+    "categoria": "Geles y Aceites",
     "stock": true,
-    "talles": []
+    "variantes": [
+      { "tamaño": "80ml", "precio": null }
+    ]
   },
   {
     "id": 4,
-    "nombre": "Vibrador Silencioso",
-    "descripcion": "Diseño discreto, potente y silencioso. Recargable vía USB.",
-    "precio": 8900,
-    "imagen": "/images/vibrador-silencioso.png",
-    "categoria": "Juguetes",
+    "nombre": "Gel Frutilla",
+    "descripcion": "Lubricante comestible con sabor a frutilla.",
+    "imagen": "/images/Geles/frutilla.jpg",
+    "categoria": "Geles y Aceites",
     "stock": true,
-    "talles": []
+    "variantes": [
+      { "tamaño": "80ml", "precio": null },
+      { "tamaño": "200ml", "precio": null }
+    ]
   },
   {
     "id": 5,
-    "nombre": "Disfraz de Enfermera",
-    "descripcion": "Incluye vestido, gorro y accesorios. Talle único.",
-    "precio": 6200,
-    "imagen": "/images/disfraz-enfermera.png",
-    "categoria": "Disfraces",
+    "nombre": "Gel Chicle",
+    "descripcion": "Lubricante comestible con sabor a chicle.",
+    "imagen": "/images/Geles/chicle.jpg",
+    "categoria": "Geles y Aceites",
     "stock": true,
-    "talles": ["Único"]
+    "variantes": [
+      { "tamaño": "80ml", "precio": null },
+      { "tamaño": "200ml", "precio": null }
+    ]
   },
   {
     "id": 6,
-    "nombre": "Body Splash Frambuesa",
-    "descripcion": "Fragancia fresca y dulce para el cuerpo. Ideal para después del baño.",
-    "precio": 2400,
-    "imagen": "/images/body-splash-frambuesa.png",
-    "categoria": "Body Splash",
+    "nombre": "Gel Limón",
+    "descripcion": "Lubricante comestible con sabor a limón.",
+    "imagen": "/images/Geles/limon.jpg",
+    "categoria": "Geles y Aceites",
     "stock": true,
-    "talles": []
+    "variantes": [
+      { "tamaño": "80ml", "precio": null }
+    ]
   },
   {
     "id": 7,
-    "nombre": "Perfume Afrodisíaco Nocturno",
-    "descripcion": "Notas intensas de ámbar y sándalo. Estimula los sentidos.",
-    "precio": 5200,
-    "imagen": "/images/perfume-afro-nocturno.png",
-    "categoria": "Perfumes Afro",
-    "stock": false,
-    "talles": []
+    "nombre": "Gel Twerking Rosas Anal",
+    "descripcion": "Especial para sexo anal. Aroma a rosas.",
+    "imagen": "/images/Geles/twerking.jpg",
+    "categoria": "Geles y Aceites",
+    "stock": true,
+    "variantes": [
+      { "tamaño": "80ml", "precio": null },
+      { "tamaño": "200ml", "precio": null }
+    ]
   },
   {
     "id": 8,
-    "nombre": "Crema Hotmetica Calor",
-    "descripcion": "Activa la circulación y genera sensación de calor. Uso externo.",
-    "precio": 3100,
-    "imagen": "/images/hotmetica-calor.png",
-    "categoria": "Hotmetica",
+    "nombre": "Gel Sens Ice",
+    "descripcion": "Sensación de frescura intensa.",
+    "imagen": "/images/Geles/ice.jpg",
+    "categoria": "Geles y Aceites",
     "stock": true,
-    "talles": []
+    "variantes": [
+      { "tamaño": "80ml", "precio": null }
+    ]
   },
   {
     "id": 9,
-    "nombre": "Conjunto Lencería Bordado",
-    "descripcion": "Incluye corpiño y colaless. Bordado delicado y elástico.",
-    "precio": 7800,
-    "imagen": "/images/lenceria-bordado.png",
-    "categoria": "Indumentaria",
+    "nombre": "Gel Sens Fire",
+    "descripcion": "Sensación de calor estimulante.",
+    "imagen": "/images/Geles/fire.jpg",
+    "categoria": "Geles y Aceites",
     "stock": true,
-    "talles": ["S", "M", "L"]
-  }
+    "variantes": [
+      { "tamaño": "80ml", "precio": null }
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "Gel Gold L’arginina Maca y Jengibre",
+    "descripcion": "Estimula la circulación y potencia el deseo.",
+    "imagen": "/images/Geles/gold.jpg",
+    "categoria": "Geles y Aceites",
+    "stock": true,
+    "variantes": [
+      { "tamaño": "80ml", "precio": null }
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "Gel Jade Vitamina C y Colágeno",
+    "descripcion": "Revitaliza la piel y mejora la elasticidad.",
+    "imagen": "/images/Geles/jade.jpg",
+    "categoria": "Geles y Aceites",
+    "stock": true,
+    "variantes": [
+      { "tamaño": "80ml", "precio": null }
+    ]
+  },
+  {
+    "id": 12,
+    "nombre": "Gel Ruby Ácido Hialurónico y Argán",
+    "descripcion": "Hidratación profunda y suavidad extrema.",
+    "imagen": "/images/Geles/ruby.jpg",
+    "categoria": "Geles y Aceites",
+    "stock": true,
+    "variantes": [
+      { "tamaño": "80ml", "precio": null }
+    ]
+  },
+
+{
+  "id": 13,
+  "nombre": "Gel Sedoso",
+  "descripcion": "Lubricante de textura sedosa. Ideal para masajes íntimos.",
+  "imagen": "/images/Geles/sedoso.jpg",
+  "categoria": "Geles y Aceites",
+  "stock": true,
+  "variantes": [
+    { "tamaño": "75ml", "precio": null }
+  ]
+},
+{
+  "id": 14,
+  "nombre": "Gel Dual",
+  "descripcion": "Lubricante de doble acción: hidratante y estimulante.",
+  "imagen": "/images/Geles/dual.jpg",
+  "categoria": "Geles y Aceites",
+  "stock": true,
+  "variantes": [
+    { "tamaño": "75ml", "precio": null }
+  ]
+},
+{
+  "id": 15,
+  "nombre": "Gel Neutro Hipoalergénico",
+  "descripcion": "Lubricante neutro, especialmente formulado para pieles sensibles.",
+  "imagen": "/images/Geles/neutroh.jpg",
+  "categoria": "Geles y Aceites",
+  "stock": true,
+  "variantes": [
+    { "tamaño": "75ml", "precio": null }
+  ]
+},
+{
+  "id": 16,
+  "nombre": "Gel Saborizado Frutos Rojos",
+  "descripcion": "Lubricante comestible con sabor intenso a frutos rojos.",
+  "imagen": "/images/Geles/frutosrojos.jpg",
+  "categoria": "Geles y Aceites",
+  "stock": true,
+  "variantes": [
+    { "tamaño": "75ml", "precio": null }
+  ]
+},
+{
+  "id": 17,
+  "nombre": "Gel Saborizado Efecto Frío",
+  "descripcion": "Lubricante comestible con efecto refrescante y sabor frutal.",
+  "imagen": "/images/Geles/frio.jpg",
+  "categoria": "Geles y Aceites",
+  "stock": true,
+  "variantes": [
+    { "tamaño": "75ml", "precio": null }
+  ]
+},
+{
+  "id": 18,
+  "nombre": "Gel Sedoso Efecto Calor",
+  "descripcion": "Lubricante sedoso con efecto térmico estimulante.",
+  "imagen": "/images/Geles/calor.jpg",
+  "categoria": "Geles y Aceites",
+  "stock": true,
+  "variantes": [
+    { "tamaño": "75ml", "precio": null }
+  ]
+},
+{
+  "id": 19,
+  "nombre": "Crema Lubricante Manzanilla y Malva",
+  "descripcion": "Lubricante suave con extractos naturales de manzanilla y malva. Ideal para pieles delicadas.",
+  "imagen": "/images/Geles/analcrema.jpg",
+  "categoria": "Geles y Aceites",
+  "stock": true,
+  "variantes": [
+    { "tamaño": "75ml", "precio": null }
+  ]
+},
+
+{
+  "id": 20,
+  "nombre": "Antifaz de Seda",
+  "descripcion": "Accesorio elegante para juegos sensoriales. Tela suave y elástica.",
+  "precio": 1800,
+  "imagen": "/images/antifaz-seda.png",
+  "categoria": "Accesorios",
+  "stock": true
+},
+{
+  "id": 21,
+  "nombre": "Dados Eróticos",
+  "descripcion": "Juego de dados con acciones y zonas del cuerpo. Ideal para romper el hielo.",
+  "precio": 1500,
+  "imagen": "/images/dados-eroticos.png",
+  "categoria": "Juegos",
+  "stock": true,
+  "talles": []
+},
+{
+  "id": 22,
+  "nombre": "Vibrador Silencioso",
+  "descripcion": "Diseño discreto, potente y silencioso. Recargable vía USB.",
+  "precio": 8900,
+  "imagen": "/images/vibrador-silencioso.png",
+  "categoria": "Juguetes",
+  "stock": true,
+  "talles": []
+},
+{
+  "id": 23,
+  "nombre": "Disfraz de Enfermera",
+  "descripcion": "Incluye vestido, gorro y accesorios. Talle único.",
+  "precio": 6200,
+  "imagen": "/images/disfraz-enfermera.png",
+  "categoria": "Disfraces",
+  "stock": true,
+  "talles": ["Único"]
+},
+{
+  "id": 24,
+  "nombre": "Body Splash Frambuesa",
+  "descripcion": "Fragancia fresca y dulce para el cuerpo. Ideal para después del baño.",
+  "precio": 2400,
+  "imagen": "/images/body-splash-frambuesa.png",
+  "categoria": "Body Splash",
+  "stock": true,
+  "talles": []
+},
+{
+  "id": 25,
+  "nombre": "Perfume Afrodisíaco Nocturno",
+  "descripcion": "Notas intensas de ámbar y sándalo. Estimula los sentidos.",
+  "precio": 5200,
+  "imagen": "/images/perfume-afro-nocturno.png",
+  "categoria": "Perfumes Afro",
+  "stock": false,
+  "talles": []
+},
+{
+  "id": 26,
+  "nombre": "Crema Hotmetica Calor",
+  "descripcion": "Activa la circulación y genera sensación de calor. Uso externo.",
+  "precio": 3100,
+  "imagen": "/images/hotmetica-calor.png",
+  "categoria": "Hotmetica",
+  "stock": true,
+  "talles": []
+},
+{
+  "id": 27,
+  "nombre": "Conjunto Lencería Bordado",
+  "descripcion": "Incluye corpiño y colaless. Bordado delicado y elástico.",
+  "precio": 7800,
+  "imagen": "/images/lenceria-bordado.png",
+  "categoria": "Indumentaria",
+  "stock": true,
+  "talles": ["S", "M", "L"]
+}
+
+
 ]

@@ -42,14 +42,16 @@ const Hero = () => {
                 "
             />
 
-            {/* 🧠 Contenido central (opcional) */}
+            {/* 🧠 Contenido central con amplitud editorial */}
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 2.2, duration: 0.8, ease: "easeOut" }}
-                className="text-center z-10 p-4"
+                className="z-10 w-full"
             >
-                {/* Podés agregar aquí una frase flotante o botón */}
+                <div className="mx-auto max-w-screen-xl px-4 text-center">
+                    {/* Podés agregar aquí una frase flotante o botón */}
+                </div>
             </motion.div>
         </section>
     );

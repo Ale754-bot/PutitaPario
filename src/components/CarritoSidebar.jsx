@@ -49,7 +49,7 @@ const CarritoSidebar = ({ isOpen, closeCart }) => {
             
             {/* Sidebar principal */}
             <div className={sidebarClasses}>
-                <div className="flex justify-between items-center pb-4 border-b border-gray-800">
+                <div className="mx-auto max-w-md px-2 flex justify-between items-center pb-4 border-b border-gray-800">
                     <h2 className="text-2xl font-bold text-red-600">Tu Pedido ({items.length})</h2>
                     <button 
                         onClick={closeCart} 

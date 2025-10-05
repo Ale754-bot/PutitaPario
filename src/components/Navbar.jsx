@@ -13,8 +13,8 @@ const Navbar = ({ openCart }) => {
 
     return (
         <nav className="fixed top-0 left-0 right-0 bg-black shadow-lg z-30 border-b border-red-600/50">
-            <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-                
+            <div className="mx-auto max-w-screen-xl px-4 py-3 flex justify-between items-center">
+
             {/* 1. Logo - Grupo Izquierdo (Mantiene el logo a la izquierda) */}
             <Link to="/" className="flex items-center hover:opacity-80 transition-opacity flex-shrink-0">
                 <img 

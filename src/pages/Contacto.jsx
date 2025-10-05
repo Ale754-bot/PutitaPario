@@ -12,7 +12,7 @@ const fadeUp = {
 
 const Contacto = () => {
   return (
-    <main className="container mx-auto px-6 py-20 text-center min-h-[70vh]">
+<main className="mx-auto max-w-screen-xl px-4 py-20 text-center min-h-[70vh]">
       <motion.h1
         custom={0}
         variants={fadeUp}

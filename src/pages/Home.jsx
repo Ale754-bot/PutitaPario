@@ -12,7 +12,7 @@ const Home = () => {
     <>
       <Hero />
 
-      <main className="container mx-auto p-4 py-8">
+<main className="mx-auto max-w-screen-xl px-4 py-8">
         <CategoryScroll />
 
         {/* SECCIÓN DE PRODUCTOS DESTACADOS */}

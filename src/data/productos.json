@@ -2,12 +2,13 @@
   
   {
     "id": 1,
-    "nombre": "Gel Neutro",
-    "descripcion": "Lubricante neutro sin aroma. Ideal para pieles sensibles.",
+    "nombre": "Gel Lubricante - Neutro",
+    "descripcion": "Gel lubricante de base acuosa, hidrosoluble, no mancha, no deja residuos.Con alto poder de lubricación. Luego del uso deja tu piel humectada y sedosa.",
     "imagen": "/images/Geles/neutro.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
     "marca": "Sextual",
+    "linea": "Natural", 
     "variantes": [
       { "tamaño": "80ml", "precio": 2500 },
       { "tamaño": "200ml", "precio": 4000 }
@@ -15,36 +16,39 @@
   },
   {
     "id": 2,
-    "nombre": "Gel Natural Aloe Vera",
-    "descripcion": "Con extracto de aloe vera. Refrescante y suave.",
+    "nombre": "Gel Lubricante - Aloe Vera",
+    "descripcion": "Con las propiedades exclusivas del Aloe Vera (analgésica, antiinflamatoria, antiséptica, bactericida, cicatrizante, desintoxicante, hidratante, inhibidora del dolor, regeneradora celular).",
     "imagen": "/images/Geles/aloevera.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
     "marca": "Sextual",
+    "linea": "Natural",
     "variantes": [
       { "tamaño": "80ml", "precio": null }
     ]
   },
   {
     "id": 3,
-    "nombre": "Gel Dulce de Leche",
-    "descripcion": "Lubricante comestible con sabor dulce de leche.",
+    "nombre": "Gel Lubricante - Dulce de Leche",
+    "descripcion": "Irresistible aroma y sabor. TENTATE. Gel lubricante de base acuosa, hidrosoluble. Con alto poder de lubricación. Explora tus más osadas fantasías.",
     "imagen": "/images/Geles/dulcedeleche.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
     "marca": "Sextual",
+    "linea": "Sens",
     "variantes": [
       { "tamaño": "80ml", "precio": null }
     ]
   },
   {
     "id": 4,
-    "nombre": "Gel Frutilla",
-    "descripcion": "Lubricante comestible con sabor a frutilla.",
+    "nombre": "Gel Lubricante - Frutilla",
+    "descripcion": "Gel lubricante de base acuosa, hidrosoluble. Con alto poder de lubricación.Explora tus más osadas fantasías. ¡Degusta! ¡Proba! ¡Juga!",
     "imagen": "/images/Geles/frutilla.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
     "marca": "Sextual",
+    "linea": "Sens",
     "variantes": [
       { "tamaño": "80ml", "precio": null },
       { "tamaño": "200ml", "precio": null }
@@ -52,12 +56,13 @@
   },
   {
     "id": 5,
-    "nombre": "Gel Chicle",
-    "descripcion": "Lubricante comestible con sabor a chicle.",
+    "nombre": "Gel Lubricante - Chicle",
+    "descripcion": "Explora tus más osadas fantasías. ¡Degusta! ¡Proba! ¡Juga! Gel lubricante de base acuosa, hidrosoluble. Con alto poder de lubricación. Luego del uso deja la zona humectada y sedosa. No mancha y no deja residuos.",
     "imagen": "/images/Geles/chicle.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
     "marca": "Sextual",
+    "linea": "Sens",
     "variantes": [
       { "tamaño": "80ml", "precio": null },
       { "tamaño": "200ml", "precio": null }
@@ -65,24 +70,26 @@
   },
   {
     "id": 6,
-    "nombre": "Gel Limón",
-    "descripcion": "Lubricante comestible con sabor a limón.",
+    "nombre": "Gel Lubricante - Limón",
+    "descripcion": "Irresistible aroma y sabor. TENTATE. Gel lubricante de base acuosa, hidrosoluble. Con alto poder de lubricación. Explora tus más osadas fantasías.",
     "imagen": "/images/Geles/limon.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
     "marca": "Sextual",
+    "linea": "Sens",
     "variantes": [
       { "tamaño": "80ml", "precio": null }
     ]
   },
   {
     "id": 7,
-    "nombre": "Gel Twerking Rosas Anal",
-    "descripcion": "Especial para sexo anal. Aroma a rosas.",
+    "nombre": "Gel Lubricante - Rosas Anal",
+    "descripcion": "Color Violeta y con un exquisito aroma a rosas relajante. Gel lubricante de base acuosa, hidrosoluble, no mancha, no deja residuos. Con mayor poder de lubricación de larga duración, para que en el juego anal disfrutes más placenteramente.",
     "imagen": "/images/Geles/twerking.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
     "marca": "Sextual",
+    "linea": "Twerking",
     "variantes": [
       { "tamaño": "80ml", "precio": null },
       { "tamaño": "200ml", "precio": null }
@@ -90,60 +97,65 @@
   },
   {
     "id": 8,
-    "nombre": "Gel Sens Ice",
-    "descripcion": "Sensación de frescura intensa.",
+    "nombre": "Gel Lubricante - Ice",
+    "descripcion": "Opaco. Sin aroma. Sin sabor. Color Blanco. Para los amantes de la baja temperatura, de las fuertes sensaciones y emociones, Sextual Gel Intimo Ice, te erizará la piel y algo más.",
     "imagen": "/images/Geles/ice.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
     "marca": "Sextual",
+    "linea": "Sens",
     "variantes": [
       { "tamaño": "80ml", "precio": null }
     ]
   },
   {
     "id": 9,
-    "nombre": "Gel Sens Fire",
-    "descripcion": "Sensación de calor estimulante.",
+    "nombre": "Gel Lubricante - Fire",
+    "descripcion": "Traslucido. Sin aroma. Sin sabor. Color Fuego. Sumale una leve sensación de calor a tu rutina íntima, sin polarizar en los extremos, Sextual Gel Intimo Fire brinda la dosis justa de temperatura que buscas para ese momento placentero.",
     "imagen": "/images/Geles/fire.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
     "marca": "Sextual",
+    "linea": "Sens",
     "variantes": [
       { "tamaño": "80ml", "precio": null }
     ]
   },
   {
     "id": 10,
-    "nombre": "Gel Gold L’arginina Maca y Jengibre",
-    "descripcion": "Estimula la circulación y potencia el deseo.",
+    "nombre": "Gel Lubricante - Gold Estimulante",
+    "descripcion": "Sextual Gold potencia tu energía y sensibilidad íntima con maca, jengibre y L-arginina. Estimula la circulación, mejora el rendimiento y prolonga el placer con una fórmula diseñada para orgasmos más intensos y duraderos.",
     "imagen": "/images/Geles/gold.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
     "marca": "Sextual",
+    "linea": "Fancy",
     "variantes": [
       { "tamaño": "80ml", "precio": null }
     ]
   },
   {
     "id": 11,
-    "nombre": "Gel Jade Vitamina C y Colágeno",
-    "descripcion": "Revitaliza la piel y mejora la elasticidad.",
+    "nombre": "Gel Lubricante - Jade Reparador",
+    "descripcion": "Jade embellece, nutre y cuida tu piel en cada momento íntimo. Su fórmula con colágeno y vitamina C potencia el flujo, mejora la textura y realza tu belleza natural.",
     "imagen": "/images/Geles/jade.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
     "marca": "Sextual",
+    "linea": "Fancy",
     "variantes": [
       { "tamaño": "80ml", "precio": null }
     ]
   },
   {
     "id": 12,
-    "nombre": "Gel Ruby Ácido Hialurónico y Argán",
-    "descripcion": "Hidratación profunda y suavidad extrema.",
+    "nombre": "Gel Lubricante - Ruby Antiage",
+    "descripcion": "Sextual combina ácido hialurónico y argán para cuidar tu intimidad con elasticidad, placer y belleza. Mejora la sensibilidad, potencia el disfrute y retarda el envejecimiento.",
     "imagen": "/images/Geles/ruby.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
     "marca": "Sextual",
+    "linea": "Fancy",
     "variantes": [
       { "tamaño": "80ml", "precio": null }
     ]
@@ -151,8 +163,8 @@
 
 {
   "id": 13,
-  "nombre": "Gel Sedoso",
-  "descripcion": "Lubricante de textura sedosa. Ideal para masajes íntimos.",
+  "nombre": "Gel Lubricante - Sedoso",
+  "descripcion": "Wow real. 75ml limpios, sin TACC ni sulfatos. Compatible con preservativos. L-arginina + ginseng: dupla imparable.",
   "imagen": "/images/Geles/sedoso.jpg",
   "categoria": "Geles y Aceites",
   "stock": true,
@@ -163,8 +175,8 @@
 },
 {
   "id": 14,
-  "nombre": "Gel Dual",
-  "descripcion": "Lubricante de doble acción: hidratante y estimulante.",
+  "nombre": "Gel Lubricante - Dual",
+  "descripcion": "Lubricante sin TACC, ideal para zonas anales y donde quieras. 75ml prácticos, sin sulfatos ni parabenos. No irrita, compatible con preservativos. El efecto… lo descubrís vos.",
   "imagen": "/images/Geles/dual.jpg",
   "categoria": "Geles y Aceites",
   "stock": true,
@@ -175,8 +187,8 @@
 },
 {
   "id": 15,
-  "nombre": "Gel Neutro Hipoalergénico",
-  "descripcion": "Lubricante neutro, especialmente formulado para pieles sensibles.",
+  "nombre": "Gel Lubricante - Neutro Hipoalergénico",
+  "descripcion": "Lubricante humectante e hidratante, base acuosa sin TACC. 75ml prácticos, hipoalergénico, sin sulfatos ni parabenos. Compatible con preservativos.",
   "imagen": "/images/Geles/neutroh.jpg",
   "categoria": "Geles y Aceites",
   "stock": true,
@@ -187,8 +199,8 @@
 },
 {
   "id": 16,
-  "nombre": "Gel Saborizado Frutos Rojos",
-  "descripcion": "Lubricante comestible con sabor intenso a frutos rojos.",
+  "nombre": "Gel Lubricante - Saborizado Frutos Rojos",
+  "descripcion": "Lubricante sabor frutos rojos, comestible y sin TACC. 75ml prácticos, sin sulfatos ni parabenos. Compatible con preservativos.",
   "imagen": "/images/Geles/frutosrojos.jpg",
   "categoria": "Geles y Aceites",
   "stock": true,
@@ -199,8 +211,8 @@
 },
 {
   "id": 17,
-  "nombre": "Gel Saborizado Efecto Frío",
-  "descripcion": "Lubricante comestible con efecto refrescante y sabor frutal.",
+  "nombre": "Gel Lubricante - Saborizado Efecto Frío",
+  "descripcion": "Lubricante efecto frío, sabor menta y chocolate. Base acuosa sin TACC, 75ml prácticos. Compatible con preservativos, sin sulfatos ni parabenos.",
   "imagen": "/images/Geles/frio.jpg",
   "categoria": "Geles y Aceites",
   "stock": true,
@@ -211,8 +223,8 @@
 },
 {
   "id": 18,
-  "nombre": "Gel Sedoso Efecto Calor",
-  "descripcion": "Lubricante sedoso con efecto térmico estimulante.",
+  "nombre": "Gel Lubricante - Sedoso Efecto Calor",
+  "descripcion": "Calor real, textura suave. 75ml sin TACC, sin sulfatos. Compatible con preservativos. Con maca, esa hierba que transforma.",
   "imagen": "/images/Geles/calor.jpg",
   "categoria": "Geles y Aceites",
   "stock": true,
@@ -223,8 +235,8 @@
 },
 {
   "id": 19,
-  "nombre": "Crema Lubricante Manzanilla y Malva",
-  "descripcion": "Lubricante suave con extractos naturales de manzanilla y malva. Ideal para pieles delicadas.",
+  "nombre": "Crema Lubricante - Manzanilla y Malva",
+  "descripcion": "Ideal para zonas anales… y donde quieras. 75ml sin sulfatos ni parabenos, con manzanilla y malva. Compatible con preservativos. El efecto “mmmm”… lo sentís.",
   "imagen": "/images/Geles/analcrema.jpg",
   "categoria": "Geles y Aceites",
   "stock": true,
@@ -233,9 +245,330 @@
     { "tamaño": "75ml", "precio": null }
   ]
 },
-
 {
   "id": 20,
+  "nombre": "Gel lubricante - Naturals Aloe Vera",
+  "descripcion": "Una fórmula pura y natural de Sexitive. Es ultra hidratante, dejándote sedosa y suave, incluso bajo el agua.",
+  "imagen": "/images/Geles/s-aloevera.jpg",
+  "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Wet",
+  "variantes": [
+    { "tamaño": "75ml", "precio": null }
+  ]
+},
+{
+  "id": 21,
+  "nombre": "Gel lubricante - Anal",
+  "descripcion": "Ideal para amantes audaces que gustan de explorar nuevas esperiencias! Diseñado para dar una lubricación de larga duración.",
+  "imagen": "/images/Geles/s-anal.jpg",
+  "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Wet",
+  "variantes": [
+    { "tamaño": "75ml", "precio": null }
+  ]
+},
+{
+  "id": 22,
+  "nombre": "Gel lubricante - Efecto Calor",
+  "descripcion": "Es un gel lubricante con L-Arginina, un aminoácido de origen natural con capacidad vasodilatadora, especialmente formulado para aumentar la excitación y sensibilidad del clítoris facilitando orgasmos más intensos más rápido.",
+  "imagen": "/images/Geles/s-calor.jpg",
+  "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Wet",
+  "variantes": [
+    { "tamaño": "75ml", "precio": null }
+  ]
+},
+{
+  "id": 23,
+  "nombre": "Gel lubricante - Ice Fresh",
+  "descripcion": "Es un gel retardante de rápida acción que permite controlar las erecciones retrasando el momento de la eyaculación. Genera un efecto agradablemente refrescante tanto en el hombre como en la mujer.",
+  "imagen": "/images/Geles/s-frio.jpg",
+  "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Wet",
+  "variantes": [
+    { "tamaño": "75ml", "precio": null }
+  ]
+},
+{
+  "id": 24,
+  "nombre": "Gel lubricante - Neutro",
+  "descripcion": "Experimenta emocionantes momentos con nuestro gel íntimo neutro, diseñado con una formula suave, de larga duración. Formulado con agua pura, sin sabor y libre de fragancia, que no irritará sus puntos más sensibles.",
+  "imagen": "/images/Geles/s-neutro.jpg",
+  "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Wet",
+  "variantes": [
+    { "tamaño": "75ml", "precio": null }
+  ]
+},
+{
+  "id": 25,
+  "nombre": "Gel lubricante - Like a Virgin",
+  "descripcion": "Disfrutá con el efecto Tightening de este original gel que combina las propiedades astringentes de la Hammamelis Virginiana y el poder ultradelizante y rejuvenecedor del Ácido Hialurónico.",
+  "imagen": "/images/Geles/s-virgin.jpg",
+  "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Wet",
+  "variantes": [
+    { "tamaño": "75ml", "precio": null }
+  ]
+},
+{
+  "id": 26,
+  "nombre": "Gel lubricante - Desire Coconut Anal",
+  "descripcion": "Diseñado para dar una lubricación de larga duración. Con un aroma a Coco exquisito que se adapta perfectamente a tu personalidad. Sedoso con base Acuosa. Ultra Deslizante",
+  "imagen": "/images/Geles/s-desire.jpg",
+  "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+  "variantes": [
+    { "tamaño": "75ml", "precio": null }
+  ]
+},
+{
+  "id": 27,
+  "nombre": "Gel lubricante - Sweet Femme",
+  "descripcion": "Disfrutá al máximo tus momentos más sensuales con nuestro lubricante a base de agua que es suave y sedoso, de larga duración y que fue diseñado exclusivamente para la mujer.",
+  "imagen": "/images/Geles/s-sweet.jpg",
+  "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+  "variantes": [
+    { "tamaño": "75ml", "precio": null }
+  ]
+},
+{
+  "id": 28,
+  "nombre": "Gel lubricante - Anal Premium Relaxing",
+  "descripcion": "Confort premium con efecto relajante. Enriquecido con jojoba y manzanilla para una experiencia suave, hidratante y placentera.",
+  "imagen": "/images/Geles/lube-2.jpg",
+  "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Lübe",
+  "variantes": [
+    { "tamaño": "130ml", "precio": null }
+  ]
+},
+{
+  "id": 29,
+  "nombre": "Gel lubricante - Anal Intensity Hot Pleasure",
+  "descripcion": "Lubricación óptima con efecto caliente. Intensifica la sensibilidad y potencia cada movimiento para una experiencia intensa y placentera.",
+  "imagen": "/images/Geles/lube-1.jpg",
+  "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+   "linea": "Lübe",
+  "variantes": [
+    { "tamaño": "130ml", "precio": null }
+  ]
+},
+{
+  "id": 30,
+  "nombre": "Gel lubricante - Supreme Retardante",
+  "descripcion": "Lubricante con efecto frío y acción retardante. Prolonga el placer y potencia la estimulación para una experiencia más duradera.",
+  "imagen": "/images/Geles/lube-3.jpg",
+  "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+   "linea": "Lübe",
+  "variantes": [
+    { "tamaño": "130ml", "precio": null }
+  ]
+},
+{
+  "id": 31,
+  "nombre": "Gel Íntimo Masculino",
+  "descripcion": "Gel Intimo Masculino For Him Formulado con principios activos estimulantes, que potencian el rendimiento e incrementan la firmeza",
+  "imagen": "/images/Geles/lube-4.jpg",
+  "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "For Him",
+  "variantes": [
+    { "tamaño": "130ml", "precio": null }
+  ]
+},
+{ 
+  "id": 32,
+  "nombre": "Aceite Comestible - Chocolate",
+  "descripcion": "Disfruta de un toque dulce y emocionante con Love Potion Chocolate, un aceite comestible con leve efecto calor que hace tus besos íntimos aún más sensuales. Encontralo en sus dos versiones.",
+  "imagen": "/images/Geles/a-chocolate.jpg",
+   "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Love Potion",
+  "variantes": [
+    {
+      "tamaño": "30ml",
+      "precio": 7000,
+      "imagen": "/images/Geles/a-chocolate.jpg"
+    },
+    {
+      "tamaño": "15ml",
+      "precio": 5000,
+      "imagen": "/images/Geles/a-chocolate2.jpg"
+    }
+  ]
+},
+{ 
+  "id": 33,
+  "nombre": "Aceite Comestible - Banana",
+  "descripcion": "Disfruta de un toque dulce y emocionante con Love Potion Banana, un aceite comestible con leve efecto calor que hace tus besos íntimos aún más sensuales. Encontralo en sus dos versiones.",
+  "imagen": "/images/Geles/a-banana.jpg",
+   "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Love Potion",
+  "variantes": [
+    {
+      "tamaño": "30ml",
+      "precio": 7000,
+      "imagen": "/images/Geles/a-banana.jpg"
+    },
+    {
+      "tamaño": "15ml",
+      "precio": 5000,
+      "imagen": "/images/Geles/a-banana2.jpg"
+    }
+  ]
+},
+{ 
+  "id": 34,
+  "nombre": "Aceite Comestible - Champagne",
+  "descripcion": "Disfruta de un toque dulce y emocionante con Love Potion Champagne, un aceite comestible con leve efecto calor que hace tus besos íntimos aún más sensuales. Encontralo en sus dos versiones.",
+  "imagen": "/images/Geles/a-champagne.jpg",
+   "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Love Potion",
+  "variantes": [
+    {
+      "tamaño": "30ml",
+      "precio": 7000,
+      "imagen": "/images/Geles/a-champagne.jpg"
+    },
+    {
+      "tamaño": "15ml",
+      "precio": 5000,
+      "imagen": "/images/Geles/a-champagne2.jpg"
+    }
+  ]
+},
+{ 
+  "id": 35,
+  "nombre": "Aceite Comestible - Dulce de Leche",
+  "descripcion": "Disfruta de un toque dulce y emocionante con Love Potion Dulce de Leche, un aceite comestible con leve efecto calor que hace tus besos íntimos aún más sensuales. Encontralo en sus dos versiones.",
+  "imagen": "/images/Geles/a-dulcedeleche.jpg",
+   "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Love Potion",
+  "variantes": [
+    {
+      "tamaño": "30ml",
+      "precio": 7000,
+      "imagen": "/images/Geles/a-dulcedeleche.jpg"
+    },
+    {
+      "tamaño": "15ml",
+      "precio": 5000,
+      "imagen": "/images/Geles/a-dulcedeleche2.jpg"
+    }
+  ]
+},
+{ 
+  "id": 36,
+  "nombre": "Aceite Comestible - Frutilla",
+  "descripcion": "Disfruta de un toque dulce y emocionante con Love Potion Frutilla, un aceite comestible con leve efecto calor que hace tus besos íntimos aún más sensuales. Encontralo en sus dos versiones.",
+  "imagen": "/images/Geles/a-frutilla.jpg",
+   "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Love Potion",
+  "variantes": [
+    {
+      "tamaño": "30ml",
+      "precio": 7000,
+      "imagen": "/images/Geles/a-frutilla.jpg"
+    },
+    {
+      "tamaño": "15ml",
+      "precio": 5000,
+      "imagen": "/images/Geles/a-frutilla2.jpg"
+    }
+  ]
+},
+{ 
+  "id": 37,
+  "nombre": "Aceite Comestible - Frutos Rojos",
+  "descripcion": "Disfruta de un toque dulce y emocionante con Love Potion Frutos Rojos, un aceite comestible con leve efecto calor que hace tus besos íntimos aún más sensuales. Encontralo en sus dos versiones.",
+  "imagen": "/images/Geles/a-frutos.jpg",
+   "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Love Potion",
+  "variantes": [
+    {
+      "tamaño": "30ml",
+      "precio": 7000,
+      "imagen": "/images/Geles/a-frutos.jpg"
+    },
+    {
+      "tamaño": "15ml",
+      "precio": 5000,
+      "imagen": "/images/Geles/a-frutos2.jpg"
+    }
+  ]
+},
+{ 
+  "id": 38,
+  "nombre": "Aceite Comestible - Menta",
+  "descripcion": "Disfruta de un toque dulce y emocionante con Love Potion Menta, un aceite comestible con leve efecto calor que hace tus besos íntimos aún más sensuales. Encontralo en sus dos versiones.",
+  "imagen": "/images/Geles/a-menta.jpg",
+   "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Love Potion",
+  "variantes": [
+    {
+      "tamaño": "30ml",
+      "precio": 7000,
+      "imagen": "/images/Geles/a-menta.jpg"
+    },
+    {
+      "tamaño": "15ml",
+      "precio": 5000,
+      "imagen": "/images/Geles/a-menta2.jpg"
+    }
+  ]
+},
+{ 
+  "id": 39,
+  "nombre": "Aceite Comestible - Algodón de Azúcar",
+  "descripcion": "Disfruta de un toque dulce y emocionante con Love Potion Frutos Rojos, un aceite comestible con leve efecto calor que hace tus besos íntimos aún más sensuales. Encontralo en sus dos versiones.",
+  "imagen": "/images/Geles/a-algodon2.jpg",
+   "categoria": "Geles y Aceites",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Love Potion",
+  "variantes": [
+    {
+      "tamaño": "15ml", "precio": null}
+  ]
+},
+{
+  
   "nombre": "Antifaz de Seda",
   "descripcion": "Accesorio elegante para juegos sensoriales. Tela suave y elástica.",
   "precio": 1800,
@@ -244,7 +577,7 @@
   "stock": true
 },
 {
-  "id": 21,
+  
   "nombre": "Dados Eróticos",
   "descripcion": "Juego de dados con acciones y zonas del cuerpo. Ideal para romper el hielo.",
   "precio": 1500,
@@ -254,7 +587,7 @@
   "talles": []
 },
 {
-  "id": 22,
+  
   "nombre": "Vibrador Silencioso",
   "descripcion": "Diseño discreto, potente y silencioso. Recargable vía USB.",
   "precio": 8900,
@@ -264,7 +597,7 @@
   "talles": []
 },
 {
-  "id": 23,
+ 
   "nombre": "Disfraz de Enfermera",
   "descripcion": "Incluye vestido, gorro y accesorios. Talle único.",
   "precio": 6200,
@@ -274,7 +607,7 @@
   "talles": ["Único"]
 },
 {
-  "id": 24,
+  
   "nombre": "Body Splash Frambuesa",
   "descripcion": "Fragancia fresca y dulce para el cuerpo. Ideal para después del baño.",
   "precio": 2400,
@@ -284,7 +617,7 @@
   "talles": []
 },
 {
-  "id": 25,
+  
   "nombre": "Perfume Afrodisíaco Nocturno",
   "descripcion": "Notas intensas de ámbar y sándalo. Estimula los sentidos.",
   "precio": 5200,
@@ -294,7 +627,7 @@
   "talles": []
 },
 {
-  "id": 26,
+  
   "nombre": "Crema Hotmetica Calor",
   "descripcion": "Activa la circulación y genera sensación de calor. Uso externo.",
   "precio": 3100,
@@ -304,7 +637,7 @@
   "talles": []
 },
 {
-  "id": 27,
+  
   "nombre": "Conjunto Lencería Bordado",
   "descripcion": "Incluye corpiño y colaless. Bordado delicado y elástico.",
   "precio": 7800,

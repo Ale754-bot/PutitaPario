@@ -31,7 +31,7 @@ const ProductCard = ({ producto }) => {
     );
 
   const precioFinal = varianteSeleccionada?.precio ?? precio ?? 0;
-  const imagenFinal = imagen || imagenUrl || "/images/placeholder.png";
+  const imagenFinal = varianteSeleccionada?.imagen || imagen || imagenUrl || "/images/placeholder.png";
 
   const textoBoton = !stock
     ? "Sin stock"
@@ -65,13 +65,14 @@ const ProductCard = ({ producto }) => {
 
   const etiquetaMarca = marca && linea ? `${marca} · ${linea}` : marca || "";
 
+
   return (
     <div className="
-      w-full min-h-[340px] bg-black text-white rounded-xl overflow-hidden shadow-lg 
+      w-full min-h-[500px] bg-black text-white rounded-xl overflow-hidden shadow-lg 
       transition duration-300 ease-in-out 
       hover:shadow-acento/50 hover:scale-[1.02]
       border border-gray-800 hover:border-acento
-      flex flex-col justify-between
+      flex flex-col
     ">
       {/* Imagen */}
       <div className="relative h-56 overflow-hidden">
@@ -81,7 +82,6 @@ const ProductCard = ({ producto }) => {
           className="w-full h-full object-cover transition duration-500 hover:scale-110"
         />
 
-        {/* Etiqueta de marca/línea */}
         {etiquetaMarca && (
           <span className="absolute top-2 left-2 bg-black text-white text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wide shadow-md z-10">
             {etiquetaMarca}
@@ -95,71 +95,77 @@ const ProductCard = ({ producto }) => {
         )}
       </div>
 
-      {/* Información */}
-      <div className="p-4 flex flex-col gap-2">
-        <div className="text-center">
+      {/* Contenido */}
+      <div className="p-4 flex flex-col flex-grow">
+        {/* Bloque descriptivo */}
+        <div className="flex flex-col gap-2 text-center flex-grow">
           <h2 className="text-lg font-semibold text-white">{nombre}</h2>
-          <p className="text-sm text-gray-300 mt-1">{descripcion}</p>
-          <p className="text-lg text-red-700 font-bold mt-2">
-            ${precioFinal}
-          </p>
+          <p className="text-sm text-gray-300">{descripcion}</p>
         </div>
 
-        {/* Selector visual de variantes */}
-        {tieneVariantes && (
-          <div className="text-center mt-4">
-            <label className="block text-sm font-medium text-gray-300 mb-2">
-              Elegí un tamaño:
-            </label>
-            <div className="flex justify-center gap-2 flex-wrap">
-              {variantes.map((v, idx) => (
-                <button
-                  key={idx}
-                  onClick={() => setVarianteSeleccionada(v)}
-                  className={`
-                    px-3 py-1 rounded-full border text-sm
-                    ${varianteSeleccionada?.tamaño === v.tamaño ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
-                    hover:bg-red-800 transition-all
-                  `}
-                >
-                  {v.tamaño}
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
+        {/* Bloque de interacción */}
+        <div className="mt-4 flex flex-col items-center min-h-[120px] justify-start">
+          <p className="text-lg text-red-700 font-bold mb-2">
+            ${precioFinal}
+          </p>
 
-        {/* Selector visual de talles */}
-        {tieneTalles && (
-          <div className="text-center mt-4">
-            <label className="block text-sm font-medium text-gray-300 mb-2">
-              Seleccioná tu talle:
-            </label>
-            <div className="flex justify-center gap-2 flex-wrap">
-              {talles.map((talle) => (
-                <button
-                  key={talle}
-                  onClick={() => setTalleSeleccionado(talle)}
-                  className={`
-                    px-3 py-1 rounded-full border text-sm
-                    ${talleSeleccionado === talle ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
-                    hover:bg-red-800 transition-all
-                  `}
-                >
-                  {talle}
-                </button>
-              ))}
+          {tieneVariantes && (
+            <div className="text-center">
+              <label className="block text-sm font-medium text-gray-300 mb-2">
+                Elegí un tamaño:
+              </label>
+              <div className="flex justify-center gap-2 flex-wrap">
+                {variantes.map((v, idx) => (
+                  <button
+                    key={idx}
+                    onClick={() => setVarianteSeleccionada(v)}
+                    className={`
+                      px-3 py-1 rounded-full border text-sm
+                      ${varianteSeleccionada?.tamaño === v.tamaño ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
+                      hover:bg-red-800 transition-all
+                    `}
+                  >
+                    {v.tamaño}
+                  </button>
+                ))}
+              </div>
             </div>
-          </div>
-        )}
+          )}
 
-        <button
-          onClick={handleAgregar}
-          disabled={!puedeAgregar}
-          className={clasesBoton}
-        >
-          {textoBoton}
-        </button>
+          {tieneTalles && (
+            <div className="text-center mt-2">
+              <label className="block text-sm font-medium text-gray-300 mb-2">
+                Seleccioná tu talle:
+              </label>
+              <div className="flex justify-center gap-2 flex-wrap">
+                {talles.map((talle) => (
+                  <button
+                    key={talle}
+                    onClick={() => setTalleSeleccionado(talle)}
+                    className={`
+                      px-3 py-1 rounded-full border text-sm
+                      ${talleSeleccionado === talle ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
+                      hover:bg-red-800 transition-all
+                    `}
+                  >
+                    {talle}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Botón fijo al fondo */}
+        <div className="mt-auto pt-4">
+          <button
+            onClick={handleAgregar}
+            disabled={!puedeAgregar}
+            className={clasesBoton}
+          >
+            {textoBoton}
+          </button>
+        </div>
       </div>
     </div>
   );

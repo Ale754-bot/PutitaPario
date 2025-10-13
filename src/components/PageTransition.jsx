@@ -35,14 +35,14 @@ const PageTransition = ({ children }) => (
       transition={overlayTransition}
     >
       <motion.img
-        src="/PP1.png"
-        alt="SECRETO"
-        initial={{ opacity: 0.4, scale: 1 }}
-        animate={{ opacity: 0, scale: 1.1 }}
-        exit={{ opacity: 0.4, scale: 1 }}
-        transition={{ duration: 1.8, ease: "easeOut" }}
-        className="w-32 h-32 pointer-events-none"
-      />
+  src="/PP1.png"
+  alt="Logo SECRETO"
+  className="w-40 h-auto mb-6 drop-shadow-[0_0_15px_rgba(255,0,80,0.3)] object-contain"
+  initial={{ scale: 0.95, opacity: 4 }}
+  animate={{ scale: 1, opacity: 1 }}
+  transition={{ duration: 1, delay: 0.4 }}
+/>
+
     </motion.div>
 
     {/* Contenido de la página */}

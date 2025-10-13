@@ -7,6 +7,7 @@
     "imagen": "/images/Geles/neutro.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
+    "marca": "Sextual",
     "variantes": [
       { "tamaño": "80ml", "precio": 2500 },
       { "tamaño": "200ml", "precio": 4000 }
@@ -19,6 +20,7 @@
     "imagen": "/images/Geles/aloevera.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
+    "marca": "Sextual",
     "variantes": [
       { "tamaño": "80ml", "precio": null }
     ]
@@ -30,6 +32,7 @@
     "imagen": "/images/Geles/dulcedeleche.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
+    "marca": "Sextual",
     "variantes": [
       { "tamaño": "80ml", "precio": null }
     ]
@@ -41,6 +44,7 @@
     "imagen": "/images/Geles/frutilla.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
+    "marca": "Sextual",
     "variantes": [
       { "tamaño": "80ml", "precio": null },
       { "tamaño": "200ml", "precio": null }
@@ -53,6 +57,7 @@
     "imagen": "/images/Geles/chicle.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
+    "marca": "Sextual",
     "variantes": [
       { "tamaño": "80ml", "precio": null },
       { "tamaño": "200ml", "precio": null }
@@ -65,6 +70,7 @@
     "imagen": "/images/Geles/limon.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
+    "marca": "Sextual",
     "variantes": [
       { "tamaño": "80ml", "precio": null }
     ]
@@ -76,6 +82,7 @@
     "imagen": "/images/Geles/twerking.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
+    "marca": "Sextual",
     "variantes": [
       { "tamaño": "80ml", "precio": null },
       { "tamaño": "200ml", "precio": null }
@@ -88,6 +95,7 @@
     "imagen": "/images/Geles/ice.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
+    "marca": "Sextual",
     "variantes": [
       { "tamaño": "80ml", "precio": null }
     ]
@@ -99,6 +107,7 @@
     "imagen": "/images/Geles/fire.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
+    "marca": "Sextual",
     "variantes": [
       { "tamaño": "80ml", "precio": null }
     ]
@@ -110,6 +119,7 @@
     "imagen": "/images/Geles/gold.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
+    "marca": "Sextual",
     "variantes": [
       { "tamaño": "80ml", "precio": null }
     ]
@@ -121,6 +131,7 @@
     "imagen": "/images/Geles/jade.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
+    "marca": "Sextual",
     "variantes": [
       { "tamaño": "80ml", "precio": null }
     ]
@@ -132,6 +143,7 @@
     "imagen": "/images/Geles/ruby.jpg",
     "categoria": "Geles y Aceites",
     "stock": true,
+    "marca": "Sextual",
     "variantes": [
       { "tamaño": "80ml", "precio": null }
     ]
@@ -144,6 +156,7 @@
   "imagen": "/images/Geles/sedoso.jpg",
   "categoria": "Geles y Aceites",
   "stock": true,
+  "marca": "Calins",
   "variantes": [
     { "tamaño": "75ml", "precio": null }
   ]
@@ -155,6 +168,7 @@
   "imagen": "/images/Geles/dual.jpg",
   "categoria": "Geles y Aceites",
   "stock": true,
+  "marca": "Calins",
   "variantes": [
     { "tamaño": "75ml", "precio": null }
   ]
@@ -166,6 +180,7 @@
   "imagen": "/images/Geles/neutroh.jpg",
   "categoria": "Geles y Aceites",
   "stock": true,
+  "marca": "Calins",
   "variantes": [
     { "tamaño": "75ml", "precio": null }
   ]
@@ -177,6 +192,7 @@
   "imagen": "/images/Geles/frutosrojos.jpg",
   "categoria": "Geles y Aceites",
   "stock": true,
+  "marca": "Calins",
   "variantes": [
     { "tamaño": "75ml", "precio": null }
   ]
@@ -188,6 +204,7 @@
   "imagen": "/images/Geles/frio.jpg",
   "categoria": "Geles y Aceites",
   "stock": true,
+  "marca": "Calins",
   "variantes": [
     { "tamaño": "75ml", "precio": null }
   ]
@@ -199,6 +216,7 @@
   "imagen": "/images/Geles/calor.jpg",
   "categoria": "Geles y Aceites",
   "stock": true,
+  "marca": "Calins",
   "variantes": [
     { "tamaño": "75ml", "precio": null }
   ]
@@ -210,6 +228,7 @@
   "imagen": "/images/Geles/analcrema.jpg",
   "categoria": "Geles y Aceites",
   "stock": true,
+  "marca": "Calins",
   "variantes": [
     { "tamaño": "75ml", "precio": null }
   ]

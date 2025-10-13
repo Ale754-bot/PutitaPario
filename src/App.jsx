@@ -1,7 +1,8 @@
 // src/App.jsx
 
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { AnimatePresence } from 'framer-motion';
 
 // 🧱 Estructura persistente
 import Navbar from './components/Navbar';
@@ -15,37 +16,39 @@ import Home from './pages/Home';
 import Productos from './pages/Productos';
 import Contacto from './pages/Contacto';
 
+// ✨ Transición editorial
+import PageTransition from './components/PageTransition';
+
 function App() {
   const [isCartOpen, setIsCartOpen] = useState(false);
+  const location = useLocation();
 
   return (
-    <BrowserRouter>
+    <div className="min-h-screen bg-black pt-[70px]">
       <ScrollToTop />
 
-      <div className="min-h-screen bg-black pt-[70px]">
+      {/* 🔝 Navbar */}
+      <Navbar openCart={() => setIsCartOpen(true)} />
 
-        {/* 🔝 Navbar */}
-        <Navbar openCart={() => setIsCartOpen(true)} />
-
-        {/* 🔀 Rutas */}
-        <Routes>
+      {/* 🔀 Rutas con transición */}
+      <AnimatePresence mode="wait">
+        <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
-          <Route path="/productos" element={<Productos />} />
-          <Route path="/contacto" element={<Contacto />} />
+          <Route path="/productos" element={<PageTransition><Productos /></PageTransition>} />
+          <Route path="/contacto" element={<PageTransition><Contacto /></PageTransition>} />
         </Routes>
+      </AnimatePresence>
 
-        {/* 🔚 Footer */}
-        <Footer />
+      {/* 🔚 Footer */}
+      <Footer />
 
-        {/* 🛒 Carrito */}
-<FloatingContactButton />
-        <CarritoSidebar
-          isOpen={isCartOpen}
-          closeCart={() => setIsCartOpen(false)}
-        />
-        
-      </div>
-    </BrowserRouter>
+      {/* 🛒 Carrito */}
+      <FloatingContactButton />
+      <CarritoSidebar
+        isOpen={isCartOpen}
+        closeCart={() => setIsCartOpen(false)}
+      />
+    </div>
   );
 }
 

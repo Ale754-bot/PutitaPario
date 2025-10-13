@@ -31,7 +31,7 @@ const Hero = () => {
                 }}
                 animate={{ 
                     clipPath: 'inset(0 0% 0 0)', 
-                    opacity: 0.20, 
+                    opacity: 0.70, 
                     filter: 'blur(0px)' 
                 }}
                 transition={{ duration: 2.5, ease: 'easeOut' }}

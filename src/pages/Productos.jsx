@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
 import productos from '../data/productos.json';
+import PageTransition from '../components/PageTransition'; // ✅ Importado
 
 // Agrupar productos por categoría
 const groupProductsByCategory = (products) => {
@@ -42,30 +43,31 @@ const Productos = () => {
   }, [categoriaParam, categories]);
 
   return (
-<main className="mx-auto max-w-screen-xl px-4 py-8">
-      <h1 className="text-2xl text-center font-bold mb-10 text-white mx-auto pb-1">
-        Catálogo de Productos
-      </h1>
+    <PageTransition>
+      <main className="mx-auto max-w-screen-xl px-4 py-8">
+        <h1 className="text-2xl text-center font-bold mb-10 text-white mx-auto pb-1">
+          Catálogo de Productos
+        </h1>
 
-      {categories.map((category) => (
-        <section key={category} id={category} className="mb-16 pt-8">
-          <h2 className="text-2xl font-bold mb-8 text-red-800 text-center">
-            {category}
-          </h2>
+        {categories.map((category) => (
+          <section key={category} id={category} className="mb-16 pt-8">
+            <h2 className="text-2xl font-bold mb-8 text-red-800 text-center">
+              {category}
+            </h2>
 
-          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-
-            {groupedProducts[category].map((producto, index) => (
-              <ProductCard
-                key={producto.id}
-                producto={producto}
-                index={index}
-              />
-            ))}
-          </div>
-        </section>
-      ))}
-    </main>
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+              {groupedProducts[category].map((producto, index) => (
+                <ProductCard
+                  key={producto.id}
+                  producto={producto}
+                  index={index}
+                />
+              ))}
+            </div>
+          </section>
+        ))}
+      </main>
+    </PageTransition>
   );
 };
 

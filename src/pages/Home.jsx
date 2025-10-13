@@ -6,13 +6,14 @@ import CategoryScroll from '../components/CategoryScroll';
 import Destacados from '../components/Destacados';
 import { Link } from 'react-router-dom';
 import InstagramBanner from '../components/InstagramBanner';
+import PageTransition from '../components/PageTransition'; // ✅ Importación agregada
 
 const Home = () => {
   return (
-    <>
+    <PageTransition> {/* ✅ Transición envolvente */}
       <Hero />
 
-<main className="mx-auto max-w-screen-xl px-4 py-8">
+      <main className="mx-auto max-w-screen-xl px-4 py-8">
         <CategoryScroll />
 
         {/* SECCIÓN DE PRODUCTOS DESTACADOS */}
@@ -30,7 +31,7 @@ const Home = () => {
           {/* Imagen de fondo con opacidad y degradado */}
           <div className="absolute inset-0">
             <img
-              src="/local.jpg" // reemplazá con tu imagen real
+              src="/local.jpg"
               alt="Local Secreto"
               className="w-full h-full object-cover opacity-60"
             />
@@ -54,7 +55,7 @@ const Home = () => {
       </main>
 
       <InstagramBanner />
-    </>
+    </PageTransition>
   );
 };
 

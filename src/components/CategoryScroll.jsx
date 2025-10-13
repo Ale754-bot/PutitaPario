@@ -30,33 +30,39 @@ const CategoryScroll = () => {
 
         <div className="relative w-full overflow-x-scroll overflow-y-hidden touch-pan-x mask-fade-horizontal">
           <div className="flex gap-6 px-6 py-6 animate-marquee-mobile md:animate-marquee-desktop hover:pause-marquee min-w-max">
-            {[...CATEGORIES, ...CATEGORIES].map((name, index) => (
-              <div
-                key={`${name}-${index}`}
-                onClick={() => handleCategoryClick(name)}
-                className="
-                  relative flex-shrink-0 w-64 h-72 rounded-lg overflow-hidden
-                  shadow-[0_10px_30px_rgba(255,255,255,0.1)] snap-center
-                  transition-transform duration-300 ease-in-out hover:scale-[1.05] hover:shadow-[0_12px_32px_rgba(255,0,0,0.4)]
-                  border border-transparent cursor-pointer
-                  bg-black bg-opacity-30 backdrop-blur-sm group
-                  flex flex-col items-center justify-center gap-4 px-4
-                "
-                aria-label={`Ver productos en la categoría ${name}`}
-              >
-                <img
-                  src={`/PP1.png`}
-                  alt={name}
-                  className="max-w-[160px] max-h-[160px] object-contain transition-transform duration-500 group-hover:scale-105"
-                />
-                <div className="text-center">
-                  <h3 className="text-2xl font-extrabold text-white leading-none drop-shadow-lg uppercase">
-                    {name}
-                  </h3>
-                  <p className="text-sm text-white font-medium">Ver más &rarr;</p>
+            {[...CATEGORIES, ...CATEGORIES].map((name, index) => {
+              const delay = `${index * 0.2}s`; // ⏱ intercalado progresivo
+
+              return (
+                <div
+                  key={`${name}-${index}`}
+                  onClick={() => handleCategoryClick(name)}
+                  className="
+                    card-glow-linear
+                    relative flex-shrink-0 w-64 h-72 rounded-lg overflow-hidden
+                    snap-center transition-transform duration-300 ease-in-out
+                    hover:scale-[1.05]
+                    border border-transparent cursor-pointer
+                    bg-black bg-opacity-30 backdrop-blur-sm group
+                    flex flex-col items-center justify-center gap-4 px-4
+                  "
+                  style={{ animationDelay: delay }}
+                  aria-label={`Ver productos en la categoría ${name}`}
+                >
+                  <img
+                    src={`/PP1.png`}
+                    alt={name}
+                    className="max-w-[160px] max-h-[160px] object-contain transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="text-center">
+                    <h3 className="text-2xl font-extrabold text-white leading-none drop-shadow-lg uppercase">
+                      {name}
+                    </h3>
+                    <p className="text-sm text-white font-medium">Ver más &rarr;</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>

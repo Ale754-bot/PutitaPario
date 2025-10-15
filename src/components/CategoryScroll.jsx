@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const CATEGORIES = [
-  "Geles y Aceites",
+  "Geles, Aceites & Cremas",
   "Accesorios",
   "Juegos",
   "Juguetes",

@@ -5,10 +5,7 @@ const CarritoContext = createContext();
 
 // 2. Definir el Proveedor del Contexto
 export const CarritoProvider = ({ children }) => {
-  // Estado que almacena los ítems del carrito: { id, nombre, precio, cantidad }
   const [items, setItems] = useState([]);
-
-  // --- Funciones de Lógica del Carrito ---
 
   const agregarItem = (producto, cantidad = 1) => {
     setItems(prevItems => {
@@ -33,30 +30,35 @@ export const CarritoProvider = ({ children }) => {
   const calcularTotal = () => {
     return items.reduce((acc, item) => acc + (item.precio * item.cantidad), 0);
   };
-  
-  const generarMensajeWhatsapp = () => {
-      // 🚨 IMPORTANTE: Reemplaza este número por el de la dueña del local (formato internacional sin +)
-      const numeroDuena = "5493412634440"; 
-      
-      let mensaje = '*🛒 HOLA ! ME GUSTARIA HACER UN PEDIDO*\n';
-      // ... (El resto de la generación del mensaje que ya teníamos)
-      
-      items.forEach(item => {
-        const subtotal = (item.precio * item.cantidad).toFixed(2);
-        mensaje += `${item.cantidad}x ${item.nombre} (P/U: $${item.precio.toFixed(2)} | Subtotal: $${subtotal})\n`;
-      });
 
-      mensaje += '---------------------------------\n';
-      mensaje += `*TOTAL ESTIMADO: $${calcularTotal().toFixed(2)}*\n\n`;
-      // ...
-      mensaje += '*Nombre y Apellido:* \n';
-      mensaje += '*Retiro o envío* \n';
-      
-      const mensajeCodificado = encodeURIComponent(mensaje);
-      
-      return `https://wa.me/${numeroDuena}?text=${mensajeCodificado}`;
+  const generarMensajeWhatsapp = (metodoEntrega) => {
+  const numeroDuena = "5493412634440";
+
+  let mensaje = '🛒 ¡Hola! Me gustaría hacer un pedido.\n\n';
+  mensaje += 'Estos son los productos que seleccioné:\n\n';
+
+  items.forEach(item => {
+    const variante = item.variante || item.talle || "sin variante";
+    const subtotal = (item.precio * item.cantidad).toFixed(2);
+    mensaje += `— ${item.nombre} (${variante})\n`;
+    mensaje += `  Cantidad: ${item.cantidad} ${item.cantidad === 1 ? 'unidad' : 'unidades'}\n`;
+    mensaje += `  Precio unitario: $${item.precio.toFixed(2)}\n`;
+    mensaje += `  Subtotal: $${subtotal}\n\n`;
+  });
+
+  mensaje += `🧾 Total estimado: $${calcularTotal().toFixed(2)}\n\n`;
+
+  if (metodoEntrega === "local") {
+    mensaje += '📍 Forma de entrega: Retiro en Galería Córdoba, Sarmiento 783, Local 01-15 — de 10 a 19 hs\n';
+  } else {
+    mensaje += '🚚 Forma de entrega: Envío a domicilio\n';
+  }
+
+  const mensajeCodificado = encodeURIComponent(mensaje);
+  return `https://wa.me/${numeroDuena}?text=${mensajeCodificado}`;
+
+
   };
-
 
   return (
     <CarritoContext.Provider 

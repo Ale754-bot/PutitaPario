@@ -17,6 +17,7 @@ const ProductCard = ({ producto }) => {
 
   const [talleSeleccionado, setTalleSeleccionado] = useState("");
   const [varianteSeleccionada, setVarianteSeleccionada] = useState(null);
+  const [expandido, setExpandido] = useState(false);
   const { agregarItem } = useCarrito();
 
   const tieneTalles = talles && talles.length > 0;
@@ -41,15 +42,6 @@ const ProductCard = ({ producto }) => {
     ? "Elegí un tamaño"
     : "Agregar al carrito";
 
-  const clasesBoton = `
-    w-full py-3 mt-2 rounded font-bold transition-colors
-    ${puedeAgregar
-      ? "bg-red-600 hover:bg-red-800 text-white"
-      : !stock
-      ? "bg-gray-800 text-gray-400 cursor-not-allowed"
-      : "bg-gray-600 text-white cursor-not-allowed"}
-  `;
-
   const handleAgregar = () => {
     if (!puedeAgregar) return;
 
@@ -65,109 +57,132 @@ const ProductCard = ({ producto }) => {
 
   const etiquetaMarca = marca && linea ? `${marca} · ${linea}` : marca || "";
 
-
   return (
     <div className="
-      w-full min-h-[500px] bg-black text-white rounded-xl overflow-hidden shadow-lg 
-      transition duration-300 ease-in-out 
-      hover:shadow-acento/50 hover:scale-[1.02]
-      border border-gray-800 hover:border-acento
-      flex flex-col
-    ">
-      {/* Imagen */}
-      <div className="relative h-56 overflow-hidden">
-        <img 
-          src={imagenFinal} 
-          alt={nombre} 
-          className="w-full h-full object-cover transition duration-500 hover:scale-110"
-        />
+  w-full bg-black text-white rounded-xl overflow-hidden shadow-lg 
+  transition duration-300 ease-in-out 
+  hover:shadow-acento/50 hover:scale-[1.02]
+  border border-gray-800 hover:border-acento
+  flex flex-col
+">
+  {/* Imagen cuadrada, borde alineado */}
+  <div className="w-full aspect-square overflow-hidden relative">
+    <img 
+      src={imagenFinal} 
+      alt={nombre} 
+      className="w-full h-full object-cover transition duration-500 hover:scale-110"
+    />
 
-        {etiquetaMarca && (
-          <span className="absolute top-2 left-2 bg-black text-white text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wide shadow-md z-10">
-            {etiquetaMarca}
-          </span>
-        )}
+    {etiquetaMarca && (
+      <span className="absolute top-2 left-2 bg-black text-white text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wide shadow-md z-10">
+        {etiquetaMarca}
+      </span>
+    )}
 
-        {!stock && (
-          <div className="absolute top-0 right-0 bg-gray-900/80 text-white font-bold px-3 py-1 rounded-bl-lg">
-            AGOTADO
-          </div>
-        )}
+    {!stock && (
+      <div className="absolute top-0 right-0 bg-gray-900/80 text-white font-bold px-3 py-1 rounded-bl-lg">
+        AGOTADO
+      </div>
+    )}
+  </div>
+
+  {/* Contenido */}
+  <div className="p-3 flex flex-col flex-grow">
+    {/* Descripción */}
+    <div className="flex flex-col gap-1 text-center flex-grow">
+<h2 className="text-sm font-semibold text-white leading-snug break-words">
+  {nombre}
+</h2>
+
+      <div
+        className={`text-xs text-gray-300 overflow-hidden transition-all duration-300 ${
+          expandido ? 'max-h-32' : 'max-h-0'
+        }`}
+      >
+        <p className="leading-tight">{descripcion}</p>
       </div>
 
-      {/* Contenido */}
-      <div className="p-4 flex flex-col flex-grow">
-        {/* Bloque descriptivo */}
-        <div className="flex flex-col gap-2 text-center flex-grow">
-          <h2 className="text-lg font-semibold text-white">{nombre}</h2>
-          <p className="text-sm text-gray-300">{descripcion}</p>
-        </div>
-
-        {/* Bloque de interacción */}
-        <div className="mt-4 flex flex-col items-center min-h-[120px] justify-start">
-          <p className="text-lg text-red-700 font-bold mb-2">
-            ${precioFinal}
-          </p>
-
-          {tieneVariantes && (
-            <div className="text-center">
-              <label className="block text-sm font-medium text-gray-300 mb-2">
-                Elegí un tamaño:
-              </label>
-              <div className="flex justify-center gap-2 flex-wrap">
-                {variantes.map((v, idx) => (
-                  <button
-                    key={idx}
-                    onClick={() => setVarianteSeleccionada(v)}
-                    className={`
-                      px-3 py-1 rounded-full border text-sm
-                      ${varianteSeleccionada?.tamaño === v.tamaño ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
-                      hover:bg-red-800 transition-all
-                    `}
-                  >
-                    {v.tamaño}
-                  </button>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {tieneTalles && (
-            <div className="text-center mt-2">
-              <label className="block text-sm font-medium text-gray-300 mb-2">
-                Seleccioná tu talle:
-              </label>
-              <div className="flex justify-center gap-2 flex-wrap">
-                {talles.map((talle) => (
-                  <button
-                    key={talle}
-                    onClick={() => setTalleSeleccionado(talle)}
-                    className={`
-                      px-3 py-1 rounded-full border text-sm
-                      ${talleSeleccionado === talle ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
-                      hover:bg-red-800 transition-all
-                    `}
-                  >
-                    {talle}
-                  </button>
-                ))}
-              </div>
-            </div>
-          )}
-        </div>
-
-        {/* Botón fijo al fondo */}
-        <div className="mt-auto pt-4">
-          <button
-            onClick={handleAgregar}
-            disabled={!puedeAgregar}
-            className={clasesBoton}
-          >
-            {textoBoton}
-          </button>
-        </div>
-      </div>
+      <button
+        onClick={() => setExpandido(!expandido)}
+        className="text-[11px] text-red-500 mt-1 underline focus:outline-none"
+      >
+        {expandido ? 'Ver menos' : 'Ver descripción'}
+      </button>
     </div>
+
+    {/* Interacción */}
+    <div className="mt-3 flex flex-col items-center justify-start">
+      <p className="text-base text-red-700 font-bold mb-2">
+        ${precioFinal}
+      </p>
+
+      {tieneVariantes && (
+        <div className="text-center">
+          <label className="block text-xs font-medium text-gray-300 mb-1">
+            Tamaño:
+          </label>
+          <div className="flex justify-center gap-2 flex-wrap">
+            {variantes.map((v, idx) => (
+              <button
+                key={idx}
+                onClick={() => setVarianteSeleccionada(v)}
+                className={`
+                  px-2 py-1 rounded-full border text-xs
+                  ${varianteSeleccionada?.tamaño === v.tamaño ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
+                  hover:bg-red-800 transition-all
+                `}
+              >
+                {v.tamaño}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {tieneTalles && (
+        <div className="text-center mt-2">
+          <label className="block text-xs font-medium text-gray-300 mb-1">
+            Talle:
+          </label>
+          <div className="flex justify-center gap-2 flex-wrap">
+            {talles.map((talle) => (
+              <button
+                key={talle}
+                onClick={() => setTalleSeleccionado(talle)}
+                className={`
+                  px-2 py-1 rounded-full border text-xs
+                  ${talleSeleccionado === talle ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
+                  hover:bg-red-800 transition-all
+                `}
+              >
+                {talle}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+
+    {/* Botón más grande y centrado */}
+    <div className="mt-auto pt-3 flex justify-center">
+      <button
+        onClick={handleAgregar}
+        disabled={!puedeAgregar}
+        className={`
+          px-6 py-2 rounded font-semibold transition-colors text-sm
+          ${puedeAgregar
+            ? "bg-red-600 hover:bg-red-800 text-white"
+            : !stock
+            ? "bg-gray-800 text-gray-400 cursor-not-allowed"
+            : "bg-gray-600 text-white cursor-not-allowed"}
+        `}
+      >
+        {textoBoton}
+      </button>
+    </div>
+  </div>
+</div>
+
   );
 };
 

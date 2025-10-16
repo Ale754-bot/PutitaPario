@@ -60,18 +60,27 @@ const Productos = () => {
                   {category}
                 </h2>
 
-               {/* Filtros editoriales refinados */}
-              <div className="sticky top-0 z-10 bg-black/80 py-3 flex justify-center gap-6 flex-wrap border-b border-gray-700">
-                <a href="#geles-lubricantes" className="text-xs sm:text-sm text-white font-medium hover:text-acento tracking-wide transition">
-                  Geles lubricantes
-                </a>
-                <a href="#aceites-comestibles" className="text-xs sm:text-sm text-white font-medium hover:text-acento tracking-wide transition">
-                  Aceites comestibles
-                </a>
-                <a href="#aceites-masajes" className="text-xs sm:text-sm text-white font-medium hover:text-acento tracking-wide transition">
-                  Aceites y cremas para masajes
-                </a>
-              </div>
+               {/* Filtros editoriales ultra compactos */}
+<div className="sticky top-0 z-10 bg-black/80 py-2 flex justify-center gap-1 flex-wrap border-b border-gray-700">
+  <a
+    href="#geles-lubricantes"
+    className="px-2 py-0.5 text-[10px] sm:text-xs font-semibold text-white bg-transparent border border-white/20 rounded-full hover:bg-acento hover:text-black transition tracking-tight"
+  >
+    Geles lubricantes
+  </a>
+  <a
+    href="#aceites-comestibles"
+    className="px-2 py-0.5 text-[10px] sm:text-xs font-semibold text-white bg-transparent border border-white/20 rounded-full hover:bg-acento hover:text-black transition tracking-tight"
+  >
+    Aceites comestibles
+  </a>
+  <a
+    href="#aceites-masajes"
+    className="px-2 py-0.5 text-[10px] sm:text-xs font-semibold text-white bg-transparent border border-white/20 rounded-full hover:bg-acento hover:text-black transition tracking-tight"
+  >
+    Aceites y cremas para masajes
+  </a>
+</div>
 
 
                 {/* Subcategoría: Geles lubricantes */}

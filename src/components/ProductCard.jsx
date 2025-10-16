@@ -61,7 +61,7 @@ const ProductCard = ({ producto }) => {
     <div className="
   w-full bg-black text-white rounded-xl overflow-hidden shadow-lg 
   transition duration-300 ease-in-out 
-  hover:shadow-acento/50 hover:scale-[1.02]
+  hover:shadow-red/500 hover:scale-[1.02]
   border border-gray-800 hover:border-acento
   flex flex-col
 ">
@@ -70,7 +70,7 @@ const ProductCard = ({ producto }) => {
     <img 
       src={imagenFinal} 
       alt={nombre} 
-      className="w-full h-full object-cover transition duration-500 hover:scale-110"
+      className="w-full h-full object-cover transition duration-500 hover:scale-120"
     />
 
     {etiquetaMarca && (

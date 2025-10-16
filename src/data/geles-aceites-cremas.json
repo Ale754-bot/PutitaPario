@@ -430,8 +430,106 @@
     { "tamaño": "130ml", "precio": null }
   ]
 },
+{
+  "id": 32,
+  "nombre": "Lubricante Siliconado Anal - Insolente",
+  "descripcion": "Silicona natural, piel relajada. Con manzanilla y vitamina E. Lubricación intensa, sin parabenos. Condom friendly.",
+  "imagen": "/images/Geles/s-afro.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Geles lubricantes",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Afrodisia",
+  "variantes": [
+    { "tamaño": "75ml", "precio": null }
+  ]
+},
+{
+  "id": 33,
+  "nombre": "Gel íntimo - Dulce de Leche",
+  "descripcion": "Sabor dulce de leche, placer comestible. Vegano, sin TACC. Oral, anal o vaginal: vos elegís cómo disfrutarlo.",
+  "imagen": "/images/Geles/s-fly.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Geles lubricantes",
+  "stock": true,
+  "marca": "Fly Night",
+  "linea": "Kisses",
+  "variantes": [
+    { "tamaño": "100ml", "precio": null }
+  ]
+},
+{
+  "id": 34,
+  "nombre": "Serum Concentrado Adventure Anal - Lubricante",
+  "descripcion": "Silicona que desliza con intensidad. Con L-Arginina, maca y jengibre, potencia el placer y prolonga la experiencia. Para sensaciones que suben de nivel.",
+  "imagen": "/images/Geles/s-eos1.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Geles lubricantes",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "EOS",
+  "variantes": [
+    { "tamaño": "25ml", "precio": null }
+  ]
+},
+{
+  "id": 35,
+  "nombre": "Serum Concentrado Adventure Anal - Lubricante",
+  "descripcion": "Lubricante anal de silicona con clavo de olor y aloe vera. Fórmula natural para mayor deslizamiento y placer prolongado. Cómodo, seguro y sensorial.",
+  "imagen": "/images/Geles/s-eos2.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Geles lubricantes",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "EOS",
+  "variantes": [
+    { "tamaño": "25ml", "precio": null }
+  ]
+},
+{
+  "id": 36,
+  "nombre": "Spray Masculino - Pro Long",
+  "descripcion": "Spray ultra deslizante para relaciones más prolongadas y placenteras. Rápida acción que permite controlar las erecciones retrasando el momento de la eyaculación. Formula exclusiva a base de extractos naturales",
+  "imagen": "/images/Geles/s-heroe.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Geles lubricantes",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Heroe",
+  "variantes": [
+    { "tamaño": "20ml", "precio": null }
+  ]
+},
+{
+  "id": 37,
+  "nombre": "Aceite y Lubricante - Frutos Rojos",
+  "descripcion": "Aceite sensual diseñado para lubricación íntima y para masajes. Aromatizado. Podrás experimentar el placer al máximo.",
+  "imagen": "/images/Geles/s-dual.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Geles lubricantes",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Magic Dual",
+  "variantes": [
+    { "tamaño": "100ml", "precio": null }
+  ]
+},
+{
+  "id": 38,
+  "nombre": "Aceite y Lubricante - Caramelo",
+  "descripcion": "Aceite sensual diseñado para lubricación íntima y para masajes. Aromatizado. Podrás experimentar el placer al máximo.",
+  "imagen": "/images/Geles/s-dual2.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Geles lubricantes",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Magic Dual",
+  "variantes": [
+    { "tamaño": "100ml", "precio": null }
+  ]
+},
   {
-    "id": 32,
+    "id": 39,
     "nombre": "Aceite Comestible - Chocolate",
     "descripcion": "Disfruta de un toque dulce y emocionante con Love Potion Chocolate, un aceite comestible con leve efecto calor que hace tus besos íntimos aún más sensuales. Encontralo en sus dos versiones.",
     "imagen": "/images/Geles/a-chocolate.jpg",
@@ -454,7 +552,7 @@
     ]
   },
   {
-    "id": 33,
+    "id": 40,
     "nombre": "Aceite Comestible - Banana",
     "descripcion": "Disfruta de un toque dulce y emocionante con Love Potion Banana, un aceite comestible con leve efecto calor que hace tus besos íntimos aún más sensuales. Encontralo en sus dos versiones.",
     "imagen": "/images/Geles/a-banana.jpg",
@@ -477,7 +575,7 @@
     ]
   },
   {
-    "id": 34,
+    "id": 41,
     "nombre": "Aceite Comestible - Champagne",
     "descripcion": "Disfruta de un toque dulce y emocionante con Love Potion Champagne, un aceite comestible con leve efecto calor que hace tus besos íntimos aún más sensuales. Encontralo en sus dos versiones.",
     "imagen": "/images/Geles/a-champagne.jpg",
@@ -500,7 +598,7 @@
     ]
   },
   {
-    "id": 35,
+    "id": 42,
     "nombre": "Aceite Comestible - Dulce de Leche",
     "descripcion": "Disfruta de un toque dulce y emocionante con Love Potion Dulce de Leche, un aceite comestible con leve efecto calor que hace tus besos íntimos aún más sensuales. Encontralo en sus dos versiones.",
     "imagen": "/images/Geles/a-dulcedeleche.jpg",
@@ -523,7 +621,7 @@
     ]
   },
   {
-    "id": 36,
+    "id": 43,
     "nombre": "Aceite Comestible - Frutilla",
     "descripcion": "Disfruta de un toque dulce y emocionante con Love Potion Frutilla, un aceite comestible con leve efecto calor que hace tus besos íntimos aún más sensuales. Encontralo en sus dos versiones.",
     "imagen": "/images/Geles/a-frutilla.jpg",
@@ -546,7 +644,7 @@
     ]
   },
   {
-    "id": 37,
+    "id": 44,
     "nombre": "Aceite Comestible - Frutos Rojos",
     "descripcion": "Disfruta de un toque dulce y emocionante con Love Potion Frutos Rojos, un aceite comestible con leve efecto calor que hace tus besos íntimos aún más sensuales. Encontralo en sus dos versiones.",
     "imagen": "/images/Geles/a-frutos.jpg",
@@ -569,7 +667,7 @@
     ]
   },
   {
-    "id": 38,
+    "id": 45,
     "nombre": "Aceite Comestible - Menta",
     "descripcion": "Disfruta de un toque dulce y emocionante con Love Potion Menta, un aceite comestible con leve efecto calor que hace tus besos íntimos aún más sensuales. Encontralo en sus dos versiones.",
     "imagen": "/images/Geles/a-menta.jpg",
@@ -592,7 +690,7 @@
     ]
   },
   {
-    "id": 39,
+    "id": 46,
     "nombre": "Aceite Comestible - Algodón de Azúcar",
     "descripcion": "Disfruta de un toque dulce y emocionante con Love Potion Frutos Rojos, un aceite comestible con leve efecto calor que hace tus besos íntimos aún más sensuales. Encontralo en sus dos versiones.",
     "imagen": "/images/Geles/a-algodon2.jpg",
@@ -608,84 +706,173 @@
       }
     ]
   },
-{
-  
-  "nombre": "Antifaz de Seda",
-  "descripcion": "Accesorio elegante para juegos sensoriales. Tela suave y elástica.",
-  "precio": 1800,
-  "imagen": "/images/antifaz-seda.png",
-  "categoria": "Accesorios",
-  "stock": true
-},
-{
-  
-  "nombre": "Dados Eróticos",
-  "descripcion": "Juego de dados con acciones y zonas del cuerpo. Ideal para romper el hielo.",
-  "precio": 1500,
-  "imagen": "/images/dados-eroticos.png",
-  "categoria": "Juegos",
+  {
+  "id": 47,
+  "nombre": "Crema Corporal - BE Aphrodisiac",
+  "descripcion": "Una fórmula perfumada con feromonas y un toque de glitter. Su exuberante combinación frutal y floral de melocotón dulce, flores de cerezo y jazmín blanco te envuelve en una fragancia cautivadora, realzando tu sensualidad y atracción con cada aplicación.",
+  "imagen": "/images/Geles/s-be.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Aceites y cremas para masajes",
   "stock": true,
-  "talles": []
+  "marca": "Sexitive",
+  "linea": "BE",
+  "variantes": [
+    { "tamaño": "200g", "precio": null }
+  ]
 },
 {
-  
-  "nombre": "Vibrador Silencioso",
-  "descripcion": "Diseño discreto, potente y silencioso. Recargable vía USB.",
-  "precio": 8900,
-  "imagen": "/images/vibrador-silencioso.png",
-  "categoria": "Juguetes",
+  "id": 48,
+  "nombre": "Crema Corporal - Sensual Massage Coconut",
+  "descripcion": "Disfruta de un toque tropical con Sensual Massage Coconut, una crema para masajes enriquecida con el aroma refrescante del coco. Su textura irresistiblemente suave al tacto está formulada especialmente para masajes sensuales, proporcionando una experiencia única de relajación y placer. Ideal para transformar cualquier momento en un instante de bienestar.",
+  "imagen": "/images/Geles/s-sm.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Aceites y cremas para masajes",
   "stock": true,
-  "talles": []
+  "marca": "Sexitive",
+  "linea": "SM",
+  "variantes": [
+    { "tamaño": "200g", "precio": null }
+  ]
 },
 {
- 
-  "nombre": "Disfraz de Enfermera",
-  "descripcion": "Incluye vestido, gorro y accesorios. Talle único.",
-  "precio": 6200,
-  "imagen": "/images/disfraz-enfermera.png",
-  "categoria": "Disfraces",
+  "id": 49,
+  "nombre": "Body Oil - Efecto Calor Sándalo Rojo",
+  "descripcion": "Con efecto calor y extractos afrodisíacos de orígen natural. El perfume sensual del sándalo ha tejido leyendas mágicas por sus efectos relajantes que nos llevan a la meditación y a constituir un potente afrodisíaco.",
+  "imagen": "/images/Geles/s-sr.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Aceites y cremas para masajes",
   "stock": true,
-  "talles": ["Único"]
+  "marca": "Sexitive",
+  "linea": "SensBomb",
+  "variantes": [
+    { "tamaño": "130ml", "precio": null }
+  ]
 },
 {
-  
-  "nombre": "Body Splash Frambuesa",
-  "descripcion": "Fragancia fresca y dulce para el cuerpo. Ideal para después del baño.",
-  "precio": 2400,
-  "imagen": "/images/body-splash-frambuesa.png",
-  "categoria": "Body Splash",
+  "id": 50,
+  "nombre": "Body Oil - Efecto Calor Maca",
+  "descripcion": "Con efecto calor y extractos afrodisíacos de orígen natural. La maca es una planta de origen peruano que crece en América del Sur. Ya desde la antigüedad los Incas la utilizaban como un potente afrodisíaco natural, que inclusive era consumido por los guerreros antes de cada batalla.",
+  "imagen": "/images/Geles/s-maca.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Aceites y cremas para masajes",
   "stock": true,
-  "talles": []
+  "marca": "Sexitive",
+  "linea": "SensBomb",
+  "variantes": [
+    { "tamaño": "130ml", "precio": null }
+  ]
 },
 {
-  
-  "nombre": "Perfume Afrodisíaco Nocturno",
-  "descripcion": "Notas intensas de ámbar y sándalo. Estimula los sentidos.",
-  "precio": 5200,
-  "imagen": "/images/perfume-afro-nocturno.png",
-  "categoria": "Perfumes Afro",
-  "stock": false,
-  "talles": []
-},
-{
-  
-  "nombre": "Crema Hotmetica Calor",
-  "descripcion": "Activa la circulación y genera sensación de calor. Uso externo.",
-  "precio": 3100,
-  "imagen": "/images/hotmetica-calor.png",
-  "categoria": "Hotmetica",
+  "id": 51,
+  "nombre": "Body Oil - Cereza",
+  "descripcion": "Sin color. Con aroma y sabor a cereza. Fresco, dulce y provocador. Libre de parabenos, azúcar, gluten. Compatible con preservativos. No testeado en animales.",
+  "imagen": "/images/Geles/bo-cereza.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Aceites y cremas para masajes",
   "stock": true,
-  "talles": []
+  "marca": "Sextual",
+  "linea": "",
+  "variantes": [
+    { "tamaño": "60ml", "precio": null }
+  ]
 },
 {
-  
-  "nombre": "Conjunto Lencería Bordado",
-  "descripcion": "Incluye corpiño y colaless. Bordado delicado y elástico.",
-  "precio": 7800,
-  "imagen": "/images/lenceria-bordado.png",
-  "categoria": "Indumentaria",
+  "id": 52,
+  "nombre": "Body Oil - Chocomenta",
+  "descripcion": "Sin color. Con aroma y sabor a chocomenta. Nos permitimos soñar, viajar y disfrutar. Nos trae a la mente lugares y recuerdos que nos predispone para vivir momentos únicos e íntimos. Libre de parabenos, azúcar, gluten. Compatible con preservativos. No testeado en animales.",
+  "imagen": "/images/Geles/bo-chocomenta.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Aceites y cremas para masajes",
   "stock": true,
-  "talles": ["S", "M", "L"]
+  "marca": "Sextual",
+  "linea": "",
+  "variantes": [
+    { "tamaño": "60ml", "precio": null }
+  ]
+},
+{
+  "id": 53,
+  "nombre": "Body Oil - Natural",
+  "descripcion": "Sin color. Sin aroma y sin sabor. Hay quienes desean vivir una experiencia íntima y relajante sin sentirse invadidos por aromas y sabores, este producto está desarrollado para lograr esa intimidad y conexión. Libre de parabenos, azúcar, gluten. Compatible con preservativos. No testeado en animales.",
+  "imagen": "/images/Geles/bo-natural.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Aceites y cremas para masajes",
+  "stock": true,
+  "marca": "Sextual",
+  "linea": "",
+  "variantes": [
+    { "tamaño": "60ml", "precio": null }
+  ]
+},
+{
+  "id": 54,
+  "nombre": "Body Oil - Piña Colada",
+  "descripcion": "Sin color. Con aroma y sabor a piña colada. Nos permitimos soñar, viajar y disfrutar. Nos trae a la mente lugares y recuerdos que nos predispone para vivir momentos únicos e íntimos. Libre de parabenos, azúcar, gluten. Compatible con preservativos. No testeado en animales.",
+  "imagen": "/images/Geles/bo-piñacolada.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Aceites y cremas para masajes",
+  "stock": true,
+  "marca": "Sextual",
+  "linea": "",
+  "variantes": [
+    { "tamaño": "60ml", "precio": null }
+  ]
+},
+{
+  "id": 55,
+  "nombre": "Body Oil - Uva",
+  "descripcion": "Sin color. Con aroma y sabor a uva. Con su aroma y sabor inconfundible, la uva nos invita a probar, catar, testear y saborear. Déjate llevar por el momento y disfruta de la intimidad que este aroma te propone. Libre de parabenos, azúcar, gluten. Compatible con preservativos. No testeado en animales.",
+  "imagen": "/images/Geles/bo-uva.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Aceites y cremas para masajes",
+  "stock": true,
+  "marca": "Sextual",
+  "linea": "",
+  "variantes": [
+    { "tamaño": "60ml", "precio": null }
+  ]
+},
+{
+  "id": 56,
+  "nombre": "Body Oil - Vainilla",
+  "descripcion": "Sin color. Con aroma y sabor a vainilla. Algunas culturas asocian el aroma de la vainilla con la sensualidad y la atracción, se cree que puede ayudar a liberar hormonas relacionadas con el deseo sexual. Libre de parabenos, azúcar, gluten. Compatible con preservativos. No testeado en animales.",
+  "imagen": "/images/Geles/bo-vainilla.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Aceites y cremas para masajes",
+  "stock": true,
+  "marca": "Sextual",
+  "linea": "",
+  "variantes": [
+    { "tamaño": "60ml", "precio": null }
+  ]
+},
+{
+  "id": 57,
+  "nombre": "Gel Crema Tonificante - The Wild Boys",
+  "descripcion": "Relaja sin perder sensibilidad. Con caléndula: regenera, suaviza e hidrata. Ideal para juguetes sexuales.",
+  "imagen": "/images/Geles/s-boys1.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Aceites y cremas para masajes",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "",
+  "variantes": [
+    { "tamaño": "200g", "precio": null }
+  ]
+},
+{
+  "id": 58,
+  "nombre": "Gel Crema Anal - The Wild Boys",
+  "descripcion": "Tonifica y fortalece para erecciones más firmes, duraderas y orgasmos intensos.",
+  "imagen": "/images/Geles/s-boys2.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Aceites y cremas para masajes",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "",
+  "variantes": [
+    { "tamaño": "200g", "precio": null }
+  ]
 }
 
 

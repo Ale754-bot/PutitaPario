@@ -1,0 +1,16 @@
+[
+  {
+    "id": 100,
+    "nombre": "Body Splash Afrodisíaco - Cereza",
+    "descripcion": "Fresco, dulce y provocador. Libre de parabenos, azúcar y gluten. Compatible con preservativos.",
+    "imagen": "/images/Perfumes/body-cereza.jpg",
+    "categoria": "Perfumes Afrodisíacos y Body Splash",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "",
+    "variantes": [
+      { "tamaño": "125ml", "precio": null }
+    ]
+  }
+]

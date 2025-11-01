@@ -1,0 +1,46 @@
+[
+  {
+    "id": 800,
+    "nombre": "Disfraz de Enfermera Sexy",
+    "descripcion": "Incluye vestido corto, gorro y accesorios. Tela elástica y cómoda. Ideal para juegos de rol.",
+    "imagen": "/images/Disfraces/enfermera-sexy.jpg",
+    "categoria": "Disfraces",
+    "subcategoria": "Temáticos",
+    "stock": true,
+    "marca": "SecretPlay",
+    "linea": "RoleX",
+    "variantes": [
+      { "talle": "S/M", "precio": 9700 },
+      { "talle": "M/L", "precio": 9700 }
+    ]
+  },
+  {
+    "id": 801,
+    "nombre": "Disfraz de Fantasía Felina",
+    "descripcion": "Incluye body con cola, orejas y guantes. Estilo provocador con detalles brillantes.",
+    "imagen": "/images/Disfraces/fantasia-felina.jpg",
+    "categoria": "Disfraces",
+    "subcategoria": "Fantasía",
+    "stock": true,
+    "marca": "LustLab",
+    "linea": "WildPlay",
+    "variantes": [
+      { "talle": "Único", "precio": 10500 }
+    ]
+  },
+  {
+    "id": 802,
+    "nombre": "Disfraz de Policía Seductora",
+    "descripcion": "Incluye vestido, gorra y esposas decorativas. Corte ajustado y tela brillante.",
+    "imagen": "/images/Disfraces/policia-sexy.jpg",
+    "categoria": "Disfraces",
+    "subcategoria": "Temáticos",
+    "stock": true,
+    "marca": "Secreto",
+    "linea": "UniformPlay",
+    "variantes": [
+      { "talle": "S", "precio": 9900 },
+      { "talle": "M", "precio": 9900 }
+    ]
+  }
+]

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { useCarrito } from '../context/CarritoContext';
 
 const Navbar = ({ openCart }) => {
@@ -10,13 +10,24 @@ const Navbar = ({ openCart }) => {
   const { items } = useCarrito();
   const totalItems = items.reduce((acc, item) => acc + item.cantidad, 0);
 
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleProductosClick = () => {
+    if (location.pathname === '/productos') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      navigate('/productos');
+    }
+  };
+
   return (
     <nav className="navbar-reflection fixed top-0 left-0 right-0 bg-black shadow-lg z-30 border-b border-red-600/50 overflow-hidden">
       <div className="mx-auto max-w-screen-xl px-4 py-3 flex justify-between items-center">
 
         {/* 🔴 Logo */}
-        <Link
-          to="/"
+        <a
+          href="/"
           className="flex items-center hover:opacity-80 transition-opacity flex-shrink-0"
         >
           <img
@@ -24,25 +35,25 @@ const Navbar = ({ openCart }) => {
             alt="SECRETO Logo"
             className="h-10 w-auto"
           />
-        </Link>
+        </a>
 
         {/* 🔴 Enlaces + Carrito */}
         <div className="flex items-center space-x-6">
 
           {/* Enlaces */}
           <div className="flex items-center space-x-6">
-            <Link
-              to="/productos"
+            <button
+              onClick={handleProductosClick}
               className={`text-white ${HOVER_TEXT_COLOR_CLASS} transition-colors font-normal text-sm md:text-base tracking-wide`}
             >
               Productos
-            </Link>
-            <Link
-              to="/contacto"
+            </button>
+            <a
+              href="/contacto"
               className={`text-white ${HOVER_TEXT_COLOR_CLASS} transition-colors font-normal text-sm md:text-base tracking-wide`}
             >
               Contacto
-            </Link>
+            </a>
           </div>
 
           {/* Botón del Carrito */}

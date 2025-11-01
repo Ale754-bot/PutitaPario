@@ -1,0 +1,44 @@
+[
+  {
+    "id": 600,
+    "nombre": "Vela Afrodisíaca de Masaje - Vainilla",
+    "descripcion": "Se derrite en aceite tibio para masajes sensuales. Aroma dulce y envolvente. Libre de parabenos.",
+    "imagen": "/images/Velas/vela-vainilla.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Afrodisíacas",
+    "stock": true,
+    "marca": "SensualFlame",
+    "linea": "Essence",
+    "variantes": [
+      { "tamaño": "80g", "precio": 4900 }
+    ]
+  },
+  {
+    "id": 601,
+    "nombre": "Vela Exótica con Feromonas - Sándalo",
+    "descripcion": "Aroma intenso y misterioso. Ideal para ambientar rituales íntimos. Contiene feromonas naturales.",
+    "imagen": "/images/Velas/vela-sandalo.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Exóticas",
+    "stock": true,
+    "marca": "MysticMood",
+    "linea": "Feroflame",
+    "variantes": [
+      { "tamaño": "100g", "precio": 6200 }
+    ]
+  },
+  {
+    "id": 602,
+    "nombre": "Vela Afrodisíaca de Masaje - Frutos Rojos",
+    "descripcion": "Textura cremosa al derretirse. Aroma frutal y provocador. Ideal para juegos de seducción.",
+    "imagen": "/images/Velas/vela-frutos-rojos.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Afrodisíacas",
+    "stock": true,
+    "marca": "SecretPlay",
+    "linea": "HotWax",
+    "variantes": [
+      { "tamaño": "80g", "precio": 5100 }
+    ]
+  }
+]

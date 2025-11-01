@@ -2,6 +2,14 @@ import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
 import gelesAceitesCremas from '../data/geles-aceites-cremas.json';
+import perfumes from '../data/perfumes.json';
+import juegosSexuales from '../data/juegos-sexuales.json';
+import vigorizantes from '../data/vigorizantes.json';
+import juguetes from '../data/juguetes.json';
+import plugsAnales from '../data/plugs-anales.json';
+import velas from '../data/velas.json';
+import lenceria from '../data/lenceria.json';
+import disfraces from '../data/disfraces.json';
 import PageTransition from '../components/PageTransition';
 
 const groupProductsByCategory = (products) => {
@@ -15,12 +23,36 @@ const groupProductsByCategory = (products) => {
   }, {});
 };
 
+const groupBySubcategoria = (products) => {
+  return products.reduce((acc, product) => {
+    const sub = product.subcategoria?.trim() || "Sin subcategoría";
+    if (!acc[sub]) acc[sub] = [];
+    acc[sub].push(product);
+    return acc;
+  }, {});
+};
+
+const normalizeId = (text) => {
+  return text.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '');
+};
+
 const Productos = () => {
   const location = useLocation();
   const params = new URLSearchParams(location.search);
   const categoriaParam = params.get("categoria");
 
-  const groupedProducts = groupProductsByCategory(gelesAceitesCremas);
+const allProducts = [
+  ...gelesAceitesCremas,
+  ...perfumes,
+  ...juegosSexuales,
+  ...vigorizantes,
+  ...juguetes,
+  ...plugsAnales,
+  ...velas,
+  ...lenceria,
+  ...disfraces
+];
+  const groupedProducts = groupProductsByCategory(allProducts);
   const categories = Object.keys(groupedProducts);
 
   useEffect(() => {
@@ -41,100 +73,75 @@ const Productos = () => {
     }
   }, [categoriaParam, categories]);
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <PageTransition>
       <main className="mx-auto max-w-screen-xl px-4 py-8">
-<h1 className="text-2xl text-center font-bold mb-6 text-white mx-auto">
+        <h1 className="text-2xl text-center font-bold mb-6 text-white mx-auto">
           Catálogo de Productos
         </h1>
 
+        {/* Menú desplegable de navegación por categoría */}
+        <div className="mb-8 flex justify-center">
+          <select
+            onChange={(e) => {
+              const target = document.getElementById(e.target.value);
+              if (target) {
+                target.scrollIntoView({ behavior: "smooth", block: "start" });
+              }
+            }}
+            className="px-4 py-2 rounded-md bg-black text-white border border-white/20 text-sm sm:text-base"
+          >
+            <option value="">Ir a categoría...</option>
+            {categories.map((cat) => (
+              <option key={cat} value={cat}>{cat}</option>
+            ))}
+          </select>
+        </div>
+
         {categories.map((category) => {
-          if (category === "Geles, Aceites & Cremas") {
-            const productosGeles = groupedProducts[category].filter(p => p.subcategoria === "Geles lubricantes");
-            const productosComestibles = groupedProducts[category].filter(p => p.subcategoria === "Aceites comestibles");
-            const productosMasajes = groupedProducts[category].filter(p => p.subcategoria === "Aceites y cremas para masajes");
+          const productosPorSub = groupBySubcategoria(groupedProducts[category]);
+          const tieneSubcategorias = Object.keys(productosPorSub).length > 1;
 
-            return (
-              <section key={category} id={category} className="mb-14 pt-4">
-                <h2 className="text-2xl font-bold mb-8 text-red-800 text-center">
-                  {category}
-                </h2>
-
-               {/* Filtros editoriales ultra compactos */}
-<div className="sticky top-0 z-10 bg-black/80 py-2 flex justify-center gap-1 flex-wrap border-b border-gray-700">
-  <a
-    href="#geles-lubricantes"
-    className="px-2 py-0.5 text-[10px] sm:text-xs font-semibold text-white bg-transparent border border-white/20 rounded-full hover:bg-acento hover:text-black transition tracking-tight"
-  >
-    Geles lubricantes
-  </a>
-  <a
-    href="#aceites-comestibles"
-    className="px-2 py-0.5 text-[10px] sm:text-xs font-semibold text-white bg-transparent border border-white/20 rounded-full hover:bg-acento hover:text-black transition tracking-tight"
-  >
-    Aceites comestibles
-  </a>
-  <a
-    href="#aceites-masajes"
-    className="px-2 py-0.5 text-[10px] sm:text-xs font-semibold text-white bg-transparent border border-white/20 rounded-full hover:bg-acento hover:text-black transition tracking-tight"
-  >
-    Aceites y cremas para masajes
-  </a>
-</div>
-
-
-                {/* Subcategoría: Geles lubricantes */}
-                <div id="geles-lubricantes" className="mb-10 pt-4">
-                  <h3 className="text-xl font-semibold text-white mb-6 text-center">
-                    Geles lubricantes</h3>
-                  <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                    {productosGeles.map((producto, index) => (
-                      <ProductCard key={producto.id} producto={producto} index={index} />
-                    ))}
-                  </div>
-                </div>
-
-                {/* Subcategoría: Aceites comestibles */}
-                <div id="aceites-comestibles" className="mb-12 pt-8">
-                  <h3 className="text-xl font-semibold text-white mb-6 text-center">
-                    Aceites comestibles</h3>
-                  <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                    {productosComestibles.map((producto, index) => (
-                      <ProductCard key={producto.id} producto={producto} index={index} />
-                    ))}
-                  </div>
-                </div>
-
-                {/* Subcategoría: Aceites y cremas para masajes */}
-                <div id="aceites-masajes" className="pt-8">
-                  <h3 className="text-xl font-semibold text-white mb-6 text-center">
-                    Aceites y cremas para masajes</h3>
-                  <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                    {productosMasajes.map((producto, index) => (
-                      <ProductCard key={producto.id} producto={producto} index={index} />
-                    ))}
-                  </div>
-                </div>
-              </section>
-            );
-          }
-
-          // Render normal para otras categorías
           return (
             <section key={category} id={category} className="mb-16 pt-8">
               <h2 className="text-2xl font-bold mb-8 text-red-800 text-center">
                 {category}
               </h2>
 
-              <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                {groupedProducts[category].map((producto, index) => (
-                  <ProductCard
-                    key={producto.id}
-                    producto={producto}
-                    index={index}
-                  />
-                ))}
-              </div>
+              {/* Botones de navegación por subcategoría */}
+              {tieneSubcategorias && (
+                <div className="sticky top-0 z-10 bg-black/80 py-2 flex justify-center gap-1 flex-wrap border-b border-gray-700">
+                  {Object.keys(productosPorSub).map((sub) => (
+                    <a
+                      key={sub}
+                      href={`#${normalizeId(sub)}`}
+                      className="px-2 py-0.5 text-[10px] sm:text-xs font-semibold text-white bg-transparent border border-white/20 rounded-full hover:bg-acento hover:text-black transition tracking-tight"
+                    >
+                      {sub}
+                    </a>
+                  ))}
+                </div>
+              )}
+
+              {/* Secciones por subcategoría */}
+              {Object.entries(productosPorSub).map(([sub, productos]) => (
+                <div key={sub} id={normalizeId(sub)} className="pt-8 mb-12">
+                  {tieneSubcategorias && (
+                    <h3 className="text-xl font-semibold text-white mb-6 text-center">
+                      {sub}
+                    </h3>
+                  )}
+                  <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    {productos.map((producto, index) => (
+                      <ProductCard key={producto.id} producto={producto} index={index} />
+                    ))}
+                  </div>
+                </div>
+              ))}
             </section>
           );
         })}

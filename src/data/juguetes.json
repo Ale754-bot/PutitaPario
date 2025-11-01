@@ -1,0 +1,46 @@
+[
+  {
+    "id": 400,
+    "nombre": "Consolador Realístico Soft Touch",
+    "descripcion": "Textura suave y flexible con ventosa para uso sin manos. Ideal para juegos en solitario o en pareja.",
+    "imagen": "/images/Juguetes/consolador-soft.jpg",
+    "categoria": "Juguetes",
+    "subcategoria": "Consoladores",
+    "stock": true,
+    "marca": "RealFeel",
+    "linea": "Classic",
+    "variantes": [
+      { "tamaño": "18cm", "precio": 8900 },
+      { "tamaño": "22cm", "precio": 10500 }
+    ]
+  },
+  {
+    "id": 401,
+    "nombre": "Masajeador Punto G Recargable",
+    "descripcion": "Diseño ergonómico con vibración silenciosa y múltiples intensidades. Resistente al agua.",
+    "imagen": "/images/Juguetes/masajeador-punto-g.jpg",
+    "categoria": "Juguetes",
+    "subcategoria": "Masajeadores",
+    "stock": true,
+    "marca": "SecretPlay",
+    "linea": "VibeX",
+    "variantes": [
+      { "color": "Violeta", "precio": 11200 },
+      { "color": "Negro", "precio": 11200 }
+    ]
+  },
+  {
+    "id": 402,
+    "nombre": "Mini Consolador Discreto",
+    "descripcion": "Compacto, silencioso y fácil de transportar. Ideal para viajes o primeras experiencias.",
+    "imagen": "/images/Juguetes/mini-consolador.jpg",
+    "categoria": "Juguetes",
+    "subcategoria": "Consoladores",
+    "stock": true,
+    "marca": "LustLab",
+    "linea": "Pocket",
+    "variantes": [
+      { "color": "Rosa", "precio": 6200 }
+    ]
+  }
+]

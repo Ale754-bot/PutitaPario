@@ -1,0 +1,44 @@
+[
+  {
+    "id": 300,
+    "nombre": "Spray Vigor Total - Hombre",
+    "descripcion": "Fórmula herbal con ginseng y maca. Estimula la circulación y potencia la energía íntima.",
+    "imagen": "/images/Vigorizantes/spray-vigor-hombre.jpg",
+    "categoria": "Vigorizantes",
+    "subcategoria": "Sprays estimulantes",
+    "stock": true,
+    "marca": "VitalX",
+    "linea": "Herbal Boost",
+    "variantes": [
+      { "tamaño": "30ml", "precio": 5200 }
+    ]
+  },
+  {
+    "id": 301,
+    "nombre": "Cápsulas Deseo Plus",
+    "descripcion": "Suplemento natural con tribulus y zinc. Mejora el deseo y la resistencia.",
+    "imagen": "/images/Vigorizantes/capsulas-deseo.jpg",
+    "categoria": "Vigorizantes",
+    "subcategoria": "Suplementos naturales",
+    "stock": true,
+    "marca": "SensualFit",
+    "linea": "",
+    "variantes": [
+      { "pack": "30 cápsulas", "precio": 6900 }
+    ]
+  },
+  {
+    "id": 302,
+    "nombre": "Gel Estimulante Íntimo",
+    "descripcion": "Aplicación tópica con efecto calor. Ideal para potenciar el placer en zonas erógenas.",
+    "imagen": "/images/Vigorizantes/gel-estimulante.jpg",
+    "categoria": "Vigorizantes",
+    "subcategoria": "Geles activadores",
+    "stock": true,
+    "marca": "SecretPlay",
+    "linea": "Hot Touch",
+    "variantes": [
+      { "tamaño": "50ml", "precio": 4300 }
+    ]
+  }
+]

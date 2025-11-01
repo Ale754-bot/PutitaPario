@@ -1,0 +1,47 @@
+[
+  {
+    "id": 700,
+    "nombre": "Conjunto de Encaje Bordó",
+    "descripcion": "Top triangular y colaless con detalles florales. Ajuste cómodo y diseño provocador.",
+    "imagen": "/images/Lenceria/conjunto-bordo.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "Conjuntos sensuales",
+    "stock": true,
+    "marca": "Secreto",
+    "linea": "Intense",
+    "variantes": [
+      { "talle": "S", "precio": 7800 },
+      { "talle": "M", "precio": 7800 },
+      { "talle": "L", "precio": 7800 }
+    ]
+  },
+  {
+    "id": 701,
+    "nombre": "Body Transparente con Aberturas",
+    "descripcion": "Diseño audaz con cortes estratégicos. Tela suave y elástica. Ideal para noches especiales.",
+    "imagen": "/images/Lenceria/body-transparente.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "Bodies & transparencias",
+    "stock": true,
+    "marca": "SecretPlay",
+    "linea": "Seduction",
+    "variantes": [
+      { "talle": "Único", "precio": 9200 }
+    ]
+  },
+  {
+    "id": 702,
+    "nombre": "Conjunto Negro con Tiras",
+    "descripcion": "Estilo bondage con tiras ajustables. Incluye top y colaless. Elegancia y provocación.",
+    "imagen": "/images/Lenceria/conjunto-tiras.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "Conjuntos sensuales",
+    "stock": true,
+    "marca": "LustLab",
+    "linea": "DarkLace",
+    "variantes": [
+      { "talle": "S/M", "precio": 8500 },
+      { "talle": "M/L", "precio": 8500 }
+    ]
+  }
+]

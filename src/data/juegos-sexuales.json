@@ -1,0 +1,45 @@
+[
+  {
+    "id": 200,
+    "nombre": "Anillo Vibrador Reutilizable",
+    "descripcion": "Estimulación intensa para ambos. Silencioso, resistente al agua y con batería recargable.",
+    "imagen": "/images/JuegosSexuales/anillo-vibrador.jpg",
+    "categoria": "Juegos Sexuales",
+    "subcategoria": "Estimulación pareja",
+    "stock": true,
+    "marca": "SecretPlay",
+    "linea": "VibeX",
+    "variantes": [
+      { "color": "Negro", "precio": 4800 },
+      { "color": "Rosa", "precio": 4800 }
+    ]
+  },
+  {
+    "id": 201,
+    "nombre": "Dados Eróticos Glow",
+    "descripcion": "Brillan en la oscuridad. Ideal para romper el hielo y explorar nuevas fantasías.",
+    "imagen": "/images/JuegosSexuales/dados-eroticos.jpg",
+    "categoria": "Juegos Sexuales",
+    "subcategoria": "Juegos de mesa",
+    "stock": true,
+    "marca": "Kamasutra",
+    "linea": "",
+    "variantes": [
+      { "pack": "1 par", "precio": 1200 }
+    ]
+  },
+  {
+    "id": 202,
+    "nombre": "Cartas Deseo Extremo",
+    "descripcion": "50 desafíos sensuales para encender la noche. Ideal para parejas aventureras.",
+    "imagen": "/images/JuegosSexuales/cartas-deseo.jpg",
+    "categoria": "Juegos Sexuales",
+    "subcategoria": "Cartas y desafíos",
+    "stock": true,
+    "marca": "LustLab",
+    "linea": "Extreme",
+    "variantes": [
+      { "edición": "Clásica", "precio": 3500 }
+    ]
+  }
+]

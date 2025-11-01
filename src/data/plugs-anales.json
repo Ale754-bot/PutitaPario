@@ -1,0 +1,46 @@
+[
+  {
+    "id": 500,
+    "nombre": "Plug Anal Silicona Clásico",
+    "descripcion": "Diseño ergonómico y textura suave. Ideal para principiantes. Base segura y flexible.",
+    "imagen": "/images/PlugsAnales/plug-clasico.jpg",
+    "categoria": "Plugs Anales",
+    "subcategoria": "Plugs clásicos",
+    "stock": true,
+    "marca": "LustLab",
+    "linea": "Intro",
+    "variantes": [
+      { "tamaño": "Pequeño", "precio": 4200 },
+      { "tamaño": "Mediano", "precio": 4800 }
+    ]
+  },
+  {
+    "id": 501,
+    "nombre": "Plug con Vibración Recargable",
+    "descripcion": "Vibración potente con múltiples intensidades. Recargable por USB. Silencioso y resistente al agua.",
+    "imagen": "/images/PlugsAnales/plug-vibrador.jpg",
+    "categoria": "Plugs Anales",
+    "subcategoria": "Plugs con vibración",
+    "stock": true,
+    "marca": "SecretPlay",
+    "linea": "VibeX",
+    "variantes": [
+      { "color": "Negro", "precio": 9800 },
+      { "color": "Rosa", "precio": 9800 }
+    ]
+  },
+  {
+    "id": 502,
+    "nombre": "Plug con Joyita Acrílica",
+    "descripcion": "Base decorada con piedra acrílica. Elegante y funcional. Ideal para juegos visuales.",
+    "imagen": "/images/PlugsAnales/plug-joya.jpg",
+    "categoria": "Plugs Anales",
+    "subcategoria": "Plugs clásicos",
+    "stock": true,
+    "marca": "GlamPlug",
+    "linea": "Crystal",
+    "variantes": [
+      { "color": "Transparente", "precio": 5600 }
+    ]
+  }
+]

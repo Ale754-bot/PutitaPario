@@ -39,7 +39,7 @@ const CategoryScroll = () => {
     <section className="py-20 overflow-hidden min-h-[400px] bg-black relative">
       <div className="mx-auto max-w-screen-xl px-4">
         <h2 className="text-2xl font-bold mb-8 text-center text-white mx-auto pb-1 w-fit animate-float">
-          Explora por Categoría
+          Explorá por Categoría
         </h2>
 
         {/* Flechas laterales (solo visibles en desktop) */}

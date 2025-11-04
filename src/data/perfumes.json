@@ -1,16 +1,114 @@
 [
   {
     "id": 100,
-    "nombre": "Body Splash Afrodisíaco - Cereza",
-    "descripcion": "Fresco, dulce y provocador. Libre de parabenos, azúcar y gluten. Compatible con preservativos.",
-    "imagen": "/images/Perfumes/body-cereza.jpg",
+    "nombre": "Perfume Afrodisíaco - Elixir",
+    "descripcion": "El aroma de la seducción. Fragancia de espíritu audaz, intenso e irresistible. La Nota de Salida es bergamota; la Nota de Corazón es coco; la Nota de Fondo es haba tonka.",
+    "imagen": "/images/perfumes/p1.jpg",
     "categoria": "Perfumes Afrodisíacos y Body Splash",
     "subcategoria": "",
     "stock": true,
     "marca": "Sexitive",
-    "linea": "",
+    "linea": "For Him",
     "variantes": [
-      { "tamaño": "125ml", "precio": null }
+      { "tamaño": "100ml", "precio": null }
+    ]
+  },
+  {
+    "id": 101,
+    "nombre": "Perfume Afrodisíaco - Gentleman",
+    "descripcion": "El aroma de la seducción. Fragancia de espíritu audaz, intenso e irresistible. Las Notas de Salida son lavanda, menta, cardamomo, bergamota y abrótano; las Notas de Corazón son canela, flor de azahar del naranjo y alcaravea; las Notas de Fondo son vainilla, haba tonka, ámbar, sándalo y cedro.",
+    "imagen": "/images/perfumes/p2.jpg",
+    "categoria": "Perfumes Afrodisíacos y Body Splash",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "For Him",
+    "variantes": [
+      { "tamaño": "100ml", "precio": null }
+    ]
+  },
+  {
+    "id": 102,
+    "nombre": "Perfume Afrodisíaco - Inevitable Men Vip",
+    "descripcion": "Perfume emblema de una seducción insolente e inevitable. Una estela intrigante y sutíl. La Nota de Salida es incienso de Kyara; las Notas de Corazón son ámbar, haba tonka y pachulí; las Notas de Fondo son vainilla, cuero, notas amaderadas, sándalo y vetiver.",
+    "imagen": "/images/perfumes/p3.jpg",
+    "categoria": "Perfumes Afrodisíacos y Body Splash",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "Inevitable",
+    "variantes": [
+      { "tamaño": "100ml", "precio": null }
+    ]
+  },
+  {
+    "id": 103,
+    "nombre": "Perfume Afrodisíaco - Vip",
+    "descripcion": "El aroma de la seducción. Fragancia de espíritu audaz, intenso e irresistible. Las Notas de Salida son limón, jengibre y menta. Las Notas de Fondo son haba tonka y Amberwood",
+    "imagen": "/images/perfumes/p4.jpg",
+    "categoria": "Perfumes Afrodisíacos y Body Splash",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "For Him",
+    "variantes": [
+      { "tamaño": "100ml", "precio": null }
+    ]
+  },
+  {
+    "id": 104,
+    "nombre": "Pefume Afrodisíaco - Inevitable Men",
+    "descripcion": "Un perfume magnetico revitalizante donde la virilidad y el aroma se tutean. Una creación atrevida que establece nuevos códigos de seducción. Las Notas de Salida son pomelo, cardamomo y cilantro; las Notas de Corazón son ajenjo, geranio, abrótano y mango; las Notas de Fondo son vetiver, madera de gaiac y habatonka.",
+    "imagen": "/images/perfumes/p5.jpg",
+    "categoria": "Perfumes Afrodisíacos y Body Splash",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "Inevitable",
+    "variantes": [
+      { "tamaño": "100ml", "precio": null }
+    ]
+  },
+  {
+    "id": 105,
+    "nombre": "Perfume Afrodisíaco",
+    "descripcion": "Inspirado en un hombre distinguido, misterioso y sensual. Las Notas de Salida son manzana verde, lavanda, menta; Las Notas de Fondo son abeto, cedro y pachulí.",
+    "imagen": "/images/perfumes/p8.jpg",
+    "categoria": "Perfumes Afrodisíacos y Body Splash",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "For Him",
+    "variantes": [
+      { "tamaño": "100ml", "precio": null }
+    ]
+  },
+  {
+    "id": 106,
+    "nombre": "Perfume Afrodisíaco - Fucking Fabulous",
+    "descripcion": "Atrevido, vibrante y con una actitud que no se negocia, Fucking Fabulous es una fragancia cítrica amaderada que impone presencia desde el primer instante.",
+    "imagen": "/images/perfumes/p6.jpg",
+    "categoria": "Perfumes Afrodisíacos y Body Splash",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "By Night",
+    "variantes": [
+      { "tamaño": "100ml", "precio": null }
+    ]
+  },
+  {
+    "id": 107,
+    "nombre": "Perfume Afrodisíaco - Ibiza",
+    "descripcion": "Explosivo, vibrante y lleno de actitud, IBIZA es un perfume floral frutal que te transporta directo a la energía de la isla.",
+    "imagen": "/images/perfumes/p7.jpg",
+    "categoria": "Perfumes Afrodisíacos y Body Splash",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "Unisex",
+    "variantes": [
+      { "tamaño": "100ml", "precio": null }
     ]
   }
 ]

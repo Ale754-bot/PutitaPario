@@ -1,44 +1,100 @@
 [
   {
     "id": 300,
-    "nombre": "Spray Vigor Total - Hombre",
-    "descripcion": "Fórmula herbal con ginseng y maca. Estimula la circulación y potencia la energía íntima.",
-    "imagen": "/images/Vigorizantes/spray-vigor-hombre.jpg",
+    "nombre": "Pink Sexy Drops",
+    "descripcion": "Pink Sexy Drops es un suplemento afrodisíaco natural diseñado para potenciar la libido y aumentar el deseo sexual en las mujeres. Con solo entre 10 y 14 gotas diluidas en 200ml de tu bebida favorita, experimentarás nuevas sensaciones y una excitación extraordinaria.",
+    "imagen": "/images/vigorizantes/v1.jpg",
     "categoria": "Vigorizantes",
-    "subcategoria": "Sprays estimulantes",
+    "subcategoria": "",
     "stock": true,
-    "marca": "VitalX",
-    "linea": "Herbal Boost",
+    "marca": "Sexitive",
+    "linea": "power",
     "variantes": [
-      { "tamaño": "30ml", "precio": 5200 }
+      { "tamaño": "20ml", "precio": 5200 }
     ]
   },
   {
     "id": 301,
-    "nombre": "Cápsulas Deseo Plus",
-    "descripcion": "Suplemento natural con tribulus y zinc. Mejora el deseo y la resistencia.",
-    "imagen": "/images/Vigorizantes/capsulas-deseo.jpg",
+    "nombre": "Blue Sexy Drops",
+    "descripcion": "Sexy Drops es un suplemento diseñado para potenciar la libido, aumentando la energía y multiplicando el vigor. Con una pequeña dosis de entre 10 y 14 gotas diluidas en 200ml de tu bebida favorita, experimentarás una excitación extraordinaria y un aumento en el deseo sexual.",
+    "imagen": "/images/vigorizantes/v2.jpg",
     "categoria": "Vigorizantes",
-    "subcategoria": "Suplementos naturales",
+    "subcategoria": "",
     "stock": true,
-    "marca": "SensualFit",
-    "linea": "",
+    "marca": "Sexitive",
+    "linea": "power",
     "variantes": [
-      { "pack": "30 cápsulas", "precio": 6900 }
+      { "tamaño": "20ml", "precio": 5200 }
     ]
   },
   {
     "id": 302,
-    "nombre": "Gel Estimulante Íntimo",
-    "descripcion": "Aplicación tópica con efecto calor. Ideal para potenciar el placer en zonas erógenas.",
-    "imagen": "/images/Vigorizantes/gel-estimulante.jpg",
+    "nombre": "Blue Sexy Pill",
+    "descripcion": "Sexy Pill Blue es un suplemento dietario especialmente formulado para el hombre, diseñado para potenciar la libido, aumentar el vigor y mejorar el rendimiento sexual. Cada cápsula ayuda a estimular la energía sexual, promoviendo una experiencia más intensa y placentera.",
+    "imagen": "/images/vigorizantes/v3.jpg",
     "categoria": "Vigorizantes",
-    "subcategoria": "Geles activadores",
+    "subcategoria": "",
     "stock": true,
-    "marca": "SecretPlay",
-    "linea": "Hot Touch",
+    "marca": "Sexitive",
+    "linea": "power",
     "variantes": [
-      { "tamaño": "50ml", "precio": 4300 }
+      { "tamaño": "4/Uni", "precio": 5200 }
+    ]
+  },
+  {
+    "id": 303,
+    "nombre": "Pink Sexy Pill",
+    "descripcion": "Sexy Pill Pink es un suplemento dietario especialmente formulado para la mujer, diseñado para potenciar la libido, aumentar el deseo sexual y mejorar la experiencia íntima. Cada cápsula ayuda a estimular la energía sexual, promoviendo una experiencia más intensa y placentera.",
+    "imagen": "/images/vigorizantes/v4.jpg",
+    "categoria": "Vigorizantes",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "power",
+    "variantes": [
+      { "tamaño": "4/Uni", "precio": 5200 }
+    ]
+  },
+  {
+    "id": 304,
+    "nombre": "Ultra Hombre - x12 Unidades",
+    "descripcion": "Las Cápsulas ULTRA HOMBRE son el mejor método disponible para aumentar y restaurar la potencia sexual de una forma sana, sencilla y natural. Viva su masculinidad a pleno con ULTRAHOMBRE, un producto único, que combina en su fórmula las más potentes hierbas con probados ingredientes para lograr la más alta efectividad.",
+    "imagen": "/images/vigorizantes/v5.jpg",
+    "categoria": "Vigorizantes",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "Ultra",
+    "linea": "Hombre",
+    "variantes": [
+      { "tamaño": "12/Uni", "precio": 6200 }
+    ]
+  },
+  {
+    "id": 305,
+    "nombre": "Ultra Hombre",
+    "descripcion": "Las Cápsulas ULTRA HOMBRE son el mejor método disponible para aumentar y restaurar la potencia sexual de una forma sana, sencilla y natural. Viva su masculinidad a pleno con ULTRAHOMBRE, un producto único, que combina en su fórmula las más potentes hierbas con probados ingredientes para lograr la más alta efectividad.",
+    "imagen": "/images/vigorizantes/v6.jpg",
+    "categoria": "Vigorizantes",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "Ultra",
+    "linea": "hombre",
+    "variantes": [
+      { "tamaño": "1/Uni", "precio": 6200 }
+    ]
+  },
+  {
+    "id": 306,
+    "nombre": "Xing Yu - x4 Unidades",
+    "descripcion": "Con Xing Yu no es necesario estar pendiente de tomar las cápsulas todos los días del mes para que el producto funcione, sino solamente en aquellos días en los que usted las necesite, ya que no es un tratamiento permanente sino que tiene efecto directo los días en que se toma y dicho efecto perdura hasta tres días.",
+    "imagen": "/images/vigorizantes/v7.jpg",
+    "categoria": "Vigorizantes",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "XING YU",
+    "linea": "HOMBRE",
+    "variantes": [
+      { "tamaño": "4/Uni", "precio": 6200 }
     ]
   }
 ]

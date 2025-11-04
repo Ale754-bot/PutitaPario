@@ -1,45 +1,218 @@
 [
   {
     "id": 200,
-    "nombre": "Anillo Vibrador Reutilizable",
-    "descripcion": "Estimulación intensa para ambos. Silencioso, resistente al agua y con batería recargable.",
-    "imagen": "/images/JuegosSexuales/anillo-vibrador.jpg",
+    "nombre": "Inlube Game",
+    "descripcion": "Buscas ideas originales y divertidas para sorprender a tu pareja? ESTE ES TU JUEGO! Como jugar: El juego incluye 2 dados y 1 gel intimo lubricante de 20 ml El jugador realizara una acción determinada en la parte del cuerpo que le toque. Match to get lucky!",
+    "imagen": "/images/juegos/j1.jpg",
     "categoria": "Juegos Sexuales",
-    "subcategoria": "Estimulación pareja",
+    "subcategoria": "",
     "stock": true,
-    "marca": "SecretPlay",
-    "linea": "VibeX",
-    "variantes": [
-      { "color": "Negro", "precio": 4800 },
-      { "color": "Rosa", "precio": 4800 }
-    ]
+    "marca": "sexitive",
+    "linea": "",
+    "precio": 7990
   },
   {
     "id": 201,
-    "nombre": "Dados Eróticos Glow",
-    "descripcion": "Brillan en la oscuridad. Ideal para romper el hielo y explorar nuevas fantasías.",
-    "imagen": "/images/JuegosSexuales/dados-eroticos.jpg",
+    "nombre": "Ladies Night - For The Girls",
+    "descripcion": "Es el juego ideal para un grupo de amigas que quiera tener una noche íntima y divertida. Contiene 80 cartas + 1 dado.",
+    "imagen": "/images/juegos/j2.jpg",
     "categoria": "Juegos Sexuales",
-    "subcategoria": "Juegos de mesa",
+    "subcategoria": "",
     "stock": true,
-    "marca": "Kamasutra",
+    "marca": "sexitive",
     "linea": "",
-    "variantes": [
-      { "pack": "1 par", "precio": 1200 }
-    ]
+    "precio": 7990
   },
   {
     "id": 202,
-    "nombre": "Cartas Deseo Extremo",
-    "descripcion": "50 desafíos sensuales para encender la noche. Ideal para parejas aventureras.",
-    "imagen": "/images/JuegosSexuales/cartas-deseo.jpg",
+    "nombre": "Extreme Games - 6 Juegos en 1",
+    "descripcion": "En este juego vas a encontrar  desde posiciones sexuales para cada día de la semana hasta fantasías que nunca habías escuchado de tu pareja. ¿Cuál es el premio? Orgasmos intensos.",
+    "imagen": "/images/juegos/j3.jpg",
     "categoria": "Juegos Sexuales",
-    "subcategoria": "Cartas y desafíos",
+    "subcategoria": "",
     "stock": true,
-    "marca": "LustLab",
-    "linea": "Extreme",
-    "variantes": [
-      { "edición": "Clásica", "precio": 3500 }
-    ]
+    "marca": "sexitive",
+    "linea": "",
+    "precio": 7990
+  },
+  {
+    "id": 203,
+    "nombre": "Erotic Tarot - A Tarot For Lovers",
+    "descripcion": "Predice con exactitud el futuro sexual de esta noche. En este juego encontrarás desde posturas de sexo oral increíbles hasta posiciones con juguetes. Contiene 78 posiciones sexuales",
+    "imagen": "/images/juegos/j4.jpg",
+    "categoria": "Juegos Sexuales",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "precio": 7990
+  },
+  {
+    "id": 204,
+    "nombre": "Juego de cartas - Verdad o Reto",
+    "descripcion": "Un juego divertido, picante y excitante. Consta de 80 preguntas y retos atrevidos con los que vas a poder divertirte en pareja o con amigos.",
+    "imagen": "/images/juegos/j5.jpg",
+    "categoria": "Juegos Sexuales",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "precio": 7990
+  },
+  {
+    "id": 205,
+    "nombre": "Lucky Lovers Your Pleasure - Raspá y Jugá",
+    "descripcion": "¡La diversión está asegurada con Lucky Lovers, YOUR PLEASURE! Un juego de raspaditas que incluye 3 dados de juego y 13 cartas, ofreciéndote más de 20 posiciones sexuales para disfrutar con tu pareja. Raspá las tarjetas, lanza los dados y deja que el azar guíe la acción, creando momentos excitantes y llenos de sorpresas. ¡Ideal para explorar y divertirse al máximo!",
+    "imagen": "/images/juegos/j6.jpg",
+    "categoria": "Juegos Sexuales",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "precio": 7990
+  },
+  {
+    "id": 206,
+    "nombre": "Lucky Lovers Your Connection - Raspá y Jugá",
+    "descripcion": "Un juego de raspaditas que incluye 3 dados de juego y 13 cartas, ofreciéndote más de 20 posiciones sexuales para disfrutar con tu pareja. Raspá las tarjetas, lanza los dados y deja que el azar guíe la acción, creando momentos excitantes y llenos de sorpresas. ¡Ideal para explorar y divertirse al máximo!",
+    "imagen": "/images/juegos/j7.jpg",
+    "categoria": "Juegos Sexuales",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "precio": 7990
+  },
+  {
+    "id": 207,
+    "nombre": "Juego Challenge - Desafíos 30 días",
+    "descripcion": "Durante 30 días, enfrentarás diferentes juegos sexuales diseñados para mantener la chispa encendida, mejorar la conexión y explorar nuevas sensaciones. ¿Estás listo para aceptar el reto y disfrutar de un mes lleno de placer y creatividad?",
+    "imagen": "/images/juegos/j8.jpg",
+    "categoria": "Juegos Sexuales",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "precio": 7990
+  },
+  {
+    "id": 208,
+    "nombre": "Fantasy Pleasure Game",
+    "descripcion": "Metete en tu personaje y actuá alguna de tus fantasías secretas. Usá la imaginación e improvisación para hacer que los personajes cobren vida. Para aquellas personas que quieran desarrollar su lado experimental y atrevido.",
+    "imagen": "/images/juegos/j9.jpg",
+    "categoria": "Juegos Sexuales",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "precio": 7990
+  },
+  {
+    "id": 209,
+    "nombre": "Juego de Dados - Love Play",
+    "descripcion": "Love Play es un juego emocionante que incluye tres dados de juego para llevar la diversión y el placer a nuevas alturas. Un dado representa las velocidades, otro los lugares y el dado rosa las posiciones. Lanza los dados y deja que el azar dicte el ritmo, el lugar y la posición para una experiencia única y llena de sorpresas en cada lanzamiento.",
+    "imagen": "/images/juegos/j10.jpg",
+    "categoria": "Juegos Sexuales",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "precio": 7990
+  },
+  {
+    "id": 210,
+    "nombre": "Juego de Dados - Secret Game",
+    "descripcion": "Secret Game es un juego lleno de misterio y excitación que incluye tres dados de juego para explorar nuevas experiencias con tu pareja. Un dado representa el tiempo, otro las acciones y el tercero los lugares. Lanza los dados y deja que el azar guíe tus momentos íntimos, creando situaciones únicas y sorprendentes.",
+    "imagen": "/images/juegos/j11.jpg",
+    "categoria": "Juegos Sexuales",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "precio": 7990
+  },
+  {
+    "id": 211,
+    "nombre": "Juego de Cartas + Dados - Sex Play",
+    "descripcion": "Sex Play es el juego ideal para parejas que buscan llevar su vida sexual a nuevas dimensiones de placer. Con cartas y dados, este juego estimula tus sentidos e invita a explorar aventuras eróticas, desde juegos de rol y fetiches hasta ataduras y mucho más. Atrévete a romper con lo convencional y disfrutar de momentos excitantes llenos de diversión y sensualidad.",
+    "imagen": "/images/juegos/j12.jpg",
+    "categoria": "Juegos Sexuales",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "precio": 7990
+  },
+  {
+    "id": 212,
+    "nombre": "Juego de Cartas + Dados - Les Amants",
+    "descripcion": "Les Amants es un juego diseñado para parejas que buscan un viaje de descubrimiento sexual lleno de pasión. Con cartas que contienen posiciones sexuales, este juego lleva el placer a otro nivel, permitiendo explorar nuevas formas de conexión y disfrute. Lanza los dados, elige una carta y déjate llevar por la excitante aventura de alta voltaje.",
+    "imagen": "/images/juegos/j13.jpg",
+    "categoria": "Juegos Sexuales",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "precio": 7990
+  },
+  {
+    "id": 213,
+    "nombre": "Juego de Cartas + Dados - let's Fucks",
+    "descripcion": "Let’s Fuck es un juego diseñado para dos personas que combina cartas y dados para llevar la intimidad al siguiente nivel. Las cartas incluyen preguntas y tareas que no solo invitan a realizar acciones físicas, sino también a explorar el lenguaje y la comunicación íntima.",
+    "imagen": "/images/juegos/j14.jpg",
+    "categoria": "Juegos Sexuales",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "precio": 7990
+  },
+  {
+    "id": 214,
+    "nombre": "Sex Roulette Lovers Game",
+    "descripcion": "Para jugar en pareja. 24 desafíos para un placer apasionante. Túrnense para girar la flecha y el numero determinara su desafío. Afronta este apasionante reto y experimenta placer e intimidad juntos. A disfrutar! Incluye QR con 5 relatos eroticos!",
+    "imagen": "/images/juegos/j15.jpg",
+    "categoria": "Juegos Sexuales",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "precio": 7990
+  },
+  {
+    "id": 215,
+    "nombre": "Sex Roulette Party Game",
+    "descripcion": "Para jugar con amigos. 24 desafíos para un placer apasionante. Túrnense entre amigos para girar la flecha y el numero determinara su desafío. ¿Qué puesto obtendrás? Afronta este apasionante reto y experimenta placer e intimidad juntos. A disfrutar! Incluye QR con 5 relatos eroticos!",
+    "imagen": "/images/juegos/j16.jpg",
+    "categoria": "Juegos Sexuales",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "precio": 7990
+  },
+  {
+    "id": 216,
+    "nombre": "Mini Poker XXX Edition",
+    "descripcion": "Mini Poker XXX Edition es un juego de póker erótico diseñado para agregar un toque atrevido y divertido a tus momentos íntimos. Contiene 50 cartas con posiciones sexuales que desafiarán a los jugadores a combinar estrategia con sensualidad.",
+    "imagen": "/images/juegos/j17.jpg",
+    "categoria": "Juegos Sexuales",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "precio": 7990
+  },
+  {
+    "id": 217,
+    "nombre": "Juego de Dados Clásico - Oh My God!",
+    "descripcion": "Este juego de dados es la forma perfecta de añadir diversión y sorpresa a tus momentos íntimos. Con dos dados, uno indica una acción sexual a realizar y el otro señala una parte del cuerpo. Lanza los dados y deja que la diversión fluya, explorando nuevas maneras de conectar y disfrutar con tu pareja.",
+    "imagen": "/images/juegos/j18.jpg",
+    "categoria": "Juegos Sexuales",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "precio": 7990
   }
 ]

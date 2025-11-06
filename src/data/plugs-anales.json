@@ -1,46 +1,185 @@
 [
   {
     "id": 500,
-    "nombre": "Plug Anal Silicona Clásico",
-    "descripcion": "Diseño ergonómico y textura suave. Ideal para principiantes. Base segura y flexible.",
-    "imagen": "/images/PlugsAnales/plug-clasico.jpg",
-    "categoria": "Plugs Anales",
-    "subcategoria": "Plugs clásicos",
+    "nombre": "Corazón Acero Hipoalergénico - Rojo",
+    "descripcion": "",
+    "imagen": "/images/plugs/corazon-rojo.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
     "stock": true,
-    "marca": "LustLab",
-    "linea": "Intro",
-    "variantes": [
-      { "tamaño": "Pequeño", "precio": 4200 },
-      { "tamaño": "Mediano", "precio": 4800 }
-    ]
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "talle": "M", "precio": 0 }]
   },
   {
     "id": 501,
-    "nombre": "Plug con Vibración Recargable",
-    "descripcion": "Vibración potente con múltiples intensidades. Recargable por USB. Silencioso y resistente al agua.",
-    "imagen": "/images/PlugsAnales/plug-vibrador.jpg",
-    "categoria": "Plugs Anales",
-    "subcategoria": "Plugs con vibración",
+    "nombre": "Corazón Acero Hipoalergénico - Rosa",
+    "descripcion": "",
+    "imagen": "/images/plugs/corazon-rosa.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
     "stock": true,
-    "marca": "SecretPlay",
-    "linea": "VibeX",
-    "variantes": [
-      { "color": "Negro", "precio": 9800 },
-      { "color": "Rosa", "precio": 9800 }
-    ]
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "talle": "M", "precio": 0 }]
   },
   {
     "id": 502,
-    "nombre": "Plug con Joyita Acrílica",
-    "descripcion": "Base decorada con piedra acrílica. Elegante y funcional. Ideal para juegos visuales.",
-    "imagen": "/images/PlugsAnales/plug-joya.jpg",
-    "categoria": "Plugs Anales",
-    "subcategoria": "Plugs clásicos",
+    "nombre": "Diamante Rojo",
+    "descripcion": "",
+    "imagen": "/images/plugs/diamante-rojo.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
     "stock": true,
-    "marca": "GlamPlug",
-    "linea": "Crystal",
+    "marca": "",
+    "linea": "",
     "variantes": [
-      { "color": "Transparente", "precio": 5600 }
+      { "talle": "M", "precio": 0 },
+      { "talle": "L", "precio": 0 }
     ]
+  },
+  {
+    "id": 503,
+    "nombre": "Diamante Dorado - Fuccia",
+    "descripcion": "",
+    "imagen": "/images/plugs/diamante-dorado-fuccia.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "talle": "S", "precio": 0 }]
+  },
+  {
+    "id": 504,
+    "nombre": "Diamante Dorado - Rosa",
+    "descripcion": "",
+    "imagen": "/images/plugs/diamante-dorado-rosa.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "talle": "S", "precio": 0 }]
+  },
+  {
+    "id": 505,
+    "nombre": "Diamante Plateado",
+    "descripcion": "",
+    "imagen": "/images/plugs/diamante-plateado.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "talle": "S", "precio": 0 }]
+  },
+  {
+    "id": 506,
+    "nombre": "Diamante Plateado - Negro",
+    "descripcion": "",
+    "imagen": "/images/plugs/diamante-plateado-negro.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "talle": "S", "precio": 0 }]
+  },
+  {
+    "id": 507,
+    "nombre": "Diamante Plateado - Naranja",
+    "descripcion": "",
+    "imagen": "/images/plugs/diamante-plateado-naranja.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "talle": "S", "precio": 0 }]
+  },
+  {
+    "id": 508,
+    "nombre": "Pompon Conejo - Negro",
+    "descripcion": "",
+    "imagen": "/images/plugs/pompon-negro.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "talle": "S", "precio": 0 }]
+  },
+  {
+    "id": 509,
+    "nombre": "Pompon Conejo - Rosa",
+    "descripcion": "",
+    "imagen": "/images/plugs/pompon-rosa.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "talle": "S", "precio": 0 }]
+  },
+  {
+    "id": 510,
+    "nombre": "Cola Zorro",
+    "descripcion": "",
+    "imagen": "/images/plugs/cola-zorro.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "talle": "S", "precio": 0 }]
+  },
+  {
+    "id": 511,
+    "nombre": "Colección Kitty",
+    "descripcion": "",
+    "imagen": "/images/plugs/kitty.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "talle": "S", "precio": 0 }]
+  },
+  {
+    "id": 512,
+    "nombre": "Tornasol",
+    "descripcion": "",
+    "imagen": "/images/plugs/tornasol.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "talle": "S", "precio": 0 }]
+  },
+  {
+    "id": 513,
+    "nombre": "Cola de Zorro Rosa con accesorios",
+    "descripcion": "",
+    "imagen": "/images/plugs/cola-zorro-rosa-accesorios.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "talle": "S", "precio": 0 }]
+  },
+  {
+    "id": 514,
+    "nombre": "Plug con carga USB a control remoto",
+    "descripcion": "",
+    "imagen": "/images/plugs/usb-control.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "talle": "S", "precio": 0 }]
   }
 ]

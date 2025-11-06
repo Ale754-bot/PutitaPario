@@ -1,44 +1,234 @@
 [
   {
     "id": 600,
-    "nombre": "Vela Afrodisíaca de Masaje - Vainilla",
-    "descripcion": "Se derrite en aceite tibio para masajes sensuales. Aroma dulce y envolvente. Libre de parabenos.",
-    "imagen": "/images/Velas/vela-vainilla.jpg",
+    "nombre": "Mon Amour - Intense",
+    "descripcion": "Vela afrodisíaca de 30 g. Aroma intenso y envolvente.",
+    "imagen": "/images/velas/mon-amour-intense.jpg",
     "categoria": "Velas",
-    "subcategoria": "Afrodisíacas",
+    "subcategoria": "Velas Afrodisíacas",
     "stock": true,
-    "marca": "SensualFlame",
-    "linea": "Essence",
-    "variantes": [
-      { "tamaño": "80g", "precio": 4900 }
-    ]
+    "marca": "Sexitive",
+    "linea": "",
+    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
   },
   {
     "id": 601,
-    "nombre": "Vela Exótica con Feromonas - Sándalo",
-    "descripcion": "Aroma intenso y misterioso. Ideal para ambientar rituales íntimos. Contiene feromonas naturales.",
-    "imagen": "/images/Velas/vela-sandalo.jpg",
+    "nombre": "Hot - Intense",
+    "descripcion": "Vela afrodisíaca de 30 g. Sensación cálida y estimulante.",
+    "imagen": "/images/velas/hot-intense.jpg",
     "categoria": "Velas",
-    "subcategoria": "Exóticas",
+    "subcategoria": "Velas Afrodisíacas",
     "stock": true,
-    "marca": "MysticMood",
-    "linea": "Feroflame",
-    "variantes": [
-      { "tamaño": "100g", "precio": 6200 }
-    ]
+    "marca": "Sexitive",
+    "linea": "",
+    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
   },
   {
     "id": 602,
-    "nombre": "Vela Afrodisíaca de Masaje - Frutos Rojos",
-    "descripcion": "Textura cremosa al derretirse. Aroma frutal y provocador. Ideal para juegos de seducción.",
-    "imagen": "/images/Velas/vela-frutos-rojos.jpg",
+    "nombre": "Crazy Girl",
+    "descripcion": "Vela afrodisíaca de 30 g. Aroma provocador y divertido.",
+    "imagen": "/images/velas/crazy-girl.jpg",
     "categoria": "Velas",
-    "subcategoria": "Afrodisíacas",
+    "subcategoria": "Velas Afrodisíacas",
     "stock": true,
-    "marca": "SecretPlay",
-    "linea": "HotWax",
+    "marca": "Sexitive",
+    "linea": "",
+    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
+  },
+  {
+    "id": 603,
+    "nombre": "It Femme",
+    "descripcion": "Vela afrodisíaca de 30 g. Elegancia y sensualidad en cada nota.",
+    "imagen": "/images/velas/it-femme.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Velas Afrodisíacas",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "",
+    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
+  },
+  {
+    "id": 604,
+    "nombre": "My Hemp",
+    "descripcion": "Vela afrodisíaca de 30 g. Toque herbal con efecto relajante.",
+    "imagen": "/images/velas/my-hemp.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Velas Afrodisíacas",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "",
+    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
+  },
+  {
+    "id": 605,
+    "nombre": "Desire - Coconut",
+    "descripcion": "Vela afrodisíaca de 30 g. Aroma tropical y envolvente.",
+    "imagen": "/images/velas/desire-coconut.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Velas Afrodisíacas",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "",
+    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
+  },
+  {
+    "id": 606,
+    "nombre": "Sweet - Vainilla Coconut",
+    "descripcion": "Vela afrodisíaca de 30 g. Mezcla dulce de vainilla y coco.",
+    "imagen": "/images/velas/sweet-vainilla-coconut.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Velas Afrodisíacas",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "",
+    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
+  },
+  {
+    "id": 607,
+    "nombre": "Sweet - Caramel Strawberries",
+    "descripcion": "Vela afrodisíaca de 30 g. Fusión de caramelo y frutilla.",
+    "imagen": "/images/velas/sweet-caramel-strawberries.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Velas Afrodisíacas",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "",
+    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
+  },
+  {
+    "id": 608,
+    "nombre": "Caramel Cinnamon - Spice",
+    "descripcion": "Vela afrodisíaca de 30 g. Caramelo especiado con canela.",
+    "imagen": "/images/velas/caramel-cinnamon-spice.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Velas Afrodisíacas",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "",
+    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
+  },
+  {
+    "id": 609,
+    "nombre": "BE Aphrodisiac",
+    "descripcion": "Vela afrodisíaca de 30 g. Aroma seductor y envolvente.",
+    "imagen": "/images/velas/be-aphrodisiac.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Velas Afrodisíacas",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "",
+    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
+  },
+  {
+    "id": 610,
+    "nombre": "Vela Union",
+    "descripcion": "Vela exótica de 30 g. Fusión simbólica de cuerpos en una sola llama.",
+    "imagen": "/images/velas/union.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Velas Exóticas",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "tamaño": "Único", "precio": 0 }]
+  },
+  {
+    "id": 611,
+    "nombre": "Vela Union 2",
+    "descripcion": "Vela exótica de 30 g. Variante escultórica de la unión sensual.",
+    "imagen": "/images/velas/union2.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Velas Exóticas",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "tamaño": "Único", "precio": 0 }]
+  },
+  {
+    "id": 612,
+    "nombre": "Vela Union 3",
+    "descripcion": "Vela exótica de 30 g. Representación artística de la conexión íntima.",
+    "imagen": "/images/velas/union3.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Velas Exóticas",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "",
+    "variantes": [{ "tamaño": "Único", "precio": 0 }]
+  },
+  {
+    "id": 613,
+    "nombre": "Vela Vulva",
+    "descripcion": "Vela exótica de 30 g. Celebración visual de la feminidad.",
+    "imagen": "/images/velas/vulva.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Velas Exóticas",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "",
+    "variantes": [{ "tamaño": "Único", "precio": 0 }]
+  },
+  {
+    "id": 614,
+    "nombre": "Vela Pene",
+    "descripcion": "Vela exótica tamaño S. Diseño provocador y juguetón.",
+    "imagen": "/images/velas/pene-s.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Velas Exóticas",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "",
     "variantes": [
-      { "tamaño": "80g", "precio": 5100 }
-    ]
+  {
+    "tamaño": "S - Rojo",
+    "color": "Rojo",
+    "precio": 7000,
+    "imagen": "/images/velas/pene-s-rojo.jpg"
+  },
+  {
+    "tamaño": "S - Blanco",
+    "color": "Blanco",
+    "precio": 7000,
+    "imagen": "/images/velas/pene-s-blanco.jpg"
   }
+]
+  },
+  {
+    "id": 615,
+    "nombre": "Vela Pene 2",
+    "descripcion": "Vela exótica tamaño M. Ideal para ambientaciones atrevidas.",
+    "imagen": "/images/velas/pene-m.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Velas Exóticas",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "",
+    "variantes": [
+  {
+    "tamaño": "M - Rojo",
+    "color": "Rojo",
+    "precio": 7000,
+    "imagen": "/images/velas/pene-s-rojo.jpg"
+  },
+  {
+    "tamaño": "M - Blanco",
+    "color": "Blanco",
+    "precio": 7000,
+    "imagen": "/images/velas/pene-s-blanco.jpg"
+  }
+]
+  },
+  {
+    "id": 616,
+    "nombre": "Vela Pene 3",
+    "descripcion": "Vela exótica tamaño L. Presencia audaz y decorativa.",
+    "imagen": "/images/velas/pene-l.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Velas Exóticas",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "",
+    "variantes": [{ "tamaño": "L", "precio": 0 }]
+  }
+
+
 ]

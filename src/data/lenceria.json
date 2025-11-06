@@ -1,47 +1,206 @@
 [
   {
     "id": 700,
-    "nombre": "Conjunto de Encaje Bordó",
-    "descripcion": "Top triangular y colaless con detalles florales. Ajuste cómodo y diseño provocador.",
-    "imagen": "/images/Lenceria/conjunto-bordo.jpg",
+    "nombre": "Conjunto Hebillas 1",
+    "descripcion": "",
+    "imagen": "/images/lenceria/hebillas1.jpg",
     "categoria": "Lencería",
-    "subcategoria": "Conjuntos sensuales",
+    "subcategoria": "",
     "stock": true,
-    "marca": "Secreto",
-    "linea": "Intense",
+    "marca": "",
+    "linea": "",
     "variantes": [
-      { "talle": "S", "precio": 7800 },
-      { "talle": "M", "precio": 7800 },
-      { "talle": "L", "precio": 7800 }
+      { "talle": "S", "precio": 0 },
+      { "talle": "M", "precio": 0 },
+      { "talle": "L", "precio": 0 }
     ]
   },
   {
     "id": 701,
-    "nombre": "Body Transparente con Aberturas",
-    "descripcion": "Diseño audaz con cortes estratégicos. Tela suave y elástica. Ideal para noches especiales.",
-    "imagen": "/images/Lenceria/body-transparente.jpg",
+    "nombre": "Conjunto Hebillas 2",
+    "descripcion": "",
+    "imagen": "/images/lenceria/hebillas2.jpg",
     "categoria": "Lencería",
-    "subcategoria": "Bodies & transparencias",
+    "subcategoria": "",
     "stock": true,
-    "marca": "SecretPlay",
-    "linea": "Seduction",
+    "marca": "",
+    "linea": "",
     "variantes": [
-      { "talle": "Único", "precio": 9200 }
+      { "talle": "S", "precio": 0 },
+      { "talle": "M", "precio": 0 },
+      { "talle": "L", "precio": 0 }
     ]
   },
   {
     "id": 702,
-    "nombre": "Conjunto Negro con Tiras",
-    "descripcion": "Estilo bondage con tiras ajustables. Incluye top y colaless. Elegancia y provocación.",
-    "imagen": "/images/Lenceria/conjunto-tiras.jpg",
+    "nombre": "Conjunto Corazones 1",
+    "descripcion": "",
+    "imagen": "/images/lenceria/corazones1.jpg",
     "categoria": "Lencería",
-    "subcategoria": "Conjuntos sensuales",
+    "subcategoria": "",
     "stock": true,
-    "marca": "LustLab",
-    "linea": "DarkLace",
+    "marca": "",
+    "linea": "",
     "variantes": [
-      { "talle": "S/M", "precio": 8500 },
-      { "talle": "M/L", "precio": 8500 }
+      { "talle": "S", "precio": 0 },
+      { "talle": "M", "precio": 0 },
+      { "talle": "L", "precio": 0 }
     ]
+  },
+  {
+    "id": 703,
+    "nombre": "Conjunto Corazones 2",
+    "descripcion": "",
+    "imagen": "/images/lenceria/corazones2.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [
+      { "talle": "S", "precio": 0 },
+      { "talle": "M", "precio": 0 },
+      { "talle": "L", "precio": 0 }
+    ]
+  },
+  {
+    "id": 704,
+    "nombre": "Conjunto Corazones 3",
+    "descripcion": "",
+    "imagen": "/images/lenceria/corazones3.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [
+      { "talle": "S", "precio": 0 },
+      { "talle": "M", "precio": 0 },
+      { "talle": "L", "precio": 0 }
+    ]
+  },
+  {
+    "id": 705,
+    "nombre": "Conjunto Cadenas 1",
+    "descripcion": "",
+    "imagen": "/images/lenceria/cadenas1.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [
+      { "talle": "S", "precio": 0 },
+      { "talle": "M", "precio": 0 },
+      { "talle": "L", "precio": 0 }
+    ]
+  },
+  {
+    "id": 706,
+    "nombre": "Conjunto Cadenas 2",
+    "descripcion": "",
+    "imagen": "/images/lenceria/cadenas2.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [
+      { "talle": "S", "precio": 0 },
+      { "talle": "M", "precio": 0 },
+      { "talle": "L", "precio": 0 }
+    ]
+  },
+  {
+    "id": 707,
+    "nombre": "Conjunto Cadenas 3",
+    "descripcion": "",
+    "imagen": "/images/lenceria/cadenas3.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [
+      { "talle": "S", "precio": 0 },
+      { "talle": "M", "precio": 0 },
+      { "talle": "L", "precio": 0 }
+    ]
+  },
+  {
+    "id": 708,
+    "nombre": "Conjunto Cadenas 4",
+    "descripcion": "",
+    "imagen": "/images/lenceria/cadenas4.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [
+      { "talle": "S", "precio": 0 },
+      { "talle": "M", "precio": 0 },
+      { "talle": "L", "precio": 0 }
+    ]
+  },
+  {
+    "id": 709,
+    "nombre": "Body Lirio Flores 1",
+    "descripcion": "",
+    "imagen": "/images/lenceria/lirio1.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "talle": "Único", "precio": 0 }]
+  },
+  {
+    "id": 710,
+    "nombre": "Body Lirio Flores 2",
+    "descripcion": "",
+    "imagen": "/images/lenceria/lirio2.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "talle": "Único", "precio": 0 }]
+  },
+  {
+    "id": 711,
+    "nombre": "Body Lirio Flores 3",
+    "descripcion": "",
+    "imagen": "/images/lenceria/lirio3.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "talle": "Único", "precio": 0 }]
+  },
+  {
+    "id": 712,
+    "nombre": "Body Lirio Flores 4",
+    "descripcion": "",
+    "imagen": "/images/lenceria/lirio4.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "talle": "Único", "precio": 0 }]
+  },
+  {
+    "id": 713,
+    "nombre": "Body Lirio Flores 5",
+    "descripcion": "",
+    "imagen": "/images/lenceria/lirio5.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [{ "talle": "Único", "precio": 0 }]
   }
 ]

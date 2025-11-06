@@ -11,8 +11,8 @@
     "marca": "Sextual",
     "linea": "Natural", 
     "variantes": [
-      { "tamaño": "80ml", "precio": 2500 },
-      { "tamaño": "200ml", "precio": 4000 }
+      { "tamaño": "80ml", "precio": 6500 },
+      { "tamaño": "200ml", "precio": 12000 }
     ]
   },
   {
@@ -26,7 +26,7 @@
     "marca": "Sextual",
     "linea": "Natural",
     "variantes": [
-      { "tamaño": "80ml", "precio": null }
+      { "tamaño": "80ml", "precio": 6500 }
     ]
   },
   {
@@ -40,7 +40,7 @@
     "marca": "Sextual",
     "linea": "Sens",
     "variantes": [
-      { "tamaño": "80ml", "precio": null }
+      { "tamaño": "80ml", "precio": 6500 }
     ]
   },
   {
@@ -54,8 +54,8 @@
     "marca": "Sextual",
     "linea": "Sens",
     "variantes": [
-      { "tamaño": "80ml", "precio": null },
-      { "tamaño": "200ml", "precio": null }
+      { "tamaño": "80ml", "precio": 6500 },
+      { "tamaño": "200ml", "precio": 12000 }
     ]
   },
   {
@@ -69,8 +69,8 @@
     "marca": "Sextual",
     "linea": "Sens",
     "variantes": [
-      { "tamaño": "80ml", "precio": null },
-      { "tamaño": "200ml", "precio": null }
+      { "tamaño": "80ml", "precio": 6500 },
+      { "tamaño": "200ml", "precio": 12000 }
     ]
   },
   {
@@ -84,7 +84,7 @@
     "marca": "Sextual",
     "linea": "Sens",
     "variantes": [
-      { "tamaño": "80ml", "precio": null }
+      { "tamaño": "80ml", "precio": 6500 }
     ]
   },
   {
@@ -98,8 +98,8 @@
     "marca": "Sextual",
     "linea": "Twerking",
     "variantes": [
-      { "tamaño": "80ml", "precio": null },
-      { "tamaño": "200ml", "precio": null }
+      { "tamaño": "80ml", "precio": 6500 },
+      { "tamaño": "200ml", "precio": 12000 }
     ]
   },
   {
@@ -113,7 +113,7 @@
     "marca": "Sextual",
     "linea": "Sens",
     "variantes": [
-      { "tamaño": "80ml", "precio": null }
+      { "tamaño": "80ml", "precio": 6500 }
     ]
   },
   {
@@ -127,7 +127,7 @@
     "marca": "Sextual",
     "linea": "Sens",
     "variantes": [
-      { "tamaño": "80ml", "precio": null }
+      { "tamaño": "80ml", "precio": 6500 }
     ]
   },
   {
@@ -141,7 +141,7 @@
     "marca": "Sextual",
     "linea": "Fancy",
     "variantes": [
-      { "tamaño": "80ml", "precio": null }
+      { "tamaño": "80ml", "precio": 6500 }
     ]
   },
   {
@@ -155,7 +155,7 @@
     "marca": "Sextual",
     "linea": "Fancy",
     "variantes": [
-      { "tamaño": "80ml", "precio": null }
+      { "tamaño": "80ml", "precio": 6500 }
     ]
   },
   {
@@ -169,7 +169,7 @@
     "marca": "Sextual",
     "linea": "Fancy",
     "variantes": [
-      { "tamaño": "80ml", "precio": null }
+      { "tamaño": "80ml", "precio": 6500 }
     ]
   },
 
@@ -183,7 +183,7 @@
   "stock": true,
   "marca": "Calins",
   "variantes": [
-    { "tamaño": "75ml", "precio": null }
+    { "tamaño": "75ml", "precio": 10000 }
   ]
 },
 {
@@ -196,7 +196,7 @@
   "stock": true,
   "marca": "Calins",
   "variantes": [
-    { "tamaño": "75ml", "precio": null }
+    { "tamaño": "75ml", "precio": 10000 }
   ]
 },
 {
@@ -222,7 +222,7 @@
   "stock": true,
   "marca": "Calins",
   "variantes": [
-    { "tamaño": "75ml", "precio": null }
+    { "tamaño": "75ml", "precio": 10000 }
   ]
 },
 {
@@ -235,7 +235,7 @@
   "stock": true,
   "marca": "Calins",
   "variantes": [
-    { "tamaño": "75ml", "precio": null }
+    { "tamaño": "75ml", "precio": 10000 }
   ]
 },
 {
@@ -248,7 +248,7 @@
   "stock": true,
   "marca": "Calins",
   "variantes": [
-    { "tamaño": "75ml", "precio": null }
+    { "tamaño": "75ml", "precio": 10000 }
   ]
 },
 {
@@ -261,7 +261,7 @@
   "stock": true,
   "marca": "Calins",
   "variantes": [
-    { "tamaño": "75ml", "precio": null }
+    { "tamaño": "75ml", "precio": 10000 }
   ]
 },
 {
@@ -275,7 +275,7 @@
   "marca": "Sexitive",
   "linea": "Wet",
   "variantes": [
-    { "tamaño": "75ml", "precio": null }
+    { "tamaño": "75ml", "precio": 10500 }
   ]
 },
 {
@@ -289,7 +289,7 @@
   "marca": "Sexitive",
   "linea": "Wet",
   "variantes": [
-    { "tamaño": "75ml", "precio": null }
+    { "tamaño": "75ml", "precio": 10500 }
   ]
 },
 {
@@ -303,7 +303,7 @@
   "marca": "Sexitive",
   "linea": "Wet",
   "variantes": [
-    { "tamaño": "75ml", "precio": null }
+    { "tamaño": "75ml", "precio": 10500 }
   ]
 },
 {
@@ -317,7 +317,7 @@
   "marca": "Sexitive",
   "linea": "Wet",
   "variantes": [
-    { "tamaño": "75ml", "precio": null }
+    { "tamaño": "75ml", "precio": 10500 }
   ]
 },
 {
@@ -331,7 +331,7 @@
   "marca": "Sexitive",
   "linea": "Wet",
   "variantes": [
-    { "tamaño": "75ml", "precio": null }
+    { "tamaño": "75ml", "precio": 10500 }
   ]
 },
 {
@@ -345,7 +345,7 @@
   "marca": "Sexitive",
   "linea": "Wet",
   "variantes": [
-    { "tamaño": "75ml", "precio": null }
+    { "tamaño": "75ml", "precio": 10500 }
   ]
 },
 {
@@ -358,7 +358,7 @@
   "stock": true,
   "marca": "Sexitive",
   "variantes": [
-    { "tamaño": "75ml", "precio": null }
+    { "tamaño": "75ml", "precio": 10500 }
   ]
 },
 {
@@ -371,7 +371,7 @@
   "stock": true,
   "marca": "Sexitive",
   "variantes": [
-    { "tamaño": "75ml", "precio": null }
+    { "tamaño": "75ml", "precio": 10500 }
   ]
 },
 {
@@ -385,7 +385,7 @@
   "marca": "Sexitive",
   "linea": "Lübe",
   "variantes": [
-    { "tamaño": "130ml", "precio": null }
+    { "tamaño": "130ml", "precio": 13800 }
   ]
 },
 {
@@ -399,7 +399,7 @@
   "marca": "Sexitive",
    "linea": "Lübe",
   "variantes": [
-    { "tamaño": "130ml", "precio": null }
+    { "tamaño": "130ml", "precio": 13800 }
   ]
 },
 {
@@ -413,7 +413,7 @@
   "marca": "Sexitive",
    "linea": "Lübe",
   "variantes": [
-    { "tamaño": "130ml", "precio": null }
+    { "tamaño": "130ml", "precio": 13800 }
   ]
 },
 {
@@ -427,7 +427,7 @@
   "marca": "Sexitive",
   "linea": "For Him",
   "variantes": [
-    { "tamaño": "130ml", "precio": null }
+    { "tamaño": "130ml", "precio": 13800 }
   ]
 },
 {

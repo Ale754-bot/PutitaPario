@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 const CATEGORIES = [
   "Geles, Aceites & Cremas",
@@ -13,6 +14,14 @@ const CATEGORIES = [
   "Disfraces"
 ];
 
+const fadeUp = {
+  hidden: { opacity: 0, y: 30 },
+  visible: (i = 0) => ({
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.8, ease: 'easeOut', delay: i * 0.15 },
+  }),
+};
 
 const CategoryScroll = () => {
   const navigate = useNavigate();
@@ -36,64 +45,77 @@ const CategoryScroll = () => {
   };
 
   return (
-    <section className="py-20 overflow-hidden min-h-[400px] bg-black relative">
+    <section className="py-20 overflow-hidden min-h-[400px] bg-gradient-to-b from-black via-black to-neutral-900 relative">
       <div className="mx-auto max-w-screen-xl px-4">
-        <h2 className="text-2xl font-bold mb-8 text-center text-white mx-auto pb-1 w-fit animate-float">
+        <motion.h2
+          custom={0}
+          variants={fadeUp}
+          initial="hidden"
+          animate="visible"
+          className="text-3xl md:text-4xl font-extrabold mb-8 text-center text-white tracking-tight"
+        >
           Explorá por Categoría
-        </h2>
+        </motion.h2>
 
-        {/* Flechas laterales (solo visibles en desktop) */}
-        <button
+        {/* Flechas laterales */}
+        <motion.button
+          whileHover={{ scale: 1.1 }}
           onClick={scrollLeft}
           className="hidden md:flex absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-black/60 text-white px-3 py-2 rounded-full hover:bg-acento transition"
           aria-label="Scroll izquierda"
         >
           ←
-        </button>
-        <button
+        </motion.button>
+        <motion.button
+          whileHover={{ scale: 1.1 }}
           onClick={scrollRight}
           className="hidden md:flex absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-black/60 text-white px-3 py-2 rounded-full hover:bg-acento transition"
           aria-label="Scroll derecha"
         >
           →
-        </button>
+        </motion.button>
 
         {/* Scroll manual con snapping */}
-        <div
+        <motion.div
           ref={scrollRef}
-          className="w-full overflow-x-auto overflow-y-hidden touch-pan-x mask-fade-horizontal scroll-smooth snap-x snap-mandatory no-scrollbar"
+          className="w-full overflow-x-auto overflow-y-hidden touch-pan-x scroll-smooth snap-x snap-mandatory no-scrollbar"
+          whileTap={{ cursor: 'grabbing' }}
         >
           <div className="flex gap-6 px-6 py-6 min-w-max">
-            {CATEGORIES.map((name) => (
-              <div
+            {CATEGORIES.map((name, i) => (
+              <motion.div
                 key={name}
+                custom={i + 1}
+                variants={fadeUp}
+                initial="hidden"
+                animate="visible"
                 onClick={() => handleCategoryClick(name)}
                 className="
-                  card-glow-linear
-                  relative flex-shrink-0 w-64 h-72 rounded-lg overflow-hidden
+                  relative flex-shrink-0 w-64 h-72 rounded-xl overflow-hidden
                   snap-start transition-transform duration-300 ease-in-out
-                  hover:scale-[1.05]
-                  border border-transparent cursor-pointer
-                  bg-black bg-opacity-30 backdrop-blur-sm group
-                  flex flex-col items-center justify-center gap-4 px-4
+                  hover:scale-[1.07] hover:z-10
+                  border border-white/10 cursor-pointer
+                  bg-gradient-to-br from-black via-neutral-900 to-black backdrop-blur-sm group
+                  flex flex-col items-center justify-center gap-4 px-4 shadow-[0_0_20px_rgba(255,255,255,0.1)]
                 "
                 aria-label={`Ver productos en la categoría ${name}`}
               >
-                <img
+                <motion.img
                   src={`/PP1.png`}
                   alt={name}
-                  className="max-w-[160px] max-h-[160px] object-contain transition-transform duration-500 group-hover:scale-105"
+                  className="max-w-[160px] max-h-[160px] object-contain transition-transform duration-500 group-hover:scale-110"
+                  whileHover={{ rotate: 2 }}
                 />
                 <div className="text-center">
-                  <h3 className="text-2xl font-extrabold text-white leading-none drop-shadow-lg uppercase">
+                  <h3 className="text-xl font-bold text-white leading-none drop-shadow uppercase tracking-wide">
                     {name}
                   </h3>
-                  <p className="text-sm text-white font-medium">Ver más &rarr;</p>
+                  <p className="text-sm text-white/80 font-medium">Ver más →</p>
                 </div>
-              </div>
+              </motion.div>
             ))}
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

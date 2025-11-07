@@ -12,7 +12,7 @@ const fadeUp = {
 
 const Contacto = () => {
   return (
-<main className="mx-auto max-w-screen-xl px-4 py-20 text-center min-h-[70vh]">
+    <main className="mx-auto max-w-screen-xl px-4 py-20 text-center min-h-[70vh]">
       <motion.h1
         custom={0}
         variants={fadeUp}
@@ -38,12 +38,12 @@ const Contacto = () => {
         variants={fadeUp}
         initial="hidden"
         animate="visible"
-        className="flex flex-col md:flex-row justify-center items-center gap-8 text-left"
+        className="flex flex-col md:flex-row justify-center items-center gap-8 text-left mb-12"
       >
         {/* WhatsApp */}
         <motion.a
           whileHover={{ scale: 1.05 }}
-          href="https://wa.me/5493411234567"
+          href="https://wa.me/5493412634440"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-acento text-white px-6 py-5 rounded-xl shadow-lg hover:bg-red-800 transition-all w-full max-w-sm"
@@ -51,17 +51,48 @@ const Contacto = () => {
           <h3 className="text-xl font-bold mb-1">WhatsApp directo</h3>
           <p className="text-sm">Consultanos lo que quieras. Te respondemos con buena onda y sin vueltas.</p>
         </motion.a>
-
-        {/* Email */}
-        <motion.a
-          whileHover={{ scale: 1.05 }}
-          href="putitapario@gmail.com"
-          className="bg-black text-white px-6 py-5 rounded-xl shadow-lg border border-white/20 hover:border-acento transition-all w-full max-w-sm"
-        >
-          <h3 className="text-xl font-bold mb-1">Correo</h3>
-          <p className="text-sm">Pedidos especiales, compras por mayor.</p>
-        </motion.a>
       </motion.div>
+
+      {/* Formulario */}
+      <motion.form
+        custom={3}
+        variants={fadeUp}
+        initial="hidden"
+        animate="visible"
+        action="https://formsubmit.co/putitapario@gmail.com"
+        method="POST"
+        className="mx-auto max-w-md flex flex-col gap-4 text-left"
+      >
+        <input
+          type="text"
+          name="nombre"
+          placeholder="Tu nombre"
+          required
+          className="p-3 rounded-xl border border-white/20 bg-black text-white placeholder-white/50"
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Tu correo"
+          required
+          className="p-3 rounded-xl border border-white/20 bg-black text-white placeholder-white/50"
+        />
+        <textarea
+          name="mensaje"
+          placeholder="Escribí tu consulta..."
+          required
+          className="p-3 rounded-xl border border-white/20 bg-black text-white placeholder-white/50 h-32 resize-none"
+        />
+        <input type="hidden" name="_next" value="https://tusitio.com/gracias" />
+        <input type="text" name="_honey" style={{ display: 'none' }} />
+
+        <button
+          type="submit"
+          className="bg-acento text-white py-3 px-6 rounded-xl hover:bg-red-800 transition-all"
+        >
+          Enviar mensaje
+        </button>
+      </motion.form>
     </main>
   );
 };

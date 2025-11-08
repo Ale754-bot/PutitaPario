@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
@@ -26,6 +26,8 @@ const fadeUp = {
 const CategoryScroll = () => {
   const navigate = useNavigate();
   const scrollRef = useRef(null);
+  const cardRefs = useRef([]);
+  const [scales, setScales] = useState(CATEGORIES.map(() => 1));
 
   const handleCategoryClick = (name) => {
     const categoriaParam = name.toLowerCase().replace(/\s/g, '-');
@@ -44,8 +46,40 @@ const CategoryScroll = () => {
     }
   };
 
+  const updateScales = () => {
+    if (!scrollRef.current) return;
+    const container = scrollRef.current;
+    const center = container.offsetWidth / 2;
+
+    const newScales = cardRefs.current.map((card) => {
+      if (!card) return 1;
+      const rect = card.getBoundingClientRect();
+      const cardCenter = rect.left + rect.width / 2 - container.getBoundingClientRect().left;
+      const distance = Math.abs(center - cardCenter);
+      const maxDistance = container.offsetWidth / 2;
+      const scale = 1.05 - (distance / maxDistance) * 0.15;
+      return Math.max(0.9, Math.min(1.1, scale));
+    });
+
+    setScales(newScales);
+  };
+
+  useEffect(() => {
+    updateScales();
+    const container = scrollRef.current;
+    if (!container) return;
+
+    container.addEventListener('scroll', updateScales);
+    window.addEventListener('resize', updateScales);
+
+    return () => {
+      container.removeEventListener('scroll', updateScales);
+      window.removeEventListener('resize', updateScales);
+    };
+  }, []);
+
   return (
-    <section className="py-20 overflow-hidden min-h-[400px] bg-gradient-to-b from-black via-black to-neutral-900 relative">
+    <section className="py-2 overflow-hidden bg-gradient-to-b from-black via-black to-black relative">
       <div className="mx-auto max-w-screen-xl px-4">
         <motion.h2
           custom={0}
@@ -81,19 +115,21 @@ const CategoryScroll = () => {
           className="w-full overflow-x-auto overflow-y-hidden touch-pan-x scroll-smooth snap-x snap-mandatory no-scrollbar"
           whileTap={{ cursor: 'grabbing' }}
         >
-          <div className="flex gap-6 px-6 py-6 min-w-max">
+          <div className="flex gap-6 px-6 py-6 min-w-max items-center">
             {CATEGORIES.map((name, i) => (
               <motion.div
                 key={name}
+                ref={(el) => (cardRefs.current[i] = el)}
                 custom={i + 1}
                 variants={fadeUp}
                 initial="hidden"
                 animate="visible"
                 onClick={() => handleCategoryClick(name)}
+                style={{ scale: scales[i] }}
                 className="
                   relative flex-shrink-0 w-64 h-72 rounded-xl overflow-hidden
                   snap-start transition-transform duration-300 ease-in-out
-                  hover:scale-[1.07] hover:z-10
+                  hover:z-10
                   border border-white/10 cursor-pointer
                   bg-gradient-to-br from-black via-neutral-900 to-black backdrop-blur-sm group
                   flex flex-col items-center justify-center gap-4 px-4 shadow-[0_0_20px_rgba(255,255,255,0.1)]

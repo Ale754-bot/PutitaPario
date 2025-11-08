@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 import { useCarrito } from '../context/CarritoContext';
 
-const ProductCard = ({ producto }) => {
+const ProductCard = ({ producto, index }) => {
   const {
     nombre,
     descripcion,
@@ -58,14 +60,43 @@ const ProductCard = ({ producto }) => {
 
   const etiquetaMarca = marca && linea ? `${marca} · ${linea}` : marca || "";
 
+  // ✨ Animación scroll reveal
+  const controls = useAnimation();
+  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start('visible');
+    }
+  }, [inView, controls]);
+
+  const fadeUp = {
+    hidden: { opacity: 0, y: 30 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.6,
+        ease: 'easeOut',
+        delay: index * 0.05,
+      },
+    },
+  };
+
   return (
-    <div className="
-      w-full bg-black text-white rounded-xl overflow-hidden shadow-lg 
-      transition duration-300 ease-in-out 
-      hover:shadow-red/500 hover:scale-[1.02]
-      border border-gray-800 hover:border-acento
-      flex flex-col
-    ">
+    <motion.div
+      ref={ref}
+      initial="hidden"
+      animate={controls}
+      variants={fadeUp}
+      className="
+        w-full bg-black text-white rounded-xl overflow-hidden shadow-lg 
+        transition duration-300 ease-in-out 
+        hover:shadow-red/500 hover:scale-[1.02]
+        border border-gray-800 hover:border-acento
+        flex flex-col
+      "
+    >
       {/* Imagen cuadrada, borde alineado */}
       <div className="w-full aspect-square overflow-hidden relative">
         <img 
@@ -186,7 +217,7 @@ const ProductCard = ({ producto }) => {
           </button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

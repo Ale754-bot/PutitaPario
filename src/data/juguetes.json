@@ -1,46 +1,221 @@
 [
   {
     "id": 400,
-    "nombre": "Consolador Realístico Soft Touch",
-    "descripcion": "Textura suave y flexible con ventosa para uso sin manos. Ideal para juegos en solitario o en pareja.",
-    "imagen": "/images/Juguetes/consolador-soft.jpg",
+    "nombre": "Masajeador de Clítoris Boyce",
+    "descripcion": "Su extremo insertable presenta orejitas de conejo adorables, flexibles y muy estimulantes para tu clítoris. Cuenta con 10 poderosos modos de vibración que podrás controlar con un simple botón y funciona con una sola pila y además es impermeable, lo puedes usar en la ducha, a solas o acompañada.",
+    "imagen": "/images/juguetes/boyce.jpg",
     "categoria": "Juguetes",
-    "subcategoria": "Consoladores",
     "stock": true,
-    "marca": "RealFeel",
-    "linea": "Classic",
-    "variantes": [
-      { "tamaño": "18cm", "precio": 8900 },
-      { "tamaño": "22cm", "precio": 10500 }
-    ]
+    "marca": "pretty love",
+    "mostrarColor": false,
+    "variantes": []
   },
   {
     "id": 401,
-    "nombre": "Masajeador Punto G Recargable",
-    "descripcion": "Diseño ergonómico con vibración silenciosa y múltiples intensidades. Resistente al agua.",
-    "imagen": "/images/Juguetes/masajeador-punto-g.jpg",
+    "nombre": "Masajeador de Clítoris Beck",
+    "descripcion": "Su extremo insertable presenta la forma de un glande, apenas inclinado y con textura. Cuenta con 10 poderosos modos de vibración que podrás controlar con un simple botón y funciona con una sola pila.",
+    "imagen": "/images/juguetes/beck.jpg",
     "categoria": "Juguetes",
-    "subcategoria": "Masajeadores",
     "stock": true,
-    "marca": "SecretPlay",
-    "linea": "VibeX",
-    "variantes": [
-      { "color": "Violeta", "precio": 11200 },
-      { "color": "Negro", "precio": 11200 }
-    ]
+    "marca": "pretty love",
+    "mostrarColor": false,
+    "variantes": []
   },
   {
     "id": 402,
-    "nombre": "Mini Consolador Discreto",
-    "descripcion": "Compacto, silencioso y fácil de transportar. Ideal para viajes o primeras experiencias.",
-    "imagen": "/images/Juguetes/mini-consolador.jpg",
+    "nombre": "Masajeador de Clítoris Arnd",
+    "descripcion": "Su cuerpo siliconado posee una punta en forma de glande para una estimulación en el Clítoris y en el Punto G. Sus 10 funciones de vibración están pensadas para hacerte gozar. Recuerda que es impermeable, así que no dudes en usarlo en la ducha para emociones extras.",
+    "imagen": "/images/juguetes/arnd.jpg",
     "categoria": "Juguetes",
-    "subcategoria": "Consoladores",
     "stock": true,
-    "marca": "LustLab",
-    "linea": "Pocket",
+    "marca": "pretty love",
+    "mostrarColor": false,
+    "variantes": []
+  },
+  {
+    "id": 403,
+    "nombre": "Masajeador de Clítoris Antony",
+    "descripcion": "Este mini vibrador está hecho de silicona super suave para un tacto más que agradable. Su extremo insertable presenta la forma de una cabeza para masajes más focalizados.",
+    "imagen": "/images/juguetes/antony.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "pretty love",
+    "mostrarColor": false,
+    "variantes": []
+  },
+  {
+    "id": 404,
+    "nombre": "Masajeador de Clítoris Dana",
+    "descripcion": "El Vibrador Pretty Love Dana fue desarrollado para causar aún más placer. Con un formato diferenciado, es super anatómico. Hecho en Silicone, posee un toque súper suave y gusto. Con 10 tipos de vibración a su elección.",
+    "imagen": "/images/juguetes/dana.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "pretty love",
+    "mostrarColor": false,
+    "variantes": []
+  },
+  {
+    "id": 405,
+    "nombre": "Masajeador de Clítoris Blithe",
+    "descripcion": "Su cuerpo siliconado posee una punta en forma de glande para una estimulación en el Clítoris y en el Punto G. Sus 10 funciones de vibración están pensadas para hacerte gozar. Recuerda que es impermeable, así que no dudes en usarlo en la ducha para emociones extras.",
+    "imagen": "/images/juguetes/blithe.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "pretty love",
+    "mostrarColor": false,
+    "variantes": []
+  },
+  {
+    "id": 406,
+    "nombre": "Consolador Bishop",
+    "descripcion": "Disfruta de noches de pasión con este vibrador siliconado con 30 funciones entre las que elegir. Su cabeza tiene un diseño especial para la estimulación del punto G y su cuerpo curvado es perfecto para una fácil inserción.",
+    "imagen": "/images/juguetes/bishop.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "pretty love",
+    "mostrarColor": false,
+    "variantes": []
+  },
+  {
+    "id": 407,
+    "nombre": "Consolador Elemental",
+    "descripcion": "Disfruta con este consolador vibrador con 30 funciones que harán que viajes a mundos que no conocías. Cuenta con un cuerpo curvo en forma de pene, diseñado para masajear tus zonas erógenas para un plus en placer. ",
+    "imagen": "/images/juguetes/elemental.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "pretty love",
+    "mostrarColor": false,
+    "variantes": []
+  },
+  {
+    "id": 408,
+    "nombre": "Consolador Snappy",
+    "descripcion": "Pretty Love Snappy combina la estimulación simultánea del punto G y el clítoris para ofrecer experiencias íntimas inolvidables. Este consolador vibrador está diseñado para quienes buscan maximizar el placer gracias a su doble estímulo y a sus vibraciones potentes.",
+    "imagen": "/images/juguetes/snappy.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "pretty love",
+    "mostrarColor": false,
+    "variantes": []
+  },
+  {
+    "id": 409,
+    "nombre": "Bolas de Kegel",
+    "descripcion": "Fortalece el suelo pélvico con diseño ergonómico y peso progresivo.",
+    "imagen": "/images/juguetes/kegel.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "",
+    "mostrarColor": false,
+    "variantes": []
+  },
+  {
+    "id": 410,
+    "nombre": "Succionador y Consolador Fucsia",
+    "descripcion": "Con su tecnología avanzada de succión, este juguete se adapta a tus curvas y necesidades, brindando un placer profundo y satisfactorio.",
+    "imagen": "/images/juguetes/succionador.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "SEXY Y FUNNY",
+    "mostrarColor": false,
+    "variantes": []
+  },
+  {
+    "id": 411,
+    "nombre": "Masajeador Heladito",
+    "descripcion": "Diseño divertido con vibración potente. Ideal para estimulación externa.",
+    "imagen": "/images/juguetes/heladito.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "SATYSFAYER",
+    "mostrarColor": false,
+    "variantes": []
+  },
+  {
+    "id": 412,
+    "nombre": "Masajeador CalexotiCS",
+    "descripcion": "Compact waterpo estimulador vaginal con cabezas intercambiables.",
+    "imagen": "/images/juguetes/calexoti.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "CALEXOTICS",
+    "mostrarColor": false,
+    "variantes": []
+  },
+  {
+    "id": 413,
+    "nombre": "Bala Vibradora",
+    "descripcion": "Bala vibradora metálica con tres acabados brillantes. Compacta, potente y elegante.",
+    "imagen": "/images/juguetes/balafuccia.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "ShineVibe",
+    "mostrarColor": true,
     "variantes": [
-      { "color": "Rosa", "precio": 6200 }
+      {
+        "color": "Fucsia",
+        "colorHex": "#8a067a",
+        "imagen": "/images/juguetes/balafuccia.jpg"
+      },
+      {
+        "color": "Dorado",
+        "colorHex": "#968154",
+        "imagen": "/images/juguetes/baladorada.jpg"
+      },
+      {
+        "color": "Plateado",
+        "colorHex": "#e6e6e4",
+        "imagen": "/images/juguetes/balaplateada.jpg"
+      }
     ]
+  },
+  {
+    "id": 414,
+    "nombre": "Lápiz Labial Vibrador",
+    "descripcion": "Discreto y elegante. Simula un labial real con vibración potente. Ideal para llevar en la cartera.",
+    "imagen": "/images/juguetes/labialfuccia.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "GlamSecret",
+    "mostrarColor": true,
+    "variantes": [
+      {
+        "color": "Fucsia",
+        "colorHex": "#b41cc0",
+        "imagen": "/images/juguetes/labialfuccia.jpg"
+      },
+      {
+        "color": "Dorado",
+        "colorHex": "#ddb86d",
+        "imagen": "/images/juguetes/labialdorado.jpg"
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#f31819",
+        "imagen": "/images/juguetes/labialrojo.jpg"
+      }
+    ]
+  },
+  {
+    "id": 415,
+    "nombre": "Bala Vibradora",
+    "descripcion": "Control inalámbrico para juegos a distancia. Vibración potente y diseño ergonómico.",
+    "imagen": "/images/juguetes/balacontrol.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "RemotePlay",
+    "mostrarColor": false,
+    "variantes": []
+  },
+  {
+    "id": 416,
+    "nombre": "Bala Vibradora con USB",
+    "descripcion": "Recargable por USB. Compacta, silenciosa y lista para llevar.",
+    "imagen": "/images/juguetes/balausb.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "PulseMini",
+    "mostrarColor": false,
+    "variantes": []
   }
 ]

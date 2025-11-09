@@ -3,7 +3,8 @@ import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useCarrito } from '../context/CarritoContext';
 
-const ProductCard = ({ producto, index }) => {
+
+const ProductCardLenceria = ({ producto, index }) => {
   const {
     nombre,
     descripcion,
@@ -11,72 +12,77 @@ const ProductCard = ({ producto, index }) => {
     imagen,
     imagenUrl,
     stock,
-    talles,
     variantes,
     marca,
     linea,
     mostrarColor
   } = producto;
 
+  const [colorSeleccionado, setColorSeleccionado] = useState(null);
   const [talleSeleccionado, setTalleSeleccionado] = useState("");
-  const [varianteSeleccionada, setVarianteSeleccionada] = useState(null);
   const [expandido, setExpandido] = useState(false);
   const { agregarItem } = useCarrito();
 
-  const tieneTalles = talles && talles.length > 0;
   const tieneVariantes = variantes && variantes.length > 0;
   const tieneColores = mostrarColor && variantes?.some(v => v.color);
-  const tipoVariante = variantes?.[0]?.talle ? "talle" : "tamaño";
+  const coloresDisponibles = [...new Set(variantes.map(v => v.color))];
+  const tallesPorColor = colorSeleccionado
+    ? variantes.filter(v => v.color === colorSeleccionado).map(v => v.talle)
+    : [];
 
-  const requiereColor = tieneColores;
-  const requiereTalle = tipoVariante === "talle";
-  const requiereTamaño = tipoVariante === "tamaño";
+  const varianteSeleccionada = variantes.find(
+    v => v.color === colorSeleccionado && v.talle === talleSeleccionado
+  );
+
+  const variantePorColor = colorSeleccionado
+    ? variantes.find(v => v.color === colorSeleccionado)
+    : null;
 
   useEffect(() => {
-    if (tieneTalles && talles.length === 1) {
-      setTalleSeleccionado(talles[0]);
-    }
     if (tieneVariantes && variantes.length === 1) {
-      setVarianteSeleccionada(variantes[0]);
+      setColorSeleccionado(variantes[0].color);
+      setTalleSeleccionado(variantes[0].talle);
     }
-  }, [talles, variantes]);
+  }, [variantes]);
 
   const puedeAgregar =
     stock &&
     (
-      (!tieneTalles && !tieneVariantes) ||
-      (tieneTalles && talleSeleccionado) ||
-      (tieneVariantes && varianteSeleccionada)
+      (!tieneVariantes) ||
+      (colorSeleccionado && talleSeleccionado && varianteSeleccionada)
     );
 
   const precioFinal = varianteSeleccionada?.precio ?? precio ?? 0;
-  const imagenFinal = varianteSeleccionada?.imagen || imagen || imagenUrl || "/images/placeholder.png";
+  const imagenFinal =
+    varianteSeleccionada?.imagen ||
+    variantePorColor?.imagen ||
+    imagen ||
+    imagenUrl ||
+    "/images/placeholder.png";
 
   const textoBoton = !stock
     ? "Sin stock"
-    : tieneTalles && !talleSeleccionado
-    ? "Elegí un talle"
-    : requiereColor && !varianteSeleccionada
+    : !colorSeleccionado
     ? "Elegí un color"
-    : requiereTalle && !varianteSeleccionada
+    : !talleSeleccionado
     ? "Elegí un talle"
-    : requiereTamaño && !varianteSeleccionada
-    ? "Elegí un tamaño"
     : "Agregar al carrito";
 
   const handleAgregar = () => {
-    if (!puedeAgregar) return;
+  if (!puedeAgregar) return;
 
-    const item = {
-      ...producto,
-      talle: talleSeleccionado || null,
-      variante: varianteSeleccionada?.talle || varianteSeleccionada?.tamaño || null,
-      color: varianteSeleccionada?.color || null,
-      precio: precioFinal
-    };
-
-    agregarItem(item, 1);
+  const item = {
+    ...producto,
+    color: colorSeleccionado,
+    talle: talleSeleccionado,
+    precio: precioFinal,
+    imagen: imagenFinal,
+    variantes // ← esto es clave para que el carrito pueda buscar la imagen correcta
   };
+
+  agregarItem(item, 1);
+};
+
 
   const etiquetaMarca = marca && linea ? `${marca} · ${linea}` : marca || "";
 
@@ -101,6 +107,7 @@ const ProductCard = ({ producto, index }) => {
       },
     },
   };
+
   return (
     <motion.div
       ref={ref}
@@ -165,63 +172,38 @@ const ProductCard = ({ producto, index }) => {
           {/* Círculos de color */}
           {tieneColores && (
             <div className="flex justify-center gap-2 mb-2">
-              {variantes.map((v, idx) => {
-                const isSelected = varianteSeleccionada === v;
+              {coloresDisponibles.map((color, idx) => {
+                const isSelected = colorSeleccionado === color;
                 return (
                   <button
                     key={idx}
-                    onClick={() => setVarianteSeleccionada(v)}
+                    onClick={() => {
+                      setColorSeleccionado(color);
+                      setTalleSeleccionado(""); // reset talle
+                    }}
                     className={`
                       w-4 h-4 rounded-full border
                       ${isSelected ? 'border-acento scale-110' : 'border-white/20'}
                       transition-transform duration-300
                     `}
-                    style={{ backgroundColor: v.colorHex || v.color?.toLowerCase() || "#999" }}
-                    title={v.color}
+                    style={{ backgroundColor: variantes.find(v => v.color === color)?.colorHex || color.toLowerCase() }}
+                    title={color}
                   />
                 );
               })}
             </div>
           )}
 
-          {/* Botones de variante (si no es color) */}
-          {tieneVariantes && !tieneColores && (
-            <div className="text-center">
-              <label className="block text-xs font-medium text-gray-300 mb-1">
-                {tipoVariante === "talle" ? "Talle:" : "Tamaño:"}
-              </label>
-              <div className="flex justify-center gap-2 flex-wrap">
-                {variantes.map((v, idx) => {
-                  const valor = tipoVariante === "talle" ? v.talle : v.tamaño;
-                  const isSelected = varianteSeleccionada === v;
-                  return (
-                    <button
-                      key={idx}
-                      onClick={() => setVarianteSeleccionada(v)}
-                      className={`
-                        px-2 py-1 rounded-full border text-xs
-                        ${isSelected ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
-                        hover:bg-red-800 transition-all
-                      `}
-                    >
-                      {valor}
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          )}
-
-          {/* Botones de talle plano */}
-          {tieneTalles && (
+          {/* Talles por color */}
+          {colorSeleccionado && tallesPorColor.length > 0 && (
             <div className="text-center mt-2">
               <label className="block text-xs font-medium text-gray-300 mb-1">
                 Talle:
               </label>
               <div className="flex justify-center gap-2 flex-wrap">
-                {talles.map((talle) => (
+                {tallesPorColor.map((talle, idx) => (
                   <button
-                    key={talle}
+                    key={idx}
                     onClick={() => setTalleSeleccionado(talle)}
                     className={`
                       px-2 py-1 rounded-full border text-xs
@@ -259,4 +241,4 @@ const ProductCard = ({ producto, index }) => {
   );
 };
 
-export default ProductCard;
+export default ProductCardLenceria;

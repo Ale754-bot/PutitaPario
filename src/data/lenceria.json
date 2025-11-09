@@ -1,208 +1,282 @@
 [
   {
-    "id": 700,
-    "nombre": "Conjunto Hebillas 1",
-    "descripcion": "",
-    "imagen": "/images/lenceria/hebillas1.jpg",
-    "categoria": "Lencería",
-    "subcategoria": "",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "variantes": [
-      { "talle": "S", "precio": 0 },
-      { "talle": "M", "precio": 0 },
-      { "talle": "L", "precio": 0 }
-    ]
-  },
+  "id": 700,
+  "nombre": "Conjunto Hebillas",
+  "descripcion": "Conjunto con hebillas metálicas, disponible en dos colores intensos.",
+  "imagen": "/images/lenceria/hebillarojo.jpg",
+  "categoria": "Lencería",
+  "subcategoria": "",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "mostrarColor": true,
+  "variantes": [
+    {
+      "color": "Rojo",
+      "colorHex": "#b30000",
+      "talle": "S",
+      "precio": 9500,
+      "imagen": "/images/lenceria/hebillarojo.jpg"
+    },
+    {
+      "color": "Rojo",
+      "colorHex": "#b30000",
+      "talle": "M",
+      "precio": 9500,
+      "imagen": "/images/lenceria/hebillarojo.jpg"
+    },
+    {
+      "color": "Rojo",
+      "colorHex": "#b30000",
+      "talle": "L",
+      "precio": 9500,
+      "imagen": "/images/lenceria/hebillarojo.jpg"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "S",
+      "precio": 9500,
+      "imagen": "/images/lenceria/hebillanegro.jpg"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "M",
+      "precio": 9500,
+      "imagen": "/images/lenceria/hebillanegro.jpg"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "L",
+      "precio": 9500,
+      "imagen": "/images/lenceria/hebillanegro.jpg"
+    }
+  ]
+},
   {
-    "id": 701,
-    "nombre": "Conjunto Hebillas 2",
-    "descripcion": "",
-    "imagen": "/images/lenceria/hebillas2.jpg",
-    "categoria": "Lencería",
-    "subcategoria": "",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "variantes": [
-      { "talle": "S", "precio": 0 },
-      { "talle": "M", "precio": 0 },
-      { "talle": "L", "precio": 0 }
-    ]
-  },
+  "id": 701,
+  "nombre": "Conjunto Corazones",
+  "descripcion": "Conjunto con estampado de corazones, disponible en tres colores vibrantes.",
+  "imagen": "/images/lenceria/corazonesazul.jpg",
+  "categoria": "Lencería",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "mostrarColor": true,
+  "variantes": [
+    {
+      "color": "Azul",
+      "colorHex": "#1b3474",
+      "talle": "S",
+      "precio": 9500,
+      "imagen": "/images/lenceria/corazonesazul.jpg"
+    },
+    {
+      "color": "Azul",
+      "colorHex": "#0033cc",
+      "talle": "M",
+      "precio": 9500,
+      "imagen": "/images/lenceria/corazonesazul.jpg"
+    },
+    {
+      "color": "Azul",
+      "colorHex": "#0033cc",
+      "talle": "L",
+      "precio": 9500,
+      "imagen": "/images/lenceria/corazonesazul.jpg"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "S",
+      "precio": 9500,
+      "imagen": "/images/lenceria/corazonesnegro.jpg"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "M",
+      "precio": 9500,
+      "imagen": "/images/lenceria/corazonesnegro.jpg"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "L",
+      "precio": 9500,
+      "imagen": "/images/lenceria/corazonesnegro.jpg"
+    },
+    {
+      "color": "Rosita",
+      "colorHex": "#bc9286",
+      "talle": "S",
+      "precio": 9500,
+      "imagen": "/images/lenceria/corazonesrosa.jpg"
+    },
+    {
+      "color": "Rosita",
+      "colorHex": "#bc9286",
+      "talle": "M",
+      "precio": 9500,
+      "imagen": "/images/lenceria/corazonesrosa.jpg"
+    },
+    {
+      "color": "Rosita",
+      "colorHex": "#bc9286",
+      "talle": "L",
+      "precio": 9500,
+      "imagen": "/images/lenceria/corazonesrosa.jpg"
+    }
+  ]
+},
+
   {
-    "id": 702,
-    "nombre": "Conjunto Corazones 1",
-    "descripcion": "",
-    "imagen": "/images/lenceria/corazones1.jpg",
-    "categoria": "Lencería",
-    "subcategoria": "",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "variantes": [
-      { "talle": "S", "precio": 0 },
-      { "talle": "M", "precio": 0 },
-      { "talle": "L", "precio": 0 }
-    ]
-  },
+  "id": 703,
+  "nombre": "Conjunto Cadenas",
+  "descripcion": "Conjunto con detalles metálicos y diseño provocador. Disponible en cuatro variantes visuales.",
+  "imagen": "/images/lenceria/cadenasceleste.jpg",
+  "categoria": "Lencería",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "mostrarColor": true,
+  "variantes": [
+    {
+      "color": "Celeste",
+      "colorHex": "#afc5dd",
+      "talle": "S",
+      "precio": 9500,
+      "imagen": "/images/lenceria/cadenasceleste.jpg"
+    },
+    {
+      "color": "Celeste",
+      "colorHex": "#afc5dd",
+      "talle": "M",
+      "precio": 9500,
+      "imagen": "/images/lenceria/cadenasceleste.jpg"
+    },
+    {
+      "color": "Celeste",
+      "colorHex": "#afc5dd",
+      "talle": "L",
+      "precio": 9500,
+      "imagen": "/images/lenceria/cadenasceleste.jpg"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#1d1b1c",
+      "talle": "S",
+      "precio": 9500,
+      "imagen": "/images/lenceria/cadenasnegro2.jpg"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#1d1b1c",
+      "talle": "M",
+      "precio": 9500,
+      "imagen": "/images/lenceria/cadenasnegro2.jpg"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#1d1b1c",
+      "talle": "L",
+      "precio": 9500,
+      "imagen": "/images/lenceria/cadenasnegro2.jpg"
+    },
+    {
+      "color": "Azul Verdoso",
+      "colorHex": "#2c505b",
+      "talle": "S",
+      "precio": 9500,
+      "imagen": "/images/lenceria/cadenasazul.jpg"
+    },
+    {
+      "color": "Azul Verdoso",
+      "colorHex": "#2c505b",
+      "talle": "M",
+      "precio": 9500,
+      "imagen": "/images/lenceria/cadenasazul.jpg"
+    },
+    {
+      "color": "Azul Verdoso",
+      "colorHex": "#2c505b",
+      "talle": "L",
+      "precio": 9500,
+      "imagen": "/images/lenceria/cadenasazul.jpg"
+    },
+    {
+      "color": "Negro 1",
+      "colorHex": "#000000",
+      "talle": "S",
+      "precio": 9500,
+      "imagen": "/images/lenceria/cadenasnegro.jpg"
+    },
+    {
+      "color": "Negro 1",
+      "colorHex": "#000000",
+      "talle": "M",
+      "precio": 9500,
+      "imagen": "/images/lenceria/cadenasnegro.jpg"
+    },
+    {
+      "color": "Negro 1",
+      "colorHex": "#000000",
+      "talle": "L",
+      "precio": 9500,
+      "imagen": "/images/lenceria/cadenasnegro.jpg"
+    }
+  ]
+},
   {
-    "id": 703,
-    "nombre": "Conjunto Corazones 2",
-    "descripcion": "",
-    "imagen": "/images/lenceria/corazones2.jpg",
-    "categoria": "Lencería",
-    "subcategoria": "",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "variantes": [
-      { "talle": "S", "precio": 0 },
-      { "talle": "M", "precio": 0 },
-      { "talle": "L", "precio": 0 }
-    ]
-  },
-  {
-    "id": 704,
-    "nombre": "Conjunto Corazones 3",
-    "descripcion": "",
-    "imagen": "/images/lenceria/corazones3.jpg",
-    "categoria": "Lencería",
-    "subcategoria": "",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "variantes": [
-      { "talle": "S", "precio": 0 },
-      { "talle": "M", "precio": 0 },
-      { "talle": "L", "precio": 0 }
-    ]
-  },
-  {
-    "id": 705,
-    "nombre": "Conjunto Cadenas 1",
-    "descripcion": "",
-    "imagen": "/images/lenceria/cadenas1.jpg",
-    "categoria": "Lencería",
-    "subcategoria": "",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "variantes": [
-      { "talle": "S", "precio": 0 },
-      { "talle": "M", "precio": 0 },
-      { "talle": "L", "precio": 0 }
-    ]
-  },
-  {
-    "id": 706,
-    "nombre": "Conjunto Cadenas 2",
-    "descripcion": "",
-    "imagen": "/images/lenceria/cadenas2.jpg",
-    "categoria": "Lencería",
-    "subcategoria": "",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "variantes": [
-      { "talle": "S", "precio": 0 },
-      { "talle": "M", "precio": 0 },
-      { "talle": "L", "precio": 0 }
-    ]
-  },
-  {
-    "id": 707,
-    "nombre": "Conjunto Cadenas 3",
-    "descripcion": "",
-    "imagen": "/images/lenceria/cadenas3.jpg",
-    "categoria": "Lencería",
-    "subcategoria": "",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "variantes": [
-      { "talle": "S", "precio": 0 },
-      { "talle": "M", "precio": 0 },
-      { "talle": "L", "precio": 0 }
-    ]
-  },
-  {
-    "id": 708,
-    "nombre": "Conjunto Cadenas 4",
-    "descripcion": "",
-    "imagen": "/images/lenceria/cadenas4.jpg",
-    "categoria": "Lencería",
-    "subcategoria": "",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "variantes": [
-      { "talle": "S", "precio": 0 },
-      { "talle": "M", "precio": 0 },
-      { "talle": "L", "precio": 0 }
-    ]
-  },
-  {
-    "id": 709,
-    "nombre": "Body Lirio Flores 1",
-    "descripcion": "",
-    "imagen": "/images/lenceria/lirio1.jpg",
-    "categoria": "Lencería",
-    "subcategoria": "",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "variantes": [{ "talle": "Único", "precio": 0 }]
-  },
-  {
-    "id": 710,
-    "nombre": "Body Lirio Flores 2",
-    "descripcion": "",
-    "imagen": "/images/lenceria/lirio2.jpg",
-    "categoria": "Lencería",
-    "subcategoria": "",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "variantes": [{ "talle": "Único", "precio": 0 }]
-  },
-  {
-    "id": 711,
-    "nombre": "Body Lirio Flores 3",
-    "descripcion": "",
-    "imagen": "/images/lenceria/lirio3.jpg",
-    "categoria": "Lencería",
-    "subcategoria": "",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "variantes": [{ "talle": "Único", "precio": 0 }]
-  },
-  {
-    "id": 712,
-    "nombre": "Body Lirio Flores 4",
-    "descripcion": "",
-    "imagen": "/images/lenceria/lirio4.jpg",
-    "categoria": "Lencería",
-    "subcategoria": "",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "variantes": [{ "talle": "Único", "precio": 0 }]
-  },
-  {
-    "id": 713,
-    "nombre": "Body Lirio Flores 5",
-    "descripcion": "",
-    "imagen": "/images/lenceria/lirio5.jpg",
-    "categoria": "Lencería",
-    "subcategoria": "",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "variantes": [{ "talle": "Único", "precio": 0 }]
-  },
+  "id": 704,
+  "nombre": "Body Lirio Flores",
+  "descripcion": "Body con estampado floral y diseño delicado. Disponible en cinco variantes visuales.",
+  "imagen": "/images/lenceria/liriorojo.jpg",
+  "categoria": "Lencería",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "mostrarColor": true,
+  "variantes": [
+    {
+      "color": "Rojo",
+      "colorHex": "#900e09",
+      "talle": "Único",
+      "precio": 9500,
+      "imagen": "/images/lenceria/liriorojo.jpg"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "Único",
+      "precio": 9500,
+      "imagen": "/images/lenceria/lirionegro.jpg"
+    },
+    {
+      "color": "Rosa",
+      "colorHex": "#fdc4b7",
+      "talle": "Único",
+      "precio": 9500,
+      "imagen": "/images/lenceria/liriorosa.jpg"
+    },
+    {
+      "color": "Blanco",
+      "colorHex": "#ffffff",
+      "talle": "Único",
+      "precio": 9500,
+      "imagen": "/images/lenceria/lirioblanco.jpg"
+    },
+    {
+      "color": "Azul",
+      "colorHex": "#2e376b",
+      "talle": "Único",
+      "precio": 9500,
+      "imagen": "/images/lenceria/lirioazul.jpg"
+    }
+  ]
+},
   {
     "id": 714,
     "nombre": "Conjunto 1",

@@ -29,7 +29,7 @@ const CarritoSidebar = ({ isOpen, closeCart }) => {
     }
 
     const productosTexto = items.map(item => {
-      const variante = item.variante || item.talle || "sin variante";
+      const variante = [item.color, item.talle].filter(Boolean).join(" · ") || item.variante || "sin variante";
       return `• ${item.nombre} (${variante}) x${item.cantidad} - $${(item.precio * item.cantidad).toFixed(2)}`;
     }).join("\n");
 
@@ -38,9 +38,8 @@ const CarritoSidebar = ({ isOpen, closeCart }) => {
     }`;
 
     const enlace = generarMensajeWhatsapp(metodoEntrega);
-window.open(enlace, '_blank');
-closeCart();
-
+    window.open(enlace, '_blank');
+    closeCart();
   };
 
   const updateQuantity = (producto, delta) => {
@@ -79,28 +78,44 @@ closeCart();
             {items.length === 0 ? (
               <p className="text-gray-500 text-center mt-10">¡Aún no hay productos en tu carrito!</p>
             ) : (
-              items.map(item => (
-                <div key={item.id} className="flex items-start gap-4 py-4 border-b border-gray-800 flex-wrap md:flex-nowrap">
-                  <img src={item.imagen} alt={item.nombre} className="w-16 h-16 object-cover rounded flex-shrink-0" />
-                  <div className="flex flex-col flex-grow min-w-0">
-                    <p className="text-sm text-white font-medium leading-tight">{item.nombre}</p>
-                    <p className="text-xs text-gray-400 mt-0.5">${item.precio.toFixed(2)} c/u</p>
-                    <div className="flex gap-2 mt-1 text-xs text-gray-400 flex-wrap">
-                      {item.talle && <span className="bg-gray-800 px-2 py-0.5 rounded-full">{item.talle}</span>}
-                      {item.variante && <span className="bg-gray-800 px-2 py-0.5 rounded-full">{item.variante}</span>}
+              items.map(item => {
+                const imagenVariante =
+                  item.imagen ||
+                  (item.variantes?.find(
+                    v => v.color === item.color && v.talle === item.talle
+                  )?.imagen) ||
+                  "/images/placeholder.png";
+
+                return (
+                  <div key={item.id} className="flex items-start gap-4 py-4 border-b border-gray-800 flex-wrap md:flex-nowrap">
+                    <img
+                      src={imagenVariante}
+                      alt={item.nombre}
+                      className="w-16 h-16 object-cover rounded flex-shrink-0"
+                    />
+                    <div className="flex flex-col flex-grow min-w-0">
+                      <p className="text-sm text-white font-medium leading-tight">{item.nombre}</p>
+                      <p className="text-xs text-gray-400 mt-0.5">${item.precio.toFixed(2)} c/u</p>
+                      <div className="flex gap-2 mt-1 text-xs text-gray-400 flex-wrap">
+                        {item.color && <span className="bg-gray-800 px-2 py-0.5 rounded-full">Color: {item.color}</span>}
+                        {item.talle && <span className="bg-gray-800 px-2 py-0.5 rounded-full">Talle: {item.talle}</span>}
+                        {item.variante && !item.color && !item.talle && (
+                          <span className="bg-gray-800 px-2 py-0.5 rounded-full">{item.variante}</span>
+                        )}
+                      </div>
+                      <p className="text-sm text-red-500 font-semibold mt-1">
+                        Subtotal: ${(item.precio * item.cantidad).toFixed(2)}
+                      </p>
                     </div>
-                    <p className="text-sm text-red-500 font-semibold mt-1">
-                      Subtotal: ${ (item.precio * item.cantidad).toFixed(2) }
-                    </p>
+                    <div className="flex items-center gap-2 mt-2 md:mt-0">
+                      <button onClick={() => updateQuantity(item, -1)} className="text-white px-2 py-1 bg-gray-700 rounded hover:bg-gray-600">−</button>
+                      <span className="text-white text-sm">{item.cantidad}</span>
+                      <button onClick={() => updateQuantity(item, 1)} className="text-white px-2 py-1 bg-gray-700 rounded hover:bg-gray-600">+</button>
+                    </div>
+                    <button onClick={() => eliminarProducto(item.id)} className="text-red-500 text-xs ml-2 hover:underline mt-2 md:mt-0">Eliminar</button>
                   </div>
-                  <div className="flex items-center gap-2 mt-2 md:mt-0">
-                    <button onClick={() => updateQuantity(item, -1)} className="text-white px-2 py-1 bg-gray-700 rounded hover:bg-gray-600">−</button>
-                    <span className="text-white text-sm">{item.cantidad}</span>
-                    <button onClick={() => updateQuantity(item, 1)} className="text-white px-2 py-1 bg-gray-700 rounded hover:bg-gray-600">+</button>
-                  </div>
-                  <button onClick={() => eliminarProducto(item.id)} className="text-red-500 text-xs ml-2 hover:underline mt-2 md:mt-0">Eliminar</button>
-                </div>
-              ))
+                );
+              })
             )}
           </div>
 

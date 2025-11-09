@@ -9,7 +9,7 @@
     "stock": true,
     "marca": "sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "100ml", "precio": null }]
+    "variantes": [{ "tamaño": "100ml", "precio": 40000 }]
   },
   {
     "id": 101,
@@ -21,7 +21,7 @@
     "stock": true,
     "marca": "sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "60ml", "precio": null }]
+    "variantes": [{ "tamaño": "60ml", "precio": 32500 }]
   },
   {
     "id": 102,
@@ -33,7 +33,7 @@
     "stock": true,
     "marca": "sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "60ml", "precio": null }]
+    "variantes": [{ "tamaño": "60ml", "precio": 32500 }]
   },
   {
     "id": 103,
@@ -45,7 +45,7 @@
     "stock": true,
     "marca": "sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "100ml", "precio": null }]
+    "variantes": [{ "tamaño": "100ml", "precio": 32500 }]
   },
   {
     "id": 104,
@@ -57,7 +57,7 @@
     "stock": true,
     "marca": "sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "100ml", "precio": null }]
+    "variantes": [{ "tamaño": "100ml", "precio": 32500 }]
   },
   {
     "id": 105,
@@ -69,7 +69,7 @@
     "stock": true,
     "marca": "sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "100ml", "precio": null }]
+    "variantes": [{ "tamaño": "100ml", "precio": 32500 }]
   },
   {
     "id": 106,
@@ -81,7 +81,7 @@
     "stock": true,
     "marca": "sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "100ml", "precio": null }]
+    "variantes": [{ "tamaño": "100ml", "precio": 32500 }]
   },
   {
     "id": 107,
@@ -93,7 +93,7 @@
     "stock": true,
     "marca": "sexitive",
     "linea": "By Night",
-    "variantes": [{ "tamaño": "50ml", "precio": null }]
+    "variantes": [{ "tamaño": "50ml", "precio": 29000 }]
   },
   {
     "id": 108,
@@ -105,7 +105,7 @@
     "stock": true,
     "marca": "sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "50ml", "precio": null }]
+    "variantes": [{ "tamaño": "50ml", "precio": 29000 }]
   },
   {
     "id": 109,
@@ -118,7 +118,7 @@
     "marca": "Sexitive",
     "linea": "For Him",
     "variantes": [
-      { "tamaño": "100ml", "precio": null }
+      { "tamaño": "100ml", "precio": 32500 }
     ]
   },
   {
@@ -132,7 +132,7 @@
     "marca": "Sexitive",
     "linea": "For Him",
     "variantes": [
-      { "tamaño": "100ml", "precio": null }
+      { "tamaño": "100ml", "precio": 32500 }
     ]
   },
   {
@@ -146,7 +146,7 @@
     "marca": "Sexitive",
     "linea": "Inevitable",
     "variantes": [
-      { "tamaño": "100ml", "precio": null }
+      { "tamaño": "100ml", "precio": 32500 }
     ]
   },
   {
@@ -160,7 +160,7 @@
     "marca": "Sexitive",
     "linea": "For Him",
     "variantes": [
-      { "tamaño": "100ml", "precio": null }
+      { "tamaño": "100ml", "precio": 32500 }
     ]
   },
   {
@@ -174,7 +174,7 @@
     "marca": "Sexitive",
     "linea": "Inevitable",
     "variantes": [
-      { "tamaño": "100ml", "precio": null }
+      { "tamaño": "100ml", "precio": 32500 }
     ]
   },
   {
@@ -188,7 +188,7 @@
     "marca": "Sexitive",
     "linea": "For Him",
     "variantes": [
-      { "tamaño": "100ml", "precio": null }
+      { "tamaño": "100ml", "precio": 32500 }
     ]
   },
   {
@@ -202,7 +202,7 @@
     "marca": "Sexitive",
     "linea": "By Night",
     "variantes": [
-      { "tamaño": "100ml", "precio": null }
+      { "tamaño": "100ml", "precio": 32500 }
     ]
   },
   {
@@ -216,7 +216,7 @@
     "marca": "Sexitive",
     "linea": "Unisex",
     "variantes": [
-      { "tamaño": "100ml", "precio": null }
+      { "tamaño": "100ml", "precio": 32500 }
     ]
   },
   {
@@ -229,7 +229,7 @@
   "stock": true,
   "marca": "sexitive",
   "linea": "",
-  "variantes": [{ "tamaño": "100ml", "precio": null }]
+  "variantes": [{ "tamaño": "100ml", "precio": 15000 }]
 },
 {
   "id": 118,
@@ -241,7 +241,7 @@
   "stock": true,
   "marca": "sexitive",
   "linea": "",
-  "variantes": [{ "tamaño": "100ml", "precio": null }]
+  "variantes": [{ "tamaño": "100ml", "precio": 15000 }]
 },
 {
   "id": 119,
@@ -253,7 +253,7 @@
   "stock": true,
   "marca": "sexitive",
   "linea": "",
-  "variantes": [{ "tamaño": "100ml", "precio": null }]
+  "variantes": [{ "tamaño": "100ml", "precio": 15000 }]
 },
 {
   "id": 120,
@@ -265,7 +265,7 @@
   "stock": true,
   "marca": "sexitive",
   "linea": "",
-  "variantes": [{ "tamaño": "100ml", "precio": null }]
+  "variantes": [{ "tamaño": "100ml", "precio": 15000 }]
 },
 {
   "id": 121,
@@ -277,7 +277,7 @@
   "stock": true,
   "marca": "sexitive",
   "linea": "",
-  "variantes": [{ "tamaño": "60ml", "precio": null }]
+  "variantes": [{ "tamaño": "60ml", "precio": 12000 }]
 },
 {
   "id": 122,
@@ -289,7 +289,7 @@
   "stock": true,
   "marca": "sexitive",
   "linea": "",
-  "variantes": [{ "tamaño": "60ml", "precio": null }]
+  "variantes": [{ "tamaño": "60ml", "precio": 12000 }]
 },
 {
   "id": 123,
@@ -301,6 +301,6 @@
   "stock": true,
   "marca": "sexitive",
   "linea": "",
-  "variantes": [{ "tamaño": "60ml", "precio": null }]
+  "variantes": [{ "tamaño": "60ml", "precio": 12000 }]
 }
 ]

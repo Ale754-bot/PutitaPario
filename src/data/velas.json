@@ -120,115 +120,141 @@
     "variantes": [{ "tamaño": "30 g", "precio": 0 }]
   },
   {
-    "id": 610,
-    "nombre": "Vela Union",
-    "descripcion": "Vela exótica de 30 g. Fusión simbólica de cuerpos en una sola llama.",
-    "imagen": "/images/velas/union.jpg",
-    "categoria": "Velas",
-    "subcategoria": "Velas Exóticas",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "variantes": [{ "tamaño": "Único", "precio": 0 }]
-  },
+  "id": 610,
+  "nombre": "Vela Unión",
+  "descripcion": "Vela exótica de 30 g. Disponible en tres variantes escultóricas que representan la fusión íntima.",
+  "imagen": "/images/velas/exoticas/union1.jpg",
+  "categoria": "Velas",
+  "subcategoria": "Velas Exóticas",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "mostrarColor": true,
+  "variantes": [
+    {
+      "tamaño": "Único",
+      "color": "Rojo",
+      "colorHex": "#b30000",
+      "precio": 7000,
+      "imagen": "/images/velas/exoticas/union1.jpg"
+    },
+    {
+      "tamaño": "Único",
+      "color": "Blanco",
+      "colorHex": "#ffffff",
+      "precio": 7000,
+      "imagen": "/images/velas/exoticas/union2.jpg"
+    },
+    {
+      "tamaño": "Único",
+      "color": "Cremita",
+      "colorHex": "#f5e6d3",
+      "precio": 7000,
+      "imagen": "/images/velas/exoticas/union3.jpg"
+    }
+  ]
+},
+
   {
-    "id": 611,
-    "nombre": "Vela Union 2",
-    "descripcion": "Vela exótica de 30 g. Variante escultórica de la unión sensual.",
-    "imagen": "/images/velas/union2.jpg",
-    "categoria": "Velas",
-    "subcategoria": "Velas Exóticas",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "variantes": [{ "tamaño": "Único", "precio": 0 }]
-  },
+  "id": 611,
+  "nombre": "Vela Vulva",
+  "descripcion": "Vela exótica de 30 g. Celebración visual de la feminidad.",
+  "imagen": "/images/velas/exoticas/vulva.jpg",
+  "categoria": "Velas",
+  "subcategoria": "Velas Exóticas",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "mostrarColor": true,
+  "variantes": [
+    {
+      "tamaño": "Único",
+      "color": "Rojo",
+      "colorHex": "#b30000",
+      "precio": 7000,
+      "imagen": "/images/velas/exoticas/vulva.jpg"
+    }
+  ]
+},
+
   {
     "id": 612,
-    "nombre": "Vela Union 3",
-    "descripcion": "Vela exótica de 30 g. Representación artística de la conexión íntima.",
-    "imagen": "/images/velas/union3.jpg",
+    "nombre": "Vela Pene - S",
+    "descripcion": "Vela exótica tamaño S. Diseño provocador y juguetón.",
+    "imagen": "/images/velas/exoticas/projo.jpg",
     "categoria": "Velas",
     "subcategoria": "Velas Exóticas",
     "stock": true,
-    "marca": "Sexitive",
+    "marca": "",
     "linea": "",
-    "variantes": [{ "tamaño": "Único", "precio": 0 }]
+    "mostrarColor": true,
+    "variantes": [
+      {
+        "tamaño": "S - Rojo",
+        "color": "Rojo",
+        "colorHex": "#b30000",
+        "precio": 7000,
+        "imagen": "/images/velas/exoticas/projo.jpg"
+      },
+      {
+        "tamaño": "S - Blanco",
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "precio": 7000,
+        "imagen": "/images/velas/exoticas/pblanco.jpg"
+      }
+    ]
   },
   {
     "id": 613,
-    "nombre": "Vela Vulva",
-    "descripcion": "Vela exótica de 30 g. Celebración visual de la feminidad.",
-    "imagen": "/images/velas/vulva.jpg",
-    "categoria": "Velas",
-    "subcategoria": "Velas Exóticas",
-    "stock": true,
-    "marca": "Sexitive",
-    "linea": "",
-    "variantes": [{ "tamaño": "Único", "precio": 0 }]
-  },
-  {
-    "id": 614,
-    "nombre": "Vela Pene",
-    "descripcion": "Vela exótica tamaño S. Diseño provocador y juguetón.",
-    "imagen": "/images/velas/pene-s.jpg",
-    "categoria": "Velas",
-    "subcategoria": "Velas Exóticas",
-    "stock": true,
-    "marca": "Sexitive",
-    "linea": "",
-    "variantes": [
-  {
-    "tamaño": "S - Rojo",
-    "color": "Rojo",
-    "precio": 7000,
-    "imagen": "/images/velas/pene-s-rojo.jpg"
-  },
-  {
-    "tamaño": "S - Blanco",
-    "color": "Blanco",
-    "precio": 7000,
-    "imagen": "/images/velas/pene-s-blanco.jpg"
-  }
-]
-  },
-  {
-    "id": 615,
-    "nombre": "Vela Pene 2",
+    "nombre": "Vela Pene - M",
     "descripcion": "Vela exótica tamaño M. Ideal para ambientaciones atrevidas.",
-    "imagen": "/images/velas/pene-m.jpg",
+    "imagen": "/images/velas/exoticas/projom.jpg",
     "categoria": "Velas",
     "subcategoria": "Velas Exóticas",
     "stock": true,
-    "marca": "Sexitive",
+    "marca": "",
     "linea": "",
+    "mostrarColor": true,
     "variantes": [
-  {
-    "tamaño": "M - Rojo",
-    "color": "Rojo",
-    "precio": 7000,
-    "imagen": "/images/velas/pene-s-rojo.jpg"
+      {
+        "tamaño": "M - Rojo",
+        "color": "Rojo",
+        "colorHex": "#b30000",
+        "precio": 7000,
+        "imagen": "/images/velas/exoticas/projom.jpg"
+      },
+      {
+        "tamaño": "M - Blanco",
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "precio": 7000,
+        "imagen": "/images/velas/exoticas/pblancom.jpg"
+      }
+    ]
   },
   {
-    "tamaño": "M - Blanco",
-    "color": "Blanco",
-    "precio": 7000,
-    "imagen": "/images/velas/pene-s-blanco.jpg"
-  }
-]
-  },
-  {
-    "id": 616,
-    "nombre": "Vela Pene 3",
-    "descripcion": "Vela exótica tamaño L. Presencia audaz y decorativa.",
-    "imagen": "/images/velas/pene-l.jpg",
-    "categoria": "Velas",
-    "subcategoria": "Velas Exóticas",
-    "stock": true,
-    "marca": "Sexitive",
-    "linea": "",
-    "variantes": [{ "tamaño": "L", "precio": 0 }]
-  }
+  "id": 614,
+  "nombre": "Vela Pene - L",
+  "descripcion": "Vela exótica tamaño L. Presencia audaz y decorativa.",
+  "imagen": "/images/velas/exoticas/pblancol.jpg",
+  "categoria": "Velas",
+  "subcategoria": "Velas Exóticas",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "mostrarColor": true,
+  "variantes": [
+    {
+      "tamaño": "L",
+      "color": "Blanco",
+      "colorHex": "#ffffff",
+      "precio": 7000,
+      "imagen": "/images/velas/exoticas/pblancol.jpg"
+    }
+  ]
+}
+
 
 
 ]

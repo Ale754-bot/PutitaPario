@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
+import ProductCardLenceria from '../components/ProductCardLenceria';
 import gelesAceitesCremas from '../data/geles-aceites-cremas.json';
 import perfumes from '../data/perfumes.json';
 import juegosSexuales from '../data/juegos-sexuales.json';
@@ -41,17 +42,18 @@ const Productos = () => {
   const params = new URLSearchParams(location.search);
   const categoriaParam = params.get("categoria");
 
-const allProducts = [
-  ...gelesAceitesCremas,
-  ...perfumes,
-  ...juegosSexuales,
-  ...vigorizantes,
-  ...juguetes,
-  ...plugsAnales,
-  ...velas,
-  ...lenceria,
-  ...disfraces
-];
+  const allProducts = [
+    ...gelesAceitesCremas,
+    ...perfumes,
+    ...juegosSexuales,
+    ...vigorizantes,
+    ...juguetes,
+    ...plugsAnales,
+    ...velas,
+    ...lenceria,
+    ...disfraces
+  ];
+
   const groupedProducts = groupProductsByCategory(allProducts);
   const categories = Object.keys(groupedProducts);
 
@@ -110,35 +112,41 @@ const allProducts = [
               </h2>
 
               {/* Botones de navegación por subcategoría */}
-              {tieneSubcategorias && (
-                <div className="sticky top-0 z-10 bg-black/80 py-2 flex justify-center gap-1 flex-wrap border-b border-gray-700">
-                  {Object.keys(productosPorSub).map((sub) => (
-                    <a
-                      key={sub}
-                      href={`#${normalizeId(sub)}`}
-                      className="px-2 py-0.5 text-[10px] sm:text-xs font-semibold text-white bg-transparent border border-white/20 rounded-full hover:bg-acento hover:text-black transition tracking-tight"
-                    >
-                      {sub}
-                    </a>
-                  ))}
-                </div>
-              )}
+              {tieneSubcategorias && category !== "Lencería" && (
+  <div className="sticky top-0 z-10 bg-black/80 py-2 flex justify-center gap-1 flex-wrap border-b border-gray-700">
+    {Object.keys(productosPorSub).map((sub) => (
+      <a key={sub} href={`#${normalizeId(sub)}`} className="px-2 py-0.5 text-[10px] sm:text-xs font-semibold text-white bg-transparent border border-white/20 rounded-full hover:bg-acento hover:text-black transition tracking-tight">
+        {sub}
+      </a>
+    ))}
+  </div>
+)}
+
 
               {/* Secciones por subcategoría */}
-              {Object.entries(productosPorSub).map(([sub, productos]) => (
-                <div key={sub} id={normalizeId(sub)} className="pt-8 mb-12">
-                  {tieneSubcategorias && (
-                    <h3 className="text-xl font-semibold text-white mb-6 text-center">
-                      {sub}
-                    </h3>
-                  )}
-                  <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                    {productos.map((producto, index) => (
-                      <ProductCard key={producto.id} producto={producto} index={index} />
-                    ))}
-                  </div>
-                </div>
-              ))}
+              {category === "Lencería" ? (
+  <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    {groupedProducts[category].map((producto, index) => (
+      <ProductCardLenceria key={producto.id} producto={producto} index={index} />
+    ))}
+  </div>
+) : (
+  Object.entries(productosPorSub).map(([sub, productos]) => (
+    <div key={sub} id={normalizeId(sub)} className="pt-8 mb-12">
+      {tieneSubcategorias && (
+        <h3 className="text-xl font-semibold text-white mb-6 text-center">
+          {sub}
+        </h3>
+      )}
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        {productos.map((producto, index) => (
+          <ProductCard key={producto.id} producto={producto} index={index} />
+        ))}
+      </div>
+    </div>
+  ))
+)}
+
             </section>
           );
         })}

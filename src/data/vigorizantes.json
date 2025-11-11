@@ -10,7 +10,7 @@
     "marca": "Sexitive",
     "linea": "power",
     "variantes": [
-      { "tamaño": "20ml", "precio": 5200 }
+      { "tamaño": "20ml", "precio": 18000 }
     ]
   },
   {
@@ -24,7 +24,7 @@
     "marca": "Sexitive",
     "linea": "power",
     "variantes": [
-      { "tamaño": "20ml", "precio": 5200 }
+      { "tamaño": "20ml", "precio": 18000 }
     ]
   },
   {
@@ -38,7 +38,7 @@
     "marca": "Sexitive",
     "linea": "power",
     "variantes": [
-      { "tamaño": "4/Uni", "precio": 5200 }
+      { "tamaño": "4/Uni", "precio": 12000 }
     ]
   },
   {
@@ -52,7 +52,7 @@
     "marca": "Sexitive",
     "linea": "power",
     "variantes": [
-      { "tamaño": "4/Uni", "precio": 5200 }
+      { "tamaño": "4/Uni", "precio": 12000 }
     ]
   },
   {
@@ -66,12 +66,12 @@
     "marca": "Ultra",
     "linea": "Hombre",
     "variantes": [
-      { "tamaño": "12/Uni", "precio": 6200 }
+      { "tamaño": "12/Uni", "precio": 36000 }
     ]
   },
   {
     "id": 305,
-    "nombre": "Ultra Hombre",
+    "nombre": "Ultra Hombre - x Unidad",
     "descripcion": "Las Cápsulas ULTRA HOMBRE son el mejor método disponible para aumentar y restaurar la potencia sexual de una forma sana, sencilla y natural. Viva su masculinidad a pleno con ULTRAHOMBRE, un producto único, que combina en su fórmula las más potentes hierbas con probados ingredientes para lograr la más alta efectividad.",
     "imagen": "/images/vigorizantes/v6.jpg",
     "categoria": "Vigorizantes",
@@ -80,7 +80,7 @@
     "marca": "Ultra",
     "linea": "hombre",
     "variantes": [
-      { "tamaño": "1/Uni", "precio": 6200 }
+      { "tamaño": "1/Uni", "precio": 4000 }
     ]
   },
   {
@@ -94,7 +94,7 @@
     "marca": "XING YU",
     "linea": "HOMBRE",
     "variantes": [
-      { "tamaño": "4/Uni", "precio": 6200 }
+      { "tamaño": "4/Uni", "precio": 12000 }
     ]
   }
 ]

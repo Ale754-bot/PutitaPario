@@ -209,7 +209,7 @@
   "stock": true,
   "marca": "Calins",
   "variantes": [
-    { "tamaño": "75ml", "precio": null }
+    { "tamaño": "75ml", "precio": 10000 }
   ]
 },
 {
@@ -441,7 +441,7 @@
   "marca": "Sexitive",
   "linea": "Afrodisia",
   "variantes": [
-    { "tamaño": "75ml", "precio": null }
+    { "tamaño": "75ml", "precio": 14000 }
   ]
 },
 {
@@ -455,7 +455,7 @@
   "marca": "Fly Night",
   "linea": "Kisses",
   "variantes": [
-    { "tamaño": "100ml", "precio": null }
+    { "tamaño": "100ml", "precio": 8000 }
   ]
 },
 {
@@ -469,7 +469,7 @@
   "marca": "Sexitive",
   "linea": "EOS",
   "variantes": [
-    { "tamaño": "25ml", "precio": null }
+    { "tamaño": "25ml", "precio": 12000 }
   ]
 },
 {
@@ -483,7 +483,7 @@
   "marca": "Sexitive",
   "linea": "EOS",
   "variantes": [
-    { "tamaño": "25ml", "precio": null }
+    { "tamaño": "25ml", "precio": 14000 }
   ]
 },
 {
@@ -497,7 +497,7 @@
   "marca": "Sexitive",
   "linea": "Heroe",
   "variantes": [
-    { "tamaño": "20ml", "precio": null }
+    { "tamaño": "20ml", "precio": 14000 }
   ]
 },
 {
@@ -511,7 +511,7 @@
   "marca": "Sexitive",
   "linea": "Magic Dual",
   "variantes": [
-    { "tamaño": "100ml", "precio": null }
+    { "tamaño": "100ml", "precio": 14000 }
   ]
 },
 {
@@ -525,7 +525,7 @@
   "marca": "Sexitive",
   "linea": "Magic Dual",
   "variantes": [
-    { "tamaño": "100ml", "precio": null }
+    { "tamaño": "100ml", "precio": 14000 }
   ]
 },
   {
@@ -541,12 +541,12 @@
     "variantes": [
       {
         "tamaño": "30ml",
-        "precio": 7000,
+        "precio": 12000,
         "imagen": "/images/Geles/a-chocolate.jpg"
       },
       {
         "tamaño": "15ml",
-        "precio": 5000,
+        "precio": 6500,
         "imagen": "/images/Geles/a-chocolate2.jpg"
       }
     ]
@@ -564,12 +564,12 @@
     "variantes": [
       {
         "tamaño": "30ml",
-        "precio": 7000,
+        "precio": 12000,
         "imagen": "/images/Geles/a-banana.jpg"
       },
       {
         "tamaño": "15ml",
-        "precio": 5000,
+        "precio": 6500,
         "imagen": "/images/Geles/a-banana2.jpg"
       }
     ]
@@ -587,12 +587,12 @@
     "variantes": [
       {
         "tamaño": "30ml",
-        "precio": 7000,
+        "precio": 12000,
         "imagen": "/images/Geles/a-champagne.jpg"
       },
       {
         "tamaño": "15ml",
-        "precio": 5000,
+        "precio": 6500,
         "imagen": "/images/Geles/a-champagne2.jpg"
       }
     ]
@@ -610,12 +610,12 @@
     "variantes": [
       {
         "tamaño": "30ml",
-        "precio": 7000,
+        "precio": 12000,
         "imagen": "/images/Geles/a-dulcedeleche.jpg"
       },
       {
         "tamaño": "15ml",
-        "precio": 5000,
+        "precio": 6500,
         "imagen": "/images/Geles/a-dulcedeleche2.jpg"
       }
     ]
@@ -633,12 +633,12 @@
     "variantes": [
       {
         "tamaño": "30ml",
-        "precio": 7000,
+        "precio": 12000,
         "imagen": "/images/Geles/a-frutilla.jpg"
       },
       {
         "tamaño": "15ml",
-        "precio": 5000,
+        "precio": 6500,
         "imagen": "/images/Geles/a-frutilla2.jpg"
       }
     ]
@@ -656,12 +656,12 @@
     "variantes": [
       {
         "tamaño": "30ml",
-        "precio": 7000,
+        "precio": 12000,
         "imagen": "/images/Geles/a-frutos.jpg"
       },
       {
         "tamaño": "15ml",
-        "precio": 5000,
+        "precio": 6500,
         "imagen": "/images/Geles/a-frutos2.jpg"
       }
     ]
@@ -679,12 +679,12 @@
     "variantes": [
       {
         "tamaño": "30ml",
-        "precio": 7000,
+        "precio": 12000,
         "imagen": "/images/Geles/a-menta.jpg"
       },
       {
         "tamaño": "15ml",
-        "precio": 5000,
+        "precio": 6500,
         "imagen": "/images/Geles/a-menta2.jpg"
       }
     ]
@@ -702,7 +702,7 @@
     "variantes": [
       {
         "tamaño": "15ml",
-        "precio": null
+        "precio": 6500
       }
     ]
   },
@@ -717,7 +717,7 @@
   "marca": "Sexitive",
   "linea": "BE",
   "variantes": [
-    { "tamaño": "200g", "precio": null }
+    { "tamaño": "200g", "precio": 23000 }
   ]
 },
 {
@@ -731,7 +731,7 @@
   "marca": "Sexitive",
   "linea": "SM",
   "variantes": [
-    { "tamaño": "200g", "precio": null }
+    { "tamaño": "200g", "precio": 23000 }
   ]
 },
 {
@@ -745,7 +745,7 @@
   "marca": "Sexitive",
   "linea": "SensBomb",
   "variantes": [
-    { "tamaño": "130ml", "precio": null }
+    { "tamaño": "130ml", "precio": 14000 }
   ]
 },
 {
@@ -759,7 +759,7 @@
   "marca": "Sexitive",
   "linea": "SensBomb",
   "variantes": [
-    { "tamaño": "130ml", "precio": null }
+    { "tamaño": "130ml", "precio": 14000 }
   ]
 },
 {
@@ -773,7 +773,7 @@
   "marca": "Sextual",
   "linea": "",
   "variantes": [
-    { "tamaño": "60ml", "precio": null }
+    { "tamaño": "60ml", "precio": 6500 }
   ]
 },
 {
@@ -787,7 +787,7 @@
   "marca": "Sextual",
   "linea": "",
   "variantes": [
-    { "tamaño": "60ml", "precio": null }
+    { "tamaño": "60ml", "precio": 6500 }
   ]
 },
 {
@@ -801,7 +801,7 @@
   "marca": "Sextual",
   "linea": "",
   "variantes": [
-    { "tamaño": "60ml", "precio": null }
+    { "tamaño": "60ml", "precio": 6500 }
   ]
 },
 {
@@ -815,7 +815,7 @@
   "marca": "Sextual",
   "linea": "",
   "variantes": [
-    { "tamaño": "60ml", "precio": null }
+    { "tamaño": "60ml", "precio": 6500 }
   ]
 },
 {
@@ -829,7 +829,7 @@
   "marca": "Sextual",
   "linea": "",
   "variantes": [
-    { "tamaño": "60ml", "precio": null }
+    { "tamaño": "60ml", "precio": 6500 }
   ]
 },
 {
@@ -843,7 +843,7 @@
   "marca": "Sextual",
   "linea": "",
   "variantes": [
-    { "tamaño": "60ml", "precio": null }
+    { "tamaño": "60ml", "precio": 6500 }
   ]
 },
 {
@@ -857,7 +857,7 @@
   "marca": "Sexitive",
   "linea": "",
   "variantes": [
-    { "tamaño": "200g", "precio": null }
+    { "tamaño": "200g", "precio": 16000 }
   ]
 },
 {
@@ -871,9 +871,7 @@
   "marca": "Sexitive",
   "linea": "",
   "variantes": [
-    { "tamaño": "200g", "precio": null }
+    { "tamaño": "200g", "precio": 16000 }
   ]
 }
-
-
 ]

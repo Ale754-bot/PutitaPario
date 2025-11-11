@@ -327,5 +327,50 @@
         "imagen": "/images/juguetes/succionador-violeta.jpg"
       }
     ]
+  },
+  {
+    "id": 422,
+    "nombre": "Conejito Masajeador - Calexotics",
+    "descripcion": "Bala vibradora compacta. Ideal para estimulación puntual y discreta.",
+    "imagen": "/images/juguetes/bala-vibradora.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "CALEXOTICS",
+    "linea": "",
+    "precio": 20000
+  },
+  {
+    "id": 423,
+    "nombre": "Anillo Peneano con vibración - Eudora",
+    "descripcion": "Bala vibradora compacta. Ideal para estimulación puntual y discreta.",
+    "imagen": "/images/juguetes/bala-vibradora.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "pretty love",
+    "linea": "",
+    "precio": 40000
+  },
+  {
+    "id": 424,
+    "nombre": "Anillo Peneano - Chester",
+    "descripcion": "Bala vibradora compacta. Ideal para estimulación puntual y discreta.",
+    "imagen": "/images/juguetes/bala-vibradora.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "pretty love",
+    "linea": "",
+    "precio": 45000
+  },
+  {
+    "id": 425,
+    "nombre": "Anillo Peneano - Común",
+    "descripcion": "Bala vibradora compacta. Ideal para estimulación puntual y discreta.",
+    "imagen": "/images/juguetes/bala-vibradora.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": 15000
   }
 ]
+

@@ -108,5 +108,16 @@
     "marca": "",
     "linea": "",
     "precio": ""
+  },
+  {
+    "id": 1010,
+    "nombre": "Cinturon",
+    "descripcion": "Dildo firme con base plana y diseño recto. Ideal para uso con arnés.",
+    "imagen": "/images/dildos/dildo10.jpg",
+    "categoria": "Dildos",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": ""
   }
 ]

@@ -26,7 +26,13 @@ const ProductCard = ({ producto, index }) => {
   const tieneTalles = talles && talles.length > 0;
   const tieneVariantes = variantes && variantes.length > 0;
   const tieneColores = mostrarColor && variantes?.some(v => v.color);
-  const tipoVariante = variantes?.[0]?.talle ? "talle" : "tamaño";
+const tipoVariante = tieneVariantes
+  ? variantes[0]?.talle
+    ? "talle"
+    : variantes[0]?.tamaño
+    ? "tamaño"
+    : null
+  : null;
 
   const requiereColor = tieneColores;
   const requiereTalle = tipoVariante === "talle";
@@ -53,16 +59,17 @@ const ProductCard = ({ producto, index }) => {
   const imagenFinal = varianteSeleccionada?.imagen || imagen || imagenUrl || "/images/placeholder.png";
 
   const textoBoton = !stock
-    ? "Sin stock"
-    : tieneTalles && !talleSeleccionado
-    ? "Elegí un talle"
-    : requiereColor && !varianteSeleccionada
-    ? "Elegí un color"
-    : requiereTalle && !varianteSeleccionada
-    ? "Elegí un talle"
-    : requiereTamaño && !varianteSeleccionada
-    ? "Elegí un tamaño"
-    : "Agregar al carrito";
+  ? "Sin stock"
+  : tieneTalles && !talleSeleccionado
+  ? "Elegí un talle"
+  : tieneVariantes && requiereColor && !varianteSeleccionada
+  ? "Elegí un color"
+  : tieneVariantes && requiereTalle && !varianteSeleccionada
+  ? "Elegí un talle"
+  : tieneVariantes && requiereTamaño && !varianteSeleccionada
+  ? "Elegí un tamaño"
+  : "Agregar al carrito";
+
 
   const handleAgregar = () => {
     if (!puedeAgregar) return;

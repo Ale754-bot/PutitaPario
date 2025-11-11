@@ -218,14 +218,14 @@
     "mostrarColor": true,
     "variantes": [
       {
-        "tamaño": "M - Rojo",
+        "tamaño": "M",
         "color": "Rojo",
         "colorHex": "#b30000",
         "precio": 7000,
         "imagen": "/images/velas/exoticas/projom.jpg"
       },
       {
-        "tamaño": "M - Blanco",
+        "tamaño": "M",
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 7000,

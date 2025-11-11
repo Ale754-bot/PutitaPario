@@ -11,6 +11,10 @@ import plugsAnales from '../data/plugs-anales.json';
 import velas from '../data/velas.json';
 import lenceria from '../data/lenceria.json';
 import disfraces from '../data/disfraces.json';
+import arneses from '../data/arneses.json';
+import bdsm from '../data/bdsm.json';
+import cuidadoIntimo from '../data/cuidadointimo.json';
+import dildos from '../data/dildos.json';
 import PageTransition from '../components/PageTransition';
 
 const groupProductsByCategory = (products) => {
@@ -47,10 +51,14 @@ const Productos = () => {
     ...perfumes,
     ...juegosSexuales,
     ...vigorizantes,
+    ...cuidadoIntimo,
     ...juguetes,
     ...plugsAnales,
+    ...dildos,
     ...velas,
     ...lenceria,
+    ...arneses,
+    ...bdsm,
     ...disfraces
   ];
 

@@ -238,5 +238,94 @@
     "precio": "78000",
     "mostrarColor": false,
     "variantes": []
+  },
+  {
+    "id": 417,
+    "nombre": "Masajeador Paul",
+    "descripcion": "Masajeador potente con múltiples velocidades. Ideal para relajación y estimulación profunda.",
+    "imagen": "/images/juguetes/masajeador-paul.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": 68000
+  },
+  {
+    "id": 418,
+    "nombre": "Masturbador Doble Estimulación Premium",
+    "descripcion": "Diseño ergonómico con doble entrada. Textura interna suave y estimulante.",
+    "imagen": "/images/juguetes/masturbador-doble.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": 85000
+  },
+  {
+    "id": 419,
+    "nombre": "Lenguitas Estimuladoras",
+    "descripcion": "Estimulador vibrante con forma de lengüita. Ideal para juego externo.",
+    "imagen": "/images/juguetes/lenguitas.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "mostrarColor": true,
+    "variantes": [
+      {
+        "color": "Violeta",
+        "colorHex": "#8A2BE2",
+        "precio": 60000,
+        "imagen": "/images/juguetes/lenguita-violeta.jpg"
+      },
+      {
+        "color": "Rosa",
+        "colorHex": "#FF69B4",
+        "precio": 60000,
+        "imagen": "/images/juguetes/lenguita-rosa.jpg"
+      }
+    ]
+  },
+  {
+    "id": 420,
+    "nombre": "Bala Vibradora Masajeadora",
+    "descripcion": "Bala vibradora compacta. Ideal para estimulación puntual y discreta.",
+    "imagen": "/images/juguetes/bala-vibradora.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": 30000
+  },
+  {
+    "id": 421,
+    "nombre": "Succionadores de Clítoris con USB",
+    "descripcion": "Succionador recargable con múltiples intensidades. Estimula con precisión y suavidad.",
+    "imagen": "/images/juguetes/succionadores.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "mostrarColor": true,
+    "variantes": [
+      {
+        "color": "Fucsia",
+        "colorHex": "#FF1493",
+        "precio": 48000,
+        "imagen": "/images/juguetes/succionador-fucsia.jpg"
+      },
+      {
+        "color": "Cremita",
+        "colorHex": "#FFFDD0",
+        "precio": 48000,
+        "imagen": "/images/juguetes/succionador-cremita.jpg"
+      },
+      {
+        "color": "Violeta",
+        "colorHex": "#8A2BE2",
+        "precio": 48000,
+        "imagen": "/images/juguetes/succionador-violeta.jpg"
+      }
+    ]
   }
 ]

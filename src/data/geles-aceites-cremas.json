@@ -873,5 +873,33 @@
   "variantes": [
     { "tamaño": "200g", "precio": 16000 }
   ]
+},
+{
+  "id": 59,
+  "nombre": "Gel - The Wild Boys",
+  "descripcion": "Tonifica y fortalece para erecciones más firmes, duraderas y orgasmos intensos.",
+  "imagen": "/images/Geles/s-boys2.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Aceites y cremas para masajes",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "",
+  "variantes": [
+    { "tamaño": "200g", "precio": 16000 }
+  ]
+},
+{
+  "id": 60,
+  "nombre": "Gel - The Wild Boys",
+  "descripcion": "Tonifica y fortalece para erecciones más firmes, duraderas y orgasmos intensos.",
+  "imagen": "/images/Geles/s-boys2.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Aceites y cremas para masajes",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "",
+  "variantes": [
+    { "tamaño": "200g", "precio": 16000 }
+  ]
 }
 ]

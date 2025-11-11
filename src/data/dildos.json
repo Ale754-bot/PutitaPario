@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1000,
+    "nombre": "Dildo 1",
+    "descripcion": "Diseño clásico con textura suave y forma anatómica. Ideal para uso externo o interno.",
+    "imagen": "/images/dildos/dildo1.jpg",
+    "categoria": "Dildos",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": ""
+  },
+  {
+    "id": 1001,
+    "nombre": "Dildo 2",
+    "descripcion": "Forma curvada para estimulación del punto G. Superficie lisa y base firme.",
+    "imagen": "/images/dildos/dildo2.jpg",
+    "categoria": "Dildos",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": ""
+  },
+  {
+    "id": 1002,
+    "nombre": "Dildo 3",
+    "descripcion": "Diseño realista con detalles texturizados. Ideal para quienes buscan sensaciones intensas.",
+    "imagen": "/images/dildos/dildo3.jpg",
+    "categoria": "Dildos",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": ""
+  },
+  {
+    "id": 1003,
+    "nombre": "Dildo 4",
+    "descripcion": "Dildo compacto con base plana. Ideal para principiantes o uso combinado con arnés.",
+    "imagen": "/images/dildos/dildo4.jpg",
+    "categoria": "Dildos",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": ""
+  },
+  {
+    "id": 1004,
+    "nombre": "Dildo 5",
+    "descripcion": "Diseño doble para estimulación simultánea. Flexible y suave al tacto.",
+    "imagen": "/images/dildos/dildo5.jpg",
+    "categoria": "Dildos",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": ""
+  },
+  {
+    "id": 1005,
+    "nombre": "Dildo 6",
+    "descripcion": "Forma estilizada con punta redondeada. Ideal para estimulación precisa.",
+    "imagen": "/images/dildos/dildo6.jpg",
+    "categoria": "Dildos",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": ""
+  },
+  {
+    "id": 1006,
+    "nombre": "Dildo 7",
+    "descripcion": "Diseño texturizado con base de succión. Ideal para uso sin manos.",
+    "imagen": "/images/dildos/dildo7.jpg",
+    "categoria": "Dildos",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": ""
+  },
+  {
+    "id": 1007,
+    "nombre": "Dildo 8",
+    "descripcion": "Curvatura ergonómica para estimulación interna. Material flexible y seguro.",
+    "imagen": "/images/dildos/dildo8.jpg",
+    "categoria": "Dildos",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": ""
+  },
+  {
+    "id": 1008,
+    "nombre": "Dildo 9",
+    "descripcion": "Diseño artístico con textura ondulada. Estética y placer combinados.",
+    "imagen": "/images/dildos/dildo9.jpg",
+    "categoria": "Dildos",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": ""
+  },
+  {
+    "id": 1009,
+    "nombre": "Dildo 10",
+    "descripcion": "Dildo firme con base plana y diseño recto. Ideal para uso con arnés.",
+    "imagen": "/images/dildos/dildo10.jpg",
+    "categoria": "Dildos",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": ""
+  }
+]

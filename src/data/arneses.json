@@ -1,0 +1,204 @@
+[
+  {
+    "id": 900,
+    "nombre": "Arnés Roxi",
+    "descripcion": "Diseño ajustado con tiras cruzadas y estética provocadora. Ideal para complementar conjuntos.",
+    "imagen": "/images/arneses/roxi-negro.jpg",
+    "categoria": "Arneses",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "mostrarColor": true,
+    "variantes": [
+      { "color": "Negro", "colorHex": "#000000", "precio": "",
+      "imagen": "/images/arneses/roxi-negro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
+      "imagen": "/images/arneses/roxi-blanco.jpg" }
+    ]
+  },
+  {
+    "id": 901,
+    "nombre": "Arnés Medusa",
+    "descripcion": "Tiras múltiples con efecto envolvente. Sensualidad y estructura en una sola pieza.",
+    "imagen": "/images/arneses/medusa-negro.jpg",
+    "categoria": "Arneses",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "mostrarColor": true,
+    "variantes": [
+      { "color": "Negro", "colorHex": "#000000", "precio": "",
+      "imagen": "/images/arneses/medusa-negro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
+      "imagen": "/images/arneses/medusa-blanco.jpg" }
+    ]
+  },
+  {
+    "id": 902,
+    "nombre": "Arnés Baby",
+    "descripcion": "Diseño minimalista con tiras suaves y ajuste cómodo. Ideal para layering.",
+    "imagen": "/images/arneses/baby-negro.jpg",
+    "categoria": "Arneses",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "mostrarColor": true,
+    "variantes": [
+      { "color": "Negro", "colorHex": "#000000", "precio": "",
+      "imagen": "/images/arneses/baby-negro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
+      "imagen": "/images/arneses/baby-blanco.jpg" }
+    ]
+  },
+  {
+    "id": 903,
+    "nombre": "Arnés Dai",
+    "descripcion": "Diseño simétrico con tiras dobles y ajuste firme. Estética geométrica.",
+    "imagen": "/images/arneses/dai-negro.jpg",
+    "categoria": "Arneses",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "mostrarColor": true,
+    "variantes": [
+      { "color": "Negro", "colorHex": "#000000", "precio": "",
+      "imagen": "/images/arneses/dai-negro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
+      "imagen": "/images/arneses/dai-blanco.jpg" }
+    ]
+  },
+  {
+    "id": 904,
+    "nombre": "Conjunto Moños",
+    "descripcion": "Arnés decorativo con moños laterales. Toque lúdico y provocador.",
+    "imagen": "/images/arneses/moños-negro.jpg",
+    "categoria": "Arneses",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "mostrarColor": true,
+    "variantes": [
+      { "color": "Negro", "colorHex": "#000000", "precio": "",
+      "imagen": "/images/arneses/moños-negro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
+      "imagen": "/images/arneses/moños-blanco.jpg" }
+    ]
+  },
+  {
+    "id": 905,
+    "nombre": "Conjunto Deli",
+    "descripcion": "Arnés delicado con tiras finas y diseño envolvente. Disponible en negro.",
+    "imagen": "/images/arneses/deli-negro.jpg",
+    "categoria": "Arneses",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "mostrarColor": true,
+    "variantes": [
+      { "color": "Negro", "colorHex": "#000000", "precio": "",
+      "imagen": "/images/arneses/deli-negro.jpg" }
+    ]
+  },
+  {
+    "id": 906,
+    "nombre": "Conjunto Moños Tiras",
+    "descripcion": "Arnés con tiras cruzadas y moños decorativos. Estética juguetona.",
+    "imagen": "/images/arneses/moñostiras-negro.jpg",
+    "categoria": "Arneses",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "mostrarColor": true,
+    "variantes": [
+      { "color": "Negro", "colorHex": "#000000", "precio": "",
+      "imagen": "/images/arneses/moñostiras-negro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
+      "imagen": "/images/arneses/moñostiras-blanco.jpg" }
+    ]
+  },
+  {
+    "id": 907,
+    "nombre": "Arnés Neidi",
+    "descripcion": "Diseño clásico con tiras dobles y ajuste firme. Elegancia estructurada.",
+    "imagen": "/images/arneses/neidi-negro.jpg",
+    "categoria": "Arneses",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "mostrarColor": true,
+    "variantes": [
+      { "color": "Negro", "colorHex": "#000000", "precio": "",
+      "imagen": "/images/arneses/neidi-negro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
+      "imagen": "/images/arneses/neidi-blanco.jpg" }
+    ]
+  },
+  {
+    "id": 908,
+    "nombre": "Arnés PP",
+    "descripcion": "Diseño envolvente con tiras cruzadas y estética provocadora. Ideal para layering.",
+    "imagen": "/images/arneses/pp-negro.jpg",
+    "categoria": "Arneses",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "mostrarColor": true,
+    "variantes": [
+      { "color": "Negro", "colorHex": "#000000", "precio": "",
+      "imagen": "/images/arneses/pp-negro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
+      "imagen": "/images/arneses/pp-blanco.jpg" }
+    ]
+  },
+  {
+    "id": 909,
+    "nombre": "Liga Doble",
+    "descripcion": "Arnés tipo liga con doble tira y ajuste firme. Sensualidad en movimiento.",
+    "imagen": "/images/arneses/liga-negro.jpg",
+    "categoria": "Arneses",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "mostrarColor": true,
+    "variantes": [
+      { "color": "Negro", "colorHex": "#000000", "precio": "",
+      "imagen": "/images/arneses/liga-negro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
+      "imagen": "/images/arneses/liga-blanco.jpg" }
+    ]
+  },
+  {
+    "id": 910,
+    "nombre": "Portaligas Baby",
+    "descripcion": "Arnés tipo portaligas con diseño suave y tiras ajustables. Ideal para complementar conjuntos.",
+    "imagen": "/images/arneses/portaligasbaby-negro.jpg",
+    "categoria": "Arneses",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "mostrarColor": true,
+    "variantes": [
+      { "color": "Negro", "colorHex": "#000000", "precio": "",
+      "imagen": "/images/arneses/portaligasbaby-negro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
+      "imagen": "/images/arneses/portaligasbaby-blanco.jpg" }
+    ]
+  },
+ {
+  "id": 911,
+  "nombre": "Arnés Valentine",
+  "descripcion": "Diseño romántico con tiras cruzadas y detalles suaves. Ideal para ocasiones especiales.",
+  "imagen": "/images/arneses/valentine-negro.jpg",
+  "categoria": "Arneses",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "mostrarColor": true,
+  "variantes": [
+    { "color": "Negro", "colorHex": "#000000", "precio": "",
+    "imagen": "/images/arneses/valentine-negro.jpg" },
+    { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
+    "imagen": "/images/arneses/valentine-blanco.jpg" }
+  ]
+}
+]

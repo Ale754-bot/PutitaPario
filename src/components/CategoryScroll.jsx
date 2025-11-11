@@ -7,10 +7,14 @@ const CATEGORIES = [
   "Perfumes Afrodisíacos y Body Splash",
   "Juegos Sexuales",
   "Vigorizantes",
+  "Cuidado Personal Íntimo",
   "Juguetes",
   "Plugs Anales",
+  "Dildos",
   "Velas",
   "Lencería",
+  "Arneses",
+  "BDSM",
   "Disfraces"
 ];
 

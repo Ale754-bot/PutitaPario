@@ -81,10 +81,14 @@ const CategoryScroll = () => {
 
         {/* Scroll manual con snapping */}
         <motion.div
-          ref={scrollRef}
-          className="w-full overflow-x-auto overflow-y-hidden touch-pan-x scroll-smooth snap-x snap-mandatory no-scrollbar"
-          whileTap={{ cursor: 'grabbing' }}
-        >
+        ref={scrollRef}
+        className="
+          w-full overflow-x-auto scroll-smooth snap-x snap-mandatory no-scrollbar
+          touch-pan-y md:touch-pan-x   /* 🔧 en mobile prioriza scroll vertical, en desktop horizontal */
+        "
+        whileTap={{ cursor: 'grabbing' }}
+      >
+
           <div className="flex gap-6 px-6 py-6 min-w-max">
             {CATEGORIES.map((name, i) => (
               <motion.div

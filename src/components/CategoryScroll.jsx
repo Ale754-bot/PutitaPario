@@ -82,10 +82,8 @@ const CategoryScroll = () => {
         {/* Scroll manual con snapping */}
         <motion.div
   ref={scrollRef}
-  className="
-    w-full overflow-x-auto scroll-smooth snap-x snap-mandatory no-scrollbar
-    touch-pan-x   /* 🔧 ahora reconoce gestos horizontales en mobile */
-  "
+  className="w-full overflow-x-auto scroll-smooth snap-x snap-mandatory no-scrollbar touch-pan-x touch-pan-y"
+
   whileTap={{ cursor: 'grabbing' }}
 >
   <div className="flex gap-6 px-6 py-6 min-w-max">

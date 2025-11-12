@@ -9,7 +9,7 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
+    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
   },
   {
     "id": 601,
@@ -21,7 +21,7 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
+    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
   },
   {
     "id": 602,
@@ -33,7 +33,7 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
+    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
   },
   {
     "id": 603,
@@ -45,7 +45,7 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
+    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
   },
   {
     "id": 604,
@@ -57,7 +57,7 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
+    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
   },
   {
     "id": 605,
@@ -69,7 +69,7 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
+    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
   },
   {
     "id": 606,
@@ -81,7 +81,7 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
+    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
   },
   {
     "id": 607,
@@ -93,7 +93,7 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
+    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
   },
   {
     "id": 608,
@@ -105,7 +105,7 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
+    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
   },
   {
     "id": 609,
@@ -117,7 +117,7 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 0 }]
+    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
   },
   {
   "id": 610,
@@ -135,21 +135,21 @@
       "tamaño": "Único",
       "color": "Rojo",
       "colorHex": "#b30000",
-      "precio": 7000,
+      "precio": 8000,
       "imagen": "/images/velas/exoticas/union1.jpg"
     },
     {
       "tamaño": "Único",
       "color": "Blanco",
       "colorHex": "#ffffff",
-      "precio": 7000,
+      "precio": 8000,
       "imagen": "/images/velas/exoticas/union2.jpg"
     },
     {
       "tamaño": "Único",
       "color": "Cremita",
       "colorHex": "#f5e6d3",
-      "precio": 7000,
+      "precio": 8000,
       "imagen": "/images/velas/exoticas/union3.jpg"
     }
   ]
@@ -171,7 +171,7 @@
       "tamaño": "Único",
       "color": "Rojo",
       "colorHex": "#b30000",
-      "precio": 7000,
+      "precio": 8000,
       "imagen": "/images/velas/exoticas/vulva.jpg"
     }
   ]
@@ -193,14 +193,14 @@
         "tamaño": "S - Rojo",
         "color": "Rojo",
         "colorHex": "#b30000",
-        "precio": 7000,
+        "precio": 9000,
         "imagen": "/images/velas/exoticas/projo.jpg"
       },
       {
         "tamaño": "S - Blanco",
         "color": "Blanco",
         "colorHex": "#ffffff",
-        "precio": 7000,
+        "precio": 9000,
         "imagen": "/images/velas/exoticas/pblanco.jpg"
       }
     ]
@@ -221,14 +221,14 @@
         "tamaño": "M",
         "color": "Rojo",
         "colorHex": "#b30000",
-        "precio": 7000,
+        "precio": 9000,
         "imagen": "/images/velas/exoticas/projom.jpg"
       },
       {
         "tamaño": "M",
         "color": "Blanco",
         "colorHex": "#ffffff",
-        "precio": 7000,
+        "precio": 9000,
         "imagen": "/images/velas/exoticas/pblancom.jpg"
       }
     ]
@@ -249,7 +249,7 @@
       "tamaño": "L",
       "color": "Blanco",
       "colorHex": "#ffffff",
-      "precio": 7000,
+      "precio": 9000,
       "imagen": "/images/velas/exoticas/pblancol.jpg"
     }
   ]

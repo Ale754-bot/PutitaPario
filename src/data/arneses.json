@@ -10,9 +10,9 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "",
+      { "color": "Negro", "colorHex": "#000000", "precio": "14000",
       "imagen": "/images/arneses/roxi-negro.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "14000",
       "imagen": "/images/arneses/roxi-blanco.jpg" }
     ]
   },
@@ -20,68 +20,68 @@
     "id": 901,
     "nombre": "Arnés Medusa",
     "descripcion": "Tiras múltiples con efecto envolvente. Sensualidad y estructura en una sola pieza.",
-    "imagen": "/images/arneses/medusa-negro.jpg",
+    "imagen": "/images/arneses/medusanegro.jpg",
     "categoria": "Arneses",
     "stock": true,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "",
-      "imagen": "/images/arneses/medusa-negro.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
-      "imagen": "/images/arneses/medusa-blanco.jpg" }
+      { "color": "Negro", "colorHex": "#000000", "precio": "14000",
+      "imagen": "/images/arneses/medusanegro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "14000",
+      "imagen": "/images/arneses/medusablanco.jpg" }
     ]
   },
   {
     "id": 902,
     "nombre": "Arnés Baby",
     "descripcion": "Diseño minimalista con tiras suaves y ajuste cómodo. Ideal para layering.",
-    "imagen": "/images/arneses/baby-negro.jpg",
+    "imagen": "/images/arneses/babynegro.jpg",
     "categoria": "Arneses",
     "stock": true,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "",
-      "imagen": "/images/arneses/baby-negro.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
-      "imagen": "/images/arneses/baby-blanco.jpg" }
+      { "color": "Negro", "colorHex": "#000000", "precio": "12000",
+      "imagen": "/images/arneses/babynegro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "12000",
+      "imagen": "/images/arneses/babyblanco.jpg" }
     ]
   },
   {
     "id": 903,
     "nombre": "Arnés Dai",
     "descripcion": "Diseño simétrico con tiras dobles y ajuste firme. Estética geométrica.",
-    "imagen": "/images/arneses/dai-negro.jpg",
+    "imagen": "/images/arneses/dainegro.jpg",
     "categoria": "Arneses",
     "stock": true,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "",
-      "imagen": "/images/arneses/dai-negro.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
-      "imagen": "/images/arneses/dai-blanco.jpg" }
+      { "color": "Negro", "colorHex": "#000000", "precio": "14000",
+      "imagen": "/images/arneses/dainegro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "14000",
+      "imagen": "/images/arneses/daiblanco.jpg" }
     ]
   },
   {
     "id": 904,
     "nombre": "Conjunto Moños",
     "descripcion": "Arnés decorativo con moños laterales. Toque lúdico y provocador.",
-    "imagen": "/images/arneses/moños-negro.jpg",
+    "imagen": "/images/arneses/moñosnegro.jpg",
     "categoria": "Arneses",
     "stock": true,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "",
-      "imagen": "/images/arneses/moños-negro.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
-      "imagen": "/images/arneses/moños-blanco.jpg" }
+      { "color": "Negro", "colorHex": "#000000", "precio": "15000",
+      "imagen": "/images/arneses/moñosnegro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "15000",
+      "imagen": "/images/arneses/moñosblanco.jpg" }
     ]
   },
   {
@@ -95,7 +95,7 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "",
+      { "color": "Negro", "colorHex": "#000000", "precio": "17000",
       "imagen": "/images/arneses/deli-negro.jpg" }
     ]
   },
@@ -103,17 +103,17 @@
     "id": 906,
     "nombre": "Conjunto Moños Tiras",
     "descripcion": "Arnés con tiras cruzadas y moños decorativos. Estética juguetona.",
-    "imagen": "/images/arneses/moñostiras-negro.jpg",
+    "imagen": "/images/arneses/moñostirasnegro.jpg",
     "categoria": "Arneses",
     "stock": true,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "",
-      "imagen": "/images/arneses/moñostiras-negro.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
-      "imagen": "/images/arneses/moñostiras-blanco.jpg" }
+      { "color": "Negro", "colorHex": "#000000", "precio": "14000",
+      "imagen": "/images/arneses/moñostirasnegro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "14000",
+      "imagen": "/images/arneses/moñostirasblanco.jpg" }
     ]
   },
   {
@@ -127,9 +127,9 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "",
+      { "color": "Negro", "colorHex": "#000000", "precio": "28800",
       "imagen": "/images/arneses/neidi-negro.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "28800",
       "imagen": "/images/arneses/neidi-blanco.jpg" }
     ]
   },
@@ -144,9 +144,9 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "",
+      { "color": "Negro", "colorHex": "#000000", "precio": "17000",
       "imagen": "/images/arneses/pp-negro.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "17000",
       "imagen": "/images/arneses/pp-blanco.jpg" }
     ]
   },
@@ -161,9 +161,9 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "",
+      { "color": "Negro", "colorHex": "#000000", "precio": "8000",
       "imagen": "/images/arneses/liga-negro.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "8000",
       "imagen": "/images/arneses/liga-blanco.jpg" }
     ]
   },
@@ -178,9 +178,9 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "",
+      { "color": "Negro", "colorHex": "#000000", "precio": "12000",
       "imagen": "/images/arneses/portaligasbaby-negro.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": "12000",
       "imagen": "/images/arneses/portaligasbaby-blanco.jpg" }
     ]
   },
@@ -195,9 +195,9 @@
   "linea": "",
   "mostrarColor": true,
   "variantes": [
-    { "color": "Negro", "colorHex": "#000000", "precio": "",
+    { "color": "Negro", "colorHex": "#000000", "precio": "23000",
     "imagen": "/images/arneses/valentine-negro.jpg" },
-    { "color": "Blanco", "colorHex": "#ffffff", "precio": "",
+    { "color": "Blanco", "colorHex": "#ffffff", "precio": "23000",
     "imagen": "/images/arneses/valentine-blanco.jpg" }
   ]
 }

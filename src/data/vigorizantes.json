@@ -96,5 +96,19 @@
     "variantes": [
       { "tamaño": "4/Uni", "precio": 12000 }
     ]
+  },
+  {
+    "id": 307,
+    "nombre": "Ultra - Mujer",
+    "descripcion": "",
+    "imagen": "/images/vigorizantes/v8.jpg",
+    "categoria": "Vigorizantes",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "ULTRA",
+    "linea": "Mujer",
+    "variantes": [
+      { "tamaño": "4/Uni", "precio": 12000 }
+    ]
   }
 ]

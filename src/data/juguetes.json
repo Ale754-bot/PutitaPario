@@ -72,6 +72,17 @@
     "variantes": []
   },
   {
+    "id": 417,
+    "nombre": "Masajeador de Clítoris Paul",
+    "descripcion": "Masajeador potente con múltiples velocidades. Ideal para relajación y estimulación profunda.",
+    "imagen": "/images/juguetes/paul.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": 68000
+  },
+  {
     "id": 406,
     "nombre": "Consolador Bishop",
     "descripcion": "...",
@@ -240,21 +251,10 @@
     "variantes": []
   },
   {
-    "id": 417,
-    "nombre": "Masajeador Paul",
-    "descripcion": "Masajeador potente con múltiples velocidades. Ideal para relajación y estimulación profunda.",
-    "imagen": "/images/juguetes/masajeador-paul.jpg",
-    "categoria": "Juguetes",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "precio": 68000
-  },
-  {
     "id": 418,
     "nombre": "Masturbador Doble Estimulación Premium",
     "descripcion": "Diseño ergonómico con doble entrada. Textura interna suave y estimulante.",
-    "imagen": "/images/juguetes/masturbador-doble.jpg",
+    "imagen": "/images/juguetes/masturbadordoble.jpg",
     "categoria": "Juguetes",
     "stock": true,
     "marca": "",
@@ -265,7 +265,7 @@
     "id": 419,
     "nombre": "Lenguitas Estimuladoras",
     "descripcion": "Estimulador vibrante con forma de lengüita. Ideal para juego externo.",
-    "imagen": "/images/juguetes/lenguitas.jpg",
+    "imagen": "/images/juguetes/lenguitavioleta.jpg",
     "categoria": "Juguetes",
     "stock": true,
     "marca": "",
@@ -276,13 +276,13 @@
         "color": "Violeta",
         "colorHex": "#8A2BE2",
         "precio": 60000,
-        "imagen": "/images/juguetes/lenguita-violeta.jpg"
+        "imagen": "/images/juguetes/lenguitavioleta.jpg"
       },
       {
         "color": "Rosa",
         "colorHex": "#FF69B4",
         "precio": 60000,
-        "imagen": "/images/juguetes/lenguita-rosa.jpg"
+        "imagen": "/images/juguetes/lenguitarosa.jpg"
       }
     ]
   },
@@ -290,7 +290,7 @@
     "id": 420,
     "nombre": "Bala Vibradora Masajeadora",
     "descripcion": "Bala vibradora compacta. Ideal para estimulación puntual y discreta.",
-    "imagen": "/images/juguetes/bala-vibradora.jpg",
+    "imagen": "/images/juguetes/balavibradora.jpg",
     "categoria": "Juguetes",
     "stock": true,
     "marca": "",
@@ -301,7 +301,7 @@
     "id": 421,
     "nombre": "Succionadores de Clítoris con USB",
     "descripcion": "Succionador recargable con múltiples intensidades. Estimula con precisión y suavidad.",
-    "imagen": "/images/juguetes/succionadores.jpg",
+    "imagen": "/images/juguetes/succionadorfucsia.jpg",
     "categoria": "Juguetes",
     "stock": true,
     "marca": "",
@@ -312,19 +312,19 @@
         "color": "Fucsia",
         "colorHex": "#FF1493",
         "precio": 48000,
-        "imagen": "/images/juguetes/succionador-fucsia.jpg"
+        "imagen": "/images/juguetes/succionadorfucsia.jpg"
       },
       {
         "color": "Cremita",
         "colorHex": "#FFFDD0",
         "precio": 48000,
-        "imagen": "/images/juguetes/succionador-cremita.jpg"
+        "imagen": "/images/juguetes/succionadorcremita.jpg"
       },
       {
         "color": "Violeta",
         "colorHex": "#8A2BE2",
         "precio": 48000,
-        "imagen": "/images/juguetes/succionador-violeta.jpg"
+        "imagen": "/images/juguetes/succionadorvioleta.jpg"
       }
     ]
   },
@@ -332,7 +332,7 @@
     "id": 422,
     "nombre": "Conejito Masajeador - Calexotics",
     "descripcion": "Bala vibradora compacta. Ideal para estimulación puntual y discreta.",
-    "imagen": "/images/juguetes/bala-vibradora.jpg",
+    "imagen": "/images/juguetes/conejito.jpg",
     "categoria": "Juguetes",
     "stock": true,
     "marca": "CALEXOTICS",
@@ -343,7 +343,7 @@
     "id": 423,
     "nombre": "Anillo Peneano con vibración - Eudora",
     "descripcion": "Bala vibradora compacta. Ideal para estimulación puntual y discreta.",
-    "imagen": "/images/juguetes/bala-vibradora.jpg",
+    "imagen": "/images/juguetes/eudora.jpg",
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
@@ -354,7 +354,7 @@
     "id": 424,
     "nombre": "Anillo Peneano - Chester",
     "descripcion": "Bala vibradora compacta. Ideal para estimulación puntual y discreta.",
-    "imagen": "/images/juguetes/bala-vibradora.jpg",
+    "imagen": "/images/juguetes/chester.jpg",
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
@@ -365,12 +365,45 @@
     "id": 425,
     "nombre": "Anillo Peneano - Común",
     "descripcion": "Bala vibradora compacta. Ideal para estimulación puntual y discreta.",
-    "imagen": "/images/juguetes/bala-vibradora.jpg",
+    "imagen": "/images/juguetes/titan.jpg",
     "categoria": "Juguetes",
     "stock": true,
     "marca": "",
     "linea": "",
     "precio": 15000
+  },
+  {
+    "id": 426,
+    "nombre": "Succionador - Pro2",
+    "descripcion": "",
+    "imagen": "/images/juguetes/succionadorpro.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "SATYSFAYER",
+    "linea": "",
+    "precio": 95000
+  },
+  {
+    "id": 427,
+    "nombre": "Tanga con vibrador",
+    "descripcion": "",
+    "imagen": "/images/juguetes/tangavibrador.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": 50000
+  },
+   {
+    "id": 428,
+    "nombre": "Brocha vibradora",
+    "descripcion": "",
+    "imagen": "/images/juguetes/brocha.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": 58000
   }
 ]
 

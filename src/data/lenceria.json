@@ -15,42 +15,42 @@
       "color": "Rojo",
       "colorHex": "#b30000",
       "talle": "S",
-      "precio": 9500,
+      "precio": 40000,
       "imagen": "/images/lenceria/hebillarojo.jpg"
     },
     {
       "color": "Rojo",
       "colorHex": "#b30000",
       "talle": "M",
-      "precio": 9500,
+      "precio": 40000,
       "imagen": "/images/lenceria/hebillarojo.jpg"
     },
     {
       "color": "Rojo",
       "colorHex": "#b30000",
       "talle": "L",
-      "precio": 9500,
+      "precio": 40000,
       "imagen": "/images/lenceria/hebillarojo.jpg"
     },
     {
       "color": "Negro",
       "colorHex": "#000000",
       "talle": "S",
-      "precio": 9500,
+      "precio": 40000,
       "imagen": "/images/lenceria/hebillanegro.jpg"
     },
     {
       "color": "Negro",
       "colorHex": "#000000",
       "talle": "M",
-      "precio": 9500,
+      "precio": 40000,
       "imagen": "/images/lenceria/hebillanegro.jpg"
     },
     {
       "color": "Negro",
       "colorHex": "#000000",
       "talle": "L",
-      "precio": 9500,
+      "precio": 40000,
       "imagen": "/images/lenceria/hebillanegro.jpg"
     }
   ]
@@ -70,63 +70,63 @@
       "color": "Azul",
       "colorHex": "#1b3474",
       "talle": "S",
-      "precio": 9500,
+      "precio": 38000,
       "imagen": "/images/lenceria/corazonesazul.jpg"
     },
     {
       "color": "Azul",
       "colorHex": "#0033cc",
       "talle": "M",
-      "precio": 9500,
+      "precio": 38000,
       "imagen": "/images/lenceria/corazonesazul.jpg"
     },
     {
       "color": "Azul",
       "colorHex": "#0033cc",
       "talle": "L",
-      "precio": 9500,
+      "precio": 38000,
       "imagen": "/images/lenceria/corazonesazul.jpg"
     },
     {
       "color": "Negro",
       "colorHex": "#000000",
       "talle": "S",
-      "precio": 9500,
+      "precio": 38000,
       "imagen": "/images/lenceria/corazonesnegro.jpg"
     },
     {
       "color": "Negro",
       "colorHex": "#000000",
       "talle": "M",
-      "precio": 9500,
+      "precio": 38000,
       "imagen": "/images/lenceria/corazonesnegro.jpg"
     },
     {
       "color": "Negro",
       "colorHex": "#000000",
       "talle": "L",
-      "precio": 9500,
+      "precio": 38000,
       "imagen": "/images/lenceria/corazonesnegro.jpg"
     },
     {
       "color": "Rosita",
       "colorHex": "#bc9286",
       "talle": "S",
-      "precio": 9500,
+      "precio": 38000,
       "imagen": "/images/lenceria/corazonesrosa.jpg"
     },
     {
       "color": "Rosita",
       "colorHex": "#bc9286",
       "talle": "M",
-      "precio": 9500,
+      "precio": 38000,
       "imagen": "/images/lenceria/corazonesrosa.jpg"
     },
     {
       "color": "Rosita",
       "colorHex": "#bc9286",
       "talle": "L",
-      "precio": 9500,
+      "precio": 38000,
       "imagen": "/images/lenceria/corazonesrosa.jpg"
     }
   ]
@@ -147,84 +147,84 @@
       "color": "Celeste",
       "colorHex": "#afc5dd",
       "talle": "S",
-      "precio": 9500,
+      "precio": 35000,
       "imagen": "/images/lenceria/cadenasceleste.jpg"
     },
     {
       "color": "Celeste",
       "colorHex": "#afc5dd",
       "talle": "M",
-      "precio": 9500,
+      "precio": 35000,
       "imagen": "/images/lenceria/cadenasceleste.jpg"
     },
     {
       "color": "Celeste",
       "colorHex": "#afc5dd",
       "talle": "L",
-      "precio": 9500,
+      "precio": 35000,
       "imagen": "/images/lenceria/cadenasceleste.jpg"
     },
     {
       "color": "Negro",
       "colorHex": "#1d1b1c",
       "talle": "S",
-      "precio": 9500,
+      "precio": 35000,
       "imagen": "/images/lenceria/cadenasnegro2.jpg"
     },
     {
       "color": "Negro",
       "colorHex": "#1d1b1c",
       "talle": "M",
-      "precio": 9500,
+      "precio": 35000,
       "imagen": "/images/lenceria/cadenasnegro2.jpg"
     },
     {
       "color": "Negro",
       "colorHex": "#1d1b1c",
       "talle": "L",
-      "precio": 9500,
+      "precio": 35000,
       "imagen": "/images/lenceria/cadenasnegro2.jpg"
     },
     {
       "color": "Azul Verdoso",
       "colorHex": "#2c505b",
       "talle": "S",
-      "precio": 9500,
+      "precio": 35000,
       "imagen": "/images/lenceria/cadenasazul.jpg"
     },
     {
       "color": "Azul Verdoso",
       "colorHex": "#2c505b",
       "talle": "M",
-      "precio": 9500,
+      "precio": 35000,
       "imagen": "/images/lenceria/cadenasazul.jpg"
     },
     {
       "color": "Azul Verdoso",
       "colorHex": "#2c505b",
       "talle": "L",
-      "precio": 9500,
+      "precio": 35000,
       "imagen": "/images/lenceria/cadenasazul.jpg"
     },
     {
       "color": "Negro 1",
       "colorHex": "#000000",
       "talle": "S",
-      "precio": 9500,
+      "precio": 35000,
       "imagen": "/images/lenceria/cadenasnegro.jpg"
     },
     {
       "color": "Negro 1",
       "colorHex": "#000000",
       "talle": "M",
-      "precio": 9500,
+      "precio": 35000,
       "imagen": "/images/lenceria/cadenasnegro.jpg"
     },
     {
       "color": "Negro 1",
       "colorHex": "#000000",
       "talle": "L",
-      "precio": 9500,
+      "precio": 35000,
       "imagen": "/images/lenceria/cadenasnegro.jpg"
     }
   ]
@@ -244,35 +244,35 @@
       "color": "Rojo",
       "colorHex": "#900e09",
       "talle": "Único",
-      "precio": 9500,
+      "precio": 35000,
       "imagen": "/images/lenceria/liriorojo.jpg"
     },
     {
       "color": "Negro",
       "colorHex": "#000000",
       "talle": "Único",
-      "precio": 9500,
+      "precio": 35000,
       "imagen": "/images/lenceria/lirionegro.jpg"
     },
     {
       "color": "Rosa",
       "colorHex": "#fdc4b7",
       "talle": "Único",
-      "precio": 9500,
+      "precio": 35000,
       "imagen": "/images/lenceria/liriorosa.jpg"
     },
     {
       "color": "Blanco",
       "colorHex": "#ffffff",
       "talle": "Único",
-      "precio": 9500,
+      "precio": 35000,
       "imagen": "/images/lenceria/lirioblanco.jpg"
     },
     {
       "color": "Azul",
       "colorHex": "#2e376b",
       "talle": "Único",
-      "precio": 9500,
+      "precio": 35000,
       "imagen": "/images/lenceria/lirioazul.jpg"
     }
   ]

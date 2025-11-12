@@ -1,35 +1,35 @@
 [
   {
     "id": 1200,
-    "nombre": "Jabón Íntimo MYWAY Women",
+    "nombre": "Jabón Íntimo - MYWAY Women",
     "descripcion": "Jabón íntimo hipoalergénico para jóvenes. Fórmula suave con pH balanceado, ideal para uso diario.",
-    "imagen": "/images/cuidado-intimo/myway-women.jpg",
+    "imagen": "/images/cuidado intimo/mywaywomen.jpg",
     "categoria": "Cuidado Personal Íntimo",
     "stock": true,
     "marca": "Sexitive",
-    "linea": "MYWAY Women",
+    "linea": "Lab",
     "precio": 23000
   },
   {
     "id": 1201,
-    "nombre": "Jabón Íntimo MYWAY Queen",
+    "nombre": "Jabón Íntimo - MYWAY Queen",
     "descripcion": "Jabón íntimo hipoalergénico para mujeres en etapa de menopausia. Equilibrio, frescura y cuidado profundo.",
-    "imagen": "/images/cuidado-intimo/myway-queen.jpg",
+    "imagen": "/images/cuidado intimo/mywayqueen.jpg",
     "categoria": "Cuidado Personal Íntimo",
     "stock": true,
     "marca": "Sexitive",
-    "linea": "MYWAY Queen",
+    "linea": "Lab",
     "precio": 23000
   },
   {
     "id": 1202,
-    "nombre": "Jabón Íntimo MYWAY Men",
+    "nombre": "Jabón Íntimo - MYWAY Men",
     "descripcion": "Jabón íntimo hipoalergénico para hombres. Limpieza efectiva con sensación de frescura prolongada.",
-    "imagen": "/images/cuidado-intimo/myway-men.jpg",
+    "imagen": "/images/cuidado intimo/mywaymen.jpg",
     "categoria": "Cuidado Personal Íntimo",
     "stock": true,
     "marca": "Sexitive",
-    "linea": "MYWAY Men",
+    "linea": "Lab",
     "precio": 23000
   }
 ]

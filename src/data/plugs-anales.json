@@ -132,7 +132,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "S", "precio": 0 }]
+    "variantes": [{ "talle": "S", "precio": 38000 }]
   },
   {
     "id": 511,
@@ -165,7 +165,7 @@
     "imagen": "/images/plugs/zorrorosa.jpg",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [{ "talle": "S", "precio": 0 }]
@@ -181,5 +181,17 @@
     "marca": "",
     "linea": "",
     "variantes": [{ "talle": "S", "precio": 0 }]
-  }
+  },
+  {
+  "id": 515,
+  "nombre": "Ducha de limpieza anal",
+  "descripcion": "",
+  "imagen": "/images/plugs/duchanal.jpg",
+  "categoria": "Plugs",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "precio": 25000
+}
+
 ]

@@ -31,16 +31,16 @@ const Home = () => {
 
         {/* 🎉 Oferta Épica de Apertura */}
         <section className="relative py-12 overflow-hidden rounded-xl mt-16 mb-16">
-          {/* Imagen de fondo a la derecha con opacidad baja */}
-          <div className="absolute inset-0 flex justify-end">
-            <img
-              src="/perfume.jpg"   // 🔥 tu imagen de fondo
-              alt="Fondo Oferta Perfume"
-              className="w-1/2 h-full object-cover opacity-30"
-            />
-            {/* Overlay degradado rojo → negro */}
-            <div className="absolute inset-0 bg-gradient-to-r from-red-950 via-black to-transparent" />
-          </div>
+  {/* Imagen de fondo centrada */}
+  <div className="absolute inset-0">
+    <img
+      src="/fondoperfume.jpg"
+      alt="Fondo Oferta Perfume"
+      className="w-full h-full object-cover object-center opacity-20"
+    />
+    {/* Overlay degradado */}
+    <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
+  </div>
 
           <div className="relative z-10 text-center max-w-screen-md mx-auto px-6">
             {/* 🎉 Título épico */}

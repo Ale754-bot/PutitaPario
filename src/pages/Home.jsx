@@ -28,9 +28,10 @@ const Home = () => {
 
       <main className="mx-auto max-w-screen-xl px-4 py-8">
         <CategoryScroll />
+        
 
         {/* 🎉 Oferta Épica de Apertura */}
-        <section className="relative py-12 overflow-hidden rounded-xl mt-16 mb-16">
+        <section className="relative py-12 overflow-hidden mt-16 mb-2">
   {/* Imagen de fondo centrada */}
   <div className="absolute inset-0">
     <img
@@ -68,18 +69,18 @@ const Home = () => {
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ delay: 1, duration: 1 }}
-              className="backdrop-blur-md rounded-xl p-6 shadow-lg inline-block"
+              className="rounded-xl p-6 shadow-lg inline-block"
             >
               <img
                 src={perfumeApertura.imagen}
                 alt={perfumeApertura.nombre}
-                className="w-48 h-48 object-cover mx-auto rounded-lg mb-4"
+                className="w-48 h-48 object-cover mx-auto rounded-lg mb-8"
               />
-              <h3 className="text-2xl font-semibold text-white mb-2">
+              <h3 className="text-3xl font-semibold text-white mb-4">
                 {perfumeApertura.nombre}
               </h3>
               <p className="text-gray-300 mb-4">{perfumeApertura.descripcion}</p>
-              <span className="text-3xl font-bold text-red-600 block mb-4">
+              <span className="text-3xl font-bold text-red-600 block mb-10">
                 ${perfumeApertura.precio}
               </span>
 
@@ -93,10 +94,11 @@ const Home = () => {
             </motion.div>
           </div>
         </section>
+        
 
         {/* SECCIÓN DE PRODUCTOS DESTACADOS */}
         <section id="destacados" className="mb-16 pt-8">
-          <h2 className="text-3xl font-bold mb-8 text-texto-claro border-b-2 border-acento inline-block mt-8">
+          <h2 className="text-3xl font-bold mb-2 text-texto-claro border-b-2 border-acento inline-block mt-8">
             Productos Destacados
           </h2>
 

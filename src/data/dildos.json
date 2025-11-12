@@ -2,117 +2,117 @@
   {
     "id": 1000,
     "nombre": "Dildo 1",
-    "descripcion": "Diseño clásico con textura suave y forma anatómica. Ideal para uso externo o interno.",
+    "descripcion": "Con vibración",
     "imagen": "/images/dildos/1.jpg",
     "categoria": "Dildos",
     "stock": true,
-    "marca": "",
+    "marca": "CYBER",
     "linea": "",
-    "precio": ""
+    "precio": "38000"
   },
   {
     "id": 1001,
     "nombre": "Dildo 2",
-    "descripcion": "Forma curvada para estimulación del punto G. Superficie lisa y base firme.",
+    "descripcion": "Sin vibración",
     "imagen": "/images/dildos/2.jpg",
     "categoria": "Dildos",
     "stock": true,
-    "marca": "",
+    "marca": "NATURE",
     "linea": "",
-    "precio": ""
+    "precio": "32000"
   },
   {
     "id": 1002,
     "nombre": "Dildo 3",
-    "descripcion": "Diseño realista con detalles texturizados. Ideal para quienes buscan sensaciones intensas.",
+    "descripcion": "Sin vibración",
     "imagen": "/images/dildos/3.jpg",
     "categoria": "Dildos",
     "stock": true,
-    "marca": "",
+    "marca": "JELLY",
     "linea": "",
-    "precio": ""
+    "precio": "32000"
   },
   {
     "id": 1003,
     "nombre": "Dildo 4",
-    "descripcion": "Dildo compacto con base plana. Ideal para principiantes o uso combinado con arnés.",
+    "descripcion": "Sin vibración",
     "imagen": "/images/dildos/4.jpg",
     "categoria": "Dildos",
     "stock": true,
-    "marca": "",
+    "marca": "CLASSIC",
     "linea": "",
-    "precio": ""
+    "precio": "32000"
   },
   {
     "id": 1004,
     "nombre": "Dildo 5",
-    "descripcion": "Diseño doble para estimulación simultánea. Flexible y suave al tacto.",
+    "descripcion": "Sin vibración",
     "imagen": "/images/dildos/5.jpg",
     "categoria": "Dildos",
     "stock": true,
-    "marca": "",
+    "marca": "CLASSIC",
     "linea": "",
-    "precio": ""
+    "precio": "32000"
   },
   {
     "id": 1005,
     "nombre": "Dildo 6",
-    "descripcion": "Forma estilizada con punta redondeada. Ideal para estimulación precisa.",
+    "descripcion": "Sin vibración",
     "imagen": "/images/dildos/6.jpg",
     "categoria": "Dildos",
     "stock": true,
-    "marca": "",
+    "marca": "NATURE",
     "linea": "",
-    "precio": ""
+    "precio": "32000"
   },
   {
     "id": 1006,
     "nombre": "Dildo 7",
-    "descripcion": "Diseño texturizado con base de succión. Ideal para uso sin manos.",
+    "descripcion": "Sin vibración",
     "imagen": "/images/dildos/7.jpg",
     "categoria": "Dildos",
     "stock": true,
-    "marca": "",
+    "marca": "GUMMY",
     "linea": "",
-    "precio": ""
+    "precio": "32000"
   },
   {
     "id": 1007,
     "nombre": "Dildo 8",
-    "descripcion": "Curvatura ergonómica para estimulación interna. Material flexible y seguro.",
+    "descripcion": "Sin vibración",
     "imagen": "/images/dildos/8.jpg",
     "categoria": "Dildos",
     "stock": true,
-    "marca": "",
+    "marca": "BASIC",
     "linea": "",
-    "precio": ""
+    "precio": "32000"
   },
   {
     "id": 1008,
-    "nombre": "Dildo 9",
-    "descripcion": "Diseño artístico con textura ondulada. Estética y placer combinados.",
+    "descripcion": "Sin vibración",
+    "descripcion": "",
     "imagen": "/images/dildos/9.jpg",
     "categoria": "Dildos",
     "stock": true,
-    "marca": "",
+    "marca": "GUMMY",
     "linea": "",
-    "precio": ""
+    "precio": "32000"
   },
   {
     "id": 1009,
     "nombre": "Dildo 10",
-    "descripcion": "Dildo firme con base plana y diseño recto. Ideal para uso con arnés.",
+    "descripcion": "Sin vibración",
     "imagen": "/images/dildos/10.jpg",
     "categoria": "Dildos",
     "stock": true,
-    "marca": "",
+    "marca": "GUMMY",
     "linea": "",
-    "precio": ""
+    "precio": "32000"
   },
   {
     "id": 1010,
     "nombre": "Cinturon",
-    "descripcion": "Dildo firme con base plana y diseño recto. Ideal para uso con arnés.",
+    "descripcion": "",
     "imagen": "/images/dildos/cinturon.jpg",
     "categoria": "Dildos",
     "stock": true,

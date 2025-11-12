@@ -2,7 +2,7 @@
   {
     "id": 400,
     "nombre": "Masajeador de Clítoris Boyce",
-    "descripcion": "...",
+    "descripcion": "Este mini vibrador está hecho de silicona super suave para un tacto más que agradable. Su extremo insertable presenta orejitas de conejo adorables, flexibles y muy estimulantes para tu clítoris.",
     "imagen": "/images/juguetes/boyce.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -14,7 +14,7 @@
   {
     "id": 401,
     "nombre": "Masajeador de Clítoris Beck",
-    "descripcion": "...",
+    "descripcion": "Este mini vibrador está hecho de silicona super suave para un tacto más que agradable. Su extremo insertable presenta la forma de un glande, apenas inclinado y con textura. Cuenta con 10 poderosos modos de vibración que podrás controlar con un simple botón y funciona con una sola pila.",
     "imagen": "/images/juguetes/beck.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -26,7 +26,7 @@
   {
     "id": 402,
     "nombre": "Masajeador de Clítoris Arnd",
-    "descripcion": "...",
+    "descripcion": "Arnd es pequeño, tierno y suave. Su cuerpo siliconado posee una punta en forma de glande para una estimulación en el Clítoris y en el Punto G. Sus 10 funciones de vibración están pensadas para hacerte gozar.",
     "imagen": "/images/juguetes/arnd.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -38,7 +38,7 @@
   {
     "id": 403,
     "nombre": "Masajeador de Clítoris Antony",
-    "descripcion": "...",
+    "descripcion": "Este mini vibrador está hecho de silicona super suave para un tacto más que agradable. Su extremo insertable presenta la forma de una cabeza para masajes más focalizados.",
     "imagen": "/images/juguetes/antony.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -50,7 +50,7 @@
   {
     "id": 404,
     "nombre": "Masajeador de Clítoris Dana",
-    "descripcion": "...",
+    "descripcion": "El Vibrador Pretty Love Dana fue desarrollado para causar aún más placer. Con un formato diferenciado, es super anatómico.",
     "imagen": "/images/juguetes/dana.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -62,7 +62,7 @@
   {
     "id": 405,
     "nombre": "Masajeador de Clítoris Blithe",
-    "descripcion": "...",
+    "descripcion": "Blithe es pequeño, tierno y suave. Su cuerpo siliconado posee una punta en forma de glande para una estimulación en el Clítoris y en el Punto G.",
     "imagen": "/images/juguetes/blithe.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -74,7 +74,7 @@
   {
     "id": 417,
     "nombre": "Masajeador de Clítoris Paul",
-    "descripcion": "Masajeador potente con múltiples velocidades. Ideal para relajación y estimulación profunda.",
+    "descripcion": "El Masajeador PAUL by Pretty Love es mucho más que un simple vibrador. Su diseño y su cabezal redondeado lo convierten en un aliado versátil para estimular zonas externas como el clítoris, pezones, cuello o incluso para masajes relajantes en otras partes del cuerpo.",
     "imagen": "/images/juguetes/paul.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -85,7 +85,7 @@
   {
     "id": 406,
     "nombre": "Consolador Bishop",
-    "descripcion": "...",
+    "descripcion": "El Vibrador Bishop es un vibrador diseñado para ofrecer placer interno. Su forma ergonómica tiene un potente vibrador principal para la estimulación del punto G,brindando una experiencia intensa y envolvente.",
     "imagen": "/images/juguetes/bishop.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -97,7 +97,7 @@
   {
     "id": 407,
     "nombre": "Consolador Elemental",
-    "descripcion": "...",
+    "descripcion": "El  Vibrador Elemental es un vibrador diseñado para ofrecer placer interno. Su forma ergonómica tiene un potente vibrador principal para la estimulación del punto G,brindando una experiencia intensa y envolvente.",
     "imagen": "/images/juguetes/elemental.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -149,7 +149,7 @@
     "imagen": "/images/juguetes/heladito.jpg",
     "categoria": "Juguetes",
     "stock": true,
-    "marca": "SATYSFAYER",
+    "marca": "SATYSFYER",
     "precio": "85000",
     "mostrarColor": false,
     "variantes": []
@@ -379,7 +379,7 @@
     "imagen": "/images/juguetes/succionadorpro.jpg",
     "categoria": "Juguetes",
     "stock": true,
-    "marca": "SATYSFAYER",
+    "marca": "SATYSFYER",
     "linea": "",
     "precio": 95000
   },

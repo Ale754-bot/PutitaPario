@@ -108,7 +108,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "S", "precio": 0 }]
+    "variantes": [{ "talle": "S", "precio": 32000 }]
   },
   {
     "id": 509,
@@ -120,13 +120,13 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "S", "precio": 0 }]
+    "variantes": [{ "talle": "S", "precio": 32000 }]
   },
   {
     "id": 510,
     "nombre": "Cola Zorro",
     "descripcion": "",
-    "imagen": "/images/plugs/colazorro.jpg",
+    "imagen": "/images/plugs/zorroriginal.jpg",
     "categoria": "Plugs",
     "subcategoria": "",
     "stock": true,
@@ -144,7 +144,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "S", "precio": 0 }]
+    "variantes": [{ "talle": "S", "precio": 32000 }]
   },
   {
     "id": 512,
@@ -156,7 +156,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "S", "precio": 0 }]
+    "variantes": [{ "talle": "S", "precio": 28000 }]
   },
   {
     "id": 513,
@@ -180,7 +180,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "S", "precio": 0 }]
+    "variantes": [{ "talle": "S", "precio": 68000 }]
   },
   {
   "id": 515,

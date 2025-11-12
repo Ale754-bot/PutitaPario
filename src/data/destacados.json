@@ -1,38 +1,38 @@
 [
   {
     "id": "d1",
-    "nombre": "Aceite Afrodisíaco",
-    "precio": 1200,
-    "imagenUrl": "/img/aceite.jpg",
+    "nombre": "SUCCIONADOR SATYSFYER PRO 2",
+    "precio": 95000,
+    "imagen": "/images/juguetes/succionadorpro.jpg",
     "stock": true,
     "talles": [],
-    "descripcion": "Aceite con fragancia estimulante para masajes sensuales."
+    "descripcion": "Experimenta intensas pulsaciones a través de 11 intensidades distintas de ondas de presión, creando un efecto mágico en tus áreas sensibles."
   },
   {
     "id": "d2",
-    "nombre": "Body Splash Tentación",
-    "precio": 980,
-    "imagenUrl": "/img/splash.jpg",
-    "stock": false,
+    "nombre": "SUCCIONADOR Y CONSOLADOR SEXY Y FUNNY",
+    "precio": 115000,
+    "imagen": "/images/juguetes/succionador.jpg",
+    "stock": true,
     "talles": [],
-    "descripcion": "Aroma fresco y provocador para todo el día."
+    "descripcion": "Sumérgete en una experiencia única de estimulación con nuestro succionador de placer, diseñado para ofrecer sensaciones inigualables."
   },
   {
     "id": "d3",
-    "nombre": "Body Splash Tentación",
-    "precio": 980,
-    "imagenUrl": "/img/splash.jpg",
-    "stock": false,
+    "nombre": "PERFUME MUJER - HOT INEVITABLE",
+    "precio": 32500,
+    "imagen": "/images/perfumes/mujer/m4.jpg",
+    "stock": true,
     "talles": [],
-    "descripcion": "Aroma fresco y provocador para todo el día."
+    "descripcion": "Las Notas de Salida son mango y bergamota; las Notas de Corazón son jazmín y incienso de olíbano; las Notas de Fondo son vainilla y sándalo."
   },
   {
     "id": "d4",
-    "nombre": "Body Splash Tentación",
-    "precio": 980,
-    "imagenUrl": "/img/splash.jpg",
-    "stock": false,
+    "nombre": "TANGA VIBRADOR CON CONTROL REMOTO",
+    "precio": 50000,
+    "imagen": "/images/juguetes/tangavibrador.jpg",
+    "stock": true,
     "talles": [],
-    "descripcion": "Aroma fresco y provocador para todo el día."
+    "descripcion": ""
   }
 ]

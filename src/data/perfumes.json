@@ -108,6 +108,30 @@
     "variantes": [{ "tamaño": "50ml", "precio": 29000 }]
   },
   {
+  "id": 124,
+  "nombre": "Aromatizante Hotel - Textil y Ambiental",
+  "descripcion": "Elaborado con perfumería fina especialmente desarrollado para aromatizar tus sábanas y ambientes más íntimos. Aroma Arándanos y madera.",
+  "imagen": "/images/perfumes/mujer/m10.jpg",
+  "categoria": "Perfumes Afrodisíacos y Body Splash",
+  "subcategoria": "Mujer",
+  "stock": true,
+  "marca": "sexitive",
+  "linea": "FOR MAGIC LOVERS",
+  "variantes": [{ "tamaño": "400ml", "precio": 16000 }]
+},
+{
+  "id": 125,
+  "nombre": "Aromatizante Hotel - Textil y Ambiental",
+  "descripcion": "Elaborado con perfumería fina especialmente desarrollado para aromatizar tus sábanas y ambientes más íntimos. Aroma flores blancas, azahar y miel.",
+  "imagen": "/images/perfumes/mujer/m11.jpg",
+  "categoria": "Perfumes Afrodisíacos y Body Splash",
+  "subcategoria": "Mujer",
+  "stock": true,
+  "marca": "sexitive",
+  "linea": "ATMOSPHERE",
+  "variantes": [{ "tamaño": "400ml", "precio": 16000 }]
+},
+  {
     "id": 109,
     "nombre": "Elixir",
     "descripcion": "El aroma de la seducción. Fragancia de espíritu audaz, intenso e irresistible. La Nota de Salida es bergamota; la Nota de Corazón es coco; la Nota de Fondo es haba tonka.",

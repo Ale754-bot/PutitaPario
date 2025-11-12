@@ -483,7 +483,7 @@
   "marca": "Sexitive",
   "linea": "EOS",
   "variantes": [
-    { "tamaño": "25ml", "precio": 14000 }
+    { "tamaño": "25ml", "precio": 12000 }
   ]
 },
 {
@@ -876,30 +876,30 @@
 },
 {
   "id": 59,
-  "nombre": "Gel - The Wild Boys",
-  "descripcion": "Tonifica y fortalece para erecciones más firmes, duraderas y orgasmos intensos.",
-  "imagen": "/images/Geles/s-boys2.jpg",
+  "nombre": "Crema íntima - The Wild Boys",
+  "descripcion": "Eleva tus momentos de placer con la Crema Íntima para Hombres The Wild Boys, diseñada especialmente para mejorar la experiencia de la masturbación.",
+  "imagen": "/images/Geles/s-boys3.jpg",
   "categoria": "Geles, Aceites & Cremas",
   "subcategoria": "Aceites y cremas para masajes",
   "stock": true,
   "marca": "Sexitive",
   "linea": "",
   "variantes": [
-    { "tamaño": "200g", "precio": 16000 }
+    { "tamaño": "250g", "precio": 16000 }
   ]
 },
 {
   "id": 60,
-  "nombre": "Gel - The Wild Boys",
-  "descripcion": "Tonifica y fortalece para erecciones más firmes, duraderas y orgasmos intensos.",
-  "imagen": "/images/Geles/s-boys2.jpg",
+  "nombre": "Crema íntima anal - The Wild Boys",
+  "descripcion": "Dale un toque de suavidad y cuidado a tus momentos más íntimos con The Wild Boys.",
+  "imagen": "/images/Geles/s-boys4.jpg",
   "categoria": "Geles, Aceites & Cremas",
   "subcategoria": "Aceites y cremas para masajes",
   "stock": true,
   "marca": "Sexitive",
   "linea": "",
   "variantes": [
-    { "tamaño": "200g", "precio": 16000 }
+    { "tamaño": "250g", "precio": 16000 }
   ]
 }
 ]

@@ -8,7 +8,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": ""
+    "precio": "18000"
   },
   {
     "id": 1101,
@@ -19,7 +19,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": ""
+    "precio": "18000"
   },
   {
     "id": 1102,
@@ -30,7 +30,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": ""
+    "precio": "18000"
   },
   {
     "id": 1103,
@@ -41,7 +41,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": ""
+    "precio": "18000"
   },
   {
     "id": 1104,
@@ -52,7 +52,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": ""
+    "precio": "18000"
   },
   {
     "id": 1105,
@@ -63,7 +63,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": ""
+    "precio": "18000"
   },
   {
     "id": 1106,
@@ -74,7 +74,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": ""
+    "precio": "25000"
   },
   {
     "id": 1107,
@@ -85,7 +85,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": ""
+    "precio": "10000"
   },
   {
     "id": 1108,
@@ -96,7 +96,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": ""
+    "precio": "10000"
   },
   {
     "id": 1109,
@@ -107,6 +107,6 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": ""
+    "precio": "10000"
   }
 ]

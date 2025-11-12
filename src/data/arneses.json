@@ -1,9 +1,9 @@
 [
   {
     "id": 900,
-    "nombre": "Arnés Roxi",
+    "nombre": "Portaligas Roxi",
     "descripcion": "Diseño ajustado con tiras cruzadas y estética provocadora. Ideal para complementar conjuntos.",
-    "imagen": "/images/arneses/roxi-negro.jpg",
+    "imagen": "/images/arneses/roxinegro.jpg",
     "categoria": "Arneses",
     "stock": true,
     "marca": "",
@@ -11,9 +11,9 @@
     "mostrarColor": true,
     "variantes": [
       { "color": "Negro", "colorHex": "#000000", "precio": "14000",
-      "imagen": "/images/arneses/roxi-negro.jpg" },
+      "imagen": "/images/arneses/roxinegro.jpg" },
       { "color": "Blanco", "colorHex": "#ffffff", "precio": "14000",
-      "imagen": "/images/arneses/roxi-blanco.jpg" }
+      "imagen": "/images/arneses/roxiblanco.jpg" }
     ]
   },
   {
@@ -88,7 +88,7 @@
     "id": 905,
     "nombre": "Conjunto Deli",
     "descripcion": "Arnés delicado con tiras finas y diseño envolvente. Disponible en negro.",
-    "imagen": "/images/arneses/deli-negro.jpg",
+    "imagen": "/images/arneses/delinegro.jpg",
     "categoria": "Arneses",
     "stock": true,
     "marca": "",
@@ -96,7 +96,7 @@
     "mostrarColor": true,
     "variantes": [
       { "color": "Negro", "colorHex": "#000000", "precio": "17000",
-      "imagen": "/images/arneses/deli-negro.jpg" }
+      "imagen": "/images/arneses/delinegro.jpg" }
     ]
   },
   {
@@ -120,7 +120,7 @@
     "id": 907,
     "nombre": "Arnés Neidi",
     "descripcion": "Diseño clásico con tiras dobles y ajuste firme. Elegancia estructurada.",
-    "imagen": "/images/arneses/neidi-negro.jpg",
+    "imagen": "/images/arneses/neidinegro.jpg",
     "categoria": "Arneses",
     "stock": true,
     "marca": "",
@@ -128,16 +128,16 @@
     "mostrarColor": true,
     "variantes": [
       { "color": "Negro", "colorHex": "#000000", "precio": "28800",
-      "imagen": "/images/arneses/neidi-negro.jpg" },
+      "imagen": "/images/arneses/neidinegro.jpg" },
       { "color": "Blanco", "colorHex": "#ffffff", "precio": "28800",
-      "imagen": "/images/arneses/neidi-blanco.jpg" }
+      "imagen": "/images/arneses/neidiblanco.jpg" }
     ]
   },
   {
     "id": 908,
     "nombre": "Arnés PP",
     "descripcion": "Diseño envolvente con tiras cruzadas y estética provocadora. Ideal para layering.",
-    "imagen": "/images/arneses/pp-negro.jpg",
+    "imagen": "/images/arneses/ppnegro.jpg",
     "categoria": "Arneses",
     "stock": true,
     "marca": "",
@@ -145,16 +145,16 @@
     "mostrarColor": true,
     "variantes": [
       { "color": "Negro", "colorHex": "#000000", "precio": "17000",
-      "imagen": "/images/arneses/pp-negro.jpg" },
+      "imagen": "/images/arneses/ppnegro.jpg" },
       { "color": "Blanco", "colorHex": "#ffffff", "precio": "17000",
-      "imagen": "/images/arneses/pp-blanco.jpg" }
+      "imagen": "/images/arneses/ppblanco.jpg" }
     ]
   },
   {
     "id": 909,
     "nombre": "Liga Doble",
     "descripcion": "Arnés tipo liga con doble tira y ajuste firme. Sensualidad en movimiento.",
-    "imagen": "/images/arneses/liga-negro.jpg",
+    "imagen": "/images/arneses/ligadoblenegra.jpg",
     "categoria": "Arneses",
     "stock": true,
     "marca": "",
@@ -162,16 +162,16 @@
     "mostrarColor": true,
     "variantes": [
       { "color": "Negro", "colorHex": "#000000", "precio": "8000",
-      "imagen": "/images/arneses/liga-negro.jpg" },
+      "imagen": "/images/arneses/ligadoblenegra.jpg" },
       { "color": "Blanco", "colorHex": "#ffffff", "precio": "8000",
-      "imagen": "/images/arneses/liga-blanco.jpg" }
+      "imagen": "/images/arneses/ligadobleblanca.jpg" }
     ]
   },
   {
     "id": 910,
     "nombre": "Portaligas Baby",
     "descripcion": "Arnés tipo portaligas con diseño suave y tiras ajustables. Ideal para complementar conjuntos.",
-    "imagen": "/images/arneses/portaligasbaby-negro.jpg",
+    "imagen": "/images/arneses/ligababynegra.jpg",
     "categoria": "Arneses",
     "stock": true,
     "marca": "",
@@ -179,16 +179,16 @@
     "mostrarColor": true,
     "variantes": [
       { "color": "Negro", "colorHex": "#000000", "precio": "12000",
-      "imagen": "/images/arneses/portaligasbaby-negro.jpg" },
+      "imagen": "/images/arneses/ligababynegra.jpg" },
       { "color": "Blanco", "colorHex": "#ffffff", "precio": "12000",
-      "imagen": "/images/arneses/portaligasbaby-blanco.jpg" }
+      "imagen": "/images/arneses/ligababyblanco.jpg" }
     ]
   },
  {
   "id": 911,
   "nombre": "Arnés Valentine",
   "descripcion": "Diseño romántico con tiras cruzadas y detalles suaves. Ideal para ocasiones especiales.",
-  "imagen": "/images/arneses/valentine-negro.jpg",
+  "imagen": "/images/arneses/valentinenegro.jpg",
   "categoria": "Arneses",
   "stock": true,
   "marca": "",
@@ -196,9 +196,9 @@
   "mostrarColor": true,
   "variantes": [
     { "color": "Negro", "colorHex": "#000000", "precio": "23000",
-    "imagen": "/images/arneses/valentine-negro.jpg" },
+    "imagen": "/images/arneses/valentinenegro.jpg" },
     { "color": "Blanco", "colorHex": "#ffffff", "precio": "23000",
-    "imagen": "/images/arneses/valentine-blanco.jpg" }
+    "imagen": "/images/arneses/valentineblanco.jpg" }
   ]
 }
 ]

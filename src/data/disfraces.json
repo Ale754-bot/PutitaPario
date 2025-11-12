@@ -10,7 +10,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 20000 }]
   },
   {
     "id": 801,
@@ -22,7 +22,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 35000 }]
   },
   {
     "id": 802,
@@ -34,7 +34,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 20000 }]
   },
   {
     "id": 803,
@@ -46,7 +46,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 20000 }]
   },
   {
     "id": 804,
@@ -58,7 +58,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 20000 }]
   },
   {
     "id": 805,
@@ -70,7 +70,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 20000 }]
   },
   {
     "id": 806,
@@ -82,7 +82,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 35000 }]
   },
   {
     "id": 807,
@@ -94,7 +94,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 35000 }]
   },
   {
     "id": 808,
@@ -106,7 +106,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 35000 }]
   },
   {
     "id": 809,
@@ -118,7 +118,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 35000 }]
   },
   {
     "id": 810,
@@ -130,7 +130,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 20000 }]
   },
   {
     "id": 811,
@@ -142,7 +142,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 25000 }]
   },
   {
     "id": 812,
@@ -154,7 +154,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 40000 }]
   },
   {
     "id": 813,
@@ -166,7 +166,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 35000 }]
   },
   {
     "id": 814,
@@ -178,7 +178,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 40000 }]
   },
   {
     "id": 815,
@@ -190,7 +190,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 35000 }]
   },
   {
     "id": 816,
@@ -202,7 +202,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 40000 }]
   },
   {
     "id": 817,
@@ -214,7 +214,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 40000 }]
   },
   {
     "id": 818,
@@ -226,7 +226,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 40000 }]
   },
   {
     "id": 819,
@@ -238,7 +238,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 25000 }]
   },
   {
     "id": 820,
@@ -250,7 +250,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 20000 }]
   },
   {
     "id": 821,
@@ -262,7 +262,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 40000 }]
   },
   {
     "id": 822,
@@ -274,7 +274,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 25000 }]
   },
   {
     "id": 823,
@@ -286,7 +286,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 35000 }]
   },
   {
     "id": 824,
@@ -298,7 +298,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 30000 }]
   },
   {
     "id": 825,

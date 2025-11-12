@@ -96,12 +96,12 @@ const ProductCardLenceria = ({ producto, index }) => {
   }, [inView, controls]);
 
   const fadeUp = {
-    hidden: { opacity: 0, y: 30 },
+    hidden: { opacity: 0, y: 0 },   // 🔧 antes era 30, ahora más corto y natural
     visible: {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.6,
+        duration: 0.5,               // 🔧 más breve y fluido
         ease: 'easeOut',
         delay: index * 0.05,
       },

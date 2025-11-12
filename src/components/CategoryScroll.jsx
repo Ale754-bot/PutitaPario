@@ -81,49 +81,48 @@ const CategoryScroll = () => {
 
         {/* Scroll manual con snapping */}
         <motion.div
-        ref={scrollRef}
+  ref={scrollRef}
+  className="
+    w-full overflow-x-auto scroll-smooth snap-x snap-mandatory no-scrollbar
+    touch-pan-x   /* 🔧 ahora reconoce gestos horizontales en mobile */
+  "
+  whileTap={{ cursor: 'grabbing' }}
+>
+  <div className="flex gap-6 px-6 py-6 min-w-max">
+    {CATEGORIES.map((name, i) => (
+      <motion.div
+        key={name}
+        custom={i + 1}
+        variants={fadeUp}
+        initial="hidden"
+        animate="visible"
+        onClick={() => handleCategoryClick(name)}
         className="
-          w-full overflow-x-auto scroll-smooth snap-x snap-mandatory no-scrollbar
-          touch-pan-y md:touch-pan-x   /* 🔧 en mobile prioriza scroll vertical, en desktop horizontal */
+          relative flex-shrink-0 w-64 h-72 rounded-xl overflow-hidden
+          snap-start transition-transform duration-300 ease-in-out
+          hover:scale-[1.07] hover:z-10
+          border border-white/10 cursor-pointer
+          bg-gradient-to-br from-black via-neutral-900 to-black backdrop-blur-sm group
+          flex flex-col items-center justify-center gap-4 px-4 shadow-[0_0_20px_rgba(255,255,255,0.1)]
         "
-        whileTap={{ cursor: 'grabbing' }}
       >
+        <motion.img
+          src={`/PP1.png`}
+          alt={name}
+          className="max-w-[160px] max-h-[160px] object-contain transition-transform duration-500 group-hover:scale-110"
+          whileHover={{ rotate: 2 }}
+        />
+        <div className="text-center">
+          <h3 className="text-xl font-bold text-white leading-none drop-shadow uppercase tracking-wide">
+            {name}
+          </h3>
+          <p className="text-sm text-white/80 font-medium">Ver más →</p>
+        </div>
+      </motion.div>
+    ))}
+  </div>
+</motion.div>
 
-          <div className="flex gap-6 px-6 py-6 min-w-max">
-            {CATEGORIES.map((name, i) => (
-              <motion.div
-                key={name}
-                custom={i + 1}
-                variants={fadeUp}
-                initial="hidden"
-                animate="visible"
-                onClick={() => handleCategoryClick(name)}
-                className="
-                  relative flex-shrink-0 w-64 h-72 rounded-xl overflow-hidden
-                  snap-start transition-transform duration-300 ease-in-out
-                  hover:scale-[1.07] hover:z-10
-                  border border-white/10 cursor-pointer
-                  bg-gradient-to-br from-black via-neutral-900 to-black backdrop-blur-sm group
-                  flex flex-col items-center justify-center gap-4 px-4 shadow-[0_0_20px_rgba(255,255,255,0.1)]
-                "
-                aria-label={`Ver productos en la categoría ${name}`}
-              >
-                <motion.img
-                  src={`/PP1.png`}
-                  alt={name}
-                  className="max-w-[160px] max-h-[160px] object-contain transition-transform duration-500 group-hover:scale-110"
-                  whileHover={{ rotate: 2 }}
-                />
-                <div className="text-center">
-                  <h3 className="text-xl font-bold text-white leading-none drop-shadow uppercase tracking-wide">
-                    {name}
-                  </h3>
-                  <p className="text-sm text-white/80 font-medium">Ver más →</p>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
       </div>
     </section>
   );

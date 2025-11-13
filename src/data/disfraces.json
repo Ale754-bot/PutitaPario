@@ -310,7 +310,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 40000 }]
   },
   {
     "id": 826,
@@ -322,7 +322,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 40000 }]
   },
   {
     "id": 827,
@@ -334,7 +334,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 40000 }]
   },
   {
     "id": 828,
@@ -346,7 +346,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "Unico", "precio": 0 }]
+    "variantes": [{ "talle": "Unico", "precio": 40000 }]
   }
 ]
 

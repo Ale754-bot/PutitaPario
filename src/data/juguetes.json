@@ -109,7 +109,7 @@
   {
     "id": 408,
     "nombre": "Consolador Snappy",
-    "descripcion": "...",
+    "descripcion": "Pretty Love Snappy combina la estimulación simultánea del punto G y el clítoris para ofrecer experiencias íntimas inolvidables. Este consolador vibrador está diseñado para quienes buscan maximizar el placer gracias a su doble estímulo y a sus vibraciones potentes.",
     "imagen": "/images/juguetes/snappy.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -121,7 +121,7 @@
   {
     "id": 409,
     "nombre": "Bolas de Kegel",
-    "descripcion": "...",
+    "descripcion": " Fáciles de insertar y usar, estas bolas vaginales están fabricadas con silicona de alta calidad, suaves al tacto y seguras para el cuerpo.",
     "imagen": "/images/juguetes/kegel.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -132,8 +132,8 @@
   },
   {
     "id": 410,
-    "nombre": "Succionador y Consolador Fucsia",
-    "descripcion": "...",
+    "nombre": "Succionador y Consolador - Con USB",
+    "descripcion": "Con su tecnología avanzada de succión, este juguete se adapta a tus curvas y necesidades, brindando un placer profundo y satisfactorio. Además, su función de consolador te permite explorar nuevas formas de placer interno, haciendo de este juguete una herramienta versátil para tu disfrute personal.",
     "imagen": "/images/juguetes/succionador.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -144,8 +144,8 @@
   },
   {
     "id": 411,
-    "nombre": "Masajeador Heladito",
-    "descripcion": "...",
+    "nombre": "Heladito Masajeador de clítoris - Con USB",
+    "descripcion": "Date placer con sensaciones completamente nuevas. Las suaves láminas giratorias estimulan el clítoris con una intensidad única. Fabricado en silicona de grado médico súper suave, agradable para la piel e higiénica. Gracias a su acabado impermeable, este juguete se puede usar de forma segura en el agua, además de ser fácil de limpiar. Posee 11 programas distintos de rotación.",
     "imagen": "/images/juguetes/heladito.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -157,7 +157,7 @@
   {
     "id": 412,
     "nombre": "Masajeador Calexotics",
-    "descripcion": "...",
+    "descripcion": "Ya no tendrás más excusas para no disfrutar de tu sexualidad como siempre has querido. El estimulador de clítoris y pezones está pensado para brindarte el placer que te mereces.",
     "imagen": "/images/juguetes/calexoti.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -169,7 +169,7 @@
   {
     "id": 413,
     "nombre": "Bala Vibradora",
-    "descripcion": "...",
+    "descripcion": "Mini Vibrador de 7 velocidades con forma de Bala, especialmente diseñado para estimulación clitoriana o anal. Su pequeño tamaño te permite llevarlo a todos lados con total discreción, ayudándote a alcanzar el máximo placer rápidamente.",
     "imagen": "/images/juguetes/balafuccia.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -199,7 +199,7 @@
   {
     "id": 414,
     "nombre": "Lápiz Labial Vibrador",
-    "descripcion": "...",
+    "descripcion": "Vibrador con forma de lápiz labial. Diseño discreto tipo lápiz labial para estimular el clítoris, los senos y los labios mayores. Ideal para llevarlo en el bolso, al ser muy compacto, el vibrador pasa desapercibido.",
     "imagen": "/images/juguetes/labialfuccia.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -233,26 +233,26 @@
     "imagen": "/images/juguetes/balacontrol.jpg",
     "categoria": "Juguetes",
     "stock": true,
-    "marca": "",
+    "marca": "pretty love",
     "precio": "65000",
     "mostrarColor": false,
     "variantes": []
   },
   {
     "id": 416,
-    "nombre": "Bala Vibradora con USB",
+    "nombre": "Bala Vibradora - Con USB",
     "descripcion": "...",
     "imagen": "/images/juguetes/balausb.jpg",
     "categoria": "Juguetes",
     "stock": true,
-    "marca": "",
+    "marca": "pretty love",
     "precio": "78000",
     "mostrarColor": false,
     "variantes": []
   },
   {
     "id": 418,
-    "nombre": "Masturbador Doble Estimulación Premium",
+    "nombre": "Masturbador Doble Estimulación Premium - Con USB",
     "descripcion": "Diseño ergonómico con doble entrada. Textura interna suave y estimulante.",
     "imagen": "/images/juguetes/masturbadordoble.jpg",
     "categoria": "Juguetes",
@@ -263,7 +263,7 @@
   },
   {
     "id": 419,
-    "nombre": "Lenguitas Estimuladoras",
+    "nombre": "Lenguitas Estimuladoras - Con USB",
     "descripcion": "Estimulador vibrante con forma de lengüita. Ideal para juego externo.",
     "imagen": "/images/juguetes/lenguitavioleta.jpg",
     "categoria": "Juguetes",
@@ -299,7 +299,7 @@
   },
   {
     "id": 421,
-    "nombre": "Succionadores de Clítoris con USB",
+    "nombre": "Succionadores de Clítoris - Con USB",
     "descripcion": "Succionador recargable con múltiples intensidades. Estimula con precisión y suavidad.",
     "imagen": "/images/juguetes/succionadorfucsia.jpg",
     "categoria": "Juguetes",
@@ -331,7 +331,7 @@
   {
     "id": 422,
     "nombre": "Conejito Masajeador - Calexotics",
-    "descripcion": "Bala vibradora compacta. Ideal para estimulación puntual y discreta.",
+    "descripcion": "Estimulador Shane s world Pocket, este vibrador rígido, suave y sin texturas es ideal si buscas un estimulador clásico. Por su diseño es ideal para estimulación vaginal. Es resistente al agua y posee regulador de vibración en su base.",
     "imagen": "/images/juguetes/conejito.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -342,7 +342,7 @@
   {
     "id": 423,
     "nombre": "Anillo Peneano con vibración - Eudora",
-    "descripcion": "Bala vibradora compacta. Ideal para estimulación puntual y discreta.",
+    "descripcion": "Un anillo para elevar la calidad del sexo en pareja, este modelo trae consigo un estimulador en forma de conejito, con orejas de silicona suave para estimular el clítoris en cada penetración. Además, el anillo ajustará tu pene para prolongar la erección y retrasar la eyaculación.",
     "imagen": "/images/juguetes/eudora.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -353,7 +353,7 @@
   {
     "id": 424,
     "nombre": "Anillo Peneano - Chester",
-    "descripcion": "Bala vibradora compacta. Ideal para estimulación puntual y discreta.",
+    "descripcion": "Este anillo vibrador es suave pero duro para un placer alucinante. El Chester lleva una mini bala vibradora que puedes usar por separado. Este anillo está diseñado para vos y tu pareja lleguen al mejor orgasmo, además, te ayudará a mantener una firme erección y que tengas unas eyaculaciones espectaculares.",
     "imagen": "/images/juguetes/chester.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -364,7 +364,7 @@
   {
     "id": 425,
     "nombre": "Anillo Peneano - Común",
-    "descripcion": "Bala vibradora compacta. Ideal para estimulación puntual y discreta.",
+    "descripcion": "Anillo de silicona firme y grueso que mejorará su tamaño, su rendimiento y sus orgasmos. Con este juguete potenciador masculino tendrás erecciones más largas que nunca.",
     "imagen": "/images/juguetes/titan.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -374,8 +374,8 @@
   },
   {
     "id": 426,
-    "nombre": "Succionador - Pro2",
-    "descripcion": "",
+    "nombre": "Succionador Pro 2 - Con USB",
+    "descripcion": "Descubre el Satisfyer Pro 2, un masturbador femenino que lleva la estimulación íntima al siguiente nivel gracias a su tecnología patentada Air-Pulse. Diseñado para excitar el clítoris mediante ondas de presión sin contacto que alcanzan un nuevo nivel de placer con 11 modos ajustables.",
     "imagen": "/images/juguetes/succionadorpro.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -386,7 +386,7 @@
   {
     "id": 427,
     "nombre": "Tanga con vibrador",
-    "descripcion": "",
+    "descripcion": "Dale la bienvenida al placer con esta bombachita con vibrador a control remoto inalámbrico. Con sus 20 distintos modos de vibración este juguete te hará llegar al éxtasis. Viene con una bala de tacto suave que se controla fácilmente pulsando un botón del control remoto.",
     "imagen": "/images/juguetes/tangavibrador.jpg",
     "categoria": "Juguetes",
     "stock": true,
@@ -396,8 +396,8 @@
   },
    {
     "id": 428,
-    "nombre": "Brocha vibradora",
-    "descripcion": "",
+    "nombre": "Brocha vibradora - Con USB",
+    "descripcion": "Un accesorio único que se presenta como una brocha de maquillaje, pero esconde un vibrador multifunción con 10 intensidades distintas. Hecha en silicona, garantiza suavidad al contacto y máxima comodidad de uso. Compacta, recargable por USB y fácil de mantener limpia.",
     "imagen": "/images/juguetes/brocha.jpg",
     "categoria": "Juguetes",
     "stock": true,

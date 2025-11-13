@@ -3,7 +3,6 @@ import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useCarrito } from '../context/CarritoContext';
 
-
 const ProductCardLenceria = ({ producto, index }) => {
   const {
     nombre,
@@ -60,29 +59,43 @@ const ProductCardLenceria = ({ producto, index }) => {
     imagenUrl ||
     "/images/placeholder.png";
 
+  // 🔎 Detectar caso especial de "Consultar por talles disponibles"
+  const esConsultaTalle =
+    talleSeleccionado === "Consultar por talles disponibles" ||
+    varianteSeleccionada?.talle === "Consultar por talles disponibles";
+
   const textoBoton = !stock
     ? "Sin stock"
     : !colorSeleccionado
     ? "Elegí un color"
     : !talleSeleccionado
     ? "Elegí un talle"
+    : esConsultaTalle
+    ? "Consultar por WhatsApp"
     : "Agregar al carrito";
 
   const handleAgregar = () => {
-  if (!puedeAgregar) return;
+    if (!puedeAgregar) return;
 
-  const item = {
-    ...producto,
-    color: colorSeleccionado,
-    talle: talleSeleccionado,
-    precio: precioFinal,
-    imagen: imagenFinal,
-    variantes // ← esto es clave para que el carrito pueda buscar la imagen correcta
+    if (esConsultaTalle) {
+      const numeroDuena = "5493412634440"; // 🔧 tu número de WhatsApp
+      const mensaje = `Hola 👋, quiero consultar por talles disponibles del producto: ${nombre} (${colorSeleccionado}).`;
+      const url = `https://wa.me/${numeroDuena}?text=${encodeURIComponent(mensaje)}`;
+      window.open(url, "_blank");
+      return;
+    }
+
+    const item = {
+      ...producto,
+      color: colorSeleccionado,
+      talle: talleSeleccionado,
+      precio: precioFinal,
+      imagen: imagenFinal,
+      variantes
+    };
+
+    agregarItem(item, 1);
   };
-
-  agregarItem(item, 1);
-};
-
 
   const etiquetaMarca = marca && linea ? `${marca} · ${linea}` : marca || "";
 
@@ -96,12 +109,12 @@ const ProductCardLenceria = ({ producto, index }) => {
   }, [inView, controls]);
 
   const fadeUp = {
-    hidden: { opacity: 0, y: 0 },   // 🔧 antes era 30, ahora más corto y natural
+    hidden: { opacity: 0, y: 0 },
     visible: {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.5,               // 🔧 más breve y fluido
+        duration: 0.5,
         ease: 'easeOut',
         delay: index * 0.05,
       },
@@ -226,8 +239,10 @@ const ProductCardLenceria = ({ producto, index }) => {
             disabled={!puedeAgregar}
             className={`
               px-6 py-2 rounded font-semibold transition-colors text-sm
-              ${puedeAgregar
+              ${puedeAgregar && !esConsultaTalle
                 ? "bg-red-600 hover:bg-red-800 text-white"
+                : esConsultaTalle
+                ? "bg-green-600 hover:bg-green-700 text-white"
                 : !stock
                 ? "bg-gray-800 text-gray-400 cursor-not-allowed"
                 : "bg-gray-600 text-white cursor-not-allowed"}

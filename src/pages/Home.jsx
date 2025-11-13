@@ -114,9 +114,8 @@ const conjuntosCapsula = [
 
     {/* 🔥 Descripción general */}
     <p className="text-gray-400 mt-6 max-w-2xl mx-auto text-base leading-relaxed">
-      Conjunto de charol con cintas, ELABORACIÓN 100% auténtica que no vas a encontrar
-      en otro sitio. Es autorregulable por completo, es decir, son piezas pensadas para
-      todos los cuerpos.
+      Conjunto de charol con cintas, ELABORACIÓN 100% auténtica que no vas a encontrar en otro sitio.
+      Es autorregulable por completo, es decir, son piezas pensadas para todos los cuerpos.
     </p>
   </div>
 

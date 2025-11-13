@@ -81,7 +81,7 @@
     "imagen": "/images/plugs/plateadonegro.jpg",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [{ "talle": "S", "precio": 23000 }]

@@ -451,7 +451,7 @@
   "imagen": "/images/Geles/s-fly.jpg",
   "categoria": "Geles, Aceites & Cremas",
   "subcategoria": "Geles lubricantes",
-  "stock": true,
+  "stock": false,
   "marca": "Fly Night",
   "linea": "Kisses",
   "variantes": [

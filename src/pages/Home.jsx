@@ -9,6 +9,8 @@ import InstagramBanner from '../components/InstagramBanner';
 import PageTransition from '../components/PageTransition'; // ✅ Importación agregada
 import { motion } from 'framer-motion';
 import { useCarrito } from '../context/CarritoContext'; // ✅ Importar el hook del carrito
+import OfertasHome from '../components/OfertasHome'; // ✅ nuevo componente
+
 
 const Home = () => {
   const { agregarItem } = useCarrito(); // ✅ función para agregar al carrito
@@ -103,6 +105,9 @@ const conjuntosCapsula = [
             </motion.div>
           </div>
         </section>
+        {/* 🎁 Ofertas Home */}
+<OfertasHome />
+
 
         {/* 🔥 Cápsula Erótica */}
         <section className="relative py-16 bg-gradient-to-b from-black via-red-950 to-black mt-20 rounded-xl">

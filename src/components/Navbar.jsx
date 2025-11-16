@@ -48,6 +48,7 @@ const Navbar = ({ openCart }) => {
             >
               Productos
             </button>
+
             <a
               href="/contacto"
               className={`text-white ${HOVER_TEXT_COLOR_CLASS} transition-colors font-normal text-sm md:text-base tracking-wide`}

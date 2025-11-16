@@ -104,6 +104,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/productos" element={<PageTransition><Productos /></PageTransition>} />
           <Route path="/contacto" element={<PageTransition><Contacto /></PageTransition>} />
+          
         </Routes>
       </AnimatePresence>
 

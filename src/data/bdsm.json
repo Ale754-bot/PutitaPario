@@ -339,5 +339,82 @@
       "marca": "",
       "linea": "",
       "precio": "14000"
-    }               
+    },
+    {
+      "id": 1131,
+      "nombre": "Underbust Exclusivo - Negro",
+      "descripcion": "",
+      "imagen": "/images/bdsm/undernegro1.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "",
+      "linea": "",
+      "precio": "28000"
+    },
+    {
+      "id": 1132,
+      "nombre": "Underbust Exclusivo - Blanco",
+      "descripcion": "",
+      "imagen": "/images/bdsm/underblanco2.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "",
+      "linea": "",
+      "precio": "28000"
+    },
+    {
+      "id": 1133,
+      "nombre": "Underbust Exclusivo - Negro 2",
+      "descripcion": "",
+      "imagen": "/images/bdsm/undernegro3.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "",
+      "linea": "",
+      "precio": "28000"
+    },
+    {
+      "id": 1134,
+      "nombre": "Underbust Exclusivo - Blanco 2",
+      "descripcion": "",
+      "imagen": "/images/bdsm/underblanco4.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "",
+      "linea": "",
+      "precio": "28000"
+    },
+    {
+      "id": 1135,
+      "nombre": "Mordaza Roja",
+      "descripcion": "",
+      "imagen": "/images/bdsm/mordazaroja.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "",
+      "linea": "",
+      "precio": "15000"
+    },
+    {
+      "id": 1136,
+      "nombre": "Mordaza Rosa",
+      "descripcion": "",
+      "imagen": "/images/bdsm/mordazarosa.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "",
+      "linea": "",
+      "precio": "15000"
+    },
+    {
+      "id": 1137,
+      "nombre": "Cuerda Roja x5mts",
+      "descripcion": "",
+      "imagen": "/images/bdsm/soga.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "",
+      "linea": "",
+      "precio": "10000"
+    }                       
 ]

@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import ProductCardOfertas from "./ProductCardOfertas"; // 👈 importamos el nuevo componente
+import ProductCardOfertas from "./ProductCardOfertas";
 
 const ofertas = [
   {
     id: 1,
-    nombre: "Geles Sextual 200ml", // 👈 usamos "nombre" porque ProductCardOfertas espera esa prop
+    nombre: "Geles Sextual 200ml",
     descripcion: "Placer sin límites. Degustá, jugá, descubrí. Elegí la que más te guste.",
     precioOriginal: 12000,
-    precio: 7500, // 👈 precioOferta como precio final
+    precio: 7500,
     imagen: "/promosextual.jpg",
     variantes: ["Neutro", "Frutilla", "Chicle", "Rosas Anal"],
     stock: true
@@ -74,6 +74,7 @@ const ofertas = [
 const OfertasHome = () => {
   const [page, setPage] = useState(0);
   const [itemsPerPage, setItemsPerPage] = useState(1);
+  const [paused, setPaused] = useState(false); // 👈 nuevo estado para pausar
 
   useEffect(() => {
     const updateItemsPerPage = () => {
@@ -86,13 +87,13 @@ const OfertasHome = () => {
 
   useEffect(() => {
     let interval;
-    if (itemsPerPage === 1) {
+    if (itemsPerPage === 1 && !paused) {
       interval = setInterval(() => {
         setPage((prev) => (prev + 1) % ofertas.length);
       }, 4000);
     }
     return () => clearInterval(interval);
-  }, [itemsPerPage]);
+  }, [itemsPerPage, paused]);
 
   return (
     <section className="bg-black text-white py-10">
@@ -102,7 +103,7 @@ const OfertasHome = () => {
         transition={{ duration: 0.8 }}
         className="text-2xl md:text-4xl font-bold text-center text-red-600 mb-4"
       >
-        OFERTAS EH HOTMÉTICA
+        OFERTAS EN HOTMÉTICA
       </motion.h2>
       <motion.p
         initial={{ opacity: 0 }}
@@ -116,33 +117,39 @@ const OfertasHome = () => {
       {/* Mobile */}
       <div className="block md:hidden relative px-4">
         <AnimatePresence mode="wait">
-  <motion.div
-    key={page}
-    drag="x"
-    dragConstraints={{ left: 0, right: 0 }}
-    onDragEnd={(event, info) => {
-      if (info.offset.x < -50) {
-        setPage((prev) => (prev + 1) % ofertas.length);
-      } else if (info.offset.x > 50) {
-        setPage((prev) => (prev - 1 + ofertas.length) % ofertas.length);
-      }
-    }}
-    initial={{ opacity: 0, x: 100 }}
-    animate={{ opacity: 1, x: 0 }}
-    exit={{ opacity: 0, x: -100 }}
-    transition={{ duration: 0.6, ease: "easeOut" }}
-  >
-    <ProductCardOfertas producto={ofertas[page]} index={page} />
-  </motion.div>
-</AnimatePresence>
-
+          <motion.div
+            key={page}
+            drag="x"
+            dragConstraints={{ left: 0, right: 0 }}
+            onDragStart={() => setPaused(true)}   // 👈 pausa al arrastrar
+            onDragEnd={(event, info) => {
+              if (info.offset.x < -50) {
+                setPage((prev) => (prev + 1) % ofertas.length);
+              } else if (info.offset.x > 50) {
+                setPage((prev) => (prev - 1 + ofertas.length) % ofertas.length);
+              }
+              setPaused(false); // 👈 reanuda al soltar
+            }}
+            onMouseEnter={() => setPaused(true)}  // 👈 pausa al quedarse encima
+            onMouseLeave={() => setPaused(false)} // 👈 reanuda al salir
+            initial={{ opacity: 0, x: 100 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -100 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
+            <ProductCardOfertas producto={ofertas[page]} index={page} />
+          </motion.div>
+        </AnimatePresence>
 
         {/* Dots en mobile */}
         <div className="flex justify-center mt-4 gap-2">
           {ofertas.map((_, i) => (
             <button
               key={i}
-              onClick={() => setPage(i)}
+              onClick={() => {
+                setPage(i);
+                setPaused(true); // 👈 pausa si elige manualmente
+              }}
               className={`w-3 h-3 rounded-full ${i === page ? "bg-red-600" : "bg-gray-500"}`}
             />
           ))}

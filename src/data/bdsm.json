@@ -108,5 +108,236 @@
     "marca": "",
     "linea": "",
     "precio": "10000"
-  }
+  },
+   {
+    "id": 1119,
+    "nombre": "Pasamontaña de diseño",
+    "descripcion": "",
+    "imagen": "/images/bdsm/pm1.jpg",
+    "categoria": "BDSM",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "20000"
+  },
+   {
+    "id": 1111,
+    "nombre": "Pasamontaña de diseño 2",
+    "descripcion": "",
+    "imagen": "/images/bdsm/pm2.jpg",
+    "categoria": "BDSM",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "20000"
+  },
+   {
+    "id": 1112,
+    "nombre": "Pasamontaña de diseño 3",
+    "descripcion": "",
+    "imagen": "/images/bdsm/pm3.jpg",
+    "categoria": "BDSM",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "20000"
+  },
+   {
+    "id": 1113,
+    "nombre": "Pasamontaña de diseño 4",
+    "descripcion": "",
+    "imagen": "/images/bdsm/pm4.jpg",
+    "categoria": "BDSM",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "20000"
+  },
+   {
+    "id": 1114,
+    "nombre": "Pasamontaña de diseño 6",
+    "descripcion": "",
+    "imagen": "/images/bdsm/pm5.jpg",
+    "categoria": "BDSM",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "20000"
+  },
+   {
+    "id": 1115,
+    "nombre": "Pasamontaña de diseño 6",
+    "descripcion": "",
+    "imagen": "/images/bdsm/pm6.jpg",
+    "categoria": "BDSM",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "20000"
+  },
+    {
+      "id": 1116,
+      "nombre": "Pasamontaña de diseño 7",
+      "descripcion": "",
+      "imagen": "/images/bdsm/pm7.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "",
+      "linea": "",
+      "precio": "20000"
+    },
+    {
+      "id": 1117,
+      "nombre": "Pasamontaña de diseño 8",
+      "descripcion": "",
+      "imagen": "/images/bdsm/pm8.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "",
+      "linea": "",
+      "precio": "20000"
+    },
+    {
+      "id": 1118,
+      "nombre": "Máscara Gato - Rojo",
+      "descripcion": "",
+      "imagen": "/images/bdsm/mascaragatorojo.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "",
+      "linea": "",
+      "precio": "16000"
+    },
+  {
+      "id": 1119,
+      "nombre": "Máscara Gato - Rosa",
+      "descripcion": "",
+      "imagen": "/images/bdsm/mascaragatorosa.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "",
+      "linea": "",
+      "precio": "16000"
+    },
+  {
+      "id": 1120,
+      "nombre": "Máscara Conejo - Rojo",
+      "descripcion": "",
+      "imagen": "/images/bdsm/mascaraconejorojo.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "",
+      "linea": "",
+      "precio": "18000"
+    },
+  {
+      "id": 1121,
+      "nombre": "Máscara Conejo - Rosa",
+      "descripcion": "",
+      "imagen": "/images/bdsm/mascaraconejorosa.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "",
+      "linea": "",
+      "precio": "18000"
+    },
+  {
+      "id": 1122,
+      "nombre": "Máscara Conejo - Negro",
+      "descripcion": "",
+      "imagen": "/images/bdsm/mascaraconejonegro.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "",
+      "linea": "",
+      "precio": "18000"
+    },
+  {
+      "id": 1123,
+      "nombre": "Antifaz 1",
+      "descripcion": "",
+      "imagen": "/images/bdsm/antifaz1.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "Sexitive",
+      "linea": "",
+      "precio": "15000"
+    },
+    {
+      "id": 1124,
+      "nombre": "Antifaz 2",
+      "descripcion": "",
+      "imagen": "/images/bdsm/antifaz2.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "Sexitive",
+      "linea": "",
+      "precio": "15000"
+    },
+    {
+      "id": 1125,
+      "nombre": "Antifaz 3",
+      "descripcion": "",
+      "imagen": "/images/bdsm/antifaz3.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "Sexitive",
+      "linea": "",
+      "precio": "15000"
+    },
+    {
+      "id": 1126,
+      "nombre": "Antifaz 4",
+      "descripcion": "",
+      "imagen": "/images/bdsm/antifaz4.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "",
+      "linea": "",
+      "precio": "10000"
+    },
+  {
+      "id": 1127,
+      "nombre": "Fusta cuero - Reforzada",
+      "descripcion": "",
+      "imagen": "/images/bdsm/fustacuero.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "",
+      "linea": "",
+      "precio": "25000"
+    },
+      {
+      "id": 1128,
+      "nombre": "Fusta Roja",
+      "descripcion": "",
+      "imagen": "/images/bdsm/fustaroja.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "",
+      "linea": "",
+      "precio": "18000"
+    },
+    {
+      "id": 1129,
+      "nombre": "Fusta Negra",
+      "descripcion": "",
+      "imagen": "/images/bdsm/fustanegra.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "",
+      "linea": "",
+      "precio": "18000"
+    },
+   {
+      "id": 1130,
+      "nombre": "Fusta Corazón",
+      "descripcion": "",
+      "imagen": "/images/bdsm/fustacorazon.jpg",
+      "categoria": "BDSM",
+      "stock": true,
+      "marca": "",
+      "linea": "",
+      "precio": "14000"
+    }               
 ]

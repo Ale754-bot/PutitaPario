@@ -16,7 +16,7 @@ const ProductCardTangasPersonalizada = ({ producto }) => {
         <img
           src={producto.imagen}
           alt={producto.nombre}
-          className="w-full h-64 object-cover"
+          className="w-full h-78 object-cover"
         />
         <span className="absolute top-3 left-3 bg-pink-600 text-white text-sm font-bold px-3 py-1 rounded-full">
           Personalizá la tuya

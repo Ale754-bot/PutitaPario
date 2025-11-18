@@ -35,17 +35,17 @@ const conjuntosCapsula = [
 
 // 🔥 Tangas con frases (ejemplo 6)
   const tangasFrases = [
-    { id: "frase-1", nombre: "Tanga 'Toda Adentro'", descripcion: "",
+    { id: "frase-1", nombre: "Tanga 'Toda Adentro'", descripcion: "Con frase personalizada",
       imagen: "/tanga1.jpg", precio: 12800, stock: true },
-    { id: "frase-2", nombre: "Tanga 'Casate Conmigo'", descripcion: "",
+    { id: "frase-2", nombre: "Tanga 'Casate Conmigo'", descripcion: "Con frase personalizada",
       imagen: "/tanga2.jpg", precio: 12800, stock: true },
-    { id: "frase-3", nombre: "Tanga 'Felíz Aniversario'", descripcion: "",
+    { id: "frase-3", nombre: "Tanga 'Felíz Aniversario'", descripcion: "Con frase personalizada",
       imagen: "/tanga3.jpg", precio: 12800, stock: true },
-    { id: "frase-4", nombre: "Tanga 'Tu Putita'", descripcion: "",
+    { id: "frase-4", nombre: "Tanga 'Tu Putita'", descripcion: "Con frase personalizada",
       imagen: "/tanga4.jpg", precio: 12800, stock: true },
-    { id: "frase-5", nombre: "Tanga 'Divorciate'", descripcion: "",
+    { id: "frase-5", nombre: "Tanga 'Divorciate'", descripcion: "Con frase personalizada",
       imagen: "/tanga5.jpg", precio: 12800, stock: true },
-    { id: "frase-6", nombre: "Tanga 'Dame Leche'", descripcion: "",
+    { id: "frase-6", nombre: "Tanga 'Dame Leche'", descripcion: "Con frase personalizada",
       imagen: "/tanga6.jpg", precio: 12800, stock: true },
   ];
 

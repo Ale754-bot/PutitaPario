@@ -15,6 +15,8 @@ import arneses from '../data/arneses.json';
 import bdsm from '../data/bdsm.json';
 import cuidadoIntimo from '../data/cuidadointimo.json';
 import dildos from '../data/dildos.json';
+import tangas from '../data/tangas.json';
+
 import PageTransition from '../components/PageTransition';
 
 const groupProductsByCategory = (products) => {
@@ -57,6 +59,7 @@ const Productos = () => {
     ...dildos,
     ...velas,
     ...lenceria,
+    ...tangas,
     ...arneses,
     ...bdsm,
     ...disfraces

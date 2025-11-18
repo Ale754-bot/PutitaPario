@@ -1,0 +1,145 @@
+[
+  {
+    "id": 1300,
+    "nombre": "Tanga 'Toda Adentro'",
+    "descripcion": "Con frase personalizada",
+    "imagen": "/tanga1.jpg",
+    "categoria": "Tangas Personalizadas",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "12800"
+  },
+  {
+    "id": 1301,
+    "nombre": "Tanga 'Casate Conmigo'",
+    "descripcion": "Con frase personalizada",
+    "imagen": "/tanga2.jpg",
+    "categoria": "Tangas Personalizadas",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "12800"
+  },
+  {
+    "id": 1302,
+    "nombre": "Tanga 'Felíz Aniversario'",
+    "descripcion": "Con frase personalizada",
+    "imagen": "/tanga3.jpg",
+    "categoria": "Tangas Personalizadas",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "12800"
+  },
+  {
+    "id": 1303,
+    "nombre": "Tanga 'Tu Putita'",
+    "descripcion": "Con frase personalizada",
+    "imagen": "/tanga4.jpg",
+    "categoria": "Tangas Personalizadas",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "12800"
+  },
+  {
+    "id": 1304,
+    "nombre": "Tanga 'Divorciate'",
+    "descripcion": "Con frase personalizada",
+    "imagen": "/tanga5.jpg",
+    "categoria": "Tangas Personalizadas",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "12800"
+  },
+  {
+    "id": 1305,
+    "nombre": "Tanga 'Dame Leche'",
+    "descripcion": "Con frase personalizada",
+    "imagen": "/tanga6.jpg",
+    "categoria": "Tangas Personalizadas",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "12800"
+  },
+  {
+    "id": 1306,
+    "nombre": "Tanga 'Diego'",
+    "descripcion": "Con nombre personalizado",
+    "imagen": "/tangadiego.jpg",
+    "categoria": "Tangas Personalizadas",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "12800"
+  },
+  {
+    "id": 1307,
+    "nombre": "Tanga 'Agustin'",
+    "descripcion": "Con nombre personalizado",
+    "imagen": "/tangagustin.jpg",
+    "categoria": "Tangas Personalizadas",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "12800"
+  },
+  {
+    "id": 1308,
+    "nombre": "Tanga 'Ignacio'",
+    "descripcion": "Con nombre personalizado",
+    "imagen": "/tangaignacio.jpg",
+    "categoria": "Tangas Personalizadas",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "12800"
+  },
+  {
+    "id": 1309,
+    "nombre": "Tanga 'Lucas'",
+    "descripcion": "Con nombre personalizado",
+    "imagen": "/tangalucas.jpg",
+    "categoria": "Tangas Personalizadas",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "12800"
+  },
+  {
+    "id": 1310,
+    "nombre": "Tanga 'Milton'",
+    "descripcion": "Con nombre personalizado",
+    "imagen": "/tangamilton.jpg",
+    "categoria": "Tangas Personalizadas",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "12800"
+  },
+  {
+    "id": 1311,
+    "nombre": "Tanga 'Rodrigo'",
+    "descripcion": "Con nombre personalizado",
+    "imagen": "/tangarodrigo.jpg",
+    "categoria": "Tangas Personalizadas",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "12800"
+  },
+  {
+    "id": 1312,
+    "nombre": "Tanga 'Santiago'",
+    "descripcion": "Con nombre personalizado",
+    "imagen": "/tangasantiago.jpg",
+    "categoria": "Tangas Personalizadas",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "12800"
+  }
+]

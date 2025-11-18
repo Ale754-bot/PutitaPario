@@ -10,6 +10,7 @@ import PageTransition from '../components/PageTransition'; // ✅ Importación a
 import { motion } from 'framer-motion';
 import { useCarrito } from '../context/CarritoContext'; // ✅ Importar el hook del carrito
 import OfertasHome from '../components/OfertasHome'; // ✅ nuevo componente
+import TangasSection from '../components/TangasSection';
 
 
 const Home = () => {
@@ -32,6 +33,49 @@ const conjuntosCapsula = [
   { id: 4, nombre: "Conjunto Magui Rosa", imagen: "/magui4.jpg", precio: 56000 }
 ];
 
+// 🔥 Tangas con frases (ejemplo 6)
+  const tangasFrases = [
+    { id: "frase-1", nombre: "Tanga 'Toda Adentro'", descripcion: "",
+      imagen: "/tanga1.jpg", precio: 12800, stock: true },
+    { id: "frase-2", nombre: "Tanga 'Casate Conmigo'", descripcion: "",
+      imagen: "/tanga2.jpg", precio: 12800, stock: true },
+    { id: "frase-3", nombre: "Tanga 'Felíz Aniversario'", descripcion: "",
+      imagen: "/tanga3.jpg", precio: 12800, stock: true },
+    { id: "frase-4", nombre: "Tanga 'Tu Putita'", descripcion: "",
+      imagen: "/tanga4.jpg", precio: 12800, stock: true },
+    { id: "frase-5", nombre: "Tanga 'Divorciate'", descripcion: "",
+      imagen: "/tanga5.jpg", precio: 12800, stock: true },
+    { id: "frase-6", nombre: "Tanga 'Dame Leche'", descripcion: "",
+      imagen: "/tanga6.jpg", precio: 12800, stock: true },
+  ];
+
+  // 🔥 Tangas con nombres (ejemplo 6)
+  const tangasNombres = [
+    { id: "nombre-1", nombre: "Tanga 'Diego'",descripcion: "Con nombre personalizado",
+      imagen: "/tangadiego.jpg", precio: 12800, stock: true },
+    { id: "nombre-2", nombre: "Tanga 'Agustin'", descripcion: "Con nombre personalizado",
+      imagen: "/tangagustin.jpg", precio: 12800, stock: true },
+    { id: "nombre-3", nombre: "Tanga 'Ignacio'", descripcion: "Con nombre personalizado",
+      imagen: "/tangaignacio.jpg", precio: 12800, stock: true },
+    { id: "nombre-4", nombre: "Tanga 'Lucas'", descripcion: "Con nombre personalizado",
+      imagen: "/tangalucas.jpg", precio: 12800, stock: true },
+    { id: "nombre-5", nombre: "Tanga 'Milton'", descripcion: "Con nombre personalizado",
+      imagen: "/tangamilton.jpg", precio: 12800, stock: true },
+    { id: "nombre-6", nombre: "Tanga 'Rodrigo'", descripcion: "Con nombre personalizado",
+      imagen: "/tangarodrigo.jpg", precio: 12800, stock: true },
+      { id: "nombre-7", nombre: "Tanga 'Santiago'", descripcion: "Con nombre personalizado",
+      imagen: "/tangasantiago.jpg", precio: 12800, stock: true },
+  ];
+
+  // 🔥 Tanga personalizada
+  const tangaPersonalizada = {
+    id: "tanga-personalizada",
+    nombre: "Tanga Personalizada",
+    descripcion: "Elegí frase, nombre y color. Producción en 72 hs máximo.",
+    imagen: "/tanga3.jpg",
+    precio: 16000,
+    stock: true
+  };
 
   return (
     <PageTransition> {/* ✅ Transición envolvente */}
@@ -107,6 +151,13 @@ const conjuntosCapsula = [
         </section>
         {/* 🎁 Ofertas Home */}
 <OfertasHome />
+
+        {/* 🎀 Tangas Section */}
+        <TangasSection
+          frases={tangasFrases}
+          nombres={tangasNombres}
+          personalizada={tangaPersonalizada}
+        />
 
 
         {/* 🔥 Cápsula Erótica */}

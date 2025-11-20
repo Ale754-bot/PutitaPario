@@ -22,14 +22,14 @@ const combos = [
     titulo: "Combo - Aceites Sextual",
     descripcion: "Pack de aceites Sextual versión Natural, Uva, Cereza, Chocomenta, Vainilla y Piña Colada. Cada unidad queda a $2.785.",
     precio: 78000,
-    imagen: "/images/combos/combosextualaceite.jpg",
+    imagen: "/images/combos/comosextualaceite.jpg",
   },
   {
     id: 4,
     titulo: "Combo - 8 Dildos",
     descripcion: "Selección de 8 dildos de alta demanda. Cada unidad queda a $13.800.",
     precio: 108000,
-    imagen: "/images/combos/combodildo.jpg",
+    imagen: "/images/combos/combodildo.png",
   },
   {
     id: 5,

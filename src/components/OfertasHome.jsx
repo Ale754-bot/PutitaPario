@@ -96,7 +96,7 @@ const OfertasHome = () => {
   }, [itemsPerPage, paused]);
 
   return (
-    <section className="bg-black text-white py-10">
+    <section id="ofertas-home" className="bg-black text-white py-10">
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}

@@ -11,6 +11,8 @@ import { motion } from 'framer-motion';
 import { useCarrito } from '../context/CarritoContext'; // ✅ Importar el hook del carrito
 import OfertasHome from '../components/OfertasHome'; // ✅ nuevo componente
 import TangasSection from '../components/TangasSection';
+import OffersTicker from '../components/OffersTicker';
+
 
 
 const Home = () => {
@@ -79,6 +81,7 @@ const conjuntosCapsula = [
 
   return (
     <PageTransition> {/* ✅ Transición envolvente */}
+    <OffersTicker />
       <Hero />
 
       <main className="mx-auto max-w-screen-xl px-4 py-8">
@@ -86,8 +89,7 @@ const conjuntosCapsula = [
         
 
         {/* 🎉 Oferta Épica de Apertura */}
-        <section className="relative py-12 overflow-hidden mt-16 mb-16">
-          {/* Imagen de fondo centrada */}
+        <section id="apertura" className="relative py-12 overflow-hidden mt-16 mb-16">
           <div className="absolute inset-0">
             <img
               src="/fondoperfume.jpg"
@@ -150,10 +152,10 @@ const conjuntosCapsula = [
           </div>
         </section>
         {/* 🎁 Ofertas Home */}
-<OfertasHome />
-
+<OfertasHome id="ofertas-home" />
         {/* 🎀 Tangas Section */}
         <TangasSection
+        id="tangas"
           frases={tangasFrases}
           nombres={tangasNombres}
           personalizada={tangaPersonalizada}
@@ -161,7 +163,7 @@ const conjuntosCapsula = [
 
 
         {/* 🔥 Cápsula Erótica */}
-        <section className="relative py-16 bg-gradient-to-b from-black via-red-950 to-black mt-20 rounded-xl">
+        <section id="capsula-magui" className="relative py-16 bg-gradient-to-b from-black via-red-950 to-black mt-20 rounded-xl">
   <div className="text-center mb-12">
     <h2 className="text-5xl font-bold text-white">Lanzamiento Conjunto Magui</h2>
     <p className="text-gray-300 mt-4 text-lg">

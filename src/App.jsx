@@ -12,6 +12,7 @@ import ScrollToTop from './components/ScrollToTop';
 // 📄 Páginas
 import Home from './pages/Home';
 import Productos from './pages/Productos';
+import Mayorista from "./pages/Mayorista";
 import Contacto from './pages/Contacto';
 
 // ✨ Transición editorial
@@ -103,6 +104,7 @@ function App() {
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
           <Route path="/productos" element={<PageTransition><Productos /></PageTransition>} />
+          <Route path="/mayorista"element={<PageTransition><Mayorista /></PageTransition>} />
           <Route path="/contacto" element={<PageTransition><Contacto /></PageTransition>} />
           
         </Routes>

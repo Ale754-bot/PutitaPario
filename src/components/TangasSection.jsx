@@ -4,9 +4,12 @@ import ProductCardTangasConFrases from "./ProductCardTangasConFrases";
 import ProductCardTangasConNombres from "./ProductCardTangasConNombres";
 import ProductCardTangasPersonalizada from "./ProductCardTangasPersonalizada";
 
-const TangasSection = ({ frases, nombres, personalizada }) => {
+const TangasSection = ({ id, frases, nombres, personalizada }) => {
   return (
-    <section className="py-16 bg-gradient-to-b from-black via-pink-950 to-black mt-20 rounded-xl">
+    <section
+      id={id} // 👈 ahora sí se aplica el id
+      className="py-16 bg-gradient-to-b from-black via-pink-950 to-black mt-20 rounded-xl"
+    >
       <div className="text-center mb-12">
         <h2 className="text-5xl font-bold text-white">Tangas Personalizada</h2>
         <p className="text-gray-300 mt-4 text-lg">

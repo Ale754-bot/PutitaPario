@@ -33,10 +33,11 @@ const ProductCardLenceria = ({ producto, index }) => {
     }
   }, [variantes]);
 
-const precioFinal = producto.precioBase 
-  ?? variantePorColor?.precio 
-  ?? precio 
-  ?? 0;
+  const precioFinal = producto.precioBase 
+    ?? variantePorColor?.precio 
+    ?? precio 
+    ?? 0;
+
   const imagenFinal =
     variantePorColor?.imagen ||
     imagen ||
@@ -74,6 +75,13 @@ const precioFinal = producto.precioBase
       },
     },
   };
+
+  // Texto dinámico del botón
+  const textoBoton = !stock
+    ? "Sin stock"
+    : !colorSeleccionado
+    ? "Elegí un color"
+    : "Consultar por WhatsApp";
 
   return (
     <motion.div
@@ -158,7 +166,7 @@ const precioFinal = producto.precioBase
 
           {/* Mensaje informativo */}
           {colorSeleccionado && (
-            <p className="text-xs text-gray-400 mt-1">
+            <p className="text-xs text-center text-gray-400 mt-1">
               Consultar por talles disponibles
             </p>
           )}
@@ -176,7 +184,7 @@ const precioFinal = producto.precioBase
                 : "bg-gray-600 text-white cursor-not-allowed"}
             `}
           >
-            {stock ? "Consultar por WhatsApp" : "Sin stock"}
+            {textoBoton}
           </button>
         </div>
       </div>

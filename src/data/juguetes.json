@@ -173,6 +173,7 @@
     "imagen": "/images/juguetes/balafuccia.jpg",
     "categoria": "Juguetes",
     "stock": true,
+    "precio": 25000,
     "marca": "",
     "mostrarColor": true,
     "variantes": [
@@ -180,19 +181,19 @@
         "color": "Fucsia",
         "colorHex": "#8a067a",
         "imagen": "/images/juguetes/balafuccia.jpg",
-        "precio": "25000"
+        "precio": 25000
       },
       {
         "color": "Dorado",
         "colorHex": "#968154",
         "imagen": "/images/juguetes/baladorada.jpg",
-        "precio": "25000"
+        "precio": 25000
       },
       {
         "color": "Plateado",
         "colorHex": "#e6e6e4",
         "imagen": "/images/juguetes/balaplateada.jpg",
-        "precio": "25000"
+        "precio": 25000
       }
     ]
   },
@@ -203,6 +204,7 @@
     "imagen": "/images/juguetes/labialfuccia.jpg",
     "categoria": "Juguetes",
     "stock": true,
+    "precio": 28000,
     "marca": "",
     "mostrarColor": true,
     "variantes": [
@@ -210,19 +212,19 @@
         "color": "Fucsia",
         "colorHex": "#b41cc0",
         "imagen": "/images/juguetes/labialfuccia.jpg",
-        "precio": "28000"
+        "precio": 28000
       },
       {
         "color": "Dorado",
         "colorHex": "#ddb86d",
         "imagen": "/images/juguetes/labialdorado.jpg",
-        "precio": "28000"
+        "precio": 28000
       },
       {
         "color": "Rojo",
         "colorHex": "#f31819",
         "imagen": "/images/juguetes/labialrojo.jpg",
-        "precio": "28000"
+        "precio": 28000
       }
     ]
   },
@@ -262,30 +264,31 @@
     "precio": 85000
   },
   {
-    "id": 419,
-    "nombre": "Lenguitas Estimuladoras - Con USB",
-    "descripcion": "Estimulador vibrante con forma de lengüita. Ideal para juego externo.",
-    "imagen": "/images/juguetes/lenguitavioleta.jpg",
-    "categoria": "Juguetes",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "mostrarColor": true,
-    "variantes": [
-      {
-        "color": "Violeta",
-        "colorHex": "#8A2BE2",
-        "precio": 60000,
-        "imagen": "/images/juguetes/lenguitavioleta.jpg"
-      },
-      {
-        "color": "Rosa",
-        "colorHex": "#FF69B4",
-        "precio": 60000,
-        "imagen": "/images/juguetes/lenguitarosa.jpg"
-      }
-    ]
-  },
+  "id": 419,
+  "nombre": "Lenguitas Estimuladoras - Con USB",
+  "descripcion": "Estimulador vibrante con forma de lengüita. Ideal para juego externo.",
+  "imagen": "/images/juguetes/lenguitavioleta.jpg",
+  "categoria": "Juguetes",
+  "stock": true,
+  "precio": 60000,
+  "marca": "",
+  "linea": "",
+  "mostrarColor": true,
+  "variantes": [
+    {
+      "color": "Violeta",
+      "colorHex": "#8A2BE2",
+      "precio": 60000,
+      "imagen": "/images/juguetes/lenguitavioleta.jpg"
+    },
+    {
+      "color": "Rosa",
+      "colorHex": "#FF69B4",
+      "precio": 60000,
+      "imagen": "/images/juguetes/lenguitarosa.jpg"
+    }
+  ]
+},
   {
     "id": 420,
     "nombre": "Bala Vibradora Masajeadora",
@@ -298,36 +301,37 @@
     "precio": 30000
   },
   {
-    "id": 421,
-    "nombre": "Succionadores de Clítoris - Con USB",
-    "descripcion": "Succionador recargable con múltiples intensidades. Estimula con precisión y suavidad.",
-    "imagen": "/images/juguetes/succionadorfucsia.jpg",
-    "categoria": "Juguetes",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "mostrarColor": true,
-    "variantes": [
-      {
-        "color": "Fucsia",
-        "colorHex": "#FF1493",
-        "precio": 48000,
-        "imagen": "/images/juguetes/succionadorfucsia.jpg"
-      },
-      {
-        "color": "Cremita",
-        "colorHex": "#FFFDD0",
-        "precio": 48000,
-        "imagen": "/images/juguetes/succionadorcremita.jpg"
-      },
-      {
-        "color": "Violeta",
-        "colorHex": "#8A2BE2",
-        "precio": 48000,
-        "imagen": "/images/juguetes/succionadorvioleta.jpg"
-      }
-    ]
-  },
+  "id": 421,
+  "nombre": "Succionadores de Clítoris - Con USB",
+  "descripcion": "Succionador recargable con múltiples intensidades. Estimula con precisión y suavidad.",
+  "imagen": "/images/juguetes/succionadorfucsia.jpg",
+  "categoria": "Juguetes",
+  "stock": true,
+  "precio": 48000,
+  "marca": "",
+  "linea": "",
+  "mostrarColor": true,
+  "variantes": [
+    {
+      "color": "Fucsia",
+      "colorHex": "#FF1493",
+      "precio": 48000,
+      "imagen": "/images/juguetes/succionadorfucsia.jpg"
+    },
+    {
+      "color": "Cremita",
+      "colorHex": "#FFFDD0",
+      "precio": 48000,
+      "imagen": "/images/juguetes/succionadorcremita.jpg"
+    },
+    {
+      "color": "Violeta",
+      "colorHex": "#8A2BE2",
+      "precio": 48000,
+      "imagen": "/images/juguetes/succionadorvioleta.jpg"
+    }
+  ]
+},
   {
     "id": 422,
     "nombre": "Conejito Masajeador - Calexotics",

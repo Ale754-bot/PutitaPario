@@ -6,14 +6,13 @@
     "imagen": "/images/arneses/roxinegro.jpg",
     "categoria": "Arneses",
     "stock": true,
+    "precio": 14000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "14000",
-      "imagen": "/images/arneses/roxinegro.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "14000",
-      "imagen": "/images/arneses/roxiblanco.jpg" }
+      { "color": "Negro", "colorHex": "#000000", "precio": 14000, "imagen": "/images/arneses/roxinegro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": 14000, "imagen": "/images/arneses/roxiblanco.jpg" }
     ]
   },
   {
@@ -23,14 +22,13 @@
     "imagen": "/images/arneses/medusanegro.jpg",
     "categoria": "Arneses",
     "stock": true,
+    "precio": 14000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "14000",
-      "imagen": "/images/arneses/medusanegro.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "14000",
-      "imagen": "/images/arneses/medusablanco.jpg" }
+      { "color": "Negro", "colorHex": "#000000", "precio": 14000, "imagen": "/images/arneses/medusanegro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": 14000, "imagen": "/images/arneses/medusablanco.jpg" }
     ]
   },
   {
@@ -40,14 +38,13 @@
     "imagen": "/images/arneses/babynegro.jpg",
     "categoria": "Arneses",
     "stock": true,
+    "precio": 12000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "12000",
-      "imagen": "/images/arneses/babynegro.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "12000",
-      "imagen": "/images/arneses/babyblanco.jpg" }
+      { "color": "Negro", "colorHex": "#000000", "precio": 12000, "imagen": "/images/arneses/babynegro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": 12000, "imagen": "/images/arneses/babyblanco.jpg" }
     ]
   },
   {
@@ -57,14 +54,13 @@
     "imagen": "/images/arneses/dainegro.jpg",
     "categoria": "Arneses",
     "stock": true,
+    "precio": 14000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "14000",
-      "imagen": "/images/arneses/dainegro.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "14000",
-      "imagen": "/images/arneses/daiblanco.jpg" }
+      { "color": "Negro", "colorHex": "#000000", "precio": 14000, "imagen": "/images/arneses/dainegro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": 14000, "imagen": "/images/arneses/daiblanco.jpg" }
     ]
   },
   {
@@ -74,14 +70,13 @@
     "imagen": "/images/arneses/moñosnegro.jpg",
     "categoria": "Arneses",
     "stock": true,
+    "precio": 15000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "15000",
-      "imagen": "/images/arneses/moñosnegro.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "15000",
-      "imagen": "/images/arneses/moñosblanco.jpg" }
+      { "color": "Negro", "colorHex": "#000000", "precio": 15000, "imagen": "/images/arneses/moñosnegro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": 15000, "imagen": "/images/arneses/moñosblanco.jpg" }
     ]
   },
   {
@@ -91,12 +86,12 @@
     "imagen": "/images/arneses/delinegro.jpg",
     "categoria": "Arneses",
     "stock": true,
+    "precio": 17000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "17000",
-      "imagen": "/images/arneses/delinegro.jpg" }
+      { "color": "Negro", "colorHex": "#000000", "precio": 17000, "imagen": "/images/arneses/delinegro.jpg" }
     ]
   },
   {
@@ -106,14 +101,13 @@
     "imagen": "/images/arneses/moñostirasnegro.jpg",
     "categoria": "Arneses",
     "stock": true,
+    "precio": 14000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "14000",
-      "imagen": "/images/arneses/moñostirasnegro.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "14000",
-      "imagen": "/images/arneses/moñostirasblanco.jpg" }
+      { "color": "Negro", "colorHex": "#000000", "precio": 14000, "imagen": "/images/arneses/moñostirasnegro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": 14000, "imagen": "/images/arneses/moñostirasblanco.jpg" }
     ]
   },
   {
@@ -123,14 +117,13 @@
     "imagen": "/images/arneses/neidinegro.jpg",
     "categoria": "Arneses",
     "stock": true,
+    "precio": 28800,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "28800",
-      "imagen": "/images/arneses/neidinegro.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "28800",
-      "imagen": "/images/arneses/neidiblanco.jpg" }
+      { "color": "Negro", "colorHex": "#000000", "precio": 28800, "imagen": "/images/arneses/neidinegro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": 28800, "imagen": "/images/arneses/neidiblanco.jpg" }
     ]
   },
   {
@@ -140,14 +133,13 @@
     "imagen": "/images/arneses/ppnegro.jpg",
     "categoria": "Arneses",
     "stock": true,
+    "precio": 17000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "17000",
-      "imagen": "/images/arneses/ppnegro.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "17000",
-      "imagen": "/images/arneses/ppblanco.jpg" }
+      { "color": "Negro", "colorHex": "#000000", "precio": 17000, "imagen": "/images/arneses/ppnegro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": 17000, "imagen": "/images/arneses/ppblanco.jpg" }
     ]
   },
   {
@@ -157,48 +149,45 @@
     "imagen": "/images/arneses/ligadoblenegra.jpg",
     "categoria": "Arneses",
     "stock": true,
+    "precio": 8000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "8000",
-      "imagen": "/images/arneses/ligadoblenegra.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "8000",
-      "imagen": "/images/arneses/ligadobleblanca.jpg" }
+      { "color": "Negro", "colorHex": "#000000", "precio": 8000, "imagen": "/images/arneses/ligadoblenegra.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": 8000, "imagen": "/images/arneses/ligadobleblanca.jpg" }
     ]
   },
-  {
+    {
     "id": 910,
     "nombre": "Portaligas Baby",
     "descripcion": "Arnés tipo portaligas con diseño suave y tiras ajustables. Ideal para complementar conjuntos.",
     "imagen": "/images/arneses/ligababynegra.jpg",
     "categoria": "Arneses",
     "stock": true,
+    "precio": 12000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": "12000",
-      "imagen": "/images/arneses/ligababynegra.jpg" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": "12000",
-      "imagen": "/images/arneses/ligababyblanco.jpg" }
+      { "color": "Negro", "colorHex": "#000000", "precio": 12000, "imagen": "/images/arneses/ligababynegra.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": 12000, "imagen": "/images/arneses/ligababyblanco.jpg" }
     ]
   },
- {
-  "id": 911,
-  "nombre": "Arnés Valentine",
-  "descripcion": "Diseño romántico con tiras cruzadas y detalles suaves. Ideal para ocasiones especiales.",
-  "imagen": "/images/arneses/valentinenegro.jpg",
-  "categoria": "Arneses",
-  "stock": true,
-  "marca": "",
-  "linea": "",
-  "mostrarColor": true,
-  "variantes": [
-    { "color": "Negro", "colorHex": "#000000", "precio": "23000",
-    "imagen": "/images/arneses/valentinenegro.jpg" },
-    { "color": "Blanco", "colorHex": "#ffffff", "precio": "23000",
-    "imagen": "/images/arneses/valentineblanco.jpg" }
-  ]
-}
+  {
+    "id": 911,
+    "nombre": "Arnés Valentine",
+    "descripcion": "Diseño romántico con tiras cruzadas y detalles suaves. Ideal para ocasiones especiales.",
+    "imagen": "/images/arneses/valentinenegro.jpg",
+    "categoria": "Arneses",
+    "stock": true,
+    "precio": 23000,
+    "marca": "",
+    "linea": "",
+    "mostrarColor": true,
+    "variantes": [
+      { "color": "Negro", "colorHex": "#000000", "precio": 23000, "imagen": "/images/arneses/valentinenegro.jpg" },
+      { "color": "Blanco", "colorHex": "#ffffff", "precio": 23000, "imagen": "/images/arneses/valentineblanco.jpg" }
+    ]
+  }
 ]

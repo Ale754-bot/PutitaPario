@@ -120,63 +120,62 @@
     "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
   },
   {
-  "id": 610,
-  "nombre": "Vela Unión",
-  "descripcion": "Vela exótica de 30 g. Disponible en tres variantes escultóricas que representan la fusión íntima.",
-  "imagen": "/images/velas/exoticas/union1.jpg",
-  "categoria": "Velas",
-  "subcategoria": "Velas Exóticas",
-  "stock": true,
-  "marca": "",
-  "linea": "",
-  "mostrarColor": true,
-  "variantes": [
-    {
-      "tamaño": "Único",
-      "color": "Rojo",
-      "colorHex": "#b30000",
-      "precio": 8000,
-      "imagen": "/images/velas/exoticas/union1.jpg"
-    },
-    {
-      "tamaño": "Único",
-      "color": "Blanco",
-      "colorHex": "#ffffff",
-      "precio": 8000,
-      "imagen": "/images/velas/exoticas/union2.jpg"
-    },
-    {
-      "tamaño": "Único",
-      "color": "Cremita",
-      "colorHex": "#f5e6d3",
-      "precio": 8000,
-      "imagen": "/images/velas/exoticas/union3.jpg"
-    }
-  ]
-},
-
+    "id": 610,
+    "nombre": "Vela Unión",
+    "descripcion": "Vela exótica de 30 g. Disponible en tres variantes escultóricas que representan la fusión íntima.",
+    "imagen": "/images/velas/exoticas/union1.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Velas Exóticas",
+    "stock": true,
+    "precio": 8000,
+    "marca": "",
+    "linea": "",
+    "mostrarColor": true,
+    "variantes": [
+      {
+        "tamaño": "Único",
+        "color": "Rojo",
+        "colorHex": "#b30000",
+        "precio": 8000,
+        "imagen": "/images/velas/exoticas/union1.jpg"
+      },
+      {
+        "tamaño": "Único",
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "precio": 8000,
+        "imagen": "/images/velas/exoticas/union2.jpg"
+      },
+      {
+        "tamaño": "Único",
+        "color": "Cremita",
+        "colorHex": "#f5e6d3",
+        "precio": 8000,
+        "imagen": "/images/velas/exoticas/union3.jpg"
+      }
+    ]
+  },
   {
-  "id": 611,
-  "nombre": "Vela Vulva",
-  "descripcion": "Vela exótica de 30 g. Celebración visual de la feminidad.",
-  "imagen": "/images/velas/exoticas/vulva.jpg",
-  "categoria": "Velas",
-  "subcategoria": "Velas Exóticas",
-  "stock": true,
-  "marca": "",
-  "linea": "",
-  "mostrarColor": true,
-  "variantes": [
-    {
-      "tamaño": "Único",
-      "color": "Rojo",
-      "colorHex": "#b30000",
-      "precio": 8000,
-      "imagen": "/images/velas/exoticas/vulva.jpg"
-    }
-  ]
-},
-
+    "id": 611,
+    "nombre": "Vela Vulva",
+    "descripcion": "Vela exótica de 30 g. Celebración visual de la feminidad.",
+    "imagen": "/images/velas/exoticas/vulva.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Velas Exóticas",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "mostrarColor": true,
+    "variantes": [
+      {
+        "tamaño": "Único",
+        "color": "Rojo",
+        "colorHex": "#b30000",
+        "precio": 8000,
+        "imagen": "/images/velas/exoticas/vulva.jpg"
+      }
+    ]
+  },
   {
     "id": 612,
     "nombre": "Vela Pene - S",
@@ -185,6 +184,7 @@
     "categoria": "Velas",
     "subcategoria": "Velas Exóticas",
     "stock": true,
+    "precio": 9000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -213,6 +213,7 @@
     "categoria": "Velas",
     "subcategoria": "Velas Exóticas",
     "stock": true,
+    "precio": 9000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -234,26 +235,26 @@
     ]
   },
   {
-  "id": 614,
-  "nombre": "Vela Pene - L",
-  "descripcion": "Vela exótica tamaño L. Presencia audaz y decorativa.",
-  "imagen": "/images/velas/exoticas/pblancol.jpg",
-  "categoria": "Velas",
-  "subcategoria": "Velas Exóticas",
-  "stock": true,
-  "marca": "",
-  "linea": "",
-  "mostrarColor": true,
-  "variantes": [
-    {
-      "tamaño": "L",
-      "color": "Blanco",
-      "colorHex": "#ffffff",
-      "precio": 9000,
-      "imagen": "/images/velas/exoticas/pblancol.jpg"
-    }
-  ]
-}
+    "id": 614,
+    "nombre": "Vela Pene - L",
+    "descripcion": "Vela exótica tamaño L. Presencia audaz y decorativa.",
+    "imagen": "/images/velas/exoticas/pblancol.jpg",
+    "categoria": "Velas",
+    "subcategoria": "Velas Exóticas",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "mostrarColor": true,
+    "variantes": [
+      {
+        "tamaño": "L",
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "precio": 9000,
+        "imagen": "/images/velas/exoticas/pblancol.jpg"
+      }
+    ]
+  }
 
 
 

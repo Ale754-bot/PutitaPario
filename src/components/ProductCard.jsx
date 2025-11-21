@@ -15,7 +15,8 @@ const ProductCard = ({ producto, index }) => {
     variantes,
     marca,
     linea,
-    mostrarColor
+    mostrarColor,
+    categoria
   } = producto;
 
   const [talleSeleccionado, setTalleSeleccionado] = useState("");
@@ -26,13 +27,14 @@ const ProductCard = ({ producto, index }) => {
   const tieneTalles = talles && talles.length > 0;
   const tieneVariantes = variantes && variantes.length > 0;
   const tieneColores = mostrarColor && variantes?.some(v => v.color);
-const tipoVariante = tieneVariantes
-  ? variantes[0]?.talle
-    ? "talle"
-    : variantes[0]?.tamaño
-    ? "tamaño"
-    : null
-  : null;
+
+  const tipoVariante = tieneVariantes
+    ? variantes[0]?.talle
+      ? "talle"
+      : variantes[0]?.tamaño
+      ? "tamaño"
+      : null
+    : null;
 
   const requiereColor = tieneColores;
   const requiereTalle = tipoVariante === "talle";
@@ -55,35 +57,45 @@ const tipoVariante = tieneVariantes
       (tieneVariantes && varianteSeleccionada)
     );
 
-  const precioFinal = varianteSeleccionada?.precio ?? precio ?? 0;
+  // 🔧 Categorías que deben mostrar precio base siempre
+  const categoriasPrecioVisible = ["Arneses", "Velas", "Plugs Anales", "Juguetes"];
+  const mostrarPrecioSiempre = categoriasPrecioVisible.includes(categoria);
+
+  // 🔧 Precio final con variante extra
+  const precioFinal = mostrarPrecioSiempre
+    ? (precio ?? varianteSeleccionada?.precio ?? 0)
+    : (varianteSeleccionada?.precio ?? precio ?? 0);
+
   const imagenFinal = varianteSeleccionada?.imagen || imagen || imagenUrl || "/images/placeholder.png";
 
   const textoBoton = !stock
-  ? "Sin stock"
-  : tieneTalles && !talleSeleccionado
-  ? "Elegí un talle"
-  : tieneVariantes && requiereColor && !varianteSeleccionada
-  ? "Elegí un color"
-  : tieneVariantes && requiereTalle && !varianteSeleccionada
-  ? "Elegí un talle"
-  : tieneVariantes && requiereTamaño && !varianteSeleccionada
-  ? "Elegí un tamaño"
-  : "Agregar al carrito";
-
+    ? "Sin stock"
+    : tieneTalles && !talleSeleccionado
+    ? "Elegí un talle"
+    : tieneVariantes && requiereColor && !varianteSeleccionada
+    ? "Elegí un color"
+    : tieneVariantes && requiereTalle && !varianteSeleccionada
+    ? "Elegí un talle"
+    : tieneVariantes && requiereTamaño && !varianteSeleccionada
+    ? "Elegí un tamaño"
+    : "Agregar al carrito";
 
   const handleAgregar = () => {
-    if (!puedeAgregar) return;
+  if (!puedeAgregar) return;
 
-    const item = {
-      ...producto,
-      talle: talleSeleccionado || null,
-      variante: varianteSeleccionada?.talle || varianteSeleccionada?.tamaño || null,
-      color: varianteSeleccionada?.color || null,
-      precio: precioFinal
-    };
-
-    agregarItem(item, 1);
+  const item = {
+    ...producto,
+    talle: talleSeleccionado || null,
+    variante: varianteSeleccionada?.talle || varianteSeleccionada?.tamaño || null,
+    color: varianteSeleccionada?.color || null,
+    precio: precioFinal,
+    // 🔧 miniatura según la variante elegida
+    imagen: varianteSeleccionada?.imagen || imagenFinal
   };
+
+  agregarItem(item, 1);
+};
+
 
   const etiquetaMarca = marca && linea ? `${marca} · ${linea}` : marca || "";
 
@@ -96,13 +108,13 @@ const tipoVariante = tieneVariantes
     }
   }, [inView, controls]);
 
-    const fadeUp = {
-    hidden: { opacity: 0, y: 0 },   // 🔧 antes era 30, ahora más corto y natural
+  const fadeUp = {
+    hidden: { opacity: 0, y: 0 },
     visible: {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.5,               // 🔧 más breve y fluido
+        duration: 0.5,
         ease: 'easeOut',
         delay: index * 0.05,
       },
@@ -169,7 +181,6 @@ const tipoVariante = tieneVariantes
           <p className="text-base text-red-700 font-bold mb-2">
             ${precioFinal}
           </p>
-
           {/* Círculos de color */}
           {tieneColores && (
             <div className="flex justify-center gap-2 mb-2">

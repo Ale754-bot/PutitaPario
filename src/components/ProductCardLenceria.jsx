@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { useCarrito } from '../context/CarritoContext';
 
 const ProductCardLenceria = ({ producto, index }) => {
   const {
@@ -18,20 +17,11 @@ const ProductCardLenceria = ({ producto, index }) => {
   } = producto;
 
   const [colorSeleccionado, setColorSeleccionado] = useState(null);
-  const [talleSeleccionado, setTalleSeleccionado] = useState("");
   const [expandido, setExpandido] = useState(false);
-  const { agregarItem } = useCarrito();
 
   const tieneVariantes = variantes && variantes.length > 0;
   const tieneColores = mostrarColor && variantes?.some(v => v.color);
   const coloresDisponibles = [...new Set(variantes.map(v => v.color))];
-  const tallesPorColor = colorSeleccionado
-    ? variantes.filter(v => v.color === colorSeleccionado).map(v => v.talle)
-    : [];
-
-  const varianteSeleccionada = variantes.find(
-    v => v.color === colorSeleccionado && v.talle === talleSeleccionado
-  );
 
   const variantePorColor = colorSeleccionado
     ? variantes.find(v => v.color === colorSeleccionado)
@@ -40,61 +30,25 @@ const ProductCardLenceria = ({ producto, index }) => {
   useEffect(() => {
     if (tieneVariantes && variantes.length === 1) {
       setColorSeleccionado(variantes[0].color);
-      setTalleSeleccionado(variantes[0].talle);
     }
   }, [variantes]);
 
-  const puedeAgregar =
-    stock &&
-    (
-      (!tieneVariantes) ||
-      (colorSeleccionado && talleSeleccionado && varianteSeleccionada)
-    );
-
-  const precioFinal = varianteSeleccionada?.precio ?? precio ?? 0;
+const precioFinal = producto.precioBase 
+  ?? variantePorColor?.precio 
+  ?? precio 
+  ?? 0;
   const imagenFinal =
-    varianteSeleccionada?.imagen ||
     variantePorColor?.imagen ||
     imagen ||
     imagenUrl ||
     "/images/placeholder.png";
 
-  // 🔎 Detectar caso especial de "Consultar por talles disponibles"
-  const esConsultaTalle =
-    talleSeleccionado === "Consultar por talles disponibles" ||
-    varianteSeleccionada?.talle === "Consultar por talles disponibles";
-
-  const textoBoton = !stock
-    ? "Sin stock"
-    : !colorSeleccionado
-    ? "Elegí un color"
-    : !talleSeleccionado
-    ? "Elegí un talle"
-    : esConsultaTalle
-    ? "Consultar por WhatsApp"
-    : "Agregar al carrito";
-
-  const handleAgregar = () => {
-    if (!puedeAgregar) return;
-
-    if (esConsultaTalle) {
-      const numeroDuena = "5493412634440"; // 🔧 tu número de WhatsApp
-      const mensaje = `Hola 👋, quiero consultar por talles disponibles del producto: ${nombre} (${colorSeleccionado}).`;
-      const url = `https://wa.me/${numeroDuena}?text=${encodeURIComponent(mensaje)}`;
-      window.open(url, "_blank");
-      return;
-    }
-
-    const item = {
-      ...producto,
-      color: colorSeleccionado,
-      talle: talleSeleccionado,
-      precio: precioFinal,
-      imagen: imagenFinal,
-      variantes
-    };
-
-    agregarItem(item, 1);
+  const handleWhatsApp = () => {
+    if (!colorSeleccionado) return;
+    const numeroDuena = "5493412634440"; // 🔧 tu número de WhatsApp
+    const mensaje = `Hola 👋, quiero consultar por talles disponibles del producto: ${nombre} (${colorSeleccionado}). Precio: $${precioFinal}`;
+    const url = `https://wa.me/${numeroDuena}?text=${encodeURIComponent(mensaje)}`;
+    window.open(url, "_blank");
   };
 
   const etiquetaMarca = marca && linea ? `${marca} · ${linea}` : marca || "";
@@ -127,13 +81,11 @@ const ProductCardLenceria = ({ producto, index }) => {
       initial="hidden"
       animate={controls}
       variants={fadeUp}
-      className="
-        w-full bg-black text-white rounded-xl overflow-hidden shadow-lg 
-        transition duration-300 ease-in-out 
-        hover:shadow-red/500 hover:scale-[1.02]
-        border border-gray-800 hover:border-acento
-        flex flex-col
-      "
+      className="w-full bg-black text-white rounded-xl overflow-hidden shadow-lg 
+                 transition duration-300 ease-in-out 
+                 hover:shadow-red/500 hover:scale-[1.02]
+                 border border-gray-800 hover:border-acento
+                 flex flex-col"
     >
       {/* Imagen */}
       <div className="w-full aspect-square overflow-hidden relative">
@@ -190,10 +142,7 @@ const ProductCardLenceria = ({ producto, index }) => {
                 return (
                   <button
                     key={idx}
-                    onClick={() => {
-                      setColorSeleccionado(color);
-                      setTalleSeleccionado(""); // reset talle
-                    }}
+                    onClick={() => setColorSeleccionado(color)}
                     className={`
                       w-4 h-4 rounded-full border
                       ${isSelected ? 'border-acento scale-110' : 'border-white/20'}
@@ -207,48 +156,27 @@ const ProductCardLenceria = ({ producto, index }) => {
             </div>
           )}
 
-          {/* Talles por color */}
-          {colorSeleccionado && tallesPorColor.length > 0 && (
-            <div className="text-center mt-2">
-              <label className="block text-xs font-medium text-gray-300 mb-1">
-                Talle:
-              </label>
-              <div className="flex justify-center gap-2 flex-wrap">
-                {tallesPorColor.map((talle, idx) => (
-                  <button
-                    key={idx}
-                    onClick={() => setTalleSeleccionado(talle)}
-                    className={`
-                      px-2 py-1 rounded-full border text-xs
-                      ${talleSeleccionado === talle ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
-                      hover:bg-red-800 transition-all
-                    `}
-                  >
-                    {talle}
-                  </button>
-                ))}
-              </div>
-            </div>
+          {/* Mensaje informativo */}
+          {colorSeleccionado && (
+            <p className="text-xs text-gray-400 mt-1">
+              Consultar por talles disponibles
+            </p>
           )}
         </div>
 
-        {/* Botón */}
+        {/* Botón único */}
         <div className="mt-auto pt-3 flex justify-center">
           <button
-            onClick={handleAgregar}
-            disabled={!puedeAgregar}
+            onClick={handleWhatsApp}
+            disabled={!stock || !colorSeleccionado}
             className={`
               px-6 py-2 rounded font-semibold transition-colors text-sm
-              ${puedeAgregar && !esConsultaTalle
-                ? "bg-red-600 hover:bg-red-800 text-white"
-                : esConsultaTalle
-                ? "bg-green-600 hover:bg-green-700 text-white"
-                : !stock
-                ? "bg-gray-800 text-gray-400 cursor-not-allowed"
+              ${stock && colorSeleccionado
+                ? "bg-green-600 hover:bg-green-800 text-white"
                 : "bg-gray-600 text-white cursor-not-allowed"}
             `}
           >
-            {textoBoton}
+            {stock ? "Consultar por WhatsApp" : "Sin stock"}
           </button>
         </div>
       </div>

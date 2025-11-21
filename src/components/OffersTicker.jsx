@@ -13,7 +13,7 @@ const OffersTicker = () => {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    const timer = setTimeout(() => setShowIntro(false), 3000); // Intro dura 2.5s
+    const timer = setTimeout(() => setShowIntro(false), 3000); 
     return () => clearTimeout(timer);
   }, []);
 
@@ -21,7 +21,7 @@ const OffersTicker = () => {
     if (!showIntro) {
       const interval = setInterval(() => {
         setIndex((prev) => (prev + 1) % ofertas.length);
-      }, 4000); // cada mensaje dura 4s
+      }, 4000);
       return () => clearInterval(interval);
     }
   }, [showIntro, ofertas.length]);
@@ -34,16 +34,35 @@ const OffersTicker = () => {
   };
 
   return (
-    <div className="relative bg-red-800 backdrop-blur-sm text-white text-sm tracking-wide py-2 overflow-hidden">
+    <div className="relative bg-red-800/40 backdrop-blur-sm text-white text-sm tracking-wide py-2 overflow-hidden">
+      {/* Video de humo en toda la franja */}
+      <video
+  src="/fondo.mp4"
+  autoPlay
+  loop
+  muted
+  playsInline
+  onTimeUpdate={(e) => {
+    const vid = e.target;
+    if (vid.currentTime > vid.duration - 0.5) {
+      vid.style.opacity = 0.7; // baja antes de terminar
+    } else {
+      vid.style.opacity = 0.7; // vuelve al nivel normal
+    }
+  }}
+  className="absolute inset-0 w-full h-full object-cover mix-blend-screen transform scale-x-[-1] transition-opacity duration-800"
+/>
+
+
       {showIntro ? (
-        <div className="text-center font-light animate-fadeIntro">
-          ✨ Descubrí nuestras ofertas y novedades con un click
+        <div className="relative text-center font-bold animate-fadeIntro z-10">
+          Nuestras OFERTAS y NOVEDADES a un toque
         </div>
       ) : (
         <div
           key={index}
           onClick={() => handleClick(ofertas[index].target)}
-          className="text-center font-light tracking-wide animate-fadeCenter cursor-pointer hover:text-red-600 transition-colors"
+          className="relative text-center font-light tracking-wide animate-fadeCenter cursor-pointer hover:text-red-600 transition-colors z-10"
         >
           {ofertas[index].texto}
         </div>
@@ -55,7 +74,7 @@ const OffersTicker = () => {
           to { opacity: 1; }
         }
         .animate-fadeIntro {
-          animation: fadeIntro 1s ease-out forwards;
+          animation: fadeIntro 2s ease-out forwards;
         }
 
         @keyframes fadeCenter {

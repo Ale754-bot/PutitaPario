@@ -3,7 +3,7 @@
     "id": 600,
     "nombre": "Mon Amour - Intense",
     "descripcion": "La vela para masajes está formulada con aceite de soja y jojoba, componentes de propiedades emolientes y tonificantes.",
-    "imagen": "/images/velas/afrodisiacas/monamour.jpg",
+    "imagen": "/images/velas/afrodisiacas/monamour.webp",
     "categoria": "Velas",
     "subcategoria": "Velas Afrodisíacas",
     "stock": true,
@@ -15,7 +15,7 @@
     "id": 601,
     "nombre": "Hot - Inevitable",
     "descripcion": "Massage Candle Hot Inevitable es una vela para masajes que, al derretirse, se convierte en un aceite suave ideal para masajes relajantes.",
-    "imagen": "/images/velas/afrodisiacas/hotinevitable.jpg",
+    "imagen": "/images/velas/afrodisiacas/hotinevitable.webp",
     "categoria": "Velas",
     "subcategoria": "Velas Afrodisíacas",
     "stock": true,
@@ -27,7 +27,7 @@
     "id": 602,
     "nombre": "Crazy Girl",
     "descripcion": "La vela para masajes BE con feromonas está formulada con aceite de soja y jojoba, componentes de propiedades emolientes y tonificantes.",
-    "imagen": "/images/velas/afrodisiacas/crazygirl.jpg",
+    "imagen": "/images/velas/afrodisiacas/crazygirl.webp",
     "categoria": "Velas",
     "subcategoria": "Velas Afrodisíacas",
     "stock": true,
@@ -39,7 +39,7 @@
     "id": 603,
     "nombre": "It Femme",
     "descripcion": "Massage Candle It Femme es una vela para masajes que se transforma en un aceite suave al derretirse, brindando una experiencia sensorial única.",
-    "imagen": "/images/velas/afrodisiacas/itfemme.jpg",
+    "imagen": "/images/velas/afrodisiacas/itfemme.webp",
     "categoria": "Velas",
     "subcategoria": "Velas Afrodisíacas",
     "stock": true,
@@ -51,7 +51,7 @@
     "id": 604,
     "nombre": "My Hemp",
     "descripcion": "Massage Candle My Hemp es una vela para masajes con un aroma a cannabis relajante, formulada con aceites esenciales, CBD y corteza de cannabis.",
-    "imagen": "/images/velas/afrodisiacas/myhemp.jpg",
+    "imagen": "/images/velas/afrodisiacas/myhemp.webp",
     "categoria": "Velas",
     "subcategoria": "Velas Afrodisíacas",
     "stock": true,
@@ -63,7 +63,7 @@
     "id": 605,
     "nombre": "Desire - Coconut",
     "descripcion": "Massage Candle. La vela se derrite convirtiéndose en un tibio aceite para masajes sedosos. Una rica combinación de aceites naturales.",
-    "imagen": "/images/velas/afrodisiacas/desire.jpg",
+    "imagen": "/images/velas/afrodisiacas/desire.webp",
     "categoria": "Velas",
     "subcategoria": "Velas Afrodisíacas",
     "stock": true,
@@ -75,7 +75,7 @@
     "id": 606,
     "nombre": "Sweet - Vainilla Coconut",
     "descripcion": "Massage Candle. La vela se derrite convirtiéndose en un tibio aceite para masajes sedosos. Una rica combinación de aceites naturales.",
-    "imagen": "/images/velas/afrodisiacas/sweetvainilla.jpg",
+    "imagen": "/images/velas/afrodisiacas/sweetvainilla.webp",
     "categoria": "Velas",
     "subcategoria": "Velas Afrodisíacas",
     "stock": true,
@@ -87,7 +87,7 @@
     "id": 607,
     "nombre": "Sweet - Caramel Strawberries",
     "descripcion": "Massage Candle Caramel Strawberries se derrite convirtiéndose en un aceite tibio y sedoso para masajes, brindando una experiencia de suavidad y nutrición.",
-    "imagen": "/images/velas/afrodisiacas/sweetcaramel.jpg",
+    "imagen": "/images/velas/afrodisiacas/sweetcaramel.webp",
     "categoria": "Velas",
     "subcategoria": "Velas Afrodisíacas",
     "stock": true,
@@ -99,7 +99,7 @@
     "id": 608,
     "nombre": "Caramel Cinnamon - Spice",
     "descripcion": "Massage Candle Caramel Cinnamon se derrite convirtiéndose en un aceite tibio y sedoso para masajes, brindando una experiencia de suavidad y nutrición.",
-    "imagen": "/images/velas/afrodisiacas/caramelcinamon.jpg",
+    "imagen": "/images/velas/afrodisiacas/caramelcinamon.webp",
     "categoria": "Velas",
     "subcategoria": "Velas Afrodisíacas",
     "stock": true,
@@ -111,7 +111,7 @@
     "id": 609,
     "nombre": "BE Aphrodisiac",
     "descripcion": "La vela para masajes BE con feromonas está formulada con aceite de soja y jojoba, componentes de propiedades emolientes y tonificantes. ",
-    "imagen": "/images/velas/afrodisiacas/beaprodisiac.jpg",
+    "imagen": "/images/velas/afrodisiacas/beaprodisiac.webp",
     "categoria": "Velas",
     "subcategoria": "Velas Afrodisíacas",
     "stock": true,
@@ -123,7 +123,7 @@
     "id": 610,
     "nombre": "Vela Unión",
     "descripcion": "Vela exótica de 30 g. Disponible en tres variantes escultóricas que representan la fusión íntima.",
-    "imagen": "/images/velas/exoticas/union1.jpg",
+    "imagen": "/images/velas/exoticas/union1.webp",
     "categoria": "Velas",
     "subcategoria": "Velas Exóticas",
     "stock": true,
@@ -137,21 +137,21 @@
         "color": "Rojo",
         "colorHex": "#b30000",
         "precio": 8000,
-        "imagen": "/images/velas/exoticas/union1.jpg"
+        "imagen": "/images/velas/exoticas/union1.webp"
       },
       {
         "tamaño": "Único",
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 8000,
-        "imagen": "/images/velas/exoticas/union2.jpg"
+        "imagen": "/images/velas/exoticas/union2.webp"
       },
       {
         "tamaño": "Único",
         "color": "Cremita",
         "colorHex": "#f5e6d3",
         "precio": 8000,
-        "imagen": "/images/velas/exoticas/union3.jpg"
+        "imagen": "/images/velas/exoticas/union3.webp"
       }
     ]
   },
@@ -159,7 +159,7 @@
     "id": 611,
     "nombre": "Vela Vulva",
     "descripcion": "Vela exótica de 30 g. Celebración visual de la feminidad.",
-    "imagen": "/images/velas/exoticas/vulva.jpg",
+    "imagen": "/images/velas/exoticas/vulva.webp",
     "categoria": "Velas",
     "subcategoria": "Velas Exóticas",
     "stock": true,
@@ -172,7 +172,7 @@
         "color": "Rojo",
         "colorHex": "#b30000",
         "precio": 8000,
-        "imagen": "/images/velas/exoticas/vulva.jpg"
+        "imagen": "/images/velas/exoticas/vulva.webp"
       }
     ]
   },
@@ -180,7 +180,7 @@
     "id": 612,
     "nombre": "Vela Pene - S",
     "descripcion": "Vela exótica tamaño S. Diseño provocador y juguetón.",
-    "imagen": "/images/velas/exoticas/projo.jpg",
+    "imagen": "/images/velas/exoticas/projo.webp",
     "categoria": "Velas",
     "subcategoria": "Velas Exóticas",
     "stock": true,
@@ -194,14 +194,14 @@
         "color": "Rojo",
         "colorHex": "#b30000",
         "precio": 9000,
-        "imagen": "/images/velas/exoticas/projo.jpg"
+        "imagen": "/images/velas/exoticas/projo.webp"
       },
       {
         "tamaño": "S - Blanco",
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 9000,
-        "imagen": "/images/velas/exoticas/pblanco.jpg"
+        "imagen": "/images/velas/exoticas/pblanco.webp"
       }
     ]
   },
@@ -209,7 +209,7 @@
     "id": 613,
     "nombre": "Vela Pene - M",
     "descripcion": "Vela exótica tamaño M. Ideal para ambientaciones atrevidas.",
-    "imagen": "/images/velas/exoticas/projom.jpg",
+    "imagen": "/images/velas/exoticas/projom.webp",
     "categoria": "Velas",
     "subcategoria": "Velas Exóticas",
     "stock": true,
@@ -223,14 +223,14 @@
         "color": "Rojo",
         "colorHex": "#b30000",
         "precio": 9000,
-        "imagen": "/images/velas/exoticas/projom.jpg"
+        "imagen": "/images/velas/exoticas/projom.webp"
       },
       {
         "tamaño": "M",
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 9000,
-        "imagen": "/images/velas/exoticas/pblancom.jpg"
+        "imagen": "/images/velas/exoticas/pblancom.webp"
       }
     ]
   },
@@ -238,7 +238,7 @@
     "id": 614,
     "nombre": "Vela Pene - L",
     "descripcion": "Vela exótica tamaño L. Presencia audaz y decorativa.",
-    "imagen": "/images/velas/exoticas/pblancol.jpg",
+    "imagen": "/images/velas/exoticas/pblancol.webp",
     "categoria": "Velas",
     "subcategoria": "Velas Exóticas",
     "stock": true,
@@ -251,7 +251,7 @@
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 9000,
-        "imagen": "/images/velas/exoticas/pblancol.jpg"
+        "imagen": "/images/velas/exoticas/pblancol.webp"
       }
     ]
   }

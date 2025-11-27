@@ -181,10 +181,34 @@
     "mostrarColor": true,
     "precioBase": 35000,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "talle": "Consultar por talles disponibles", "precio": 35000, "imagen": "/images/lenceria/conjunto 2/conjunto2negro.webp" },
-      { "color": "Rosa", "colorHex": "#b67a77", "talle": "Consultar por talles disponibles", "precio": 35000, "imagen": "/images/lenceria/conjunto 2/conjunto2rosa.webp" },
-      { "color": "Rojo", "colorHex": "#db2b42", "talle": "Consultar por talles disponibles", "precio": 35000, "imagen": "/images/lenceria/conjunto 2/conjunto2rojo.webp" },
-      { "color": "Azul", "colorHex": "#214787", "talle": "Consultar por talles disponibles", "precio": 35000, "imagen": "/images/lenceria/conjunto 2/conjunto2azul.webp" }
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "Consultar por talles disponibles",
+        "precio": 35000,
+        "imagen": "/images/lenceria/conjunto 2/conjunto2negro.webp"
+      },
+      {
+        "color": "Rosa",
+        "colorHex": "#b67a77",
+        "talle": "Consultar por talles disponibles",
+        "precio": 35000,
+        "imagen": "/images/lenceria/conjunto 2/conjunto2rosa.webp"
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#db2b42",
+        "talle": "Consultar por talles disponibles",
+        "precio": 35000,
+        "imagen": "/images/lenceria/conjunto 2/conjunto2rojo.webp"
+      },
+      {
+        "color": "Azul",
+        "colorHex": "#214787",
+        "talle": "Consultar por talles disponibles",
+        "precio": 35000,
+        "imagen": "/images/lenceria/conjunto 2/conjunto2azul.webp"
+      }
     ]
   },
   {
@@ -197,11 +221,41 @@
     "mostrarColor": true,
     "precioBase": 35000,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "talle": "Consultar por talles disponibles", "precio": 35000, "imagen": "/images/lenceria/conjunto 3/conjunto3negro.webp" },
-      { "color": "Rojo", "colorHex": "#b30000", "talle": "Consultar por talles disponibles", "precio": 35000, "imagen": "/images/lenceria/conjunto 3/conjunto3rojo.webp" },
-      { "color": "Fucsia", "colorHex": "#ff53a8", "talle": "Consultar por talles disponibles", "precio": 35000, "imagen": "/images/lenceria/conjunto 3/conjunto3fucsia.webp" },
-      { "color": "Blanco", "colorHex": "#ffffff", "talle": "Consultar por talles disponibles", "precio": 35000, "imagen": "/images/lenceria/conjunto 3/conjunto3blanco.webp" },
-      { "color": "Azul", "colorHex": "#173885", "talle": "Consultar por talles disponibles", "precio": 35000, "imagen": "/images/lenceria/conjunto 3/conjunto3azul.webp" }
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "Consultar por talles disponibles",
+        "precio": 35000,
+        "imagen": "/images/lenceria/conjunto 3/conjunto3negro.webp"
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#b30000",
+        "talle": "Consultar por talles disponibles",
+        "precio": 35000,
+        "imagen": "/images/lenceria/conjunto 3/conjunto3rojo.webp"
+      },
+      {
+        "color": "Fucsia",
+        "colorHex": "#ff53a8",
+        "talle": "Consultar por talles disponibles",
+        "precio": 35000,
+        "imagen": "/images/lenceria/conjunto 3/conjunto3fucsia.webp"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "talle": "Consultar por talles disponibles",
+        "precio": 35000,
+        "imagen": "/images/lenceria/conjunto 3/conjunto3blanco.webp"
+      },
+      {
+        "color": "Azul",
+        "colorHex": "#173885",
+        "talle": "Consultar por talles disponibles",
+        "precio": 35000,
+        "imagen": "/images/lenceria/conjunto 3/conjunto3azul.webp"
+      }
     ]
   },
   {
@@ -214,11 +268,41 @@
     "mostrarColor": true,
     "precioBase": 40000,
     "variantes": [
-      { "color": "Azul", "colorHex": "#173885", "talle": "Consultar por talles disponibles", "precio": 40000, "imagen": "/images/lenceria/conjunto 4/conjunto4azul.webp" },
-      { "color": "Bordo", "colorHex": "#b30000", "talle": "Consultar por talles disponibles", "precio": 40000, "imagen": "/images/lenceria/conjunto 4/conjunto4bordo.webp" },
-      { "color": "Blanco", "colorHex": "#ffffff", "talle": "Consultar por talles disponibles", "precio": 40000, "imagen": "/images/lenceria/conjunto 4/conjunto4blanco.webp" },
-      { "color": "Negro", "colorHex": "#000000", "talle": "Consultar por talles disponibles", "precio": 40000, "imagen": "/images/lenceria/conjunto 4/conjunto4negro.webp" },
-      { "color": "Turquesa", "colorHex": "#35d9f4", "talle": "Consultar por talles disponibles", "precio": 40000, "imagen": "/images/lenceria/conjunto 4/conjunto4turquesa.webp" }
+      {
+        "color": "Azul",
+        "colorHex": "#173885",
+        "talle": "Consultar por talles disponibles",
+        "precio": 40000,
+        "imagen": "/images/lenceria/conjunto 4/conjunto4azul.webp"
+      },
+      {
+        "color": "Bordo",
+        "colorHex": "#b30000",
+        "talle": "Consultar por talles disponibles",
+        "precio": 40000,
+        "imagen": "/images/lenceria/conjunto 4/conjunto4bordo.webp"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "talle": "Consultar por talles disponibles",
+        "precio": 40000,
+        "imagen": "/images/lenceria/conjunto 4/conjunto4blanco.webp"
+      },
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "Consultar por talles disponibles",
+        "precio": 40000,
+        "imagen": "/images/lenceria/conjunto 4/conjunto4negro.webp"
+      },
+      {
+        "color": "Turquesa",
+        "colorHex": "#35d9f4",
+        "talle": "Consultar por talles disponibles",
+        "precio": 40000,
+        "imagen": "/images/lenceria/conjunto 4/conjunto4turquesa.webp"
+      }
     ]
   },
   {
@@ -231,8 +315,20 @@
     "mostrarColor": true,
     "precioBase": 38000,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "talle": "Consultar por talles disponibles", "precio": 38000, "imagen": "/images/lenceria/conjunto 5/conjunto5negro.webp" },
-      { "color": "Rojo", "colorHex": "#b30000", "talle": "Consultar por talles disponibles", "precio": 38000, "imagen": "/images/lenceria/conjunto 5/conjunto5rojo.webp" }
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "Consultar por talles disponibles",
+        "precio": 38000,
+        "imagen": "/images/lenceria/conjunto 5/conjunto5negro.webp"
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#b30000",
+        "talle": "Consultar por talles disponibles",
+        "precio": 38000,
+        "imagen": "/images/lenceria/conjunto 5/conjunto5rojo.webp"
+      }
     ]
   },
   {
@@ -245,10 +341,34 @@
     "mostrarColor": true,
     "precioBase": 38000,
     "variantes": [
-      { "color": "Blanco", "colorHex": "#ffffff", "talle": "Consultar por talles disponibles", "precio": 38000, "imagen": "/images/lenceria/conjunto 6/conjunto6blanco.webp" },
-      { "color": "Rojo", "colorHex": "#b30000", "talle": "Consultar por talles disponibles", "precio": 38000, "imagen": "/images/lenceria/conjunto 6/conjunto6rojo.webp" },
-      { "color": "Negro", "colorHex": "#000000", "talle": "Consultar por talles disponibles", "precio": 38000, "imagen": "/images/lenceria/conjunto 6/conjunto6negro.webp" },
-      { "color": "Verde", "colorHex": "#3c918a", "talle": "Consultar por talles disponibles", "precio": 38000, "imagen": "/images/lenceria/conjunto 6/conjunto6turquesa.webp" }
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "talle": "Consultar por talles disponibles",
+        "precio": 38000,
+        "imagen": "/images/lenceria/conjunto 6/conjunto6blanco.webp"
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#b30000",
+        "talle": "Consultar por talles disponibles",
+        "precio": 38000,
+        "imagen": "/images/lenceria/conjunto 6/conjunto6rojo.webp"
+      },
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "Consultar por talles disponibles",
+        "precio": 38000,
+        "imagen": "/images/lenceria/conjunto 6/conjunto6negro.webp"
+      },
+      {
+        "color": "Verde",
+        "colorHex": "#3c918a",
+        "talle": "Consultar por talles disponibles",
+        "precio": 38000,
+        "imagen": "/images/lenceria/conjunto 6/conjunto6turquesa.webp"
+      }
     ]
   },
   {
@@ -261,10 +381,34 @@
     "mostrarColor": true,
     "precioBase": 40000,
     "variantes": [
-      { "color": "Rosa", "colorHex": "#f6c6bc", "talle": "Consultar por talles disponibles", "precio": 40000, "imagen": "/images/lenceria/conjunto 7/conjunto7rosa.webp" },
-      { "color": "Rojo", "colorHex": "#b30000", "talle": "Consultar por talles disponibles", "precio": 40000, "imagen": "/images/lenceria/conjunto 7/conjunto7rojo.webp" },
-      { "color": "Azul", "colorHex": "#173885", "talle": "Consultar por talles disponibles", "precio": 40000, "imagen": "/images/lenceria/conjunto 7/conjunto7azul.webp" },
-      { "color": "Negro", "colorHex": "#000000", "talle": "Consultar por talles disponibles", "precio": 40000, "imagen": "/images/lenceria/conjunto 7/conjunto7negro.webp" }
+      {
+        "color": "Rosa",
+        "colorHex": "#f6c6bc",
+        "talle": "Consultar por talles disponibles",
+        "precio": 40000,
+        "imagen": "/images/lenceria/conjunto 7/conjunto7rosa.webp"
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#b30000",
+        "talle": "Consultar por talles disponibles",
+        "precio": 40000,
+        "imagen": "/images/lenceria/conjunto 7/conjunto7rojo.webp"
+      },
+      {
+        "color": "Azul",
+        "colorHex": "#173885",
+        "talle": "Consultar por talles disponibles",
+        "precio": 40000,
+        "imagen": "/images/lenceria/conjunto 7/conjunto7azul.webp"
+      },
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "Consultar por talles disponibles",
+        "precio": 40000,
+        "imagen": "/images/lenceria/conjunto 7/conjunto7negro.webp"
+      }
     ]
   },
   {
@@ -277,12 +421,48 @@
     "mostrarColor": true,
     "precioBase": 40000,
     "variantes": [
-      { "color": "Verde", "colorHex": "#25584f", "talle": "Consultar por talles disponibles", "precio": 40000, "imagen": "/images/lenceria/conjunto 8/conjunto8verde.webp" },
-      { "color": "Rojo", "colorHex": "#b30000", "talle": "Consultar por talles disponibles", "precio": 40000, "imagen": "/images/lenceria/conjunto 8/conjunto8rojo.webp" },
-      { "color": "Rosa", "colorHex": "#eecbc9", "talle": "Consultar por talles disponibles", "precio": 40000, "imagen": "/images/lenceria/conjunto 8/conjunto8rosa.webp" },
-      { "color": "Negro", "colorHex": "#000000", "talle": "Consultar por talles disponibles", "precio": 40000, "imagen": "/images/lenceria/conjunto 8/conjunto8negro.webp" },
-      { "color": "Azul", "colorHex": "#173885", "talle": "Consultar por talles disponibles", "precio": 40000, "imagen": "/images/lenceria/conjunto 8/conjunto8azul.webp" },
-      { "color": "Rosa2", "colorHex": "#d2aba9", "talle": "Consultar por talles disponibles", "precio": 40000, "imagen": "/images/lenceria/conjunto 8/conjunto8rosa2.webp" }
+      {
+        "color": "Verde",
+        "colorHex": "#25584f",
+        "talle": "Consultar por talles disponibles",
+        "precio": 40000,
+        "imagen": "/images/lenceria/conjunto 8/conjunto8verde.webp"
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#b30000",
+        "talle": "Consultar por talles disponibles",
+        "precio": 40000,
+        "imagen": "/images/lenceria/conjunto 8/conjunto8rojo.webp"
+      },
+      {
+        "color": "Rosa",
+        "colorHex": "#eecbc9",
+        "talle": "Consultar por talles disponibles",
+        "precio": 40000,
+        "imagen": "/images/lenceria/conjunto 8/conjunto8rosa.webp"
+      },
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "Consultar por talles disponibles",
+        "precio": 40000,
+        "imagen": "/images/lenceria/conjunto 8/conjunto8negro.webp"
+      },
+      {
+        "color": "Azul",
+        "colorHex": "#173885",
+        "talle": "Consultar por talles disponibles",
+        "precio": 40000,
+        "imagen": "/images/lenceria/conjunto 8/conjunto8azul.webp"
+      },
+      {
+        "color": "Rosa2",
+        "colorHex": "#d2aba9",
+        "talle": "Consultar por talles disponibles",
+        "precio": 40000,
+        "imagen": "/images/lenceria/conjunto 8/conjunto8rosa2.webp"
+      }
     ]
   },
   {
@@ -295,9 +475,27 @@
     "mostrarColor": true,
     "precioBase": 38000,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "talle": "Consultar por talles disponibles", "precio": 38000, "imagen": "/images/lenceria/conjunto 9/conjunto9negro.webp" },
-      { "color": "Rojo", "colorHex": "#b30000", "talle": "Consultar por talles disponibles", "precio": 38000, "imagen": "/images/lenceria/conjunto 9/conjunto9rojo.webp" },
-      { "color": "Blanco", "colorHex": "#ffffff", "talle": "Consultar por talles disponibles", "precio": 38000, "imagen": "/images/lenceria/conjunto 9/conjunto9blanco.webp" }
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "Consultar por talles disponibles",
+        "precio": 38000,
+        "imagen": "/images/lenceria/conjunto 9/conjunto9negro.webp"
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#b30000",
+        "talle": "Consultar por talles disponibles",
+        "precio": 38000,
+        "imagen": "/images/lenceria/conjunto 9/conjunto9rojo.webp"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "talle": "Consultar por talles disponibles",
+        "precio": 38000,
+        "imagen": "/images/lenceria/conjunto 9/conjunto9blanco.webp"
+      }
     ]
   },
   {
@@ -310,8 +508,20 @@
     "mostrarColor": true,
     "precioBase": 38000,
     "variantes": [
-      { "color": "Rojo", "colorHex": "#b30000", "talle": "Consultar por talles disponibles", "precio": 38000, "imagen": "/images/lenceria/conjunto 10/conjunto10rojo.webp" },
-      { "color": "Negro", "colorHex": "#000000", "talle": "Consultar por talles disponibles", "precio": 38000, "imagen": "/images/lenceria/conjunto 10/conjunto10negro.webp" }
+      {
+        "color": "Rojo",
+        "colorHex": "#b30000",
+        "talle": "Consultar por talles disponibles",
+        "precio": 38000,
+        "imagen": "/images/lenceria/conjunto 10/conjunto10rojo.webp"
+      },
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "Consultar por talles disponibles",
+        "precio": 38000,
+        "imagen": "/images/lenceria/conjunto 10/conjunto10negro.webp"
+      }
     ]
   }
 ]

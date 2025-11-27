@@ -10,7 +10,10 @@
     "marca": "Sexitive",
     "linea": "power",
     "variantes": [
-      { "tamaño": "20ml", "precio": 18000 }
+      {
+        "tamaño": "20ml",
+        "precio": 18000
+      }
     ]
   },
   {
@@ -24,7 +27,10 @@
     "marca": "Sexitive",
     "linea": "power",
     "variantes": [
-      { "tamaño": "20ml", "precio": 18000 }
+      {
+        "tamaño": "20ml",
+        "precio": 18000
+      }
     ]
   },
   {
@@ -38,7 +44,10 @@
     "marca": "Sexitive",
     "linea": "power",
     "variantes": [
-      { "tamaño": "4/Uni", "precio": 12000 }
+      {
+        "tamaño": "4/Uni",
+        "precio": 12000
+      }
     ]
   },
   {
@@ -52,7 +61,10 @@
     "marca": "Sexitive",
     "linea": "power",
     "variantes": [
-      { "tamaño": "4/Uni", "precio": 12000 }
+      {
+        "tamaño": "4/Uni",
+        "precio": 12000
+      }
     ]
   },
   {
@@ -66,7 +78,10 @@
     "marca": "Ultra",
     "linea": "Hombre",
     "variantes": [
-      { "tamaño": "12/Uni", "precio": 36000 }
+      {
+        "tamaño": "12/Uni",
+        "precio": 36000
+      }
     ]
   },
   {
@@ -80,7 +95,10 @@
     "marca": "Ultra",
     "linea": "hombre",
     "variantes": [
-      { "tamaño": "1/Uni", "precio": 4000 }
+      {
+        "tamaño": "1/Uni",
+        "precio": 4000
+      }
     ]
   },
   {
@@ -94,7 +112,10 @@
     "marca": "XING YU",
     "linea": "HOMBRE",
     "variantes": [
-      { "tamaño": "4/Uni", "precio": 12000 }
+      {
+        "tamaño": "4/Uni",
+        "precio": 12000
+      }
     ]
   },
   {
@@ -108,7 +129,10 @@
     "marca": "ULTRA",
     "linea": "Mujer",
     "variantes": [
-      { "tamaño": "4/Uni", "precio": 12000 }
+      {
+        "tamaño": "4/Uni",
+        "precio": 12000
+      }
     ]
   }
 ]

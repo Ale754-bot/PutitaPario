@@ -9,7 +9,12 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "M", "precio": 26000 }]
+    "variantes": [
+      {
+        "talle": "M",
+        "precio": 26000
+      }
+    ]
   },
   {
     "id": 501,
@@ -21,7 +26,12 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "M", "precio": 26000 }]
+    "variantes": [
+      {
+        "talle": "M",
+        "precio": 26000
+      }
+    ]
   },
   {
     "id": 502,
@@ -34,8 +44,14 @@
     "marca": "",
     "linea": "",
     "variantes": [
-      { "talle": "M", "precio": 26000 },
-      { "talle": "L", "precio": 28000 }
+      {
+        "talle": "M",
+        "precio": 26000
+      },
+      {
+        "talle": "L",
+        "precio": 28000
+      }
     ]
   },
   {
@@ -48,7 +64,12 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "S", "precio": 23000 }]
+    "variantes": [
+      {
+        "talle": "S",
+        "precio": 23000
+      }
+    ]
   },
   {
     "id": 504,
@@ -60,7 +81,12 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "S", "precio": 23000 }]
+    "variantes": [
+      {
+        "talle": "S",
+        "precio": 23000
+      }
+    ]
   },
   {
     "id": 505,
@@ -72,7 +98,12 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "S", "precio": 23000 }]
+    "variantes": [
+      {
+        "talle": "S",
+        "precio": 23000
+      }
+    ]
   },
   {
     "id": 506,
@@ -84,7 +115,12 @@
     "stock": false,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "S", "precio": 23000 }]
+    "variantes": [
+      {
+        "talle": "S",
+        "precio": 23000
+      }
+    ]
   },
   {
     "id": 507,
@@ -96,7 +132,12 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "S", "precio": 23000 }]
+    "variantes": [
+      {
+        "talle": "S",
+        "precio": 23000
+      }
+    ]
   },
   {
     "id": 508,
@@ -108,7 +149,12 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "S", "precio": 32000 }]
+    "variantes": [
+      {
+        "talle": "S",
+        "precio": 32000
+      }
+    ]
   },
   {
     "id": 509,
@@ -120,7 +166,12 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "S", "precio": 32000 }]
+    "variantes": [
+      {
+        "talle": "S",
+        "precio": 32000
+      }
+    ]
   },
   {
     "id": 510,
@@ -132,7 +183,12 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "S", "precio": 38000 }]
+    "variantes": [
+      {
+        "talle": "S",
+        "precio": 38000
+      }
+    ]
   },
   {
     "id": 511,
@@ -144,7 +200,12 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "S", "precio": 32000 }]
+    "variantes": [
+      {
+        "talle": "S",
+        "precio": 32000
+      }
+    ]
   },
   {
     "id": 512,
@@ -156,7 +217,12 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "S", "precio": 28000 }]
+    "variantes": [
+      {
+        "talle": "S",
+        "precio": 28000
+      }
+    ]
   },
   {
     "id": 513,
@@ -168,7 +234,12 @@
     "stock": false,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "S", "precio": 0 }]
+    "variantes": [
+      {
+        "talle": "S",
+        "precio": 0
+      }
+    ]
   },
   {
     "id": 514,
@@ -180,18 +251,22 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "variantes": [{ "talle": "S", "precio": 68000 }]
+    "variantes": [
+      {
+        "talle": "S",
+        "precio": 68000
+      }
+    ]
   },
   {
-  "id": 515,
-  "nombre": "Ducha de limpieza anal",
-  "descripcion": "",
-  "imagen": "/images/plugs/duchanal.webp",
-  "categoria": "Plugs",
-  "stock": true,
-  "marca": "",
-  "linea": "",
-  "precio": 25000
-}
-
+    "id": 515,
+    "nombre": "Ducha de limpieza anal",
+    "descripcion": "",
+    "imagen": "/images/plugs/duchanal.webp",
+    "categoria": "Plugs",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": 25000
+  }
 ]

@@ -11,8 +11,18 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": 14000, "imagen": "/images/arneses/roxinegro.webp" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": 14000, "imagen": "/images/arneses/roxiblanco.webp" }
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "precio": 14000,
+        "imagen": "/images/arneses/roxinegro.webp"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "precio": 14000,
+        "imagen": "/images/arneses/roxiblanco.webp"
+      }
     ]
   },
   {
@@ -27,8 +37,18 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": 14000, "imagen": "/images/arneses/medusanegro.webp" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": 14000, "imagen": "/images/arneses/medusablanco.webp" }
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "precio": 14000,
+        "imagen": "/images/arneses/medusanegro.webp"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "precio": 14000,
+        "imagen": "/images/arneses/medusablanco.webp"
+      }
     ]
   },
   {
@@ -43,8 +63,18 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": 12000, "imagen": "/images/arneses/babynegro.webp" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": 12000, "imagen": "/images/arneses/babyblanco.webp" }
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "precio": 12000,
+        "imagen": "/images/arneses/babynegro.webp"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "precio": 12000,
+        "imagen": "/images/arneses/babyblanco.webp"
+      }
     ]
   },
   {
@@ -59,8 +89,18 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": 14000, "imagen": "/images/arneses/dainegro.webp" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": 14000, "imagen": "/images/arneses/daiblanco.webp" }
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "precio": 14000,
+        "imagen": "/images/arneses/dainegro.webp"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "precio": 14000,
+        "imagen": "/images/arneses/daiblanco.webp"
+      }
     ]
   },
   {
@@ -75,8 +115,18 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": 15000, "imagen": "/images/arneses/moñosnegro.webp" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": 15000, "imagen": "/images/arneses/moñosblanco.webp" }
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "precio": 15000,
+        "imagen": "/images/arneses/moñosnegro.webp"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "precio": 15000,
+        "imagen": "/images/arneses/moñosblanco.webp"
+      }
     ]
   },
   {
@@ -91,7 +141,12 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": 17000, "imagen": "/images/arneses/delinegro.webp" }
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "precio": 17000,
+        "imagen": "/images/arneses/delinegro.webp"
+      }
     ]
   },
   {
@@ -106,8 +161,18 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": 14000, "imagen": "/images/arneses/moñostirasnegro.webp" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": 14000, "imagen": "/images/arneses/moñostirasblanco.webp" }
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "precio": 14000,
+        "imagen": "/images/arneses/moñostirasnegro.webp"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "precio": 14000,
+        "imagen": "/images/arneses/moñostirasblanco.webp"
+      }
     ]
   },
   {
@@ -122,8 +187,18 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": 28800, "imagen": "/images/arneses/neidinegro.webp" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": 28800, "imagen": "/images/arneses/neidiblanco.webp" }
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "precio": 28800,
+        "imagen": "/images/arneses/neidinegro.webp"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "precio": 28800,
+        "imagen": "/images/arneses/neidiblanco.webp"
+      }
     ]
   },
   {
@@ -138,8 +213,18 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": 17000, "imagen": "/images/arneses/ppnegro.webp" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": 17000, "imagen": "/images/arneses/ppblanco.webp" }
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "precio": 17000,
+        "imagen": "/images/arneses/ppnegro.webp"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "precio": 17000,
+        "imagen": "/images/arneses/ppblanco.webp"
+      }
     ]
   },
   {
@@ -154,11 +239,21 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": 8000, "imagen": "/images/arneses/ligadoblenegra.webp" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": 8000, "imagen": "/images/arneses/ligadobleblanca.webp" }
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "precio": 8000,
+        "imagen": "/images/arneses/ligadoblenegra.webp"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "precio": 8000,
+        "imagen": "/images/arneses/ligadobleblanca.webp"
+      }
     ]
   },
-    {
+  {
     "id": 910,
     "nombre": "Portaligas Baby",
     "descripcion": "Arnés tipo portaligas con diseño suave y tiras ajustables. Ideal para complementar conjuntos.",
@@ -170,8 +265,18 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": 12000, "imagen": "/images/arneses/ligababynegra.webp" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": 12000, "imagen": "/images/arneses/ligababyblanco.webp" }
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "precio": 12000,
+        "imagen": "/images/arneses/ligababynegra.webp"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "precio": 12000,
+        "imagen": "/images/arneses/ligababyblanco.webp"
+      }
     ]
   },
   {
@@ -186,8 +291,18 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      { "color": "Negro", "colorHex": "#000000", "precio": 23000, "imagen": "/images/arneses/valentinenegro.webp" },
-      { "color": "Blanco", "colorHex": "#ffffff", "precio": 23000, "imagen": "/images/arneses/valentineblanco.webp" }
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "precio": 23000,
+        "imagen": "/images/arneses/valentinenegro.webp"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "precio": 23000,
+        "imagen": "/images/arneses/valentineblanco.webp"
+      }
     ]
   }
 ]

@@ -264,31 +264,31 @@
     "precio": 85000
   },
   {
-  "id": 419,
-  "nombre": "Lenguitas Estimuladoras - Con USB",
-  "descripcion": "Estimulador vibrante con forma de lengüita. Ideal para juego externo.",
-  "imagen": "/images/juguetes/lenguitavioleta.webp",
-  "categoria": "Juguetes",
-  "stock": true,
-  "precio": 60000,
-  "marca": "",
-  "linea": "",
-  "mostrarColor": true,
-  "variantes": [
-    {
-      "color": "Violeta",
-      "colorHex": "#8A2BE2",
-      "precio": 60000,
-      "imagen": "/images/juguetes/lenguitavioleta.webp"
-    },
-    {
-      "color": "Rosa",
-      "colorHex": "#FF69B4",
-      "precio": 60000,
-      "imagen": "/images/juguetes/lenguitarosa.webp"
-    }
-  ]
-},
+    "id": 419,
+    "nombre": "Lenguitas Estimuladoras - Con USB",
+    "descripcion": "Estimulador vibrante con forma de lengüita. Ideal para juego externo.",
+    "imagen": "/images/juguetes/lenguitavioleta.webp",
+    "categoria": "Juguetes",
+    "stock": true,
+    "precio": 60000,
+    "marca": "",
+    "linea": "",
+    "mostrarColor": true,
+    "variantes": [
+      {
+        "color": "Violeta",
+        "colorHex": "#8A2BE2",
+        "precio": 60000,
+        "imagen": "/images/juguetes/lenguitavioleta.webp"
+      },
+      {
+        "color": "Rosa",
+        "colorHex": "#FF69B4",
+        "precio": 60000,
+        "imagen": "/images/juguetes/lenguitarosa.webp"
+      }
+    ]
+  },
   {
     "id": 420,
     "nombre": "Bala Vibradora Masajeadora",
@@ -301,37 +301,37 @@
     "precio": 30000
   },
   {
-  "id": 421,
-  "nombre": "Succionadores de Clítoris - Con USB",
-  "descripcion": "Succionador recargable con múltiples intensidades. Estimula con precisión y suavidad.",
-  "imagen": "/images/juguetes/succionadorfucsia.webp",
-  "categoria": "Juguetes",
-  "stock": true,
-  "precio": 48000,
-  "marca": "",
-  "linea": "",
-  "mostrarColor": true,
-  "variantes": [
-    {
-      "color": "Fucsia",
-      "colorHex": "#FF1493",
-      "precio": 48000,
-      "imagen": "/images/juguetes/succionadorfucsia.webp"
-    },
-    {
-      "color": "Cremita",
-      "colorHex": "#FFFDD0",
-      "precio": 48000,
-      "imagen": "/images/juguetes/succionadorcremita.webp"
-    },
-    {
-      "color": "Violeta",
-      "colorHex": "#8A2BE2",
-      "precio": 48000,
-      "imagen": "/images/juguetes/succionadorvioleta.webp"
-    }
-  ]
-},
+    "id": 421,
+    "nombre": "Succionadores de Clítoris - Con USB",
+    "descripcion": "Succionador recargable con múltiples intensidades. Estimula con precisión y suavidad.",
+    "imagen": "/images/juguetes/succionadorfucsia.webp",
+    "categoria": "Juguetes",
+    "stock": true,
+    "precio": 48000,
+    "marca": "",
+    "linea": "",
+    "mostrarColor": true,
+    "variantes": [
+      {
+        "color": "Fucsia",
+        "colorHex": "#FF1493",
+        "precio": 48000,
+        "imagen": "/images/juguetes/succionadorfucsia.webp"
+      },
+      {
+        "color": "Cremita",
+        "colorHex": "#FFFDD0",
+        "precio": 48000,
+        "imagen": "/images/juguetes/succionadorcremita.webp"
+      },
+      {
+        "color": "Violeta",
+        "colorHex": "#8A2BE2",
+        "precio": 48000,
+        "imagen": "/images/juguetes/succionadorvioleta.webp"
+      }
+    ]
+  },
   {
     "id": 422,
     "nombre": "Conejito Masajeador - Calexotics",
@@ -398,7 +398,7 @@
     "linea": "",
     "precio": 50000
   },
-   {
+  {
     "id": 428,
     "nombre": "Brocha vibradora - Con USB",
     "descripcion": "Un accesorio único que se presenta como una brocha de maquillaje, pero esconde un vibrador multifunción con 10 intensidades distintas. Hecha en silicona, garantiza suavidad al contacto y máxima comodidad de uso. Compacta, recargable por USB y fácil de mantener limpia.",
@@ -410,4 +410,3 @@
     "precio": 58000
   }
 ]
-

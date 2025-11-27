@@ -9,7 +9,12 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
+    "variantes": [
+      {
+        "tamaño": "30 g",
+        "precio": 8500
+      }
+    ]
   },
   {
     "id": 601,
@@ -21,7 +26,12 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
+    "variantes": [
+      {
+        "tamaño": "30 g",
+        "precio": 8500
+      }
+    ]
   },
   {
     "id": 602,
@@ -33,7 +43,12 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
+    "variantes": [
+      {
+        "tamaño": "30 g",
+        "precio": 8500
+      }
+    ]
   },
   {
     "id": 603,
@@ -45,7 +60,12 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
+    "variantes": [
+      {
+        "tamaño": "30 g",
+        "precio": 8500
+      }
+    ]
   },
   {
     "id": 604,
@@ -57,7 +77,12 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
+    "variantes": [
+      {
+        "tamaño": "30 g",
+        "precio": 8500
+      }
+    ]
   },
   {
     "id": 605,
@@ -69,7 +94,12 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
+    "variantes": [
+      {
+        "tamaño": "30 g",
+        "precio": 8500
+      }
+    ]
   },
   {
     "id": 606,
@@ -81,7 +111,12 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
+    "variantes": [
+      {
+        "tamaño": "30 g",
+        "precio": 8500
+      }
+    ]
   },
   {
     "id": 607,
@@ -93,7 +128,12 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
+    "variantes": [
+      {
+        "tamaño": "30 g",
+        "precio": 8500
+      }
+    ]
   },
   {
     "id": 608,
@@ -105,7 +145,12 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
+    "variantes": [
+      {
+        "tamaño": "30 g",
+        "precio": 8500
+      }
+    ]
   },
   {
     "id": 609,
@@ -117,7 +162,12 @@
     "stock": true,
     "marca": "Sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "30 g", "precio": 8500 }]
+    "variantes": [
+      {
+        "tamaño": "30 g",
+        "precio": 8500
+      }
+    ]
   },
   {
     "id": 610,
@@ -255,7 +305,4 @@
       }
     ]
   }
-
-
-
 ]

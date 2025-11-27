@@ -9,7 +9,12 @@
     "stock": true,
     "marca": "sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "100ml", "precio": 40000 }]
+    "variantes": [
+      {
+        "tamaño": "100ml",
+        "precio": 40000
+      }
+    ]
   },
   {
     "id": 101,
@@ -21,7 +26,12 @@
     "stock": true,
     "marca": "sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "60ml", "precio": 32500 }]
+    "variantes": [
+      {
+        "tamaño": "60ml",
+        "precio": 32500
+      }
+    ]
   },
   {
     "id": 102,
@@ -33,7 +43,12 @@
     "stock": true,
     "marca": "sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "60ml", "precio": 32500 }]
+    "variantes": [
+      {
+        "tamaño": "60ml",
+        "precio": 32500
+      }
+    ]
   },
   {
     "id": 103,
@@ -45,7 +60,12 @@
     "stock": true,
     "marca": "sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "100ml", "precio": 32500 }]
+    "variantes": [
+      {
+        "tamaño": "100ml",
+        "precio": 32500
+      }
+    ]
   },
   {
     "id": 104,
@@ -57,7 +77,12 @@
     "stock": true,
     "marca": "sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "100ml", "precio": 32500 }]
+    "variantes": [
+      {
+        "tamaño": "100ml",
+        "precio": 32500
+      }
+    ]
   },
   {
     "id": 105,
@@ -69,7 +94,12 @@
     "stock": true,
     "marca": "sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "100ml", "precio": 32500 }]
+    "variantes": [
+      {
+        "tamaño": "100ml",
+        "precio": 32500
+      }
+    ]
   },
   {
     "id": 106,
@@ -81,7 +111,12 @@
     "stock": true,
     "marca": "sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "100ml", "precio": 32500 }]
+    "variantes": [
+      {
+        "tamaño": "100ml",
+        "precio": 32500
+      }
+    ]
   },
   {
     "id": 107,
@@ -93,7 +128,12 @@
     "stock": true,
     "marca": "sexitive",
     "linea": "By Night",
-    "variantes": [{ "tamaño": "50ml", "precio": 29000 }]
+    "variantes": [
+      {
+        "tamaño": "50ml",
+        "precio": 29000
+      }
+    ]
   },
   {
     "id": 108,
@@ -105,32 +145,47 @@
     "stock": true,
     "marca": "sexitive",
     "linea": "",
-    "variantes": [{ "tamaño": "50ml", "precio": 29000 }]
+    "variantes": [
+      {
+        "tamaño": "50ml",
+        "precio": 29000
+      }
+    ]
   },
   {
-  "id": 124,
-  "nombre": "Aromatizante Hotel - Textil y Ambiental",
-  "descripcion": "Elaborado con perfumería fina especialmente desarrollado para aromatizar tus sábanas y ambientes más íntimos. Aroma Arándanos y madera.",
-  "imagen": "/images/perfumes/mujer/m10.webp",
-  "categoria": "Perfumes Afrodisíacos y Body Splash",
-  "subcategoria": "Mujer",
-  "stock": true,
-  "marca": "sexitive",
-  "linea": "FOR MAGIC LOVERS",
-  "variantes": [{ "tamaño": "400ml", "precio": 16000 }]
-},
-{
-  "id": 125,
-  "nombre": "Aromatizante Hotel - Textil y Ambiental",
-  "descripcion": "Elaborado con perfumería fina especialmente desarrollado para aromatizar tus sábanas y ambientes más íntimos. Aroma flores blancas, azahar y miel.",
-  "imagen": "/images/perfumes/mujer/m11.webp",
-  "categoria": "Perfumes Afrodisíacos y Body Splash",
-  "subcategoria": "Mujer",
-  "stock": true,
-  "marca": "sexitive",
-  "linea": "ATMOSPHERE",
-  "variantes": [{ "tamaño": "400ml", "precio": 16000 }]
-},
+    "id": 124,
+    "nombre": "Aromatizante Hotel - Textil y Ambiental",
+    "descripcion": "Elaborado con perfumería fina especialmente desarrollado para aromatizar tus sábanas y ambientes más íntimos. Aroma Arándanos y madera.",
+    "imagen": "/images/perfumes/mujer/m10.webp",
+    "categoria": "Perfumes Afrodisíacos y Body Splash",
+    "subcategoria": "Mujer",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "FOR MAGIC LOVERS",
+    "variantes": [
+      {
+        "tamaño": "400ml",
+        "precio": 16000
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "nombre": "Aromatizante Hotel - Textil y Ambiental",
+    "descripcion": "Elaborado con perfumería fina especialmente desarrollado para aromatizar tus sábanas y ambientes más íntimos. Aroma flores blancas, azahar y miel.",
+    "imagen": "/images/perfumes/mujer/m11.webp",
+    "categoria": "Perfumes Afrodisíacos y Body Splash",
+    "subcategoria": "Mujer",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "ATMOSPHERE",
+    "variantes": [
+      {
+        "tamaño": "400ml",
+        "precio": 16000
+      }
+    ]
+  },
   {
     "id": 109,
     "nombre": "Elixir",
@@ -142,7 +197,10 @@
     "marca": "Sexitive",
     "linea": "For Him",
     "variantes": [
-      { "tamaño": "100ml", "precio": 32500 }
+      {
+        "tamaño": "100ml",
+        "precio": 32500
+      }
     ]
   },
   {
@@ -156,7 +214,10 @@
     "marca": "Sexitive",
     "linea": "For Him",
     "variantes": [
-      { "tamaño": "100ml", "precio": 32500 }
+      {
+        "tamaño": "100ml",
+        "precio": 32500
+      }
     ]
   },
   {
@@ -170,7 +231,10 @@
     "marca": "Sexitive",
     "linea": "Inevitable",
     "variantes": [
-      { "tamaño": "100ml", "precio": 32500 }
+      {
+        "tamaño": "100ml",
+        "precio": 32500
+      }
     ]
   },
   {
@@ -184,7 +248,10 @@
     "marca": "Sexitive",
     "linea": "For Him",
     "variantes": [
-      { "tamaño": "100ml", "precio": 32500 }
+      {
+        "tamaño": "100ml",
+        "precio": 32500
+      }
     ]
   },
   {
@@ -198,7 +265,10 @@
     "marca": "Sexitive",
     "linea": "Inevitable",
     "variantes": [
-      { "tamaño": "100ml", "precio": 32500 }
+      {
+        "tamaño": "100ml",
+        "precio": 32500
+      }
     ]
   },
   {
@@ -212,7 +282,10 @@
     "marca": "Sexitive",
     "linea": "For Him",
     "variantes": [
-      { "tamaño": "100ml", "precio": 32500 }
+      {
+        "tamaño": "100ml",
+        "precio": 32500
+      }
     ]
   },
   {
@@ -226,7 +299,10 @@
     "marca": "Sexitive",
     "linea": "By Night",
     "variantes": [
-      { "tamaño": "100ml", "precio": 40000 }
+      {
+        "tamaño": "100ml",
+        "precio": 40000
+      }
     ]
   },
   {
@@ -240,91 +316,129 @@
     "marca": "Sexitive",
     "linea": "Unisex",
     "variantes": [
-      { "tamaño": "100ml", "precio": 40000 }
+      {
+        "tamaño": "100ml",
+        "precio": 40000
+      }
     ]
   },
   {
-  "id": 117,
-  "nombre": "Body Splash - Love",
-  "descripcion": "Las Notas de Salida son lima, bergamota, melón y grosellas negras; las Notas de Corazón son coco, limón, mandarina, nardos, lirio de los valles , cedro y durazno; las Notas de Fondo son vaina de vainilla, almizcle y sándalo.",
-  "imagen": "/images/perfumes/body/bs1.webp",
-  "categoria": "Perfumes Afrodisíacos y Body Splash",
-  "subcategoria": "Body Splash",
-  "stock": true,
-  "marca": "sexitive",
-  "linea": "",
-  "variantes": [{ "tamaño": "100ml", "precio": 15000 }]
-},
-{
-  "id": 118,
-  "nombre": "Body Splash - Hot Inevitable",
-  "descripcion": "Las Notas de Salida son mango y bergamota; las Notas de Corazón son jazmín y incienso de olíbano; las Notas de Fondo son vainilla y sándalo.",
-  "imagen": "/images/perfumes/body/bs2.webp",
-  "categoria": "Perfumes Afrodisíacos y Body Splash",
-  "subcategoria": "Body Splash",
-  "stock": true,
-  "marca": "sexitive",
-  "linea": "",
-  "variantes": [{ "tamaño": "100ml", "precio": 15000 }]
-},
-{
-  "id": 119,
-  "nombre": "Body Splash - Crazy Girl",
-  "descripcion": "Las Notas de Salida son frambuesa, neroli y limón de Amalfi; las Notas de Corazón son jazmín, flor del naranjo africano y gardenia; las Notas de Fondo son miel blanca, pachulí y ámbar.",
-  "imagen": "/images/perfumes/body/bs3.webp",
-  "categoria": "Perfumes Afrodisíacos y Body Splash",
-  "subcategoria": "Body Splash",
-  "stock": true,
-  "marca": "sexitive",
-  "linea": "",
-  "variantes": [{ "tamaño": "100ml", "precio": 15000 }]
-},
-{
-  "id": 120,
-  "nombre": "Body Splash - Petit Mort",
-  "descripcion": "Notas de salida: Bergamota, cítricos confitados y mandarina verde ; Notas de corazón: Mezcla de chicle, canela, arándanos, jengibre, rosa de Bulgaria, melocotón jugoso y flor de cerezo ; Notas de fondo: Madera de cedro y cóctel de almizcles sedosos.",
-  "imagen": "/images/perfumes/body/bs4.webp",
-  "categoria": "Perfumes Afrodisíacos y Body Splash",
-  "subcategoria": "Body Splash",
-  "stock": true,
-  "marca": "sexitive",
-  "linea": "",
-  "variantes": [{ "tamaño": "100ml", "precio": 15000 }]
-},
-{
-  "id": 121,
-  "nombre": "Body Splash - BE Aphrodisiac con Glitter",
-  "descripcion": "Irresistible como vos. Con pequeños destellos de luz que iluminan tu piel.",
-  "imagen": "/images/perfumes/body/bs5.webp",
-  "categoria": "Perfumes Afrodisíacos y Body Splash",
-  "subcategoria": "Body Splash",
-  "stock": true,
-  "marca": "sexitive",
-  "linea": "",
-  "variantes": [{ "tamaño": "60ml", "precio": 12000 }]
-},
-{
-  "id": 122,
-  "nombre": "Body Splash - Hot Inevitable So Excited con Glitter",
-  "descripcion": "Las Notas de Salida son pera, pimienta rosa y flor de azahar del naranjo; las Notas de Corazón son café, jazmín, almendra amarga y regaliz; las Notas de Fondo son vainilla, pachulí, madera de cachemira y cedro",
-  "imagen": "/images/perfumes/body/bs6.webp",
-  "categoria": "Perfumes Afrodisíacos y Body Splash",
-  "subcategoria": "Body Splash",
-  "stock": true,
-  "marca": "sexitive",
-  "linea": "",
-  "variantes": [{ "tamaño": "60ml", "precio": 12000 }]
-},
-{
-  "id": 123,
-  "nombre": "Body Splash - Hot Inevitable Privée con Glitter",
-  "descripcion": "Las Notas de Salida son peonía, vodka con sabor a dulces de musk, anana, limón, durazno, hoja de plátano y violeta; las Notas de Corazón son lirio de los valles, azucena, jacinto, jazmín, fresia, calone, ylang-ylang y rosa; las Notas de Fondo son almizcle, cedro, sándalo, ámbar y styrax.",
-  "imagen": "/images/perfumes/body/bs7.webp",
-  "categoria": "Perfumes Afrodisíacos y Body Splash",
-  "subcategoria": "Body Splash",
-  "stock": true,
-  "marca": "sexitive",
-  "linea": "",
-  "variantes": [{ "tamaño": "60ml", "precio": 12000 }]
-}
+    "id": 117,
+    "nombre": "Body Splash - Love",
+    "descripcion": "Las Notas de Salida son lima, bergamota, melón y grosellas negras; las Notas de Corazón son coco, limón, mandarina, nardos, lirio de los valles , cedro y durazno; las Notas de Fondo son vaina de vainilla, almizcle y sándalo.",
+    "imagen": "/images/perfumes/body/bs1.webp",
+    "categoria": "Perfumes Afrodisíacos y Body Splash",
+    "subcategoria": "Body Splash",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "variantes": [
+      {
+        "tamaño": "100ml",
+        "precio": 15000
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "nombre": "Body Splash - Hot Inevitable",
+    "descripcion": "Las Notas de Salida son mango y bergamota; las Notas de Corazón son jazmín y incienso de olíbano; las Notas de Fondo son vainilla y sándalo.",
+    "imagen": "/images/perfumes/body/bs2.webp",
+    "categoria": "Perfumes Afrodisíacos y Body Splash",
+    "subcategoria": "Body Splash",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "variantes": [
+      {
+        "tamaño": "100ml",
+        "precio": 15000
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "nombre": "Body Splash - Crazy Girl",
+    "descripcion": "Las Notas de Salida son frambuesa, neroli y limón de Amalfi; las Notas de Corazón son jazmín, flor del naranjo africano y gardenia; las Notas de Fondo son miel blanca, pachulí y ámbar.",
+    "imagen": "/images/perfumes/body/bs3.webp",
+    "categoria": "Perfumes Afrodisíacos y Body Splash",
+    "subcategoria": "Body Splash",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "variantes": [
+      {
+        "tamaño": "100ml",
+        "precio": 15000
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "nombre": "Body Splash - Petit Mort",
+    "descripcion": "Notas de salida: Bergamota, cítricos confitados y mandarina verde ; Notas de corazón: Mezcla de chicle, canela, arándanos, jengibre, rosa de Bulgaria, melocotón jugoso y flor de cerezo ; Notas de fondo: Madera de cedro y cóctel de almizcles sedosos.",
+    "imagen": "/images/perfumes/body/bs4.webp",
+    "categoria": "Perfumes Afrodisíacos y Body Splash",
+    "subcategoria": "Body Splash",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "variantes": [
+      {
+        "tamaño": "100ml",
+        "precio": 15000
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "nombre": "Body Splash - BE Aphrodisiac con Glitter",
+    "descripcion": "Irresistible como vos. Con pequeños destellos de luz que iluminan tu piel.",
+    "imagen": "/images/perfumes/body/bs5.webp",
+    "categoria": "Perfumes Afrodisíacos y Body Splash",
+    "subcategoria": "Body Splash",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "variantes": [
+      {
+        "tamaño": "60ml",
+        "precio": 12000
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "nombre": "Body Splash - Hot Inevitable So Excited con Glitter",
+    "descripcion": "Las Notas de Salida son pera, pimienta rosa y flor de azahar del naranjo; las Notas de Corazón son café, jazmín, almendra amarga y regaliz; las Notas de Fondo son vainilla, pachulí, madera de cachemira y cedro",
+    "imagen": "/images/perfumes/body/bs6.webp",
+    "categoria": "Perfumes Afrodisíacos y Body Splash",
+    "subcategoria": "Body Splash",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "variantes": [
+      {
+        "tamaño": "60ml",
+        "precio": 12000
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "nombre": "Body Splash - Hot Inevitable Privée con Glitter",
+    "descripcion": "Las Notas de Salida son peonía, vodka con sabor a dulces de musk, anana, limón, durazno, hoja de plátano y violeta; las Notas de Corazón son lirio de los valles, azucena, jacinto, jazmín, fresia, calone, ylang-ylang y rosa; las Notas de Fondo son almizcle, cedro, sándalo, ámbar y styrax.",
+    "imagen": "/images/perfumes/body/bs7.webp",
+    "categoria": "Perfumes Afrodisíacos y Body Splash",
+    "subcategoria": "Body Splash",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "variantes": [
+      {
+        "tamaño": "60ml",
+        "precio": 12000
+      }
+    ]
+  }
 ]

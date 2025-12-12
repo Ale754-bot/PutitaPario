@@ -12,7 +12,7 @@ import { useCarrito } from '../context/CarritoContext'; // ✅ Importar el hook 
 import OfertasHome from '../components/OfertasHome'; // ✅ nuevo componente
 import TangasSection from '../components/TangasSection';
 import OffersTicker from '../components/OffersTicker';
-
+import PromoBanner from "../components/PromoBanner";
 
 
 const Home = () => {
@@ -83,6 +83,7 @@ const conjuntosCapsula = [
     <PageTransition> {/* ✅ Transición envolvente */}
     <OffersTicker />
       <Hero />
+        <PromoBanner />
 
       <main className="mx-auto max-w-screen-xl px-4 py-8">
         <CategoryScroll />

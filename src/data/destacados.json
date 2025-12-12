@@ -3,7 +3,7 @@
     "id": "d1",
     "nombre": "SUCCIONADOR SATYSFYER PRO 2",
     "precio": 95000,
-    "imagen": "/images/succionadorpro.webp",
+    "imagen": "/images/juguetes/succionadorpro.webp",
     "stock": true,
     "talles": [],
     "descripcion": "Experimenta intensas pulsaciones a través de 11 intensidades distintas de ondas de presión, creando un efecto mágico en tus áreas sensibles."
@@ -12,7 +12,7 @@
     "id": "d2",
     "nombre": "SUCCIONADOR Y CONSOLADOR SEXY Y FUNNY",
     "precio": 115000,
-    "imagen": "/images/succionador.webp",
+    "imagen": "/images/juguetes/succionador.webp",
     "stock": true,
     "talles": [],
     "descripcion": "Sumérgete en una experiencia única de estimulación con nuestro succionador de placer, diseñado para ofrecer sensaciones inigualables."
@@ -21,7 +21,7 @@
     "id": "d3",
     "nombre": "PERFUME MUJER - HOT INEVITABLE",
     "precio": 32500,
-    "imagen": "/images/m4.webp",
+    "imagen": "/images/perfumes/mujer/m4.webp",
     "stock": true,
     "talles": [],
     "descripcion": "Las Notas de Salida son mango y bergamota; las Notas de Corazón son jazmín y incienso de olíbano; las Notas de Fondo son vainilla y sándalo."
@@ -30,7 +30,7 @@
     "id": "d4",
     "nombre": "TANGA VIBRADOR CON CONTROL REMOTO",
     "precio": 50000,
-    "imagen": "/images/tangavibrador.webp",
+    "imagen": "/images/juguetes/tangavibrador.webp",
     "stock": true,
     "talles": [],
     "descripcion": "Dale la bienvenida al placer con esta bombachita con vibrador a control remoto inalámbrico. Con sus 20 distintos modos de vibración este juguete te hará llegar al éxtasis. Viene con una bala de tacto suave que se controla fácilmente pulsando un botón del control remoto"

@@ -408,5 +408,16 @@
     "marca": "",
     "linea": "",
     "precio": 58000
+  },
+  {
+    "id": 42,
+    "nombre": "Masturbador Masculino",
+    "descripcion": "",
+    "imagen": "/images/juguetes/mm.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": 20000
   }
 ]

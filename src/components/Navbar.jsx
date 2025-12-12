@@ -45,7 +45,7 @@ const Navbar = ({ openCart }) => {
             href="/"
             className="flex items-center hover:opacity-80 transition-opacity flex-shrink-0"
           >
-            <img src="/PP1.png" alt="SECRETO Logo" className="h-10 w-auto" />
+            <img src="/PPN.png" alt="SECRETO Logo" className="h-10 w-auto" />
           </a>
 
           {/* Enlaces + Carrito */}
@@ -90,7 +90,7 @@ const Navbar = ({ openCart }) => {
                 viewBox="0 0 24 24"
                 strokeWidth={2}
                 stroke="currentColor"
-                className="w-6 h-6"
+                className="w-4 h-4"
               >
                 <path
                   strokeLinecap="round"
@@ -123,7 +123,7 @@ const Navbar = ({ openCart }) => {
 
           {/* Logo centrado */}
           <a href="/" className="absolute left-1/2 transform -translate-x-1/2">
-            <img src="/PP1.png" alt="SECRETO Logo" className="h-10 w-auto" />
+            <img src="/PPN.png" alt="SECRETO Logo" className="h-10 w-auto" />
           </a>
 
           {/* Carrito derecha */}
@@ -136,7 +136,7 @@ const Navbar = ({ openCart }) => {
             aria-label="Ver Carrito"
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-              strokeWidth={2} stroke="currentColor" className="w-6 h-6">
+              strokeWidth={2} stroke="currentColor" className="w-3 h-3">
               <path strokeLinecap="round" strokeLinejoin="round"
                 d="M2.25 3h1.386c.51 0 .955.343 1.023.824l3.397 19.34a2.25 2.25 0 0 0 2.15 1.625h16.516a.75.75 0 0 0 .75-.75V11.25A.75.75 0 0 0 23.25 10H8.025a2.25 2.25 0 0 1-2.25-2.25V3h1.386Z" />
             </svg>

@@ -106,3 +106,28 @@
 .animate-fadeSlide {
   animation: fadeSlide 0.25s ease-out forwards;
 }
+@keyframes twinkle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+.animate-twinkle {
+  animation: twinkle 2s infinite alternate;
+}
+
+@keyframes borderGlow {
+  0% { box-shadow: 0 0 5px red; }
+  50% { box-shadow: 0 0 15px gold; }
+  100% { box-shadow: 0 0 5px green; }
+}
+.animate-borderGlow {
+  animation: borderGlow 3s infinite alternate;
+}
+@keyframes gradientBorder {
+  0% { border-color: red; }
+  50% { border-color: gold; }
+  100% { border-color: green; }
+}
+
+.animate-gradientBorder {
+  animation: gradientBorder 4s infinite alternate;
+}

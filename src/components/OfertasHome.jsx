@@ -13,7 +13,7 @@ const ofertas = [
     variantes: ["Neutro", "Frutilla", "Chicle", "Rosas Anal"],
     stock: true
   },
-  {
+  /*{
     id: 2,
     nombre: "Love Potion Sexitive 30ml",
     descripcion: "Aceite comestible con leve efecto calor. Elegí la que más te guste.",
@@ -22,7 +22,7 @@ const ofertas = [
     imagen: "/promolovepotion.jpg",
     variantes: ["Frutilla","Chocolate","Banana","Menta","Frutos Rojos","Champagne","Dulce de Leche"],
     stock: true
-  },
+  },*/
   {
     id: 3,
     nombre: "EOS Sexitive 25ml",

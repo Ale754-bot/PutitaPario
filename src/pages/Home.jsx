@@ -13,6 +13,7 @@ import OfertasHome from '../components/OfertasHome'; // ✅ nuevo componente
 import TangasSection from '../components/TangasSection';
 import OffersTicker from '../components/OffersTicker';
 import PromoBanner from "../components/PromoBanner";
+import PromoEpicSection from "../components/PromoEpicSection";
 
 
 const Home = () => {
@@ -152,6 +153,7 @@ const conjuntosCapsula = [
             </motion.div>
           </div>
         </section>
+        <PromoEpicSection />
         {/* 🎁 Ofertas Home */}
 <OfertasHome id="ofertas-home" />
         {/* 🎀 Tangas Section */}

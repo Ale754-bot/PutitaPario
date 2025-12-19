@@ -6,9 +6,11 @@ export const CarritoProvider = ({ children }) => {
   const [items, setItems] = useState([]);
 
   const generarIdUnico = (producto) => {
-    const partes = [producto.id, producto.color, producto.talle].filter(Boolean);
-    return partes.join("-");
-  };
+  // ahora también incluye la variante (ej: sabor elegido)
+  const partes = [producto.id, producto.color, producto.talle, producto.variante].filter(Boolean);
+  return partes.join("-");
+};
+
 
   const agregarItem = (producto, cantidad = 1) => {
     const idUnico = generarIdUnico(producto);

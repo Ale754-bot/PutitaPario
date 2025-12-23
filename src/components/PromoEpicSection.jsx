@@ -3,7 +3,6 @@ import promoNavidadData from "../data/promonavidad.json";
 import { useCarrito } from "../context/CarritoContext";
 
 const conjuntosCapsula = [
-  { id: 1, nombre: "Conjunto Magui Rojo", imagen: "/magui1.jpg", precioOriginal: 56000 },
   { id: 2, nombre: "Conjunto Magui Negro", imagen: "/magui2.jpg", precioOriginal: 56000 },
   { id: 3, nombre: "Conjunto Magui Blanco", imagen: "/magui3.jpg", precioOriginal: 56000 },
   { id: 4, nombre: "Conjunto Magui Rosa", imagen: "/magui4.jpg", precioOriginal: 56000 }

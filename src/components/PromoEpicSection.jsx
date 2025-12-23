@@ -3,16 +3,29 @@ import promoNavidadData from "../data/promonavidad.json";
 import { useCarrito } from "../context/CarritoContext";
 
 const conjuntosCapsula = [
-  { id: 2, nombre: "Conjunto Magui Negro", imagen: "/magui2.jpg", precioOriginal: 56000 },
-  { id: 3, nombre: "Conjunto Magui Blanco", imagen: "/magui3.jpg", precioOriginal: 56000 },
-  { id: 4, nombre: "Conjunto Magui Rosa", imagen: "/magui4.jpg", precioOriginal: 56000 }
+  { id: 1, nombre: "Conjunto Magui Rojo", imagen: "/magui1.jpg", precioOriginal: 56000, stock: false },
+  { id: 2, nombre: "Conjunto Magui Negro", imagen: "/magui2.jpg", precioOriginal: 56000, stock: true },
+  { id: 3, nombre: "Conjunto Magui Blanco", imagen: "/magui3.jpg", precioOriginal: 56000, stock: true },
+  { id: 4, nombre: "Conjunto Magui Rosa", imagen: "/magui4.jpg", precioOriginal: 56000, stock: true }
 ];
 
 
+const aceitesPromo = [
+  {
+    id: 5000,
+    nombre: "Love Potion Sexitive 30ml",
+    descripcion: "Aceite comestible con leve efecto calor. Elegí la que más te guste.",
+    precioOriginal: 12000,
+    imagen: "/promolovepotion.jpg",
+    variantes: ["Frutilla","Chocolate","Banana","Menta","Frutos Rojos","Champagne","Dulce de Leche"],
+    stock: false
+  }
+];
 
 const productosPromo = [
   ...promoNavidadData,
   ...conjuntosCapsula,
+  ...aceitesPromo
 ];
 
 export default function PromoEpicSection() {
@@ -119,22 +132,34 @@ export default function PromoEpicSection() {
                 )}
 
                 {/* Botón de compra conectado al carrito */}
-                <button
-                  onClick={() =>
-                    agregarItem({
-                      ...producto,
-                      precio: precioPromo,
-                      variante:
-                        typeof selectedVariant === "object"
-                          ? selectedVariant.color
-                          : selectedVariant || null
-                    })
-                  }
-                  className="mt-3 inline-block px-3 py-1 bg-red-800 
-                             text-white rounded-md text-xs font-medium transition transform hover:scale-105"
-                >
-                  Hacer pedido
-                </button>
+                {/* Botón de compra o mensaje de agotado */}
+{producto.stock ? (
+  <button
+    onClick={() => {
+      const item = {
+        id: producto.id,
+        nombre: producto.nombre,
+        imagen: producto.imagen,
+        precio: precioPromo,
+        cantidad: 1,
+        variante: null // 👈 explícito para conjuntos
+      };
+      console.log("Agregando al carrito:", item);
+      agregarItem(item);
+    }}
+    className="mt-3 inline-block px-3 py-1 bg-red-800 
+               text-white rounded-md text-xs font-medium transition transform hover:scale-105"
+  >
+    Hacer pedido
+  </button>
+) : (
+  <span className="mt-3 inline-block px-3 py-1 bg-gray-600 
+                   text-white rounded-md text-xs font-medium">
+    Agotado
+  </span>
+)}
+
+
               </div>
             </div>
           );

@@ -10,13 +10,6 @@
     "precioBase": 35000,
     "variantes": [
       {
-        "color": "Rojo",
-        "colorHex": "#900e09",
-        "talle": "Consultar por talles disponibles",
-        "precio": 35000,
-        "imagen": "/images/lenceria/liriorojo.webp"
-      },
-      {
         "color": "Negro",
         "colorHex": "#000000",
         "talle": "Consultar por talles disponibles",
@@ -56,13 +49,6 @@
     "mostrarColor": true,
     "precioBase": 35000,
     "variantes": [
-      {
-        "color": "Negro",
-        "colorHex": "#000000",
-        "talle": "Consultar por talles disponibles",
-        "precio": 35000,
-        "imagen": "/images/lenceria/conjunto 3/conjunto3negro.webp"
-      },
       {
         "color": "Rojo",
         "colorHex": "#b30000",

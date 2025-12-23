@@ -8,22 +8,11 @@ const conjuntosCapsula = [
   { id: 4, nombre: "Conjunto Magui Rosa", imagen: "/magui4.jpg", precioOriginal: 56000 }
 ];
 
-const aceitesPromo = [
-  {
-    id: 5000,
-    nombre: "Love Potion Sexitive 30ml",
-    descripcion: "Aceite comestible con leve efecto calor. Elegí la que más te guste.",
-    precioOriginal: 12000,
-    imagen: "/promolovepotion.jpg",
-    variantes: ["Frutilla","Chocolate","Banana","Menta","Frutos Rojos","Champagne","Dulce de Leche"],
-    stock: true
-  }
-];
+
 
 const productosPromo = [
   ...promoNavidadData,
   ...conjuntosCapsula,
-  ...aceitesPromo
 ];
 
 export default function PromoEpicSection() {

@@ -1015,7 +1015,9 @@
         "tamaño": "200g",
         "precio": 16000
       }
-    ]
+    ],
+    "precioOriginal": 16000,
+  "precioOferta": 10000
   },
   {
     "id": 58,
@@ -1024,7 +1026,7 @@
     "imagen": "/images/Geles/s-boys2.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Aceites y cremas para masajes",
-    "stock": true,
+    "stock": false,
     "marca": "Sexitive",
     "linea": "",
     "variantes": [
@@ -1041,7 +1043,7 @@
     "imagen": "/images/Geles/s-boys3.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Aceites y cremas para masajes",
-    "stock": true,
+    "stock": false,
     "marca": "Sexitive",
     "linea": "",
     "variantes": [
@@ -1058,7 +1060,7 @@
     "imagen": "/images/Geles/s-boys4.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Aceites y cremas para masajes",
-    "stock": true,
+    "stock": false,
     "marca": "Sexitive",
     "linea": "",
     "variantes": [

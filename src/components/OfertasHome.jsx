@@ -38,37 +38,11 @@ const ofertas = [
     nombre: "Gel Crema Tonificante - The Wild Boys",
     descripcion: "Relaja sin perder sensibilidad. Con caléndula: regenera, suaviza e hidrata.",
     precioOriginal: 16000,
-    precio: 9500,
+    precio: 10000,
     imagen: "/images/Geles/s-boys1.jpg",
     stock: true
   },
-  {
-    id: 5,
-    nombre: "Gel Crema Anal - The Wild Boys",
-    descripcion: "Tonifica y fortalece para erecciones más firmes, duraderas y orgasmos intensos.",
-    precioOriginal: 16000,
-    precio: 9500,
-    imagen: "/images/Geles/s-boys2.jpg",
-    stock: true
-  },
-  {
-    id: 6,
-    nombre: "Crema íntima - The Wild Boys",
-    descripcion: "Eleva tus momentos de placer con la Crema Íntima para Hombres The Wild Boys.",
-    precioOriginal: 16000,
-    precio: 10000,
-    imagen: "/images/Geles/s-boys3.jpg",
-    stock: true
-  },
-  {
-    id: 7,
-    nombre: "Crema íntima anal - The Wild Boys",
-    descripcion: "Dale un toque de suavidad y cuidado a tus momentos más íntimos con The Wild Boys.",
-    precioOriginal: 16000,
-    precio: 10000,
-    imagen: "/images/Geles/s-boys4.jpg",
-    stock: true
-  }
+  
 ];
 
 const OfertasHome = () => {

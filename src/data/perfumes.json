@@ -186,23 +186,26 @@
       }
     ]
   },
-  {
-    "id": 109,
-    "nombre": "Elixir",
-    "descripcion": "El aroma de la seducción. Fragancia de espíritu audaz, intenso e irresistible. La Nota de Salida es bergamota; la Nota de Corazón es coco; la Nota de Fondo es haba tonka.",
-    "imagen": "/images/perfumes/p1.webp",
-    "categoria": "Perfumes Afrodisíacos y Body Splash",
-    "subcategoria": "Hombre",
-    "stock": true,
-    "marca": "Sexitive",
-    "linea": "For Him",
-    "variantes": [
-      {
-        "tamaño": "100ml",
-        "precio": 32500
-      }
-    ]
-  },
+ {
+  "id": 109,
+  "nombre": "Elixir",
+  "descripcion": "El aroma de la seducción. Fragancia de espíritu audaz, intenso e irresistible. La Nota de Salida es bergamota; la Nota de Corazón es coco; la Nota de Fondo es haba tonka.",
+  "imagen": "/images/perfumes/p1.webp",
+  "categoria": "Perfumes Afrodisíacos y Body Splash",
+  "subcategoria": "Hombre",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "For Him",
+  "variantes": [
+    {
+      "tamaño": "100ml",
+      "precio": 32500
+    }
+  ],
+  "precioOriginal": 32500,
+  "precioOferta": 15000
+},
+
   {
     "id": 110,
     "nombre": "Gentleman",
@@ -218,7 +221,9 @@
         "tamaño": "100ml",
         "precio": 32500
       }
-    ]
+    ],
+    "precioOriginal": 32500,
+  "precioOferta": 15000
   },
   {
     "id": 111,
@@ -252,7 +257,9 @@
         "tamaño": "100ml",
         "precio": 32500
       }
-    ]
+    ],
+    "precioOriginal": 32500,
+  "precioOferta": 15000
   },
   {
     "id": 113,
@@ -269,7 +276,9 @@
         "tamaño": "100ml",
         "precio": 32500
       }
-    ]
+    ],
+    "precioOriginal": 32500,
+  "precioOferta": 15000
   },
   {
     "id": 114,
@@ -286,7 +295,9 @@
         "tamaño": "100ml",
         "precio": 32500
       }
-    ]
+    ],
+    "precioOriginal": 32500,
+  "precioOferta": 15000
   },
   {
     "id": 115,

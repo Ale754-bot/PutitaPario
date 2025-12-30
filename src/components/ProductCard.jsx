@@ -16,7 +16,9 @@ const ProductCard = ({ producto, index }) => {
     marca,
     linea,
     mostrarColor,
-    categoria
+    categoria,
+    precioOriginal,
+    precioOferta
   } = producto;
 
   const [talleSeleccionado, setTalleSeleccionado] = useState("");
@@ -61,10 +63,19 @@ const ProductCard = ({ producto, index }) => {
   const categoriasPrecioVisible = ["Arneses", "Velas", "Plugs Anales", "Juguetes"];
   const mostrarPrecioSiempre = categoriasPrecioVisible.includes(categoria);
 
-  // 🔧 Precio final con variante extra
-  const precioFinal = mostrarPrecioSiempre
-    ? (precio ?? varianteSeleccionada?.precio ?? 0)
-    : (varianteSeleccionada?.precio ?? precio ?? 0);
+  // 🔧 Precio base
+  const precioBase = mostrarPrecioSiempre
+    ? (precio ?? varianteSeleccionada?.precio ?? precioOriginal ?? 0)
+    : (varianteSeleccionada?.precio ?? precio ?? precioOriginal ?? 0);
+
+  // 🔧 Oferta automática
+  let precioFinal = precioBase;
+  let porcentajeOferta = null;
+
+  if (precioOferta && precioOferta < precioBase) {
+    precioFinal = precioOferta;
+    porcentajeOferta = Math.round(((precioBase - precioOferta) / precioBase) * 100);
+  }
 
   const imagenFinal = varianteSeleccionada?.imagen || imagen || imagenUrl || "/images/placeholder.png";
 
@@ -81,21 +92,19 @@ const ProductCard = ({ producto, index }) => {
     : "Agregar al carrito";
 
   const handleAgregar = () => {
-  if (!puedeAgregar) return;
+    if (!puedeAgregar) return;
 
-  const item = {
-    ...producto,
-    talle: talleSeleccionado || null,
-    variante: varianteSeleccionada?.talle || varianteSeleccionada?.tamaño || null,
-    color: varianteSeleccionada?.color || null,
-    precio: precioFinal,
-    // 🔧 miniatura según la variante elegida
-    imagen: varianteSeleccionada?.imagen || imagenFinal
+    const item = {
+      ...producto,
+      talle: talleSeleccionado || null,
+      variante: varianteSeleccionada?.talle || varianteSeleccionada?.tamaño || null,
+      color: varianteSeleccionada?.color || null,
+      precio: precioFinal,
+      imagen: varianteSeleccionada?.imagen || imagenFinal
+    };
+
+    agregarItem(item, 1);
   };
-
-  agregarItem(item, 1);
-};
-
 
   const etiquetaMarca = marca && linea ? `${marca} · ${linea}` : marca || "";
 
@@ -120,7 +129,6 @@ const ProductCard = ({ producto, index }) => {
       },
     },
   };
-
   return (
     <motion.div
       ref={ref}
@@ -147,6 +155,13 @@ const ProductCard = ({ producto, index }) => {
             {etiquetaMarca}
           </span>
         )}
+        {porcentajeOferta && (
+  <div className="absolute bottom-2 right-2 bg-gradient-to-r from-red-500 to-black 
+                  text-white text-xs font-bold px-2 py-1 rounded-md shadow-md z-10">
+    {porcentajeOferta}% OFF
+  </div>
+)}
+
         {!stock && (
           <div className="absolute top-0 right-0 bg-gray-900/80 text-white font-bold px-3 py-1 rounded-bl-lg">
             AGOTADO
@@ -178,9 +193,21 @@ const ProductCard = ({ producto, index }) => {
 
         {/* Interacción */}
         <div className="mt-3 flex flex-col items-center justify-start">
-          <p className="text-base text-red-700 font-bold mb-2">
-            ${precioFinal}
-          </p>
+          {porcentajeOferta ? (
+            <>
+              <p className="text-gray-400 line-through text-xs">
+                ${precioBase.toLocaleString("es-AR")}
+              </p>
+              <p className="text-base text-red-700 font-bold mb-2">
+                ${precioFinal.toLocaleString("es-AR")}
+              </p>
+            </>
+          ) : (
+            <p className="text-base text-red-700 font-bold mb-2">
+              ${precioFinal.toLocaleString("es-AR")}
+            </p>
+          )}
+
           {/* Círculos de color */}
           {tieneColores && (
             <div className="flex justify-center gap-2 mb-2">

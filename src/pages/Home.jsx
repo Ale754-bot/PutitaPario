@@ -12,21 +12,14 @@ import { useCarrito } from '../context/CarritoContext'; // ✅ Importar el hook 
 import OfertasHome from '../components/OfertasHome'; // ✅ nuevo componente
 import TangasSection from '../components/TangasSection';
 import OffersTicker from '../components/OffersTicker';
-import PromoBanner from "../components/PromoBanner";
-import PromoEpicSection from "../components/PromoEpicSection";
+import OfertaPerfumes from "../components/OfertaPerfumes";
+import OfertaRelampago from "../components/OfertaRelampago";
+
+
 
 
 const Home = () => {
   const { agregarItem } = useCarrito(); // ✅ función para agregar al carrito
-
-  // 🔥 Producto épico de apertura
-  const perfumeApertura = {
-    id: "apertura-100ml", // 🔑 importante para identificar en el carrito
-    nombre: "ELIXIR FOR HIM 100ML",
-    descripcion: "",
-    imagen: "/images/perfumes/p1.jpg",
-    precio: 13800
-  };
 
   // 🔥 Cápsula Erótica (ahora con 4 conjuntos)
 const conjuntosCapsula = [
@@ -84,78 +77,23 @@ const conjuntosCapsula = [
     <PageTransition> {/* ✅ Transición envolvente */}
     <OffersTicker />
       <Hero />
-        <PromoBanner />
-
       <main className="mx-auto max-w-screen-xl px-4 py-8">
         <CategoryScroll />
-        
-
-        {/* 🎉 Oferta Épica de Apertura */}
-        <section id="apertura" className="relative py-12 overflow-hidden mt-16 mb-16">
-          <div className="absolute inset-0">
-            <img
-              src="/fondoperfume.jpg"
-              alt="Fondo Oferta Perfume"
-              className="w-full h-full object-cover object-center opacity-20"
-            />
-            {/* Overlay degradado */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
-          </div>
-
-          <div className="relative z-10 text-center max-w-screen-md mx-auto px-6">
-            {/* 🎉 Título épico */}
-            <motion.h2
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1.2, ease: "easeOut" }}
-              className="text-4xl md:text-6xl font-bold text-white mb-6"
-            >
-              ¡Oferta de Apertura!
-            </motion.h2>
-
-            {/* 🌌 Subtítulo narrativo */}
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.6, duration: 1 }}
-              className="text-lg md:text-xl text-gray-200 mb-8"
-            >
-              Celebramos la apertura de nuestra nueva tienda con una OFERTA increíble.
-            </motion.p>
-
-            {/* 🧴 Card del producto */}
-            <motion.div
-              initial={{ scale: 0.9, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              transition={{ delay: 1, duration: 1 }}
-              className="rounded-xl p-6 shadow-lg inline-block"
-            >
-              <img
-                src={perfumeApertura.imagen}
-                alt={perfumeApertura.nombre}
-                className="w-48 h-48 object-cover mx-auto rounded-lg mb-8"
-              />
-              <h3 className="text-2xl font-semibold text-white mb-4">
-                {perfumeApertura.nombre}
-              </h3>
-              <p className="text-gray-300 mb-4">{perfumeApertura.descripcion}</p>
-              <span className="text-3xl font-bold text-red-600 block mb-10">
-                ${perfumeApertura.precio}
-              </span>
-
-              {/* Botón debajo del precio */}
-              <button
-                onClick={() => agregarItem(perfumeApertura, 1)} // ✅ usa la función del contexto
-                className="bg-red-700 text-white px-6 py-2 rounded-full font-bold hover:bg-red-800 transition"
-              >
-                Agregar al Carrito
-              </button>
-            </motion.div>
-          </div>
+        <OfertaPerfumes />
+        {/* Introducción editorial para la sección de aceites */} <div className="w-full text-center py-10 bg-black"> <h2 className="text-2xl sm:text-3xl font-bold text-red-600 uppercase tracking-wide"> El placer de sentir, explorar y conectar </h2> <p className="mt-3 max-w-2xl mx-auto text-sm sm:text-base text-gray-300 leading-relaxed"> Liberá tu mente y dejá que el cuerpo tome el control. Con aceites <span className="text-red-500 font-semibold">HOT Inevitable</span> de <span className="text-red-500 font-semibold">SEXITIVE</span> convierte cada toque en un viaje sensorial… porque la experiencia del tacto siempre se disfruta de a dos. </p> </div>
+        <section>
+        <OfertaRelampago />
         </section>
-        <PromoEpicSection />
-        {/* 🎁 Ofertas Home */}
-<OfertasHome id="ofertas-home" />
+         {/* SECCIÓN DE PRODUCTOS DESTACADOS */}
+        <section id="destacados" className="mb-16 pt-8">
+          <h2 className="text-3xl font-bold mb-8 text-texto-claro border-b-2 border-acento inline-block mt-8">
+            Productos Destacados
+          </h2>
+
+          {/* Galería independiente */}
+          <Destacados />
+        </section>
+        <OfertasHome id="ofertas-home" />
         {/* 🎀 Tangas Section */}
         <TangasSection
         id="tangas"
@@ -205,18 +143,6 @@ const conjuntosCapsula = [
     ))}
   </div>
 </section>
-
-        
-
-        {/* SECCIÓN DE PRODUCTOS DESTACADOS */}
-        <section id="destacados" className="mb-16 pt-8">
-          <h2 className="text-3xl font-bold mb-8 text-texto-claro border-b-2 border-acento inline-block mt-8">
-            Productos Destacados
-          </h2>
-
-          {/* Galería independiente */}
-          <Destacados />
-        </section>
 
         {/* 🖼️ Sección con imagen de fondo y botón flotante */}
         <section className="relative w-full h-[300px] md:h-[400px] overflow-hidden mt-20 rounded-xl shadow-lg">

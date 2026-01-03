@@ -523,5 +523,182 @@
         "imagen": "/images/lenceria/conjunto 10/conjunto10negro.webp"
       }
     ]
-  }
+  },
+  {
+  "id": 715,
+  "nombre": "Conjunto Pool Party",
+  "descripcion": "",
+  "imagen": "/images/lenceria/pool party/poolrojo.webp",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": true,
+  "precioBase": 38000,
+  "nuevo": true,
+  "variantes": [
+    {
+      "color": "Rojo",
+      "colorHex": "#b30000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/pool party/poolrojo.webp"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/pool party/poolnegro.webp"
+    },
+    {
+      "color": "Verde",
+      "colorHex": "#006400",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/pool party/poolverde.webp"
+    },
+    {
+      "color": "Violeta",
+      "colorHex": "#800080",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/pool party/poolvioleta.webp"
+    }
+  ]
+},
+{
+  "id": 716,
+  "nombre": "Conjunto Madison",
+  "descripcion": "",
+  "imagen": "/images/lenceria/madison/madisonazul.webp",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": true,
+  "precioBase": 38000,
+  "nuevo": true,
+  "variantes": [
+    {
+      "color": "Azul",
+      "colorHex": "#0000FF",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/madison/madisonazul.webp"
+    },
+    {
+      "color": "Blanco",
+      "colorHex": "#FFFFFF",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/madison/madisonblanco.webp"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/madison/madisonnegro.webp"
+    },
+    {
+      "color": "Rojo",
+      "colorHex": "#b30000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/madison/madisonrojo.webp"
+    },
+    {
+      "color": "Rosa",
+      "colorHex": "#FFC0CB",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/madison/madisonrosa.webp"
+    }
+  ]
+},
+{
+  "id": 717,
+  "nombre": "Conjunto Polly",
+  "descripcion": "",
+  "imagen": "/images/lenceria/polly/pollyblanco.webp",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": true,
+  "precioBase": 38000,
+  "nuevo": true,
+  "variantes": [
+    {
+      "color": "Blanco",
+      "colorHex": "#FFFFFF",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/polly/pollyblanco.webp"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/polly/pollynegro.webp"
+    },
+    {
+      "color": "Rojo",
+      "colorHex": "#b30000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/polly/pollyrojo.webp"
+    }
+  ]
+},
+{
+  "id": 718,
+  "nombre": "Conjunto Dominhada",
+  "descripcion": "",
+  "imagen": "/images/lenceria/dominhada/dominadanegro.webp",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": true,
+  "precioBase": 38000,
+  "nuevo": true,
+  "variantes": [
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/dominada/dominadanegro.webp"
+    },
+    {
+      "color": "Rojo",
+      "colorHex": "#b30000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/dominada/dominadarojo.webp"
+    }
+  ]
+},
+{
+  "id": 719,
+  "nombre": "Conjunto Trikini Cadenita",
+  "descripcion": "",
+  "imagen": "/images/lenceria/trikini cadenita/trikinirojo.webp",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": true,
+  "precioBase": 38000,
+  "nuevo": true,
+  "variantes": [
+    {
+      "color": "Rojo",
+      "colorHex": "#b30000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/trikini cadenita/trikinirojo.webp"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/trikini cadenita/trikininegro.webp"
+    }
+  ]
+}
 ]

@@ -13,10 +13,6 @@
       {
         "tamaño": "80ml",
         "precio": 6500
-      },
-      {
-        "tamaño": "200ml",
-        "precio": 12000
       }
     ]
   },
@@ -68,10 +64,6 @@
       {
         "tamaño": "80ml",
         "precio": 6500
-      },
-      {
-        "tamaño": "200ml",
-        "precio": 12000
       }
     ]
   },
@@ -89,10 +81,6 @@
       {
         "tamaño": "80ml",
         "precio": 6500
-      },
-      {
-        "tamaño": "200ml",
-        "precio": 12000
       }
     ]
   },
@@ -127,10 +115,6 @@
       {
         "tamaño": "80ml",
         "precio": 6500
-      },
-      {
-        "tamaño": "200ml",
-        "precio": 12000
       }
     ]
   },
@@ -663,14 +647,10 @@
     "marca": "Sexitive",
     "linea": "Love Potion",
     "variantes": [
-      {
-        "tamaño": "30ml",
-        "precio": 12000,
-        "imagen": "/images/Geles/a-chocolate.webp"
-      },
+      
       {
         "tamaño": "15ml",
-        "precio": 6500,
+        "precio": 7000,
         "imagen": "/images/Geles/a-chocolate2.webp"
       }
     ]
@@ -686,14 +666,10 @@
     "marca": "Sexitive",
     "linea": "Love Potion",
     "variantes": [
-      {
-        "tamaño": "30ml",
-        "precio": 12000,
-        "imagen": "/images/Geles/a-banana.webp"
-      },
+     
       {
         "tamaño": "15ml",
-        "precio": 6500,
+        "precio": 7000,
         "imagen": "/images/Geles/a-banana2.webp"
       }
     ]
@@ -709,14 +685,10 @@
     "marca": "Sexitive",
     "linea": "Love Potion",
     "variantes": [
-      {
-        "tamaño": "30ml",
-        "precio": 12000,
-        "imagen": "/images/Geles/a-champagne.webp"
-      },
+      
       {
         "tamaño": "15ml",
-        "precio": 6500,
+        "precio": 7000,
         "imagen": "/images/Geles/a-champagne2.webp"
       }
     ]
@@ -732,14 +704,10 @@
     "marca": "Sexitive",
     "linea": "Love Potion",
     "variantes": [
-      {
-        "tamaño": "30ml",
-        "precio": 12000,
-        "imagen": "/images/Geles/a-dulcedeleche.webp"
-      },
+      
       {
         "tamaño": "15ml",
-        "precio": 6500,
+        "precio": 7000,
         "imagen": "/images/Geles/a-dulcedeleche2.webp"
       }
     ]
@@ -755,14 +723,10 @@
     "marca": "Sexitive",
     "linea": "Love Potion",
     "variantes": [
-      {
-        "tamaño": "30ml",
-        "precio": 12000,
-        "imagen": "/images/Geles/a-frutilla.webp"
-      },
+     
       {
         "tamaño": "15ml",
-        "precio": 6500,
+        "precio": 7000,
         "imagen": "/images/Geles/a-frutilla2.webp"
       }
     ]
@@ -778,14 +742,10 @@
     "marca": "Sexitive",
     "linea": "Love Potion",
     "variantes": [
-      {
-        "tamaño": "30ml",
-        "precio": 12000,
-        "imagen": "/images/Geles/a-frutos.webp"
-      },
+      
       {
         "tamaño": "15ml",
-        "precio": 6500,
+        "precio": 7000,
         "imagen": "/images/Geles/a-frutos2.webp"
       }
     ]
@@ -801,14 +761,10 @@
     "marca": "Sexitive",
     "linea": "Love Potion",
     "variantes": [
-      {
-        "tamaño": "30ml",
-        "precio": 12000,
-        "imagen": "/images/Geles/a-menta.webp"
-      },
+      
       {
         "tamaño": "15ml",
-        "precio": 6500,
+        "precio": 7000,
         "imagen": "/images/Geles/a-menta2.webp"
       }
     ]
@@ -826,7 +782,7 @@
     "variantes": [
       {
         "tamaño": "15ml",
-        "precio": 6500
+        "precio": 7000
       }
     ]
   },

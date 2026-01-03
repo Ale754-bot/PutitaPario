@@ -249,7 +249,7 @@
     "imagen": "/images/perfumes/p4.webp",
     "categoria": "Perfumes Afrodisíacos y Body Splash",
     "subcategoria": "Hombre",
-    "stock": true,
+    "stock": false,
     "marca": "Sexitive",
     "linea": "For Him",
     "variantes": [

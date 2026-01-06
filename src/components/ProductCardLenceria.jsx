@@ -108,7 +108,7 @@ const ProductCardLenceria = ({ producto, index }) => {
           </span>
         )}
         {producto.nuevo && (
-  <span className="absolute top-2 right-2 bg-green-600 text-white text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wide shadow-md z-10">
+  <span className="absolute top-2 right-2 bg-gradient-to-r from-red-800 to-black text-white text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wide shadow-md z-10">
     Nuevo
   </span>
 )}

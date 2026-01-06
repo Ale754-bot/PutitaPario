@@ -123,7 +123,7 @@ const Navbar = ({ openCart }) => {
 
           {/* Logo centrado */}
           <a href="/" className="absolute left-1/2 transform -translate-x-1/2">
-            <img src="/PPN.png" alt="SECRETO Logo" className="h-10 w-auto" />
+            <img src="/PP1.png" alt="SECRETO Logo" className="h-10 w-auto" />
           </a>
 
           {/* Carrito derecha */}

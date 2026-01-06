@@ -700,5 +700,75 @@
       "imagen": "/images/lenceria/trikini cadenita/trikininegro.webp"
     }
   ]
+},
+{
+  "id": 720,
+  "nombre": "Corset Marmolado",
+  "descripcion": "",
+  "imagen": "/images/lenceria/corset/marmolado/corsetmarmolado.webp",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": true,
+  "precioBase": 15000,
+  "nuevo": true,
+  "variantes": [
+    {
+      "color": "Rojo Marmolado",
+      "colorHex": "#a8323e",
+      "talle": "Consultar por talles disponibles",
+      "precio": 15000,
+      "imagen": "/images/lenceria/corset/marmolado/marmolado.webp"
+    },
+    {
+      "color": "Chocolate Marmolado",
+      "colorHex": "#5a3e2b",
+      "talle": "Consultar por talles disponibles",
+      "precio": 15000,
+      "imagen": "/images/lenceria/corset/marmolado/marmolado2.webp"
+    },
+    {
+      "color": "Verde Nocturno Marmolado",
+      "colorHex": "#1e3a34",
+      "talle": "Consultar por talles disponibles",
+      "precio": 15000,
+      "imagen": "/images/lenceria/corset/marmolado/marmolado3.webp"
+    }
+  ]
+},
+{
+  "id": 721,
+  "nombre": "Corset Brilloso",
+  "descripcion": "",
+  "imagen": "/images/lenceria/corset/brilloso/corsetbrilloso.webp",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": true,
+  "precioBase": 15000,
+  "nuevo": true,
+  "variantes": [
+    {
+      "color": "Negro con bordado dorado",
+      "colorHex": "#1a1a1a",
+      "talle": "Consultar por talles disponibles",
+      "precio": 15000,
+      "imagen": "/images/lenceria/corset/brilloso/corsetnegro.webp"
+    },
+    {
+      "color": "Celeste con bordado dorado",
+      "colorHex": "#a3c9e2",
+      "talle": "Consultar por talles disponibles",
+      "precio": 15000,
+      "imagen": "/images/lenceria/corset/brilloso/corsetceleste.webp"
+    },
+    {
+      "color": "Blanco con bordado dorado",
+      "colorHex": "#f5f5f5",
+      "talle": "Consultar por talles disponibles",
+      "precio": 15000,
+      "imagen": "/images/lenceria/corset/brilloso/corsetblanco.webp"
+    }
+  ]
 }
+
+
 ]

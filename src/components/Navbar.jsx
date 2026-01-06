@@ -45,7 +45,7 @@ const Navbar = ({ openCart }) => {
             href="/"
             className="flex items-center hover:opacity-80 transition-opacity flex-shrink-0"
           >
-            <img src="/PPN.png" alt="SECRETO Logo" className="h-10 w-auto" />
+            <img src="/PP1.png" alt="SECRETO Logo" className="h-10 w-auto" />
           </a>
 
           {/* Enlaces + Carrito */}

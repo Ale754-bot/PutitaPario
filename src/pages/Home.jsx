@@ -11,10 +11,10 @@ import { motion } from 'framer-motion';
 import { useCarrito } from '../context/CarritoContext'; // ✅ Importar el hook del carrito
 import OfertasHome from '../components/OfertasHome'; // ✅ nuevo componente
 import TangasSection from '../components/TangasSection';
-import OffersTicker from '../components/OffersTicker';
 import OfertaPerfumes from "../components/OfertaPerfumes";
 import OfertaRelampago from "../components/OfertaRelampago";
 import BannerLenceria from "../components/BannerLenceria";
+import PromoPopup from "../components/PromoPopup";
 
 
 
@@ -76,10 +76,11 @@ const conjuntosCapsula = [
 
   return (
     <PageTransition> {/* ✅ Transición envolvente */}
-    <OffersTicker />
       <Hero />
       <main className="mx-auto max-w-screen-xl px-4 py-8">
         <CategoryScroll />
+        {/* Popup promocional */}
+      <PromoPopup />
            <BannerLenceria />
         <OfertaPerfumes />
         {/* Introducción editorial para la sección de aceites */} <div className="w-full text-center py-10 bg-black"> <h2 className="text-2xl sm:text-3xl font-bold text-red-600 uppercase tracking-wide"> El placer de sentir, explorar y conectar </h2> <p className="mt-3 max-w-2xl mx-auto text-sm sm:text-base text-gray-300 leading-relaxed"> Liberá tu mente y dejá que el cuerpo tome el control. Con aceites <span className="text-red-500 font-semibold">HOT Inevitable</span> de <span className="text-red-500 font-semibold">SEXITIVE</span> convierte cada toque en un viaje sensorial… porque la experiencia del tacto siempre se disfruta de a dos. </p> </div>

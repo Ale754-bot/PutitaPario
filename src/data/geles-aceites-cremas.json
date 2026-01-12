@@ -456,7 +456,7 @@
     "imagen": "/images/Geles/lube-2.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
-    "stock": true,
+    "stock": false,
     "marca": "Sexitive",
     "linea": "Lübe",
     "variantes": [

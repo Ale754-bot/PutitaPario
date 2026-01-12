@@ -16,6 +16,7 @@ import OfertaRelampago from "../components/OfertaRelampago";
 import BannerLenceria from "../components/BannerLenceria";
 import PromoPopup from "../components/PromoPopup";
 import OfertaPerfume from "../components/OfertaPerfume";
+import LipstickVibeOffer from "../components/LipstickVibeOffer";
 
 
 
@@ -92,6 +93,8 @@ const conjuntosCapsula = [
     ¿Ya elegiste tu categoría? <br /> Ahora mirá nuestras ofertas y novedades.
   </motion.h2>
 </section>
+ {/* Oferta de labiales vibradores */}
+      <LipstickVibeOffer />
 
       <OfertaPerfume />
       <section className="py-10 bg-black text-center px-4">

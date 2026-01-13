@@ -264,7 +264,7 @@
     "descripcion": "",
     "imagen": "/images/lenceria/conjunto 4/conjunto4azul.webp",
     "categoria": "Lencería",
-    "stock": true,
+    "stock": false,
     "mostrarColor": true,
     "precioBase": 40000,
     "variantes": [

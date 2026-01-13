@@ -20,6 +20,7 @@ import Contacto from './pages/Contacto';
 // ✨ Transición editorial
 import PageTransition from './components/PageTransition';
 
+
 function App() {
   const [isCartOpen, setIsCartOpen] = useState(false);
 
@@ -37,6 +38,7 @@ function App() {
 
   if (!isAllowed) {
     return (
+      
       <motion.div
         className="bg-black text-white flex flex-col items-center justify-center min-h-screen overflow-hidden relative"
         initial={{ opacity: 0 }}
@@ -96,6 +98,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-black pt-[70px]">
+      
       <ScrollToTop />
 
       {/* 🔝 Navbar */}

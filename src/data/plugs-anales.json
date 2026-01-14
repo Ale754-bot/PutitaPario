@@ -264,7 +264,7 @@
     "descripcion": "",
     "imagen": "/images/plugs/duchanal.webp",
     "categoria": "Plugs",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "precio": 25000

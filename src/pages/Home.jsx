@@ -21,6 +21,7 @@ import LipstickVibeOffer from "../components/LipstickVibeOffer";
 
 
 
+
 const Home = () => {
   const { agregarItem } = useCarrito(); // ✅ función para agregar al carrito
 

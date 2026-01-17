@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import ProductCardOfertas from "./ProductCardOfertas";
 
 const ofertas = [
-  {
+  /*{
     id: 1,
     nombre: "Geles Sextual 200ml",
     descripcion: "Placer sin límites. Degustá, jugá, descubrí. Elegí la que más te guste.",
@@ -12,7 +12,7 @@ const ofertas = [
     imagen: "/promosextual.jpg",
     variantes: ["Neutro", "Frutilla", "Chicle", "Rosas Anal"],
     stock: true
-  },
+  },*/
   /*{
     id: 2,
     nombre: "Love Potion Sexitive 30ml",
@@ -79,14 +79,6 @@ const OfertasHome = () => {
       >
         OFERTAS EN HOTMÉTICA
       </motion.h2>
-      <motion.p
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.3, duration: 0.8 }}
-        className="text-center text-gray-400 mb-8 px-4"
-      >
-        Siete secretos, siete oportunidades irrepetibles
-      </motion.p>
 
       {/* Mobile */}
       <div className="block md:hidden relative px-4">

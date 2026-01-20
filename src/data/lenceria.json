@@ -64,7 +64,7 @@
     "descripcion": "Conjunto con detalles metálicos y diseño provocador. Disponible en cuatro variantes visuales.",
     "imagen": "/images/lenceria/cadenasceleste.webp",
     "categoria": "Lencería",
-    "stock": true,
+    "stock": false,
     "mostrarColor": true,
     "precioBase": 35000,
     "variantes": [

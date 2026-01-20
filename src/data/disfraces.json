@@ -142,7 +142,7 @@
     "imagen": "/images/disfraces/mamanoel.webp",
     "categoria": "Disfraces",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -159,7 +159,7 @@
     "imagen": "/images/disfraces/enfermerita2.webp",
     "categoria": "Disfraces",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -193,7 +193,7 @@
     "imagen": "/images/disfraces/coneja.webp",
     "categoria": "Disfraces",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -210,7 +210,7 @@
     "imagen": "/images/disfraces/secretaria 2.webp",
     "categoria": "Disfraces",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -244,7 +244,7 @@
     "imagen": "/images/disfraces/mujermaravilla.webp",
     "categoria": "Disfraces",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -278,7 +278,7 @@
     "imagen": "/images/disfraces/mamanoel2.webp",
     "categoria": "Disfraces",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -312,7 +312,7 @@
     "imagen": "/images/disfraces/blancanieves.webp",
     "categoria": "Disfraces",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -363,7 +363,7 @@
     "imagen": "/images/disfraces/bebota.webp",
     "categoria": "Disfraces",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -397,7 +397,7 @@
     "imagen": "/images/disfraces/ninja.webp",
     "categoria": "Disfraces",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [

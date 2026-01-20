@@ -1,60 +1,57 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay, Thumbs } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules"; // 👈 quitamos Navigation
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "swiper/css/thumbs";
 
-const anuncios = [
+const banners = [
   {
-    titulo: "🔥 Oferta Dorado",
-    descripcion: "Esta semana el labial dorado a precio exclusivo.",
-    imagen: "/images/banner-dorado.jpg",
+    titulo: "",
+    imagen: "/CARRUPERFUME.jpg",
+    link: "/productos?categoria=perfumes#hombre",
   },
   {
-    titulo: "🌸 Novedad Fucsia",
-    descripcion: "Nuevo tono fucsia, audaz y energético.",
-    imagen: "/images/banner-fucsia.jpg",
+    titulo: "",
+    imagen: "/CARRUMAGUI.jpg",
+    link: "#capsula-magui",
   },
   {
-    titulo: "🔴 Colección Rojo",
-    descripcion: "Pasión e intensidad en nuestra línea roja.",
-    imagen: "/images/banner-rojo.jpg",
+    titulo: "",
+    imagen: "/CARRULABIAL.jpg",
+    link: "#labiales-vibradores",
   },
   {
-    titulo: "📦 Envíos",
-    descripcion: "Retiro en Galería Córdoba o envío a domicilio.",
-    imagen: "/images/banner-envio.jpg",
+    titulo: "",
+    imagen: "/CARRULEN.jpg",
+    link: "/productos?categoria=Lencería",
   },
 ];
 
 const CarruselAnuncios = () => {
   return (
-    <div className="w-full max-w-4xl mx-auto">
+    <div className="w-full max-w-2xl mx-auto overflow-hidden shadow-lg">
       <Swiper
-        modules={[Navigation, Pagination, Autoplay]}
-        spaceBetween={30}
+        modules={[Pagination, Autoplay]}
+        spaceBetween={20}
         slidesPerView={1}
-        navigation
         pagination={{ clickable: true }}
         autoplay={{ delay: 5000 }}
         loop
-        className="rounded-lg overflow-hidden"
       >
-        {anuncios.map((anuncio, index) => (
+        {banners.map((banner, index) => (
           <SwiperSlide key={index}>
-            <div className="relative">
+            <a href={banner.link} className="relative block cursor-pointer">
               <img
-                src={anuncio.imagen}
-                alt={anuncio.titulo}
-                className="w-full h-64 object-cover"
-              />
-              <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-white p-6">
-                <h3 className="text-xl font-bold mb-2">{anuncio.titulo}</h3>
-                <p className="text-sm">{anuncio.descripcion}</p>
+  src={banner.imagen}
+  alt={banner.titulo}
+  className="w-full h-56 sm:h-80 object-contain sm:object-cover"
+/>
+
+              <div className="absolute inset-0 bg-black/20 flex flex-col items-center justify-center text-white p-6">
+                <h3 className="text-xl sm:text-2xl font-bold mb-2">{banner.titulo}</h3>
+                <p className="text-sm sm:text-base">{banner.descripcion}</p>
               </div>
-            </div>
+            </a>
           </SwiperSlide>
         ))}
       </Swiper>

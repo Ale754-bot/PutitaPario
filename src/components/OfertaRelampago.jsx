@@ -43,7 +43,8 @@ const productos = [
     descripcion: "Una fragancia sensual que despierta los sentidos.",
     precio: 6500,
     imagen: "/VERY SEXY.png",
-    stock: true 
+    stock: false
+   
   }
 ];
 
@@ -62,7 +63,7 @@ const OfertaRelampago = () => {
   const { src, titulo, texto } = slides[slide];
 
   return (
-    <div className="mx-auto w-full bg-black rounded-xl shadow-lg overflow-hidden p-4">
+<div className="mx-auto w-full max-w-5xl bg-black rounded-xl shadow-lg overflow-hidden p-4">
       {/* Layout responsivo */}
       <div className="flex flex-col lg:grid lg:grid-cols-2 lg:gap-6">
         
@@ -94,7 +95,8 @@ const OfertaRelampago = () => {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-white text-2xl font-bold drop-shadow-lg"
+              className="text-whitetext-xl sm:text-2xl lg:text-3xl font-bold"
+
             >
               {titulo}
             </motion.h2>
@@ -192,7 +194,7 @@ const OfertaRelampago = () => {
                       onClick={handleAgregar}
                       disabled={!puedeAgregar}
                       className={`
-                        mt-3 py-2 rounded-lg font-semibold transition-colors text-sm
+                        mt-3 py-2 rounded-lg font-semibold transition-colors text-xs
                         ${puedeAgregar
                           ? "bg-red-600 hover:bg-red-800 text-white"
                           : "bg-gray-600 text-white cursor-not-allowed"}

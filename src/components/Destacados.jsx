@@ -2,19 +2,28 @@
 
 import React from 'react';
 import destacados from '../data/destacados.json';
-import ProductCard from './ProductCard'; // Asegurate de que este componente esté bien conectado
+import ProductCard from './ProductCard';
 
 const Destacados = () => {
   return (
-    <section className="py-16 bg-black text-white">
-      <div className="container mx-auto px-4">
-        <h2 className="text-2xl font-extrabold mb-10 text-white text-center">
+    <section className="py-10 sm:py-12 lg:py-14 bg-black text-white">
+      <div className="container mx-auto px-3 sm:px-4 max-w-6xl">
+        <h2 className="text-lg sm:text-xl lg:text-2xl font-extrabold mb-6 sm:mb-8 text-white text-center">
           Productos destacados
         </h2>
 
-<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        {/* Mobile: scroll horizontal | Desktop: grid */}
+        <div className="
+          flex gap-4 overflow-x-auto snap-x snap-mandatory
+          sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 sm:gap-6 sm:overflow-visible sm:snap-none
+        ">
           {destacados.map((producto) => (
-            <ProductCard key={producto.id} producto={producto} />
+            <div
+              key={producto.id}
+              className="snap-center flex-shrink-0 w-56 sm:w-auto transform scale-90 sm:scale-95 lg:scale-90"
+            >
+              <ProductCard producto={producto} />
+            </div>
           ))}
         </div>
       </div>

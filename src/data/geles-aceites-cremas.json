@@ -456,7 +456,7 @@
     "imagen": "/images/Geles/lube-2.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
-    "stock": false,
+    "stock": true,
     "marca": "Sexitive",
     "linea": "Lübe",
     "variantes": [
@@ -558,7 +558,7 @@
     "imagen": "/images/Geles/s-eos1.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
-    "stock": true,
+    "stock": false,
     "marca": "Sexitive",
     "linea": "EOS",
     "variantes": [
@@ -575,7 +575,7 @@
     "imagen": "/images/Geles/s-eos2.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
-    "stock": true,
+    "stock": false,
     "marca": "Sexitive",
     "linea": "EOS",
     "variantes": [
@@ -719,7 +719,7 @@
     "imagen": "/images/Geles/a-frutilla.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Aceites comestibles",
-    "stock": true,
+    "stock": false,
     "marca": "Sexitive",
     "linea": "Love Potion",
     "variantes": [
@@ -963,7 +963,7 @@
     "imagen": "/images/Geles/s-boys1.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Aceites y cremas para masajes",
-    "stock": true,
+    "stock": false,
     "marca": "Sexitive",
     "linea": "",
     "variantes": [

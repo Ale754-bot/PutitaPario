@@ -4,7 +4,7 @@
     "nombre": "SUCCIONADOR SATYSFYER PRO 2",
     "precio": 95000,
     "imagen": "/images/juguetes/succionadorpro.webp",
-    "stock": true,
+    "stock": false,
     "talles": [],
     "descripcion": "Experimenta intensas pulsaciones a través de 11 intensidades distintas de ondas de presión, creando un efecto mágico en tus áreas sensibles."
   },

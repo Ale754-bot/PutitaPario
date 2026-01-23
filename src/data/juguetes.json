@@ -258,7 +258,7 @@
     "descripcion": "Diseño ergonómico con doble entrada. Textura interna suave y estimulante.",
     "imagen": "/images/juguetes/masturbadordoble.webp",
     "categoria": "Juguetes",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "precio": 85000
@@ -382,7 +382,7 @@
     "descripcion": "Descubre el Satisfyer Pro 2, un masturbador femenino que lleva la estimulación íntima al siguiente nivel gracias a su tecnología patentada Air-Pulse. Diseñado para excitar el clítoris mediante ondas de presión sin contacto que alcanzan un nuevo nivel de placer con 11 modos ajustables.",
     "imagen": "/images/juguetes/succionadorpro.webp",
     "categoria": "Juguetes",
-    "stock": true,
+    "stock": false,
     "marca": "SATYSFYER",
     "linea": "",
     "precio": 95000

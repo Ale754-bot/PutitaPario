@@ -10,7 +10,6 @@ import PageTransition from '../components/PageTransition'; // ✅ Importación a
 import { motion } from 'framer-motion';
 import { useCarrito } from '../context/CarritoContext'; // ✅ Importar el hook del carrito
 import TangasSection from '../components/TangasSection';
-import OfertaRelampago from "../components/OfertaRelampago";
 import PromoPopup from "../components/PromoPopup";
 import CarruselAnuncios from "../components/CarruselAnuncios";
 import OfertaCremas from "../components/OfertaCremas";
@@ -99,22 +98,6 @@ const Home = () => {
   <section className="mb-10">
 <OfertaCremas />
   </section>
-
-  {/* Bloque editorial introductorio */}
-  <div className="w-full text-center mb-8">
-    <h3 className="text-lg sm:text-xl font-bold text-red-600 uppercase tracking-wide">
-      El placer de sentir, explorar y conectar
-    </h3>
-    <p className="mt-3 max-w-2xl mx-auto text-sm sm:text-base text-gray-300 leading-relaxed">
-      Liberá tu mente y dejá que el cuerpo tome el control. Con aceites 
-      <span className="text-red-500 font-semibold"> HOT Inevitable </span> de 
-      <span className="text-red-500 font-semibold"> SEXITIVE </span> convierte cada toque en un viaje sensorial… 
-      porque la experiencia del tacto siempre se disfruta de a dos.
-    </p>
-  </div>
-
-  {/* Componente de la oferta */}
-  <OfertaRelampago />
 </section>
 
  <section id="labiales-vibradores" className="py-10 bg-black text-center px-4">

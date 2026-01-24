@@ -226,5 +226,18 @@
     "marca": "sexitive",
     "linea": "",
     "precio": 12000
+  },
+  {
+    "id": 219,
+    "nombre": "KamaSutra",
+    "descripcion": "",
+    "imagen": "/images/juegos/j20.jpg",
+    "categoria": "Juegos Sexuales",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "sexitive",
+    "linea": "",
+    "precio": 16000
   }
+
 ]

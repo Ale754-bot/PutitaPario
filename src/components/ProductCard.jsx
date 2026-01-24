@@ -289,7 +289,7 @@ const ProductCard = ({ producto, index }) => {
             onClick={handleAgregar}
             disabled={!puedeAgregar}
             className={`
-              px-6 py-2 rounded font-semibold transition-colors text-sm
+              px-6 py-2 rounded font-semibold transition-colors text-xs
               ${puedeAgregar
                 ? "bg-red-600 hover:bg-red-800 text-white"
                 : !stock

@@ -24,22 +24,77 @@ const Home = () => {
   const { agregarItem } = useCarrito(); // ✅ función para agregar al carrito
 
   // 🔥 Cápsula Erótica (ahora con 4 conjuntos)
-  const conjuntosCapsula = [ { id: 1, nombre: "Conjunto Magui Rojo", imagen: "/magui1.jpg", precioOriginal: 56000, precioOferta: 30000 }, { id: 2, nombre: "Conjunto Magui Negro", imagen: "/magui2.jpg", precioOriginal: 56000, precioOferta: 30000 }, { id: 3, nombre: "Conjunto Magui Blanco", imagen: "/magui3.jpg", precioOriginal: 56000, precioOferta: 30000 }, { id: 4, nombre: "Conjunto Magui Rosa", imagen: "/magui4.jpg", precioOriginal: 56000, precioOferta: 30000 } ];
+  const conjuntosCapsula = [ 
+    { id: 1, 
+      nombre: "Conjunto Magui Rojo", 
+      imagen: "/magui1.jpg", 
+      precioOriginal: 56000, 
+      precioOferta: 30000 }, 
+    
+    { id: 2, 
+      nombre: "Conjunto Magui Negro", 
+      imagen: "/magui2.jpg", 
+      precioOriginal: 56000, 
+      precioOferta: 30000 }, 
+      
+    { id: 3, 
+      nombre: "Conjunto Magui Blanco", 
+      imagen: "/magui3.jpg", 
+      precioOriginal: 56000, 
+      precioOferta: 30000 }, 
+      
+    { id: 4, 
+      nombre: "Conjunto Magui Rosa", 
+      imagen: "/magui4.jpg", 
+      precioOriginal: 56000, 
+      precioOferta: 30000 } 
+    ];
 
 // 🔥 Tangas con frases (ejemplo 6)
   const tangasFrases = [
-    { id: "frase-1", nombre: "Tanga 'Toda Adentro'", descripcion: "Con frase personalizada",
-      imagen: "/tanga1.jpg", precio: 12800, stock: true },
-    { id: "frase-2", nombre: "Tanga 'Casate Conmigo'", descripcion: "Con frase personalizada",
-      imagen: "/tanga2.jpg", precio: 12800, stock: true },
-    { id: "frase-3", nombre: "Tanga 'Felíz Aniversario'", descripcion: "Con frase personalizada",
-      imagen: "/tanga3.jpg", precio: 12800, stock: true },
-    { id: "frase-4", nombre: "Tanga 'Tu Putita'", descripcion: "Con frase personalizada",
-      imagen: "/tanga4.jpg", precio: 12800, stock: true },
-    { id: "frase-5", nombre: "Tanga 'Divorciate'", descripcion: "Con frase personalizada",
-      imagen: "/tanga5.jpg", precio: 12800, stock: true },
-    { id: "frase-6", nombre: "Tanga 'Dame Leche'", descripcion: "Con frase personalizada",
-      imagen: "/tanga6.jpg", precio: 12800, stock: true },
+    { id: "frase-1", 
+      nombre: "Tanga 'Toda Adentro'", 
+      descripcion: "Con frase personalizada",
+      imagen: "/tanga1.jpg", 
+      precio: 12800, 
+      stock: true 
+    },
+
+    { id: "frase-2", 
+      nombre: "Tanga 'Casate Conmigo'", 
+      descripcion: "Con frase personalizada",
+      imagen: "/tanga2.jpg", 
+      precio: 12800, 
+      stock: true 
+    },
+    { id: "frase-3", 
+      nombre: "Tanga 'Felíz Aniversario'", 
+      descripcion: "Con frase personalizada",
+      imagen: "/tanga3.jpg", 
+      precio: 12800, 
+      stock: true 
+    },
+    { id: "frase-4", 
+      nombre: "Tanga 'Tu Putita'", 
+      descripcion: "Con frase personalizada",
+      imagen: "/tanga4.jpg", 
+      precio: 12800, 
+      stock: true 
+    },
+    { id: "frase-5", 
+      nombre: "Tanga 'Divorciate'", 
+      descripcion: "Con frase personalizada",
+      imagen: "/tanga5.jpg", 
+      precio: 12800, 
+      stock: true 
+    },
+    { id: "frase-6", 
+      nombre: "Tanga 'Dame Leche'", 
+      descripcion: "Con frase personalizada",
+      imagen: "/tanga6.jpg", 
+      precio: 12800, 
+      stock: true 
+    },
   ];
 
   // 🔥 Tangas con nombres (ejemplo 6)

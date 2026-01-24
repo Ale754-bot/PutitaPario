@@ -5,10 +5,11 @@
     "descripcion": "Con frase personalizada",
     "imagen": "/tanga1.jpg",
     "categoria": "Tangas Personalizadas",
+    "subcategoria": "Frases",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": "12800"
+    "precio": 12800
   },
   {
     "id": 1301,
@@ -16,10 +17,11 @@
     "descripcion": "Con frase personalizada",
     "imagen": "/tanga2.jpg",
     "categoria": "Tangas Personalizadas",
+    "subcategoria": "Frases",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": "12800"
+    "precio": 12800
   },
   {
     "id": 1302,
@@ -27,10 +29,11 @@
     "descripcion": "Con frase personalizada",
     "imagen": "/tanga3.jpg",
     "categoria": "Tangas Personalizadas",
+    "subcategoria": "Frases",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": "12800"
+    "precio": 12800
   },
   {
     "id": 1303,
@@ -38,10 +41,11 @@
     "descripcion": "Con frase personalizada",
     "imagen": "/tanga4.jpg",
     "categoria": "Tangas Personalizadas",
+    "subcategoria": "Frases",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": "12800"
+    "precio": 12800
   },
   {
     "id": 1304,
@@ -49,10 +53,11 @@
     "descripcion": "Con frase personalizada",
     "imagen": "/tanga5.jpg",
     "categoria": "Tangas Personalizadas",
+    "subcategoria": "Frases",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": "12800"
+    "precio": 12800
   },
   {
     "id": 1305,
@@ -60,10 +65,11 @@
     "descripcion": "Con frase personalizada",
     "imagen": "/tanga6.jpg",
     "categoria": "Tangas Personalizadas",
+    "subcategoria": "Frases",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": "12800"
+    "precio": 12800
   },
   {
     "id": 1306,
@@ -71,10 +77,11 @@
     "descripcion": "Con nombre personalizado",
     "imagen": "/tangadiego.jpg",
     "categoria": "Tangas Personalizadas",
+    "subcategoria": "Nombres",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": "12800"
+    "precio": 12800
   },
   {
     "id": 1307,
@@ -82,10 +89,11 @@
     "descripcion": "Con nombre personalizado",
     "imagen": "/tangagustin.jpg",
     "categoria": "Tangas Personalizadas",
+    "subcategoria": "Nombres",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": "12800"
+    "precio": 12800
   },
   {
     "id": 1308,
@@ -93,10 +101,11 @@
     "descripcion": "Con nombre personalizado",
     "imagen": "/tangaignacio.jpg",
     "categoria": "Tangas Personalizadas",
+    "subcategoria": "Nombres",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": "12800"
+    "precio": 12800
   },
   {
     "id": 1309,
@@ -104,10 +113,11 @@
     "descripcion": "Con nombre personalizado",
     "imagen": "/tangalucas.jpg",
     "categoria": "Tangas Personalizadas",
+    "subcategoria": "Nombres",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": "12800"
+    "precio": 12800
   },
   {
     "id": 1310,
@@ -115,10 +125,11 @@
     "descripcion": "Con nombre personalizado",
     "imagen": "/tangamilton.jpg",
     "categoria": "Tangas Personalizadas",
+    "subcategoria": "Nombres",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": "12800"
+    "precio": 12800
   },
   {
     "id": 1311,
@@ -126,10 +137,11 @@
     "descripcion": "Con nombre personalizado",
     "imagen": "/tangarodrigo.jpg",
     "categoria": "Tangas Personalizadas",
+    "subcategoria": "Nombres",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": "12800"
+    "precio": 12800
   },
   {
     "id": 1312,
@@ -137,9 +149,22 @@
     "descripcion": "Con nombre personalizado",
     "imagen": "/tangasantiago.jpg",
     "categoria": "Tangas Personalizadas",
+    "subcategoria": "Nombres",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": "12800"
+    "precio": 12800
+  },
+  {
+    "id": 1313,
+    "nombre": "Personalizada (a elección)",
+    "descripcion": "Creá tu propia frase o nombre",
+    "imagen": "/tanga3.jpg",
+    "categoria": "Tangas Personalizadas",
+    "subcategoria": "Personalizado",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": 16000
   }
 ]

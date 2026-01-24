@@ -275,7 +275,7 @@
     "descripcion": "",
     "imagen": "/images/plugs/plugcascabel.jpg",
     "categoria": "Plugs",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "precio": 25000

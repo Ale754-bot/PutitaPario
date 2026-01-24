@@ -1025,5 +1025,56 @@
         "precio": 16000
       }
     ]
+  },
+  {
+    "id": 61,
+    "nombre": "Body Oil - So Excited",
+    "descripcion": "",
+    "imagen": "/SO EXCITED.png",
+    "categoria": "Geles, Aceites & Cremas",
+    "subcategoria": "Aceites y cremas para masajes",
+    "stock": false,
+    "marca": "Sexitive",
+    "linea": "",
+    "variantes": [
+      {
+        "tamaño": "125ml",
+        "precio": 16000
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "nombre": "Body Oil - Privée",
+    "descripcion": "",
+    "imagen": "/PRIVEE.png",
+    "categoria": "Geles, Aceites & Cremas",
+    "subcategoria": "Aceites y cremas para masajes",
+    "stock": false,
+    "marca": "Sexitive",
+    "linea": "",
+    "variantes": [
+      {
+        "tamaño": "125ml",
+        "precio": 16000
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "nombre": "Body Oil - Very Sexy",
+    "descripcion": "",
+    "imagen": "/VERY SEXY.png",
+    "categoria": "Geles, Aceites & Cremas",
+    "subcategoria": "Aceites y cremas para masajes",
+    "stock": false,
+    "marca": "Sexitive",
+    "linea": "",
+    "variantes": [
+      {
+        "tamaño": "125ml",
+        "precio": 16000
+      }
+    ]
   }
 ]

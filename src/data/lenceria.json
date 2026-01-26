@@ -768,7 +768,17 @@
       "imagen": "/images/lenceria/corset/brilloso/corsetblanco.webp"
     }
   ]
+},
+{
+  "id": 722,
+  "nombre": "Conjunto Candela",
+  "descripcion": "",
+  "imagen": "/images/lenceria/Conjuntocandela.jpg",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": false,
+  "precioBase": 19800,
+  "nuevo": true
 }
-
 
 ]

@@ -21,17 +21,17 @@ const ProductCardLenceria = ({ producto, index }) => {
 
   const tieneVariantes = variantes && variantes.length > 0;
   const tieneColores = mostrarColor && variantes?.some(v => v.color);
-  const coloresDisponibles = [...new Set(variantes.map(v => v.color))];
+  const coloresDisponibles = variantes ? [...new Set(variantes.map(v => v.color))] : [];
 
   const variantePorColor = colorSeleccionado
-    ? variantes.find(v => v.color === colorSeleccionado)
+    ? variantes?.find(v => v.color === colorSeleccionado)
     : null;
 
   useEffect(() => {
-    if (tieneVariantes && variantes.length === 1) {
+    if (tieneVariantes && variantes?.length === 1) {
       setColorSeleccionado(variantes[0].color);
     }
-  }, [variantes]);
+  }, [variantes, tieneVariantes]);
 
   const precioFinal = producto.precioBase 
     ?? variantePorColor?.precio 
@@ -79,7 +79,7 @@ const ProductCardLenceria = ({ producto, index }) => {
   // Texto dinámico del botón
   const textoBoton = !stock
     ? "Sin stock"
-    : !colorSeleccionado
+    : !colorSeleccionado && tieneColores
     ? "Elegí un color"
     : "Consultar por WhatsApp";
 
@@ -108,10 +108,10 @@ const ProductCardLenceria = ({ producto, index }) => {
           </span>
         )}
         {producto.nuevo && (
-  <span className="absolute top-2 right-2 bg-gradient-to-r from-red-800 to-black text-white text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wide shadow-md z-10">
-    Nuevo
-  </span>
-)}
+          <span className="absolute top-2 right-2 bg-gradient-to-r from-red-800 to-black text-white text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wide shadow-md z-10">
+            Nuevo
+          </span>
+        )}
 
         {!stock && (
           <div className="absolute top-0 right-0 bg-gray-900/80 text-white font-bold px-3 py-1 rounded-bl-lg">
@@ -162,7 +162,7 @@ const ProductCardLenceria = ({ producto, index }) => {
                       ${isSelected ? 'border-acento scale-110' : 'border-white/20'}
                       transition-transform duration-300
                     `}
-                    style={{ backgroundColor: variantes.find(v => v.color === color)?.colorHex || color.toLowerCase() }}
+                    style={{ backgroundColor: variantes?.find(v => v.color === color)?.colorHex || color.toLowerCase() }}
                     title={color}
                   />
                 );
@@ -182,10 +182,10 @@ const ProductCardLenceria = ({ producto, index }) => {
         <div className="mt-auto pt-3 flex justify-center">
           <button
             onClick={handleWhatsApp}
-            disabled={!stock || !colorSeleccionado}
+            disabled={!stock || (tieneColores && !colorSeleccionado)}
             className={`
               px-6 py-2 rounded font-semibold transition-colors text-sm
-              ${stock && colorSeleccionado
+              ${stock && (!tieneColores || colorSeleccionado)
                 ? "bg-green-600 hover:bg-green-800 text-white"
                 : "bg-gray-600 text-white cursor-not-allowed"}
             `}

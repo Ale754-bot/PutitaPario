@@ -1,9 +1,10 @@
 import React from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { useCarrito } from "../context/CarritoContext"; // ajustá la ruta según tu proyecto
 
 const productosNuevos = [
-  { id: 2001, 
+  { id: 2001,
     nombre: "Masturbador Ultra Realístico - Con vibración",
     precio: 156000,
     imagen: "/masturbadorultrareal.jpg"
@@ -71,6 +72,8 @@ const AnimatedTitle = () => {
 };
 
 const NuevosIngresosJuguetes = () => {
+  const { agregarItem } = useCarrito(); // 👈 integración con tu contexto
+
   return (
     <section className="py-12 bg-black text-white">
       <div className="max-w-6xl mx-auto px-4">
@@ -107,7 +110,10 @@ const NuevosIngresosJuguetes = () => {
                     <p className="text-base font-bold text-red-500 mb-2">
                       ${producto.precio.toLocaleString("es-AR")}
                     </p>
-                    <button className="mt-auto bg-red-600 hover:bg-red-800 text-white text-sm font-semibold py-2 px-4 rounded transition-colors">
+                    <button
+                      onClick={() => agregarItem(producto)} // 👈 ahora agrega al carrito
+                      className="mt-auto bg-red-600 hover:bg-red-800 text-white text-sm font-semibold py-2 px-4 rounded transition-colors"
+                    >
                       Agregar al carrito
                     </button>
                   </div>
@@ -149,6 +155,7 @@ const NuevosIngresosJuguetes = () => {
                 </p>
                 <motion.button
                   whileHover={{ scale: 1.1 }}
+                  onClick={() => agregarItem(producto)} // 👈 integración con carrito
                   className="mt-auto bg-red-600 hover:bg-red-800 text-white text-sm font-semibold py-2 px-6 rounded transition-colors shadow-lg"
                 >
                   Agregar al carrito

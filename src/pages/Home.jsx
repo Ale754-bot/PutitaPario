@@ -13,6 +13,7 @@ import TangasSection from '../components/TangasSection';
 import PromoPopup from "../components/PromoPopup";
 import CarruselAnuncios from "../components/CarruselAnuncios";
 import OfertaCremas from "../components/OfertaCremas";
+import NuevosIngresosJuguetes from "../components/NuevosIngresosJuguetes";
 
 import LipstickVibeOffer from "../components/LipstickVibeOffer";
 
@@ -147,6 +148,9 @@ const Home = () => {
 {/* Sección Oferta Relámpago */}
 <section className="bg-black text-center py-10">
   {/* Título principal de la sección */}
+
+  <NuevosIngresosJuguetes />
+
   <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white uppercase tracking-wide mb-6">
     Ofertas Relámpago
   </h2>

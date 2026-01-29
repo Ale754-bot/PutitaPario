@@ -7,7 +7,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
-    "precio": "32000",
+    "precio": 32000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -19,7 +19,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
-    "precio": "32000",
+    "precio": 32000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -31,7 +31,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
-    "precio": "32000",
+    "precio": 32000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -43,7 +43,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
-    "precio": "32000",
+    "precio": 32000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -55,7 +55,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
-    "precio": "32000",
+    "precio": 32000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -67,7 +67,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
-    "precio": "32000",
+    "precio": 32000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -90,7 +90,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
-    "precio": "54000",
+    "precio": 54000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -102,7 +102,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
-    "precio": "54000",
+    "precio": 54000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -114,7 +114,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
-    "precio": "59000",
+    "precio": 59000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -126,7 +126,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "",
-    "precio": "25000",
+    "precio": 25000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -138,7 +138,7 @@
     "categoria": "Juguetes",
     "stock": false,
     "marca": "SEXY Y FUNNY",
-    "precio": "115000",
+    "precio": 115000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -150,7 +150,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "SATYSFYER",
-    "precio": "85000",
+    "precio": 85000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -162,7 +162,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "CALEXOTICS",
-    "precio": "20000",
+    "precio": 20000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -234,9 +234,9 @@
     "descripcion": "...",
     "imagen": "/images/juguetes/balacontrol.webp",
     "categoria": "Juguetes",
-    "stock": false,
+    "stock": true,
     "marca": "pretty love",
-    "precio": "65000",
+    "precio": 65000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -246,9 +246,9 @@
     "descripcion": "...",
     "imagen": "/images/juguetes/balausb.webp",
     "categoria": "Juguetes",
-    "stock": false,
+    "stock": true,
     "marca": "pretty love",
-    "precio": "78000",
+    "precio": 78000,
     "mostrarColor": false,
     "variantes": []
   },

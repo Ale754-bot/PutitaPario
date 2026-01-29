@@ -1,5 +1,217 @@
 [
   {
+    "id": 64,
+    "nombre": "Gel - Neutro",
+    "descripcion": "",
+    "imagen": "/images/Geles/missv-neutro.jpg",
+    "categoria": "Geles, Aceites & Cremas",
+    "subcategoria": "Geles lubricantes",
+    "stock": true,
+    "marca": "Miss V",
+    "linea": "",
+    "etiqueta": "Nuevo ingreso",
+    "variantes": [
+      { "tamaño": "50ml", "precio": 12800 }
+    ]
+  },
+  {
+    "id": 65,
+    "nombre": "Gel - Efecto Calor",
+    "descripcion": "",
+    "imagen": "/images/Geles/missv-calor.jpg",
+    "categoria": "Geles, Aceites & Cremas",
+    "subcategoria": "Geles lubricantes",
+    "stock": true,
+    "marca": "Miss V",
+    "linea": "",
+    "etiqueta": "Nuevo ingreso",
+    "variantes": [
+      { "tamaño": "50ml", "precio": 12800 }
+    ]
+  },
+  {
+    "id": 66,
+    "nombre": "Gel - Efecto Frío",
+    "descripcion": "",
+    "imagen": "/images/Geles/missv-frio.jpg",
+    "categoria": "Geles, Aceites & Cremas",
+    "subcategoria": "Geles lubricantes",
+    "stock": true,
+    "marca": "Miss V",
+    "linea": "",
+    "etiqueta": "Nuevo ingreso",
+    "variantes": [
+      { "tamaño": "50ml", "precio": 12800 }
+    ]
+  },
+  {
+    "id": 67,
+    "nombre": "Gel - Sedanal",
+    "descripcion": "",
+    "imagen": "/images/Geles/missv-sedanal.jpg",
+    "categoria": "Geles, Aceites & Cremas",
+    "subcategoria": "Geles lubricantes",
+    "stock": true,
+    "marca": "Miss V",
+    "linea": "",
+    "etiqueta": "Nuevo ingreso",
+    "variantes": [
+      { "tamaño": "50ml", "precio": 12800 }
+    ]
+  },
+  {
+    "id": 68,
+    "nombre": "Gel - Try Anal",
+    "descripcion": "",
+    "imagen": "/images/Geles/missv-try.jpg",
+    "categoria": "Geles, Aceites & Cremas",
+    "subcategoria": "Geles lubricantes",
+    "stock": true,
+    "marca": "Miss V",
+    "linea": "",
+    "etiqueta": "Nuevo ingreso",
+    "variantes": [
+      { "tamaño": "50ml", "precio": 12800 }
+    ]
+  },
+  {
+    "id": 69,
+    "nombre": "Gel - Dulce de Leche",
+    "descripcion": "",
+    "imagen": "/images/Geles/missv-ddl.jpg",
+    "categoria": "Geles, Aceites & Cremas",
+    "subcategoria": "Geles lubricantes",
+    "stock": true,
+    "marca": "Miss V",
+    "linea": "",
+    "etiqueta": "Nuevo ingreso",
+    "variantes": [
+      { "tamaño": "50ml", "precio": 12800 }
+    ]
+  },
+  {
+    "id": 70,
+    "nombre": "Gel - Chupaleta",
+    "descripcion": "",
+    "imagen": "/images/Geles/missv-chupaleta.jpg",
+    "categoria": "Geles, Aceites & Cremas",
+    "subcategoria": "Geles lubricantes",
+    "stock": true,
+    "marca": "Miss V",
+    "linea": "",
+    "etiqueta": "Nuevo ingreso",
+    "variantes": [
+      { "tamaño": "50ml", "precio": 12800 }
+    ]
+  },
+  {
+    "id": 71,
+    "nombre": "Gel - Chicle",
+    "descripcion": "",
+    "imagen": "/images/Geles/missv-chicle.jpg",
+    "categoria": "Geles, Aceites & Cremas",
+    "subcategoria": "Geles lubricantes",
+    "stock": true,
+    "marca": "Miss V",
+    "linea": "",
+    "etiqueta": "Nuevo ingreso",
+    "variantes": [
+      { "tamaño": "50ml", "precio": 12800 }
+    ]
+  },
+  {
+    "id": 72,
+    "nombre": "Gel - Ego",
+    "descripcion": "",
+    "imagen": "/images/Geles/missv-ego.jpg",
+    "categoria": "Geles, Aceites & Cremas",
+    "subcategoria": "Geles lubricantes",
+    "stock": true,
+    "marca": "Miss V",
+    "linea": "",
+    "etiqueta": "Nuevo ingreso",
+    "variantes": [
+      { "tamaño": "50ml", "precio": 12800 }
+    ]
+  },
+  {
+    "id": 73,
+    "nombre": "Gel - Azul",
+    "descripcion": "",
+    "imagen": "/images/Geles/missv-azul.jpg",
+    "categoria": "Geles, Aceites & Cremas",
+    "subcategoria": "Geles lubricantes",
+    "stock": true,
+    "marca": "Miss V",
+    "linea": "",
+    "etiqueta": "Nuevo ingreso",
+    "variantes": [
+      { "tamaño": "50ml", "precio": 12800 }
+    ]
+  },
+  {
+    "id": 74,
+    "nombre": "Gel - L'arginina",
+    "descripcion": "",
+    "imagen": "/images/Geles/missv-larginina.jpg",
+    "categoria": "Geles, Aceites & Cremas",
+    "subcategoria": "Geles lubricantes",
+    "stock": true,
+    "marca": "Miss V",
+    "linea": "",
+    "etiqueta": "Nuevo ingreso",
+    "variantes": [
+      { "tamaño": "50ml", "precio": 12800 }
+    ]
+  },
+  {
+    "id": 75,
+    "nombre": "Gel - Vegano",
+    "descripcion": "",
+    "imagen": "/images/Geles/missv-vegano.jpg",
+    "categoria": "Geles, Aceites & Cremas",
+    "subcategoria": "Geles lubricantes",
+    "stock": true,
+    "marca": "Miss V",
+    "linea": "",
+    "etiqueta": "Nuevo ingreso",
+    "variantes": [
+      { "tamaño": "50ml", "precio": 12800 }
+    ]
+  },
+  {
+    "id": 76,
+    "nombre": "Gel - Maca",
+    "descripcion": "",
+    "imagen": "/images/Geles/sexitive-maca.jpg",
+    "categoria": "Geles, Aceites & Cremas",
+    "subcategoria": "Geles lubricantes",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "Sens",
+    "etiqueta": "Nuevo ingreso",
+    "variantes": [
+      { "tamaño": "70g", "precio": 13800 }
+    ]
+  },
+  {
+    "id": 77,
+    "nombre": "Gel - Sándalo Rojo",
+    "descripcion": "",
+    "imagen": "/images/Geles/sexitive-sandalo.jpg",
+    "categoria": "Geles, Aceites & Cremas",
+    "subcategoria": "Geles lubricantes",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "Sens",
+    "etiqueta": "Nuevo ingreso",
+    "variantes": [
+      { "tamaño": "70g", "precio": 13800 }
+    ]
+  },
+
+
+  {
     "id": 1,
     "nombre": "Gel Lubricante - Neutro",
     "descripcion": "Gel lubricante hidrosoluble. No mancha, no deja residuos. Alta lubricación y piel humectada al terminar.",

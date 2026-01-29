@@ -18,8 +18,10 @@ const ProductCard = ({ producto, index }) => {
     mostrarColor,
     categoria,
     precioOriginal,
-    precioOferta
+    precioOferta,
+    etiqueta // 👈 agregamos esta propiedad
   } = producto;
+
 
   const [talleSeleccionado, setTalleSeleccionado] = useState("");
   const [varianteSeleccionada, setVarianteSeleccionada] = useState(null);
@@ -130,179 +132,194 @@ const ProductCard = ({ producto, index }) => {
     },
   };
   return (
-    <motion.div
-      ref={ref}
-      initial="hidden"
-      animate={controls}
-      variants={fadeUp}
-      className="
-        w-full bg-black text-white rounded-xl overflow-hidden shadow-lg 
-        transition duration-300 ease-in-out 
-        hover:shadow-red/500 hover:scale-[1.02]
-        border border-gray-800 hover:border-acento
-        flex flex-col
-      "
-    >
-      {/* Imagen */}
-      <div className="w-full aspect-square overflow-hidden relative">
-        <img 
-          src={imagenFinal} 
-          alt={nombre} 
-          className="w-full h-full object-cover transition duration-500 hover:scale-120"
-        />
-        {etiquetaMarca && (
-          <span className="absolute top-2 left-2 bg-black text-white text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wide shadow-md z-10">
-            {etiquetaMarca}
-          </span>
-        )}
-        {porcentajeOferta && (
-  <div className="absolute bottom-2 right-2 bg-gradient-to-r from-red-500 to-black 
-                  text-white text-xs font-bold px-2 py-1 rounded-md shadow-md z-10">
-    {porcentajeOferta}% OFF
-  </div>
-)}
+  <motion.div
+    ref={ref}
+    initial="hidden"
+    animate={controls}
+    variants={fadeUp}
+    className="
+      w-full bg-black text-white rounded-xl overflow-hidden shadow-lg 
+      transition duration-300 ease-in-out 
+      hover:shadow-red/500 hover:scale-[1.02]
+      border border-gray-800 hover:border-acento
+      flex flex-col
+    "
+  >
+    {/* Imagen */}
+    <div className="w-full aspect-square overflow-hidden relative">
+      <img 
+        src={imagenFinal} 
+        alt={nombre} 
+        className="w-full h-full object-cover transition duration-500 hover:scale-120"
+      />
 
-        {!stock && (
-          <div className="absolute top-0 right-0 bg-gray-900/80 text-white font-bold px-3 py-1 rounded-bl-lg">
-            AGOTADO
-          </div>
-        )}
+      {/* Etiqueta de marca existente */}
+      {etiquetaMarca && (
+        <span className="absolute top-2 left-2 bg-black text-white text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wide shadow-md z-10">
+          {etiquetaMarca}
+        </span>
+      )}
+
+      {/* NUEVO: badge circular para “Nuevo ingreso” */}
+      {etiqueta === "Nuevo ingreso" && (
+        <div className="absolute top-2 right-2 w-7 h-7 rounded-full bg-red-700 flex items-center justify-center shadow-lg z-20">
+          <span className="text-[7px] font-semibold text-white uppercase tracking-wide">
+            Nuevo
+          </span>
+        </div>
+      )}
+
+      {/* Oferta */}
+      {porcentajeOferta && (
+        <div className="absolute bottom-2 right-2 bg-gradient-to-r from-red-500 to-black 
+                        text-white text-xs font-bold px-2 py-1 rounded-md shadow-md z-10">
+          {porcentajeOferta}% OFF
+        </div>
+      )}
+
+      {/* Stock */}
+      {!stock && (
+        <div className="absolute top-0 right-0 bg-gray-900/80 text-white font-bold px-3 py-1 rounded-bl-lg">
+          AGOTADO
+        </div>
+      )}
+    </div>
+
+    {/* Contenido */}
+    <div className="p-3 flex flex-col flex-grow">
+      {/* Descripción */}
+      <div className="flex flex-col gap-1 text-center flex-grow">
+        <h2 className="text-sm font-semibold text-white leading-snug break-words">
+          {nombre}
+        </h2>
+        <div
+          className={`text-xs text-gray-300 overflow-hidden transition-all duration-300 ${
+            expandido ? 'max-h-32' : 'max-h-0'
+          }`}
+        >
+          <p className="leading-tight">{descripcion}</p>
+        </div>
+        <button
+          onClick={() => setExpandido(!expandido)}
+          className="text-[11px] text-red-500 mt-1 underline focus:outline-none"
+        >
+          {expandido ? 'Ver menos' : 'Ver descripción'}
+        </button>
       </div>
 
-      {/* Contenido */}
-      <div className="p-3 flex flex-col flex-grow">
-        {/* Descripción */}
-        <div className="flex flex-col gap-1 text-center flex-grow">
-          <h2 className="text-sm font-semibold text-white leading-snug break-words">
-            {nombre}
-          </h2>
-          <div
-            className={`text-xs text-gray-300 overflow-hidden transition-all duration-300 ${
-              expandido ? 'max-h-32' : 'max-h-0'
-            }`}
-          >
-            <p className="leading-tight">{descripcion}</p>
-          </div>
-          <button
-            onClick={() => setExpandido(!expandido)}
-            className="text-[11px] text-red-500 mt-1 underline focus:outline-none"
-          >
-            {expandido ? 'Ver menos' : 'Ver descripción'}
-          </button>
-        </div>
-
-        {/* Interacción */}
-        <div className="mt-3 flex flex-col items-center justify-start">
-          {porcentajeOferta ? (
-            <>
-              <p className="text-gray-400 line-through text-xs">
-                ${precioBase.toLocaleString("es-AR")}
-              </p>
-              <p className="text-base text-red-700 font-bold mb-2">
-                ${precioFinal.toLocaleString("es-AR")}
-              </p>
-            </>
-          ) : (
+      {/* Interacción */}
+      <div className="mt-3 flex flex-col items-center justify-start">
+        {porcentajeOferta ? (
+          <>
+            <p className="text-gray-400 line-through text-xs">
+              ${precioBase.toLocaleString("es-AR")}
+            </p>
             <p className="text-base text-red-700 font-bold mb-2">
               ${precioFinal.toLocaleString("es-AR")}
             </p>
-          )}
+          </>
+        ) : (
+          <p className="text-base text-red-700 font-bold mb-2">
+            ${precioFinal.toLocaleString("es-AR")}
+          </p>
+        )}
 
-          {/* Círculos de color */}
-          {tieneColores && (
-            <div className="flex justify-center gap-2 mb-2">
+        {/* Círculos de color */}
+        {tieneColores && (
+          <div className="flex justify-center gap-2 mb-2">
+            {variantes.map((v, idx) => {
+              const isSelected = varianteSeleccionada === v;
+              return (
+                <button
+                  key={idx}
+                  onClick={() => setVarianteSeleccionada(v)}
+                  className={`
+                    w-4 h-4 rounded-full border
+                    ${isSelected ? 'border-acento scale-110' : 'border-white/20'}
+                    transition-transform duration-300
+                  `}
+                  style={{ backgroundColor: v.colorHex || v.color?.toLowerCase() || "#999" }}
+                  title={v.color}
+                />
+              );
+            })}
+          </div>
+        )}
+
+        {/* Botones de variante (si no es color) */}
+        {tieneVariantes && !tieneColores && (
+          <div className="text-center">
+            <label className="block text-xs font-medium text-gray-300 mb-1">
+              {tipoVariante === "talle" ? "Talle:" : "Tamaño:"}
+            </label>
+            <div className="flex justify-center gap-2 flex-wrap">
               {variantes.map((v, idx) => {
+                const valor = tipoVariante === "talle" ? v.talle : v.tamaño;
                 const isSelected = varianteSeleccionada === v;
                 return (
                   <button
                     key={idx}
                     onClick={() => setVarianteSeleccionada(v)}
                     className={`
-                      w-4 h-4 rounded-full border
-                      ${isSelected ? 'border-acento scale-110' : 'border-white/20'}
-                      transition-transform duration-300
-                    `}
-                    style={{ backgroundColor: v.colorHex || v.color?.toLowerCase() || "#999" }}
-                    title={v.color}
-                  />
-                );
-              })}
-            </div>
-          )}
-
-          {/* Botones de variante (si no es color) */}
-          {tieneVariantes && !tieneColores && (
-            <div className="text-center">
-              <label className="block text-xs font-medium text-gray-300 mb-1">
-                {tipoVariante === "talle" ? "Talle:" : "Tamaño:"}
-              </label>
-              <div className="flex justify-center gap-2 flex-wrap">
-                {variantes.map((v, idx) => {
-                  const valor = tipoVariante === "talle" ? v.talle : v.tamaño;
-                  const isSelected = varianteSeleccionada === v;
-                  return (
-                    <button
-                      key={idx}
-                      onClick={() => setVarianteSeleccionada(v)}
-                      className={`
-                        px-2 py-1 rounded-full border text-xs
-                        ${isSelected ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
-                        hover:bg-red-800 transition-all
-                      `}
-                    >
-                      {valor}
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          )}
-
-          {/* Botones de talle plano */}
-          {tieneTalles && (
-            <div className="text-center mt-2">
-              <label className="block text-xs font-medium text-gray-300 mb-1">
-                Talle:
-              </label>
-              <div className="flex justify-center gap-2 flex-wrap">
-                {talles.map((talle) => (
-                  <button
-                    key={talle}
-                    onClick={() => setTalleSeleccionado(talle)}
-                    className={`
                       px-2 py-1 rounded-full border text-xs
-                      ${talleSeleccionado === talle ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
+                      ${isSelected ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
                       hover:bg-red-800 transition-all
                     `}
                   >
-                    {talle}
+                    {valor}
                   </button>
-                ))}
-              </div>
+                );
+              })}
             </div>
-          )}
-        </div>
+          </div>
+        )}
 
-        {/* Botón */}
-        <div className="mt-auto pt-3 flex justify-center">
-          <button
-            onClick={handleAgregar}
-            disabled={!puedeAgregar}
-            className={`
-              px-6 py-2 rounded font-semibold transition-colors text-xs
-              ${puedeAgregar
-                ? "bg-red-600 hover:bg-red-800 text-white"
-                : !stock
-                ? "bg-gray-800 text-gray-400 cursor-not-allowed"
-                : "bg-gray-600 text-white cursor-not-allowed"}
-            `}
-          >
-            {textoBoton}
-          </button>
-        </div>
+        {/* Botones de talle plano */}
+        {tieneTalles && (
+          <div className="text-center mt-2">
+            <label className="block text-xs font-medium text-gray-300 mb-1">
+              Talle:
+            </label>
+            <div className="flex justify-center gap-2 flex-wrap">
+              {talles.map((talle) => (
+                <button
+                  key={talle}
+                  onClick={() => setTalleSeleccionado(talle)}
+                  className={`
+                    px-2 py-1 rounded-full border text-xs
+                    ${talleSeleccionado === talle ? 'bg-acento text-white' : 'bg-black text-white border-gray-600'}
+                    hover:bg-red-800 transition-all
+                  `}
+                >
+                  {talle}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
-    </motion.div>
-  );
+
+      {/* Botón */}
+      <div className="mt-auto pt-3 flex justify-center">
+        <button
+          onClick={handleAgregar}
+          disabled={!puedeAgregar}
+          className={`
+            px-6 py-2 rounded font-semibold transition-colors text-xs
+            ${puedeAgregar
+              ? "bg-red-600 hover:bg-red-800 text-white"
+              : !stock
+              ? "bg-gray-800 text-gray-400 cursor-not-allowed"
+              : "bg-gray-600 text-white cursor-not-allowed"}
+          `}
+        >
+          {textoBoton}
+        </button>
+      </div>
+    </div>
+  </motion.div>
+);
+
 };
 
 export default ProductCard;

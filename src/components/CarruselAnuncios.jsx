@@ -5,10 +5,16 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const banners = [
+  
   {
     titulo: "",
     imagen: "/CARRUPERFUME.jpg",
     link: "/productos?categoria=perfumes#hombre",
+  },
+  {
+    titulo: "",
+    imagen: "/CARRUMISSV.jpg",
+    link: "/productos",
   },
   {
     titulo: "",

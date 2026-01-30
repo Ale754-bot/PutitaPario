@@ -30,7 +30,7 @@
     "imagen": "/images/dildos/sopapa/dildosopapa3.webp",
     "categoria": "Dildos & Vibradores",
     "subcategoria": "Sopapa",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "precio": 32000
@@ -66,7 +66,7 @@
     "imagen": "/images/dildos/sopapa/dildosopapa6.webp",
     "categoria": "Dildos & Vibradores",
     "subcategoria": "Sopapa",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "precio": 32000
@@ -78,7 +78,7 @@
     "imagen": "/images/dildos/sopapa/dildosopapa7.webp",
     "categoria": "Dildos & Vibradores",
     "subcategoria": "Sopapa",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "precio": 32000
@@ -90,7 +90,7 @@
     "imagen": "/images/dildos/sopapa/dildosopapa8.webp",
     "categoria": "Dildos & Vibradores",
     "subcategoria": "Sopapa",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "precio": 32000
@@ -102,7 +102,7 @@
     "imagen": "/images/dildos/sopapa/dildosopapa9.webp",
     "categoria": "Dildos & Vibradores",
     "subcategoria": "Sopapa",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "precio": 32000
@@ -222,7 +222,7 @@
     "imagen": "/images/dildos/macizo/macizo4.webp",
     "categoria": "Dildos & Vibradores",
     "subcategoria": "Macizo",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "precio": 32000
@@ -330,7 +330,7 @@
     "imagen": "/images/dildos/vibradores/vibrador8.webp",
     "categoria": "Dildos & Vibradores",
     "subcategoria": "Vibradores",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "precio": 38000
@@ -342,7 +342,7 @@
     "imagen": "/images/dildos/vibradores/vibrador9.webp",
     "categoria": "Dildos & Vibradores",
     "subcategoria": "Vibradores",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "precio": 38000
@@ -426,7 +426,7 @@
     "imagen": "/images/dildos/vibradores/vibrador16.webp",
     "categoria": "Dildos & Vibradores",
     "subcategoria": "Vibradores",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "precio": 38000

@@ -1039,7 +1039,7 @@
     "imagen": "/images/Geles/s-sr.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Aceites y cremas para masajes",
-    "stock": true,
+    "stock": false,
     "marca": "Sexitive",
     "linea": "SensBomb",
     "variantes": [

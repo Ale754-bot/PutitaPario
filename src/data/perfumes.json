@@ -91,7 +91,7 @@
     "imagen": "/images/perfumes/mujer/m6.webp",
     "categoria": "Perfumes Afrodisíacos y Body Splash",
     "subcategoria": "Mujer",
-    "stock": true,
+    "stock": false,
     "marca": "sexitive",
     "linea": "",
     "variantes": [
@@ -425,7 +425,7 @@
     "imagen": "/images/perfumes/body/bs6.webp",
     "categoria": "Perfumes Afrodisíacos y Body Splash",
     "subcategoria": "Body Splash",
-    "stock": false,
+    "stock": true,
     "marca": "sexitive",
     "linea": "",
     "variantes": [

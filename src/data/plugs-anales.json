@@ -78,7 +78,7 @@
     "imagen": "/images/plugs/doradorosa.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -180,7 +180,7 @@
     "imagen": "/images/plugs/zorroriginal.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -231,7 +231,7 @@
     "imagen": "/images/plugs/zorrorosa.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -248,7 +248,7 @@
     "imagen": "/images/plugs/negrousb.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -275,7 +275,7 @@
     "descripcion": "",
     "imagen": "/images/plugs/plugcascabel.jpg",
     "categoria": "Plugs",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "precio": 25000

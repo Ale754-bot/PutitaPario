@@ -412,7 +412,7 @@
     "descripcion": "",
     "imagen": "/images/bdsm/soga.webp",
     "categoria": "BDSM",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "precio": "10000"

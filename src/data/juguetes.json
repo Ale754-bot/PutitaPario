@@ -306,7 +306,7 @@
     "descripcion": "Succionador recargable con múltiples intensidades. Estimula con precisión y suavidad.",
     "imagen": "/images/juguetes/succionadorfucsia.webp",
     "categoria": "Juguetes",
-    "stock": true,
+    "stock": false,
     "precio": 48000,
     "marca": "",
     "linea": "",

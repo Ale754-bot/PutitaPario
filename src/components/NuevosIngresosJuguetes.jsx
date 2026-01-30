@@ -7,33 +7,39 @@ const productosNuevos = [
   { id: 2001,
     nombre: "Masturbador Ultra Realístico - Con vibración",
     precio: 156000,
-    imagen: "/masturbadorultrareal.jpg"
-},
+    imagen: "/masturbadorultrareal.jpg",
+    stock: false   // 👈 sin stock
+  },
   { id: 2002,
     nombre: "Ducha Limpieza Anal - 89ml ",
     precio: 22000,
-    imagen: "/images/plugs/duchanal.webp"
-},
+    imagen: "/images/plugs/duchanal.webp",
+    stock: true
+  },
   { id: 2003,
     nombre: "Huevo Vibrador Con Control Remoto",
     precio: 65000,
-    imagen: "/huevo.jpg"
-},
+    imagen: "/huevo.jpg",
+    stock: true
+  },
   { id: 2004,
     nombre: "Vibrador Doble Brighty",
     precio: 58000,
-    imagen: "/brighty.jpg"
-},
+    imagen: "/brighty.jpg",
+    stock: true
+  },
   { id: 2005,
     nombre: "Masturbador Masculino Premium",
     precio: 83000,
-    imagen: "/masturbadorpremium.jpg"
-},
+    imagen: "/masturbadorpremium.jpg",
+    stock: true
+  },
   { id: 2006,
     nombre: "Dildo Vibrador Sopapa",
     precio: 85000,
-    imagen: "/dildosopapavibrador.jpg"
-},
+    imagen: "/dildosopapavibrador.jpg",
+    stock: false   // 👈 sin stock
+  },
 ];
 
 // Función para dividir en grupos de 3
@@ -72,14 +78,14 @@ const AnimatedTitle = () => {
 };
 
 const NuevosIngresosJuguetes = () => {
-  const { agregarItem } = useCarrito(); // 👈 integración con tu contexto
+  const { agregarItem } = useCarrito();
 
   return (
     <section className="py-12 bg-black text-white">
       <div className="max-w-6xl mx-auto px-4">
         <AnimatedTitle />
 
-        {/* Mobile: dos filas de 3 productos con scroll horizontal */}
+        {/* Mobile */}
         <div className="lg:hidden flex flex-col gap-6">
           {chunkArray(productosNuevos, 3).map((grupo, idx) => (
             <div
@@ -104,6 +110,11 @@ const NuevosIngresosJuguetes = () => {
                     <span className="absolute top-2 right-2 bg-gradient-to-r from-red-700 to-black text-white text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wide shadow-md">
                       Nuevo ingreso
                     </span>
+                    {!producto.stock && (
+                      <div className="absolute top-0 left-0 bg-black/70 text-white text-xs font-bold px-2 py-1">
+                        SIN STOCK
+                      </div>
+                    )}
                   </div>
                   <div className="p-3 text-center flex flex-col flex-grow">
                     <h3 className="text-sm font-semibold mb-2">{producto.nombre}</h3>
@@ -111,10 +122,14 @@ const NuevosIngresosJuguetes = () => {
                       ${producto.precio.toLocaleString("es-AR")}
                     </p>
                     <button
-                      onClick={() => agregarItem(producto)} // 👈 ahora agrega al carrito
-                      className="mt-auto bg-red-600 hover:bg-red-800 text-white text-sm font-semibold py-2 px-4 rounded transition-colors"
+                      onClick={() => producto.stock && agregarItem(producto)}
+                      disabled={!producto.stock}
+                      className={`mt-auto text-sm font-semibold py-2 px-4 rounded transition-colors
+                        ${producto.stock 
+                          ? "bg-red-600 hover:bg-red-800 text-white" 
+                          : "bg-gray-700 text-gray-400 cursor-not-allowed"}`}
                     >
-                      Agregar al carrito
+                      {producto.stock ? "Agregar al carrito" : "Sin stock"}
                     </button>
                   </div>
                 </motion.div>
@@ -123,7 +138,7 @@ const NuevosIngresosJuguetes = () => {
           ))}
         </div>
 
-        {/* Desktop: grilla con animaciones de entrada */}
+        {/* Desktop */}
         <div className="hidden lg:grid lg:grid-cols-3 gap-2">
           {productosNuevos.map((producto, idx) => (
             <motion.div
@@ -145,6 +160,11 @@ const NuevosIngresosJuguetes = () => {
                 <span className="absolute top-2 right-2 bg-gradient-to-r from-red-700 to-black text-white text-[11px] px-2 py-0.5 rounded-full uppercase tracking-wide shadow-md">
                   Nuevo ingreso
                 </span>
+                {!producto.stock && (
+                  <div className="absolute top-0 left-0 bg-black/70 text-white text-xs font-bold px-2 py-1">
+                    SIN STOCK
+                  </div>
+                )}
               </div>
               <div className="p-5 text-center flex flex-col flex-grow">
                 <h3 className="text-lg font-bold mb-2 group-hover:text-red-400 transition-colors">
@@ -154,11 +174,15 @@ const NuevosIngresosJuguetes = () => {
                   ${producto.precio.toLocaleString("es-AR")}
                 </p>
                 <motion.button
-                  whileHover={{ scale: 1.1 }}
-                  onClick={() => agregarItem(producto)} // 👈 integración con carrito
-                  className="mt-auto bg-red-600 hover:bg-red-800 text-white text-sm font-semibold py-2 px-6 rounded transition-colors shadow-lg"
+                  whileHover={{ scale: producto.stock ? 1.1 : 1 }}
+                  onClick={() => producto.stock && agregarItem(producto)}
+                  disabled={!producto.stock}
+                  className={`mt-auto text-sm font-semibold py-2 px-6 rounded transition-colors shadow-lg
+                    ${producto.stock 
+                      ? "bg-red-600 hover:bg-red-800 text-white" 
+                      : "bg-gray-700 text-gray-400 cursor-not-allowed"}`}
                 >
-                  Agregar al carrito
+                  {producto.stock ? "Agregar al carrito" : "Sin stock"}
                 </motion.button>
               </div>
             </motion.div>

@@ -1,5 +1,49 @@
 [
   {
+  "id": 432,
+  "nombre": "Masturbador Ultra Realístico - Con vibración",
+  "descripcion": "",
+  "imagen": "/masturbadorultrareal.jpg",
+  "categoria": "Juguetes",
+  "stock": false,
+  "marca": "",
+  "linea": "",
+  "precio": 156000
+},
+{
+  "id": 433,
+  "nombre": "Huevo Vibrador Con Control Remoto",
+  "descripcion": "",
+  "imagen": "/huevo.jpg",
+  "categoria": "Juguetes",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "precio": 65000
+},
+{
+  "id": 434,
+  "nombre": "Vibrador Doble Brighty",
+  "descripcion": "",
+  "imagen": "/brighty.jpg",
+  "categoria": "Juguetes",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "precio": 58000
+},
+{
+  "id": 435,
+  "nombre": "Masturbador Masculino Premium",
+  "descripcion": "",
+  "imagen": "/masturbadorpremium.jpg",
+  "categoria": "Juguetes",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "precio": 83000
+},
+  {
     "id": 400,
     "nombre": "Masajeador de Clítoris Boyce",
     "descripcion": "Este mini vibrador está hecho de silicona super suave para un tacto más que agradable. Su extremo insertable presenta orejitas de conejo adorables, flexibles y muy estimulantes para tu clítoris.",

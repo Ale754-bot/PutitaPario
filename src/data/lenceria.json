@@ -1,5 +1,391 @@
 [
   {
+  "id": 715,
+  "nombre": "Conjunto Pool Party",
+  "descripcion": "",
+  "imagen": "/images/lenceria/pool party/poolrojo.webp",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": true,
+  "precioBase": 38000,
+  "nuevo": true,
+  "variantes": [
+    {
+      "color": "Rojo",
+      "colorHex": "#b30000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/pool party/poolrojo.webp"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/pool party/poolnegro.webp"
+    },
+    {
+      "color": "Verde",
+      "colorHex": "#006400",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/pool party/poolverde.webp"
+    },
+    {
+      "color": "Violeta",
+      "colorHex": "#800080",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/pool party/poolvioleta.webp"
+    }
+  ]
+},
+{
+  "id": 716,
+  "nombre": "Conjunto Madison",
+  "descripcion": "",
+  "imagen": "/images/lenceria/madison/madisonazul.webp",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": true,
+  "precioBase": 38000,
+  "nuevo": true,
+  "variantes": [
+    {
+      "color": "Azul",
+      "colorHex": "#0000FF",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/madison/madisonazul.webp"
+    },
+    {
+      "color": "Blanco",
+      "colorHex": "#FFFFFF",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/madison/madisonblanco.webp"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/madison/madisonnegro.webp"
+    },
+    {
+      "color": "Rojo",
+      "colorHex": "#b30000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/madison/madisonrojo.webp"
+    },
+    {
+      "color": "Rosa",
+      "colorHex": "#FFC0CB",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/madison/madisonrosa.webp"
+    }
+  ]
+},
+{
+  "id": 717,
+  "nombre": "Conjunto Polly",
+  "descripcion": "",
+  "imagen": "/images/lenceria/polly/pollyblanco.webp",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": true,
+  "precioBase": 38000,
+  "nuevo": true,
+  "variantes": [
+    {
+      "color": "Blanco",
+      "colorHex": "#FFFFFF",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/polly/pollyblanco.webp"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/polly/pollynegro.webp"
+    },
+    {
+      "color": "Rojo",
+      "colorHex": "#b30000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/polly/pollyrojo.webp"
+    }
+  ]
+},
+{
+  "id": 718,
+  "nombre": "Conjunto Dominhada",
+  "descripcion": "",
+  "imagen": "/images/lenceria/dominhada/dominadanegro.webp",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": true,
+  "precioBase": 38000,
+  "nuevo": true,
+  "variantes": [
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/dominada/dominadanegro.webp"
+    },
+    {
+      "color": "Rojo",
+      "colorHex": "#b30000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/dominada/dominadarojo.webp"
+    }
+  ]
+},
+{
+  "id": 719,
+  "nombre": "Conjunto Trikini Cadenita",
+  "descripcion": "",
+  "imagen": "/images/lenceria/trikini cadenita/trikinirojo.webp",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": true,
+  "precioBase": 38000,
+  "nuevo": true,
+  "variantes": [
+    {
+      "color": "Rojo",
+      "colorHex": "#b30000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/trikini cadenita/trikinirojo.webp"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/trikini cadenita/trikininegro.webp"
+    }
+  ]
+},
+{
+  "id": 720,
+  "nombre": "Corset Marmolado",
+  "descripcion": "",
+  "imagen": "/images/lenceria/corset/marmolado/corsetmarmolado.webp",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": true,
+  "precioBase": 15000,
+  "nuevo": true,
+  "variantes": [
+    {
+      "color": "Rojo Marmolado",
+      "colorHex": "#a8323e",
+      "talle": "Consultar por talles disponibles",
+      "precio": 15000,
+      "imagen": "/images/lenceria/corset/marmolado/marmolado.webp"
+    },
+    {
+      "color": "Chocolate Marmolado",
+      "colorHex": "#5a3e2b",
+      "talle": "Consultar por talles disponibles",
+      "precio": 15000,
+      "imagen": "/images/lenceria/corset/marmolado/marmolado2.webp"
+    },
+    {
+      "color": "Verde Nocturno Marmolado",
+      "colorHex": "#1e3a34",
+      "talle": "Consultar por talles disponibles",
+      "precio": 15000,
+      "imagen": "/images/lenceria/corset/marmolado/marmolado3.webp"
+    }
+  ]
+},
+{
+  "id": 721,
+  "nombre": "Corset Brilloso",
+  "descripcion": "",
+  "imagen": "/images/lenceria/corset/brilloso/corsetbrilloso.webp",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": true,
+  "precioBase": 15000,
+  "nuevo": true,
+  "variantes": [
+    {
+      "color": "Negro con bordado dorado",
+      "colorHex": "#1a1a1a",
+      "talle": "Consultar por talles disponibles",
+      "precio": 15000,
+      "imagen": "/images/lenceria/corset/brilloso/corsetnegro.webp"
+    },
+    {
+      "color": "Celeste con bordado dorado",
+      "colorHex": "#a3c9e2",
+      "talle": "Consultar por talles disponibles",
+      "precio": 15000,
+      "imagen": "/images/lenceria/corset/brilloso/corsetceleste.webp"
+    },
+    {
+      "color": "Blanco con bordado dorado",
+      "colorHex": "#f5f5f5",
+      "talle": "Consultar por talles disponibles",
+      "precio": 15000,
+      "imagen": "/images/lenceria/corset/brilloso/corsetblanco.webp"
+    }
+  ]
+},
+{
+  "id": 722,
+  "nombre": "Conjunto Candela",
+  "descripcion": "",
+  "imagen": "/images/lenceria/Conjuntocandela.jpg",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": false,
+  "precioBase": 19800,
+  "nuevo": true
+},
+{
+  "id": 723,
+  "nombre": "Conjunto Lucia",
+  "descripcion": "",
+  "imagen": "/images/lenceria/lucia/lucianegro.jpg",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": true,
+  "precioBase": 35000,
+  "nuevo": true,
+  "variantes": [
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 35000,
+      "imagen": "/images/lenceria/lucia/lucianegro.jpg"
+    },
+    {
+      "color": "Rojo",
+      "colorHex": "#ff0000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 35000,
+      "imagen": "/images/lenceria/lucia/luciarojo.jpg"
+    }
+  ]
+},
+{
+  "id": 724,
+  "nombre": "Conjunto Pilar",
+  "descripcion": "",
+  "imagen": "/images/lenceria/pilar/pilarbordo.jpg",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": true,
+  "precioBase": 38000,
+  "nuevo": true,
+  "variantes": [
+    {
+      "color": "Rojo oscuro (bordó)",
+      "colorHex": "#800000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/pilar/pilarbordo.jpg"
+    },
+    {
+      "color": "Violeta claro",
+      "colorHex": "#c8a2c8",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/pilar/pilarvioleta.jpg"
+    },
+    {
+      "color": "Celeste",
+      "colorHex": "#87ceeb",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/pilar/pilarceleste.jpg"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/pilar/pilarnegro.jpg"
+    },
+    {
+      "color": "Verde azulado",
+      "colorHex": "#008080",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/pilar/pilarverdeazulado.jpg"
+    }
+  ]
+},
+{
+  "id": 725,
+  "nombre": "Conjunto Dulce",
+  "descripcion": "",
+  "imagen": "/images/lenceria/dulce/dulcevioleta.jpg",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": true,
+  "precioBase": 38000,
+  "nuevo": true,
+  "variantes": [
+    {
+      "color": "Violeta claro",
+      "colorHex": "#c8a2c8",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/dulce/dulcevioleta.jpg"
+    },
+    {
+      "color": "Blanco",
+      "colorHex": "#f5f5f5",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/dulce/dulceblanco.jpg"
+    },
+    {
+      "color": "Rosa",
+      "colorHex": "#ffc0cb",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/dulce/dulcerosa.jpg"
+    },
+    {
+      "color": "Verde azulado",
+      "colorHex": "#008080",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/dulce/dulceverdeazulado.jpg"
+    },
+    {
+      "color": "Celeste",
+      "colorHex": "#87ceeb",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/dulce/dulceceleste.jpg"
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "Consultar por talles disponibles",
+      "precio": 38000,
+      "imagen": "/images/lenceria/dulce/dulcenegro.jpg"
+    }
+  ]
+},
+  {
     "id": 700,
     "nombre": "Conjunto Hebillas",
     "descripcion": "Conjunto con hebillas metálicas, disponible en dos colores intensos.",
@@ -523,262 +909,5 @@
         "imagen": "/images/lenceria/conjunto 10/conjunto10negro.webp"
       }
     ]
-  },
-  {
-  "id": 715,
-  "nombre": "Conjunto Pool Party",
-  "descripcion": "",
-  "imagen": "/images/lenceria/pool party/poolrojo.webp",
-  "categoria": "Lencería",
-  "stock": true,
-  "mostrarColor": true,
-  "precioBase": 38000,
-  "nuevo": true,
-  "variantes": [
-    {
-      "color": "Rojo",
-      "colorHex": "#b30000",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/pool party/poolrojo.webp"
-    },
-    {
-      "color": "Negro",
-      "colorHex": "#000000",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/pool party/poolnegro.webp"
-    },
-    {
-      "color": "Verde",
-      "colorHex": "#006400",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/pool party/poolverde.webp"
-    },
-    {
-      "color": "Violeta",
-      "colorHex": "#800080",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/pool party/poolvioleta.webp"
-    }
-  ]
-},
-{
-  "id": 716,
-  "nombre": "Conjunto Madison",
-  "descripcion": "",
-  "imagen": "/images/lenceria/madison/madisonazul.webp",
-  "categoria": "Lencería",
-  "stock": true,
-  "mostrarColor": true,
-  "precioBase": 38000,
-  "nuevo": true,
-  "variantes": [
-    {
-      "color": "Azul",
-      "colorHex": "#0000FF",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/madison/madisonazul.webp"
-    },
-    {
-      "color": "Blanco",
-      "colorHex": "#FFFFFF",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/madison/madisonblanco.webp"
-    },
-    {
-      "color": "Negro",
-      "colorHex": "#000000",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/madison/madisonnegro.webp"
-    },
-    {
-      "color": "Rojo",
-      "colorHex": "#b30000",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/madison/madisonrojo.webp"
-    },
-    {
-      "color": "Rosa",
-      "colorHex": "#FFC0CB",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/madison/madisonrosa.webp"
-    }
-  ]
-},
-{
-  "id": 717,
-  "nombre": "Conjunto Polly",
-  "descripcion": "",
-  "imagen": "/images/lenceria/polly/pollyblanco.webp",
-  "categoria": "Lencería",
-  "stock": true,
-  "mostrarColor": true,
-  "precioBase": 38000,
-  "nuevo": true,
-  "variantes": [
-    {
-      "color": "Blanco",
-      "colorHex": "#FFFFFF",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/polly/pollyblanco.webp"
-    },
-    {
-      "color": "Negro",
-      "colorHex": "#000000",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/polly/pollynegro.webp"
-    },
-    {
-      "color": "Rojo",
-      "colorHex": "#b30000",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/polly/pollyrojo.webp"
-    }
-  ]
-},
-{
-  "id": 718,
-  "nombre": "Conjunto Dominhada",
-  "descripcion": "",
-  "imagen": "/images/lenceria/dominhada/dominadanegro.webp",
-  "categoria": "Lencería",
-  "stock": true,
-  "mostrarColor": true,
-  "precioBase": 38000,
-  "nuevo": true,
-  "variantes": [
-    {
-      "color": "Negro",
-      "colorHex": "#000000",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/dominada/dominadanegro.webp"
-    },
-    {
-      "color": "Rojo",
-      "colorHex": "#b30000",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/dominada/dominadarojo.webp"
-    }
-  ]
-},
-{
-  "id": 719,
-  "nombre": "Conjunto Trikini Cadenita",
-  "descripcion": "",
-  "imagen": "/images/lenceria/trikini cadenita/trikinirojo.webp",
-  "categoria": "Lencería",
-  "stock": true,
-  "mostrarColor": true,
-  "precioBase": 38000,
-  "nuevo": true,
-  "variantes": [
-    {
-      "color": "Rojo",
-      "colorHex": "#b30000",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/trikini cadenita/trikinirojo.webp"
-    },
-    {
-      "color": "Negro",
-      "colorHex": "#000000",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/trikini cadenita/trikininegro.webp"
-    }
-  ]
-},
-{
-  "id": 720,
-  "nombre": "Corset Marmolado",
-  "descripcion": "",
-  "imagen": "/images/lenceria/corset/marmolado/corsetmarmolado.webp",
-  "categoria": "Lencería",
-  "stock": true,
-  "mostrarColor": true,
-  "precioBase": 15000,
-  "nuevo": true,
-  "variantes": [
-    {
-      "color": "Rojo Marmolado",
-      "colorHex": "#a8323e",
-      "talle": "Consultar por talles disponibles",
-      "precio": 15000,
-      "imagen": "/images/lenceria/corset/marmolado/marmolado.webp"
-    },
-    {
-      "color": "Chocolate Marmolado",
-      "colorHex": "#5a3e2b",
-      "talle": "Consultar por talles disponibles",
-      "precio": 15000,
-      "imagen": "/images/lenceria/corset/marmolado/marmolado2.webp"
-    },
-    {
-      "color": "Verde Nocturno Marmolado",
-      "colorHex": "#1e3a34",
-      "talle": "Consultar por talles disponibles",
-      "precio": 15000,
-      "imagen": "/images/lenceria/corset/marmolado/marmolado3.webp"
-    }
-  ]
-},
-{
-  "id": 721,
-  "nombre": "Corset Brilloso",
-  "descripcion": "",
-  "imagen": "/images/lenceria/corset/brilloso/corsetbrilloso.webp",
-  "categoria": "Lencería",
-  "stock": true,
-  "mostrarColor": true,
-  "precioBase": 15000,
-  "nuevo": true,
-  "variantes": [
-    {
-      "color": "Negro con bordado dorado",
-      "colorHex": "#1a1a1a",
-      "talle": "Consultar por talles disponibles",
-      "precio": 15000,
-      "imagen": "/images/lenceria/corset/brilloso/corsetnegro.webp"
-    },
-    {
-      "color": "Celeste con bordado dorado",
-      "colorHex": "#a3c9e2",
-      "talle": "Consultar por talles disponibles",
-      "precio": 15000,
-      "imagen": "/images/lenceria/corset/brilloso/corsetceleste.webp"
-    },
-    {
-      "color": "Blanco con bordado dorado",
-      "colorHex": "#f5f5f5",
-      "talle": "Consultar por talles disponibles",
-      "precio": 15000,
-      "imagen": "/images/lenceria/corset/brilloso/corsetblanco.webp"
-    }
-  ]
-},
-{
-  "id": 722,
-  "nombre": "Conjunto Candela",
-  "descripcion": "",
-  "imagen": "/images/lenceria/Conjuntocandela.jpg",
-  "categoria": "Lencería",
-  "stock": true,
-  "mostrarColor": false,
-  "precioBase": 19800,
-  "nuevo": true
-}
-
+  }
 ]

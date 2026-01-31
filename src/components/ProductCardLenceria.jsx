@@ -107,11 +107,7 @@ const ProductCardLenceria = ({ producto, index }) => {
             {etiquetaMarca}
           </span>
         )}
-        {producto.nuevo && (
-          <span className="absolute top-2 right-2 bg-gradient-to-r from-red-800 to-black text-white text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wide shadow-md z-10">
-            Nuevo
-          </span>
-        )}
+        {producto.nuevo && ( <div className="absolute top-2 right-2 w-7 h-7 rounded-full bg-red-700 flex items-center justify-center shadow-lg z-20"> <span className="text-[7px] font-semibold text-white uppercase tracking-wide"> Nuevo </span> </div> )}
 
         {!stock && (
           <div className="absolute top-0 right-0 bg-gray-900/80 text-white font-bold px-3 py-1 rounded-bl-lg">

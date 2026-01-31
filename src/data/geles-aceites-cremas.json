@@ -848,6 +848,12 @@
       }
     ]
   },
+
+
+
+
+
+  
   {
     "id": 39,
     "nombre": "Aceite Comestible - Chocolate",
@@ -998,6 +1004,62 @@
       }
     ]
   },
+
+
+
+
+
+  {
+  "id": 64,
+  "nombre": "Crema Intensificante - Black Dragon",
+  "descripcion": "",
+  "imagen": "/images/geles/cremadragon.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Cremas intensificantes",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "",
+  "variantes": [
+    {
+      "tamaño": "50ml",
+      "precio": 16000
+    }
+  ]
+},
+{
+  "id": 65,
+  "nombre": "Óleo corporal humectante",
+  "descripcion": "",
+  "imagen": "/images/aceites/oleocorporalc.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Aceites y cremas para masajes",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "My hemp",
+  "variantes": [
+    {
+      "tamaño": "15ml",
+      "precio": 10000
+    }
+  ]
+},
+{
+  "id": 66,
+  "nombre": "Crema corporal humectante",
+  "descripcion": "",
+  "imagen": "/images/cremas/cremacorporalc",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Cremas humectantes",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "My hemp",
+  "variantes": [
+    {
+      "tamaño": "50ml",
+      "precio": 10000
+    }
+  ]
+},
   {
     "id": 47,
     "nombre": "Crema Corporal - BE Aphrodisiac",

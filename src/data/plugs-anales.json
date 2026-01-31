@@ -279,5 +279,22 @@
     "marca": "",
     "linea": "",
     "precio": 25000
+  },
+  {
+    "id": 517,
+    "nombre": "Plug Diamante Rosa - Inexpulsable",
+    "descripcion": "",
+    "imagen": "/pluginexpulsable.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [
+      {
+        "talle": "s",
+        "precio": 26000
+      }
+    ]
   }
 ]

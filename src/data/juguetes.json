@@ -419,5 +419,27 @@
     "marca": "",
     "linea": "",
     "precio": 20000
+  },
+    {
+    "id": 430,
+    "nombre": "Bomba de Succión - Master Pump",
+    "descripcion": "",
+    "imagen": "/bombasuccion.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": 68000
+  },
+   {
+    "id": 431,
+    "nombre": "Bala vibradora - Usb",
+    "descripcion": "",
+    "imagen": "/balavibradorausb.jpg",
+    "categoria": "Juguetes",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": 49000
   }
 ]

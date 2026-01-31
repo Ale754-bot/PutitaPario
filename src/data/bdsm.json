@@ -416,5 +416,83 @@
     "marca": "",
     "linea": "",
     "precio": "10000"
-  }
+  },
+  {
+  "id": 1138,
+  "nombre": "Mordaza reforzada",
+  "descripcion": "",
+  "imagen": "/images/bdsm/mordazareforzada.jpg",
+  "categoria": "BDSM",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "precio": "18000"
+},
+{
+  "id": 1139,
+  "nombre": "Latigo resistente",
+  "descripcion": "",
+  "imagen": "/images/bdsm/latigoresistente.jpg",
+  "categoria": "BDSM",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "precio": "23000"
+},
+{
+  "id": 1140,
+  "nombre": "Fusta corta resistente",
+  "descripcion": "",
+  "imagen": "/images/bdsm/fustacorta.jpg",
+  "categoria": "BDSM",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "precio": "23000"
+},
+{
+  "id": 1141,
+  "nombre": "Chocker correa",
+  "descripcion": "",
+  "imagen": "/images/bdsm/chockercorrea.jpg",
+  "categoria": "BDSM",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "precio": "15000"
+},
+{
+  "id": 1142,
+  "nombre": "Guantes simil latex",
+  "descripcion": "",
+  "imagen": "/images/bdsm/guanteslatex.jpg",
+  "categoria": "BDSM",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "precio": "18000"
+},
+{
+  "id": 1143,
+  "nombre": "Antifaz reversible",
+  "descripcion": "",
+  "imagen": "/images/bdsm/antifazreversible.jpg",
+  "categoria": "BDSM",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "precio": "15000"
+},
+{
+  "id": 1144,
+  "nombre": "Esposas Nuevo Diseño",
+  "descripcion": "",
+  "imagen": "/images/bdsm/Esposasnuevodiseno.jpg",
+  "categoria": "BDSM",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "precio": "18000"
+}
+
 ]

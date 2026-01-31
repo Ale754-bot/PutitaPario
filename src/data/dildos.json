@@ -179,6 +179,20 @@
     "linea": "",
     "precio": 32000
   },
+
+
+  {
+    "id": 1040,
+    "nombre": "Cinturon",
+    "descripcion": "",
+    "imagen": "/cinturon.jpg",
+    "categoria": "Dildos & Vibradores",
+    "subcategoria": "Macizo",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": 15000
+  },
   {
     "id": 1015,
     "nombre": "Dildo Macizo Realistico 1",
@@ -239,6 +253,9 @@
     "linea": "",
     "precio": 32000
   },
+
+
+
   {
     "id": 1020,
     "nombre": "Dildo con Vibrador 1",

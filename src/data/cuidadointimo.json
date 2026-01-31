@@ -31,5 +31,39 @@
     "marca": "Sexitive",
     "linea": "Lab",
     "precio": 23000
-  }
+  },
+  {
+  "id": 1203,
+  "nombre": "Preservativos Surtidos - Caja",
+  "descripcion": "",
+  "imagen": "/images/cuidado intimo/preservativos.jpg",
+  "categoria": "Cuidado Personal Íntimo",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "precio": 3800
+},
+{
+  "id": 1204,
+  "nombre": "Limpiador de juguetes",
+  "descripcion": "",
+  "imagen": "/images/cuidado intimo/limpiadorjuguetes.jpg",
+  "categoria": "Cuidado Personal Íntimo",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "",
+  "precio": 12000
+},
+{
+  "id": 1205,
+  "nombre": "Limpiador de juguetes",
+  "descripcion": "",
+  "imagen": "/images/cuidado intimo/limpiadorjuguetes2.jpg",
+  "categoria": "Cuidado Personal Íntimo",
+  "stock": true,
+  "marca": "Fly night",
+  "linea": "",
+  "precio": 8000
+}
+
 ]

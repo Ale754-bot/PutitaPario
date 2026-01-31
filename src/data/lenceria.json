@@ -248,7 +248,7 @@
   "id": 722,
   "nombre": "Conjunto Candela",
   "descripcion": "",
-  "imagen": "/images/lenceria/Conjuntocandela.jpg",
+  "imagen": "/images/lenceria/Conjuntocandela.webp",
   "categoria": "Lencería",
   "stock": true,
   "mostrarColor": false,
@@ -259,7 +259,7 @@
   "id": 723,
   "nombre": "Conjunto Lucia",
   "descripcion": "",
-  "imagen": "/images/lenceria/lucia/lucianegro.jpg",
+  "imagen": "/images/lenceria/lucia/lucianegro.webp",
   "categoria": "Lencería",
   "stock": true,
   "mostrarColor": true,
@@ -271,14 +271,14 @@
       "colorHex": "#000000",
       "talle": "Consultar por talles disponibles",
       "precio": 35000,
-      "imagen": "/images/lenceria/lucia/lucianegro.jpg"
+      "imagen": "/images/lenceria/lucia/lucianegro.webp"
     },
     {
       "color": "Rojo",
       "colorHex": "#ff0000",
       "talle": "Consultar por talles disponibles",
       "precio": 35000,
-      "imagen": "/images/lenceria/lucia/luciarojo.jpg"
+      "imagen": "/images/lenceria/lucia/luciarojo.webp"
     }
   ]
 },
@@ -286,7 +286,7 @@
   "id": 724,
   "nombre": "Conjunto Pilar",
   "descripcion": "",
-  "imagen": "/images/lenceria/pilar/pilarbordo.jpg",
+  "imagen": "/images/lenceria/pilar/pilarbordo.webp",
   "categoria": "Lencería",
   "stock": true,
   "mostrarColor": true,
@@ -298,35 +298,35 @@
       "colorHex": "#800000",
       "talle": "Consultar por talles disponibles",
       "precio": 38000,
-      "imagen": "/images/lenceria/pilar/pilarbordo.jpg"
+      "imagen": "/images/lenceria/pilar/pilarbordo.webp"
     },
     {
       "color": "Violeta claro",
       "colorHex": "#c8a2c8",
       "talle": "Consultar por talles disponibles",
       "precio": 38000,
-      "imagen": "/images/lenceria/pilar/pilarvioleta.jpg"
+      "imagen": "/images/lenceria/pilar/pilarvioleta.webp"
     },
     {
       "color": "Celeste",
       "colorHex": "#87ceeb",
       "talle": "Consultar por talles disponibles",
       "precio": 38000,
-      "imagen": "/images/lenceria/pilar/pilarceleste.jpg"
+      "imagen": "/images/lenceria/pilar/pilarceleste.webp"
     },
     {
       "color": "Negro",
       "colorHex": "#000000",
       "talle": "Consultar por talles disponibles",
       "precio": 38000,
-      "imagen": "/images/lenceria/pilar/pilarnegro.jpg"
+      "imagen": "/images/lenceria/pilar/pilarnegro.webp"
     },
     {
       "color": "Verde azulado",
       "colorHex": "#008080",
       "talle": "Consultar por talles disponibles",
       "precio": 38000,
-      "imagen": "/images/lenceria/pilar/pilarverdeazulado.jpg"
+      "imagen": "/images/lenceria/pilar/pilarverdeazulado.webp"
     }
   ]
 },
@@ -334,7 +334,7 @@
   "id": 725,
   "nombre": "Conjunto Dulce",
   "descripcion": "",
-  "imagen": "/images/lenceria/dulce/dulcevioleta.jpg",
+  "imagen": "/images/lenceria/dulce/dulcevioleta.webp",
   "categoria": "Lencería",
   "stock": true,
   "mostrarColor": true,
@@ -346,42 +346,42 @@
       "colorHex": "#c8a2c8",
       "talle": "Consultar por talles disponibles",
       "precio": 38000,
-      "imagen": "/images/lenceria/dulce/dulcevioleta.jpg"
+      "imagen": "/images/lenceria/dulce/dulcevioleta.webp"
     },
     {
       "color": "Blanco",
       "colorHex": "#f5f5f5",
       "talle": "Consultar por talles disponibles",
       "precio": 38000,
-      "imagen": "/images/lenceria/dulce/dulceblanco.jpg"
+      "imagen": "/images/lenceria/dulce/dulceblanco.webp"
     },
     {
       "color": "Rosa",
       "colorHex": "#ffc0cb",
       "talle": "Consultar por talles disponibles",
       "precio": 38000,
-      "imagen": "/images/lenceria/dulce/dulcerosa.jpg"
+      "imagen": "/images/lenceria/dulce/dulcerosa.webp"
     },
     {
       "color": "Verde azulado",
       "colorHex": "#008080",
       "talle": "Consultar por talles disponibles",
       "precio": 38000,
-      "imagen": "/images/lenceria/dulce/dulceverdeazulado.jpg"
+      "imagen": "/images/lenceria/dulce/dulceverdeazulado.webp"
     },
     {
       "color": "Celeste",
       "colorHex": "#87ceeb",
       "talle": "Consultar por talles disponibles",
       "precio": 38000,
-      "imagen": "/images/lenceria/dulce/dulceceleste.jpg"
+      "imagen": "/images/lenceria/dulce/dulceceleste.webp"
     },
     {
       "color": "Negro",
       "colorHex": "#000000",
       "talle": "Consultar por talles disponibles",
       "precio": 38000,
-      "imagen": "/images/lenceria/dulce/dulcenegro.jpg"
+      "imagen": "/images/lenceria/dulce/dulcenegro.webp"
     }
   ]
 },

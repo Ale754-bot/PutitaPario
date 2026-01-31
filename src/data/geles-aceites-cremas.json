@@ -853,7 +853,7 @@
 
 
 
-  
+
   {
     "id": 39,
     "nombre": "Aceite Comestible - Chocolate",
@@ -1015,7 +1015,7 @@
   "descripcion": "",
   "imagen": "/images/geles/cremadragon.jpg",
   "categoria": "Geles, Aceites & Cremas",
-  "subcategoria": "Cremas intensificantes",
+  "subcategoria": "Aceites y cremas para masajes",
   "stock": true,
   "marca": "Sexitive",
   "linea": "",
@@ -1049,7 +1049,7 @@
   "descripcion": "",
   "imagen": "/images/cremas/cremacorporalc",
   "categoria": "Geles, Aceites & Cremas",
-  "subcategoria": "Cremas humectantes",
+  "subcategoria": "Aceites y cremas para masajes",
   "stock": true,
   "marca": "Sexitive",
   "linea": "My hemp",

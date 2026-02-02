@@ -157,16 +157,17 @@ const SexBoxCarousel = () => {
               : { scale: 0.9, opacity: 0.5 } // inactivas más chicas en desktop
         }
         transition={{ duration: 0.3 }}
-        className="relative bg-black text-white rounded-xl shadow-lg overflow-hidden flex flex-col"
+        className="relative bg-black text-white shadow-lg overflow-hidden flex flex-col"
       >
-        {/* Imagen cuadrada */}
-        <div className="bg-white flex items-center justify-center aspect-square relative z-10">
-          <img
-            src={product.imagen}
-            alt={product.nombre}
-            className="object-contain w-4/5 h-4/5"
-          />
-        </div>
+       {/* Imagen respetando su fondo */}
+<div className="flex items-center justify-center relative z-10">
+  <img
+    src={product.imagen}
+    alt={product.nombre}
+    className="object-contain w-full h-auto"
+  />
+</div>
+
 
         {/* Info */}
         <div className="p-3 flex flex-col gap-2 relative z-10 text-center">

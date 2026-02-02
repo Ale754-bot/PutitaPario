@@ -14,6 +14,7 @@ import PromoPopup from "../components/PromoPopup";
 import CarruselAnuncios from "../components/CarruselAnuncios";
 import OfertaCremas from "../components/OfertaCremas";
 import NuevosIngresosJuguetes from "../components/NuevosIngresosJuguetes";
+import SexBoxCarousel from "../components/SexBoxCarousel";
 
 import LipstickVibeOffer from "../components/LipstickVibeOffer";
 
@@ -143,7 +144,10 @@ const Home = () => {
     ¿Ya elegiste tu categoría? <br /> Ahora mirá nuestras ofertas y novedades.
   </motion.h2>
 </section>
-<section className="mb-20"> <CarruselAnuncios /> </section>
+<section className="mb-20">
+  <CarruselAnuncios />
+  </section>
+  <SexBoxCarousel />
 {/* Introducción editorial para la sección de aceites */}
 {/* Sección Oferta Relámpago */}
 <section className="bg-black text-center py-10">

@@ -94,7 +94,7 @@ const LipstickVibeOffer = () => {
                   Antes: $28.000
                 </p>
                 <p className="text-sm sm:text-base text-pink-300 font-semibold">
-                  Ahora: $18.000
+                  Ahora: $20.000
                 </p>
               </div>
 

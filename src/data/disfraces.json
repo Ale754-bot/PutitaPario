@@ -6,7 +6,7 @@
     "imagen": "/images/disfraces/colegiala.webp",
     "categoria": "Disfraces",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [

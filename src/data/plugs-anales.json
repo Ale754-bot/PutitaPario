@@ -287,7 +287,7 @@
     "imagen": "/pluginexpulsable.jpg",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [

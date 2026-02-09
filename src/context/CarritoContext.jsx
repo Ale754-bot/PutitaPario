@@ -11,24 +11,24 @@ export const CarritoProvider = ({ children }) => {
   return partes.join("-");
 };
 
+const agregarItem = (producto, cantidad = 1) => {
+  const idUnico = generarIdUnico(producto);
 
-  const agregarItem = (producto, cantidad = 1) => {
-    const idUnico = generarIdUnico(producto);
+  setItems(prevItems => {
+    const itemExistente = prevItems.find(item => item.key === idUnico);
 
-    setItems(prevItems => {
-      const itemExistente = prevItems.find(item => item.id === idUnico);
+    if (itemExistente) {
+      return prevItems.map(item =>
+        item.key === idUnico
+          ? { ...item, cantidad: item.cantidad + cantidad }
+          : item
+      );
+    } else {
+      return [...prevItems, { ...producto, key: idUnico, cantidad }];
+    }
+  });
+};
 
-      if (itemExistente) {
-        return prevItems.map(item =>
-          item.id === idUnico
-            ? { ...item, cantidad: item.cantidad + cantidad }
-            : item
-        );
-      } else {
-        return [...prevItems, { ...producto, id: idUnico, cantidad }];
-      }
-    });
-  };
 
   const eliminarProducto = (id) => {
     setItems(prevItems => prevItems.filter(item => item.id !== id));

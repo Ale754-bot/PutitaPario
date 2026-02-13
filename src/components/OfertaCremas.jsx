@@ -9,7 +9,7 @@ const productos = [
     nombre: "Crema Corporal - BE Aphrodisiac",
     descripcion: "",
     imagen: "/images/Geles/s-be.webp",
-    stock: true,
+    stock: false,
     precioOferta: 10000,
   },
   {
@@ -18,7 +18,7 @@ const productos = [
     descripcion: "",
     imagen: "/images/Geles/s-sm.webp",
     stock: true,
-    precioOferta: 10000,
+    precioOferta: 8000,
   },
 ];
 

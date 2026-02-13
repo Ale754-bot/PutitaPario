@@ -40,7 +40,7 @@ const conjuntosCapsula = [
     imagen: "/magui2.jpg", 
     precioOriginal: 56000, 
     precioOferta: 30000, 
-    stock: true // ❌ sin stock
+    stock: false // ❌ sin stock
   }, 
   { 
     id: 3, 

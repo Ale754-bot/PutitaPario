@@ -12,7 +12,7 @@
 },
 {
   "id": 433,
-  "nombre": "Huevo Vibrador Con Control Remoto",
+  "nombre": "Huevo Vibrador Texturizado a Control Remoto",
   "descripcion": "",
   "imagen": "/huevo.jpg",
   "categoria": "Juguetes",
@@ -274,7 +274,7 @@
   },
   {
     "id": 415,
-    "nombre": "Huevo Vibrador con control remoto",
+    "nombre": "Huevo Vibrador a control remoto",
     "descripcion": "...",
     "imagen": "/images/juguetes/balacontrol.webp",
     "categoria": "Juguetes",
@@ -286,7 +286,7 @@
   },
   {
     "id": 416,
-    "nombre": "Huevo Vibrador con control remoto",
+    "nombre": "Huevo Vibrador a control remoto - Con USB",
     "descripcion": "...",
     "imagen": "/images/juguetes/balausb.webp",
     "categoria": "Juguetes",

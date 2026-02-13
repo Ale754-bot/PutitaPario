@@ -78,7 +78,7 @@
     "imagen": "/images/plugs/doradorosa.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [

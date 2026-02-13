@@ -1,4 +1,5 @@
 [
+
   {
     "id": 1300,
     "nombre": "Tanga 'Toda Adentro'",
@@ -6,10 +7,10 @@
     "imagen": "/tanga1.jpg",
     "categoria": "Tangas Personalizadas",
     "subcategoria": "Frases",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
-    "precio": 12800
+    "precio": 13500
   },
   {
     "id": 1301,
@@ -21,19 +22,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": 12800
-  },
-  {
-    "id": 1302,
-    "nombre": "Tanga 'Felíz Aniversario'",
-    "descripcion": "Con frase personalizada",
-    "imagen": "/tanga3.jpg",
-    "categoria": "Tangas Personalizadas",
-    "subcategoria": "Frases",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "precio": 12800
+    "precio": 13500
   },
   {
     "id": 1303,
@@ -42,10 +31,10 @@
     "imagen": "/tanga4.jpg",
     "categoria": "Tangas Personalizadas",
     "subcategoria": "Frases",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
-    "precio": 12800
+    "precio": 13500
   },
   {
     "id": 1304,
@@ -57,7 +46,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": 12800
+    "precio": 13500
   },
   {
     "id": 1305,
@@ -69,7 +58,31 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": 12800
+    "precio": 13500
+  },
+{
+    "id": 1313,
+    "nombre": "Personalizada (a elección)",
+    "descripcion": "Creá tu propia frase o nombre",
+    "imagen": "/tanga3.jpg",
+    "categoria": "Tangas Personalizadas",
+    "subcategoria": "Personalizadas",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": 16000
+  },
+  {
+    "id": 1302,
+    "nombre": "Tanga 'Felíz Aniversario'",
+    "descripcion": "Con frase personalizada",
+    "imagen": "/tanga3.jpg",
+    "categoria": "Tangas Personalizadas",
+    "subcategoria": "Personalizadas",
+    "stock": false,
+    "marca": "",
+    "linea": "",
+    "precio": 13500
   },
   {
     "id": 1306,
@@ -77,11 +90,11 @@
     "descripcion": "Con nombre personalizado",
     "imagen": "/tangadiego.jpg",
     "categoria": "Tangas Personalizadas",
-    "subcategoria": "Nombres",
+    "subcategoria": "Personalizadas",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": 12800
+    "precio": 13500
   },
   {
     "id": 1307,
@@ -89,11 +102,11 @@
     "descripcion": "Con nombre personalizado",
     "imagen": "/tangagustin.jpg",
     "categoria": "Tangas Personalizadas",
-    "subcategoria": "Nombres",
+    "subcategoria": "Personalizadas",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": 12800
+    "precio": 13500
   },
   {
     "id": 1308,
@@ -101,11 +114,11 @@
     "descripcion": "Con nombre personalizado",
     "imagen": "/tangaignacio.jpg",
     "categoria": "Tangas Personalizadas",
-    "subcategoria": "Nombres",
+    "subcategoria": "Personalizadas",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": 12800
+    "precio": 13500
   },
   {
     "id": 1309,
@@ -113,11 +126,11 @@
     "descripcion": "Con nombre personalizado",
     "imagen": "/tangalucas.jpg",
     "categoria": "Tangas Personalizadas",
-    "subcategoria": "Nombres",
+    "subcategoria": "Personalizadas",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": 12800
+    "precio": 13500
   },
   {
     "id": 1310,
@@ -125,11 +138,11 @@
     "descripcion": "Con nombre personalizado",
     "imagen": "/tangamilton.jpg",
     "categoria": "Tangas Personalizadas",
-    "subcategoria": "Nombres",
+    "subcategoria": "Personalizadas",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": 12800
+    "precio": 13500
   },
   {
     "id": 1311,
@@ -137,11 +150,11 @@
     "descripcion": "Con nombre personalizado",
     "imagen": "/tangarodrigo.jpg",
     "categoria": "Tangas Personalizadas",
-    "subcategoria": "Nombres",
+    "subcategoria": "Personalizadas",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": 12800
+    "precio": 13500
   },
   {
     "id": 1312,
@@ -149,22 +162,12 @@
     "descripcion": "Con nombre personalizado",
     "imagen": "/tangasantiago.jpg",
     "categoria": "Tangas Personalizadas",
-    "subcategoria": "Nombres",
+    "subcategoria": "Personalizadas",
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": 12800
-  },
-  {
-    "id": 1313,
-    "nombre": "Personalizada (a elección)",
-    "descripcion": "Creá tu propia frase o nombre",
-    "imagen": "/tanga3.jpg",
-    "categoria": "Tangas Personalizadas",
-    "subcategoria": "Personalizado",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "precio": 16000
+    "precio": 13500
   }
+
+  
 ]

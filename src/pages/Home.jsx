@@ -9,7 +9,6 @@ import InstagramBanner from '../components/InstagramBanner';
 import PageTransition from '../components/PageTransition'; // ✅ Importación agregada
 import { motion } from 'framer-motion';
 import { useCarrito } from '../context/CarritoContext'; // ✅ Importar el hook del carrito
-import TangasSection from '../components/TangasSection';
 import PromoPopup from "../components/PromoPopup";
 import CarruselAnuncios from "../components/CarruselAnuncios";
 import OfertaCremas from "../components/OfertaCremas";
@@ -25,107 +24,43 @@ import LipstickVibeOffer from "../components/LipstickVibeOffer";
 const Home = () => {
   const { agregarItem } = useCarrito(); // ✅ función para agregar al carrito
 
-  // 🔥 Cápsula Erótica (ahora con 4 conjuntos)
-  const conjuntosCapsula = [ 
-    { id: 1, 
-      nombre: "Conjunto Magui Rojo", 
-      imagen: "/magui1.jpg", 
-      precioOriginal: 56000, 
-      precioOferta: 30000 }, 
-    
-    { id: 2, 
-      nombre: "Conjunto Magui Negro", 
-      imagen: "/magui2.jpg", 
-      precioOriginal: 56000, 
-      precioOferta: 30000 }, 
-      
-    { id: 3, 
-      nombre: "Conjunto Magui Blanco", 
-      imagen: "/magui3.jpg", 
-      precioOriginal: 56000, 
-      precioOferta: 30000 }, 
-      
-    { id: 4, 
-      nombre: "Conjunto Magui Rosa", 
-      imagen: "/magui4.jpg", 
-      precioOriginal: 56000, 
-      precioOferta: 30000 } 
-    ];
-
-// 🔥 Tangas con frases (ejemplo 6)
-  const tangasFrases = [
-    { id: "frase-1", 
-      nombre: "Tanga 'Toda Adentro'", 
-      descripcion: "Con frase personalizada",
-      imagen: "/tanga1.jpg", 
-      precio: 12800, 
-      stock: true 
-    },
-
-    { id: "frase-2", 
-      nombre: "Tanga 'Casate Conmigo'", 
-      descripcion: "Con frase personalizada",
-      imagen: "/tanga2.jpg", 
-      precio: 12800, 
-      stock: true 
-    },
-    { id: "frase-3", 
-      nombre: "Tanga 'Felíz Aniversario'", 
-      descripcion: "Con frase personalizada",
-      imagen: "/tanga3.jpg", 
-      precio: 12800, 
-      stock: true 
-    },
-    { id: "frase-4", 
-      nombre: "Tanga 'Tu Putita'", 
-      descripcion: "Con frase personalizada",
-      imagen: "/tanga4.jpg", 
-      precio: 12800, 
-      stock: true 
-    },
-    { id: "frase-5", 
-      nombre: "Tanga 'Divorciate'", 
-      descripcion: "Con frase personalizada",
-      imagen: "/tanga5.jpg", 
-      precio: 12800, 
-      stock: true 
-    },
-    { id: "frase-6", 
-      nombre: "Tanga 'Dame Leche'", 
-      descripcion: "Con frase personalizada",
-      imagen: "/tanga6.jpg", 
-      precio: 12800, 
-      stock: true 
-    },
-  ];
-
-  // 🔥 Tangas con nombres (ejemplo 6)
-  const tangasNombres = [
-    { id: "nombre-1", nombre: "Tanga 'Diego'",descripcion: "Con nombre personalizado",
-      imagen: "/tangadiego.jpg", precio: 12800, stock: true },
-    { id: "nombre-2", nombre: "Tanga 'Agustin'", descripcion: "Con nombre personalizado",
-      imagen: "/tangagustin.jpg", precio: 12800, stock: true },
-    { id: "nombre-3", nombre: "Tanga 'Ignacio'", descripcion: "Con nombre personalizado",
-      imagen: "/tangaignacio.jpg", precio: 12800, stock: true },
-    { id: "nombre-4", nombre: "Tanga 'Lucas'", descripcion: "Con nombre personalizado",
-      imagen: "/tangalucas.jpg", precio: 12800, stock: true },
-    { id: "nombre-5", nombre: "Tanga 'Milton'", descripcion: "Con nombre personalizado",
-      imagen: "/tangamilton.jpg", precio: 12800, stock: true },
-    { id: "nombre-6", nombre: "Tanga 'Rodrigo'", descripcion: "Con nombre personalizado",
-      imagen: "/tangarodrigo.jpg", precio: 12800, stock: true },
-      { id: "nombre-7", nombre: "Tanga 'Santiago'", descripcion: "Con nombre personalizado",
-      imagen: "/tangasantiago.jpg", precio: 12800, stock: true },
-  ];
-
-  // 🔥 Tanga personalizada
-  const tangaPersonalizada = {
-    id: "tanga-personalizada",
-    nombre: "Tanga Personalizada",
-    descripcion: "Elegí frase, nombre y color. Producción en 72 hs máximo.",
-    imagen: "/tanga3.jpg",
-    precio: 16000,
+ // 🔥 Cápsula Erótica (ahora con stock true/false)
+const conjuntosCapsula = [ 
+  { 
+    id: 1, 
+    nombre: "Conjunto Magui Rojo", 
+    imagen: "/magui1.jpg", 
+    precioOriginal: 56000, 
+    precioOferta: 30000, 
+    stock: false // ✅ hay stock
+  }, 
+  { 
+    id: 2, 
+    nombre: "Conjunto Magui Negro", 
+    imagen: "/magui2.jpg", 
+    precioOriginal: 56000, 
+    precioOferta: 30000, 
+    stock: true // ❌ sin stock
+  }, 
+  { 
+    id: 3, 
+    nombre: "Conjunto Magui Blanco", 
+    imagen: "/magui3.jpg", 
+    precioOriginal: 56000, 
+    precioOferta: 30000, 
     stock: true
-  };
+  }, 
+  { 
+    id: 4, 
+    nombre: "Conjunto Magui Rosa", 
+    imagen: "/magui4.jpg", 
+    precioOriginal: 56000, 
+    precioOferta: 30000, 
+    stock: true
+  } 
+];
+
+
 
   return (
     <PageTransition> {/* ✅ Transición envolvente */}
@@ -177,14 +112,8 @@ const Home = () => {
           <Destacados />
         </section>
         
-        {/* 🎀 Tangas Section */}
-        <TangasSection
-        id="tangas"
-          frases={tangasFrases}
-          nombres={tangasNombres}
-          personalizada={tangaPersonalizada}
-        />
 
+{/* 🔥 Cápsula Erótica */}
 {/* 🔥 Cápsula Erótica */}
 <section
   id="capsula-magui"
@@ -240,6 +169,13 @@ const Home = () => {
               ${c.precioOferta.toLocaleString()}
             </span>
 
+            {/* Estado de stock simplificado */}
+            {c.stock ? (
+              <p className="text-green-500 mb-2"></p>
+            ) : (
+              <p className="text-red-500 mb-2 font-semibold">Sin stock</p>
+            )}
+
             {/* Botón agregar al carrito */}
             <button
               onClick={() =>
@@ -248,14 +184,19 @@ const Home = () => {
                     id: c.id,
                     nombre: c.nombre,
                     imagen: c.imagen,
-                    precio: c.precioOferta, // 👈 ahora sí se guarda el precio correcto
+                    precio: c.precioOferta,
                   },
                   1
                 )
               }
-              className="bg-red-700 text-white px-6 py-2 rounded-full font-bold hover:bg-red-800 transition"
+              disabled={!c.stock} // 👈 deshabilita si stock es false
+              className={`px-6 py-2 rounded-full font-bold transition ${
+                !c.stock
+                  ? "bg-gray-600 text-gray-300 cursor-not-allowed"
+                  : "bg-red-700 text-white hover:bg-red-800"
+              }`}
             >
-              Agregar al Carrito
+              {!c.stock ? "Agotado" : "Agregar al Carrito"}
             </button>
           </div>
         </motion.div>

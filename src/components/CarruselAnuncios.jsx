@@ -23,6 +23,11 @@ const banners = [
   },
   {
     titulo: "",
+    imagen: "/CARRUTANGAS.jpg",
+    link: "/productos?categoria=Tangas Personalizadas",
+  },
+  {
+    titulo: "",
     imagen: "/CARRULABIAL.jpg",
     link: "#labiales-vibradores",
   },

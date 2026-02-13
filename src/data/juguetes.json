@@ -51,7 +51,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
-    "precio": 32000,
+    "precio": 39000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -63,7 +63,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
-    "precio": 32000,
+    "precio": 39000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -75,7 +75,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
-    "precio": 32000,
+    "precio": 39000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -87,7 +87,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
-    "precio": 32000,
+    "precio": 39000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -99,7 +99,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
-    "precio": 32000,
+    "precio": 39000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -111,7 +111,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
-    "precio": 32000,
+    "precio": 39000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -274,7 +274,7 @@
   },
   {
     "id": 415,
-    "nombre": "Bala Vibradora",
+    "nombre": "Huevo Vibrador con control remoto",
     "descripcion": "...",
     "imagen": "/images/juguetes/balacontrol.webp",
     "categoria": "Juguetes",
@@ -286,7 +286,7 @@
   },
   {
     "id": 416,
-    "nombre": "Bala Vibradora - Con USB",
+    "nombre": "Huevo Vibrador con control remoto",
     "descripcion": "...",
     "imagen": "/images/juguetes/balausb.webp",
     "categoria": "Juguetes",

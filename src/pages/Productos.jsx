@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
 import ProductCardLenceria from '../components/ProductCardLenceria';
@@ -40,6 +40,20 @@ const groupBySubcategoria = (products) => {
   }, {});
 };
 
+// 🔧 Agrupación por marca y línea
+const groupByMarcaLinea = (products) => {
+  return products.reduce((acc, product) => {
+    const marca = product.marca?.trim() || "Sin marca";
+    if (!acc[marca]) acc[marca] = {};
+
+    const linea = product.linea?.trim() || "Sin línea";
+    if (!acc[marca][linea]) acc[marca][linea] = [];
+
+    acc[marca][linea].push(product);
+    return acc;
+  }, {});
+};
+
 const normalizeId = (text) => {
   return text.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '');
 };
@@ -48,7 +62,7 @@ const Productos = () => {
   const location = useLocation();
   const params = new URLSearchParams(location.search);
   const categoriaParam = params.get("categoria");
-
+ 
   const allProducts = [
     ...gelesAceitesCremas,
     ...perfumes,
@@ -68,7 +82,6 @@ const Productos = () => {
 
   const groupedProducts = groupProductsByCategory(allProducts);
   const categories = Object.keys(groupedProducts);
-
   useEffect(() => {
     if (categoriaParam) {
       const decodedCategoria = decodeURIComponent(categoriaParam).replace(/-/g, ' ');
@@ -87,7 +100,6 @@ const Productos = () => {
     }
   }, [categoriaParam, categories]);
 
-  // 👇 agregado para manejar el hash (#subcategoria)
   useEffect(() => {
     if (location.hash) {
       const targetId = location.hash.replace("#", "");
@@ -106,7 +118,6 @@ const Productos = () => {
 
   return (
     <PageTransition>
-      
       <main className="mx-auto max-w-screen-xl px-4 py-8">
         {/* Menú desplegable de navegación por categoría */}
         <div className="mb-8 flex justify-center">
@@ -125,7 +136,6 @@ const Productos = () => {
             ))}
           </select>
         </div>
-
         {categories.map((category) => {
           const productosPorSub = groupBySubcategoria(groupedProducts[category]);
           const tieneSubcategorias = Object.keys(productosPorSub).length > 1;
@@ -153,7 +163,7 @@ const Productos = () => {
                 </div>
               )}
 
-              {/* Secciones por subcategoría */}
+                            {/* Secciones por subcategoría */}
               {category === "Lencería" ? (
                 <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                   {groupedProducts[category].map((producto, index) => (
@@ -168,11 +178,51 @@ const Productos = () => {
                         {sub}
                       </h3>
                     )}
-                    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                      {productos.map((producto, index) => (
-                        <ProductCard key={producto.id} producto={producto} index={index} />
-                      ))}
-                    </div>
+
+                    {/* 🔧 Lógica especial para Geles lubricantes */}
+{sub === "Geles lubricantes" ? (
+  <>
+    {/* Filtros de marcas */}
+    <div className="sticky top-0 z-10 bg-black/80 py-2 flex justify-center gap-1 flex-wrap border-b border-gray-700 mb-6">
+      {Object.keys(groupByMarcaLinea(productos)).map((marca) => (
+        <a
+          key={marca}
+          href={`#${normalizeId(marca)}`}
+          className="px-2 py-0.5 text-[10px] sm:text-xs font-semibold text-white border border-white rounded-full 
+                     hover:bg-red-600 hover:text-black transition-colors"
+        >
+          {marca}
+        </a>
+      ))}
+    </div>
+
+    {/* Renderizado por marcas y líneas */}
+    {Object.entries(groupByMarcaLinea(productos)).map(([marca, lineas]) => (
+      <div key={marca} id={normalizeId(marca)} className="mb-12">
+        <h3 className="text-2xl font-bold text-red-600 text-center mb-6">{marca}</h3>
+        {Object.entries(lineas).map(([linea, productosLinea]) => (
+          <div key={linea} className="mb-8">
+            {linea !== "Sin línea" && (
+              <h4 className="text-lg font-semibold text-white mb-4 text-center">{linea}</h4>
+            )}
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+              {productosLinea.map((producto) => (
+                <ProductCard key={producto.id} producto={producto} />
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    ))}
+  </>
+) : (
+  <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    {productos.map((producto, index) => (
+      <ProductCard key={producto.id} producto={producto} index={index} />
+    ))}
+  </div>
+)}
+
                   </div>
                 ))
               )}

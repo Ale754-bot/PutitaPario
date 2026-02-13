@@ -11,27 +11,34 @@
     "precio": 23000
   },
   {
-    "id": 1201,
-    "nombre": "Jabón Íntimo - MYWAY Queen",
-    "descripcion": "Jabón íntimo hipoalergénico para mujeres en etapa de menopausia. Equilibrio, frescura y cuidado profundo.",
-    "imagen": "/images/cuidado intimo/mywayqueen.webp",
-    "categoria": "Cuidado Personal Íntimo",
-    "stock": true,
-    "marca": "Sexitive",
-    "linea": "Lab",
-    "precio": 23000
-  },
-  {
-    "id": 1202,
-    "nombre": "Jabón Íntimo - MYWAY Men",
-    "descripcion": "Jabón íntimo hipoalergénico para hombres. Limpieza efectiva con sensación de frescura prolongada.",
-    "imagen": "/images/cuidado intimo/mywaymen.webp",
-    "categoria": "Cuidado Personal Íntimo",
-    "stock": true,
-    "marca": "Sexitive",
-    "linea": "Lab",
-    "precio": 23000
-  },
+  "id": 1201,
+  "nombre": "Jabón Íntimo - MYWAY Queen",
+  "descripcion": "Jabón íntimo hipoalergénico para mujeres en etapa de menopausia. Equilibrio, frescura y cuidado profundo.",
+  "imagen": "/images/cuidado intimo/mywayqueen.webp",
+  "categoria": "Cuidado Personal Íntimo",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Lab",
+  "precioOriginal": 23000,
+  "precioOferta": 15000,
+  "precio": 23000,
+  "etiqueta": "Liquidación"
+},
+{
+  "id": 1202,
+  "nombre": "Jabón Íntimo - MYWAY Men",
+  "descripcion": "Jabón íntimo hipoalergénico para hombres. Limpieza efectiva con sensación de frescura prolongada.",
+  "imagen": "/images/cuidado intimo/mywaymen.webp",
+  "categoria": "Cuidado Personal Íntimo",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "Lab",
+  "precioOriginal": 23000,
+  "precioOferta": 15000,
+  "precio": 23000,
+  "etiqueta": "Liquidación"
+},
+
   {
   "id": 1203,
   "nombre": "Preservativos Surtidos - Caja",

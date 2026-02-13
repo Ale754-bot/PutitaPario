@@ -17,7 +17,7 @@ const productosNuevos = [
     stock: true
   },
   { id: 2003,
-    nombre: "Huevo Vibrador Con Control Remoto",
+    nombre: "Huevo Vibrador Texturizado Con Control Remoto",
     precio: 65000,
     imagen: "/huevo.jpg",
     stock: true

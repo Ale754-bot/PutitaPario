@@ -188,7 +188,7 @@
     "subcategoria": "Geles lubricantes",
     "stock": true,
     "marca": "Sexitive",
-    "linea": "Sens",
+    "linea": "Sensbomb",
     "etiqueta": "Nuevo ingreso",
     "variantes": [
       { "tamaño": "70g", "precio": 13800 }
@@ -203,10 +203,25 @@
     "subcategoria": "Geles lubricantes",
     "stock": true,
     "marca": "Sexitive",
-    "linea": "Sens",
+    "linea": "Sensbomb",
     "etiqueta": "Nuevo ingreso",
     "variantes": [
       { "tamaño": "70g", "precio": 13800 }
+    ]
+  },
+  {
+    "id": 78,
+    "nombre": "Gel - Hidragel Women",
+    "descripcion": "",
+    "imagen": "/images/Geles/hidragel.jpg",
+    "categoria": "Geles, Aceites & Cremas",
+    "subcategoria": "Geles lubricantes",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "lab",
+    "etiqueta": "Nuevo ingreso",
+    "variantes": [
+      { "tamaño": "75ml", "precio": 16000 }
     ]
   },
 
@@ -742,7 +757,7 @@
     "variantes": [
       {
         "tamaño": "75ml",
-        "precio": 14000
+        "precio": 16000
       }
     ]
   },

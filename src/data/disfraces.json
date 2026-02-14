@@ -46,7 +46,7 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 20000
+        "precio": 30000
       }
     ]
   },
@@ -63,7 +63,7 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 20000
+        "precio": 30000
       }
     ]
   },
@@ -97,7 +97,7 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 20000
+        "precio": 30000
       }
     ]
   },

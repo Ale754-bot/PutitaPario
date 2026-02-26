@@ -75,20 +75,20 @@ const Home = () => {
       
 
         
-     {/* 🖼️ Sección con GIF de fondo y botón flotante */}
-<section className="relative w-full overflow-hidden mt-20 rounded-xl shadow-lg">
+      {/* 🖼️ Sección con GIF de fondo y botón flotante */}
+<section className="relative w-full h-40 sm:h-56 md:h-72 lg:h-96 overflow-hidden mt-20 shadow-lg">
   {/* GIF de fondo con opacidad y degradado */}
   <div className="absolute inset-0">
     <img
-      src="/LOCALBANNER.gif"
+      src="/BANNERLOCAL.gif"
       alt="Local Secreto"
-      className="w-full h-auto object-contain opacity-60"
+      className="w-full h-full object-cover opacity-60"
     />
     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
   </div>
 
   {/* Botón flotante */}
-  <div className="relative z-10 flex items-center justify-center">
+  <div className="relative z-10 flex items-center justify-center h-full">
     <Link
       to="/productos"
       className="

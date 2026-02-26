@@ -9,11 +9,7 @@ import InstagramBanner from '../components/InstagramBanner';
 import PageTransition from '../components/PageTransition'; // ✅ Importación agregada
 import { motion } from 'framer-motion';
 import { useCarrito } from '../context/CarritoContext'; // ✅ Importar el hook del carrito
-import PromoPopup from "../components/PromoPopup";
-import CarruselAnuncios from "../components/CarruselAnuncios";
-import OfertaCremas from "../components/OfertaCremas";
-import NuevosIngresosJuguetes from "../components/NuevosIngresosJuguetes";
-import LipstickVibeOffer from "../components/LipstickVibeOffer";
+
 
 
 
@@ -29,60 +25,17 @@ const Home = () => {
       <Hero />
       <main className="mx-auto max-w-screen-xl px-4 py-8">
         <CategoryScroll />
-        {/* Popup promocional */}
-      <PromoPopup />
-      <section className="py-10 bg-black text-center px-4">
-  <motion.h2
-    initial={{ opacity: 0, y: -10 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.6 }}
-    className="text-white text-lg sm:text-xl font-semibold tracking-wide"
-  >
-    ¿Ya elegiste tu categoría? <br /> Ahora mirá nuestras ofertas y novedades.
-  </motion.h2>
-</section>
-<section className="mb-20">
-  <CarruselAnuncios />
-  </section>
-{/* Introducción editorial para la sección de aceites */}
-{/* Sección Oferta Relámpago */}
-<section className="bg-black text-center py-10">
-  {/* Título principal de la sección */}
-
-  <NuevosIngresosJuguetes />
-
-  <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white uppercase tracking-wide mb-6">
-    Ofertas Relámpago
-  </h2>
-  <section className="mb-10">
-<OfertaCremas />
-  </section>
-</section>
-
- <section id="labiales-vibradores" className="py-10 bg-black text-center px-4">
-  <LipstickVibeOffer />
-</section>
-
-         {/* SECCIÓN DE PRODUCTOS DESTACADOS */}
-        <section id="destacados" className="mb-16 pt-8">
-          <h2 className="text-3xl font-bold mb-8 text-texto-claro border-b-2 border-acento inline-block mt-8">
-            Productos Destacados
-          </h2>
-
-          {/* Galería independiente */}
-          <Destacados />
-        </section>
-      
+        
 
         
-        {/* 🖼️ Sección con GIF de fondo y botón flotante */}
-<section className="relative w-full overflow-hidden mt-20 rounded-xl shadow-lg">
+    {/* 🖼️ Sección con GIF de fondo y botón flotante */}
+<section className="relative w-full h-40 sm:h-56 md:h-72 lg:h-96 overflow-hidden mt-20 shadow-lg">
   {/* GIF de fondo con opacidad y degradado */}
   <div className="absolute inset-0">
     <img
       src="/BANNERLOCAL.gif"
       alt="Local Secreto"
-      className="w-full h-auto object-contain opacity-60"
+      className="w-full h-full object-cover opacity-60"
     />
     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
   </div>
@@ -101,6 +54,8 @@ const Home = () => {
     </Link>
   </div>
 </section>
+
+
 
 
       </main>

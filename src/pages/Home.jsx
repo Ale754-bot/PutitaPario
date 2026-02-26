@@ -80,7 +80,7 @@ const Home = () => {
   {/* GIF de fondo con opacidad y degradado */}
   <div className="absolute inset-0">
     <img
-      src="/BANNERLOCAL.gif"
+      src="/LOCALBANNER.gif"
       alt="Local Secreto"
       className="w-full h-auto object-contain opacity-60"
     />

@@ -22,42 +22,6 @@ import LipstickVibeOffer from "../components/LipstickVibeOffer";
 const Home = () => {
   const { agregarItem } = useCarrito(); // ✅ función para agregar al carrito
 
- // 🔥 Cápsula Erótica (ahora con stock true/false)
-const conjuntosCapsula = [ 
-  { 
-    id: 1, 
-    nombre: "Conjunto Magui Rojo", 
-    imagen: "/magui1.jpg", 
-    precioOriginal: 56000, 
-    precioOferta: 30000, 
-    stock: false // ✅ hay stock
-  }, 
-  { 
-    id: 2, 
-    nombre: "Conjunto Magui Negro", 
-    imagen: "/magui2.jpg", 
-    precioOriginal: 56000, 
-    precioOferta: 30000, 
-    stock: false // ❌ sin stock
-  }, 
-  { 
-    id: 3, 
-    nombre: "Conjunto Magui Blanco", 
-    imagen: "/magui3.jpg", 
-    precioOriginal: 56000, 
-    precioOferta: 30000, 
-    stock: true
-  }, 
-  { 
-    id: 4, 
-    nombre: "Conjunto Magui Rosa", 
-    imagen: "/magui4.jpg", 
-    precioOriginal: 56000, 
-    precioOferta: 30000, 
-    stock: true
-  } 
-];
-
 
 
   return (
@@ -108,100 +72,7 @@ const conjuntosCapsula = [
           {/* Galería independiente */}
           <Destacados />
         </section>
-        
-
-{/* 🔥 Cápsula Erótica */}
-{/* 🔥 Cápsula Erótica */}
-<section
-  id="capsula-magui"
-  className="relative py-16 bg-gradient-to-b from-black via-red-950 to-black mt-20 rounded-xl"
->
-  <div className="text-center mb-12">
-    <h2 className="text-5xl font-bold text-white">Lanzamiento Conjunto Magui</h2>
-    <p className="text-gray-300 mt-4 text-lg">
-      Cuatro conjuntos únicos, diseñados para una experiencia íntima y exclusiva.
-    </p>
-
-    <p className="text-gray-400 mt-6 max-w-2xl mx-auto text-base leading-relaxed">
-      Conjunto de charol con cintas, ELABORACIÓN 100% auténtica que no vas a
-      encontrar en otro sitio. Es autorregulable por completo, es decir, son
-      piezas pensadas para todos los cuerpos.
-    </p>
-  </div>
-
-  <div className="flex gap-6 overflow-x-auto md:grid md:grid-cols-4 md:gap-8 max-w-screen-lg mx-auto">
-    {conjuntosCapsula.map((c, idx) => {
-      const descuento = Math.round(
-        ((c.precioOriginal - c.precioOferta) / c.precioOriginal) * 100
-      );
-
-      return (
-        <motion.div
-          key={c.id}
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: idx * 0.1 }}
-          className="min-w-[250px] md:min-w-0 rounded-xl overflow-hidden shadow-lg bg-black relative"
-        >
-          {/* 🔥 Tag de descuento */}
-          <span className="absolute top-2 left-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded">
-            -{descuento}%
-          </span>
-
-          <img
-            src={c.imagen}
-            alt={c.nombre}
-            className="w-full h-80 object-cover"
-          />
-
-          <div className="p-4 text-center">
-            {/* Precio original tachado */}
-            <span className="block text-gray-400 line-through text-sm mb-1">
-              ${c.precioOriginal.toLocaleString()}
-            </span>
-
-            {/* Precio oferta destacado */}
-            <span className="text-2xl font-bold text-red-600 block mb-2">
-              ${c.precioOferta.toLocaleString()}
-            </span>
-
-            {/* Estado de stock simplificado */}
-            {c.stock ? (
-              <p className="text-green-500 mb-2"></p>
-            ) : (
-              <p className="text-red-500 mb-2 font-semibold">Sin stock</p>
-            )}
-
-            {/* Botón agregar al carrito */}
-            <button
-              onClick={() =>
-                agregarItem(
-                  {
-                    id: c.id,
-                    nombre: c.nombre,
-                    imagen: c.imagen,
-                    precio: c.precioOferta,
-                  },
-                  1
-                )
-              }
-              disabled={!c.stock} // 👈 deshabilita si stock es false
-              className={`px-6 py-2 rounded-full font-bold transition ${
-                !c.stock
-                  ? "bg-gray-600 text-gray-300 cursor-not-allowed"
-                  : "bg-red-700 text-white hover:bg-red-800"
-              }`}
-            >
-              {!c.stock ? "Agotado" : "Agregar al Carrito"}
-            </button>
-          </div>
-        </motion.div>
-      );
-    })}
-  </div>
-</section>
-
+      
 
         {/* 🖼️ Sección con imagen de fondo y botón flotante */}
         <section className="relative w-full h-[300px] md:h-[400px] overflow-hidden mt-20 rounded-xl shadow-lg">

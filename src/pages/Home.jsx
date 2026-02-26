@@ -76,13 +76,13 @@ const Home = () => {
 
         
         {/* 🖼️ Sección con GIF de fondo y botón flotante */}
-<section className="relative w-full h-[200px] md:h-[400px] overflow-hidden mt-20 rounded-xl shadow-lg">
+<section className="relative w-full overflow-hidden mt-20 rounded-xl shadow-lg">
   {/* GIF de fondo con opacidad y degradado */}
   <div className="absolute inset-0">
     <img
-      src="/BANNERLOCAL.gif"   // 👈 aquí ponés tu GIF
+      src="/BANNERLOCAL.gif"
       alt="Local Secreto"
-      className="w-full h-full object-countain opacity-60"
+      className="w-full h-auto object-contain opacity-60"
     />
     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
   </div>
@@ -101,6 +101,7 @@ const Home = () => {
     </Link>
   </div>
 </section>
+
 
       </main>
 

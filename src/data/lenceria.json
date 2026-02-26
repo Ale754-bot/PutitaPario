@@ -3,6 +3,7 @@
   "id": 726,
   "nombre": "Conjunto Magui",
   "descripcion": "",
+  "imagen": "/magui1.jpg",
   "categoria": "Lencería",
   "stock": true,
   "mostrarColor": true,
@@ -13,7 +14,7 @@
       "color": "Rojo",
       "colorHex": "#ff0000",
       "talle": "Consultar por talles disponibles",
-      "precio": 30000,
+      "precio": 56000,
       "imagen": "/magui1.jpg",
       "stock": false
     },
@@ -21,7 +22,7 @@
       "color": "Negro",
       "colorHex": "#000000",
       "talle": "Consultar por talles disponibles",
-      "precio": 30000,
+      "precio": 56000,
       "imagen": "/magui2.jpg",
       "stock": false
     },
@@ -29,7 +30,7 @@
       "color": "Blanco",
       "colorHex": "#ffffff",
       "talle": "Consultar por talles disponibles",
-      "precio": 30000,
+      "precio": 56000,
       "imagen": "/magui3.jpg",
       "stock": true
     },
@@ -37,7 +38,7 @@
       "color": "Rosa",
       "colorHex": "#ffc0cb",
       "talle": "Consultar por talles disponibles",
-      "precio": 30000,
+      "precio": 56000,
       "imagen": "/magui4.jpg",
       "stock": true
     }

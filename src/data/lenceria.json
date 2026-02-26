@@ -10,22 +10,7 @@
   "precioBase": 56000,
   "nuevo": false,
   "variantes": [
-    {
-      "color": "Rojo",
-      "colorHex": "#ff0000",
-      "talle": "Consultar por talles disponibles",
-      "precio": 56000,
-      "imagen": "/magui1.jpg",
-      "stock": false
-    },
-    {
-      "color": "Negro",
-      "colorHex": "#000000",
-      "talle": "Consultar por talles disponibles",
-      "precio": 56000,
-      "imagen": "/magui2.jpg",
-      "stock": false
-    },
+    
     {
       "color": "Blanco",
       "colorHex": "#ffffff",

@@ -51,7 +51,7 @@ export default function HomeSlider() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % banners.length);
-    }, 5000);
+    }, 2000);
     return () => clearInterval(interval);
   }, []);
 

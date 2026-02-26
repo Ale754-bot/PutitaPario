@@ -27,7 +27,9 @@ const Home = () => {
       <Hero />
       <main className="mx-auto max-w-screen-xl px-4 py-8">
         <CategoryScroll />
-        <div className="mt-10"> <CountdownWidget /> </div>
+        <div className="mb-10">
+          <CountdownWidget />
+          </div>
         
       <HomeSlider />
 

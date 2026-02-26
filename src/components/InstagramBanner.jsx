@@ -8,13 +8,13 @@ const InstagramBanner = () => {
           href="https://www.instagram.com/putitapario/"
           target="_blank"
           rel="noopener noreferrer"
-          className="relative block w-full h-[300px] md:h-[400px] overflow-hidden group"
+          className="relative block w-full h-[200px] md:h-[400px] overflow-hidden group"
         >
           {/* Imagen de fondo */}
           <img
-            src="/a.jpg"
+            src="/INSTABANNER.jpg"
             alt="Instagram Secreto"
-            className="w-full h-full object-cover brightness-[0.6] transition-all duration-500 group-hover:brightness-[0.8]"
+            className="w-full h-full object-countain brightness-[0.6] transition-all duration-500 group-hover:brightness-[0.8]"
           />
 
           {/* Texto flotante encima */}

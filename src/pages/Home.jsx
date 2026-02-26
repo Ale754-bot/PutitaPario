@@ -74,32 +74,34 @@ const Home = () => {
         </section>
       
 
-        {/* 🖼️ Sección con imagen de fondo y botón flotante */}
-        <section className="relative w-full h-[300px] md:h-[400px] overflow-hidden mt-20 rounded-xl shadow-lg">
-          {/* Imagen de fondo con opacidad y degradado */}
-          <div className="absolute inset-0">
-            <img
-              src="/local.jpg"
-              alt="Local Secreto"
-              className="w-full h-full object-cover opacity-60"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-          </div>
+        
+        {/* 🖼️ Sección con GIF de fondo y botón flotante */}
+<section className="relative w-full h-[200px] md:h-[400px] overflow-hidden mt-20 rounded-xl shadow-lg">
+  {/* GIF de fondo con opacidad y degradado */}
+  <div className="absolute inset-0">
+    <img
+      src="/BANNERLOCAL.gif"   // 👈 aquí ponés tu GIF
+      alt="Local Secreto"
+      className="w-full h-full object-countain opacity-60"
+    />
+    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+  </div>
 
-          {/* Botón flotante */}
-          <div className="relative z-10 flex items-center justify-center h-full">
-            <Link
-              to="/productos"
-              className="
-                bg-acento text-white text-lg font-bold px-12 py-3 rounded-full 
-                shadow-xl tracking-wider uppercase 
-                transition duration-300 transform hover:bg-red-800 hover:scale-[1.05]
-              "
-            >
-              Ver Catálogo Completo
-            </Link>
-          </div>
-        </section>
+  {/* Botón flotante */}
+  <div className="relative z-10 flex items-center justify-center h-full">
+    <Link
+      to="/productos"
+      className="
+        bg-acento text-white text-lg font-bold px-12 py-3 rounded-full 
+        shadow-xl tracking-wider uppercase 
+        transition duration-300 transform hover:bg-red-800 hover:scale-[1.05]
+      "
+    >
+      Ver Catálogo Completo
+    </Link>
+  </div>
+</section>
+
       </main>
 
       <InstagramBanner />

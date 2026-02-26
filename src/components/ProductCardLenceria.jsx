@@ -33,10 +33,15 @@ const ProductCardLenceria = ({ producto, index }) => {
     }
   }, [variantes, tieneVariantes]);
 
-  const precioFinal = producto.precioBase 
+  // 🔧 Precio base
+  const precioBase = producto.precioBase 
     ?? variantePorColor?.precio 
     ?? precio 
     ?? 0;
+
+  // 🔧 Aplicar descuento global del 30%
+  const GLOBAL_DISCOUNT = 0.30;
+  const precioFinal = precioBase - (precioBase * GLOBAL_DISCOUNT);
 
   const imagenFinal =
     variantePorColor?.imagen ||
@@ -100,14 +105,20 @@ const ProductCardLenceria = ({ producto, index }) => {
         <img 
           src={imagenFinal} 
           alt={nombre} 
-          className="w-full h-full object-cover transition duration-500 hover:scale-120"
+          className="w-full h-full object-cover transition duration-500 hover:scale-110"
         />
         {etiquetaMarca && (
           <span className="absolute top-2 left-2 bg-black text-white text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wide shadow-md z-10">
             {etiquetaMarca}
           </span>
         )}
-        {producto.nuevo && ( <div className="absolute top-2 right-2 w-7 h-7 rounded-full bg-red-700 flex items-center justify-center shadow-lg z-20"> <span className="text-[7px] font-semibold text-white uppercase tracking-wide"> Nuevo </span> </div> )}
+
+        {/* Badge PNG desde public */}
+        <img
+          src="/BADGE.png"
+          alt="Descuento 30%"
+  className="absolute -top-2 -right-2 w-14 h-14 z-20"
+        />
 
         {!stock && (
           <div className="absolute top-0 right-0 bg-gray-900/80 text-white font-bold px-3 py-1 rounded-bl-lg">
@@ -138,10 +149,13 @@ const ProductCardLenceria = ({ producto, index }) => {
           </button>
         </div>
 
-        {/* Interacción */}
+        {/* Precios con descuento global */}
         <div className="mt-3 flex flex-col items-center justify-start">
+          <p className="text-gray-400 line-through text-xs">
+            ${precioBase.toLocaleString("es-AR")}
+          </p>
           <p className="text-base text-red-700 font-bold mb-2">
-            ${precioFinal}
+            ${precioFinal.toLocaleString("es-AR")}
           </p>
 
           {/* Círculos de color */}
@@ -166,7 +180,6 @@ const ProductCardLenceria = ({ producto, index }) => {
             </div>
           )}
 
-          {/* Mensaje informativo */}
           {colorSeleccionado && (
             <p className="text-xs text-center text-gray-400 mt-1">
               Consultar por talles disponibles
@@ -193,5 +206,6 @@ const ProductCardLenceria = ({ producto, index }) => {
     </motion.div>
   );
 };
+
 
 export default ProductCardLenceria;

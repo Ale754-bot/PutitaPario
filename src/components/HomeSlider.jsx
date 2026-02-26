@@ -69,7 +69,7 @@ export default function HomeSlider() {
 
       {/* Botón catálogo debajo del banner */}
       <a
-        href="/catalogo"
+        href="/productos"
         className="px-8 py-2 bg-red-600 hover:bg-red-800 text-white font-bold rounded-lg shadow-lg transition"
       >
         Ver catálogo completo

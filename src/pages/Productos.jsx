@@ -17,6 +17,8 @@ import cuidadoIntimo from '../data/cuidadointimo.json';
 import dildos from '../data/dildos.json';
 import tangas from '../data/tangas.json';
 import ScrollToTopButton from "../components/ScrollToTopButton";
+import CountdownBanner from "../components/CountdownWidget";
+
 
 import PageTransition from '../components/PageTransition';
 
@@ -118,6 +120,7 @@ const Productos = () => {
 
   return (
     <PageTransition>
+      <CountdownBanner />
       <main className="mx-auto max-w-screen-xl px-4 py-8">
         {/* Menú desplegable de navegación por categoría */}
         <div className="mb-8 flex justify-center">

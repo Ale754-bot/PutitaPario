@@ -1,79 +1,49 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const banners = ["/BANNER 1.jpg", "/BANNER 2.jpg", "/BANNER 3.jpg"];
+const mensajes = [
+  "TENEMOS NOVEDADES",
+  "Nuevos ingresos en camino",
+  "No te lo pierdas"
+];
 
-// 🔧 Componente para PC
-function BannerPC({ index }) {
-  return (
-    <div className="relative w-full h-[300px] overflow-hidden rounded-xl shadow-lg">
-      <AnimatePresence>
-        <motion.img
-          key={index}
-          src={banners[index]}
-          alt={`Banner ${index + 1}`}
-          initial={{ opacity: 0, scale: 1.1 }}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0, scale: 0.95 }}
-          transition={{ duration: 1 }}
-          className="absolute w-full h-full object-contain"
-        />
-      </AnimatePresence>
-    </div>
-  );
-}
-
-// 🔧 Componente para Mobile
-function BannerMobile({ index }) {
-  return (
-    <div className="relative w-full h-[250px] overflow-hidden rounded-lg shadow-md">
-      <AnimatePresence>
-        <motion.img
-          key={index}
-          src={banners[index]}
-          alt={`Banner ${index + 1}`}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.6 }}
-          className="absolute w-full h-full object-contain"
-        />
-      </AnimatePresence>
-    </div>
-  );
-}
-
-// 🔧 Componente principal
 export default function HomeSlider() {
   const [index, setIndex] = useState(0);
-  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setIndex((prev) => (prev + 1) % banners.length);
-    }, 2000);
+      setIndex((prev) => (prev + 1) % mensajes.length);
+    }, 2500);
     return () => clearInterval(interval);
   }, []);
 
-  // Detectar tamaño de pantalla
-  useEffect(() => {
-    const checkScreen = () => setIsMobile(window.innerWidth < 768);
-    checkScreen();
-    window.addEventListener("resize", checkScreen);
-    return () => window.removeEventListener("resize", checkScreen);
-  }, []);
-
   return (
-    <div className="flex flex-col items-center gap-2">
-      {isMobile ? <BannerMobile index={index} /> : <BannerPC index={index} />}
+    <div className="relative w-full h-[400px] flex items-center justify-center rounded-xl shadow-lg overflow-hidden">
+      {/* Imagen de fondo */}
+      <img
+        src="/lips.jpg" // 🔧 tu imagen en public/
+        alt="Background"
+        className="absolute w-full h-full object-contain"
+      />
 
-      {/* Botón catálogo debajo del banner */}
-      <a
-        href="/productos"
-        className="px-8 py-2 bg-red-600 hover:bg-red-800 text-white font-bold rounded-lg shadow-lg transition"
-      >
-        Ver catálogo completo
-      </a>
+      {/* Overlay oscuro para contraste */}
+      <div className="absolute w-full h-full bg-black/40"></div>
+
+      {/* Texto animado */}
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={index}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -20 }}
+          transition={{ duration: 0.5 }}
+          className="absolute text-center px-6"
+        >
+          <h2 className="text-2xl md:text-3xl font-bold text-white animate-pulse">
+            {mensajes[index]}
+          </h2>
+        </motion.div>
+      </AnimatePresence>
     </div>
   );
 }

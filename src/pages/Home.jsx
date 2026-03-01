@@ -10,7 +10,6 @@ import PageTransition from '../components/PageTransition'; // ✅ Importación a
 import { motion } from 'framer-motion';
 import { useCarrito } from '../context/CarritoContext'; // ✅ Importar el hook del carrito
 import HomeSlider from "../components/HomeSlider";
-import CountdownWidget from "../components/CountdownWidget";
 
 
 
@@ -27,9 +26,7 @@ const Home = () => {
       <Hero />
       <main className="mx-auto max-w-screen-xl px-4 py-8">
         <CategoryScroll />
-        <div className="mb-10">
-          <CountdownWidget />
-          </div>
+      
         
       <HomeSlider />
 

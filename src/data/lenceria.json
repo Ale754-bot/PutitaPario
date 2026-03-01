@@ -168,14 +168,14 @@
       "colorHex": "#000000",
       "talle": "Consultar por talles disponibles",
       "precio": 38000,
-      "imagen": "/images/lenceria/dominada/dominadanegro.webp"
+      "imagen": "/images/lenceria/dominhada/dominadanegro.webp"
     },
     {
       "color": "Rojo",
       "colorHex": "#b30000",
       "talle": "Consultar por talles disponibles",
       "precio": 38000,
-      "imagen": "/images/lenceria/dominada/dominadarojo.webp"
+      "imagen": "/images/lenceria/dominhada/dominadarojo.webp"
     }
   ]
 },

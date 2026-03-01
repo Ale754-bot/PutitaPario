@@ -33,15 +33,11 @@ const ProductCardLenceria = ({ producto, index }) => {
     }
   }, [variantes, tieneVariantes]);
 
-  // 🔧 Precio base
+  // 🔧 Precio base (sin descuento)
   const precioBase = producto.precioBase 
     ?? variantePorColor?.precio 
     ?? precio 
     ?? 0;
-
-  // 🔧 Aplicar descuento global del 30%
-  const GLOBAL_DISCOUNT = 0.30;
-  const precioFinal = precioBase - (precioBase * GLOBAL_DISCOUNT);
 
   const imagenFinal =
     variantePorColor?.imagen ||
@@ -52,7 +48,7 @@ const ProductCardLenceria = ({ producto, index }) => {
   const handleWhatsApp = () => {
     if (!colorSeleccionado) return;
     const numeroDuena = "5493412634440"; // 🔧 tu número de WhatsApp
-    const mensaje = `Hola 👋, quiero consultar por talles disponibles del producto: ${nombre} (${colorSeleccionado}). Precio: $${precioFinal}`;
+    const mensaje = `Hola 👋, quiero consultar por talles disponibles del producto: ${nombre} (${colorSeleccionado}). Precio: $${precioBase}`;
     const url = `https://wa.me/${numeroDuena}?text=${encodeURIComponent(mensaje)}`;
     window.open(url, "_blank");
   };
@@ -113,13 +109,6 @@ const ProductCardLenceria = ({ producto, index }) => {
           </span>
         )}
 
-        {/* Badge PNG desde public */}
-        <img
-          src="/BADGE.png"
-          alt="Descuento 30%"
-  className="absolute -top-2 -right-2 w-14 h-14 z-20"
-        />
-
         {!stock && (
           <div className="absolute top-0 right-0 bg-gray-900/80 text-white font-bold px-3 py-1 rounded-bl-lg">
             AGOTADO
@@ -149,13 +138,10 @@ const ProductCardLenceria = ({ producto, index }) => {
           </button>
         </div>
 
-        {/* Precios con descuento global */}
+        {/* Precio sin descuento */}
         <div className="mt-3 flex flex-col items-center justify-start">
-          <p className="text-gray-400 line-through text-xs">
-            ${precioBase.toLocaleString("es-AR")}
-          </p>
           <p className="text-base text-red-700 font-bold mb-2">
-            ${precioFinal.toLocaleString("es-AR")}
+            ${precioBase.toLocaleString("es-AR")}
           </p>
 
           {/* Círculos de color */}
@@ -206,6 +192,5 @@ const ProductCardLenceria = ({ producto, index }) => {
     </motion.div>
   );
 };
-
 
 export default ProductCardLenceria;

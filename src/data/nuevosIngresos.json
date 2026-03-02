@@ -1,0 +1,66 @@
+[
+  {
+    "id": 3000,
+    "nombre": "Consolador Sopapa - Rotación Vibrador Movimiento",
+    "precio": 90000,
+    "imagen": "/consopapa.jpg",
+    "stock": true,
+    "descripcion": ""
+  },
+  {
+    "id": 3001,
+    "nombre": "Succionador Ardilla",
+    "precio": 126000,
+    "imagen": "/ardilla.jpg",
+    "stock": true,
+    "descripcion": ""
+  },
+   {
+    "id": 3002,
+    "nombre": "Vibrador con USB",
+    "precio": 115000,
+    "imagen": "/vibrausb.jpg",
+    "stock": true,
+    "descripcion": ""
+  },
+  {
+    "id": 3003,
+    "nombre": "Jabón Íntimo - Naked",
+    "precio": 10000,
+    "imagen": "/naked.jpg",
+    "stock": true,
+    "descripcion": ""
+  },
+   {
+    "id": 3004,
+    "nombre": "Lubricante - Fisting",
+    "precio": 20000,
+    "imagen": "/diablo.jpg",
+    "stock": true,
+    "descripcion": ""
+  },
+  {
+    "id": 3005,
+    "nombre": "Plug Dorado - Diamante Corazón Violeta",
+    "precio": 24000,
+    "imagen": "/plugcorazonvioleta.jpg",
+    "stock": true,
+    "descripcion": ""
+  },
+   {
+    "id": 3006,
+    "nombre": "Plug Acero - Diamante Circular Rojo",
+    "precio": 24000,
+    "imagen": "/doradorojo.jpg",
+    "stock": true,
+    "descripcion": ""
+  },
+  {
+    "id": 3007,
+    "nombre": "Glitter Guest - Iluminador",
+    "precio": 16000,
+    "imagen": "/glitter.jpg",
+    "stock": true,
+    "descripcion": ""
+  }
+]

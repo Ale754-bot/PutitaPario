@@ -6,7 +6,7 @@
     "imagen": "/images/plugs/corazonrojo.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -78,7 +78,7 @@
     "imagen": "/images/plugs/doradorosa.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -95,7 +95,7 @@
     "imagen": "/images/plugs/diamanteplateado.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -112,7 +112,7 @@
     "imagen": "/images/plugs/plateadonegro.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -129,7 +129,7 @@
     "imagen": "/images/plugs/plateadonaranja.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -275,7 +275,7 @@
     "descripcion": "",
     "imagen": "/images/plugs/plugcascabel.webp",
     "categoria": "Plugs",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "precio": 25000

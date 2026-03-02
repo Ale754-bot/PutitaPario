@@ -116,7 +116,7 @@
     "variantes": [
       {
         "tamaño": "100ml",
-        "precio": 32500
+        "precio": 40000
       }
     ]
   },
@@ -251,7 +251,7 @@
     "imagen": "/images/perfumes/p4.webp",
     "categoria": "Perfumes Afrodisíacos y Body Splash",
     "subcategoria": "Hombre",
-    "stock": false,
+    "stock": true,
     "marca": "Sexitive",
     "linea": "For Him",
     "variantes": [

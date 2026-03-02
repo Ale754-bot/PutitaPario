@@ -10,6 +10,7 @@ import PageTransition from '../components/PageTransition'; // ✅ Importación a
 import { motion } from 'framer-motion';
 import { useCarrito } from '../context/CarritoContext'; // ✅ Importar el hook del carrito
 import HomeSlider from "../components/HomeSlider";
+import NuevosIngresos from "../components/NuevosIngresos";
 
 
 
@@ -28,7 +29,7 @@ const Home = () => {
         <CategoryScroll />
       
         
-      <HomeSlider />
+      <NuevosIngresos />
 
         
       {/* 🖼️ Sección con GIF de fondo y botón flotante */}

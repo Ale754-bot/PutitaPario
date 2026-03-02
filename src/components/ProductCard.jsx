@@ -18,7 +18,8 @@ const ProductCard = ({ producto, index }) => {
     mostrarColor,
     categoria,
     precioOriginal,
-    etiqueta
+    etiqueta,
+    reingreso // 🔧 nueva propiedad
   } = producto;
 
   const [talleSeleccionado, setTalleSeleccionado] = useState("");
@@ -146,6 +147,12 @@ const ProductCard = ({ producto, index }) => {
             {etiquetaMarca}
           </span>
         )}
+        {/* Tag de Reingreso */}
+{reingreso && (
+  <span className="absolute top-2 right-2 bg-red-700 text-white text-[10px] px-2 py-1 rounded-md font-semibold shadow-md">
+    REINGRESO
+  </span>
+)}
         {/* Stock */}
         {!stock && (
           <div className="absolute top-0 right-0 bg-gray-900/80 text-white font-bold px-3 py-1 rounded-bl-lg">

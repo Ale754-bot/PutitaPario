@@ -32,7 +32,7 @@ const LenceriaCapsula = () => {
             initial={{ opacity: 0, y: -40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
-            className="text-3xl md:text-5xl font-extrabold text-pink-100 drop-shadow-lg"
+            className="text-3xl md:text-5xl font-extrabold text-pink-100 drop-shadow-lg text-center"
         >
             Cápsula de Lencería Exclusiva
         </motion.h2>

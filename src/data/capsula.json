@@ -1,0 +1,50 @@
+[
+  {
+    "id": 5000,
+    "nombre": "Conjunto 1",
+    "precio": 85000,
+    "imagen": "/images/lenceria1.jpg",
+    "descripcion": "Conjunto delicado en encaje",
+    "stock": true
+  },
+  {
+    "id": 5001,
+    "nombre": "Conjunto 2",
+    "precio": 92000,
+    "imagen": "/images/lenceria2.jpg",
+    "descripcion": "Diseño exclusivo",
+    "stock": true
+  },
+  {
+    "id": 5002,
+    "nombre": "Conjunto 3",
+    "precio": 78000,
+    "imagen": "/images/lenceria3.jpg",
+    "descripcion": "Estilo romántico",
+    "stock": true
+  },
+  {
+    "id": 5003,
+    "nombre": "Conjunto 4",
+    "precio": 99000,
+    "imagen": "/images/lenceria4.jpg",
+    "descripcion": "Encaje premium",
+    "stock": true
+  },
+  {
+    "id": 5004,
+    "nombre": "Conjunto 5",
+    "precio": 105000,
+    "imagen": "/images/lenceria5.jpg",
+    "descripcion": "Diseño sofisticado",
+    "stock": true
+  },
+  {
+    "id": 5005,
+    "nombre": "Conjunto 6",
+    "precio": 87000,
+    "imagen": "/images/lenceria6.jpg",
+    "descripcion": "Elegancia y comodidad",
+    "stock": true
+  }
+]

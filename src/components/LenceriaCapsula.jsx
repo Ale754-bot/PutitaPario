@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Countdown from "../components/Countdown"
+import Countdown from "../components/Countdown";
 
 // Datos de la cápsula (6 conjuntos)
 const productosCapsula = [
@@ -13,7 +13,8 @@ const productosCapsula = [
 ];
 
 const LenceriaCapsula = () => {
-  const fechaDisponible = new Date("2026-03-07"); // sábado
+  // 🔒 Bloqueo hasta el sábado 7 de marzo 2026 a las 10:00 AM
+  const fechaDisponible = new Date("2026-03-07T10:00:00");
   const hoy = new Date();
   const bloqueado = hoy < fechaDisponible;
 
@@ -27,33 +28,36 @@ const LenceriaCapsula = () => {
           className="w-full h-50 object-cover rounded-lg shadow-lg"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/50 rounded-lg">
-        {/* Título animado */}
-        <motion.h2
+          {/* Título animado */}
+          <motion.h2
             initial={{ opacity: 0, y: -40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
             className="text-3xl md:text-5xl font-extrabold text-pink-100 drop-shadow-lg text-center"
-        >
+          >
             Cápsula de Lencería Exclusiva
-        </motion.h2>
+          </motion.h2>
 
-        {/* Subtítulo con efecto fade + delay */}
-        <motion.p
+          {/* Subtítulo */}
+          <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 1 }}
             className="mt-4 text-lg md:text-2xl text-white font-script"
-        >
+          >
             Disponible en
-        </motion.p>
-<Countdown />
-        {/* Efecto decorativo: línea brillante */}
-        <motion.div
+          </motion.p>
+
+          {/* Contador dinámico */}
+          <Countdown targetDate={fechaDisponible} />
+
+          {/* Línea decorativa */}
+          <motion.div
             initial={{ scaleX: 0 }}
             animate={{ scaleX: 1 }}
             transition={{ delay: 1.2, duration: 1 }}
             className="mt-4 h-0.5 w-40 bg-gradient-to-r from-pink-400 via-red-500 to-purple-600"
-        />
+          />
         </div>
       </div>
 
@@ -71,6 +75,7 @@ const LenceriaCapsula = () => {
                 className={`w-full h-64 object-cover transition-all duration-500 ${
                   bloqueado ? "blur-md brightness-75" : ""
                 }`}
+                loading="lazy"
               />
               {bloqueado && (
                 <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/50">
@@ -115,6 +120,7 @@ const LenceriaCapsula = () => {
               className={`w-full h-64 object-cover transition-all duration-500 ${
                 bloqueado ? "blur-md brightness-75" : ""
               }`}
+              loading="lazy"
             />
             {bloqueado && (
               <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/50">

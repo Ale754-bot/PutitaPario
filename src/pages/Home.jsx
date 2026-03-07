@@ -10,10 +10,8 @@ import PageTransition from '../components/PageTransition'; // ✅ Importación a
 import { motion } from 'framer-motion';
 import { useCarrito } from '../context/CarritoContext'; // ✅ Importar el hook del carrito
 import HomeSlider from "../components/HomeSlider";
-import LenceriaCapsula from "../components/LenceriaCapsula";
 import NuevosIngresos from "../components/NuevosIngresos";
-
-
+import CapsulaDesbloqueada from "../components/CapsulaDesbloqueada";
 
 
 
@@ -28,7 +26,8 @@ const Home = () => {
       <Hero />
       <main className="mx-auto max-w-screen-xl px-4 py-8">
         <CategoryScroll />
-      <LenceriaCapsula />
+        <CapsulaDesbloqueada />
+      
        <NuevosIngresos />  
 
         

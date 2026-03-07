@@ -17,7 +17,7 @@ const ProductCardIngresos = ({ producto }) => {
       {/* Imagen + badge */}
       <div className="relative">
         <img
-          className="h-60 w-full rounded-t-lg object-cover transition-transform duration-500 hover:scale-110"
+          className="h-full w-full rounded-t-lg object-cover transition-transform duration-500 hover:scale-110"
           src={producto.imagen}
           alt={producto.nombre}
         />

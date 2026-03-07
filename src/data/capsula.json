@@ -1,50 +1,50 @@
 [
   {
     "id": 5000,
-    "nombre": "Conjunto 1",
-    "precio": 85000,
-    "imagen": "/images/lenceria1.jpg",
-    "descripcion": "Conjunto delicado en encaje",
+    "nombre": "CONJUNTO VICTORIA",
+    "precio": 52000,
+    "imagen": "/VICTORIA.jpg",
+    "descripcion": "",
     "stock": true
   },
   {
     "id": 5001,
-    "nombre": "Conjunto 2",
-    "precio": 92000,
-    "imagen": "/images/lenceria2.jpg",
-    "descripcion": "Diseño exclusivo",
+    "nombre": "CONJUNTO LEONOR",
+    "precio": 48000,
+    "imagen": "/LEONOR.jpg",
+    "descripcion": "",
     "stock": true
   },
   {
     "id": 5002,
-    "nombre": "Conjunto 3",
-    "precio": 78000,
-    "imagen": "/images/lenceria3.jpg",
-    "descripcion": "Estilo romántico",
+    "nombre": "CONJUNTO TATIANA",
+    "precio": 48000,
+    "imagen": "/TATIANA.jpg",
+    "descripcion": "",
     "stock": true
   },
   {
     "id": 5003,
-    "nombre": "Conjunto 4",
-    "precio": 99000,
-    "imagen": "/images/lenceria4.jpg",
-    "descripcion": "Encaje premium",
+    "nombre": "CONJUNTO MALÉFICA",
+    "precio": 60000,
+    "imagen": "/MALEFICA.jpg",
+    "descripcion": "",
     "stock": true
   },
   {
     "id": 5004,
-    "nombre": "Conjunto 5",
-    "precio": 105000,
-    "imagen": "/images/lenceria5.jpg",
-    "descripcion": "Diseño sofisticado",
+    "nombre": "CONJUNTO ÚRSULA",
+    "precio": 50000,
+    "imagen": "/URSULA.jpg",
+    "descripcion": "",
     "stock": true
   },
   {
     "id": 5005,
-    "nombre": "Conjunto 6",
-    "precio": 87000,
-    "imagen": "/images/lenceria6.jpg",
-    "descripcion": "Elegancia y comodidad",
+    "nombre": "CONJUNTO ISABEL",
+    "precio": 60000,
+    "imagen": "/ISABEL.jpg",
+    "descripcion": "",
     "stock": true
   }
 ]

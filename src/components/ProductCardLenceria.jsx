@@ -33,11 +33,15 @@ const ProductCardLenceria = ({ producto, index }) => {
     }
   }, [variantes, tieneVariantes]);
 
-  // 🔧 Precio base (sin descuento)
+  // 🔧 Precio base (prioriza oferta si existe)
   const precioBase = producto.precioBase 
+    ?? variantePorColor?.precioOferta 
     ?? variantePorColor?.precio 
     ?? precio 
     ?? 0;
+
+  // 🔧 Detectar si alguna variante tiene oferta
+  const varianteConOferta = variantePorColor || variantes?.find(v => v.precioOferta);
 
   const imagenFinal =
     variantePorColor?.imagen ||
@@ -48,7 +52,8 @@ const ProductCardLenceria = ({ producto, index }) => {
   const handleWhatsApp = () => {
     if (!colorSeleccionado) return;
     const numeroDuena = "5493412634440"; // 🔧 tu número de WhatsApp
-    const mensaje = `Hola 👋, quiero consultar por talles disponibles del producto: ${nombre} (${colorSeleccionado}). Precio: $${precioBase}`;
+    const precioMostrar = variantePorColor?.precioOferta ?? variantePorColor?.precio ?? precioBase;
+    const mensaje = `Hola 👋, quiero consultar por talles disponibles del producto: ${nombre} (${colorSeleccionado}). Precio: $${precioMostrar}`;
     const url = `https://wa.me/${numeroDuena}?text=${encodeURIComponent(mensaje)}`;
     window.open(url, "_blank");
   };
@@ -138,11 +143,22 @@ const ProductCardLenceria = ({ producto, index }) => {
           </button>
         </div>
 
-        {/* Precio sin descuento */}
+        {/* Precio con oferta desde portada */}
         <div className="mt-3 flex flex-col items-center justify-start">
-          <p className="text-base text-red-700 font-bold mb-2">
-            ${precioBase.toLocaleString("es-AR")}
-          </p>
+          {varianteConOferta?.precioOferta ? (
+            <div className="flex flex-col items-center">
+              <span className="text-sm line-through text-gray-400">
+                ${varianteConOferta.precio.toLocaleString("es-AR")}
+              </span>
+              <span className="text-base text-red-700 font-bold">
+                ${varianteConOferta.precioOferta.toLocaleString("es-AR")}
+              </span>
+            </div>
+          ) : (
+            <p className="text-base text-red-700 font-bold mb-2">
+              ${precioBase.toLocaleString("es-AR")}
+            </p>
+          )}
 
           {/* Círculos de color */}
           {tieneColores && (

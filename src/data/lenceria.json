@@ -1,21 +1,90 @@
 [
   {
+  "id": 727,
+  "nombre": "Body de encaje simple con colaless",
+  "descripcion": "talle único L/XL aprox.",
+  "imagen": "/images/lenceria/BABYDOLL/BABYDOLLNEGRO.jpg",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": true,
+  "precioBase": 25000,
+  "precioOferta": 20000,
+  "nuevo": false,
+  "variantes": [
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "Único L/XL",
+      "precio": 25000,
+      "precioOferta": 20000,
+      "imagen": "/images/lenceria/BABYDOLL/BABYDOLLNEGRO.jpg",
+      "stock": true
+    },
+    {
+      "color": "Rojo",
+      "colorHex": "#ff0000",
+      "talle": "Único L/XL",
+      "precio": 25000,
+      "precioOferta": 20000,
+      "imagen": "/images/lenceria/BABYDOLL/BABYDOLLROJO.jpg",
+      "stock": true
+    },
+    {
+      "color": "Verde azulado",
+      "colorHex": "#006b6b",
+      "talle": "Único L/XL",
+      "precio": 25000,
+      "precioOferta": 20000,
+      "imagen": "/images/lenceria/BABYDOLL/BABYDOLLVERDE.jpg",
+      "stock": true
+    },
+    {
+      "color": "Azul oscuro",
+      "colorHex": "#00008b",
+      "talle": "Único L/XL",
+      "precio": 25000,
+      "precioOferta": 20000,
+      "imagen": "/images/lenceria/BABYDOLL/BABYDOLLAZUL.jpg",
+      "stock": true
+    },
+    {
+      "color": "Rojo oscuro",
+      "colorHex": "#8b0000",
+      "talle": "Único L/XL",
+      "precio": 25000,
+      "precioOferta": 20000,
+      "imagen": "/images/lenceria/BABYDOLL/BABYDOLLROJOOSCURO.jpg",
+      "stock": true
+    },
+    {
+      "color": "Rosa",
+      "colorHex": "#ffc0cb",
+      "talle": "Único L/XL",
+      "precio": 25000,
+      "precioOferta": 20000,
+      "imagen": "/images/lenceria/BABYDOLL/BABYDOLLROSA.jpg",
+      "stock": true
+    }
+  ]
+},
+ {
   "id": 726,
   "nombre": "Conjunto Magui",
   "descripcion": "",
-  "imagen": "/magui1.jpg",
+  "imagen": "/magui3.jpg",
   "categoria": "Lencería",
   "stock": true,
   "mostrarColor": true,
   "precioBase": 56000,
+  "precioOferta": 28000,
   "nuevo": false,
   "variantes": [
-    
     {
       "color": "Blanco",
       "colorHex": "#ffffff",
       "talle": "Consultar por talles disponibles",
       "precio": 56000,
+      "precioOferta": 28000,
       "imagen": "/magui3.jpg",
       "stock": true
     },
@@ -24,6 +93,7 @@
       "colorHex": "#ffc0cb",
       "talle": "Consultar por talles disponibles",
       "precio": 56000,
+      "precioOferta": 28000,
       "imagen": "/magui4.jpg",
       "stock": true
     }
@@ -78,42 +148,48 @@
   "categoria": "Lencería",
   "stock": true,
   "mostrarColor": true,
-  "precioBase": 38000,
+  "precioBase": 40000,
+  "precioOferta": 30000,
   "nuevo": true,
   "variantes": [
     {
       "color": "Azul",
       "colorHex": "#0000FF",
       "talle": "Consultar por talles disponibles",
-      "precio": 38000,
+      "precio": 40000,
+      "precioOferta": 30000,
       "imagen": "/images/lenceria/madison/madisonazul.webp"
     },
     {
       "color": "Blanco",
       "colorHex": "#FFFFFF",
       "talle": "Consultar por talles disponibles",
-      "precio": 38000,
+      "precio": 40000,
+      "precioOferta": 30000,
       "imagen": "/images/lenceria/madison/madisonblanco.webp"
     },
     {
       "color": "Negro",
       "colorHex": "#000000",
       "talle": "Consultar por talles disponibles",
-      "precio": 38000,
+      "precio": 40000,
+      "precioOferta": 30000,
       "imagen": "/images/lenceria/madison/madisonnegro.webp"
     },
     {
       "color": "Rojo",
       "colorHex": "#b30000",
       "talle": "Consultar por talles disponibles",
-      "precio": 38000,
+      "precio": 40000,
+      "precioOferta": 30000,
       "imagen": "/images/lenceria/madison/madisonrojo.webp"
     },
     {
       "color": "Rosa",
       "colorHex": "#FFC0CB",
       "talle": "Consultar por talles disponibles",
-      "precio": 38000,
+      "precio": 40000,
+      "precioOferta": 30000,
       "imagen": "/images/lenceria/madison/madisonrosa.webp"
     }
   ]
@@ -215,6 +291,7 @@
   "stock": true,
   "mostrarColor": true,
   "precioBase": 15000,
+  "precioOferta": 12000,
   "nuevo": true,
   "variantes": [
     {
@@ -222,6 +299,7 @@
       "colorHex": "#a8323e",
       "talle": "Consultar por talles disponibles",
       "precio": 15000,
+      "precioOferta": 12000,
       "imagen": "/images/lenceria/corset/marmolado/marmolado.webp"
     },
     {
@@ -229,6 +307,7 @@
       "colorHex": "#5a3e2b",
       "talle": "Consultar por talles disponibles",
       "precio": 15000,
+      "precioOferta": 12000,
       "imagen": "/images/lenceria/corset/marmolado/marmolado2.webp"
     },
     {
@@ -236,6 +315,7 @@
       "colorHex": "#1e3a34",
       "talle": "Consultar por talles disponibles",
       "precio": 15000,
+      "precioOferta": 12000,
       "imagen": "/images/lenceria/corset/marmolado/marmolado3.webp"
     }
   ]
@@ -249,6 +329,7 @@
   "stock": true,
   "mostrarColor": true,
   "precioBase": 15000,
+  "precioOferta": 12000,
   "nuevo": true,
   "variantes": [
     {
@@ -256,6 +337,7 @@
       "colorHex": "#1a1a1a",
       "talle": "Consultar por talles disponibles",
       "precio": 15000,
+      "precioOferta": 12000,
       "imagen": "/images/lenceria/corset/brilloso/corsetnegro.webp"
     },
     {
@@ -263,6 +345,7 @@
       "colorHex": "#a3c9e2",
       "talle": "Consultar por talles disponibles",
       "precio": 15000,
+      "precioOferta": 12000,
       "imagen": "/images/lenceria/corset/brilloso/corsetceleste.webp"
     },
     {
@@ -270,6 +353,7 @@
       "colorHex": "#f5f5f5",
       "talle": "Consultar por talles disponibles",
       "precio": 15000,
+      "precioOferta": 12000,
       "imagen": "/images/lenceria/corset/brilloso/corsetblanco.webp"
     }
   ]

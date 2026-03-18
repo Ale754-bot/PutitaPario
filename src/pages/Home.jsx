@@ -12,7 +12,7 @@ import { useCarrito } from '../context/CarritoContext'; // ✅ Importar el hook 
 import HomeSlider from "../components/HomeSlider";
 import NuevosIngresos from "../components/NuevosIngresos";
 import CapsulaDesbloqueada from "../components/CapsulaDesbloqueada";
-
+import OfertaSemanal from "../components/OfertaSemanal";
 
 
 
@@ -26,6 +26,7 @@ const Home = () => {
       <Hero />
       <main className="mx-auto max-w-screen-xl px-4 py-8">
         <CategoryScroll />
+         <OfertaSemanal />
         <CapsulaDesbloqueada />
       
        <NuevosIngresos />  

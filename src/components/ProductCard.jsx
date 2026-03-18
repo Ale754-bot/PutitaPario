@@ -19,7 +19,8 @@ const ProductCard = ({ producto, index }) => {
     categoria,
     precioOriginal,
     etiqueta,
-    reingreso // 🔧 nueva propiedad
+    reingreso,
+    precioOferta // 🔧 ahora también lo recibimos
   } = producto;
 
   const [talleSeleccionado, setTalleSeleccionado] = useState("");
@@ -60,11 +61,9 @@ const ProductCard = ({ producto, index }) => {
       (tieneVariantes && varianteSeleccionada)
     );
 
-  // 🔧 Categorías que deben mostrar precio base siempre
   const categoriasPrecioVisible = ["Arneses", "Velas", "Plugs Anales", "Juguetes"];
   const mostrarPrecioSiempre = categoriasPrecioVisible.includes(categoria);
 
-  // 🔧 Precio base (sin descuento)
   const precioBase = mostrarPrecioSiempre
     ? (precio ?? varianteSeleccionada?.precio ?? precioOriginal ?? 0)
     : (varianteSeleccionada?.precio ?? precio ?? precioOriginal ?? 0);
@@ -83,14 +82,20 @@ const ProductCard = ({ producto, index }) => {
     ? "Elegí un tamaño"
     : "Agregar al carrito";
 
+  // 🔧 Ajuste: ahora tomamos precioOferta si existe
   const handleAgregar = () => {
     if (!puedeAgregar) return;
+
+    const precioFinal = varianteSeleccionada?.precioOferta 
+      ?? precioOferta 
+      ?? precioBase;
+
     const item = {
       ...producto,
       talle: talleSeleccionado || null,
       variante: varianteSeleccionada?.talle || varianteSeleccionada?.tamaño || null,
       color: varianteSeleccionada?.color || null,
-      precio: precioBase,
+      precio: precioFinal,
       imagen: varianteSeleccionada?.imagen || imagenFinal
     };
     agregarItem(item, 1);
@@ -141,19 +146,16 @@ const ProductCard = ({ producto, index }) => {
           alt={nombre} 
           className="w-full h-full object-cover transition duration-500 hover:scale-110"
         />
-        {/* Etiqueta de marca */}
         {etiquetaMarca && (
           <span className="absolute top-2 left-2 bg-black text-white text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wide shadow-md z-10">
             {etiquetaMarca}
           </span>
         )}
-        {/* Tag de Reingreso */}
-{reingreso && (
-  <span className="absolute top-2 right-2 bg-red-700 text-white text-[10px] px-2 py-1 rounded-md font-semibold shadow-md">
-    REINGRESO
-  </span>
-)}
-        {/* Stock */}
+        {reingreso && (
+          <span className="absolute top-2 right-2 bg-red-700 text-white text-[10px] px-2 py-1 rounded-md font-semibold shadow-md">
+            REINGRESO
+          </span>
+        )}
         {!stock && (
           <div className="absolute top-0 right-0 bg-gray-900/80 text-white font-bold px-3 py-1 rounded-bl-lg">
             AGOTADO
@@ -163,7 +165,6 @@ const ProductCard = ({ producto, index }) => {
 
       {/* Contenido */}
       <div className="p-3 flex flex-col flex-grow">
-        {/* Descripción */}
         <div className="flex flex-col gap-1 text-center flex-grow">
           <h2 className="text-sm font-semibold text-white leading-snug break-words">
             {nombre}
@@ -183,11 +184,22 @@ const ProductCard = ({ producto, index }) => {
           </button>
         </div>
 
-        {/* Precio sin descuento */}
+        {/* Precio con oferta */}
         <div className="mt-3 flex flex-col items-center justify-start">
-          <p className="text-base text-red-700 font-bold mb-2">
-            ${precioBase.toLocaleString("es-AR")}
-          </p>
+          {varianteSeleccionada?.precioOferta || precioOferta ? (
+            <div className="flex flex-col items-center">
+              <span className="text-sm line-through text-gray-400">
+                ${ (varianteSeleccionada?.precio ?? precioBase).toLocaleString("es-AR") }
+              </span>
+              <span className="text-base text-red-700 font-bold">
+                ${ (varianteSeleccionada?.precioOferta ?? precioOferta).toLocaleString("es-AR") }
+              </span>
+            </div>
+          ) : (
+            <p className="text-base text-red-700 font-bold mb-2">
+              ${precioBase.toLocaleString("es-AR")}
+            </p>
+          )}
         </div>
 
         {/* Botón */}

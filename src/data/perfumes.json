@@ -30,7 +30,8 @@
     "variantes": [
       {
         "tamaño": "60ml",
-        "precio": 32500
+        "precio": 32500,
+        "precioOferta": 27000
       }
     ]
   },
@@ -47,7 +48,8 @@
     "variantes": [
       {
         "tamaño": "60ml",
-        "precio": 32500
+        "precio": 32500,
+        "precioOferta": 27000
       }
     ]
   },
@@ -80,9 +82,10 @@
     "linea": "",
     "variantes": [
       {
-        "tamaño": "100ml",
-        "precio": 32500
-      }
+      "tamaño": "100ml",
+      "precio": 32500,
+      "precioOferta": 27000
+    }
     ]
   },
   {

@@ -1,7 +1,57 @@
 [
+  {
+  "id": 728,
+  "nombre": "Baby Doll Encaje Bordado y Colaless",
+  "descripcion": "",
+  "imagen": "/images/lenceria/BABYDOLL ENCAJE/BABYDOLLENCAJEROJO.jpg",
+  "categoria": "Lencería",
+  "stock": true,
+  "mostrarColor": true,
+  "precioBase": 28000,
+  "precioOferta": 25000,
+  "nuevo": false,
+  "variantes": [
+    {
+      "color": "Rojo",
+      "colorHex": "#ff0000",
+      "talle": "",
+      "precio": 28000,
+      "precioOferta": 25000,
+      "imagen": "/images/lenceria/BABYDOLL ENCAJE/BABYDOLLENCAJEROJO.jpg",
+      "stock": true
+    },
+    {
+      "color": "Azul",
+      "colorHex": "#00008b",
+      "talle": "",
+      "precio": 28000,
+      "precioOferta": 25000,
+      "imagen": "/images/lenceria/BABYDOLL ENCAJE/BABYDOLLENCAJEAZUL.jpg",
+      "stock": true
+    },
+    {
+      "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "",
+      "precio": 28000,
+      "precioOferta": 25000,
+      "imagen": "/images/lenceria/BABYDOLL ENCAJE/BABYDOLLENCAJENEGRO.jpg",
+      "stock": true
+    },
+    {
+      "color": "Bordó",
+      "colorHex": "#8b0000",
+      "talle": "",
+      "precio": 28000,
+      "precioOferta": 25000,
+      "imagen": "/images/lenceria/BABYDOLL ENCAJE/BABYDOLLENCAJEBORDO.jpg",
+      "stock": true
+    }
+  ]
+},
    {
   "id": 727,
-  "nombre": "Body de encaje simple con colaless",
+  "nombre": "Baby Doll simple con colaless",
   "descripcion": "talle único L/XL aprox.",
   "imagen": "/images/lenceria/BABYDOLL/BABYDOLLNEGRO.jpg",
   "categoria": "Lencería",

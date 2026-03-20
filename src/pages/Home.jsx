@@ -16,6 +16,7 @@ import OfertaSemanal from "../components/OfertaSemanal";
 
 
 
+
 const Home = () => {
   const { agregarItem } = useCarrito(); // ✅ función para agregar al carrito
 

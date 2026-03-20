@@ -555,7 +555,7 @@
     "descripcion": "Conjunto con hebillas metálicas, disponible en dos colores intensos.",
     "imagen": "/images/lenceria/hebillarojo.webp",
     "categoria": "Lencería",
-    "stock": true,
+    "stock": false,
     "mostrarColor": true,
     "precioBase": 40000,
     "variantes": [

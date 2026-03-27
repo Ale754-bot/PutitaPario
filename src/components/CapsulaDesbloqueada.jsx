@@ -16,7 +16,7 @@ const CapsulaDesbloqueada = () => {
   return (
     <section className="py-8 bg-black text-white">
       {/* Banner personalizado */}
-      <div className="relative mb-10">
+      <div className="relative mb-1">
         <img
           src="/BANNERCAPSULA.jpg"
           alt="Banner Cápsula Lencería"

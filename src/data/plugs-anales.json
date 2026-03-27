@@ -307,5 +307,27 @@
   "marca": "",
   "linea": "",
   "precio": 22000
+},
+ {
+  "id": 519,
+  "nombre": "Plug Dorado - Diamante Corazón Violeta",
+  "descripcion": "",
+  "imagen": "/plugcorazonvioleta.jpg",
+  "categoria": "Plugs",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "precio": 24000
+},
+ {
+  "id": 520,
+  "nombre": "Plug Acero - Diamante Circular Rojo",
+  "descripcion": "",
+  "imagen": "/doradorojo.jpg",
+  "categoria": "Plugs",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "precio": 24000
 }
 ]

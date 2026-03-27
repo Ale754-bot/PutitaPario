@@ -33,15 +33,18 @@ const ProductCardLenceria = ({ producto, index }) => {
     }
   }, [variantes, tieneVariantes]);
 
-  // 🔧 Precio base (prioriza oferta si existe)
-  const precioBase = producto.precioBase 
-    ?? variantePorColor?.precioOferta 
-    ?? variantePorColor?.precio 
-    ?? precio 
-    ?? 0;
+  // 🔧 Precio base
+  const precioBase = variantePorColor?.precio ?? precio ?? 0;
 
-  // 🔧 Detectar si alguna variante tiene oferta
-  const varianteConOferta = variantePorColor || variantes?.find(v => v.precioOferta);
+  // 🔧 Lógica de promo
+  const ahora = new Date();
+  const inicioPromo = new Date("2026-03-27T00:00:00");
+  const finPromo = new Date("2026-03-30T23:59:59");
+  const promoActiva = ahora >= inicioPromo && ahora <= finPromo;
+
+  const precioFinal = promoActiva
+    ? Math.round(precioBase * 0.9)
+    : (variantePorColor?.precioOferta ?? precioBase);
 
   const imagenFinal =
     variantePorColor?.imagen ||
@@ -52,8 +55,7 @@ const ProductCardLenceria = ({ producto, index }) => {
   const handleWhatsApp = () => {
     if (!colorSeleccionado) return;
     const numeroDuena = "5493412634440"; // 🔧 tu número de WhatsApp
-    const precioMostrar = variantePorColor?.precioOferta ?? variantePorColor?.precio ?? precioBase;
-    const mensaje = `Hola 👋, quiero consultar por talles disponibles del producto: ${nombre} (${colorSeleccionado}). Precio: $${precioMostrar}`;
+    const mensaje = `Hola 👋, quiero consultar por talles disponibles del producto: ${nombre} (${colorSeleccionado}). Precio: $${precioFinal}`;
     const url = `https://wa.me/${numeroDuena}?text=${encodeURIComponent(mensaje)}`;
     window.open(url, "_blank");
   };
@@ -82,7 +84,6 @@ const ProductCardLenceria = ({ producto, index }) => {
     },
   };
 
-  // Texto dinámico del botón
   const textoBoton = !stock
     ? "Sin stock"
     : !colorSeleccionado && tieneColores
@@ -113,17 +114,20 @@ const ProductCardLenceria = ({ producto, index }) => {
             {etiquetaMarca}
           </span>
         )}
-
         {!stock && (
           <div className="absolute top-0 right-0 bg-gray-900/80 text-white font-bold px-3 py-1 rounded-bl-lg">
             AGOTADO
           </div>
         )}
+        {promoActiva && (
+          <span className="absolute bottom-2 right-2 bg-red-600 text-white text-[11px] px-2 py-1 rounded-md font-bold shadow-md">
+            10% OFF
+          </span>
+        )}
       </div>
 
       {/* Contenido */}
       <div className="p-3 flex flex-col flex-grow">
-        {/* Descripción */}
         <div className="flex flex-col gap-1 text-center flex-grow">
           <h2 className="text-sm font-semibold text-white leading-snug break-words">
             {nombre}
@@ -143,24 +147,24 @@ const ProductCardLenceria = ({ producto, index }) => {
           </button>
         </div>
 
-        {/* Precio con oferta desde portada */}
+        {/* Precio con oferta */}
         <div className="mt-3 flex flex-col items-center justify-start">
-          {varianteConOferta?.precioOferta ? (
+          {promoActiva ? (
             <div className="flex flex-col items-center">
               <span className="text-sm line-through text-gray-400">
-                ${varianteConOferta.precio.toLocaleString("es-AR")}
+                ${precioBase.toLocaleString("es-AR")}
               </span>
-              <span className="text-base text-red-700 font-bold">
-                ${varianteConOferta.precioOferta.toLocaleString("es-AR")}
+              <span className="text-base text-green-500 font-bold">
+                ${precioFinal.toLocaleString("es-AR")}
               </span>
             </div>
           ) : (
             <p className="text-base text-red-700 font-bold mb-2">
-              ${precioBase.toLocaleString("es-AR")}
+              ${precioFinal.toLocaleString("es-AR")}
             </p>
           )}
 
-          {/* Círculos de color */}
+          {/* Colores */}
           {tieneColores && (
             <div className="flex justify-center gap-2 mb-2">
               {coloresDisponibles.map((color, idx) => {
@@ -189,7 +193,7 @@ const ProductCardLenceria = ({ producto, index }) => {
           )}
         </div>
 
-        {/* Botón único */}
+        {/* Botón */}
         <div className="mt-auto pt-3 flex justify-center">
           <button
             onClick={handleWhatsApp}

@@ -20,7 +20,7 @@ const ProductCard = ({ producto, index }) => {
     precioOriginal,
     etiqueta,
     reingreso,
-    precioOferta // 🔧 ahora también lo recibimos
+    precioOferta
   } = producto;
 
   const [talleSeleccionado, setTalleSeleccionado] = useState("");
@@ -82,13 +82,18 @@ const ProductCard = ({ producto, index }) => {
     ? "Elegí un tamaño"
     : "Agregar al carrito";
 
-  // 🔧 Ajuste: ahora tomamos precioOferta si existe
+  // 🔧 Lógica de promo
+  const ahora = new Date();
+  const inicioPromo = new Date("2026-03-27T00:00:00");
+  const finPromo = new Date("2026-03-30T23:59:59");
+  const promoActiva = ahora >= inicioPromo && ahora <= finPromo;
+
+  const precioFinal = promoActiva
+    ? Math.round(precioBase * 0.9)
+    : (varianteSeleccionada?.precioOferta ?? precioOferta ?? precioBase);
+
   const handleAgregar = () => {
     if (!puedeAgregar) return;
-
-    const precioFinal = varianteSeleccionada?.precioOferta 
-      ?? precioOferta 
-      ?? precioBase;
 
     const item = {
       ...producto,
@@ -161,6 +166,11 @@ const ProductCard = ({ producto, index }) => {
             AGOTADO
           </div>
         )}
+        {promoActiva && (
+          <span className="absolute bottom-2 right-2 bg-red-600 text-white text-[11px] px-2 py-1 rounded-md font-bold shadow-md">
+            10% OFF
+          </span>
+        )}
       </div>
 
       {/* Contenido */}
@@ -186,18 +196,18 @@ const ProductCard = ({ producto, index }) => {
 
         {/* Precio con oferta */}
         <div className="mt-3 flex flex-col items-center justify-start">
-          {varianteSeleccionada?.precioOferta || precioOferta ? (
+          {promoActiva ? (
             <div className="flex flex-col items-center">
               <span className="text-sm line-through text-gray-400">
-                ${ (varianteSeleccionada?.precio ?? precioBase).toLocaleString("es-AR") }
+                ${precioBase.toLocaleString("es-AR")}
               </span>
-              <span className="text-base text-red-700 font-bold">
-                ${ (varianteSeleccionada?.precioOferta ?? precioOferta).toLocaleString("es-AR") }
+              <span className="text-base text-green-500 font-bold">
+                ${precioFinal.toLocaleString("es-AR")}
               </span>
             </div>
           ) : (
             <p className="text-base text-red-700 font-bold mb-2">
-              ${precioBase.toLocaleString("es-AR")}
+              ${precioFinal.toLocaleString("es-AR")}
             </p>
           )}
         </div>

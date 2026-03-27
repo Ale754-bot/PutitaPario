@@ -44,6 +44,39 @@
   "linea": "",
   "precio": 83000
 },
+{
+  "id": 436,
+  "nombre": "Masturbador realistico - de Rodillas",
+  "descripcion": "",
+  "imagen": "/masturbadorreal2.jpg",
+  "categoria": "Juguetes",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "precio": 168000
+},
+{
+  "id": 437,
+  "nombre": "Succionador Ardilla",
+  "descripcion": "",
+  "imagen": "/ardilla.jpg",
+  "categoria": "Juguetes",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "precio": 126000
+},
+{
+  "id": 438,
+  "nombre": "Vibrador con USB",
+  "descripcion": "",
+  "imagen": "/vibrausb.jpg",
+  "categoria": "Juguetes",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "precio": 115000
+},
   {
     "id": 400,
     "nombre": "Masajeador de Clítoris Boyce",

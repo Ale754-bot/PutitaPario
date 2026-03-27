@@ -6,29 +6,37 @@ export const CarritoProvider = ({ children }) => {
   const [items, setItems] = useState([]);
 
   const generarIdUnico = (producto) => {
-  // ahora también incluye la variante (ej: sabor elegido)
-  const partes = [producto.id, producto.color, producto.talle, producto.variante].filter(Boolean);
-  return partes.join("-");
-};
+    // ahora también incluye la variante (ej: color, talle, sabor)
+    const partes = [producto.id, producto.color, producto.talle, producto.variante].filter(Boolean);
+    return partes.join("-");
+  };
 
-const agregarItem = (producto, cantidad = 1) => {
-  const idUnico = generarIdUnico(producto);
+  const agregarItem = (producto, cantidad = 1) => {
+    const idUnico = generarIdUnico(producto);
 
-  setItems(prevItems => {
-    const itemExistente = prevItems.find(item => item.key === idUnico);
+    // 🔧 Lógica de promo centralizada
+    const ahora = new Date();
+    const inicioPromo = new Date("2026-03-27T00:00:00");
+    const finPromo = new Date("2026-03-30T23:59:59");
+    const promoActiva = ahora >= inicioPromo && ahora <= finPromo;
 
-    if (itemExistente) {
-      return prevItems.map(item =>
-        item.key === idUnico
-          ? { ...item, cantidad: item.cantidad + cantidad }
-          : item
-      );
-    } else {
-      return [...prevItems, { ...producto, key: idUnico, cantidad }];
-    }
-  });
-};
+    const precioBase = producto.precio ?? 0;
+    const precioFinal = promoActiva ? Math.round(precioBase * 0.9) : precioBase;
 
+    setItems(prevItems => {
+      const itemExistente = prevItems.find(item => item.key === idUnico);
+
+      if (itemExistente) {
+        return prevItems.map(item =>
+          item.key === idUnico
+            ? { ...item, cantidad: item.cantidad + cantidad }
+            : item
+        );
+      } else {
+        return [...prevItems, { ...producto, key: idUnico, cantidad, precio: precioFinal }];
+      }
+    });
+  };
 
   const eliminarProducto = (id) => {
     setItems(prevItems => prevItems.filter(item => item.id !== id));

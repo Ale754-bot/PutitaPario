@@ -71,6 +71,27 @@
   "marca": "Fly night",
   "linea": "",
   "precio": 8000
+},
+{
+  "id": 1206,
+  "nombre": "Jabón Íntimo - Naked",
+  "descripcion": "",
+  "imagen": "/naked.jpg",
+  "categoria": "Cuidado Personal Íntimo",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "",
+  "precio": 10000
+},
+{
+  "id": 1207,
+  "nombre": "Glitter Guest - Iluminador",
+  "descripcion": "",
+  "imagen": "/glitter.jpg",
+  "categoria": "Cuidado Personal Íntimo",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "",
+  "precio": 16000
 }
-
 ]

@@ -6,6 +6,14 @@ const ProductCardIngresos = ({ producto }) => {
   const { agregarItem } = useCarrito();
   const [showDesc, setShowDesc] = useState(false);
 
+  // 🔧 Lógica de promo
+  const ahora = new Date();
+  const inicioPromo = new Date("2026-03-27T00:00:00");
+  const finPromo = new Date("2026-03-30T23:59:59");
+  const promoActiva = ahora >= inicioPromo && ahora <= finPromo;
+
+  const precioFinal = promoActiva ? Math.round(producto.precio * 0.9) : producto.precio;
+
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.9 }}
@@ -24,6 +32,11 @@ const ProductCardIngresos = ({ producto }) => {
         <span className="absolute top-0 left-0 w-28 translate-y-4 -translate-x-6 -rotate-45 bg-red-700 text-center text-sm text-white">
           {producto.stock ? "Nuevo" : "Sin stock"}
         </span>
+        {promoActiva && (
+          <span className="absolute bottom-2 right-2 bg-red-600 text-white text-[11px] px-2 py-1 rounded-md font-bold shadow-md">
+            10% OFF
+          </span>
+        )}
       </div>
 
       {/* Contenido */}
@@ -45,22 +58,34 @@ const ProductCardIngresos = ({ producto }) => {
           initial={{ height: 0, opacity: 0 }}
           animate={showDesc ? { height: "auto", opacity: 1 } : { height: 0, opacity: 0 }}
           transition={{ duration: 0.4 }}
-          className="overflow-hidden text-sm text-gray-700 mt-2"
+          className="overflow-hidden text-sm text-gray-400 mt-2"
         >
           <p>{producto.descripcion}</p>
         </motion.div>
 
         {/* Precio + botón carrito */}
         <div className="flex items-center justify-between mt-4">
-          <p>
-            <span className="text-xl font-bold text-white">
-              ${producto.precio.toLocaleString("es-AR")}
-            </span>
-          </p>
+          <div className="flex flex-col">
+            {promoActiva ? (
+              <>
+                <span className="text-sm line-through text-gray-400">
+                  ${producto.precio.toLocaleString("es-AR")}
+                </span>
+                <span className="text-xl font-bold text-green-500">
+                  ${precioFinal.toLocaleString("es-AR")}
+                </span>
+              </>
+            ) : (
+              <span className="text-xl font-bold text-white">
+                ${producto.precio.toLocaleString("es-AR")}
+              </span>
+            )}
+          </div>
+
           <motion.button
             whileHover={{ scale: producto.stock ? 1.1 : 1 }}
             whileTap={{ scale: 0.95 }}
-            onClick={() => producto.stock && agregarItem(producto)}
+            onClick={() => producto.stock && agregarItem({ ...producto, precio: precioFinal })}
             disabled={!producto.stock}
             className={`flex items-center rounded-md px-4 py-2 text-sm font-medium shadow-md transition-colors
               ${producto.stock

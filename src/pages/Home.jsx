@@ -13,8 +13,8 @@ import HomeSlider from "../components/HomeSlider";
 import NuevosIngresos from "../components/NuevosIngresos";
 import CapsulaDesbloqueada from "../components/CapsulaDesbloqueada";
 import OfertaSemanal from "../components/OfertaSemanal";
-
-
+import Countdown from "../components/Countdown";
+import GifBanner from "../components/GifBanner";
 
 
 const Home = () => {
@@ -27,10 +27,10 @@ const Home = () => {
       <Hero />
       <main className="mx-auto max-w-screen-xl px-4 py-8">
         <CategoryScroll />
-         <OfertaSemanal />
+        <GifBanner />
+        <Countdown />
         <CapsulaDesbloqueada />
       
-       <NuevosIngresos />  
 
         
       {/* 🖼️ Sección con GIF de fondo y botón flotante */}
@@ -55,7 +55,7 @@ const Home = () => {
         transition duration-300 transform hover:bg-red-800 hover:scale-[1.05]
       "
     >
-      Ver Catálogo Completo
+    Galería Cordoba L 1-15
     </Link>
   </div>
 </section>

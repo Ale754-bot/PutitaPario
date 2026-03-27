@@ -12,6 +12,20 @@
   "linea": "",
   "precio": 85000
 },
+
+  {
+  "id": 1042,
+  "nombre": "Consolador Sopapa - Rotación Vibrador Movimiento",
+  "descripcion": "",
+  "imagen": "/consopapa.jpg",
+  "categoria": "Dildos & Vibradores",
+  "subcategoria": "Sopapa",
+  "stock": true,
+  "reingreso": true,
+  "marca": "",
+  "linea": "",
+  "precio": 120000
+},
   {
     "id": 1000,
     "nombre": "Dildo Sopapa Realistico 1",

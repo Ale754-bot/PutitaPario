@@ -1075,6 +1075,23 @@
     }
   ]
 },
+{
+  "id": 67,
+  "nombre": "Lubricante - Fisting",
+  "descripcion": "",
+  "imagen": "/diablo.jpg",
+  "categoria": "Geles, Aceites & Cremas",
+  "subcategoria": "Aceites y cremas para masajes",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "variantes": [
+    {
+      "tamaño": "50ml",
+      "precio": 20000
+    }
+  ]
+},
   {
     "id": 47,
     "nombre": "Crema Corporal - BE Aphrodisiac",

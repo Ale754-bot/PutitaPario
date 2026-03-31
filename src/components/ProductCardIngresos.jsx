@@ -9,7 +9,7 @@ const ProductCardIngresos = ({ producto }) => {
   // 🔧 Lógica de promo
   const ahora = new Date();
   const inicioPromo = new Date("2026-03-27T00:00:00");
-  const finPromo = new Date("2026-03-30T23:59:59");
+  const finPromo = new Date("2026-03-31T23:59:59");
   const promoActiva = ahora >= inicioPromo && ahora <= finPromo;
 
   const precioFinal = promoActiva ? Math.round(producto.precio * 0.9) : producto.precio;

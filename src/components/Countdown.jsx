@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 
 const Countdown = () => {
   const inicioPromo = new Date("2026-03-27T00:00:00");
-  const finPromo = new Date("2026-03-30T23:59:59");
-  const ahora = new Date();
+  const finPromo = new Date("2026-03-31T23:59:59"); // 🔧 extendido hasta hoy a las 00
 
+  const ahora = new Date();
   const targetDate = ahora < inicioPromo ? inicioPromo : finPromo;
   const [timeLeft, setTimeLeft] = useState({});
 

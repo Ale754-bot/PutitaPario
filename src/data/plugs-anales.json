@@ -6,7 +6,7 @@
     "imagen": "/images/plugs/corazonrojo.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -146,7 +146,7 @@
     "imagen": "/images/plugs/pomponnegro.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -163,7 +163,7 @@
     "imagen": "/images/plugs/pomponrosa.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -180,7 +180,7 @@
     "imagen": "/images/plugs/zorroriginal.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -325,7 +325,7 @@
   "descripcion": "",
   "imagen": "/doradorojo.jpg",
   "categoria": "Plugs",
-  "stock": true,
+  "stock": false,
   "marca": "",
   "linea": "",
   "precio": 24000

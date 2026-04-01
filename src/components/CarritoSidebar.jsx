@@ -153,14 +153,6 @@ const CarritoSidebar = ({ isOpen, closeCart }) => {
               <span className="text-red-600">${calcularTotal().toFixed(2)}</span>
             </div>
 
-            {/* Aviso dinámico de regalo */}
-            {calcularTotal() >= 50000 && (
-              <div className="bg-red-500/20 border border-pink-500 text-center py-3 rounded-lg mb-4 animate-pulse">
-                <p className="text-pink-400 font-semibold">
-                  Felicidades, tu compra incluye un regalito exclusivo
-                </p>
-              </div>
-            )}
 
             <button 
               onClick={handleCheckout}

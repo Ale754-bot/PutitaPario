@@ -6,7 +6,7 @@ const ProductCardLenceria = ({ producto, index }) => {
   const {
     nombre,
     descripcion,
-    precio,
+    precioBase,   // 👈 ahora usamos precioBase del JSON
     imagen,
     imagenUrl,
     stock,
@@ -33,18 +33,18 @@ const ProductCardLenceria = ({ producto, index }) => {
     }
   }, [variantes, tieneVariantes]);
 
-  // 🔧 Precio base
-  const precioBase = variantePorColor?.precio ?? precio ?? 0;
+  // 🔧 Precio base siempre disponible
+  const precioVariante = variantePorColor?.precio ?? precioBase ?? 0;
 
-  // 🔧 Lógica de promo sincronizada con Countdown
+  // 🔧 Lógica de promo
   const ahora = new Date();
   const inicioPromo = new Date("2026-03-27T00:00:00");
   const finPromo = new Date("2026-03-31T23:59:59");
   const promoActiva = ahora >= inicioPromo && ahora <= finPromo;
 
   const precioFinal = promoActiva
-    ? Math.round(precioBase * 0.9)
-    : (variantePorColor?.precioOferta ?? precioBase);
+    ? Math.round(precioVariante * 0.9)
+    : (variantePorColor?.precioOferta ?? precioVariante);
 
   const imagenFinal =
     variantePorColor?.imagen ||
@@ -54,7 +54,7 @@ const ProductCardLenceria = ({ producto, index }) => {
 
   const handleWhatsApp = () => {
     if (!colorSeleccionado) return;
-    const numeroDuena = "5493412634440"; // 🔧 tu número de WhatsApp
+    const numeroDuena = "5493412634440";
     const mensaje = `Hola 👋, quiero consultar por talles disponibles del producto: ${nombre} (${colorSeleccionado}). Precio: $${precioFinal}`;
     const url = `https://wa.me/${numeroDuena}?text=${encodeURIComponent(mensaje)}`;
     window.open(url, "_blank");
@@ -147,12 +147,12 @@ const ProductCardLenceria = ({ producto, index }) => {
           </button>
         </div>
 
-        {/* Precio con oferta */}
+        {/* Precio con oferta SIEMPRE visible */}
         <div className="mt-3 flex flex-col items-center justify-start">
           {promoActiva ? (
             <div className="flex flex-col items-center">
               <span className="text-sm line-through text-gray-400">
-                ${precioBase.toLocaleString("es-AR")}
+                ${precioVariante.toLocaleString("es-AR")}
               </span>
               <span className="text-base text-green-500 font-bold">
                 ${precioFinal.toLocaleString("es-AR")}

@@ -967,7 +967,7 @@
     "descripcion": "",
     "imagen": "/images/lenceria/conjunto 8/conjunto8verde.webp",
     "categoria": "Lencería",
-    "stock": true,
+    "stock": false,
     "mostrarColor": true,
     "precioBase": 40000,
     "variantes": [

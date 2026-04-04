@@ -11,6 +11,7 @@
     "optimize-json": "node scripts/optimize-and-update.js"
   },
   "dependencies": {
+    "@mercadopago/sdk-react": "^1.0.7",
     "@tailwindcss/vite": "^4.1.13",
     "@vercel/analytics": "^1.5.0",
     "cors": "^2.8.6",

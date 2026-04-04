@@ -19,7 +19,7 @@ import Contacto from './pages/Contacto';
 
 // ✨ Transición editorial
 import PageTransition from './components/PageTransition';
-
+import PagoExitoso from './pages/PagoExitoso';
 
 function App() {
   const [isCartOpen, setIsCartOpen] = useState(false);
@@ -98,34 +98,28 @@ function App() {
 
   return (
     <div className="min-h-screen bg-black pt-[70px]">
-      
       <ScrollToTop />
-
-      {/* 🔝 Navbar */}
       <Navbar openCart={() => setIsCartOpen(true)} />
 
-      {/* 🔀 Rutas con transición */}
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
           <Route path="/productos" element={<PageTransition><Productos /></PageTransition>} />
-          <Route path="/mayorista"element={<PageTransition><Mayorista /></PageTransition>} />
+          <Route path="/mayorista" element={<PageTransition><Mayorista /></PageTransition>} />
           <Route path="/contacto" element={<PageTransition><Contacto /></PageTransition>} />
           
+          {/* 🆕 NUEVA RUTA DE MERCADO PAGO */}
+          <Route path="/pago-exitoso" element={<PageTransition><PagoExitoso /></PageTransition>} />
         </Routes>
       </AnimatePresence>
 
-      {/* 🔚 Footer */}
       <Footer />
-
-      {/* 🛒 Carrito */}
       <FloatingContactButton />
       <CarritoSidebar
         isOpen={isCartOpen}
         closeCart={() => setIsCartOpen(false)}
       />
       <Analytics />
-
     </div>
   );
 }

@@ -5,15 +5,7 @@ const CarritoContext = createContext();
 export const CarritoProvider = ({ children }) => {
   const [items, setItems] = useState([]);
 
-  const generarIdUnico = (producto) => {
-    // ahora también incluye la variante (ej: color, talle, sabor)
-    const partes = [producto.id, producto.color, producto.talle, producto.variante].filter(Boolean);
-    return partes.join("-");
-  };
-
   const agregarItem = (producto, cantidad = 1) => {
-    const idUnico = generarIdUnico(producto);
-
     // 🔧 Lógica de promo centralizada
     const ahora = new Date();
     const inicioPromo = new Date("2026-03-27T00:00:00");
@@ -24,16 +16,16 @@ export const CarritoProvider = ({ children }) => {
     const precioFinal = promoActiva ? Math.round(precioBase * 0.9) : precioBase;
 
     setItems(prevItems => {
-      const itemExistente = prevItems.find(item => item.key === idUnico);
+      const itemExistente = prevItems.find(item => item.id === producto.id);
 
       if (itemExistente) {
         return prevItems.map(item =>
-          item.key === idUnico
+          item.id === producto.id
             ? { ...item, cantidad: item.cantidad + cantidad }
             : item
         );
       } else {
-        return [...prevItems, { ...producto, key: idUnico, cantidad, precio: precioFinal }];
+        return [...prevItems, { ...producto, cantidad, precio: precioFinal }];
       }
     });
   };
@@ -49,7 +41,7 @@ export const CarritoProvider = ({ children }) => {
   const generarMensajeWhatsapp = (metodoEntrega) => {
     const numeroDuena = "5493412634440";
 
-    let mensaje = '🛒 ¡Hola! Me gustaría hacer un pedido.\n\n';
+    let mensaje = '🛒 ¡Hola! Me gustaría confirmar mi compra.\n\n';
     mensaje += 'Estos son los productos que seleccioné:\n\n';
 
     items.forEach(item => {
@@ -64,10 +56,15 @@ export const CarritoProvider = ({ children }) => {
     mensaje += `🧾 Total estimado: $${calcularTotal().toFixed(2)}\n\n`;
 
     if (metodoEntrega === "local") {
-      mensaje += '📍 Forma de entrega: Retiro en Galería Córdoba, Sarmiento 783, Local 01-15 — de 10 a 19 hs\n';
+      mensaje += '📍 Forma de entrega: Retiro en Galería Córdoba, Sarmiento 783, Local 01-15 — de 10 a 19 hs\n\n';
     } else {
-      mensaje += '🚚 Forma de entrega: Envío a domicilio\n';
+      mensaje += '🚚 Forma de entrega: Envío a domicilio\n\n';
     }
+
+    mensaje += '🏦 Datos para transferencia:\n';
+    mensaje += 'Alias: putitapario.mp\n';
+    mensaje += 'CVU: 0000003100018609620921\n\n';
+    mensaje += '📎 Por favor, adjuntá el comprobante de pago para confirmar tu pedido.\n';
 
     const mensajeCodificado = encodeURIComponent(mensaje);
     return `https://wa.me/${numeroDuena}?text=${mensajeCodificado}`;

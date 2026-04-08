@@ -122,7 +122,7 @@ CVU: 0000003100018609620921
                 <span>Total a pagar:</span>
                 <span>${calcularTotal().toFixed(2)}</span>
               </div>
-              <div className="text-sm text-gray-400">
+              <div className="text-sm text-center text-gray-400">
                 {metodoEntrega === "local" 
                   ? "RETIRO EN LOCAL"
                   : "ENVÍO A DOMICILIO"}

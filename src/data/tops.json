@@ -1,0 +1,58 @@
+[
+  {
+    "id": 6000,
+    "nombre": "Corset charol simple Negro",
+    "precio": 40000,
+    "imagen": "/CORSETSIMPLE.png",
+    "descripcion": "Nuevo ingreso",
+    "stock": true
+  },
+  {
+    "id": 6001,
+    "nombre": "Corset charol corazón Negro",
+    "precio": 40000,
+    "imagen": "/CORSETCORAZONNEGRO.png",
+    "descripcion": "Nuevo ingreso",
+    "stock": true
+  },
+  {
+    "id": 6002,
+    "nombre": "Top corazón tira doble Negro",
+    "precio": 40000,
+    "imagen": "/TOPCORAZONDOBLE.png",
+    "descripcion": "Nuevo ingreso",
+    "stock": true
+  },
+  {
+    "id": 6003,
+    "nombre": "Top charol Rojo",
+    "precio": 40000,
+    "imagen": "/TOPCHAROLROJO.png",
+    "descripcion": "Nuevo ingreso",
+    "stock": true
+  },
+  {
+    "id": 6004,
+    "nombre": "Top charol Negro",
+    "precio": 40000,
+    "imagen": "/TOPCHAROLNEGRO.png",
+    "descripcion": "Nuevo ingreso",
+    "stock": true
+  },
+  {
+    "id": 6005,
+    "nombre": "Top corazón perlas Rosa",
+    "precio": 40000,
+    "imagen": "/TOPPERLAROSA.png",
+    "descripcion": "Nuevo ingreso",
+    "stock": true
+  },
+  {
+    "id": 6006,
+    "nombre": "Top corazón perlas Rojo",
+    "precio": 40000,
+    "imagen": "/TOPPERLAROJO.png",
+    "descripcion": "Nuevo ingreso",
+    "stock": true
+  }
+]

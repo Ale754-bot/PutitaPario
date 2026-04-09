@@ -11,7 +11,7 @@ import { motion } from 'framer-motion';
 import { useCarrito } from '../context/CarritoContext'; // ✅ Importar el hook del carrito
 import HomeSlider from "../components/HomeSlider";
 import NuevosIngresos from "../components/NuevosIngresos";
-
+import Tops from "../components/tops";
 import CapsulaDesbloqueada from "../components/CapsulaDesbloqueada";
 
 
@@ -26,6 +26,7 @@ const Home = () => {
       <Hero />
       <main className="mx-auto max-w-screen-xl px-4 py-8">
         <CategoryScroll />
+         <Tops />
         <NuevosIngresos />
         <CapsulaDesbloqueada />
       

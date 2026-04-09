@@ -19,7 +19,6 @@ import Contacto from './pages/Contacto';
 
 // ✨ Transición editorial
 import PageTransition from './components/PageTransition';
-import PagoExitoso from './pages/PagoExitoso';
 
 function App() {
   const [isCartOpen, setIsCartOpen] = useState(false);
@@ -108,8 +107,6 @@ function App() {
           <Route path="/mayorista" element={<PageTransition><Mayorista /></PageTransition>} />
           <Route path="/contacto" element={<PageTransition><Contacto /></PageTransition>} />
           
-          {/* 🆕 NUEVA RUTA DE MERCADO PAGO */}
-          <Route path="/pago-exitoso" element={<PageTransition><PagoExitoso /></PageTransition>} />
         </Routes>
       </AnimatePresence>
 

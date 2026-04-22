@@ -1,9 +1,46 @@
 [
-  { "id": 3000, "imagen": "/ingreso1.jpg" },
-  { "id": 3001, "imagen": "/ingreso2.jpg" },
-  { "id": 3002, "imagen": "/ingreso3.jpg" },
-  { "id": 3003, "imagen": "/ingreso4.jpg" },
-  { "id": 3004, "imagen": "/ingreso5.jpg" },
-  { "id": 3005, "imagen": "/ingreso6.jpg" },
-  { "id": 3006, "imagen": "/ingreso7.jpg" }
+  {
+    "id": 3000,
+    "nombre": "Plug Anal a C/R y USB",
+    "descripcion": "",
+    "imagen": "/NuevoIngreso1.jpg",
+    "categoria": "Nuevos Ingresos",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "68000"
+  },
+  {
+    "id": 3001,
+    "nombre": "Anillo Vibrador con USB",
+    "descripcion": "",
+    "imagen": "/NuevoIngreso2.jpg",
+    "categoria": "Nuevos Ingresos",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "75000"
+  },
+  {
+    "id": 3002,
+    "nombre": "Abeja Estimuladora",
+    "descripcion": "",
+    "imagen": "/NuevoIngreso3.jpg",
+    "categoria": "Nuevos Ingresos",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "68000"
+  },
+  {
+    "id": 3003,
+    "nombre": "Vital Honey VIP - Caja X 12",
+    "descripcion": "",
+    "imagen": "/NuevoIngreso4.jpg",
+    "categoria": "Nuevos Ingresos",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "15000"
+  }
 ]

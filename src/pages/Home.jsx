@@ -26,8 +26,9 @@ const Home = () => {
       <Hero />
       <main className="mx-auto max-w-screen-xl px-4 py-8">
         <CategoryScroll />
+          <NuevosIngresos />
          <Tops />
-        <NuevosIngresos />
+      
         <CapsulaDesbloqueada />
       
 

@@ -13,7 +13,7 @@ import HomeSlider from "../components/HomeSlider";
 import NuevosIngresos from "../components/NuevosIngresos";
 import Tops from "../components/tops";
 import CapsulaDesbloqueada from "../components/CapsulaDesbloqueada";
-
+import OfertaSemanal from "../components/OfertaSemanal";
 
 
 const Home = () => {
@@ -26,6 +26,7 @@ const Home = () => {
       <Hero />
       <main className="mx-auto max-w-screen-xl px-4 py-8">
         <CategoryScroll />
+        <OfertaSemanal />
           <NuevosIngresos />
          <Tops />
       

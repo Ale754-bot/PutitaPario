@@ -469,7 +469,7 @@
     "imagen": "/images/Geles/neutroh.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
-    "stock": true,
+    "stock": false,
     "marca": "Calins",
     "variantes": [
       {
@@ -617,7 +617,7 @@
     "imagen": "/images/Geles/s-neutro.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
-    "stock": true,
+    "stock": false,
     "marca": "Sexitive",
     "linea": "Wet",
     "variantes": [

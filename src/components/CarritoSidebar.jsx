@@ -35,7 +35,7 @@ ${metodoEntrega === "local"
   : "Envío a domicilio"}
 
 🏦 Datos para transferencia:
-Alias: putitapario.mp
+Alias: Putita.pario
 CVU: 0000003100018609620921
 
 📎 Adjunto comprobante de pago.
@@ -129,7 +129,7 @@ CVU: 0000003100018609620921
               </div>
               <div className="bg-gray-100 p-4 rounded text-center text-black">
                 <p className="font-bold">Datos para transferencia</p>
-                <p>Alias: <span className="text-blue-600 font-bold">putitapario.mp</span></p>
+                <p>Alias: <span className="text-blue-600 font-bold">Putita.pario</span></p>
                 <p>CVU: <span className="text-blue-600 font-bold">0000003100018609620921</span></p>
               </div>
               <button

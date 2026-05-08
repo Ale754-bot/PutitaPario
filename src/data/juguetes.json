@@ -6,10 +6,11 @@
   "imagen": "/masturbadorultrareal.jpg",
   "categoria": "Juguetes",
   "stock": true,
-  "reingreso": true,
   "marca": "",
   "linea": "",
-  "precio": 156000
+  "precio": 156000,
+  "precioOferta": 78000,
+  "descuento": "50% OFF"
 },
 {
   "id": 433,
@@ -46,14 +47,16 @@
 },
 {
   "id": 436,
-  "nombre": "Masturbador realistico - de Rodillas",
+  "nombre": "Masturbador realístico - de Rodillas",
   "descripcion": "",
   "imagen": "/masturbadorreal2.jpg",
   "categoria": "Juguetes",
   "stock": true,
   "marca": "",
   "linea": "",
-  "precio": 168000
+  "precio": 168000,
+  "precioOferta": 84000,
+  "descuento": "50% OFF"
 },
 {
   "id": 437,

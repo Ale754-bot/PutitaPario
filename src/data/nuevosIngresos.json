@@ -34,11 +34,11 @@
   },
   {
     "id": 3003,
-    "nombre": "Vital Honey VIP - Caja X 12",
+    "nombre": "Vital Honey VIP x Unidad",
     "descripcion": "",
     "imagen": "/NuevoIngreso4.jpg",
     "categoria": "Nuevos Ingresos",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "precio": "15000"

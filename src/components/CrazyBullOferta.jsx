@@ -39,8 +39,7 @@ const CrazyBullOferta = () => {
     <section className="my-14">
       <div
         className="
-          overflow-hidden rounded-[34px]
-          border border-red-700/25
+          overflow-hidden 
           bg-black
           shadow-[0_0_35px_rgba(185,28,28,0.16)]
         "

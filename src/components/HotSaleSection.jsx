@@ -258,7 +258,7 @@ const HotSaleCard = ({ producto, index }) => {
         bg-gradient-to-b from-[#111] to-[#050505]
         text-white shadow-[0_0_18px_rgba(185,28,28,0.12)]
         transition-all duration-300
-        hover:-translate-y-1 hover:border-red-600/60
+      hover:border-red-600/60
         sm:w-[250px]
       "
     >

@@ -381,7 +381,7 @@ const HotSaleSection = () => {
           </div>
 
           {/* === CONTENEDOR CORREGIDO === */}
-          <div className="-mx-4 px-4 pb-2 lg:mx-0 lg:px-0 
+          <div className="-mx-4 px-4 pb-2 lg:mx--6 lg:px-0 
                           overflow-x-auto overflow-y-hidden 
                           touch-action-pan-y touch-action-pan-x
                           overscroll-behavior-x-contain

@@ -235,7 +235,6 @@ const HotSaleCard = ({ producto, index }) => {
 
   const handleWhatsApp = () => {
     const numeroDuena = "5493412634440";
-
     const mensaje = `Hola 👋, quiero consultar talles disponibles del producto: ${producto.nombre}${
       colorSeleccionado ? ` (${colorSeleccionado})` : ""
     }. Precio Hot Sale: $${precioFinal.toLocaleString("es-AR")}`;
@@ -257,11 +256,11 @@ const HotSaleCard = ({ producto, index }) => {
         border border-red-700/25
         bg-gradient-to-b from-[#111] to-[#050505]
         text-white shadow-[0_0_18px_rgba(185,28,28,0.12)]
-        transition-all duration-300
-      hover:border-red-600/60
+        transition-all duration-300 hover:border-red-600/60
         sm:w-[250px]
       "
     >
+      {/* Resto del código de la card se mantiene igual */}
       <div className="relative aspect-[1/1.03] overflow-hidden bg-[#080808]">
         <img
           src={imagenFinal}
@@ -310,15 +309,9 @@ const HotSaleCard = ({ producto, index }) => {
                   title={color}
                   className={`
                     h-3.5 w-3.5 rounded-full border transition-all duration-200
-                    ${
-                      isSelected
-                        ? "scale-110 border-red-500 shadow-[0_0_8px_rgba(220,38,38,0.85)]"
-                        : "border-white/30 hover:scale-110"
-                    }
+                    ${isSelected ? "scale-110 border-red-500 shadow-[0_0_8px_rgba(220,38,38,0.85)]" : "border-white/30 hover:scale-110"}
                   `}
-                  style={{
-                    backgroundColor: varianteColor?.colorHex || varianteColor?.color || "#fff",
-                  }}
+                  style={{ backgroundColor: varianteColor?.colorHex || "#fff" }}
                 />
               );
             })}
@@ -387,20 +380,19 @@ const HotSaleSection = () => {
             </div>
           </div>
 
-          <div className="-mx-4 overflow-x-auto px-4 pb-2 lg:mx--6 lg:overflow-visible lg:px-0">
-  <div
-    className="
-      grid grid-flow-col grid-rows-2 auto-cols-[200px] gap-3
-      sm:auto-cols-[148px]
-      lg:grid-flow-row lg:grid-rows-none lg:auto-cols-auto
-      lg:grid-cols-5 lg:gap-5
-    "
-  >
-    {productosHotSale.map((producto, index) => (
-      <HotSaleCard key={producto.id} producto={producto} index={index} />
-    ))}
-  </div>
-</div>
+          {/* === CONTENEDOR CORREGIDO === */}
+          <div className="-mx-4 px-4 pb-2 lg:mx-0 lg:px-0 
+                          overflow-x-auto overflow-y-hidden 
+                          touch-action-pan-y touch-action-pan-x
+                          overscroll-behavior-x-contain
+                          -webkit-overflow-scrolling-touch">
+            
+            <div className="grid grid-flow-col grid-rows-2 auto-cols-[200px] gap-3 sm:auto-cols-[220px] lg:grid-flow-row lg:grid-rows-none lg:auto-cols-auto lg:grid-cols-5 lg:gap-5">
+              {productosHotSale.map((producto, index) => (
+                <HotSaleCard key={producto.id} producto={producto} index={index} />
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -15,6 +15,7 @@ import CapsulaDesbloqueada from "../components/CapsulaDesbloqueada";
 import OfertaSemanal from "../components/OfertaSemanal";
 import TrustBanner from "../components/TrustBanner";
 import CrazyBullOferta from "../components/CrazyBullOferta";
+import HotSaleSection from "../components/HotSaleSection";
 
 const sectionAnimation = {
   hidden: {
@@ -71,6 +72,8 @@ const Home = () => {
           <HomeSection className="mb-10">
             <TrustBanner />
           </HomeSection>
+
+          <HotSaleSection />
 
           <CrazyBullOferta />
 

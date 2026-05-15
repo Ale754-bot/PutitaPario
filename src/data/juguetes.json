@@ -218,7 +218,7 @@
     "imagen": "/images/juguetes/succionador.webp",
     "categoria": "Juguetes",
     "stock": true,
-    "reingreso": true,
+    "reingreso": false,
     "marca": "SEXY Y FUNNY",
     "precio": 115000,
     "mostrarColor": false,

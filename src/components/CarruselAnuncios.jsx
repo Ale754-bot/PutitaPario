@@ -8,33 +8,18 @@ const banners = [
   
   {
     titulo: "",
-    imagen: "/CARRUPERFUME.jpg",
-    link: "/productos?categoria=perfumes#hombre",
+    imagen: "/BANNERARNESES.png",
+    link: "/productos?categoria=Arneses",
+  },
+  {
+  titulo: "",
+  imagen: "/BANNERCAPSULAEXCLUSIVA.png",
+  link: "#capsula-magui",
   },
   {
     titulo: "",
-    imagen: "/CARRUMISSV.jpg",
-    link: "/productos",
-  },
-  {
-    titulo: "",
-    imagen: "/CARRUMAGUI.jpg",
-    link: "#capsula-magui",
-  },
-  {
-    titulo: "",
-    imagen: "/CARRUTANGAS.jpg",
-    link: "/productos?categoria=Tangas Personalizadas",
-  },
-  {
-    titulo: "",
-    imagen: "/CARRULABIAL.jpg",
-    link: "#labiales-vibradores",
-  },
-  {
-    titulo: "",
-    imagen: "/CARRULEN.jpg",
-    link: "/productos?categoria=Lencería",
+    imagen: "/BANNERDISFRACES.png",
+    link: "/productos?categoria=Disfraces",
   },
 ];
 

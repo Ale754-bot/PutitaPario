@@ -7,6 +7,7 @@
     "categoria": "Arneses",
     "stock": true,
     "precio": 14000,
+    "precioOferta": 7000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -15,12 +16,14 @@
         "color": "Negro",
         "colorHex": "#000000",
         "precio": 14000,
+        "precioOferta": 7000,
         "imagen": "/images/arneses/roxinegro.webp"
       },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 14000,
+        "precioOferta": 7000,
         "imagen": "/images/arneses/roxiblanco.webp"
       }
     ]
@@ -33,6 +36,7 @@
     "categoria": "Arneses",
     "stock": true,
     "precio": 14000,
+    "precioOferta": 7000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -41,12 +45,14 @@
         "color": "Negro",
         "colorHex": "#000000",
         "precio": 14000,
+        "precioOferta": 7000,
         "imagen": "/images/arneses/medusanegro.webp"
       },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 14000,
+        "precioOferta": 7000,
         "imagen": "/images/arneses/medusablanco.webp"
       }
     ]
@@ -59,6 +65,7 @@
     "categoria": "Arneses",
     "stock": true,
     "precio": 12000,
+    "precioOferta": 6000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -67,12 +74,14 @@
         "color": "Negro",
         "colorHex": "#000000",
         "precio": 12000,
+        "precioOferta": 6000,
         "imagen": "/images/arneses/babynegro.webp"
       },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 12000,
+        "precioOferta": 6000,
         "imagen": "/images/arneses/babyblanco.webp"
       }
     ]
@@ -85,6 +94,7 @@
     "categoria": "Arneses",
     "stock": true,
     "precio": 14000,
+    "precioOferta": 7000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -93,12 +103,14 @@
         "color": "Negro",
         "colorHex": "#000000",
         "precio": 14000,
+        "precioOferta": 7000,
         "imagen": "/images/arneses/dainegro.webp"
       },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 14000,
+        "precioOferta": 7000,
         "imagen": "/images/arneses/daiblanco.webp"
       }
     ]
@@ -111,6 +123,7 @@
     "categoria": "Arneses",
     "stock": true,
     "precio": 15000,
+    "precioOferta": 7500,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -119,12 +132,14 @@
         "color": "Negro",
         "colorHex": "#000000",
         "precio": 15000,
+        "precioOferta": 7500,
         "imagen": "/images/arneses/moñosnegro.webp"
       },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 15000,
+        "precioOferta": 7500,
         "imagen": "/images/arneses/moñosblanco.webp"
       }
     ]
@@ -137,6 +152,7 @@
     "categoria": "Arneses",
     "stock": true,
     "precio": 17000,
+    "precioOferta": 8500,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -145,6 +161,7 @@
         "color": "Negro",
         "colorHex": "#000000",
         "precio": 17000,
+        "precioOferta": 8500,
         "imagen": "/images/arneses/delinegro.webp"
       }
     ]
@@ -157,6 +174,7 @@
     "categoria": "Arneses",
     "stock": true,
     "precio": 14000,
+    "precioOferta": 7000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -165,12 +183,14 @@
         "color": "Negro",
         "colorHex": "#000000",
         "precio": 14000,
+        "precioOferta": 7000,
         "imagen": "/images/arneses/moñostirasnegro.webp"
       },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 14000,
+        "precioOferta": 7000,
         "imagen": "/images/arneses/moñostirasblanco.webp"
       }
     ]
@@ -183,6 +203,7 @@
     "categoria": "Arneses",
     "stock": true,
     "precio": 28800,
+    "precioOferta": 14400,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -191,12 +212,14 @@
         "color": "Negro",
         "colorHex": "#000000",
         "precio": 28800,
+        "precioOferta": 14400,
         "imagen": "/images/arneses/neidinegro.webp"
       },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 28800,
+        "precioOferta": 14400,
         "imagen": "/images/arneses/neidiblanco.webp"
       }
     ]
@@ -209,6 +232,7 @@
     "categoria": "Arneses",
     "stock": true,
     "precio": 17000,
+    "precioOferta": 8500,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -217,12 +241,14 @@
         "color": "Negro",
         "colorHex": "#000000",
         "precio": 17000,
+        "precioOferta": 8500,
         "imagen": "/images/arneses/ppnegro.webp"
       },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 17000,
+        "precioOferta": 8500,
         "imagen": "/images/arneses/ppblanco.webp"
       }
     ]
@@ -235,6 +261,7 @@
     "categoria": "Arneses",
     "stock": true,
     "precio": 8000,
+    "precioOferta": 4000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -243,12 +270,14 @@
         "color": "Negro",
         "colorHex": "#000000",
         "precio": 8000,
+        "precioOferta": 4000,
         "imagen": "/images/arneses/ligadoblenegra.webp"
       },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 8000,
+        "precioOferta": 4000,
         "imagen": "/images/arneses/ligadobleblanca.webp"
       }
     ]
@@ -261,6 +290,7 @@
     "categoria": "Arneses",
     "stock": true,
     "precio": 12000,
+    "precioOferta": 6000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -269,12 +299,14 @@
         "color": "Negro",
         "colorHex": "#000000",
         "precio": 12000,
+        "precioOferta": 6000,
         "imagen": "/images/arneses/ligababynegra.webp"
       },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 12000,
+        "precioOferta": 6000,
         "imagen": "/images/arneses/ligababyblanco.webp"
       }
     ]
@@ -287,6 +319,7 @@
     "categoria": "Arneses",
     "stock": true,
     "precio": 23000,
+    "precioOferta": 11500,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -295,12 +328,14 @@
         "color": "Negro",
         "colorHex": "#000000",
         "precio": 23000,
+        "precioOferta": 11500,
         "imagen": "/images/arneses/valentinenegro.webp"
       },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 23000,
+        "precioOferta": 11500,
         "imagen": "/images/arneses/valentineblanco.webp"
       }
     ]

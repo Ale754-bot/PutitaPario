@@ -7,12 +7,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 35000
+        "precio": 35000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -24,12 +26,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 35000
+        "precio": 35000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -41,12 +45,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 30000
+        "precio": 35000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -58,12 +64,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 30000
+        "precio": 35000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -75,12 +83,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 20000
+        "precio": 30000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -92,12 +102,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 30000
+        "precio": 30000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -109,12 +121,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 35000
+        "precio": 35000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -126,12 +140,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 35000
+        "precio": 35000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -177,12 +193,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 20000
+        "precio": 30000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -199,7 +217,7 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 25000
+        "precio": 35000
       }
     ]
   },
@@ -228,12 +246,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 35000
+        "precio": 35000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -246,12 +266,14 @@
     "subcategoria": "",
     "stock": true,
     "reingreso": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 40000
+        "precio": 40000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -263,12 +285,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 35000
+        "precio": 35000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -297,12 +321,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 40000
+        "precio": 40000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -315,12 +341,14 @@
     "subcategoria": "",
     "stock": true,
     "reingreso": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 40000
+        "precio": 40000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -332,12 +360,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 25000
+        "precio": 35000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -349,12 +379,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 20000
+        "precio": 30000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -367,12 +399,14 @@
     "subcategoria": "",
     "stock": true,
     "reingreso": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 40000
+        "precio": 40000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -384,12 +418,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 25000
+        "precio": 35000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -418,12 +454,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 30000
+        "precio": 30000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -435,12 +473,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 40000
+        "precio": 40000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -452,12 +492,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 40000
+        "precio": 40000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -469,12 +511,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 40000
+        "precio": 40000,
+        "precioOferta": 20000
       }
     ]
   },
@@ -486,12 +530,14 @@
     "categoria": "Disfraces",
     "subcategoria": "",
     "stock": true,
+    "precioOferta": 20000,
     "marca": "",
     "linea": "",
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 40000
+        "precio": 40000,
+        "precioOferta": 20000
       }
     ]
   }

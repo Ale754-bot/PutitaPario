@@ -18,7 +18,7 @@ const CapsulaDesbloqueada = () => {
       {/* Banner personalizado */}
       <div className="relative mb-1">
         <img
-          src="/BANNERCAPSULA.jpg"
+          src="/BANNERCAPSULAEXCLUSIVA.png"
           alt="Banner Cápsula Lencería"
           className="w-full h-64 object-contain shadow-lg"
           loading="lazy"

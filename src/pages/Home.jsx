@@ -10,12 +10,12 @@ import { motion } from "framer-motion";
 import { useCarrito } from "../context/CarritoContext";
 
 import NuevosIngresos from "../components/NuevosIngresos";
-import Tops from "../components/tops";
 import CapsulaDesbloqueada from "../components/CapsulaDesbloqueada";
 import OfertaSemanal from "../components/OfertaSemanal";
 import TrustBanner from "../components/TrustBanner";
 import CrazyBullOferta from "../components/CrazyBullOferta";
 import HotSaleSection from "../components/HotSaleSection";
+import CarruselAnuncios from "../components/CarruselAnuncios";
 
 const sectionAnimation = {
   hidden: {
@@ -34,8 +34,9 @@ const sectionAnimation = {
   },
 };
 
-const HomeSection = ({ children, className = "" }) => (
+const HomeSection = ({ children, className = "", id }) => (
   <motion.section
+    id={id}
     variants={sectionAnimation}
     initial="hidden"
     whileInView="visible"
@@ -64,9 +65,12 @@ const Home = () => {
         </motion.div>
 
         <main className="mx-auto max-w-screen-xl px-4 py-8">
-
           <HomeSection className="mb-8">
             <CategoryScroll />
+          </HomeSection>
+
+          <HomeSection className="mb-10">
+            <CarruselAnuncios />
           </HomeSection>
 
           <HomeSection className="mb-10">
@@ -85,11 +89,7 @@ const Home = () => {
             <NuevosIngresos />
           </HomeSection>
 
-          <HomeSection className="mb-12">
-            <Tops />
-          </HomeSection>
-
-          <HomeSection className="mb-12">
+          <HomeSection id="capsula-magui" className="mb-12 scroll-mt-24">
             <CapsulaDesbloqueada />
           </HomeSection>
 
@@ -121,7 +121,6 @@ const Home = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
 
               <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center">
-
                 <Link
                   to="/productos"
                   className="
@@ -138,7 +137,6 @@ const Home = () => {
               </div>
             </section>
           </HomeSection>
-
         </main>
 
         <motion.div

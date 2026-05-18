@@ -13,7 +13,7 @@
     "variantes": [
       {
         "tamaño": "100ml",
-        "precio": 40000
+        "precio": 45000
       }
     ]
   },
@@ -30,8 +30,7 @@
     "variantes": [
       {
         "tamaño": "60ml",
-        "precio": 32500,
-        "precioOferta": 27000
+        "precio": 40000
       }
     ]
   },
@@ -48,8 +47,7 @@
     "variantes": [
       {
         "tamaño": "60ml",
-        "precio": 32500,
-        "precioOferta": 27000
+        "precio": 40000
       }
     ]
   },
@@ -66,7 +64,7 @@
     "variantes": [
       {
         "tamaño": "100ml",
-        "precio": 32500
+        "precio": 40000
       }
     ]
   },
@@ -83,8 +81,7 @@
     "variantes": [
       {
       "tamaño": "100ml",
-      "precio": 32500,
-      "precioOferta": 27000
+      "precio": 40000
     }
     ]
   },
@@ -102,7 +99,7 @@
     "variantes": [
       {
         "tamaño": "100ml",
-        "precio": 32500
+        "precio": 40000
       }
     ]
   },
@@ -136,7 +133,7 @@
     "variantes": [
       {
         "tamaño": "50ml",
-        "precio": 29000
+        "precio": 32500
       }
     ]
   },
@@ -153,7 +150,7 @@
     "variantes": [
       {
         "tamaño": "50ml",
-        "precio": 29000
+        "precio": 32500
       }
     ]
   },
@@ -204,11 +201,9 @@
   "variantes": [
     {
       "tamaño": "100ml",
-      "precio": 32500
+      "precio": 40000
     }
-  ],
-  "precioOriginal": 32500,
-  "precioOferta": 15000
+  ]
 },
 
   {
@@ -224,11 +219,9 @@
     "variantes": [
       {
         "tamaño": "100ml",
-        "precio": 32500
+        "precio": 40000
       }
-    ],
-    "precioOriginal": 32500,
-  "precioOferta": 15000
+    ]
   },
   {
     "id": 111,
@@ -243,7 +236,7 @@
     "variantes": [
       {
         "tamaño": "100ml",
-        "precio": 32500
+        "precio": 40000
       }
     ]
   },
@@ -260,11 +253,9 @@
     "variantes": [
       {
         "tamaño": "100ml",
-        "precio": 32500
+        "precio": 40000
       }
-    ],
-    "precioOriginal": 32500,
-  "precioOferta": 15000
+    ]
   },
   {
     "id": 113,
@@ -279,11 +270,9 @@
     "variantes": [
       {
         "tamaño": "100ml",
-        "precio": 32500
+        "precio": 40000
       }
-    ],
-    "precioOriginal": 32500,
-  "precioOferta": 15000
+    ]
   },
   {
     "id": 114,
@@ -298,11 +287,9 @@
     "variantes": [
       {
         "tamaño": "100ml",
-        "precio": 32500
+        "precio": 40000
       }
-    ],
-    "precioOriginal": 32500,
-  "precioOferta": 15000
+    ]
   },
   {
     "id": 115,
@@ -351,7 +338,7 @@
     "variantes": [
       {
         "tamaño": "100ml",
-        "precio": 15000
+        "precio": 18000
       }
     ]
   },
@@ -368,7 +355,7 @@
     "variantes": [
       {
         "tamaño": "100ml",
-        "precio": 15000
+        "precio": 18000
       }
     ]
   },
@@ -385,7 +372,7 @@
     "variantes": [
       {
         "tamaño": "100ml",
-        "precio": 15000
+        "precio": 18000
       }
     ]
   },
@@ -402,7 +389,7 @@
     "variantes": [
       {
         "tamaño": "100ml",
-        "precio": 15000
+        "precio": 18000
       }
     ]
   },
@@ -413,7 +400,7 @@
     "imagen": "/images/perfumes/body/bs5.webp",
     "categoria": "Perfumes Afrodisíacos y Body Splash",
     "subcategoria": "Body Splash",
-    "stock": true,
+    "stock": false,
     "marca": "sexitive",
     "linea": "",
     "variantes": [
@@ -430,7 +417,7 @@
     "imagen": "/images/perfumes/body/bs6.webp",
     "categoria": "Perfumes Afrodisíacos y Body Splash",
     "subcategoria": "Body Splash",
-    "stock": true,
+    "stock": false,
     "marca": "sexitive",
     "linea": "",
     "variantes": [

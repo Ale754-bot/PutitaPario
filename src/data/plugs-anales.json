@@ -1,5 +1,16 @@
 [
   {
+    "id": 521,
+    "nombre": "Plug Anal a C/R y USB",
+    "descripcion": "",
+    "imagen": "/NuevoIngreso1.jpg",
+    "categoria": "Plugs",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "precio": "68000"
+  },
+  {
     "id": 500,
     "nombre": "Corazón Acero Hipoalergénico - Rojo",
     "descripcion": "",
@@ -248,7 +259,7 @@
     "imagen": "/images/plugs/negrousb.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -275,7 +286,7 @@
     "descripcion": "",
     "imagen": "/images/plugs/plugcascabel.webp",
     "categoria": "Plugs",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "precio": 25000
@@ -314,7 +325,7 @@
   "descripcion": "",
   "imagen": "/plugcorazonvioleta.jpg",
   "categoria": "Plugs",
-  "stock": true,
+  "stock": false,
   "marca": "",
   "linea": "",
   "precio": 24000

@@ -1,5 +1,16 @@
 [
   {
+    "id": 308,
+    "nombre": "Vital Honey VIP x Unidad",
+    "descripcion": "",
+    "imagen": "/NuevoIngreso4.jpg",
+    "categoria": "Vigorizantes",
+    "stock": false,
+    "marca": "",
+    "linea": "",
+    "precio": "15000"
+  },
+  {
     "id": 300,
     "nombre": "Pink Sexy Drops",
     "descripcion": "Pink Sexy Drops es un suplemento afrodisíaco natural diseñado para potenciar la libido y aumentar el deseo sexual en las mujeres. Con solo entre 10 y 14 gotas diluidas en 200ml de tu bebida favorita, experimentarás nuevas sensaciones y una excitación extraordinaria.",

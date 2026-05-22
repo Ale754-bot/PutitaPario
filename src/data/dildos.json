@@ -6,7 +6,7 @@
   "imagen": "/dildosopapavibrador.jpg",
   "categoria": "Dildos & Vibradores",
   "subcategoria": "Sopapa",
-  "stock": true,
+  "stock": false,
   "reingreso": true,
   "marca": "",
   "linea": "",
@@ -20,7 +20,7 @@
   "imagen": "/consopapa.jpg",
   "categoria": "Dildos & Vibradores",
   "subcategoria": "Sopapa",
-  "stock": true,
+  "stock": false,
   "marca": "",
   "linea": "",
   "precio": 120000
@@ -457,7 +457,7 @@
     "imagen": "/images/dildos/vibradores/vibrador15.webp",
     "categoria": "Dildos & Vibradores",
     "subcategoria": "Vibradores",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "precio": 38000

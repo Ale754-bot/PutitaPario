@@ -280,7 +280,7 @@
     "descripcion": "",
     "imagen": "/images/bdsm/antifaz3.webp",
     "categoria": "BDSM",
-    "stock": true,
+    "stock": false,
     "marca": "Sexitive",
     "linea": "",
     "precio": "15000"
@@ -291,7 +291,7 @@
     "descripcion": "",
     "imagen": "/images/bdsm/antifaz4.webp",
     "categoria": "BDSM",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "precio": "10000"
@@ -335,7 +335,7 @@
     "descripcion": "",
     "imagen": "/images/bdsm/fustacorazon.webp",
     "categoria": "BDSM",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "precio": "14000"
@@ -390,7 +390,7 @@
     "descripcion": "",
     "imagen": "/images/bdsm/mordazaroja.webp",
     "categoria": "BDSM",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "precio": "15000"
@@ -401,7 +401,7 @@
     "descripcion": "",
     "imagen": "/images/bdsm/mordazarosa.webp",
     "categoria": "BDSM",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "precio": "15000"
@@ -456,7 +456,7 @@
   "descripcion": "",
   "imagen": "/images/bdsm/chockercorrea.webp",
   "categoria": "BDSM",
-  "stock": true,
+  "stock": false,
   "marca": "",
   "linea": "",
   "precio": "15000"

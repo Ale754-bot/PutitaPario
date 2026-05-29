@@ -145,7 +145,7 @@
       "precio": 56000,
       "precioOferta": 28000,
       "imagen": "/magui4.jpg",
-      "stock": true
+      "stock": false
     }
   ]
 },

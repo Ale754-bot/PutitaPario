@@ -13,13 +13,6 @@
     "mostrarColor": true,
     "variantes": [
       {
-        "color": "Negro",
-        "colorHex": "#000000",
-        "precio": 14000,
-        "precioOferta": 7000,
-        "imagen": "/images/arneses/roxinegro.webp"
-      },
-      {
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 14000,
@@ -70,13 +63,6 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      {
-        "color": "Negro",
-        "colorHex": "#000000",
-        "precio": 12000,
-        "precioOferta": 6000,
-        "imagen": "/images/arneses/babynegro.webp"
-      },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
@@ -230,7 +216,7 @@
     "descripcion": "Diseño envolvente con tiras cruzadas y estética provocadora. Ideal para layering.",
     "imagen": "/images/arneses/ppnegro.webp",
     "categoria": "Arneses",
-    "stock": true,
+    "stock": false,
     "precio": 17000,
     "precioOferta": 8500,
     "marca": "",

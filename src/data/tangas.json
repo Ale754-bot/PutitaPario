@@ -43,7 +43,7 @@
     "imagen": "/tanga5.jpg",
     "categoria": "Tangas Personalizadas",
     "subcategoria": "Frases",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "precio": 13500
@@ -55,7 +55,7 @@
     "imagen": "/tanga6.jpg",
     "categoria": "Tangas Personalizadas",
     "subcategoria": "Frases",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "precio": 13500

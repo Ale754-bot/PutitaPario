@@ -6,7 +6,7 @@
     "imagen": "/images/Geles/missv-neutro.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
-    "stock": true,
+    "stock": false,
     "marca": "Miss V",
     "linea": "",
     "etiqueta": "Nuevo ingreso",
@@ -68,6 +68,7 @@
     "subcategoria": "Geles lubricantes",
     "stock": true,
     "marca": "Miss V",
+    "precioOferta": 7800,
     "linea": "",
     "etiqueta": "Nuevo ingreso",
     "variantes": [
@@ -127,6 +128,7 @@
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
     "stock": true,
+    "precioOferta": 7800,
     "marca": "Miss V",
     "linea": "",
     "etiqueta": "Nuevo ingreso",
@@ -142,6 +144,7 @@
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
     "stock": true,
+    "precioOferta": 7800,
     "marca": "Miss V",
     "linea": "",
     "etiqueta": "Nuevo ingreso",
@@ -1087,8 +1090,8 @@
   "linea": "",
   "variantes": [
     {
-      "tamaño": "50ml",
-      "precio": 20000
+      "tamaño": "500g",
+      "precio": 28000
     }
   ]
 },

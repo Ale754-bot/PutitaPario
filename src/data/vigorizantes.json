@@ -85,7 +85,7 @@
     "imagen": "/images/vigorizantes/v5.webp",
     "categoria": "Vigorizantes",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "Ultra",
     "linea": "Hombre",
     "variantes": [
@@ -108,7 +108,7 @@
     "variantes": [
       {
         "tamaño": "1/Uni",
-        "precio": 4000
+        "precio": 5000
       }
     ]
   },
@@ -136,7 +136,7 @@
     "imagen": "/images/vigorizantes/v8.webp",
     "categoria": "Vigorizantes",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "ULTRA",
     "linea": "Mujer",
     "variantes": [

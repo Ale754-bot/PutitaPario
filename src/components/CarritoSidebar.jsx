@@ -20,18 +20,30 @@ const CarritoSidebar = ({ isOpen, closeCart }) => {
   };
 
   const enviarWhatsApp = () => {
-    const mensaje = encodeURIComponent(`
+  const mensaje = encodeURIComponent(`
 Hola, quiero confirmar mi compra:
 
 ${items.map(item => {
   const subtotal = (item.precio * item.cantidad).toFixed(2);
-  return `— ${item.nombre}\n  Cantidad: ${item.cantidad}\n  Subtotal: $${subtotal}`;
-}).join("\n")}
+
+  const detalle = [
+    item.marca,
+    item.color,
+    item.talle,
+    item.tamaño
+  ]
+    .filter(Boolean)
+    .join(" · ");
+
+  return `— ${item.nombre}${detalle ? ` (${detalle})` : ""}
+  \n  Cantidad: ${item.cantidad}
+  \n  Subtotal: $${subtotal}`;
+}).join("\n\n")}
 
 🧾 Total: $${calcularTotal().toFixed(2)}
 
-${metodoEntrega === "local" 
-  ? "Forma de entrega: Retiro en Local" 
+${metodoEntrega === "local"
+  ? "Forma de entrega: Retiro en Local"
   : "Envío a domicilio"}
 
 🏦 Datos para transferencia:
@@ -39,11 +51,11 @@ Alias: Putita.pario
 CVU: 0000003100018609620921
 
 📎 Adjunto comprobante de pago.
-    `);
+`);
 
-    const url = `https://wa.me/5493412634440?text=${mensaje}`;
-    window.open(url, "_blank");
-  };
+  const url = `https://wa.me/5493412634440?text=${mensaje}`;
+  window.open(url, "_blank");
+};
 
   return (
     <>
@@ -83,11 +95,37 @@ CVU: 0000003100018609620921
                     className="w-16 h-20 object-cover rounded bg-black flex-shrink-0" 
                   />
                   <div className="flex-grow">
-                    <p className="text-sm font-medium leading-tight">{item.nombre}</p>
-                    <div className="flex gap-2 text-[10px] text-gray-400 mt-1 uppercase tracking-tighter">
-                      {item.color && <span className="bg-gray-800 px-2 py-0.5 rounded">Color: {item.color}</span>}
-                      {item.talle && <span className="bg-gray-800 px-2 py-0.5 rounded">Talle: {item.talle}</span>}
-                    </div>
+                    <p className="text-sm font-medium leading-tight">
+  {item.nombre}
+</p>
+
+<div className="flex flex-wrap gap-2 text-[10px] mt-1 uppercase tracking-tighter">
+
+  {item.marca && (
+    <span className="bg-red-900/30 text-red-300 px-2 py-0.5 rounded">
+      {item.marca}
+    </span>
+  )}
+
+  {item.color && (
+    <span className="bg-gray-800 text-gray-300 px-2 py-0.5 rounded">
+      Color: {item.color}
+    </span>
+  )}
+
+  {item.talle && (
+    <span className="bg-gray-800 text-gray-300 px-2 py-0.5 rounded">
+      Talle: {item.talle}
+    </span>
+  )}
+
+  {item.tamaño && (
+    <span className="bg-gray-800 text-gray-300 px-2 py-0.5 rounded">
+      {item.tamaño}
+    </span>
+  )}
+
+</div>
                     <p className="text-red-500 font-bold mt-2">${(item.precio * item.cantidad).toFixed(2)}</p>
                   </div>
                   <div className="flex flex-col items-end justify-between">
@@ -113,8 +151,12 @@ CVU: 0000003100018609620921
               <div className="space-y-2">
                 {items.map(item => (
                   <div key={item.id} className="flex justify-between border-b pb-2">
-                    <span>{item.nombre} ({item.cantidad} u.)</span>
-                    <span>${(item.precio * item.cantidad).toFixed(2)}</span>
+<span>
+  {item.nombre}
+  {item.marca ? ` - ${item.marca}` : ""}
+  {item.color ? ` - ${item.color}` : ""}
+  ({item.cantidad} u.)
+</span>                    <span>${(item.precio * item.cantidad).toFixed(2)}</span>
                   </div>
                 ))}
               </div>

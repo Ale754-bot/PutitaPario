@@ -45,7 +45,7 @@
   "descripcion": "",
   "imagen": "/images/cuidado intimo/preservativos.webp",
   "categoria": "Cuidado Personal Íntimo",
-  "stock": true,
+  "stock": false,
   "marca": "",
   "linea": "",
   "precio": 4800
@@ -67,7 +67,7 @@
   "descripcion": "",
   "imagen": "/images/cuidado intimo/limpiadorjuguetes2.webp",
   "categoria": "Cuidado Personal Íntimo",
-  "stock": true,
+  "stock": false,
   "marca": "Fly night",
   "linea": "",
   "precio": 8000

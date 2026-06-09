@@ -6,7 +6,7 @@
     "imagen": "/images/disfraces/colegiala.webp",
     "categoria": "Disfraces",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -23,7 +23,7 @@
     "imagen": "/images/disfraces/mucamita.webp",
     "categoria": "Disfraces",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -125,7 +125,7 @@
     "imagen": "/images/disfraces/mucamita2.webp",
     "categoria": "Disfraces",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -176,7 +176,7 @@
     "imagen": "/images/disfraces/mucamita3.webp",
     "categoria": "Disfraces",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -337,7 +337,7 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 35000
+        "precio": 20000
       }
     ]
   },
@@ -354,7 +354,7 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 30000
+        "precio": 20000
       }
     ]
   },
@@ -389,7 +389,7 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 35000
+        "precio": 20000
       }
     ]
   },
@@ -423,7 +423,7 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 30000
+        "precio": 20000
       }
     ]
   },

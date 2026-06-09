@@ -123,7 +123,10 @@ const ProductCard = ({ producto, index }) => {
 
     const item = {
       ...producto,
-      talle: talleSeleccionado || null,
+      talle:
+  talleSeleccionado ||
+  varianteSeleccionada?.talle ||
+  null,
 
       variante:
         varianteSeleccionada?.talle ||

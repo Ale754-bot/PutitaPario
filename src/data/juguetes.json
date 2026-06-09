@@ -55,7 +55,7 @@
   "stock": true,
   "marca": "",
   "linea": "",
-  "precio": 58000
+  "precio": 72000
 },
 {
   "id": 435,
@@ -66,7 +66,8 @@
   "stock": true,
   "marca": "",
   "linea": "",
-  "precio": 83000
+  "precio": 83000,
+  "precioOferta": 65000
 },
 {
   "id": 436,
@@ -90,7 +91,8 @@
   "stock": true,
   "marca": "",
   "linea": "",
-  "precio": 126000
+  "precio": 126000,
+  "precioOferta": 85000
 },
 {
   "id": 438,
@@ -111,7 +113,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
-    "precio": 39000,
+    "precio": 40000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -123,7 +125,7 @@
     "categoria": "Juguetes",
     "stock": false,
     "marca": "pretty love",
-    "precio": 39000,
+    "precio": 40000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -133,9 +135,9 @@
     "descripcion": "Arnd es pequeño, tierno y suave. Su cuerpo siliconado posee una punta en forma de glande para una estimulación en el Clítoris y en el Punto G. Sus 10 funciones de vibración están pensadas para hacerte gozar.",
     "imagen": "/images/juguetes/arnd.webp",
     "categoria": "Juguetes",
-    "stock": true,
+    "stock": false,
     "marca": "pretty love",
-    "precio": 39000,
+    "precio": 40000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -145,9 +147,9 @@
     "descripcion": "Este mini vibrador está hecho de silicona super suave para un tacto más que agradable. Su extremo insertable presenta la forma de una cabeza para masajes más focalizados.",
     "imagen": "/images/juguetes/antony.webp",
     "categoria": "Juguetes",
-    "stock": true,
+    "stock": false,
     "marca": "pretty love",
-    "precio": 39000,
+    "precio": 40000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -159,7 +161,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
-    "precio": 39000,
+    "precio": 40000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -184,7 +186,7 @@
     "stock": true,
     "marca": "pretty love",
     "linea": "",
-    "precio": 68000
+    "precio": 85000
   },
   {
     "id": 406,
@@ -194,7 +196,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
-    "precio": 54000,
+    "precio": 58000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -206,7 +208,7 @@
     "categoria": "Juguetes",
     "stock": true,
     "marca": "pretty love",
-    "precio": 54000,
+    "precio": 60000,
     "mostrarColor": false,
     "variantes": []
   },
@@ -350,7 +352,7 @@
     "descripcion": "...",
     "imagen": "/images/juguetes/balausb.webp",
     "categoria": "Juguetes",
-    "stock": true,
+    "stock": false,
     "marca": "pretty love",
     "precio": 78000,
     "mostrarColor": false,
@@ -374,7 +376,7 @@
     "imagen": "/images/juguetes/lenguitavioleta.webp",
     "categoria": "Juguetes",
     "stock": true,
-    "precio": 60000,
+    "precio": 38000,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -382,13 +384,13 @@
       {
         "color": "Violeta",
         "colorHex": "#8A2BE2",
-        "precio": 60000,
+        "precio": 38000,
         "imagen": "/images/juguetes/lenguitavioleta.webp"
       },
       {
         "color": "Rosa",
         "colorHex": "#FF69B4",
-        "precio": 60000,
+        "precio": 38000,
         "imagen": "/images/juguetes/lenguitarosa.webp"
       }
     ]

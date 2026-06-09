@@ -17,6 +17,7 @@ import bdsm from "../data/bdsm.json";
 import cuidadoIntimo from "../data/cuidadointimo.json";
 import dildos from "../data/dildos.json";
 import tangas from "../data/tangas.json";
+import tops from "../data/tops.json";
 
 import ScrollToTopButton from "../components/ScrollToTopButton";
 import PageTransition from "../components/PageTransition";
@@ -71,6 +72,7 @@ const Productos = () => {
     ...plugsAnales,
     ...dildos,
     ...velas,
+    ...tops,
     ...lenceria,
     ...tangas,
     ...arneses,

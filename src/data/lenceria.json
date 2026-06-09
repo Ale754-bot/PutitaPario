@@ -137,15 +137,6 @@
       "precioOferta": 28000,
       "imagen": "/magui3.jpg",
       "stock": true
-    },
-    {
-      "color": "Rosa",
-      "colorHex": "#ffc0cb",
-      "talle": "Consultar por talles disponibles",
-      "precio": 56000,
-      "precioOferta": 28000,
-      "imagen": "/magui4.jpg",
-      "stock": false
     }
   ]
 },
@@ -341,7 +332,7 @@
   "stock": true,
   "mostrarColor": true,
   "precioBase": 15000,
-  "precioOferta": 12000,
+  "precioOferta": 10000,
   "nuevo": true,
   "variantes": [
     {
@@ -349,7 +340,7 @@
       "colorHex": "#a8323e",
       "talle": "Consultar por talles disponibles",
       "precio": 15000,
-      "precioOferta": 12000,
+      "precioOferta": 10000,
       "imagen": "/images/lenceria/corset/marmolado/marmolado.webp"
     },
     {
@@ -357,7 +348,7 @@
       "colorHex": "#5a3e2b",
       "talle": "Consultar por talles disponibles",
       "precio": 15000,
-      "precioOferta": 12000,
+      "precioOferta": 10000,
       "imagen": "/images/lenceria/corset/marmolado/marmolado2.webp"
     },
     {
@@ -365,7 +356,7 @@
       "colorHex": "#1e3a34",
       "talle": "Consultar por talles disponibles",
       "precio": 15000,
-      "precioOferta": 12000,
+      "precioOferta": 10000,
       "imagen": "/images/lenceria/corset/marmolado/marmolado3.webp"
     }
   ]
@@ -379,7 +370,7 @@
   "stock": true,
   "mostrarColor": true,
   "precioBase": 15000,
-  "precioOferta": 12000,
+  "precioOferta": 10000,
   "nuevo": true,
   "variantes": [
     {
@@ -387,7 +378,7 @@
       "colorHex": "#1a1a1a",
       "talle": "Consultar por talles disponibles",
       "precio": 15000,
-      "precioOferta": 12000,
+      "precioOferta": 10000,
       "imagen": "/images/lenceria/corset/brilloso/corsetnegro.webp"
     },
     {
@@ -395,7 +386,7 @@
       "colorHex": "#a3c9e2",
       "talle": "Consultar por talles disponibles",
       "precio": 15000,
-      "precioOferta": 12000,
+      "precioOferta": 10000,
       "imagen": "/images/lenceria/corset/brilloso/corsetceleste.webp"
     },
     {
@@ -403,7 +394,7 @@
       "colorHex": "#f5f5f5",
       "talle": "Consultar por talles disponibles",
       "precio": 15000,
-      "precioOferta": 12000,
+      "precioOferta": 10000,
       "imagen": "/images/lenceria/corset/brilloso/corsetblanco.webp"
     }
   ]
@@ -701,7 +692,7 @@
     "descripcion": "",
     "imagen": "/images/lenceria/conjunto 1/conjunto1.webp",
     "categoria": "Lencería",
-    "stock": true,
+    "stock": false,
     "mostrarColor": true,
     "precioBase": 25000,
     "variantes": [
@@ -887,7 +878,7 @@
     "descripcion": "",
     "imagen": "/images/lenceria/conjunto 6/conjunto6blanco.webp",
     "categoria": "Lencería",
-    "stock": true,
+    "stock": false,
     "mostrarColor": true,
     "precioBase": 38000,
     "variantes": [

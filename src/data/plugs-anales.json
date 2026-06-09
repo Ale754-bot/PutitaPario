@@ -99,23 +99,29 @@
       }
     ]
   },
-  {
-    "id": 505,
-    "nombre": "Diamante Plateado",
-    "descripcion": "",
-    "imagen": "/images/plugs/diamanteplateado.webp",
-    "categoria": "Plugs",
-    "subcategoria": "",
-    "stock": false,
-    "marca": "",
-    "linea": "",
-    "variantes": [
-      {
-        "talle": "S",
-        "precio": 23000
-      }
-    ]
-  },
+ {
+  "id": 505,
+  "nombre": "Diamante Plateado",
+  "descripcion": "",
+  "imagen": "/images/plugs/diamanteplateado.webp",
+  "categoria": "Plugs",
+  "subcategoria": "",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "variantes": [
+    {
+      "talle": "M",
+      "precio": 23000,
+      "stock": true
+    },
+    {
+      "talle": "L",
+      "precio": 23000,
+      "stock": true
+    }
+  ]
+},
   {
     "id": 506,
     "nombre": "Diamante Plateado - Negro",
@@ -140,7 +146,7 @@
     "imagen": "/images/plugs/plateadonaranja.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -278,7 +284,7 @@
     "stock": false,
     "marca": "",
     "linea": "",
-    "precio": 25000
+    "precio": 28000
   },
    {
     "id": 516,

@@ -78,13 +78,6 @@ const Home = () => {
 
           <CrazyBullOferta />
 
-          <HomeSection className="mb-12">
-            <OfertaSemanal />
-          </HomeSection>
-
-          <HomeSection className="mb-12">
-            <NuevosIngresos />
-          </HomeSection>
 
           <HomeSection id="capsula-magui" className="mb-12 scroll-mt-24">
             <CapsulaDesbloqueada />

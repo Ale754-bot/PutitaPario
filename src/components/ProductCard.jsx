@@ -122,25 +122,28 @@ const ProductCard = ({ producto, index }) => {
     if (!puedeAgregar) return;
 
     const item = {
-      ...producto,
-      talle:
-  talleSeleccionado ||
-  varianteSeleccionada?.talle ||
-  null,
+  ...producto,
 
-      variante:
-        varianteSeleccionada?.talle ||
-        varianteSeleccionada?.tamaño ||
-        varianteSeleccionada?.color ||
-        null,
+  carritoId: `${producto.id}-${varianteSeleccionada?.color || ""}-${varianteSeleccionada?.talle || ""}-${varianteSeleccionada?.tamaño || ""}-${talleSeleccionado || ""}`,
 
-      color: varianteSeleccionada?.color || null,
+  talle:
+    talleSeleccionado ||
+    varianteSeleccionada?.talle ||
+    null,
 
-      precio: precioFinal,
+  variante:
+    varianteSeleccionada?.talle ||
+    varianteSeleccionada?.tamaño ||
+    varianteSeleccionada?.color ||
+    null,
 
-      imagen:
-        varianteSeleccionada?.imagen || imagenFinal,
-    };
+  color: varianteSeleccionada?.color || null,
+
+  precio: precioFinal,
+
+  imagen:
+    varianteSeleccionada?.imagen || imagenFinal,
+};
 
     agregarItem(item, 1);
   };

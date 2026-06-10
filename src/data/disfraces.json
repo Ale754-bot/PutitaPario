@@ -43,10 +43,11 @@
     "stock": true,
     "marca": "",
     "linea": "",
+    "precio": 35000,
+    "precioOferta": 25000, 
     "variantes": [
       {
-        "talle": "Unico",
-        "precio": 35000
+        "talle": "Unico"
       }
     ]
   },
@@ -60,10 +61,11 @@
     "stock": true,
     "marca": "",
     "linea": "",
+    "precio": 35000,
+    "precioOferta": 25000, 
     "variantes": [
       {
-        "talle": "Unico",
-        "precio": 35000
+        "talle": "Unico"
       }
     ]
   },
@@ -210,7 +212,7 @@
     "imagen": "/images/disfraces/secretaria 2.webp",
     "categoria": "Disfraces",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -227,7 +229,7 @@
     "imagen": "/images/disfraces/caperucita.webp",
     "categoria": "Disfraces",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -429,7 +431,7 @@
   },
   {
     "id": 825,
-    "nombre": "Disfraz Reina de Corazones",
+    "nombre": "Disfraz Reina de Corazones - Premium",
     "descripcion": "",
     "imagen": "/images/disfraces/reinacorazones.webp",
     "categoria": "Disfraces",
@@ -492,6 +494,23 @@
       {
         "talle": "Unico",
         "precio": 40000
+      }
+    ]
+  },
+  {
+    "id": 826,
+    "nombre": "Disfraz Reina de Corazones - Simple",
+    "descripcion": "",
+    "imagen": "/images/disfraces/ReinaCorazonesSimple.jpg",
+    "categoria": "Disfraces",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [
+      {
+        "talle": "Unico",
+        "precio": 20000
       }
     ]
   }

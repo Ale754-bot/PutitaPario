@@ -59,7 +59,24 @@
   "stock": true,
   "marca": "",
   "linea": "",
-  "precio": 4800
+  "mostrarColor": true,
+  "variantes": [
+    {
+      "color": "Rojo",
+      "colorHex": "#dc2626",
+      "precio": 3500
+    },
+    {
+      "color": "Azul",
+      "colorHex": "#2563eb",
+      "precio": 3500
+    },
+    {
+      "color": "Gris",
+      "colorHex": "#6b7280",
+      "precio": 3500
+    }
+  ]
 },
 {
   "id": 1204,

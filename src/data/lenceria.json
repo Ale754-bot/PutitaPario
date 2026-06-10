@@ -189,48 +189,48 @@
   "categoria": "Lencería",
   "stock": true,
   "mostrarColor": true,
-  "precioBase": 40000,
-  "precioOferta": 30000,
+  "precioBase": 28000,
+  "precioOferta": 28000,
   "nuevo": true,
   "variantes": [
     {
       "color": "Azul",
       "colorHex": "#0000FF",
       "talle": "Consultar por talles disponibles",
-      "precio": 40000,
-      "precioOferta": 30000,
+      "precio": 28000,
+      "precioOferta": 28000,
       "imagen": "/images/lenceria/madison/madisonazul.webp"
     },
     {
       "color": "Blanco",
       "colorHex": "#FFFFFF",
       "talle": "Consultar por talles disponibles",
-      "precio": 40000,
-      "precioOferta": 30000,
+      "precio": 28000,
+      "precioOferta": 28000,
       "imagen": "/images/lenceria/madison/madisonblanco.webp"
     },
     {
       "color": "Negro",
       "colorHex": "#000000",
       "talle": "Consultar por talles disponibles",
-      "precio": 40000,
-      "precioOferta": 30000,
+      "precio": 28000,
+      "precioOferta": 28000,
       "imagen": "/images/lenceria/madison/madisonnegro.webp"
     },
     {
       "color": "Rojo",
       "colorHex": "#b30000",
       "talle": "Consultar por talles disponibles",
-      "precio": 40000,
-      "precioOferta": 30000,
+      "precio": 28000,
+      "precioOferta": 28000,
       "imagen": "/images/lenceria/madison/madisonrojo.webp"
     },
     {
       "color": "Rosa",
       "colorHex": "#FFC0CB",
       "talle": "Consultar por talles disponibles",
-      "precio": 40000,
-      "precioOferta": 30000,
+      "precio": 28000,
+      "precioOferta": 28000,
       "imagen": "/images/lenceria/madison/madisonrosa.webp"
     }
   ]

@@ -13,8 +13,8 @@ const CarritoSidebar = ({ isOpen, closeCart }) => {
   const updateQuantity = (item, delta) => {
     const nuevaCantidad = item.cantidad + delta;
     if (nuevaCantidad <= 0) {
-      eliminarProducto(item.id);
-    } else {
+  eliminarProducto(item.carritoId);
+} else {
       agregarItem(item, delta);
     }
   };
@@ -88,7 +88,7 @@ CVU: 0000003100018609620921
               <p className="text-gray-500 text-center mt-10 italic">Tu carrito está vacío</p>
             ) : (
               items.map(item => (
-                <div key={item.id} className="flex gap-4 py-4 border-b border-gray-800">
+                <div key={item.carritoId} className="flex gap-4 py-4 border-b border-gray-800">
                   <img 
                     src={item.imagen || "/placeholder.png"} 
                     alt={item.nombre} 
@@ -130,7 +130,7 @@ CVU: 0000003100018609620921
                   </div>
                   <div className="flex flex-col items-end justify-between">
                     <button 
-                      onClick={() => eliminarProducto(item.id)} 
+                      onClick={() => eliminarProducto(item.carritoId)} 
                       className="text-gray-500 hover:text-red-500 text-xs transition-colors"
                     >
                       🗑
@@ -150,7 +150,7 @@ CVU: 0000003100018609620921
               <h3 className="text-xl font-bold text-green-500 text-center">Resumen de tu Pedido</h3>
               <div className="space-y-2">
                 {items.map(item => (
-                  <div key={item.id} className="flex justify-between border-b pb-2">
+                  <div key={item.carritoId} className="flex justify-between border-b pb-2">
 <span>
   {item.nombre}
   {item.marca ? ` - ${item.marca}` : ""}

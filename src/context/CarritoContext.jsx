@@ -16,23 +16,30 @@ export const CarritoProvider = ({ children }) => {
     const precioFinal = promoActiva ? Math.round(precioBase * 0.9) : precioBase;
 
     setItems(prevItems => {
-      const itemExistente = prevItems.find(item => item.id === producto.id);
+      const itemExistente = prevItems.find(
+  item => item.carritoId === producto.carritoId
+);
 
       if (itemExistente) {
         return prevItems.map(item =>
-          item.id === producto.id
-            ? { ...item, cantidad: item.cantidad + cantidad }
-            : item
-        );
+  item.id === producto.id &&
+  item.color === producto.color &&
+  item.talle === producto.talle &&
+  item.variante === producto.variante
+    ? { ...item, cantidad: item.cantidad + cantidad }
+    : item
+);
       } else {
         return [...prevItems, { ...producto, cantidad, precio: precioFinal }];
       }
     });
   };
 
-  const eliminarProducto = (id) => {
-    setItems(prevItems => prevItems.filter(item => item.id !== id));
-  };
+  const eliminarProducto = (carritoId) => {
+  setItems(prevItems =>
+    prevItems.filter(item => item.carritoId !== carritoId)
+  );
+};
 
   const calcularTotal = () => {
     return items.reduce((acc, item) => acc + (item.precio * item.cantidad), 0);

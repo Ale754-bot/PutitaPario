@@ -51,6 +51,17 @@
   "precio": 4800
 },
 {
+  "id": 1208,
+  "nombre": "Preservativos Surtidos - Caja",
+  "descripcion": "",
+  "imagen": "/PreservativosMax.jpg",
+  "categoria": "Cuidado Personal Íntimo",
+  "stock": true,
+  "marca": "",
+  "linea": "",
+  "precio": 4800
+},
+{
   "id": 1204,
   "nombre": "Limpiador de juguetes",
   "descripcion": "",

@@ -59,6 +59,7 @@
   "stock": true,
   "marca": "",
   "linea": "",
+  "precio": 3500,
   "mostrarColor": true,
   "variantes": [
     {

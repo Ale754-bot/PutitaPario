@@ -10,11 +10,11 @@ import { motion } from "framer-motion";
 import { useCarrito } from "../context/CarritoContext";
 
 import NuevosIngresos from "../components/NuevosIngresos";
-import CapsulaDesbloqueada from "../components/CapsulaDesbloqueada";
 import OfertaSemanal from "../components/OfertaSemanal";
 import TrustBanner from "../components/TrustBanner";
 import CrazyBullOferta from "../components/CrazyBullOferta";
 import CarruselAnuncios from "../components/CarruselAnuncios";
+import BannerPerfumesHombre from "../components/BannerPerfumesHombre";
 
 const sectionAnimation = {
   hidden: {
@@ -67,21 +67,23 @@ const Home = () => {
           <HomeSection className="mb-8">
             <CategoryScroll />
           </HomeSection>
+          
+          <HomeSection className="mb-10">
+            <TrustBanner />
+          </HomeSection>
 
           <HomeSection className="mb-10">
             <CarruselAnuncios />
           </HomeSection>
 
-          <HomeSection className="mb-10">
-            <TrustBanner />
-          </HomeSection>
+          <BannerPerfumesHombre />
+
+          
 
           <CrazyBullOferta />
 
 
-          <HomeSection id="capsula-magui" className="mb-12 scroll-mt-24">
-            <CapsulaDesbloqueada />
-          </HomeSection>
+    
 
           {/* 🖼️ LOCAL */}
           <HomeSection className="mt-20">

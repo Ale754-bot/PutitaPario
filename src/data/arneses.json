@@ -107,7 +107,7 @@
     "descripcion": "Arnés decorativo con moños laterales. Toque lúdico y provocador.",
     "imagen": "/images/arneses/moñosnegro.webp",
     "categoria": "Arneses",
-    "stock": true,
+    "stock": false,
     "precio": 15000,
     "precioOferta": 7500,
     "marca": "",
@@ -158,7 +158,7 @@
     "descripcion": "Arnés con tiras cruzadas y moños decorativos. Estética juguetona.",
     "imagen": "/images/arneses/moñostirasnegro.webp",
     "categoria": "Arneses",
-    "stock": true,
+    "stock": false,
     "precio": 14000,
     "precioOferta": 7000,
     "marca": "",
@@ -185,7 +185,7 @@
     "id": 907,
     "nombre": "Arnés Neidi",
     "descripcion": "Diseño clásico con tiras dobles y ajuste firme. Elegancia estructurada.",
-    "imagen": "/images/arneses/neidinegro.webp",
+    "imagen": "/images/arneses/neidiblanco.webp",
     "categoria": "Arneses",
     "stock": true,
     "precio": 28800,
@@ -194,13 +194,6 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      {
-        "color": "Negro",
-        "colorHex": "#000000",
-        "precio": 28800,
-        "precioOferta": 14400,
-        "imagen": "/images/arneses/neidinegro.webp"
-      },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
@@ -272,7 +265,7 @@
     "id": 910,
     "nombre": "Portaligas Baby",
     "descripcion": "Arnés tipo portaligas con diseño suave y tiras ajustables. Ideal para complementar conjuntos.",
-    "imagen": "/images/arneses/ligababynegra.webp",
+    "imagen": "/images/arneses/ligababyblanco.webp",
     "categoria": "Arneses",
     "stock": true,
     "precio": 12000,
@@ -281,13 +274,6 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      {
-        "color": "Negro",
-        "colorHex": "#000000",
-        "precio": 12000,
-        "precioOferta": 6000,
-        "imagen": "/images/arneses/ligababynegra.webp"
-      },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
@@ -303,7 +289,7 @@
     "descripcion": "Diseño romántico con tiras cruzadas y detalles suaves. Ideal para ocasiones especiales.",
     "imagen": "/images/arneses/valentinenegro.webp",
     "categoria": "Arneses",
-    "stock": true,
+    "stock": false,
     "precio": 23000,
     "precioOferta": 11500,
     "marca": "",

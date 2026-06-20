@@ -166,7 +166,7 @@ const Productos = () => {
               </div>
 
               {/* Botones de navegación por subcategoría */}
-              {tieneSubcategorias && category !== "Lencería" && (
+              {tieneSubcategorias && (
                 <div
                   className="
                     sticky top-0 z-20 mb-8
@@ -203,16 +203,34 @@ const Productos = () => {
 
               {/* Secciones por subcategoría */}
               {category === "Lencería" ? (
-                <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-3 md:gap-6 lg:grid-cols-4">
-                  {groupedProducts[category].map((producto, index) => (
-                    <ProductCardLenceria
-                      key={producto.id}
-                      producto={producto}
-                      index={index}
-                    />
-                  ))}
-                </div>
-              ) : (
+  Object.entries(productosPorSub).map(([sub, productos]) => (
+    <div
+      key={sub}
+      id={normalizeId(sub)}
+      className="scroll-mt-32 pt-8 mb-12"
+    >
+      {tieneSubcategorias && (
+        <div className="mb-6 flex items-center justify-center gap-3">
+          <span className="h-px w-10 bg-gradient-to-r from-transparent to-red-700/70" />
+          <h3 className="text-center text-lg font-black uppercase tracking-[0.22em] text-white">
+            {sub}
+          </h3>
+          <span className="h-px w-10 bg-gradient-to-l from-transparent to-red-700/70" />
+        </div>
+      )}
+
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-3 md:gap-6 lg:grid-cols-4">
+        {productos.map((producto, index) => (
+          <ProductCardLenceria
+            key={producto.id}
+            producto={producto}
+            index={index}
+          />
+        ))}
+      </div>
+    </div>
+  ))
+) : (
                 Object.entries(productosPorSub).map(([sub, productos]) => (
                   <div key={sub} id={normalizeId(sub)} className="scroll-mt-32 pt-8 mb-12">
                     {tieneSubcategorias && (

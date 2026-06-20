@@ -2,8 +2,7 @@
   {
     "id": 5000,
     "nombre": "CONJUNTO VICTORIA",
-    "categoria": "Lencería",
-    "subcategoria": "Cápsula Premium",
+    
     "precioBase": 52000,
     "precioOferta": 26000,
     "imagen": "/VICTORIA.jpg",
@@ -13,8 +12,6 @@
   {
     "id": 5001,
     "nombre": "CONJUNTO LEONOR",
-    "categoria": "Lencería",
-    "subcategoria": "Cápsula Premium",
     "precioBase": 48000,
     "precioOferta": 24000,
     "imagen": "/LEONOR.jpg",
@@ -24,8 +21,6 @@
   {
     "id": 5002,
     "nombre": "CONJUNTO TATIANA",
-    "categoria": "Lencería",
-    "subcategoria": "Cápsula Premium",
     "precioBase": 48000,
     "precioOferta": 24000,
     "imagen": "/TATIANA.jpg",
@@ -35,8 +30,6 @@
   {
     "id": 5003,
     "nombre": "CONJUNTO MALÉFICA",
-    "categoria": "Lencería",
-    "subcategoria": "Cápsula Premium",
     "precioBase": 60000,
     "precioOferta": 30000,
     "imagen": "/MALEFICA.jpg",
@@ -46,8 +39,6 @@
   {
     "id": 5004,
     "nombre": "CONJUNTO ÚRSULA",
-    "categoria": "Lencería",
-    "subcategoria": "Cápsula Premium",
     "precioBase": 50000,
     "precioOferta": 25000,
     "imagen": "/URSULA.jpg",
@@ -57,8 +48,6 @@
   {
     "id": 5005,
     "nombre": "CONJUNTO ISABEL",
-    "categoria": "Lencería",
-    "subcategoria": "Cápsula Premium",
     "precioBase": 60000,
     "precioOferta": 30000,
     "imagen": "/ISABEL.jpg",

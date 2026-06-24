@@ -6,10 +6,10 @@
     "imagen": "/images/juegos/j1.webp",
     "categoria": "Juegos Sexuales",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "sexitive",
     "linea": "",
-    "precio": 10000
+    "precio": 15000
   },
   {
     "id": 201,

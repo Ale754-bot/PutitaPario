@@ -241,8 +241,8 @@
     "linea": "Natural",
     "variantes": [
       {
-        "tamaño": "80ml",
-        "precio": 6500
+        "tamaño": "200ml",
+        "precio": 14000
       }
     ]
   },
@@ -472,7 +472,7 @@
     "imagen": "/images/Geles/neutroh.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
-    "stock": false,
+    "stock": true,
     "marca": "Calins",
     "variantes": [
       {
@@ -620,7 +620,7 @@
     "imagen": "/images/Geles/s-neutro.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
-    "stock": false,
+    "stock": true,
     "marca": "Sexitive",
     "linea": "Wet",
     "variantes": [
@@ -686,7 +686,7 @@
     "imagen": "/images/Geles/lube-2.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
-    "stock": false,
+    "stock": true,
     "marca": "Sexitive",
     "linea": "Lübe",
     "variantes": [
@@ -703,7 +703,7 @@
     "imagen": "/images/Geles/lube-1.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
-    "stock": false,
+    "stock": true,
     "marca": "Sexitive",
     "linea": "Lübe",
     "variantes": [
@@ -839,7 +839,7 @@
     "imagen": "/images/Geles/s-dual.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
-    "stock": false,
+    "stock": true,
     "marca": "Sexitive",
     "linea": "Magic Dual",
     "variantes": [
@@ -879,7 +879,7 @@
     "imagen": "/images/Geles/a-chocolate.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Aceites comestibles",
-    "stock": false,
+    "stock": true,
     "marca": "Sexitive",
     "linea": "Love Potion",
     "variantes": [
@@ -917,7 +917,7 @@
     "imagen": "/images/Geles/a-champagne.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Aceites comestibles",
-    "stock": false,
+    "stock": true,
     "marca": "Sexitive",
     "linea": "Love Potion",
     "variantes": [
@@ -955,7 +955,7 @@
     "imagen": "/images/Geles/a-frutilla.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Aceites comestibles",
-    "stock": false,
+    "stock": true,
     "marca": "Sexitive",
     "linea": "Love Potion",
     "variantes": [
@@ -974,7 +974,7 @@
     "imagen": "/images/Geles/a-frutos.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Aceites comestibles",
-    "stock": false,
+    "stock": true,
     "marca": "Sexitive",
     "linea": "Love Potion",
     "variantes": [
@@ -993,7 +993,7 @@
     "imagen": "/images/Geles/a-menta.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Aceites comestibles",
-    "stock": false,
+    "stock": true,
     "marca": "Sexitive",
     "linea": "Love Potion",
     "variantes": [
@@ -1012,7 +1012,7 @@
     "imagen": "/images/Geles/a-algodon2.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Aceites comestibles",
-    "stock": false,
+    "stock": true,
     "marca": "Sexitive",
     "linea": "Love Potion",
     "variantes": [

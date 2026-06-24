@@ -55,12 +55,12 @@
     "imagen": "/images/plugs/corazonrosa.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
       {
-        "talle": "M",
+        "talle": "S",
         "precio": 26000
       }
     ]
@@ -72,17 +72,13 @@
     "imagen": "/images/plugs/diamanterojo.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
       {
-        "talle": "M",
+        "talle": "S",
         "precio": 26000
-      },
-      {
-        "talle": "L",
-        "precio": 28000
       }
     ]
   },
@@ -133,7 +129,7 @@
   "precio": 23000,
   "variantes": [
     {
-      "talle": "M",
+      "talle": "S",
       "precio": 23000,
       "stock": true
     },
@@ -253,7 +249,7 @@
     "imagen": "/images/plugs/tornasol.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [

@@ -23,7 +23,7 @@
     "imagen": "/images/velas/afrodisiacas/hotinevitable.webp",
     "categoria": "Velas",
     "subcategoria": "Velas Afrodisíacas",
-    "stock": false,
+    "stock": true,
     "marca": "Sexitive",
     "linea": "",
     "variantes": [
@@ -40,7 +40,7 @@
     "imagen": "/images/velas/afrodisiacas/crazygirl.webp",
     "categoria": "Velas",
     "subcategoria": "Velas Afrodisíacas",
-    "stock": false,
+    "stock": true,
     "marca": "Sexitive",
     "linea": "",
     "variantes": [
@@ -159,7 +159,7 @@
     "imagen": "/images/velas/afrodisiacas/beaprodisiac.webp",
     "categoria": "Velas",
     "subcategoria": "Velas Afrodisíacas",
-    "stock": false,
+    "stock": true,
     "marca": "Sexitive",
     "linea": "",
     "variantes": [

@@ -100,7 +100,7 @@
   "descripcion": "",
   "imagen": "/vibrausb.jpg",
   "categoria": "Juguetes",
-  "stock": true,
+  "stock": false,
   "marca": "",
   "linea": "",
   "precio": 115000
@@ -123,7 +123,7 @@
     "descripcion": "Este mini vibrador está hecho de silicona super suave para un tacto más que agradable. Su extremo insertable presenta la forma de un glande, apenas inclinado y con textura. Cuenta con 10 poderosos modos de vibración que podrás controlar con un simple botón y funciona con una sola pila.",
     "imagen": "/images/juguetes/beck.webp",
     "categoria": "Juguetes",
-    "stock": false,
+    "stock": true,
     "marca": "pretty love",
     "precio": 40000,
     "mostrarColor": false,
@@ -135,7 +135,7 @@
     "descripcion": "Arnd es pequeño, tierno y suave. Su cuerpo siliconado posee una punta en forma de glande para una estimulación en el Clítoris y en el Punto G. Sus 10 funciones de vibración están pensadas para hacerte gozar.",
     "imagen": "/images/juguetes/arnd.webp",
     "categoria": "Juguetes",
-    "stock": false,
+    "stock": true,
     "marca": "pretty love",
     "precio": 40000,
     "mostrarColor": false,
@@ -147,7 +147,7 @@
     "descripcion": "Este mini vibrador está hecho de silicona super suave para un tacto más que agradable. Su extremo insertable presenta la forma de una cabeza para masajes más focalizados.",
     "imagen": "/images/juguetes/antony.webp",
     "categoria": "Juguetes",
-    "stock": false,
+    "stock": true,
     "marca": "pretty love",
     "precio": 40000,
     "mostrarColor": false,
@@ -171,7 +171,7 @@
     "descripcion": "Blithe es pequeño, tierno y suave. Su cuerpo siliconado posee una punta en forma de glande para una estimulación en el Clítoris y en el Punto G.",
     "imagen": "/images/juguetes/blithe.webp",
     "categoria": "Juguetes",
-    "stock": false,
+    "stock": true,
     "marca": "pretty love",
     "precio": 39000,
     "mostrarColor": false,
@@ -218,7 +218,7 @@
     "descripcion": "Pretty Love Snappy combina la estimulación simultánea del punto G y el clítoris para ofrecer experiencias íntimas inolvidables. Este consolador vibrador está diseñado para quienes buscan maximizar el placer gracias a su doble estímulo y a sus vibraciones potentes.",
     "imagen": "/images/juguetes/snappy.webp",
     "categoria": "Juguetes",
-    "stock": false,
+    "stock": true,
     "marca": "pretty love",
     "precio": 59000,
     "mostrarColor": false,
@@ -502,7 +502,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": 50000
+    "precio": 35000
   },
   {
     "id": 428,
@@ -513,7 +513,7 @@
     "stock": true,
     "marca": "",
     "linea": "",
-    "precio": 58000
+    "precio": 50000
   },
   {
     "id": 429,
@@ -521,7 +521,7 @@
     "descripcion": "",
     "imagen": "/images/juguetes/masturbadormasculino.webp",
     "categoria": "Juguetes",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "precio": 20000

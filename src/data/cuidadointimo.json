@@ -122,5 +122,16 @@
   "marca": "Sexitive",
   "linea": "",
   "precio": 16000
+},
+{
+  "id": 1208,
+  "nombre": "Lapiz Labial Afrodisíaco",
+  "descripcion": "",
+  "imagen": "/Lapizlabialafro.jpg",
+  "categoria": "Cuidado Personal Íntimo",
+  "stock": true,
+  "marca": "Sexitive",
+  "linea": "",
+  "precio": 12000
 }
 ]

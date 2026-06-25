@@ -224,7 +224,7 @@
     "linea": "lab",
     "etiqueta": "Nuevo ingreso",
     "variantes": [
-      { "tamaño": "75ml", "precio": 16000 }
+      { "tamaño": "75ml", "precio": 18000 }
     ]
   },
 
@@ -445,7 +445,7 @@
     "variantes": [
       {
         "tamaño": "75ml",
-        "precio": 10000
+        "precio": 11000
       }
     ]
   },
@@ -461,7 +461,7 @@
     "variantes": [
       {
         "tamaño": "75ml",
-        "precio": 10000
+        "precio": 11000
       }
     ]
   },
@@ -477,7 +477,7 @@
     "variantes": [
       {
         "tamaño": "75ml",
-        "precio": 10000
+        "precio": 11000
       }
     ]
   },
@@ -493,7 +493,7 @@
     "variantes": [
       {
         "tamaño": "75ml",
-        "precio": 10000
+        "precio": 11000
       }
     ]
   },
@@ -509,7 +509,7 @@
     "variantes": [
       {
         "tamaño": "75ml",
-        "precio": 10000
+        "precio": 11000
       }
     ]
   },
@@ -525,7 +525,7 @@
     "variantes": [
       {
         "tamaño": "75ml",
-        "precio": 10000
+        "precio": 11000
       }
     ]
   },
@@ -541,7 +541,7 @@
     "variantes": [
       {
         "tamaño": "75ml",
-        "precio": 10000
+        "precio": 11000
       }
     ]
   },
@@ -558,7 +558,7 @@
     "variantes": [
       {
         "tamaño": "75ml",
-        "precio": 10500
+        "precio": 12000
       }
     ]
   },
@@ -575,7 +575,7 @@
     "variantes": [
       {
         "tamaño": "75ml",
-        "precio": 10500
+        "precio": 12000
       }
     ]
   },
@@ -592,7 +592,7 @@
     "variantes": [
       {
         "tamaño": "75ml",
-        "precio": 10500
+        "precio": 12000
       }
     ]
   },
@@ -609,7 +609,7 @@
     "variantes": [
       {
         "tamaño": "75ml",
-        "precio": 10500
+        "precio": 12000
       }
     ]
   },
@@ -626,7 +626,7 @@
     "variantes": [
       {
         "tamaño": "75ml",
-        "precio": 10500
+        "precio": 12000
       }
     ]
   },
@@ -643,7 +643,7 @@
     "variantes": [
       {
         "tamaño": "75ml",
-        "precio": 10500
+        "precio": 12000
       }
     ]
   },
@@ -692,7 +692,7 @@
     "variantes": [
       {
         "tamaño": "130ml",
-        "precio": 13800
+        "precio": 16000
       }
     ]
   },
@@ -709,7 +709,7 @@
     "variantes": [
       {
         "tamaño": "130ml",
-        "precio": 13800
+        "precio": 16000
       }
     ]
   },
@@ -726,7 +726,7 @@
     "variantes": [
       {
         "tamaño": "130ml",
-        "precio": 13800
+        "precio": 16000
       }
     ]
   },

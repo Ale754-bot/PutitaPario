@@ -31,6 +31,57 @@
       }
     ]
 },
+{
+    "id": 523,
+    "nombre": "Diamante Azul",
+    "descripcion": "",
+    "imagen": "/NUEVOPLUG.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [
+      {
+        "talle": "M",
+        "precio": 26000
+      }
+    ]
+  },
+  {
+    "id": 524,
+    "nombre": "Diamante Rosa",
+    "descripcion": "",
+    "imagen": "/NUEVOPLUG2.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [
+      {
+        "talle": "M",
+        "precio": 26000
+      }
+    ]
+  },
+  {
+    "id": 523,
+    "nombre": "Corazón Azul",
+    "descripcion": "",
+    "imagen": "/NUEVOPLUG3.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
+    "stock": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [
+      {
+        "talle": "M",
+        "precio": 26000
+      }
+    ]
+  },
   {
     "id": 500,
     "nombre": "Corazón Acero Hipoalergénico - Rojo",

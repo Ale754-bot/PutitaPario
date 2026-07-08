@@ -77,16 +77,16 @@
   "subcategoria": "Conjuntos",
   "stock": true,
   "mostrarColor": true,
-  "precioBase": 25000,
-  "precioOferta": 25000,
+  "precioBase": 28000,
+  "precioOferta": 28000,
   "nuevo": false,
   "variantes": [
     {
       "color": "Rojo",
       "colorHex": "#ff0000",
       "talle": "",
-      "precio": 25000,
-      "precioOferta": 25000,
+      "precio": 28000,
+      "precioOferta": 28000,
       "imagen": "/images/lenceria/BABYDOLL ENCAJE/BABYDOLLENCAJEROJO.jpg",
       "stock": true
     },
@@ -94,8 +94,8 @@
       "color": "Azul",
       "colorHex": "#00008b",
       "talle": "",
-      "precio": 25000,
-      "precioOferta": 25000,
+      "precio": 28000,
+      "precioOferta": 28000,
       "imagen": "/images/lenceria/BABYDOLL ENCAJE/BABYDOLLENCAJEAZUL.jpg",
       "stock": true
     },
@@ -103,8 +103,8 @@
       "color": "Negro",
       "colorHex": "#000000",
       "talle": "",
-      "precio": 25000,
-      "precioOferta": 25000,
+      "precio": 28000,
+      "precioOferta": 28000,
       "imagen": "/images/lenceria/BABYDOLL ENCAJE/BABYDOLLENCAJENEGRO.jpg",
       "stock": true
     },
@@ -112,8 +112,8 @@
       "color": "Bordó",
       "colorHex": "#8b0000",
       "talle": "",
-      "precio": 25000,
-      "precioOferta": 25000,
+      "precio": 28000,
+      "precioOferta": 28000,
       "imagen": "/images/lenceria/BABYDOLL ENCAJE/BABYDOLLENCAJEBORDO.jpg",
       "stock": true
     }

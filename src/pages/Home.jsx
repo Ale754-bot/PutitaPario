@@ -12,7 +12,6 @@ import { useCarrito } from "../context/CarritoContext";
 import NuevosIngresos from "../components/NuevosIngresos";
 import OfertaSemanal from "../components/OfertaSemanal";
 import TrustBanner from "../components/TrustBanner";
-import CrazyBullOferta from "../components/CrazyBullOferta";
 import CarruselAnuncios from "../components/CarruselAnuncios";
 import BannerPerfumesHombre from "../components/BannerPerfumesHombre";
 
@@ -77,13 +76,6 @@ const Home = () => {
           </HomeSection>
 
           <BannerPerfumesHombre />
-
-          
-
-          <CrazyBullOferta />
-
-
-    
 
           {/* 🖼️ LOCAL */}
           <HomeSection className="mt-20">

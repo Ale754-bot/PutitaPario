@@ -1,5 +1,139 @@
 [
   {
+    "id": 736,
+    "nombre": "Baby doll 1",
+    "descripcion": "Consultar talles",
+    "imagen": "/BABYDOLL1-ROJO.png",
+    "categoria": "Lencería",
+    "subcategoria": "Conjuntos",
+    "stock": true,
+    "mostrarColor": true,
+    "precioBase": 35000,
+    "nuevo": false,
+    "variantes": [
+
+      { "color": "Rojo",
+      "colorHex": "#ff0000",
+      "talle": "",
+      "precio": 35000,
+      "imagen": "/BABYDOLL1-ROJO.png",
+      "stock": true },
+
+      { "color": "Azul oscuro",
+      "colorHex": "#00008b",
+      "talle": "",
+      "precio": 35000,
+      "imagen": "/BABYDOLL1-AZUL.png",
+      "stock": true },
+
+      { "color": "Rosa",
+      "colorHex": "#ffc0cb",
+      "talle": "",
+      "precio": 35000,
+      "imagen": "/BABYDOLL1-ROSA.png",
+      "stock": true },
+
+      { "color": "Verde",
+      "colorHex": "#008000",
+      "talle": "",
+      "precio": 35000,
+      "imagen": "/BABYDOLL1-VERDE.png",
+      "stock": true
+    }
+    ]
+  },
+  {
+    "id": 737,
+    "nombre": "Baby doll 2",
+    "descripcion": "Consultar talles",
+    "imagen": "/BABYDOLL2-AZUL.png",
+    "categoria": "Lencería",
+    "subcategoria": "Conjuntos",
+    "stock": true,
+    "mostrarColor": true,
+    "precioBase": 26000,
+    "nuevo": false,
+    "variantes": [
+      { "color": "Azul",
+      "colorHex": "#0000ff",
+      "talle": "",
+      "precio": 26000,
+      "imagen": "/BABYDOLL2-AZUL.png",
+      "stock": true },
+
+      { "color": "Negro",
+      "colorHex": "#000000",
+      "talle": "",
+      "precio": 26000,
+      "imagen": "/BABYDOLL2-NEGRO.png",
+      "stock": true }
+    ]
+  },
+  {
+    "id": 738,
+    "nombre": "Baby doll 3",
+    "descripcion": "Consultar talles",
+    "imagen": "/BABYDOLL3-ROSA.png",
+    "categoria": "Lencería",
+    "subcategoria": "Conjuntos",
+    "stock": true,
+    "mostrarColor": true,
+    "precioBase": 20000,
+    "nuevo": false,
+    "variantes": [
+
+    {
+      "color": "Rosa",
+      "colorHex": "#ffc0cb",
+      "talle": "",
+      "precio": 20000,
+      "imagen": "/BABYDOLL3-ROSA.png",
+      "stock": true
+    },
+
+      { "color": "Azul",
+      "colorHex": "#0000ff",
+      "talle": "",
+      "precio": 20000,
+      "imagen": "/BABYDOLL3-AZUL.png",
+      "stock": true },
+      
+      { "color": "Verde",
+      "colorHex": "#008000",
+      "talle": "",
+      "precio": 20000,
+      "imagen": "/BABYDOLL3-VERDE.png",
+      "stock": true }
+    ]
+  },
+  {
+    "id": 739,
+    "nombre": "Conjunto Maka Rojo",
+    "descripcion": "Consultar talles",
+    "imagen": "/CONJUNTOMAKA-ROJO.png",
+    "categoria": "Lencería",
+    "subcategoria": "Conjuntos",
+    "stock": true,
+    "mostrarColor": false,
+    "precioBase": 40000,
+    "nuevo": false,
+    "variantes": []
+  },
+  {
+    "id": 740,
+    "nombre": "Conjunto Maka Negro",
+    "descripcion": "Consultar talles",
+    "imagen": "/CONJUNTOMAKA-NEGRO.png",
+    "categoria": "Lencería",
+    "subcategoria": "Conjuntos",
+    "stock": true,
+    "mostrarColor": false,
+    "precioBase": 40000,
+    "nuevo": false,
+    "variantes": []
+  }
+,
+  {
   "id": 727,
   "nombre": "Baby Doll simple con colaless",
   "descripcion": "talle único L/XL aprox.",
@@ -416,10 +550,9 @@
   "imagen": "/images/lenceria/Conjuntocandela.webp",
   "categoria": "Lencería",
   "subcategoria": "Conjuntos",
-  "stock": true,
+  "stock": false,
   "mostrarColor": false,
-  "precioBase": 19800,
-  "nuevo": true
+  "precioBase": 19800
 },
 {
   "id": 723,

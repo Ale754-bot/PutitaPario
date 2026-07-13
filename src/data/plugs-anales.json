@@ -106,7 +106,7 @@
     "imagen": "/images/plugs/corazonrosa.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -123,7 +123,7 @@
     "imagen": "/images/plugs/diamanterojo.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -174,7 +174,7 @@
   "imagen": "/images/plugs/diamanteplateado.webp",
   "categoria": "Plugs",
   "subcategoria": "",
-  "stock": true,
+  "stock": false,
   "marca": "",
   "linea": "",
   "precio": 23000,
@@ -378,7 +378,7 @@
   "descripcion": "",
   "imagen": "/images/plugs/duchanal.webp",
   "categoria": "Plugs",
-  "stock": true,
+  "stock": false,
   "marca": "",
   "linea": "",
   "precio": 22000

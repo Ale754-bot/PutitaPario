@@ -5,7 +5,7 @@
     "descripcion": "Diseño ajustado con tiras cruzadas y estética provocadora. Ideal para complementar conjuntos.",
     "imagen": "/images/arneses/roxinegro.webp",
     "categoria": "Arneses",
-    "stock": true,
+    "stock": false,
     "precio": 14000,
     "precioOferta": 7000,
     "marca": "",
@@ -76,7 +76,7 @@
     "id": 903,
     "nombre": "Arnés Dai",
     "descripcion": "Diseño simétrico con tiras dobles y ajuste firme. Estética geométrica.",
-    "imagen": "/images/arneses/dainegro.webp",
+    "imagen": "/images/arneses/daiblanco.webp",
     "categoria": "Arneses",
     "stock": true,
     "precio": 14000,
@@ -85,13 +85,7 @@
     "linea": "",
     "mostrarColor": true,
     "variantes": [
-      {
-        "color": "Negro",
-        "colorHex": "#000000",
-        "precio": 14000,
-        "precioOferta": 7000,
-        "imagen": "/images/arneses/dainegro.webp"
-      },
+      
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
@@ -136,7 +130,7 @@
     "descripcion": "Arnés delicado con tiras finas y diseño envolvente. Disponible en negro.",
     "imagen": "/images/arneses/deliblanco.jpg",
     "categoria": "Arneses",
-    "stock": true,
+    "stock": false,
     "precio": 17000,
     "precioOferta": 8500,
     "marca": "",
@@ -267,7 +261,7 @@
     "descripcion": "Arnés tipo portaligas con diseño suave y tiras ajustables. Ideal para complementar conjuntos.",
     "imagen": "/images/arneses/ligababyblanco.webp",
     "categoria": "Arneses",
-    "stock": true,
+    "stock": false,
     "precio": 12000,
     "precioOferta": 6000,
     "marca": "",

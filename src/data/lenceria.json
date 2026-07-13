@@ -108,8 +108,8 @@
   },
   {
     "id": 739,
-    "nombre": "Conjunto Maka Rojo",
-    "descripcion": "Consultar talles",
+    "nombre": "Conjunto Maka Rojo - Talle M",
+    "descripcion": "",
     "imagen": "/CONJUNTOMAKA-ROJO.png",
     "categoria": "Lencería",
     "subcategoria": "Conjuntos",
@@ -121,7 +121,7 @@
   },
   {
     "id": 740,
-    "nombre": "Conjunto Maka Negro",
+    "nombre": "Conjunto Maka Negro - Talle S y L",
     "descripcion": "Consultar talles",
     "imagen": "/CONJUNTOMAKA-NEGRO.png",
     "categoria": "Lencería",
@@ -133,126 +133,6 @@
     "variantes": []
   }
 ,
-  {
-  "id": 727,
-  "nombre": "Baby Doll simple con colaless",
-  "descripcion": "talle único L/XL aprox.",
-  "imagen": "/images/lenceria/BABYDOLL/BABYDOLLNEGRO.jpg",
-  "categoria": "Lencería",
-  "subcategoria": "Conjuntos",
-  "stock": true,
-  "mostrarColor": true,
-  "precioBase": 28000,
-  "precioOferta": 20000,
-  "nuevo": false,
-  "variantes": [
-    {
-      "color": "Negro",
-      "colorHex": "#000000",
-      "talle": "",
-      "precio": 28000,
-      "precioOferta": 20000,
-      "imagen": "/images/lenceria/BABYDOLL/BABYDOLLNEGRO.jpg",
-      "stock": true
-    },
-    {
-      "color": "Rojo",
-      "colorHex": "#ff0000",
-      "talle": "",
-      "precio": 28000,
-      "precioOferta": 20000,
-      "imagen": "/images/lenceria/BABYDOLL/BABYDOLLROJO.jpg",
-      "stock": true
-    },
-    {
-      "color": "Verde azulado",
-      "colorHex": "#006b6b",
-      "talle": "",
-      "precio": 28000,
-      "precioOferta": 20000,
-      "imagen": "/images/lenceria/BABYDOLL/BABYDOLLVERDE.jpg",
-      "stock": true
-    },
-    {
-      "color": "Azul oscuro",
-      "colorHex": "#00008b",
-      "talle": "",
-      "precio": 28000,
-      "precioOferta": 20000,
-      "imagen": "/images/lenceria/BABYDOLL/BABYDOLLAZUL.jpg",
-      "stock": true
-    },
-    {
-      "color": "Rojo oscuro",
-      "colorHex": "#8b0000",
-      "talle": "",
-      "precio": 28000,
-      "precioOferta": 20000,
-      "imagen": "/images/lenceria/BABYDOLL/BABYDOLLROJOOSCURO.jpg",
-      "stock": true
-    },
-    {
-      "color": "Rosa",
-      "colorHex": "#ffc0cb",
-      "talle": "",
-      "precio": 28000,
-      "precioOferta": 20000,
-      "imagen": "/images/lenceria/BABYDOLL/BABYDOLLROSA.jpg",
-      "stock": true
-    }
-  ]
-},
-{
-  "id": 728,
-  "nombre": "Baby Doll Encaje Bordado y Colaless",
-  "descripcion": "",
-  "imagen": "/images/lenceria/BABYDOLL ENCAJE/BABYDOLLENCAJEROJO.jpg",
-  "categoria": "Lencería",
-  "subcategoria": "Conjuntos",
-  "stock": true,
-  "mostrarColor": true,
-  "precioBase": 28000,
-  "precioOferta": 28000,
-  "nuevo": false,
-  "variantes": [
-    {
-      "color": "Rojo",
-      "colorHex": "#ff0000",
-      "talle": "",
-      "precio": 28000,
-      "precioOferta": 28000,
-      "imagen": "/images/lenceria/BABYDOLL ENCAJE/BABYDOLLENCAJEROJO.jpg",
-      "stock": true
-    },
-    {
-      "color": "Azul",
-      "colorHex": "#00008b",
-      "talle": "",
-      "precio": 28000,
-      "precioOferta": 28000,
-      "imagen": "/images/lenceria/BABYDOLL ENCAJE/BABYDOLLENCAJEAZUL.jpg",
-      "stock": true
-    },
-    {
-      "color": "Negro",
-      "colorHex": "#000000",
-      "talle": "",
-      "precio": 28000,
-      "precioOferta": 28000,
-      "imagen": "/images/lenceria/BABYDOLL ENCAJE/BABYDOLLENCAJENEGRO.jpg",
-      "stock": true
-    },
-    {
-      "color": "Bordó",
-      "colorHex": "#8b0000",
-      "talle": "",
-      "precio": 28000,
-      "precioOferta": 28000,
-      "imagen": "/images/lenceria/BABYDOLL ENCAJE/BABYDOLLENCAJEBORDO.jpg",
-      "stock": true
-    }
-  ]
-},
  {
   "id": 726,
   "nombre": "Conjunto Magui",
@@ -281,7 +161,7 @@
   "id": 715,
   "nombre": "Conjunto Pool Party",
   "descripcion": "",
-  "imagen": "/images/lenceria/pool party/poolrojo.webp",
+  "imagen": "/images/lenceria/pool party/poolverde.webp",
   "categoria": "Lencería",
   "subcategoria": "Conjuntos",
   "stock": true,
@@ -289,20 +169,6 @@
   "precioBase": 38000,
   "nuevo": true,
   "variantes": [
-    {
-      "color": "Rojo",
-      "colorHex": "#b30000",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/pool party/poolrojo.webp"
-    },
-    {
-      "color": "Negro",
-      "colorHex": "#000000",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/pool party/poolnegro.webp"
-    },
     {
       "color": "Verde",
       "colorHex": "#006400",
@@ -376,9 +242,9 @@
 },
 {
   "id": 717,
-  "nombre": "Conjunto Polly",
+  "nombre": "Conjunto Polly - Talle M",
   "descripcion": "",
-  "imagen": "/images/lenceria/polly/pollyblanco.webp",
+  "imagen": "/images/lenceria/polly/pollynegro.webp",
   "categoria": "Lencería",
   "subcategoria": "Conjuntos",
   "stock": true,
@@ -386,26 +252,13 @@
   "precioBase": 38000,
   "nuevo": true,
   "variantes": [
-    {
-      "color": "Blanco",
-      "colorHex": "#FFFFFF",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/polly/pollyblanco.webp"
-    },
+    
     {
       "color": "Negro",
       "colorHex": "#000000",
       "talle": "Consultar por talles disponibles",
       "precio": 38000,
       "imagen": "/images/lenceria/polly/pollynegro.webp"
-    },
-    {
-      "color": "Rojo",
-      "colorHex": "#b30000",
-      "talle": "Consultar por talles disponibles",
-      "precio": 38000,
-      "imagen": "/images/lenceria/polly/pollyrojo.webp"
     }
   ]
 },
@@ -561,7 +414,7 @@
   "imagen": "/images/lenceria/lucia/lucianegro.webp",
   "categoria": "Lencería",
   "subcategoria": "Conjuntos",
-  "stock": true,
+  "stock": false,
   "mostrarColor": true,
   "precioBase": 38000,
   "nuevo": true,
@@ -723,28 +576,14 @@
     "subcategoria": "Conjuntos",
     "stock": true,
     "mostrarColor": true,
-    "precioBase": 38000,
+    "precioBase": 28000,
     "variantes": [
       {
         "color": "Azul",
         "colorHex": "#1b3474",
         "talle": "Consultar por talles disponibles",
-        "precio": 38000,
+        "precio": 28000,
         "imagen": "/images/lenceria/corazonesazul.webp"
-      },
-      {
-        "color": "Negro",
-        "colorHex": "#000000",
-        "talle": "Consultar por talles disponibles",
-        "precio": 38000,
-        "imagen": "/images/lenceria/corazonesnegro.webp"
-      },
-      {
-        "color": "Rosita",
-        "colorHex": "#bc9286",
-        "talle": "Consultar por talles disponibles",
-        "precio": 38000,
-        "imagen": "/images/lenceria/corazonesrosa.webp"
       }
     ]
   },
@@ -792,42 +631,15 @@
   {
     "id": 704,
     "nombre": "Conjunto Lirios",
-    "descripcion": "Conjunto con estampado floral y diseño delicado. Disponible en cinco variantes visuales.",
-    "imagen": "/images/lenceria/liriorojo.webp",
+    "descripcion": "",
+    "imagen": "/images/lenceria/lirioazul.webp",
     "categoria": "Lencería",
     "subcategoria": "Conjuntos",
     "stock": true,
     "mostrarColor": true,
     "precioBase": 35000,
     "variantes": [
-      {
-        "color": "Rojo",
-        "colorHex": "#900e09",
-        "talle": "Consultar por talles disponibles",
-        "precio": 35000,
-        "imagen": "/images/lenceria/liriorojo.webp"
-      },
-      {
-        "color": "Negro",
-        "colorHex": "#000000",
-        "talle": "Consultar por talles disponibles",
-        "precio": 35000,
-        "imagen": "/images/lenceria/lirionegro.webp"
-      },
-      {
-        "color": "Rosa",
-        "colorHex": "#fdc4b7",
-        "talle": "Consultar por talles disponibles",
-        "precio": 35000,
-        "imagen": "/images/lenceria/liriorosa.webp"
-      },
-      {
-        "color": "Blanco",
-        "colorHex": "#ffffff",
-        "talle": "Consultar por talles disponibles",
-        "precio": 35000,
-        "imagen": "/images/lenceria/lirioblanco.webp"
-      },
+  
       {
         "color": "Azul",
         "colorHex": "#2e376b",
@@ -1179,23 +991,9 @@
       {
         "color": "Negro",
         "colorHex": "#000000",
-        "talle": "Consultar por talles disponibles",
+        "talle": "Talle L",
         "precio": 38000,
         "imagen": "/images/lenceria/conjunto 9/conjunto9negro.webp"
-      },
-      {
-        "color": "Rojo",
-        "colorHex": "#b30000",
-        "talle": "Consultar por talles disponibles",
-        "precio": 38000,
-        "imagen": "/images/lenceria/conjunto 9/conjunto9rojo.webp"
-      },
-      {
-        "color": "Blanco",
-        "colorHex": "#ffffff",
-        "talle": "Consultar por talles disponibles",
-        "precio": 38000,
-        "imagen": "/images/lenceria/conjunto 9/conjunto9blanco.webp"
       }
     ]
   },
@@ -1206,7 +1004,7 @@
     "imagen": "/images/lenceria/conjunto 10/conjunto10rojo.webp",
     "categoria": "Lencería",
     "subcategoria": "Conjuntos",
-    "stock": true,
+    "stock": false,
     "mostrarColor": true,
     "precioBase": 38000,
     "variantes": [

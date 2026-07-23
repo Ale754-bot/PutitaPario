@@ -46,7 +46,7 @@ export const CarritoProvider = ({ children }) => {
   };
 
   const generarMensajeWhatsapp = (metodoEntrega) => {
-    const numeroDuena = "5493412634440";
+    const numeroDuena = "5493416863196";
 
     let mensaje = '🛒 ¡Hola! Me gustaría confirmar mi compra.\n\n';
     mensaje += 'Estos son los productos que seleccioné:\n\n';

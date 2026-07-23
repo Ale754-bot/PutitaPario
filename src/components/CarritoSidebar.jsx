@@ -53,7 +53,7 @@ CVU: 0000003100018609620921
 📎 Adjunto comprobante de pago.
 `);
 
-  const url = `https://wa.me/5493416863196?text=${mensaje}`;
+  const url = `https://wa.me/5493412634440?text=${mensaje}`;
   window.open(url, "_blank");
 };
 

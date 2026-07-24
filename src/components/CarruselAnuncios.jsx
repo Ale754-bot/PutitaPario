@@ -12,11 +12,6 @@ const banners = [
     link: "/productos?categoria=Arneses",
   },
   {
-  titulo: "",
-  imagen: "/BANNERCAPSULAEXCLUSIVA.png",
-  link: "#capsula-magui",
-  },
-  {
     titulo: "",
     imagen: "/BANNERDISFRACES.png",
     link: "/productos?categoria=Disfraces",

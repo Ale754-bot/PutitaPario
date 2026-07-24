@@ -1237,7 +1237,6 @@
     "categoria": "Lencería",
     "subcategoria": "Cápsula Exclusiva",
     "precioBase": 52000,
-    "precioOferta": 26000,
     "imagen": "/VICTORIA.jpg",
     "descripcion": "",
     "stock": true
@@ -1248,7 +1247,6 @@
     "categoria": "Lencería",
     "subcategoria": "Cápsula Exclusiva",
     "precioBase": 48000,
-    "precioOferta": 24000,
     "imagen": "/LEONOR.jpg",
     "descripcion": "",
     "stock": true
@@ -1259,7 +1257,6 @@
     "categoria": "Lencería",
     "subcategoria": "Cápsula Exclusiva",
     "precioBase": 48000,
-    "precioOferta": 24000,
     "imagen": "/TATIANA.jpg",
     "descripcion": "",
     "stock": true
@@ -1270,7 +1267,6 @@
     "categoria": "Lencería",
     "subcategoria": "Cápsula Exclusiva",
     "precioBase": 60000,
-    "precioOferta": 30000,
     "imagen": "/MALEFICA.jpg",
     "descripcion": "",
     "stock": true
@@ -1281,7 +1277,6 @@
     "categoria": "Lencería",
     "subcategoria": "Cápsula Exclusiva",
     "precioBase": 50000,
-    "precioOferta": 25000,
     "imagen": "/URSULA.jpg",
     "descripcion": "",
     "stock": true
@@ -1292,7 +1287,6 @@
     "categoria": "Lencería",
     "subcategoria": "Cápsula Exclusiva",
     "precioBase": 60000,
-    "precioOferta": 30000,
     "imagen": "/ISABEL.jpg",
     "descripcion": "",
     "stock": true

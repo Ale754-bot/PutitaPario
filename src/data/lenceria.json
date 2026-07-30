@@ -1269,7 +1269,7 @@
     "precioBase": 60000,
     "imagen": "/MALEFICA.jpg",
     "descripcion": "",
-    "stock": true
+    "stock": false
   },
   {
     "id": 734,

@@ -52,7 +52,7 @@
   "descripcion": "",
   "imagen": "/brighty.jpg",
   "categoria": "Juguetes",
-  "stock": true,
+  "stock": false,
   "marca": "",
   "linea": "",
   "precio": 72000
@@ -373,7 +373,7 @@
     "descripcion": "Estimulador vibrante con forma de lengüita. Ideal para juego externo.",
     "imagen": "/images/juguetes/lenguitavioleta.webp",
     "categoria": "Juguetes",
-    "stock": true,
+    "stock": false,
     "precio": 38000,
     "marca": "",
     "linea": "",

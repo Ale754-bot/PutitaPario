@@ -22,6 +22,7 @@ const ProductCard = ({ producto, index }) => {
     reingreso,
     precioOferta,
     descuento,
+    encargo, // <--- Propiedad añadida
   } = producto;
 
   const [talleSeleccionado, setTalleSeleccionado] = useState("");
@@ -122,28 +123,28 @@ const ProductCard = ({ producto, index }) => {
     if (!puedeAgregar) return;
 
     const item = {
-  ...producto,
+      ...producto,
 
-  carritoId: `${producto.id}-${varianteSeleccionada?.color || ""}-${varianteSeleccionada?.talle || ""}-${varianteSeleccionada?.tamaño || ""}-${talleSeleccionado || ""}`,
+      carritoId: `${producto.id}-${varianteSeleccionada?.color || ""}-${varianteSeleccionada?.talle || ""}-${varianteSeleccionada?.tamaño || ""}-${talleSeleccionado || ""}`,
 
-  talle:
-    talleSeleccionado ||
-    varianteSeleccionada?.talle ||
-    null,
+      talle:
+        talleSeleccionado ||
+        varianteSeleccionada?.talle ||
+        null,
 
-  variante:
-    varianteSeleccionada?.talle ||
-    varianteSeleccionada?.tamaño ||
-    varianteSeleccionada?.color ||
-    null,
+      variante:
+        varianteSeleccionada?.talle ||
+        varianteSeleccionada?.tamaño ||
+        varianteSeleccionada?.color ||
+        null,
 
-  color: varianteSeleccionada?.color || null,
+      color: varianteSeleccionada?.color || null,
 
-  precio: precioFinal,
+      precio: precioFinal,
 
-  imagen:
-    varianteSeleccionada?.imagen || imagenFinal,
-};
+      imagen:
+        varianteSeleccionada?.imagen || imagenFinal,
+    };
 
     agregarItem(item, 1);
   };
@@ -245,8 +246,20 @@ const ProductCard = ({ producto, index }) => {
           </span>
         )}
 
+        {/* ETIQUETA ENCARGO */}
+{encargo && stock && (
+  <span
+    className="
+      absolute left-2 top-2 z-10
+      rounded-full bg-black px-2.5 py-1
+      text-[10px] font-bold text-white
+    "
+  >
+    Solo por encargo
+  </span>
+)}
         {/* PROMO GLOBAL */}
-        {promoActiva && stock && (
+        {promoActiva && stock && !encargo && (
           <span
             className="
               absolute bottom-3 left-3 z-10

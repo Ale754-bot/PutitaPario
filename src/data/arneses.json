@@ -5,9 +5,9 @@
     "descripcion": "Diseño ajustado con tiras cruzadas y estética provocadora. Ideal para complementar conjuntos.",
     "imagen": "/images/arneses/roxinegro.webp",
     "categoria": "Arneses",
-    "stock": false,
+    "stock": true,
     "precio": 14000,
-    "precioOferta": 7000,
+    "encargo": true,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -16,7 +16,6 @@
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 14000,
-        "precioOferta": 7000,
         "imagen": "/images/arneses/roxiblanco.webp"
       }
     ]
@@ -29,7 +28,7 @@
     "categoria": "Arneses",
     "stock": true,
     "precio": 14000,
-    "precioOferta": 7000,
+    "encargo": true,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -38,14 +37,12 @@
         "color": "Negro",
         "colorHex": "#000000",
         "precio": 14000,
-        "precioOferta": 7000,
         "imagen": "/images/arneses/medusanegro.webp"
       },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 14000,
-        "precioOferta": 7000,
         "imagen": "/images/arneses/medusablanco.webp"
       }
     ]
@@ -58,7 +55,7 @@
     "categoria": "Arneses",
     "stock": true,
     "precio": 12000,
-    "precioOferta": 6000,
+    "encargo": true,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -67,7 +64,6 @@
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 12000,
-        "precioOferta": 6000,
         "imagen": "/images/arneses/babyblanco.webp"
       }
     ]
@@ -80,7 +76,7 @@
     "categoria": "Arneses",
     "stock": true,
     "precio": 14000,
-    "precioOferta": 7000,
+    "encargo": true,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -90,7 +86,6 @@
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 14000,
-        "precioOferta": 7000,
         "imagen": "/images/arneses/daiblanco.webp"
       }
     ]
@@ -101,9 +96,9 @@
     "descripcion": "Arnés decorativo con moños laterales. Toque lúdico y provocador.",
     "imagen": "/images/arneses/moñosnegro.webp",
     "categoria": "Arneses",
-    "stock": false,
+    "stock": true,
     "precio": 15000,
-    "precioOferta": 7500,
+    "encargo": true,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -112,14 +107,12 @@
         "color": "Negro",
         "colorHex": "#000000",
         "precio": 15000,
-        "precioOferta": 7500,
         "imagen": "/images/arneses/moñosnegro.webp"
       },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 15000,
-        "precioOferta": 7500,
         "imagen": "/images/arneses/moñosblanco.webp"
       }
     ]
@@ -130,9 +123,9 @@
     "descripcion": "Arnés delicado con tiras finas y diseño envolvente. Disponible en negro.",
     "imagen": "/images/arneses/deliblanco.jpg",
     "categoria": "Arneses",
-    "stock": false,
+    "stock": true,
     "precio": 17000,
-    "precioOferta": 8500,
+    "encargo": true,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -141,7 +134,6 @@
         "color": "Negro",
         "colorHex": "#ffffff",
         "precio": 17000,
-        "precioOferta": 8500,
         "imagen": "/images/arneses/deliblanco.jpg"
       }
     ]
@@ -152,9 +144,9 @@
     "descripcion": "Arnés con tiras cruzadas y moños decorativos. Estética juguetona.",
     "imagen": "/images/arneses/moñostirasnegro.webp",
     "categoria": "Arneses",
-    "stock": false,
+    "stock": true,
     "precio": 14000,
-    "precioOferta": 7000,
+    "encargo": true,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -163,14 +155,12 @@
         "color": "Negro",
         "colorHex": "#000000",
         "precio": 14000,
-        "precioOferta": 7000,
         "imagen": "/images/arneses/moñostirasnegro.webp"
       },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 14000,
-        "precioOferta": 7000,
         "imagen": "/images/arneses/moñostirasblanco.webp"
       }
     ]
@@ -183,7 +173,7 @@
     "categoria": "Arneses",
     "stock": true,
     "precio": 28800,
-    "precioOferta": 14400,
+    "encargo": true,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -192,7 +182,6 @@
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 28800,
-        "precioOferta": 14400,
         "imagen": "/images/arneses/neidiblanco.webp"
       }
     ]
@@ -203,9 +192,9 @@
     "descripcion": "Diseño envolvente con tiras cruzadas y estética provocadora. Ideal para layering.",
     "imagen": "/images/arneses/ppnegro.webp",
     "categoria": "Arneses",
-    "stock": false,
+    "stock": true,
     "precio": 17000,
-    "precioOferta": 8500,
+    "encargo": true,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -214,14 +203,12 @@
         "color": "Negro",
         "colorHex": "#000000",
         "precio": 17000,
-        "precioOferta": 8500,
         "imagen": "/images/arneses/ppnegro.webp"
       },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 17000,
-        "precioOferta": 8500,
         "imagen": "/images/arneses/ppblanco.webp"
       }
     ]
@@ -234,7 +221,7 @@
     "categoria": "Arneses",
     "stock": true,
     "precio": 8000,
-    "precioOferta": 4000,
+    "encargo": true,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -243,14 +230,12 @@
         "color": "Negro",
         "colorHex": "#000000",
         "precio": 8000,
-        "precioOferta": 4000,
         "imagen": "/images/arneses/ligadoblenegra.webp"
       },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 8000,
-        "precioOferta": 4000,
         "imagen": "/images/arneses/ligadobleblanca.webp"
       }
     ]
@@ -261,9 +246,9 @@
     "descripcion": "Arnés tipo portaligas con diseño suave y tiras ajustables. Ideal para complementar conjuntos.",
     "imagen": "/images/arneses/ligababyblanco.webp",
     "categoria": "Arneses",
-    "stock": false,
+    "stock": true,
     "precio": 12000,
-    "precioOferta": 6000,
+    "encargo": true,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -272,7 +257,6 @@
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 12000,
-        "precioOferta": 6000,
         "imagen": "/images/arneses/ligababyblanco.webp"
       }
     ]
@@ -283,9 +267,9 @@
     "descripcion": "Diseño romántico con tiras cruzadas y detalles suaves. Ideal para ocasiones especiales.",
     "imagen": "/images/arneses/valentinenegro.webp",
     "categoria": "Arneses",
-    "stock": false,
+    "stock": true,
     "precio": 23000,
-    "precioOferta": 11500,
+    "encargo": true,
     "marca": "",
     "linea": "",
     "mostrarColor": true,
@@ -294,14 +278,12 @@
         "color": "Negro",
         "colorHex": "#000000",
         "precio": 23000,
-        "precioOferta": 11500,
         "imagen": "/images/arneses/valentinenegro.webp"
       },
       {
         "color": "Blanco",
         "colorHex": "#ffffff",
         "precio": 23000,
-        "precioOferta": 11500,
         "imagen": "/images/arneses/valentineblanco.webp"
       }
     ]

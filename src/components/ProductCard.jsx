@@ -247,17 +247,17 @@ const ProductCard = ({ producto, index }) => {
         )}
 
         {/* ETIQUETA ENCARGO */}
-{encargo && stock && (
-  <span
-    className="
-      absolute left-2 top-2 z-10
-      rounded-full bg-black px-2.5 py-1
-      text-[10px] font-bold text-white
-    "
-  >
-    Solo por encargo
-  </span>
-)}
+        {encargo && stock && (
+          <span
+            className="
+              absolute left-2 top-2 z-10
+              rounded-full bg-black px-2.5 py-1
+              text-[10px] font-bold text-white
+            "
+          >
+            Solo por encargo
+          </span>
+        )}
         {/* PROMO GLOBAL */}
         {promoActiva && stock && !encargo && (
           <span

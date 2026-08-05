@@ -8,7 +8,8 @@
   "stock": true,
   "marca": "",
   "linea": "",
-  "precio": 68000
+  "precio": 68000,
+  "precioOferta" : 48000
 },
  {
   "id": 440,
@@ -44,7 +45,7 @@
   "stock": true,
   "marca": "",
   "linea": "",
-  "precio": 65000
+  "precio": 75000
 },
 {
   "id": 434,

@@ -1,46 +1,109 @@
 [
   {
-    "id": 3000,
-    "nombre": "Plug Anal a C/R y USB",
-    "descripcion": "",
-    "imagen": "/NuevoIngreso1.jpg",
-    "categoria": "Nuevos Ingresos",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "precio": "68000"
-  },
-  {
     "id": 3001,
-    "nombre": "Anillo Vibrador con USB",
-    "descripcion": "",
-    "imagen": "/NuevoIngreso2.jpg",
-    "categoria": "Nuevos Ingresos",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "precio": "75000"
+    "nombre": "Body Luna",
+    "precio": 42500,
+    "imagen": "/BODYLUNANEGRO.jpg",
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "imagen": "/BODYLUNANEGRO.jpg"
+      },
+      {
+        "color": "Bordó",
+        "colorHex": "#6b1d2f",
+        "imagen": "/BODYLUNABORDO.jpg"
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#dc2626",
+        "imagen": "/BODYLUNAROJO.jpg"
+      },
+      {
+        "color": "Verde oscuro",
+        "colorHex": "#064e3b",
+        "imagen": "/BODYLUNAVERDE.jpg"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "imagen": "/BODYLUNABLANCO.jpg"
+      },
+      {
+        "color": "Rosa",
+        "colorHex": "#f472b6",
+        "imagen": "/BODYLUNAROSA.jpg"
+      }
+    ]
   },
   {
     "id": 3002,
-    "nombre": "Abeja Estimuladora",
-    "descripcion": "",
-    "imagen": "/NuevoIngreso3.jpg",
-    "categoria": "Nuevos Ingresos",
-    "stock": true,
-    "marca": "",
-    "linea": "",
-    "precio": "68000"
+    "nombre": "Set Amapola",
+    "precio": 40000,
+    "imagen": "/SETAMAPOLAROJO.jpg",
+    "variantes": [
+      {
+        "color": "Rojo",
+        "colorHex": "#dc2626",
+        "imagen": "/SETAMAPOLAROJO.jpg"
+      },
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "imagen": "/SETAMAPOLANEGRO.jpg"
+      }
+    ]
   },
   {
     "id": 3003,
-    "nombre": "Vital Honey VIP x Unidad",
-    "descripcion": "",
-    "imagen": "/NuevoIngreso4.jpg",
-    "categoria": "Nuevos Ingresos",
-    "stock": false,
-    "marca": "",
-    "linea": "",
-    "precio": "15000"
+    "nombre": "Body Saturno",
+    "precio": 40000,
+    "imagen": "/BODYSATURNO.jpg",
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "imagen": "/BODYSATURNO.jpg"
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#dc2626",
+        "imagen": "/BODYSATURNO.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3004,
+    "nombre": "Set Paladium con corset",
+    "precio": 425000,
+    "imagen": "/SETPALADIUMNEGRO.jpg",
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "imagen": "/SETPALADIUMNEGRO.jpg"
+      },
+      {
+        "color": "Verde oscuro",
+        "colorHex": "#064e3b",
+        "imagen": "/SETPALADIUMVERDE.jpg"
+      },
+      {
+        "color": "Azul oscuro",
+        "colorHex": "#1e3a8a",
+        "imagen": "/SETPALADIUMAZUL.jpg"
+      },
+      {
+        "color": "Violeta claro",
+        "colorHex": "#c084fc",
+        "imagen": "/SETPALADIUMVIOLETA.jpg"
+      },
+      {
+        "color": "Rosa",
+        "colorHex": "#f472b6",
+        "imagen": "/SETPALADIUMROSA.jpg"
+      }
+    ]
   }
 ]

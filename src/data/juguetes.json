@@ -87,7 +87,7 @@
   "descripcion": "",
   "imagen": "/ardilla.jpg",
   "categoria": "Juguetes",
-  "stock": true,
+  "stock": false,
   "marca": "",
   "linea": "",
   "precio": 126000,

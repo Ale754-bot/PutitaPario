@@ -77,6 +77,10 @@ const Home = () => {
 
           <BannerPerfumesHombre />
 
+          <HomeSection className="mb-10">
+            <NuevosIngresos bannerUrl="/nuevosingresos.jpg" />
+          </HomeSection>
+
           {/* 🖼️ LOCAL */}
           <HomeSection className="mt-20">
             <section

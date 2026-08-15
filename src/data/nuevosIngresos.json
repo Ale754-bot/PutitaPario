@@ -17,7 +17,7 @@
       },
       {
         "color": "Rojo",
-        "colorHex": "#dc2626",
+        "colorHex": "#f50b0b",
         "imagen": "/BODYLUNAROJO.jpg"
       },
       {
@@ -45,7 +45,7 @@
     "variantes": [
       {
         "color": "Rojo",
-        "colorHex": "#dc2626",
+        "colorHex": "#f50b0b",
         "imagen": "/SETAMAPOLAROJO.jpg"
       },
       {
@@ -68,7 +68,7 @@
       },
       {
         "color": "Rojo",
-        "colorHex": "#dc2626",
+        "colorHex": "#f50b0b",
         "imagen": "/BODYSATURNO.jpg"
       }
     ]
@@ -103,6 +103,193 @@
         "color": "Rosa",
         "colorHex": "#f472b6",
         "imagen": "/SETPALADIUMROSA.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3005,
+    "nombre": "Tanga hilo con triángulo atrás",
+    "precio": 12800,
+    "imagen": "/TANGAHILO.jpg",
+    "variantes": [
+       {
+        "color": "Bordó",
+        "colorHex": "#550000",
+        "imagen": "/TANGAHILO.jpg"
+      },
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "imagen": "/TANGAHILO.jpg"
+      },
+     
+      {
+        "color": "Azul",
+        "colorHex": "#1e3a8a",
+        "imagen": "/TANGAHILO.jpg"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "imagen": "/TANGAHILO.jpg"
+      },
+      {
+        "color": "Rosa",
+        "colorHex": "#f472b6",
+        "imagen": "/TANGAHILO.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3006,
+    "nombre": "Tanga hilo con brillo",
+    "precio": 12800,
+    "imagen": "/TANGAHILOBRILLO.jpg",
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "imagen": "/TANGAHILOBRILLO.jpg"
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#f50b0b",
+        "imagen": "/TANGAHILOBRILLO.jpg"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "imagen": "/TANGAHILOBRILLO.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3007,
+    "nombre": "Tanga doble tira",
+    "precio": 12800,
+    "imagen": "/TANGADOBLETIRA.jpg",
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "imagen": "/TANGADOBLETIRA.jpg"
+      },
+      {
+        "color": "Fucsia",
+        "colorHex": "#e30052",
+        "imagen": "/TANGADOBLETIRA.jpg"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "imagen": "/TANGADOBLETIRA.jpg"
+      },
+      {
+        "color": "Amarillo",
+        "colorHex": "#facc15",
+        "imagen": "/TANGADOBLETIRA.jpg"
+      },
+      {
+        "color": "Rosa",
+        "colorHex": "#f472b6",
+        "imagen": "/TANGADOBLETIRA.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3008,
+    "nombre": "Tanga con perlas",
+    "precio": 12800,
+    "imagen": "/TANGAPERLAS.jpg",
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "imagen": "/TANGAPERLAS.jpg"
+      },
+      {
+        "color": "Verde",
+        "colorHex": "#064e3b",
+        "imagen": "/TANGAPERLAS.jpg"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "imagen": "/TANGAPERLAS.jpg"
+      },
+      {
+        "color": "Rosado",
+        "colorHex": "#f472b6",
+        "imagen": "/TANGAPERLAS.jpg"
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#f50b0b",
+        "imagen": "/TANGAPERLAS.jpg"
+      },
+      {
+        "color": "Bordó",
+        "colorHex": "#6b1d2f",
+        "imagen": "/TANGAPERLAS.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3009,
+    "nombre": "Body en red (Talle chico y talle especial)",
+    "precio": 15000,
+    "imagen": "/BODYRED.jpg",
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "imagen": "/BODYRED.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3010,
+    "nombre": "Medias bucaneras en red",
+    "precio": 15000,
+    "imagen": "/MEDIASRED.jpg",
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "imagen": "/MEDIASRED.jpg"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "imagen": "/MEDIASRED.jpg"
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#f50b0b",
+        "imagen": "/MEDIASRED.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3011,
+    "nombre": "Medias red con brillo",
+    "precio": 15000,
+    "imagen": "/MEDIASREDBRILLO.jpg",
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "imagen": "/MEDIASREDBRILLO.jpg"
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "imagen": "/MEDIASREDBRILLO.jpg"
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#f50b0b",
+        "imagen": "/MEDIASREDBRILLO.jpg"
       }
     ]
   }

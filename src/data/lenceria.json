@@ -781,7 +781,7 @@
     "imagen": "/images/lenceria/hebillarojo.webp",
     "categoria": "Lencería",
     "subcategoria": "Conjuntos",
-    "stock": false,
+    "stock": true,
     "mostrarColor": true,
     "precioBase": 40000,
     "variantes": [
@@ -828,7 +828,7 @@
     "imagen": "/images/lenceria/cadenasceleste.webp",
     "categoria": "Lencería",
     "subcategoria": "Conjuntos",
-    "stock": false,
+    "stock": true,
     "mostrarColor": true,
     "precioBase": 35000,
     "variantes": [

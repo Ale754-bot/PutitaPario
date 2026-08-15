@@ -57,18 +57,18 @@ const TarjetaNuevoIngreso = ({ producto }) => {
         transition-all duration-300 hover:border-red-700/50
       "
     >
-      {/* Imagen del producto (dinámica según color) */}
-      <div className="w-full h-48 bg-[#080808] flex items-center justify-center overflow-hidden relative border border-white/5">
-        <img
-          key={imagenFinal}
-          src={imagenFinal}
-          alt={nombre}
-          className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-        />
-        <span className="absolute top-2 left-2 rounded-full bg-black/70 px-2.5 py-1 text-[9px] font-bold uppercase tracking-wide text-white/90 backdrop-blur">
-          Próximamente
-        </span>
-      </div>
+      {/* Imagen del producto - Cuadrada */}
+<div className="w-full aspect-square bg-[#080808] flex items-center justify-center overflow-hidden relative border border-white/5">
+  <img
+    key={imagenFinal}
+    src={imagenFinal}
+    alt={nombre}
+    className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+  />
+  <span className="absolute top-2 left-2 rounded-full bg-black/70 px-2.5 py-1 text-[9px] font-bold uppercase tracking-wide text-white/90 backdrop-blur">
+    Próximamente
+  </span>
+</div>
 
       {/* Nombre y precio */}
       <h3 className="mt-4 font-semibold text-center text-sm md:text-base line-clamp-2 text-white/95">
@@ -79,34 +79,34 @@ const TarjetaNuevoIngreso = ({ producto }) => {
         ${precio?.toLocaleString("es-AR")}
       </p>
 
-      {/* Selector de colores mediante círculos */}
-      {tieneVariantes && (
-        <div className="mt-3 flex items-center justify-center gap-2 min-h-[26px] flex-wrap">
-          {variantes.map((variante, i) => {
-            const esActivo = varianteSeleccionada === variante;
+      {/* Selector de colores reducido */}
+{tieneVariantes && (
+  <div className="mt-3 flex items-center justify-center gap-1.5 min-h-[24px] flex-wrap">
+    {variantes.map((variante, i) => {
+      const esActivo = varianteSeleccionada === variante;
 
-            return (
-              <button
-                key={`${variante.color || "color"}-${i}`}
-                onClick={() => setVarianteSeleccionada(variante)}
-                title={variante.color}
-                aria-label={`Seleccionar color ${variante.color}`}
-                className={`
-                  w-5 h-5 rounded-full border transition-all duration-200
-                  ${
-                    esActivo
-                      ? "scale-125 border-white shadow-[0_0_10px_rgba(220,38,38,0.9)] ring-2 ring-red-600"
-                      : "border-white/30 hover:scale-110 hover:border-white/80 opacity-75 hover:opacity-100"
-                  }
-                `}
-                style={{
-                  backgroundColor: variante.colorHex || variante.color || "#ffffff",
-                }}
-              />
-            );
-          })}
-        </div>
-      )}
+      return (
+        <button
+          key={`${variante.color || "color"}-${i}`}
+          onClick={() => setVarianteSeleccionada(variante)}
+          title={variante.color}
+          aria-label={`Seleccionar color ${variante.color}`}
+          className={`
+            w-4 h-4 rounded-full border transition-all duration-200
+            ${
+              esActivo
+                ? "scale-125 border-white shadow-[0_0_8px_rgba(220,38,38,0.9)] ring-2 ring-red-600"
+                : "border-white/30 hover:scale-110 hover:border-white/80 opacity-75 hover:opacity-100"
+            }
+          `}
+          style={{
+            backgroundColor: variante.colorHex || variante.color || "#ffffff",
+          }}
+        />
+      );
+    })}
+  </div>
+)}
 
       {/* Texto de aviso (Sin botón de compra) */}
       <div className="mt-4 w-full text-center py-2 bg-white/5 border border-white/10 rounded-lg">

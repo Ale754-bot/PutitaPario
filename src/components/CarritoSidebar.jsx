@@ -2,7 +2,18 @@ import React, { useState, useEffect } from 'react';
 import { useCarrito } from '../context/CarritoContext';
 
 const CarritoSidebar = ({ isOpen, closeCart }) => {
-  const { items, calcularTotal, agregarItem, eliminarProducto } = useCarrito();
+  const { 
+    items, 
+    subtotal, 
+    montoDescuento, 
+    total, 
+    aplicaDescuento, 
+    montoFaltante, 
+    porcentajeProgreso, 
+    agregarItem, 
+    eliminarProducto 
+  } = useCarrito();
+
   const [metodoEntrega, setMetodoEntrega] = useState("domicilio");
   const [mostrarCheckout, setMostrarCheckout] = useState(false);
 
@@ -13,18 +24,18 @@ const CarritoSidebar = ({ isOpen, closeCart }) => {
   const updateQuantity = (item, delta) => {
     const nuevaCantidad = item.cantidad + delta;
     if (nuevaCantidad <= 0) {
-  eliminarProducto(item.carritoId);
-} else {
+      eliminarProducto(item.carritoId);
+    } else {
       agregarItem(item, delta);
     }
   };
 
   const enviarWhatsApp = () => {
-  const mensaje = encodeURIComponent(`
+    const mensaje = encodeURIComponent(`
 Hola, quiero confirmar mi compra:
 
 ${items.map(item => {
-  const subtotal = (item.precio * item.cantidad).toFixed(2);
+  const subtotalItem = (item.precio * item.cantidad).toFixed(2);
 
   const detalle = [
     item.marca,
@@ -37,10 +48,12 @@ ${items.map(item => {
 
   return `— ${item.nombre}${detalle ? ` (${detalle})` : ""}
   \n  Cantidad: ${item.cantidad}
-  \n  Subtotal: $${subtotal}`;
+  \n  Subtotal: $${subtotalItem}`;
 }).join("\n\n")}
 
-🧾 Total: $${calcularTotal().toFixed(2)}
+💵 Subtotal: $${subtotal.toFixed(2)}
+${aplicaDescuento ? `🎉 Descuento especial (15% OFF +$50k): -$${montoDescuento.toFixed(2)}\n` : ''}
+🧾 Total a pagar: $${total.toFixed(2)}
 
 ${metodoEntrega === "local"
   ? "Forma de entrega: Retiro en Local"
@@ -53,9 +66,9 @@ CVU: 0000003100018609620921
 📎 Adjunto comprobante de pago.
 `);
 
-  const url = `https://wa.me/5493412634440?text=${mensaje}`;
-  window.open(url, "_blank");
-};
+    const url = `https://wa.me/5493412634440?text=${mensaje}`;
+    window.open(url, "_blank");
+  };
 
   return (
     <>
@@ -66,11 +79,11 @@ CVU: 0000003100018609620921
         ></div>
       )}
 
-<div className={`fixed top-0 right-0 h-full w-full max-w-[480px] 
-  ${mostrarCheckout ? "bg-white text-black" : "bg-[#1a1a1a] text-white"} 
-  shadow-2xl z-50 p-4 flex flex-col 
-  transform transition-all duration-500 ease-in-out 
-  ${isOpen ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'}`}>
+      <div className={`fixed top-0 right-0 h-full w-full max-w-[480px] 
+        ${mostrarCheckout ? "bg-white text-black" : "bg-[#1a1a1a] text-white"} 
+        shadow-2xl z-50 p-4 flex flex-col 
+        transform transition-all duration-500 ease-in-out 
+        ${isOpen ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'}`}>
         
         {/* Cabecera */}
         <div className="flex justify-between items-center pb-4 border-b border-gray-800">
@@ -81,68 +94,91 @@ CVU: 0000003100018609620921
         </div>
 
         {/* Contenido */}
-        <div className="flex-grow overflow-y-auto py-4 custom-scrollbar">
+        <div className="flex-grow overflow-y-auto py-4 custom-scrollbar space-y-4">
           {!mostrarCheckout ? (
             // 🛒 Vista Carrito
             items.length === 0 ? (
               <p className="text-gray-500 text-center mt-10 italic">Tu carrito está vacío</p>
             ) : (
-              items.map(item => (
-                <div key={item.carritoId} className="flex gap-4 py-4 border-b border-gray-800">
-                  <img 
-                    src={item.imagen || "/placeholder.png"} 
-                    alt={item.nombre} 
-                    className="w-16 h-20 object-cover rounded bg-black flex-shrink-0" 
-                  />
-                  <div className="flex-grow">
-                    <p className="text-sm font-medium leading-tight">
-  {item.nombre}
-</p>
-
-<div className="flex flex-wrap gap-2 text-[10px] mt-1 uppercase tracking-tighter">
-
-  {item.marca && (
-    <span className="bg-red-900/30 text-red-300 px-2 py-0.5 rounded">
-      {item.marca}
-    </span>
-  )}
-
-  {item.color && (
-    <span className="bg-gray-800 text-gray-300 px-2 py-0.5 rounded">
-      Color: {item.color}
-    </span>
-  )}
-
-  {item.talle && (
-    <span className="bg-gray-800 text-gray-300 px-2 py-0.5 rounded">
-      Talle: {item.talle}
-    </span>
-  )}
-
-  {item.tamaño && (
-    <span className="bg-gray-800 text-gray-300 px-2 py-0.5 rounded">
-      {item.tamaño}
-    </span>
-  )}
-
-</div>
-                    <p className="text-red-500 font-bold mt-2">${(item.precio * item.cantidad).toFixed(2)}</p>
+              <>
+                {/* BARRA DE PROGRESO DE LA PROMO */}
+                <div className="bg-black/60 border border-gray-800 rounded-xl p-3.5 space-y-2">
+                  <div className="flex items-center justify-between text-xs">
+                    {aplicaDescuento ? (
+                      <span className="text-green-400 font-bold flex items-center gap-1">
+                        🎉 ¡Felicidades! Tenés 15% OFF aplicado
+                      </span>
+                    ) : (
+                      <span className="text-gray-300 font-medium">
+                        Sumá <strong className="text-white">${montoFaltante.toLocaleString('es-AR')}</strong> más para un <strong className="text-red-500">15% OFF</strong>
+                      </span>
+                    )}
+                    <span className="text-[10px] text-gray-400 font-bold">{Math.round(porcentajeProgreso)}%</span>
                   </div>
-                  <div className="flex flex-col items-end justify-between">
-                    <button 
-                      onClick={() => eliminarProducto(item.carritoId)} 
-                      className="text-gray-500 hover:text-red-500 text-xs transition-colors"
-                    >
-                      🗑
-                    </button>
-                    <div className="flex items-center gap-2 bg-black border border-gray-800 rounded p-1">
-                      <button onClick={() => updateQuantity(item, -1)} className="px-2 text-gray-400 hover:text-white transition-colors">-</button>
-                      <span className="text-xs font-bold w-4 text-center">{item.cantidad}</span>
-                      <button onClick={() => updateQuantity(item, 1)} className="px-2 text-gray-400 hover:text-white transition-colors">+</button>
-                    </div>
+                  <div className="w-full h-2 bg-gray-900 rounded-full overflow-hidden border border-gray-800">
+                    <div 
+                      className={`h-full transition-all duration-500 rounded-full ${
+                        aplicaDescuento ? 'bg-green-500 shadow-[0_0_10px_#22c55e]' : 'bg-red-600'
+                      }`}
+                      style={{ width: `${porcentajeProgreso}%` }}
+                    />
                   </div>
                 </div>
-              ))
+
+                {/* LISTA DE PRODUCTOS */}
+                {items.map(item => (
+                  <div key={item.carritoId} className="flex gap-4 py-4 border-b border-gray-800">
+                    <img 
+                      src={item.imagen || "/placeholder.png"} 
+                      alt={item.nombre} 
+                      className="w-16 h-20 object-cover rounded bg-black flex-shrink-0" 
+                    />
+                    <div className="flex-grow">
+                      <p className="text-sm font-medium leading-tight">
+                        {item.nombre}
+                      </p>
+
+                      <div className="flex flex-wrap gap-2 text-[10px] mt-1 uppercase tracking-tighter">
+                        {item.marca && (
+                          <span className="bg-red-900/30 text-red-300 px-2 py-0.5 rounded">
+                            {item.marca}
+                          </span>
+                        )}
+                        {item.color && (
+                          <span className="bg-gray-800 text-gray-300 px-2 py-0.5 rounded">
+                            Color: {item.color}
+                          </span>
+                        )}
+                        {item.talle && (
+                          <span className="bg-gray-800 text-gray-300 px-2 py-0.5 rounded">
+                            Talle: {item.talle}
+                          </span>
+                        )}
+                        {item.tamaño && (
+                          <span className="bg-gray-800 text-gray-300 px-2 py-0.5 rounded">
+                            {item.tamaño}
+                          </span>
+                        )}
+                      </div>
+                      <p className="text-red-500 font-bold mt-2">${(item.precio * item.cantidad).toFixed(2)}</p>
+                    </div>
+
+                    <div className="flex flex-col items-end justify-between">
+                      <button 
+                        onClick={() => eliminarProducto(item.carritoId)} 
+                        className="text-gray-500 hover:text-red-500 text-xs transition-colors"
+                      >
+                        🗑
+                      </button>
+                      <div className="flex items-center gap-2 bg-black border border-gray-800 rounded p-1">
+                        <button onClick={() => updateQuantity(item, -1)} className="px-2 text-gray-400 hover:text-white transition-colors">-</button>
+                        <span className="text-xs font-bold w-4 text-center">{item.cantidad}</span>
+                        <button onClick={() => updateQuantity(item, 1)} className="px-2 text-gray-400 hover:text-white transition-colors">+</button>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </>
             )
           ) : (
             // ✅ Vista Checkout
@@ -150,33 +186,51 @@ CVU: 0000003100018609620921
               <h3 className="text-xl font-bold text-green-500 text-center">Resumen de tu Pedido</h3>
               <div className="space-y-2">
                 {items.map(item => (
-                  <div key={item.carritoId} className="flex justify-between border-b pb-2">
-<span>
-  {item.nombre}
-  {item.marca ? ` - ${item.marca}` : ""}
-  {item.color ? ` - ${item.color}` : ""}
-  ({item.cantidad} u.)
-</span>                    <span>${(item.precio * item.cantidad).toFixed(2)}</span>
+                  <div key={item.carritoId} className="flex justify-between border-b pb-2 text-sm">
+                    <span>
+                      {item.nombre}
+                      {item.marca ? ` - ${item.marca}` : ""}
+                      {item.color ? ` - ${item.color}` : ""}
+                      ({item.cantidad} u.)
+                    </span>
+                    <span>${(item.precio * item.cantidad).toFixed(2)}</span>
                   </div>
                 ))}
               </div>
-              <div className="flex justify-between font-bold text-lg border-t pt-2">
-                <span>Total a pagar:</span>
-                <span>${calcularTotal().toFixed(2)}</span>
+
+              {/* DESGLOSE DE PRECIO EN CHECKOUT */}
+              <div className="space-y-1 border-t pt-3 text-sm">
+                <div className="flex justify-between text-gray-600">
+                  <span>Subtotal:</span>
+                  <span>${subtotal.toFixed(2)}</span>
+                </div>
+                {aplicaDescuento && (
+                  <div className="flex justify-between text-green-600 font-semibold">
+                    <span>Descuento (15% OFF):</span>
+                    <span>-${montoDescuento.toFixed(2)}</span>
+                  </div>
+                )}
+                <div className="flex justify-between font-bold text-lg text-black border-t pt-2">
+                  <span>Total a pagar:</span>
+                  <span>${total.toFixed(2)}</span>
+                </div>
               </div>
+
               <div className="text-sm text-center text-gray-400">
                 {metodoEntrega === "local" 
                   ? "RETIRO EN LOCAL"
                   : "ENVÍO A DOMICILIO"}
               </div>
+
               <div className="bg-gray-100 p-4 rounded text-center text-black">
                 <p className="font-bold">Datos para transferencia</p>
                 <p>Alias: <span className="text-blue-600 font-bold">Putita.pario</span></p>
                 <p>CVU: <span className="text-blue-600 font-bold">0000003100018609620921</span></p>
               </div>
+
               <button
                 onClick={enviarWhatsApp}
-                className="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg font-bold text-sm flex items-center justify-center gap-2 transition-all"
+                className="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg font-bold text-sm flex items-center justify-center gap-2 transition-all cursor-pointer"
               >
                 Confirmar compra por WhatsApp
               </button>
@@ -185,7 +239,7 @@ CVU: 0000003100018609620921
         </div>
 
         {/* Footer */}
-        <div className="p-6 bg-[#1a1a1a] border-t border-gray-800 space-y-6">
+        <div className="p-6 bg-[#1a1a1a] border-t border-gray-800 space-y-4">
           {!mostrarCheckout ? (
             <>
               {/* Método de entrega */}
@@ -215,30 +269,36 @@ CVU: 0000003100018609620921
                 </div>
               </div>
 
-              {/* Total */}
-              <div className="flex justify-between items-center border-t border-gray-800 pt-4">
-                <span className="text-sm font-bold text-gray-400 uppercase tracking-widest">Total Estimado:</span>
-                <span className="text-2xl font-black text-white">${calcularTotal().toFixed(2)}</span>
+              {/* Total y Descuento */}
+              <div className="border-t border-gray-800 pt-3 space-y-1">
+                {aplicaDescuento && (
+                  <div className="flex justify-between items-center text-xs text-green-400 font-medium">
+                    <span>Descuento 15% OFF:</span>
+                    <span>-${montoDescuento.toFixed(2)}</span>
+                  </div>
+                )}
+                <div className="flex justify-between items-center">
+                  <span className="text-sm font-bold text-gray-400 uppercase tracking-widest">Total Estimado:</span>
+                  <span className="text-2xl font-black text-white">${total.toFixed(2)}</span>
+                </div>
               </div>
 
-              {/* Botón Finalizar compra → abre checkout */}
+              {/* Botón Finalizar compra */}
               <button
+                disabled={items.length === 0}
                 onClick={() => setMostrarCheckout(true)}
-                className="w-full bg-red-600 hover:bg-red-700 text-white py-3 rounded-lg font-bold text-sm flex items-center justify-center gap-2 transition-all"
+                className="w-full bg-red-600 hover:bg-red-700 disabled:opacity-50 text-white py-3 rounded-lg font-bold text-sm flex items-center justify-center gap-2 transition-all cursor-pointer"
               >
                 Finalizar compra
               </button>
             </>
           ) : (
-            <>
-              {/* Botón volver al carrito */}
-              <button
-                onClick={() => setMostrarCheckout(false)}
-                className="w-full bg-gray-700 hover:bg-gray-600 text-white py-2 rounded-lg font-bold text-xs flex items-center justify-center gap-2 transition-all"
-              >
-                ← Volver al carrito
-              </button>
-            </>
+            <button
+              onClick={() => setMostrarCheckout(false)}
+              className="w-full bg-gray-700 hover:bg-gray-600 text-white py-2 rounded-lg font-bold text-xs flex items-center justify-center gap-2 transition-all cursor-pointer"
+            >
+              ← Volver al carrito
+            </button>
           )}
         </div>
       </div>

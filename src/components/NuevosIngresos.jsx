@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import productosNuevos from "../data/nuevosIngresos.json";
+import { useCarrito } from "../context/CarritoContext";
 
 const NuevosIngresos = ({ bannerUrl = "../INGRESOS LENCERIA.jpg" }) => {
   if (!productosNuevos.length) return null;
@@ -34,17 +35,42 @@ const NuevosIngresos = ({ bannerUrl = "../INGRESOS LENCERIA.jpg" }) => {
   );
 };
 
-// Componente interno para manejar el estado independiente de los colores por producto
+// Componente interno con botón de compra activo
 const TarjetaNuevoIngreso = ({ producto }) => {
-  const { nombre, precio, variantes, imagen } = producto;
+  const { agregarItem } = useCarrito();
+  const { id, nombre, precio, variantes, imagen } = producto;
 
   const tieneVariantes = variantes && variantes.length > 0;
   
   const [varianteSeleccionada, setVarianteSeleccionada] = useState(
     tieneVariantes ? variantes[0] : null
   );
+  const [agregado, setAgregado] = useState(false);
 
   const imagenFinal = varianteSeleccionada?.imagen || imagen || "/images/placeholder.png";
+
+  const handleAgregar = () => {
+    // Generamos un ID único combinando el ID base con el color seleccionado
+    const carritoId = varianteSeleccionada?.color 
+      ? `${id}-${varianteSeleccionada.color}` 
+      : `${id}`;
+
+    const productoAñadir = {
+      id,
+      carritoId,
+      nombre,
+      precio,
+      imagen: imagenFinal,
+      color: varianteSeleccionada?.color || null,
+      talle: varianteSeleccionada?.talle || producto.talle || null,
+    };
+
+    agregarItem(productoAñadir, 1);
+    
+    // Feedback visual al presionar
+    setAgregado(true);
+    setTimeout(() => setAgregado(false), 1500);
+  };
 
   return (
     <div
@@ -58,62 +84,80 @@ const TarjetaNuevoIngreso = ({ producto }) => {
       "
     >
       {/* Imagen del producto - Cuadrada */}
-<div className="w-full aspect-square bg-[#080808] flex items-center justify-center overflow-hidden relative border border-white/5">
-  <img
-    key={imagenFinal}
-    src={imagenFinal}
-    alt={nombre}
-    className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-  />
-  <span className="absolute top-2 left-2 rounded-full bg-black/70 px-2.5 py-1 text-[9px] font-bold uppercase tracking-wide text-white/90 backdrop-blur">
-    Próximamente
-  </span>
-</div>
+      <div className="w-full aspect-square bg-[#080808] flex items-center justify-center overflow-hidden relative border border-white/5 rounded-lg">
+        <img
+          key={imagenFinal}
+          src={imagenFinal}
+          alt={nombre}
+          className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+        />
+        <span className="absolute top-2 left-2 rounded-full bg-red-600/90 px-2.5 py-1 text-[9px] font-black uppercase tracking-wider text-white backdrop-blur shadow-[0_0_10px_rgba(220,38,38,0.5)]">
+          Nuevo
+        </span>
+      </div>
 
       {/* Nombre y precio */}
       <h3 className="mt-4 font-semibold text-center text-sm md:text-base line-clamp-2 text-white/95">
         {nombre}
       </h3>
       
-      <p className="mt-1 text-red-600 font-black text-lg">
+      <p className="mt-1 text-red-500 font-black text-lg">
         ${precio?.toLocaleString("es-AR")}
       </p>
 
-      {/* Selector de colores reducido */}
-{tieneVariantes && (
-  <div className="mt-3 flex items-center justify-center gap-1.5 min-h-[24px] flex-wrap">
-    {variantes.map((variante, i) => {
-      const esActivo = varianteSeleccionada === variante;
+      {/* Selector de colores */}
+      {tieneVariantes ? (
+        <div className="mt-3 flex items-center justify-center gap-1.5 min-h-[24px] flex-wrap">
+          {variantes.map((variante, i) => {
+            const esActivo = varianteSeleccionada === variante;
 
-      return (
-        <button
-          key={`${variante.color || "color"}-${i}`}
-          onClick={() => setVarianteSeleccionada(variante)}
-          title={variante.color}
-          aria-label={`Seleccionar color ${variante.color}`}
-          className={`
-            w-4 h-4 rounded-full border transition-all duration-200
-            ${
-              esActivo
-                ? "scale-125 border-white shadow-[0_0_8px_rgba(220,38,38,0.9)] ring-2 ring-red-600"
-                : "border-white/30 hover:scale-110 hover:border-white/80 opacity-75 hover:opacity-100"
-            }
-          `}
-          style={{
-            backgroundColor: variante.colorHex || variante.color || "#ffffff",
-          }}
-        />
-      );
-    })}
-  </div>
-)}
+            return (
+              <button
+                key={`${variante.color || "color"}-${i}`}
+                onClick={() => setVarianteSeleccionada(variante)}
+                title={variante.color}
+                aria-label={`Seleccionar color ${variante.color}`}
+                className={`
+                  w-4 h-4 rounded-full border transition-all duration-200 cursor-pointer
+                  ${
+                    esActivo
+                      ? "scale-125 border-white shadow-[0_0_8px_rgba(220,38,38,0.9)] ring-2 ring-red-600"
+                      : "border-white/30 hover:scale-110 hover:border-white/80 opacity-75 hover:opacity-100"
+                  }
+                `}
+                style={{
+                  backgroundColor: variante.colorHex || variante.color || "#ffffff",
+                }}
+              />
+            );
+          })}
+        </div>
+      ) : (
+        <div className="min-h-[24px] mt-3" /> // Espaciador si no tiene variantes
+      )}
 
-      {/* Texto de aviso (Sin botón de compra) */}
-      <div className="mt-4 w-full text-center py-2 bg-white/5 border border-white/10 rounded-lg">
-        <span className="text-[11px] font-medium tracking-wide text-white/50 uppercase">
-          Próximamente a la venta
-        </span>
-      </div>
+      {/* Botón de compra activo */}
+      <button
+        onClick={handleAgregar}
+        className={`
+          mt-4 w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider
+          transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer
+          ${
+            agregado
+              ? "bg-green-600 text-white shadow-[0_0_15px_rgba(34,197,94,0.4)]"
+              : "bg-red-600 hover:bg-red-700 text-white hover:shadow-[0_0_15px_rgba(220,38,38,0.4)] active:scale-95"
+          }
+        `}
+      >
+        {agregado ? (
+          <>
+            <span>Añadido</span>
+            <span>✓</span>
+          </>
+        ) : (
+          "Agregar al carrito"
+        )}
+      </button>
     </div>
   );
 };

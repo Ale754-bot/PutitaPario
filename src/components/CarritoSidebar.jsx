@@ -106,7 +106,7 @@ CVU: 0000003100018609620921
                   <div className="flex items-center justify-between text-xs">
                     {aplicaDescuento ? (
                       <span className="text-green-400 font-bold flex items-center gap-1">
-                        🎉 ¡Felicidades! Tenés 15% OFF aplicado
+                        ¡Felicidades! Tenés 15% OFF aplicado
                       </span>
                     ) : (
                       <span className="text-gray-300 font-medium">

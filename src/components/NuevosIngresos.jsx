@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+import { FaWhatsapp } from "react-icons/fa";
 import productosNuevos from "../data/nuevosIngresos.json";
-import { useCarrito } from "../context/CarritoContext";
 
 const NuevosIngresos = ({ bannerUrl = "../INGRESOS LENCERIA.jpg" }) => {
   if (!productosNuevos.length) return null;
@@ -35,9 +35,8 @@ const NuevosIngresos = ({ bannerUrl = "../INGRESOS LENCERIA.jpg" }) => {
   );
 };
 
-// Componente interno con botón de compra activo
+// Tarjeta individual con botón flotante de WhatsApp
 const TarjetaNuevoIngreso = ({ producto }) => {
-  const { agregarItem } = useCarrito();
   const { id, nombre, precio, variantes, imagen } = producto;
 
   const tieneVariantes = variantes && variantes.length > 0;
@@ -45,31 +44,20 @@ const TarjetaNuevoIngreso = ({ producto }) => {
   const [varianteSeleccionada, setVarianteSeleccionada] = useState(
     tieneVariantes ? variantes[0] : null
   );
-  const [agregado, setAgregado] = useState(false);
 
   const imagenFinal = varianteSeleccionada?.imagen || imagen || "/images/placeholder.png";
+  const colorElegido = varianteSeleccionada?.color || null;
 
-  const handleAgregar = () => {
-    // Generamos un ID único combinando el ID base con el color seleccionado
-    const carritoId = varianteSeleccionada?.color 
-      ? `${id}-${varianteSeleccionada.color}` 
-      : `${id}`;
-
-    const productoAñadir = {
-      id,
-      carritoId,
-      nombre,
-      precio,
-      imagen: imagenFinal,
-      color: varianteSeleccionada?.color || null,
-      talle: varianteSeleccionada?.talle || producto.talle || null,
-    };
-
-    agregarItem(productoAñadir, 1);
+  // Lógica de WhatsApp igual al resto de la página
+  const handleConsultarWhatsapp = () => {
+    const numeroDuena = "5493412634440";
     
-    // Feedback visual al presionar
-    setAgregado(true);
-    setTimeout(() => setAgregado(false), 1500);
+    const mensaje = `Hola 👋, quiero consultar por talles disponibles del producto: ${nombre}${
+      colorElegido ? ` (${colorElegido})` : ""
+    }. Precio: $${precio?.toLocaleString("es-AR")}`;
+
+    const url = `https://wa.me/${numeroDuena}?text=${encodeURIComponent(mensaje)}`;
+    window.open(url, "_blank");
   };
 
   return (
@@ -77,87 +65,97 @@ const TarjetaNuevoIngreso = ({ producto }) => {
       className="
         snap-center min-w-[260px] w-full max-w-[280px]
         bg-gradient-to-b from-[#111111] to-[#050505]
-        border border-white/10 rounded-xl
-        text-white shadow-[0_0_15px_rgba(220,38,38,0.06)]
-        flex flex-col items-center p-4
-        transition-all duration-300 hover:border-red-700/50
+        border border-white/10 rounded-[22px]
+        text-white shadow-[0_0_22px_rgba(220,38,38,0.08)]
+        overflow-hidden flex flex-col
+        transition-all duration-300 hover:border-red-700/70 hover:shadow-[0_0_35px_rgba(185,28,28,0.35)]
       "
     >
-      {/* Imagen del producto - Cuadrada */}
-      <div className="w-full aspect-square bg-[#080808] flex items-center justify-center overflow-hidden relative border border-white/5 rounded-lg">
+      {/* Imagen del producto con el botón flotante */}
+      <div className="relative aspect-square overflow-hidden bg-[#080808]">
         <img
           key={imagenFinal}
           src={imagenFinal}
           alt={nombre}
-          className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+          className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
         />
-        <span className="absolute top-2 left-2 rounded-full bg-red-600/90 px-2.5 py-1 text-[9px] font-black uppercase tracking-wider text-white backdrop-blur shadow-[0_0_10px_rgba(220,38,38,0.5)]">
+        
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/45 to-transparent" />
+
+        <span className="absolute left-2 top-2 z-10 rounded-full bg-red-600/90 px-2.5 py-1 text-[9px] font-black uppercase tracking-wider text-white backdrop-blur shadow-[0_0_10px_rgba(220,38,38,0.5)]">
           Nuevo
         </span>
+
+        {/* Botón flotante WhatsApp */}
+        <button
+          onClick={handleConsultarWhatsapp}
+          aria-label="Consultar por WhatsApp"
+          title="Consultar por WhatsApp"
+          className="
+            absolute bottom-3 right-3 z-30
+            flex h-9 w-9 items-center justify-center
+            rounded-full bg-green-500 text-white
+            shadow-[0_0_14px_rgba(34,197,94,0.9)]
+            transition-all duration-300
+            hover:scale-110 hover:bg-green-400 hover:shadow-[0_0_22px_rgba(34,197,94,1)]
+            active:scale-95 cursor-pointer
+          "
+        >
+          <FaWhatsapp className="text-[16px]" />
+        </button>
       </div>
 
-      {/* Nombre y precio */}
-      <h3 className="mt-4 font-semibold text-center text-sm md:text-base line-clamp-2 text-white/95">
-        {nombre}
-      </h3>
-      
-      <p className="mt-1 text-red-500 font-black text-lg">
-        ${precio?.toLocaleString("es-AR")}
-      </p>
-
-      {/* Selector de colores */}
-      {tieneVariantes ? (
-        <div className="mt-3 flex items-center justify-center gap-1.5 min-h-[24px] flex-wrap">
-          {variantes.map((variante, i) => {
-            const esActivo = varianteSeleccionada === variante;
-
-            return (
-              <button
-                key={`${variante.color || "color"}-${i}`}
-                onClick={() => setVarianteSeleccionada(variante)}
-                title={variante.color}
-                aria-label={`Seleccionar color ${variante.color}`}
-                className={`
-                  w-4 h-4 rounded-full border transition-all duration-200 cursor-pointer
-                  ${
-                    esActivo
-                      ? "scale-125 border-white shadow-[0_0_8px_rgba(220,38,38,0.9)] ring-2 ring-red-600"
-                      : "border-white/30 hover:scale-110 hover:border-white/80 opacity-75 hover:opacity-100"
-                  }
-                `}
-                style={{
-                  backgroundColor: variante.colorHex || variante.color || "#ffffff",
-                }}
-              />
-            );
-          })}
+      {/* Contenido */}
+      <div className="flex min-h-[96px] flex-col px-3 pb-3 pt-2">
+        <div className="space-y-1">
+          <h3 className="min-h-[34px] text-center text-[12px] sm:text-[13px] font-medium leading-snug text-white/95 line-clamp-2">
+            {nombre}
+          </h3>
+          
+          <div className="flex items-center justify-center">
+            <span className="text-[16px] font-black tracking-tight text-red-600">
+              ${precio?.toLocaleString("es-AR")}
+            </span>
+          </div>
         </div>
-      ) : (
-        <div className="min-h-[24px] mt-3" /> // Espaciador si no tiene variantes
-      )}
 
-      {/* Botón de compra activo */}
-      <button
-        onClick={handleAgregar}
-        className={`
-          mt-4 w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider
-          transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer
-          ${
-            agregado
-              ? "bg-green-600 text-white shadow-[0_0_15px_rgba(34,197,94,0.4)]"
-              : "bg-red-600 hover:bg-red-700 text-white hover:shadow-[0_0_15px_rgba(220,38,38,0.4)] active:scale-95"
-          }
-        `}
-      >
-        {agregado ? (
-          <>
-            <span>Añadido</span>
-            <span>✓</span>
-          </>
+        {/* Selector de colores reducido */}
+        {tieneVariantes ? (
+          <div className="mt-2 flex min-h-[22px] items-center justify-center gap-1.5 flex-wrap">
+            {variantes.map((variante, i) => {
+              const esActivo = varianteSeleccionada === variante;
+
+              return (
+                <button
+                  key={`${variante.color || "color"}-${i}`}
+                  onClick={() => setVarianteSeleccionada(variante)}
+                  title={variante.color}
+                  aria-label={`Seleccionar color ${variante.color}`}
+                  className={`
+                    h-4 w-4 rounded-full border transition-all duration-200 cursor-pointer
+                    ${
+                      esActivo
+                        ? "scale-110 border-red-500 shadow-[0_0_10px_rgba(220,38,38,0.9)]"
+                        : "border-white/30 hover:scale-110 hover:border-white opacity-75 hover:opacity-100"
+                    }
+                  `}
+                  style={{
+                    backgroundColor: variante.colorHex || variante.color || "#ffffff",
+                  }}
+                />
+              );
+            })}
+          </div>
         ) : (
-          "Agregar al carrito"
+          <div className="min-h-[22px] mt-2" />
         )}
-      </button>
+
+        {colorElegido && (
+          <p className="mt-1 text-center text-[9px] text-white/40">
+            Consultar talles disponibles
+          </p>
+        )}
+      </div>
     </div>
   );
 };

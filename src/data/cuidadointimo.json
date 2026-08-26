@@ -113,25 +113,29 @@
   "precio": 10000
 },
 {
-  "id": 1207,
-  "nombre": "Glitter Guest - Iluminador",
-  "descripcion": "",
-  "imagen": "/glitter.jpg",
-  "categoria": "Cuidado Personal Íntimo",
-  "stock": true,
-  "marca": "Sexitive",
-  "linea": "",
-  "precio": 16000
-},
-{
-  "id": 1208,
-  "nombre": "Lapiz Labial Afrodisíaco",
-  "descripcion": "",
-  "imagen": "/Lapizlabialafro.jpg",
-  "categoria": "Cuidado Personal Íntimo",
-  "stock": true,
-  "marca": "Sexitive",
-  "linea": "",
-  "precio": 12000
-}
+    "id": 1207,
+    "nombre": "Glitter Guest - Iluminador",
+    "descripcion": "",
+    "imagen": "/glitter.jpg",
+    "categoria": "Cuidado Personal Íntimo",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "",
+    "precio": 16000,
+    "precioOferta": 8000,
+    "enOferta": true
+  },
+  {
+    "id": 1208,
+    "nombre": "Lapiz Labial Afrodisíaco",
+    "descripcion": "",
+    "imagen": "/Lapizlabialafro.jpg",
+    "categoria": "Cuidado Personal Íntimo",
+    "stock": true,
+    "marca": "Sexitive",
+    "linea": "",
+    "precio": 12000,
+    "precioOferta": 6000,
+    "enOferta": true
+  }
 ]

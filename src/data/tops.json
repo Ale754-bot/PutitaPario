@@ -67,6 +67,6 @@
     "precioOferta": 22000,
     "imagen": "/TOPPERLAROJO.png",
     "descripcion": "Nuevo ingreso",
-    "stock": true
+    "stock": false
   }
 ]

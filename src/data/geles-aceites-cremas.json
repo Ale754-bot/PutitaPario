@@ -236,7 +236,7 @@
     "imagen": "/images/Geles/neutro.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
-    "stock": true,
+    "stock": false,
     "marca": "Sextual",
     "linea": "Natural",
     "variantes": [
@@ -839,7 +839,7 @@
     "imagen": "/images/Geles/s-dual.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
-    "stock": true,
+    "stock": false,
     "marca": "Sexitive",
     "linea": "Magic Dual",
     "variantes": [
@@ -1345,6 +1345,7 @@
     "subcategoria": "Aceites y cremas para masajes",
     "stock": true,
     "marca": "Sexitive",
+    "precioOferta": 8000,
     "linea": "",
     "variantes": [
       {

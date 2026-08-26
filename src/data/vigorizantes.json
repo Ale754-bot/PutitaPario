@@ -17,7 +17,7 @@
     "imagen": "/images/vigorizantes/v1.webp",
     "categoria": "Vigorizantes",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "Sexitive",
     "linea": "power",
     "variantes": [

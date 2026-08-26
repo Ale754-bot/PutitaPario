@@ -1,5 +1,487 @@
 [
   {
+    "id": 747,
+    "nombre": "Body Luna",
+    "descripcion": "Consultar talles",
+    "imagen": "/BODYLUNANEGRO.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "Conjuntos",
+    "stock": true,
+    "mostrarColor": true,
+    "precioBase": 42500,
+    "nuevo": false,
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "",
+        "precio": 42500,
+        "imagen": "/BODYLUNANEGRO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Bordó",
+        "colorHex": "#6b1d2f",
+        "talle": "",
+        "precio": 42500,
+        "imagen": "/BODYLUNABORDO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#f50b0b",
+        "talle": "",
+        "precio": 42500,
+        "imagen": "/BODYLUNAROJO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Verde oscuro",
+        "colorHex": "#064e3b",
+        "talle": "",
+        "precio": 42500,
+        "imagen": "/BODYLUNAVERDE.jpg",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "talle": "",
+        "precio": 42500,
+        "imagen": "/BODYLUNABLANCO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Rosa",
+        "colorHex": "#f472b6",
+        "talle": "",
+        "precio": 42500,
+        "imagen": "/BODYLUNAROSA.jpg",
+        "stock": true
+      }
+    ]
+  },
+  {
+    "id": 748,
+    "nombre": "Set Amapola",
+    "descripcion": "Consultar talles",
+    "imagen": "/SETAMAPOLAROJO.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "Conjuntos",
+    "stock": true,
+    "mostrarColor": true,
+    "precioBase": 40000,
+    "nuevo": false,
+    "variantes": [
+      {
+        "color": "Rojo",
+        "colorHex": "#f50b0b",
+        "talle": "",
+        "precio": 40000,
+        "imagen": "/SETAMAPOLAROJO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "",
+        "precio": 40000,
+        "imagen": "/SETAMAPOLANEGRO.jpg",
+        "stock": true
+      }
+    ]
+  },
+  {
+    "id": 749,
+    "nombre": "Body Saturno",
+    "descripcion": "Consultar talles",
+    "imagen": "/BODYSATURNO.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "Conjuntos",
+    "stock": true,
+    "mostrarColor": true,
+    "precioBase": 40000,
+    "nuevo": false,
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "",
+        "precio": 40000,
+        "imagen": "/BODYSATURNO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#f50b0b",
+        "talle": "",
+        "precio": 40000,
+        "imagen": "/BODYSATURNO.jpg",
+        "stock": true
+      }
+    ]
+  },
+  {
+    "id": 750,
+    "nombre": "Set Paladium con corset",
+    "descripcion": "Consultar talles",
+    "imagen": "/SETPALADIUMNEGRO.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "Conjuntos",
+    "stock": true,
+    "mostrarColor": true,
+    "precioBase": 42500,
+    "nuevo": false,
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "",
+        "precio": 42500,
+        "imagen": "/SETPALADIUMNEGRO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Verde oscuro",
+        "colorHex": "#064e3b",
+        "talle": "",
+        "precio": 42500,
+        "imagen": "/SETPALADIUMVERDE.jpg",
+        "stock": true
+      },
+      {
+        "color": "Azul oscuro",
+        "colorHex": "#1e3a8a",
+        "talle": "",
+        "precio": 42500,
+        "imagen": "/SETPALADIUMAZUL.jpg",
+        "stock": true
+      },
+      {
+        "color": "Violeta claro",
+        "colorHex": "#c084fc",
+        "talle": "",
+        "precio": 42500,
+        "imagen": "/SETPALADIUMVIOLETA.jpg",
+        "stock": true
+      },
+      {
+        "color": "Rosa",
+        "colorHex": "#f472b6",
+        "talle": "",
+        "precio": 42500,
+        "imagen": "/SETPALADIUMROSA.jpg",
+        "stock": true
+      }
+    ]
+  },
+  {
+    "id": 751,
+    "nombre": "Tanga hilo con triángulo atrás",
+    "descripcion": "Consultar talles",
+    "imagen": "/TANGAHILO.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "Tangas y accesorios",
+    "stock": true,
+    "mostrarColor": true,
+    "precioBase": 12800,
+    "nuevo": false,
+    "variantes": [
+      {
+        "color": "Bordó",
+        "colorHex": "#550000",
+        "talle": "",
+        "precio": 12800,
+        "imagen": "/TANGAHILO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "",
+        "precio": 12800,
+        "imagen": "/TANGAHILO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "colorHex": "#1e3a8a",
+        "talle": "",
+        "precio": 12800,
+        "imagen": "/TANGAHILO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "talle": "",
+        "precio": 12800,
+        "imagen": "/TANGAHILO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Rosa",
+        "colorHex": "#f472b6",
+        "talle": "",
+        "precio": 12800,
+        "imagen": "/TANGAHILO.jpg",
+        "stock": true
+      }
+    ]
+  },
+  {
+    "id": 752,
+    "nombre": "Tanga hilo con brillo",
+    "descripcion": "Consultar talles",
+    "imagen": "/TANGAHILOBRILLO.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "Tangas y accesorios",
+    "stock": true,
+    "mostrarColor": true,
+    "precioBase": 12800,
+    "nuevo": false,
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "",
+        "precio": 12800,
+        "imagen": "/TANGAHILOBRILLO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#f50b0b",
+        "talle": "",
+        "precio": 12800,
+        "imagen": "/TANGAHILOBRILLO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "talle": "",
+        "precio": 12800,
+        "imagen": "/TANGAHILOBRILLO.jpg",
+        "stock": true
+      }
+    ]
+  },
+  {
+    "id": 753,
+    "nombre": "Tanga doble tira",
+    "descripcion": "Consultar talles",
+    "imagen": "/TANGADOBLETIRA.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "Tangas y accesorios",
+    "stock": true,
+    "mostrarColor": true,
+    "precioBase": 12800,
+    "nuevo": false,
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "",
+        "precio": 12800,
+        "imagen": "/TANGADOBLETIRA.jpg",
+        "stock": true
+      },
+      {
+        "color": "Fucsia",
+        "colorHex": "#e30052",
+        "talle": "",
+        "precio": 12800,
+        "imagen": "/TANGADOBLETIRA.jpg",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "talle": "",
+        "precio": 12800,
+        "imagen": "/TANGADOBLETIRA.jpg",
+        "stock": true
+      },
+      {
+        "color": "Amarillo",
+        "colorHex": "#facc15",
+        "talle": "",
+        "precio": 12800,
+        "imagen": "/TANGADOBLETIRA.jpg",
+        "stock": true
+      },
+      {
+        "color": "Rosa",
+        "colorHex": "#f472b6",
+        "talle": "",
+        "precio": 12800,
+        "imagen": "/TANGADOBLETIRA.jpg",
+        "stock": true
+      }
+    ]
+  },
+  {
+    "id": 754,
+    "nombre": "Tanga con perlas",
+    "descripcion": "Consultar talles",
+    "imagen": "/TANGAPERLAS.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "Tangas y accesorios",
+    "stock": true,
+    "mostrarColor": true,
+    "precioBase": 12800,
+    "nuevo": false,
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "",
+        "precio": 12800,
+        "imagen": "/TANGAPERLAS.jpg",
+        "stock": true
+      },
+      {
+        "color": "Verde",
+        "colorHex": "#064e3b",
+        "talle": "",
+        "precio": 12800,
+        "imagen": "/TANGAPERLAS.jpg",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "talle": "",
+        "precio": 12800,
+        "imagen": "/TANGAPERLAS.jpg",
+        "stock": true
+      },
+      {
+        "color": "Rosado",
+        "colorHex": "#f472b6",
+        "talle": "",
+        "precio": 12800,
+        "imagen": "/TANGAPERLAS.jpg",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#f50b0b",
+        "talle": "",
+        "precio": 12800,
+        "imagen": "/TANGAPERLAS.jpg",
+        "stock": true
+      },
+      {
+        "color": "Bordó",
+        "colorHex": "#6b1d2f",
+        "talle": "",
+        "precio": 12800,
+        "imagen": "/TANGAPERLAS.jpg",
+        "stock": true
+      }
+    ]
+  },
+  {
+    "id": 755,
+    "nombre": "Body en red (Talle chico y talle especial)",
+    "descripcion": "Consultar talles",
+    "imagen": "/BODYRED.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "Conjuntos",
+    "stock": true,
+    "mostrarColor": true,
+    "precioBase": 15000,
+    "nuevo": false,
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "",
+        "precio": 15000,
+        "imagen": "/BODYRED.jpg",
+        "stock": true
+      }
+    ]
+  },
+  {
+    "id": 756,
+    "nombre": "Medias bucaneras en red",
+    "descripcion": "Consultar talles",
+    "imagen": "/MEDIASRED.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "Tangas y accesorios",
+    "stock": true,
+    "mostrarColor": true,
+    "precioBase": 15000,
+    "nuevo": false,
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "",
+        "precio": 15000,
+        "imagen": "/MEDIASRED.jpg",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "talle": "",
+        "precio": 15000,
+        "imagen": "/MEDIASRED.jpg",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#f50b0b",
+        "talle": "",
+        "precio": 15000,
+        "imagen": "/MEDIASRED.jpg",
+        "stock": true
+      }
+    ]
+  },
+  {
+    "id": 757,
+    "nombre": "Medias red con brillo",
+    "descripcion": "Consultar talles",
+    "imagen": "/MEDIASREDBRILLO.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "Tangas y accesorios",
+    "stock": true,
+    "mostrarColor": true,
+    "precioBase": 15000,
+    "nuevo": false,
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "",
+        "precio": 15000,
+        "imagen": "/MEDIASREDBRILLO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "colorHex": "#ffffff",
+        "talle": "",
+        "precio": 15000,
+        "imagen": "/MEDIASREDBRILLO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#f50b0b",
+        "talle": "",
+        "precio": 15000,
+        "imagen": "/MEDIASREDBRILLO.jpg",
+        "stock": true
+      }
+    ]
+  },
+  {
     "id": 741,
     "nombre": "Conjunto Indiana",
     "descripcion": "Consultar talles",
@@ -1191,7 +1673,7 @@
     "imagen": "/images/lenceria/conjunto 9/conjunto9negro.webp",
     "categoria": "Lencería",
     "subcategoria": "Conjuntos",
-    "stock": true,
+    "stock": false,
     "mostrarColor": true,
     "precioBase": 38000,
     "variantes": [

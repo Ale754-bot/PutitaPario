@@ -8,9 +8,7 @@ import InstagramBanner from "../components/InstagramBanner";
 import PageTransition from "../components/PageTransition";
 import { motion } from "framer-motion";
 import { useCarrito } from "../context/CarritoContext";
-import OffersTicker from '../components/OffersTicker';
 import NuevosIngresos from "../components/NuevosIngresos";
-import OfertaSemanal from "../components/OfertaSemanal";
 import TrustBanner from "../components/TrustBanner";
 import CarruselAnuncios from "../components/CarruselAnuncios";
 import BannerPerfumesHombre from "../components/BannerPerfumesHombre";
@@ -50,7 +48,6 @@ const Home = () => {
 
   return (
     <PageTransition>
-      <OffersTicker />
       <div className="min-h-screen bg-black text-white">
         {/* HERO */}
         <motion.div

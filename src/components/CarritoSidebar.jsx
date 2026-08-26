@@ -5,11 +5,7 @@ const CarritoSidebar = ({ isOpen, closeCart }) => {
   const { 
     items, 
     subtotal, 
-    montoDescuento, 
     total, 
-    aplicaDescuento, 
-    montoFaltante, 
-    porcentajeProgreso, 
     agregarItem, 
     eliminarProducto 
   } = useCarrito();
@@ -51,9 +47,7 @@ ${items.map(item => {
   \n  Subtotal: $${subtotalItem}`;
 }).join("\n\n")}
 
-💵 Subtotal: $${subtotal.toFixed(2)}
-${aplicaDescuento ? `🎉 Descuento especial (15% OFF +$50k): -$${montoDescuento.toFixed(2)}\n` : ''}
-🧾 Total a pagar: $${total.toFixed(2)}
+💵 Total a pagar: $${total.toFixed(2)}
 
 ${metodoEntrega === "local"
   ? "Forma de entrega: Retiro en Local"
@@ -101,30 +95,6 @@ CVU: 0000003100018609620921
               <p className="text-gray-500 text-center mt-10 italic">Tu carrito está vacío</p>
             ) : (
               <>
-                {/* BARRA DE PROGRESO DE LA PROMO */}
-                <div className="bg-black/60 border border-gray-800 rounded-xl p-3.5 space-y-2">
-                  <div className="flex items-center justify-between text-xs">
-                    {aplicaDescuento ? (
-                      <span className="text-green-400 font-bold flex items-center gap-1">
-                        ¡Felicidades! Tenés 15% OFF aplicado
-                      </span>
-                    ) : (
-                      <span className="text-gray-300 font-medium">
-                        Sumá <strong className="text-white">${montoFaltante.toLocaleString('es-AR')}</strong> más para un <strong className="text-red-500">15% OFF</strong>
-                      </span>
-                    )}
-                    <span className="text-[10px] text-gray-400 font-bold">{Math.round(porcentajeProgreso)}%</span>
-                  </div>
-                  <div className="w-full h-2 bg-gray-900 rounded-full overflow-hidden border border-gray-800">
-                    <div 
-                      className={`h-full transition-all duration-500 rounded-full ${
-                        aplicaDescuento ? 'bg-green-500 shadow-[0_0_10px_#22c55e]' : 'bg-red-600'
-                      }`}
-                      style={{ width: `${porcentajeProgreso}%` }}
-                    />
-                  </div>
-                </div>
-
                 {/* LISTA DE PRODUCTOS */}
                 {items.map(item => (
                   <div key={item.carritoId} className="flex gap-4 py-4 border-b border-gray-800">
@@ -200,16 +170,6 @@ CVU: 0000003100018609620921
 
               {/* DESGLOSE DE PRECIO EN CHECKOUT */}
               <div className="space-y-1 border-t pt-3 text-sm">
-                <div className="flex justify-between text-gray-600">
-                  <span>Subtotal:</span>
-                  <span>${subtotal.toFixed(2)}</span>
-                </div>
-                {aplicaDescuento && (
-                  <div className="flex justify-between text-green-600 font-semibold">
-                    <span>Descuento (15% OFF):</span>
-                    <span>-${montoDescuento.toFixed(2)}</span>
-                  </div>
-                )}
                 <div className="flex justify-between font-bold text-lg text-black border-t pt-2">
                   <span>Total a pagar:</span>
                   <span>${total.toFixed(2)}</span>
@@ -269,14 +229,8 @@ CVU: 0000003100018609620921
                 </div>
               </div>
 
-              {/* Total y Descuento */}
+              {/* Total */}
               <div className="border-t border-gray-800 pt-3 space-y-1">
-                {aplicaDescuento && (
-                  <div className="flex justify-between items-center text-xs text-green-400 font-medium">
-                    <span>Descuento 15% OFF:</span>
-                    <span>-${montoDescuento.toFixed(2)}</span>
-                  </div>
-                )}
                 <div className="flex justify-between items-center">
                   <span className="text-sm font-bold text-gray-400 uppercase tracking-widest">Total Estimado:</span>
                   <span className="text-2xl font-black text-white">${total.toFixed(2)}</span>

@@ -5,24 +5,12 @@ const CarritoContext = createContext();
 export const CarritoProvider = ({ children }) => {
   const [items, setItems] = useState([]);
 
-  // --- REGLAS DE NEGOCIO PROMO +$50.000 ---
-  const MONTO_MINIMO_PROMO = 50000;
-  const PORCENTAJE_DESCUENTO = 0.15;
-
-  // 1. Subtotal sin el descuento de +$50k
+  // El subtotal y el total ahora son exactamente lo mismo
   const subtotal = items.reduce((acc, item) => acc + (item.precio * item.cantidad), 0);
-
-  // 2. Lógica para aplicar el 15% OFF si supera los 50 mil
-  const aplicaDescuento = subtotal >= MONTO_MINIMO_PROMO;
-  const montoDescuento = aplicaDescuento ? subtotal * PORCENTAJE_DESCUENTO : 0;
-  const total = subtotal - montoDescuento;
-
-  // 3. Progreso dinámico para la barra visual
-  const montoFaltante = aplicaDescuento ? 0 : MONTO_MINIMO_PROMO - subtotal;
-  const porcentajeProgreso = Math.min(100, (subtotal / MONTO_MINIMO_PROMO) * 100);
+  const total = subtotal;
 
   const agregarItem = (producto, cantidad = 1) => {
-    // 🔧 Lógica de promo por fecha (se mantiene intacta)
+    // 🔧 Lógica de promo por fecha (se mantiene intacta por si usás otras fechas)
     const ahora = new Date();
     const inicioPromo = new Date("2026-03-27T00:00:00");
     const finPromo = new Date("2026-03-30T23:59:59");
@@ -71,10 +59,6 @@ export const CarritoProvider = ({ children }) => {
       mensaje += `  Subtotal: $${subtotalItem}\n\n`;
     });
 
-    mensaje += `💵 Subtotal: $${subtotal.toFixed(2)}\n`;
-    if (aplicaDescuento) {
-      mensaje += `🎉 Descuento especial (15% OFF por compra > $50.000): -$${montoDescuento.toFixed(2)}\n`;
-    }
     mensaje += `🧾 Total a pagar: $${total.toFixed(2)}\n\n`;
 
     if (metodoEntrega === "local") {
@@ -97,11 +81,7 @@ export const CarritoProvider = ({ children }) => {
       value={{ 
         items, 
         subtotal,
-        montoDescuento,
         total,
-        aplicaDescuento,
-        montoFaltante,
-        porcentajeProgreso,
         agregarItem, 
         eliminarProducto, 
         calcularTotal, 

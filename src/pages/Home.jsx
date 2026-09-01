@@ -8,7 +8,6 @@ import InstagramBanner from "../components/InstagramBanner";
 import PageTransition from "../components/PageTransition";
 import { motion } from "framer-motion";
 import { useCarrito } from "../context/CarritoContext";
-import NuevosIngresos from "../components/NuevosIngresos";
 import TrustBanner from "../components/TrustBanner";
 import CarruselAnuncios from "../components/CarruselAnuncios";
 import BannerPerfumesHombre from "../components/BannerPerfumesHombre";
@@ -75,9 +74,6 @@ const Home = () => {
 
           <BannerPerfumesHombre />
 
-          <HomeSection className="mb-10">
-            <NuevosIngresos bannerUrl="/nuevosingresos.jpg" />
-          </HomeSection>
 
           {/* 🖼️ LOCAL */}
           <HomeSection className="mt-20">

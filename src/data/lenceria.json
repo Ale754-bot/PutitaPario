@@ -1,5 +1,135 @@
 [
   {
+    "id": 758,
+    "nombre": "Body Triana",
+    "descripcion": "Consultar talles",
+    "imagen": "/images/lenceria/BODY TRIANA/BODY TRIANA NEGRO.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "Conjuntos",
+    "stock": true,
+    "mostrarColor": true,
+    "precioBase": 40000,
+    "nuevo": true,
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "",
+        "precio": 40000,
+        "imagen": "/images/lenceria/BODY TRIANA/BODY TRIANA NEGRO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#f50b0b",
+        "talle": "",
+        "precio": 40000,
+        "imagen": "/images/lenceria/BODY TRIANA/BODY TRIANA ROJO.jpg",
+        "stock": true
+      }
+    ]
+  },
+  {
+    "id": 759,
+    "nombre": "Baby Doll Mod 3",
+    "descripcion": "Consultar talles",
+    "imagen": "/images/lenceria/BABY DOLL M3/BDM3NEGRO.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "Conjuntos",
+    "stock": true,
+    "mostrarColor": true,
+    "precioBase": 35000,
+    "nuevo": true,
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "",
+        "precio": 35000,
+        "imagen": "/images/lenceria/BABY DOLL M3/BDM3NEGRO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Rojo Oscuro",
+        "colorHex": "#8b0000",
+        "talle": "",
+        "precio": 35000,
+        "imagen": "/images/lenceria/BABY DOLL M3/BDM3BORDO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#f50b0b",
+        "talle": "",
+        "precio": 35000,
+        "imagen": "/images/lenceria/BABY DOLL M3/BDM3ROJO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Rosado",
+        "colorHex": "#ff69b4",
+        "talle": "",
+        "precio": 35000,
+        "imagen": "/images/lenceria/BABY DOLL M3/BDM3ROSA.jpg",
+        "stock": true
+      }
+    ]
+  },
+  {
+    "id": 760,
+    "nombre": "Set Juliette",
+    "descripcion": "Consultar talles",
+    "imagen": "/images/lenceria/SET JULIETTE/JULIETTE ROSA.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "Conjuntos",
+    "stock": true,
+    "mostrarColor": true,
+    "precioBase": 42500,
+    "nuevo": true,
+    "variantes": [
+      {
+        "color": "Rosa (Detalles oscuros)",
+        "colorHex": "#d87093",
+        "talle": "",
+        "precio": 42500,
+        "imagen": "/images/lenceria/SET JULIETTE/JULIETTE ROSA.jpg",
+        "stock": true
+      },
+      {
+        "color": "Rojo (Detalles blancos)",
+        "colorHex": "#f50b0b",
+        "talle": "",
+        "precio": 42500,
+        "imagen": "/images/lenceria/SET JULIETTE/JULIETTE ROJO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Negro (Detalles fucsia)",
+        "colorHex": "#111111",
+        "talle": "",
+        "precio": 42500,
+        "imagen": "/images/lenceria/SET JULIETTE/JULIETTE NEGRO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Turquesa (Detalles azules)",
+        "colorHex": "#00ced1",
+        "talle": "",
+        "precio": 42500,
+        "imagen": "/images/lenceria/SET JULIETTE/JULIETTE TURQUESA.jpg",
+        "stock": true
+      },
+      {
+        "color": "Negro (Detalles blancos)",
+        "colorHex": "#000000",
+        "talle": "",
+        "precio": 42500,
+        "imagen": "/images/lenceria/SET JULIETTE/JULIETTE NEGRO2.jpg",
+        "stock": true
+      }
+    ]
+  },
+  {
     "id": 747,
     "nombre": "Body Luna",
     "descripcion": "Consultar talles",
@@ -1041,7 +1171,7 @@
   "imagen": "/images/lenceria/corset/marmolado/corsetmarmolado.webp",
   "categoria": "Lencería",
   "subcategoria": "Corsets",
-  "stock": true,
+  "stock": false,
   "mostrarColor": true,
   "precioBase": 15000,
   "precioOferta": 10000,
@@ -1080,7 +1210,7 @@
   "imagen": "/images/lenceria/corset/brilloso/corsetbrilloso.webp",
   "categoria": "Lencería",
   "subcategoria": "Corsets",
-  "stock": true,
+  "stock": false,
   "mostrarColor": true,
   "precioBase": 15000,
   "precioOferta": 10000,

@@ -1,5 +1,97 @@
 [
   {
+    "id": 761,
+    "nombre": "Set Lena",
+    "descripcion": "Consultar talles",
+    "imagen": "/images/lenceria/SET LENA/LENA NEGRO.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "Conjuntos",
+    "stock": true,
+    "mostrarColor": true,
+    "precioBase": 42000,
+    "nuevo": true,
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "",
+        "precio": 42000,
+        "imagen": "/images/lenceria/SET LENA/LENA NEGRO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "colorHex": "#f50b0b",
+        "talle": "",
+        "precio": 42000,
+        "imagen": "/images/lenceria/SET LENA/LENA ROJO.jpg",
+        "stock": true
+      }
+    ]
+  },
+  {
+    "id": 762,
+    "nombre": "Baby Doll Satén",
+    "descripcion": "Consultar talles",
+    "imagen": "/images/lenceria/BABY DOLL SATEN/BD SATEN NEGRO.jpg",
+    "categoria": "Lencería",
+    "subcategoria": "Conjuntos",
+    "stock": true,
+    "mostrarColor": true,
+    "precioBase": 35000,
+    "nuevo": true,
+    "variantes": [
+      {
+        "color": "Negro",
+        "colorHex": "#000000",
+        "talle": "",
+        "precio": 35000,
+        "imagen": "/images/lenceria/BABY DOLL SATEN/BD SATEN NEGRO.jpg",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "colorHex": "#1e3a8a",
+        "talle": "",
+        "precio": 35000,
+        "imagen": "/images/lenceria/BABY DOLL SATEN/BD SATEN AZUL.jpg",
+        "stock": true
+      },
+      {
+        "color": "Rosa",
+        "colorHex": "#ffb6c1",
+        "talle": "",
+        "precio": 35000,
+        "imagen": "/images/lenceria/BABY DOLL SATEN/BD SATEN ROSA.jpg",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "colorHex": "#f5f5dc",
+        "talle": "",
+        "precio": 35000,
+        "imagen": "/images/lenceria/BABY DOLL SATEN/BD SATEN BEIGE.jpg",
+        "stock": true
+      },
+      {
+        "color": "Rojo Fucsia",
+        "colorHex": "#e11d48",
+        "talle": "",
+        "precio": 35000,
+        "imagen": "/images/lenceria/BABY DOLL SATEN/BD SATEN FUCSIA.jpg",
+        "stock": true
+      },
+      {
+        "color": "Verde Azulado Oscuro",
+        "colorHex": "#0f766e",
+        "talle": "",
+        "precio": 35000,
+        "imagen": "/images/lenceria/BABY DOLL SATEN/BD SATEN VERDE.jpg",
+        "stock": true
+      }
+    ]
+  },
+  {
     "id": 758,
     "nombre": "Body Triana",
     "descripcion": "Consultar talles",
@@ -129,6 +221,7 @@
       }
     ]
   },
+  
   {
     "id": 747,
     "nombre": "Body Luna",

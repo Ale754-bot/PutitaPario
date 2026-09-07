@@ -1,3 +1,5 @@
+// ProductCardLenceria.jsx
+
 import React, { useState, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -36,25 +38,11 @@ const ProductCardLenceria = ({ producto, index }) => {
     }
   }, [variantes, tieneVariantes]);
 
-  const precioVariante = variantePorColor?.precio ?? precioBase ?? 0;
+  const precioOriginalVariante = variantePorColor?.precio ?? precioBase ?? 0;
 
-  // Detectar si hay precio de oferta en la variante seleccionada o en el producto general
-  const precioOfertaActual = variantePorColor?.precioOferta ?? producto.precioOferta ?? null;
-
-  const ahora = new Date();
-  const inicioPromo = new Date("2026-03-27T00:00:00");
-  const finPromo = new Date("2026-03-31T23:59:59");
-  const promoActiva = ahora >= inicioPromo && ahora <= finPromo;
-
-  // Definir el precio final priorizando el precio de oferta del JSON, luego la promo por fecha, o el precio base
-  const precioFinal = precioOfertaActual !== null
-    ? precioOfertaActual
-    : promoActiva
-    ? Math.round(precioVariante * 0.9)
-    : precioVariante;
-
-  // Mostrar el precio tachado si hay precio de oferta en el JSON o si la promo por fecha está activa
-  const precioTachado = (precioOfertaActual !== null || promoActiva) ? precioVariante : null;
+  // --- APLICACIÓN DEL 15% OFF PARA TODOS LOS PRODUCTOS ---
+  const precioFinal = Math.round(precioOriginalVariante * 0.85);
+  const precioTachado = precioOriginalVariante;
 
   const imagenFinal =
     variantePorColor?.imagen || imagen || imagenUrl || "/images/placeholder.png";
@@ -155,12 +143,12 @@ const ProductCardLenceria = ({ producto, index }) => {
           </div>
         )}
 
-        {(precioOfertaActual !== null || promoActiva) && stock && (
+        {stock && (
           <span className="absolute bottom-3 left-3 z-10
                            rounded-full bg-red-600 px-2.5 py-1
                            text-[10px] font-bold text-white
                            shadow-[0_0_14px_rgba(220,38,38,0.8)]">
-            {precioOfertaActual !== null && !promoActiva ? "OFERTA" : "10% OFF"}
+            15% OFF
           </span>
         )}
 
@@ -204,12 +192,12 @@ const ProductCardLenceria = ({ producto, index }) => {
             {nombre}
           </h2>
 
-          <div className="flex items-center justify-center gap-2">
-            {precioTachado && (
-              <span className="text-[10px] text-white/35 line-through">
+          <div className="flex flex-col items-center justify-center gap-0.5">
+            <div className="flex items-center justify-center gap-2">
+              <span className="text-[10px] font-semibold text-white/35 line-through">
                 ${precioTachado.toLocaleString("es-AR")}
               </span>
-            )}
+            </div>
 
             <span className="text-[16px] font-black tracking-tight text-red-600">
               ${precioFinal.toLocaleString("es-AR")}

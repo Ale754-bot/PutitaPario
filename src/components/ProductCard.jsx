@@ -22,7 +22,7 @@ const ProductCard = ({ producto, index }) => {
     reingreso,
     precioOferta,
     descuento,
-    encargo, // <--- Propiedad añadida
+    encargo,
   } = producto;
 
   const [talleSeleccionado, setTalleSeleccionado] = useState("");
@@ -105,19 +105,8 @@ const ProductCard = ({ producto, index }) => {
     ? "Elegí un tamaño"
     : "Agregar al carrito";
 
-  const ahora = new Date();
-
-  const inicioPromo = new Date("2026-03-27T00:00:00");
-  const finPromo = new Date("2026-03-31T23:59:59");
-
-  const promoActiva =
-    ahora >= inicioPromo && ahora <= finPromo;
-
-  const precioFinal = promoActiva
-    ? Math.round(precioBase * 0.9)
-    : varianteSeleccionada?.precioOferta ??
-      precioOferta ??
-      precioBase;
+  // --- APLICACIÓN DEL 15% OFF GENERAL ---
+  const precioFinal = Math.round(precioBase * 0.85);
 
   const handleAgregar = () => {
     if (!puedeAgregar) return;
@@ -258,8 +247,9 @@ const ProductCard = ({ producto, index }) => {
             Solo por encargo
           </span>
         )}
-        {/* PROMO GLOBAL */}
-        {promoActiva && stock && !encargo && (
+
+        {/* ETIQUETA 15% OFF */}
+        {stock && !encargo && (
           <span
             className="
               absolute bottom-3 left-3 z-10
@@ -268,7 +258,7 @@ const ProductCard = ({ producto, index }) => {
               shadow-[0_0_14px_rgba(220,38,38,0.8)]
             "
           >
-            10% OFF
+            15% OFF
           </span>
         )}
 
@@ -303,16 +293,16 @@ const ProductCard = ({ producto, index }) => {
             ${
               puedeAgregar
                 ? `
-                  bg-red-700 text-white
-                  shadow-[0_0_14px_rgba(220,38,38,0.9)]
-                  hover:scale-110 hover:bg-red-600
-                  hover:shadow-[0_0_22px_rgba(220,38,38,1)]
-                `
+                    bg-red-700 text-white
+                    shadow-[0_0_14px_rgba(220,38,38,0.9)]
+                    hover:scale-110 hover:bg-red-600
+                    hover:shadow-[0_0_22px_rgba(220,38,38,1)]
+                  `
                 : `
-                  cursor-not-allowed
-                  bg-gray-800 text-gray-400
-                  shadow-[0_0_8px_rgba(0,0,0,0.6)]
-                `
+                    cursor-not-allowed
+                    bg-gray-800 text-gray-400
+                    shadow-[0_0_8px_rgba(0,0,0,0.6)]
+                  `
             }
           `}
         >
@@ -336,25 +326,11 @@ const ProductCard = ({ producto, index }) => {
 
           {/* PRECIOS */}
           <div className="flex flex-col items-center justify-center gap-0.5">
-            {precioBase > precioFinal && (
-              <div className="flex items-center justify-center gap-2">
-                <span className="text-[10px] font-semibold text-white/35 line-through">
-                  ${precioBase.toLocaleString("es-AR")}
-                </span>
-
-                {descuento && (
-                  <span
-                    className="
-                      rounded-full bg-red-700 px-2 py-[1px]
-                      text-[8px] font-black uppercase tracking-wide text-white
-                      shadow-[0_0_10px_rgba(220,38,38,0.55)]
-                    "
-                  >
-                    {descuento}
-                  </span>
-                )}
-              </div>
-            )}
+            <div className="flex items-center justify-center gap-2">
+              <span className="text-[10px] font-semibold text-white/35 line-through">
+                ${precioBase.toLocaleString("es-AR")}
+              </span>
+            </div>
 
             <span className="text-[16px] font-black tracking-tight text-red-600">
               ${precioFinal.toLocaleString("es-AR")}

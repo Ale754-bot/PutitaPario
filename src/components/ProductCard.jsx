@@ -1,5 +1,4 @@
 // ProductCard.jsx
-
 import React, { useState, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -27,14 +26,20 @@ const ProductCard = ({ producto, index }) => {
 
   const [talleSeleccionado, setTalleSeleccionado] = useState("");
   const [varianteSeleccionada, setVarianteSeleccionada] = useState(null);
+  const [esLunesOMartes, setEsLunesOMartes] = useState(false);
 
   const { agregarItem } = useCarrito();
+
+  // --- COMPROBAR EL DÍA PARA EL DESCUENTO ---
+  useEffect(() => {
+    const diaActual = new Date().getDay();
+    setEsLunesOMartes(diaActual === 1 || diaActual === 2);
+  }, []);
 
   const tieneTalles = talles && talles.length > 0;
   const tieneVariantes = variantes && variantes.length > 0;
 
-  const tieneColores =
-    mostrarColor && variantes?.some((v) => v.colorHex || v.color);
+  const tieneColores = mostrarColor && variantes?.some((v) => v.colorHex || v.color);
 
   const tipoVariante = tieneVariantes
     ? variantes[0]?.talle
@@ -71,77 +76,47 @@ const ProductCard = ({ producto, index }) => {
     "Juguetes",
   ];
 
-  const mostrarPrecioSiempre =
-    categoriasPrecioVisible.includes(categoria);
+  const mostrarPrecioSiempre = categoriasPrecioVisible.includes(categoria);
 
   const precioBase = mostrarPrecioSiempre
     ? precio ?? varianteSeleccionada?.precio ?? precioOriginal ?? 0
-    : varianteSeleccionada?.precio ??
-      precio ??
-      precioOriginal ??
-      0;
+    : varianteSeleccionada?.precio ?? precio ?? precioOriginal ?? 0;
 
   const imagenFinal =
-    varianteSeleccionada?.imagen ||
-    imagen ||
-    imagenUrl ||
-    "/images/placeholder.png";
+    varianteSeleccionada?.imagen || imagen || imagenUrl || "/images/placeholder.png";
 
   const textoBoton = !stock
     ? "Sin stock"
     : tieneTalles && !talleSeleccionado
     ? "Elegí un talle"
-    : tieneVariantes &&
-      requiereColor &&
-      !varianteSeleccionada
+    : tieneVariantes && requiereColor && !varianteSeleccionada
     ? "Elegí un color"
-    : tieneVariantes &&
-      requiereTalle &&
-      !varianteSeleccionada
+    : tieneVariantes && requiereTalle && !varianteSeleccionada
     ? "Elegí un talle"
-    : tieneVariantes &&
-      requiereTamaño &&
-      !varianteSeleccionada
+    : tieneVariantes && requiereTamaño && !varianteSeleccionada
     ? "Elegí un tamaño"
     : "Agregar al carrito";
 
-  // --- APLICACIÓN DEL 15% OFF GENERAL ---
-  const precioFinal = Math.round(precioBase * 0.85);
+  // --- CÁLCULO DEL PRECIO FINAL DEPENDIENDO DEL DÍA ---
+  const precioFinal = esLunesOMartes ? Math.round(precioBase * 0.85) : precioBase;
 
   const handleAgregar = () => {
     if (!puedeAgregar) return;
 
     const item = {
       ...producto,
-
       carritoId: `${producto.id}-${varianteSeleccionada?.color || ""}-${varianteSeleccionada?.talle || ""}-${varianteSeleccionada?.tamaño || ""}-${talleSeleccionado || ""}`,
-
-      talle:
-        talleSeleccionado ||
-        varianteSeleccionada?.talle ||
-        null,
-
-      variante:
-        varianteSeleccionada?.talle ||
-        varianteSeleccionada?.tamaño ||
-        varianteSeleccionada?.color ||
-        null,
-
+      talle: talleSeleccionado || varianteSeleccionada?.talle || null,
+      variante: varianteSeleccionada?.talle || varianteSeleccionada?.tamaño || varianteSeleccionada?.color || null,
       color: varianteSeleccionada?.color || null,
-
       precio: precioFinal,
-
-      imagen:
-        varianteSeleccionada?.imagen || imagenFinal,
+      imagen: varianteSeleccionada?.imagen || imagenFinal,
     };
 
     agregarItem(item, 1);
   };
 
-  const etiquetaMarca =
-    marca && linea
-      ? `${marca} · ${linea}`
-      : marca || "";
+  const etiquetaMarca = marca && linea ? `${marca} · ${linea}` : marca || "";
 
   const controls = useAnimation();
 
@@ -155,20 +130,11 @@ const ProductCard = ({ producto, index }) => {
   }, [inView, controls]);
 
   const fadeUp = {
-    hidden: {
-      opacity: 0,
-      y: 12,
-    },
-
+    hidden: { opacity: 0, y: 12 },
     visible: {
       opacity: 1,
       y: 0,
-
-      transition: {
-        duration: 0.45,
-        ease: "easeOut",
-        delay: index * 0.04,
-      },
+      transition: { duration: 0.45, ease: "easeOut", delay: index * 0.04 },
     },
   };
 
@@ -208,56 +174,28 @@ const ProductCard = ({ producto, index }) => {
 
         {/* MARCA */}
         {etiquetaMarca && (
-          <span
-            className="
-              absolute left-2 top-2 z-10
-              max-w-[70%] truncate
-              rounded-full bg-black/80 px-2 py-1
-              text-[9px] font-semibold uppercase tracking-wide text-white
-              shadow-md backdrop-blur
-            "
-          >
+          <span className="absolute left-2 top-2 z-10 max-w-[70%] truncate rounded-full bg-black/80 px-2 py-1 text-[9px] font-semibold uppercase tracking-wide text-white shadow-md backdrop-blur">
             {etiquetaMarca}
           </span>
         )}
 
         {/* REINGRESO */}
         {reingreso && (
-          <span
-            className="
-              absolute right-2 top-2 z-10
-              rounded-full bg-red-700 px-2 py-1
-              text-[9px] font-bold uppercase tracking-wide text-white
-              shadow-[0_0_12px_rgba(185,28,28,0.7)]
-            "
-          >
+          <span className="absolute right-2 top-2 z-10 rounded-full bg-red-700 px-2 py-1 text-[9px] font-bold uppercase tracking-wide text-white shadow-[0_0_12px_rgba(185,28,28,0.7)]">
             Reingreso
           </span>
         )}
 
         {/* ETIQUETA ENCARGO */}
         {encargo && stock && (
-          <span
-            className="
-              absolute left-2 top-2 z-10
-              rounded-full bg-black px-2.5 py-1
-              text-[10px] font-bold text-white
-            "
-          >
+          <span className="absolute left-2 top-2 z-10 rounded-full bg-black px-2.5 py-1 text-[10px] font-bold text-white">
             Solo por encargo
           </span>
         )}
 
-        {/* ETIQUETA 15% OFF */}
-        {stock && !encargo && (
-          <span
-            className="
-              absolute bottom-3 left-3 z-10
-              rounded-full bg-red-600 px-2.5 py-1
-              text-[10px] font-bold text-white
-              shadow-[0_0_14px_rgba(220,38,38,0.8)]
-            "
-          >
+        {/* ETIQUETA 15% OFF - SOLO VISIBLE LUNES Y MARTES */}
+        {stock && !encargo && esLunesOMartes && (
+          <span className="absolute bottom-3 left-3 z-10 rounded-full bg-red-600 px-2.5 py-1 text-[10px] font-bold text-white shadow-[0_0_14px_rgba(220,38,38,0.8)]">
             15% OFF
           </span>
         )}
@@ -265,12 +203,7 @@ const ProductCard = ({ producto, index }) => {
         {/* SIN STOCK */}
         {!stock && (
           <div className="absolute inset-0 z-20 flex items-center justify-center bg-black/60">
-            <span
-              className="
-                rounded-full bg-black px-4 py-2
-                text-xs font-bold uppercase tracking-wide text-white
-              "
-            >
+            <span className="rounded-full bg-black px-4 py-2 text-xs font-bold uppercase tracking-wide text-white">
               Agotado
             </span>
           </div>
@@ -289,20 +222,10 @@ const ProductCard = ({ producto, index }) => {
             text-[20px] font-light leading-none
             transition-all duration-300
             active:scale-95
-
             ${
               puedeAgregar
-                ? `
-                    bg-red-700 text-white
-                    shadow-[0_0_14px_rgba(220,38,38,0.9)]
-                    hover:scale-110 hover:bg-red-600
-                    hover:shadow-[0_0_22px_rgba(220,38,38,1)]
-                  `
-                : `
-                    cursor-not-allowed
-                    bg-gray-800 text-gray-400
-                    shadow-[0_0_8px_rgba(0,0,0,0.6)]
-                  `
+                ? "bg-red-700 text-white shadow-[0_0_14px_rgba(220,38,38,0.9)] hover:scale-110 hover:bg-red-600 hover:shadow-[0_0_22px_rgba(220,38,38,1)]"
+                : "cursor-not-allowed bg-gray-800 text-gray-400 shadow-[0_0_8px_rgba(0,0,0,0.6)]"
             }
           `}
         >
@@ -313,25 +236,19 @@ const ProductCard = ({ producto, index }) => {
       {/* CONTENIDO */}
       <div className="flex min-h-[96px] flex-col px-3 pb-3 pt-2">
         <div className="space-y-1">
-          <h2
-            className="
-              min-h-[34px]
-              line-clamp-2
-              text-center text-[12px] font-medium leading-snug text-white/95
-              sm:text-[13px]
-            "
-          >
+          <h2 className="min-h-[34px] line-clamp-2 text-center text-[12px] font-medium leading-snug text-white/95 sm:text-[13px]">
             {nombre}
           </h2>
 
           {/* PRECIOS */}
           <div className="flex flex-col items-center justify-center gap-0.5">
-            <div className="flex items-center justify-center gap-2">
-              <span className="text-[10px] font-semibold text-white/35 line-through">
-                ${precioBase.toLocaleString("es-AR")}
-              </span>
-            </div>
-
+            {esLunesOMartes && (
+              <div className="flex items-center justify-center gap-2">
+                <span className="text-[10px] font-semibold text-white/35 line-through">
+                  ${precioBase.toLocaleString("es-AR")}
+                </span>
+              </div>
+            )}
             <span className="text-[16px] font-black tracking-tight text-red-600">
               ${precioFinal.toLocaleString("es-AR")}
             </span>
@@ -344,14 +261,11 @@ const ProductCard = ({ producto, index }) => {
             {variantes.slice(0, 6).map((variante, i) => (
               <button
                 key={`${variante.color || "color"}-${i}`}
-                onClick={() =>
-                  setVarianteSeleccionada(variante)
-                }
+                onClick={() => setVarianteSeleccionada(variante)}
                 title={variante.color}
                 className={`
                   h-4 w-4 rounded-full border
                   transition-all duration-200
-
                   ${
                     varianteSeleccionada === variante
                       ? "scale-110 border-red-500 shadow-[0_0_10px_rgba(220,38,38,0.9)]"
@@ -359,10 +273,7 @@ const ProductCard = ({ producto, index }) => {
                   }
                 `}
                 style={{
-                  backgroundColor:
-                    variante.colorHex ||
-                    variante.color ||
-                    "#ffffff",
+                  backgroundColor: variante.colorHex || variante.color || "#ffffff",
                 }}
               />
             ))}
@@ -375,14 +286,11 @@ const ProductCard = ({ producto, index }) => {
             {talles.slice(0, 6).map((talle) => (
               <button
                 key={talle}
-                onClick={() =>
-                  setTalleSeleccionado(talle)
-                }
+                onClick={() => setTalleSeleccionado(talle)}
                 className={`
                   rounded-full border px-2 py-[2px]
                   text-[9px] font-bold uppercase
                   transition-all duration-200
-
                   ${
                     talleSeleccionado === talle
                       ? "border-red-600 bg-red-700 text-white shadow-[0_0_10px_rgba(185,28,28,0.6)]"
@@ -400,20 +308,15 @@ const ProductCard = ({ producto, index }) => {
         {tieneVariantes && !tieneColores && (
           <div className="mt-2 flex min-h-[22px] flex-wrap items-center justify-center gap-1">
             {variantes.slice(0, 6).map((variante, i) => {
-              const label =
-                variante.talle || variante.tamaño;
-
+              const label = variante.talle || variante.tamaño;
               return (
                 <button
                   key={`${label}-${i}`}
-                  onClick={() =>
-                    setVarianteSeleccionada(variante)
-                  }
+                  onClick={() => setVarianteSeleccionada(variante)}
                   className={`
                     rounded-full border px-2 py-[2px]
                     text-[9px] font-bold uppercase
                     transition-all duration-200
-
                     ${
                       varianteSeleccionada === variante
                         ? "border-red-600 bg-red-700 text-white shadow-[0_0_10px_rgba(185,28,28,0.6)]"

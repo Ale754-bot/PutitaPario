@@ -1,5 +1,4 @@
 // ProductCardLenceria.jsx
-
 import React, { useState, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -8,7 +7,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const ProductCardLenceria = ({ producto, index }) => {
   const {
     nombre,
-    precioBase,
+    precioBase: precioBaseProp,
     imagen,
     imagenUrl,
     stock,
@@ -19,10 +18,16 @@ const ProductCardLenceria = ({ producto, index }) => {
   } = producto;
 
   const [colorSeleccionado, setColorSeleccionado] = useState(null);
+  const [esLunesOMartes, setEsLunesOMartes] = useState(false);
+
+  // --- COMPROBAR EL DÍA PARA EL DESCUENTO ---
+  useEffect(() => {
+    const diaActual = new Date().getDay();
+    setEsLunesOMartes(diaActual === 1 || diaActual === 2);
+  }, []);
 
   const tieneVariantes = variantes && variantes.length > 0;
-  const tieneColores =
-    mostrarColor && variantes?.some((v) => v.colorHex || v.color);
+  const tieneColores = mostrarColor && variantes?.some((v) => v.colorHex || v.color);
 
   const coloresDisponibles = variantes
     ? [...new Set(variantes.map((v) => v.color))]
@@ -38,10 +43,10 @@ const ProductCardLenceria = ({ producto, index }) => {
     }
   }, [variantes, tieneVariantes]);
 
-  const precioOriginalVariante = variantePorColor?.precio ?? precioBase ?? 0;
+  const precioOriginalVariante = variantePorColor?.precio ?? precioBaseProp ?? 0;
 
-  // --- APLICACIÓN DEL 15% OFF PARA TODOS LOS PRODUCTOS ---
-  const precioFinal = Math.round(precioOriginalVariante * 0.85);
+  // --- CÁLCULO DEL PRECIO FINAL DEPENDIENDO DEL DÍA ---
+  const precioFinal = esLunesOMartes ? Math.round(precioOriginalVariante * 0.85) : precioOriginalVariante;
   const precioTachado = precioOriginalVariante;
 
   const imagenFinal =
@@ -127,10 +132,7 @@ const ProductCardLenceria = ({ producto, index }) => {
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/45 to-transparent" />
 
         {etiquetaMarca && (
-          <span className="absolute left-2 top-2 z-10 max-w-[70%] truncate
-                           rounded-full bg-black/80 px-2 py-1
-                           text-[9px] font-semibold uppercase tracking-wide text-white
-                           shadow-md backdrop-blur">
+          <span className="absolute left-2 top-2 z-10 max-w-[70%] truncate rounded-full bg-black/80 px-2 py-1 text-[9px] font-semibold uppercase tracking-wide text-white shadow-md backdrop-blur">
             {etiquetaMarca}
           </span>
         )}
@@ -143,11 +145,9 @@ const ProductCardLenceria = ({ producto, index }) => {
           </div>
         )}
 
-        {stock && (
-          <span className="absolute bottom-3 left-3 z-10
-                           rounded-full bg-red-600 px-2.5 py-1
-                           text-[10px] font-bold text-white
-                           shadow-[0_0_14px_rgba(220,38,38,0.8)]">
+        {/* ETIQUETA 15% OFF - SOLO VISIBLE LUNES Y MARTES */}
+        {stock && esLunesOMartes && (
+          <span className="absolute bottom-3 left-3 z-10 rounded-full bg-red-600 px-2.5 py-1 text-[10px] font-bold text-white shadow-[0_0_14px_rgba(220,38,38,0.8)]">
             15% OFF
           </span>
         )}
@@ -166,17 +166,8 @@ const ProductCardLenceria = ({ producto, index }) => {
             active:scale-95
             ${
               puedeConsultar
-                ? `
-                    bg-green-500 text-white
-                    shadow-[0_0_14px_rgba(34,197,94,0.9)]
-                    hover:scale-110 hover:bg-green-400
-                    hover:shadow-[0_0_22px_rgba(34,197,94,1)]
-                  `
-                : `
-                    cursor-not-allowed
-                    bg-gray-800 text-gray-400
-                    shadow-[0_0_8px_rgba(0,0,0,0.6)]
-                  `
+                ? "bg-green-500 text-white shadow-[0_0_14px_rgba(34,197,94,0.9)] hover:scale-110 hover:bg-green-400 hover:shadow-[0_0_22px_rgba(34,197,94,1)]"
+                : "cursor-not-allowed bg-gray-800 text-gray-400 shadow-[0_0_8px_rgba(0,0,0,0.6)]"
             }
           `}
         >
@@ -187,17 +178,18 @@ const ProductCardLenceria = ({ producto, index }) => {
       {/* Contenido */}
       <div className="flex min-h-[96px] flex-col px-3 pb-3 pt-2">
         <div className="space-y-1">
-          <h2 className="min-h-[34px] text-center text-[12px] sm:text-[13px]
-                         font-medium leading-snug text-white/95 line-clamp-2">
+          <h2 className="min-h-[34px] text-center text-[12px] sm:text-[13px] font-medium leading-snug text-white/95 line-clamp-2">
             {nombre}
           </h2>
 
           <div className="flex flex-col items-center justify-center gap-0.5">
-            <div className="flex items-center justify-center gap-2">
-              <span className="text-[10px] font-semibold text-white/35 line-through">
-                ${precioTachado.toLocaleString("es-AR")}
-              </span>
-            </div>
+            {esLunesOMartes && (
+              <div className="flex items-center justify-center gap-2">
+                <span className="text-[10px] font-semibold text-white/35 line-through">
+                  ${precioTachado.toLocaleString("es-AR")}
+                </span>
+              </div>
+            )}
 
             <span className="text-[16px] font-black tracking-tight text-red-600">
               ${precioFinal.toLocaleString("es-AR")}

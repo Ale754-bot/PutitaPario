@@ -5,19 +5,20 @@ const CarritoContext = createContext();
 export const CarritoProvider = ({ children }) => {
   const [items, setItems] = useState([]);
 
+  // --- AUTOMATIZACIÓN: 15% OFF SOLO LUNES (1) Y MARTES (2) ---
+  const verificarEsLunesOMartes = () => {
+    const diaActual = new Date().getDay(); // 0 = Domingo, 1 = Lunes, 2 = Martes, etc.
+    return diaActual === 1 || diaActual === 2;
+  };
+
   // El subtotal y el total ahora son exactamente lo mismo
   const subtotal = items.reduce((acc, item) => acc + (item.precio * item.cantidad), 0);
   const total = subtotal;
 
   const agregarItem = (producto, cantidad = 1) => {
-    // 🔧 Lógica de promo por fecha (se mantiene intacta por si usás otras fechas)
-    const ahora = new Date();
-    const inicioPromo = new Date("2026-03-27T00:00:00");
-    const finPromo = new Date("2026-03-30T23:59:59");
-    const promoActiva = ahora >= inicioPromo && ahora <= finPromo;
-
-    const precioBase = producto.precio ?? 0;
-    const precioFinal = promoActiva ? Math.round(precioBase * 0.9) : precioBase;
+    const esLunesOMartes = verificarEsLunesOMartes();
+    const precioBase = producto.precio ?? producto.precioBase ?? 0;
+    const precioFinal = esLunesOMartes ? Math.round(precioBase * 0.85) : precioBase;
 
     setItems(prevItems => {
       const itemExistente = prevItems.find(

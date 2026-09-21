@@ -5,20 +5,16 @@ const CarritoContext = createContext();
 export const CarritoProvider = ({ children }) => {
   const [items, setItems] = useState([]);
 
-  // --- AUTOMATIZACIÓN: 15% OFF SOLO LUNES (1) Y MARTES (2) ---
-  const verificarEsLunesOMartes = () => {
-    const diaActual = new Date().getDay(); // 0 = Domingo, 1 = Lunes, 2 = Martes, etc.
-    return diaActual === 1 || diaActual === 2;
-  };
-
-  // El subtotal y el total ahora son exactamente lo mismo
+  // El subtotal y el total se calculan directamente en base a los precios ya con el 40% aplicado
   const subtotal = items.reduce((acc, item) => acc + (item.precio * item.cantidad), 0);
   const total = subtotal;
 
   const agregarItem = (producto, cantidad = 1) => {
-    const esLunesOMartes = verificarEsLunesOMartes();
-    const precioBase = producto.precio ?? producto.precioBase ?? 0;
-    const precioFinal = esLunesOMartes ? Math.round(precioBase * 0.85) : precioBase;
+    // Tomamos el precio base original del producto (sea cual fuere la propiedad que traiga)
+    const precioBaseOriginal = producto.precio || producto.precioBase || producto.precioOriginal || 0;
+    
+    // Aplicamos el 40% OFF permanente (el producto queda al 60% de su valor original)
+    const precioFinal = Math.round(precioBaseOriginal * 0.60);
 
     setItems(prevItems => {
       const itemExistente = prevItems.find(
@@ -32,7 +28,15 @@ export const CarritoProvider = ({ children }) => {
             : item
         );
       } else {
-        return [...prevItems, { ...producto, cantidad, precio: precioFinal }];
+        return [
+          ...prevItems, 
+          { 
+            ...producto, 
+            cantidad, 
+            precioOriginal: precioBaseOriginal, 
+            precio: precioFinal // Guardamos el precio ya con el 40% off aplicado
+          }
+        ];
       }
     });
   };
@@ -56,11 +60,11 @@ export const CarritoProvider = ({ children }) => {
       const subtotalItem = (item.precio * item.cantidad).toFixed(2);
       mensaje += `— ${item.nombre} (${variante})\n`;
       mensaje += `  Cantidad: ${item.cantidad} ${item.cantidad === 1 ? 'unidad' : 'unidades'}\n`;
-      mensaje += `  Precio unitario: $${item.precio.toFixed(2)}\n`;
-      mensaje += `  Subtotal: $${subtotalItem}\n\n`;
+      mensaje += `  Precio unitario (40% OFF): $${item.precio.toLocaleString("es-AR")}\n`;
+      mensaje += `  Subtotal: $${Number(subtotalItem).toLocaleString("es-AR")}\n\n`;
     });
 
-    mensaje += `🧾 Total a pagar: $${total.toFixed(2)}\n\n`;
+    mensaje += `🧾 Total a pagar: $${total.toLocaleString("es-AR")}\n\n`;
 
     if (metodoEntrega === "local") {
       mensaje += '📍 Forma de entrega: Retiro en Galería Córdoba, Sarmiento 783, Local 01-15 — de 10 a 19 hs\n\n';

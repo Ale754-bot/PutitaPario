@@ -19,26 +19,16 @@ const ProductCard = ({ producto, index }) => {
     categoria,
     precioOriginal,
     reingreso,
-    precioOferta,
-    descuento,
     encargo,
   } = producto;
 
   const [talleSeleccionado, setTalleSeleccionado] = useState("");
   const [varianteSeleccionada, setVarianteSeleccionada] = useState(null);
-  const [esLunesOMartes, setEsLunesOMartes] = useState(false);
 
   const { agregarItem } = useCarrito();
 
-  // --- COMPROBAR EL DÍA PARA EL DESCUENTO ---
-  useEffect(() => {
-    const diaActual = new Date().getDay();
-    setEsLunesOMartes(diaActual === 1 || diaActual === 2);
-  }, []);
-
   const tieneTalles = talles && talles.length > 0;
   const tieneVariantes = variantes && variantes.length > 0;
-
   const tieneColores = mostrarColor && variantes?.some((v) => v.colorHex || v.color);
 
   const tipoVariante = tieneVariantes
@@ -78,6 +68,7 @@ const ProductCard = ({ producto, index }) => {
 
   const mostrarPrecioSiempre = categoriasPrecioVisible.includes(categoria);
 
+  // Precio base de lista original para mostrar visualmente en la tarjeta
   const precioBase = mostrarPrecioSiempre
     ? precio ?? varianteSeleccionada?.precio ?? precioOriginal ?? 0
     : varianteSeleccionada?.precio ?? precio ?? precioOriginal ?? 0;
@@ -97,8 +88,8 @@ const ProductCard = ({ producto, index }) => {
     ? "Elegí un tamaño"
     : "Agregar al carrito";
 
-  // --- CÁLCULO DEL PRECIO FINAL DEPENDIENDO DEL DÍA ---
-  const precioFinal = esLunesOMartes ? Math.round(precioBase * 0.85) : precioBase;
+  // --- CÁLCULO VISUAL (40% OFF) ---
+  const precioVisualFinal = Math.round(precioBase * 0.60);
 
   const handleAgregar = () => {
     if (!puedeAgregar) return;
@@ -109,7 +100,7 @@ const ProductCard = ({ producto, index }) => {
       talle: talleSeleccionado || varianteSeleccionada?.talle || null,
       variante: varianteSeleccionada?.talle || varianteSeleccionada?.tamaño || varianteSeleccionada?.color || null,
       color: varianteSeleccionada?.color || null,
-      precio: precioFinal,
+      precio: precioBase, // Le pasamos el precio base limpio al Context para que aplique el 40% OFF una sola vez
       imagen: varianteSeleccionada?.imagen || imagenFinal,
     };
 
@@ -119,7 +110,6 @@ const ProductCard = ({ producto, index }) => {
   const etiquetaMarca = marca && linea ? `${marca} · ${linea}` : marca || "";
 
   const controls = useAnimation();
-
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.2,
@@ -193,10 +183,10 @@ const ProductCard = ({ producto, index }) => {
           </span>
         )}
 
-        {/* ETIQUETA 15% OFF - SOLO VISIBLE LUNES Y MARTES */}
-        {stock && !encargo && esLunesOMartes && (
+        {/* ETIQUETA 40% OFF */}
+        {stock && !encargo && (
           <span className="absolute bottom-3 left-3 z-10 rounded-full bg-red-600 px-2.5 py-1 text-[10px] font-bold text-white shadow-[0_0_14px_rgba(220,38,38,0.8)]">
-            15% OFF
+            40% OFF
           </span>
         )}
 
@@ -242,15 +232,13 @@ const ProductCard = ({ producto, index }) => {
 
           {/* PRECIOS */}
           <div className="flex flex-col items-center justify-center gap-0.5">
-            {esLunesOMartes && (
-              <div className="flex items-center justify-center gap-2">
-                <span className="text-[10px] font-semibold text-white/35 line-through">
-                  ${precioBase.toLocaleString("es-AR")}
-                </span>
-              </div>
-            )}
+            <div className="flex items-center justify-center gap-2">
+              <span className="text-[10px] font-semibold text-white/35 line-through">
+                ${precioBase.toLocaleString("es-AR")}
+              </span>
+            </div>
             <span className="text-[16px] font-black tracking-tight text-red-600">
-              ${precioFinal.toLocaleString("es-AR")}
+              ${precioVisualFinal.toLocaleString("es-AR")}
             </span>
           </div>
         </div>

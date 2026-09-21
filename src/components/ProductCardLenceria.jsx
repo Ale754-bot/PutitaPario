@@ -18,13 +18,6 @@ const ProductCardLenceria = ({ producto, index }) => {
   } = producto;
 
   const [colorSeleccionado, setColorSeleccionado] = useState(null);
-  const [esLunesOMartes, setEsLunesOMartes] = useState(false);
-
-  // --- COMPROBAR EL DÍA PARA EL DESCUENTO ---
-  useEffect(() => {
-    const diaActual = new Date().getDay();
-    setEsLunesOMartes(diaActual === 1 || diaActual === 2);
-  }, []);
 
   const tieneVariantes = variantes && variantes.length > 0;
   const tieneColores = mostrarColor && variantes?.some((v) => v.colorHex || v.color);
@@ -45,9 +38,9 @@ const ProductCardLenceria = ({ producto, index }) => {
 
   const precioOriginalVariante = variantePorColor?.precio ?? precioBaseProp ?? 0;
 
-  // --- CÁLCULO DEL PRECIO FINAL DEPENDIENDO DEL DÍA ---
-  const precioFinal = esLunesOMartes ? Math.round(precioOriginalVariante * 0.85) : precioOriginalVariante;
+  // --- CÁLCULO VISUAL (40% OFF PERMANENTE) ---
   const precioTachado = precioOriginalVariante;
+  const precioFinal = Math.round(precioOriginalVariante * 0.60);
 
   const imagenFinal =
     variantePorColor?.imagen || imagen || imagenUrl || "/images/placeholder.png";
@@ -67,7 +60,7 @@ const ProductCardLenceria = ({ producto, index }) => {
 
     const mensaje = `Hola 👋, quiero consultar por talles disponibles del producto: ${nombre}${
       colorSeleccionado ? ` (${colorSeleccionado})` : ""
-    }. Precio: $${precioFinal.toLocaleString("es-AR")}`;
+    }. Precio (40% OFF): $${precioFinal.toLocaleString("es-AR")}`;
 
     const url = `https://wa.me/${numeroDuena}?text=${encodeURIComponent(mensaje)}`;
     window.open(url, "_blank");
@@ -145,10 +138,10 @@ const ProductCardLenceria = ({ producto, index }) => {
           </div>
         )}
 
-        {/* ETIQUETA 15% OFF - SOLO VISIBLE LUNES Y MARTES */}
-        {stock && esLunesOMartes && (
+        {/* ETIQUETA 40% OFF */}
+        {stock && (
           <span className="absolute bottom-3 left-3 z-10 rounded-full bg-red-600 px-2.5 py-1 text-[10px] font-bold text-white shadow-[0_0_14px_rgba(220,38,38,0.8)]">
-            15% OFF
+            40% OFF
           </span>
         )}
 
@@ -183,13 +176,11 @@ const ProductCardLenceria = ({ producto, index }) => {
           </h2>
 
           <div className="flex flex-col items-center justify-center gap-0.5">
-            {esLunesOMartes && (
-              <div className="flex items-center justify-center gap-2">
-                <span className="text-[10px] font-semibold text-white/35 line-through">
-                  ${precioTachado.toLocaleString("es-AR")}
-                </span>
-              </div>
-            )}
+            <div className="flex items-center justify-center gap-2">
+              <span className="text-[10px] font-semibold text-white/35 line-through">
+                ${precioTachado.toLocaleString("es-AR")}
+              </span>
+            </div>
 
             <span className="text-[16px] font-black tracking-tight text-red-600">
               ${precioFinal.toLocaleString("es-AR")}

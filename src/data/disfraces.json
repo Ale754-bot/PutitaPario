@@ -40,7 +40,7 @@
     "imagen": "/images/disfraces/secretaria.webp",
     "categoria": "Disfraces",
     "subcategoria": "",
-    "stock": true,
+    "stock": false,
     "marca": "",
     "linea": "",
     "precio": 35000,

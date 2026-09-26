@@ -38,7 +38,7 @@
     "imagen": "/NUEVOPLUG.jpg",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -55,7 +55,7 @@
     "imagen": "/NUEVOPLUG2.jpg",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -72,7 +72,7 @@
     "imagen": "/NUEVOPLUG3.jpg",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -106,7 +106,7 @@
     "imagen": "/images/plugs/corazonrosa.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -123,7 +123,7 @@
     "imagen": "/images/plugs/diamanterojo.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -140,7 +140,7 @@
     "imagen": "/images/plugs/doradofuccia.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -157,7 +157,7 @@
     "imagen": "/images/plugs/doradorosa.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -174,18 +174,13 @@
   "imagen": "/images/plugs/diamanteplateado.webp",
   "categoria": "Plugs",
   "subcategoria": "",
-  "stock": false,
+  "stock": true,
   "marca": "",
   "linea": "",
   "precio": 23000,
   "variantes": [
     {
       "talle": "S",
-      "precio": 23000,
-      "stock": true
-    },
-    {
-      "talle": "L",
       "precio": 23000,
       "stock": true
     }
@@ -215,7 +210,7 @@
     "imagen": "/images/plugs/plateadonaranja.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -300,7 +295,7 @@
     "imagen": "/images/plugs/tornasol.webp",
     "categoria": "Plugs",
     "subcategoria": "",
-    "stock": false,
+    "stock": true,
     "marca": "",
     "linea": "",
     "variantes": [
@@ -372,24 +367,13 @@
       }
     ]
   },
-  {
-  "id": 518,
-  "nombre": "Ducha Limpieza Anal - 89ml",
-  "descripcion": "",
-  "imagen": "/images/plugs/duchanal.webp",
-  "categoria": "Plugs",
-  "stock": false,
-  "marca": "",
-  "linea": "",
-  "precio": 22000
-},
  {
   "id": 519,
   "nombre": "Plug Dorado - Diamante Corazón Violeta",
   "descripcion": "",
   "imagen": "/plugcorazonvioleta.jpg",
   "categoria": "Plugs",
-  "stock": false,
+  "stock": true,
   "marca": "",
   "linea": "",
   "variantes": [
@@ -405,7 +389,7 @@
   "descripcion": "",
   "imagen": "/doradorojo.jpg",
   "categoria": "Plugs",
-  "stock": false,
+  "stock": true,
   "marca": "",
   "linea": "",
  "variantes": [

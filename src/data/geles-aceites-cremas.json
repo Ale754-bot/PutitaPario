@@ -6,7 +6,7 @@
     "imagen": "/images/Geles/missv-neutro.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
-    "stock": false,
+    "stock": true,
     "marca": "Miss V",
     "linea": "",
     "etiqueta": "Nuevo ingreso",
@@ -236,7 +236,7 @@
     "imagen": "/images/Geles/neutro.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
-    "stock": false,
+    "stock": true,
     "marca": "Sextual",
     "linea": "Natural",
     "variantes": [
@@ -488,7 +488,7 @@
     "imagen": "/images/Geles/frutosrojos.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
-    "stock": true,
+    "stock": false,
     "marca": "Calins",
     "variantes": [
       {
@@ -839,7 +839,7 @@
     "imagen": "/images/Geles/s-dual.webp",
     "categoria": "Geles, Aceites & Cremas",
     "subcategoria": "Geles lubricantes",
-    "stock": false,
+    "stock": true,
     "marca": "Sexitive",
     "linea": "Magic Dual",
     "variantes": [

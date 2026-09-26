@@ -1,29 +1,55 @@
 [
   {
   "id": 1041,
-  "nombre": "Dildo Vibrador Sopapa",
+  "nombre": "Dildo Consolador Sopapa Con Funcion de Empuje - A pilas",
   "descripcion": "",
   "imagen": "/dildosopapavibrador.jpg",
   "categoria": "Dildos & Vibradores",
-  "subcategoria": "Sopapa",
-  "stock": false,
+  "subcategoria": "Dildos Especiales",
+  "stock": true,
   "reingreso": true,
   "marca": "",
   "linea": "",
-  "precio": 85000
+  "precio": 98000
 },
 
   {
   "id": 1042,
-  "nombre": "Consolador Sopapa - Rotación Vibrador Movimiento",
+  "nombre": "Dildo Consolador Sopapa Rotación Vibracion USB",
   "descripcion": "",
   "imagen": "/consopapa.jpg",
   "categoria": "Dildos & Vibradores",
-  "subcategoria": "Sopapa",
-  "stock": false,
+  "subcategoria": "Dildos Especiales",
+  "stock": true,
   "marca": "",
   "linea": "",
   "precio": 120000
+},
+ {
+  "id": 1043,
+  "nombre": "Dildo Inflable C/B Sopapa",
+  "descripcion": "",
+  "imagen": "/DILDO INFLABLE.jpg",
+  "categoria": "Dildos & Vibradores",
+  "subcategoria": "Dildos Especiales",
+  "stock": true,
+  "proximamente": true,
+  "marca": "",
+  "linea": "",
+  "precio": 110000
+},
+ {
+  "id": 1044,
+  "nombre": "Dildo Consolador Sopapa Negro con Eyaculador",
+  "descripcion": "",
+  "imagen": "/DILDO EYACULADOR.jpg",
+  "categoria": "Dildos & Vibradores",
+  "subcategoria": "Dildos Especiales",
+  "stock": true,
+  "proximamente": true,
+  "marca": "",
+  "linea": "",
+  "precio": 95000
 },
   {
     "id": 1000,

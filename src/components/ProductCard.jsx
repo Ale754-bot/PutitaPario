@@ -20,6 +20,7 @@ const ProductCard = ({ producto, index }) => {
     precioOriginal,
     reingreso,
     encargo,
+    proximamente,
   } = producto;
 
   const [talleSeleccionado, setTalleSeleccionado] = useState("");
@@ -53,7 +54,9 @@ const ProductCard = ({ producto, index }) => {
     }
   }, [talles, variantes, tieneTalles, tieneVariantes]);
 
+  // Si es próximo, no se puede agregar bajo ningún punto de vista
   const puedeAgregar =
+    !proximamente &&
     stock &&
     ((!tieneTalles && !tieneVariantes) ||
       (tieneTalles && talleSeleccionado) ||
@@ -68,7 +71,7 @@ const ProductCard = ({ producto, index }) => {
 
   const mostrarPrecioSiempre = categoriasPrecioVisible.includes(categoria);
 
-  // Precio base de lista original para mostrar visualmente en la tarjeta
+  // Precio base real del producto
   const precioBase = mostrarPrecioSiempre
     ? precio ?? varianteSeleccionada?.precio ?? precioOriginal ?? 0
     : varianteSeleccionada?.precio ?? precio ?? precioOriginal ?? 0;
@@ -76,7 +79,9 @@ const ProductCard = ({ producto, index }) => {
   const imagenFinal =
     varianteSeleccionada?.imagen || imagen || imagenUrl || "/images/placeholder.png";
 
-  const textoBoton = !stock
+  const textoBoton = proximamente
+    ? "Próximamente"
+    : !stock
     ? "Sin stock"
     : tieneTalles && !talleSeleccionado
     ? "Elegí un talle"
@@ -88,9 +93,6 @@ const ProductCard = ({ producto, index }) => {
     ? "Elegí un tamaño"
     : "Agregar al carrito";
 
-  // --- CÁLCULO VISUAL (40% OFF) ---
-  const precioVisualFinal = Math.round(precioBase * 0.60);
-
   const handleAgregar = () => {
     if (!puedeAgregar) return;
 
@@ -100,7 +102,7 @@ const ProductCard = ({ producto, index }) => {
       talle: talleSeleccionado || varianteSeleccionada?.talle || null,
       variante: varianteSeleccionada?.talle || varianteSeleccionada?.tamaño || varianteSeleccionada?.color || null,
       color: varianteSeleccionada?.color || null,
-      precio: precioBase, // Le pasamos el precio base limpio al Context para que aplique el 40% OFF una sola vez
+      precio: precioBase, 
       imagen: varianteSeleccionada?.imagen || imagenFinal,
     };
 
@@ -169,29 +171,29 @@ const ProductCard = ({ producto, index }) => {
           </span>
         )}
 
+        {/* PRÓXIMAMENTE */}
+        {proximamente && (
+          <span className="absolute right-2 top-2 z-10 rounded-full bg-amber-600 px-2 py-1 text-[9px] font-bold uppercase tracking-wide text-white shadow-[0_0_12px_rgba(217,119,6,0.7)]">
+            Próximamente
+          </span>
+        )}
+
         {/* REINGRESO */}
-        {reingreso && (
+        {!proximamente && reingreso && (
           <span className="absolute right-2 top-2 z-10 rounded-full bg-red-700 px-2 py-1 text-[9px] font-bold uppercase tracking-wide text-white shadow-[0_0_12px_rgba(185,28,28,0.7)]">
             Reingreso
           </span>
         )}
 
         {/* ETIQUETA ENCARGO */}
-        {encargo && stock && (
+        {!proximamente && encargo && stock && (
           <span className="absolute left-2 top-2 z-10 rounded-full bg-black px-2.5 py-1 text-[10px] font-bold text-white">
             Solo por encargo
           </span>
         )}
 
-        {/* ETIQUETA 40% OFF */}
-        {stock && !encargo && (
-          <span className="absolute bottom-3 left-3 z-10 rounded-full bg-red-600 px-2.5 py-1 text-[10px] font-bold text-white shadow-[0_0_14px_rgba(220,38,38,0.8)]">
-            40% OFF
-          </span>
-        )}
-
         {/* SIN STOCK */}
-        {!stock && (
+        {!proximamente && !stock && (
           <div className="absolute inset-0 z-20 flex items-center justify-center bg-black/60">
             <span className="rounded-full bg-black px-4 py-2 text-xs font-bold uppercase tracking-wide text-white">
               Agotado
@@ -230,15 +232,10 @@ const ProductCard = ({ producto, index }) => {
             {nombre}
           </h2>
 
-          {/* PRECIOS */}
+          {/* PRECIO REAL */}
           <div className="flex flex-col items-center justify-center gap-0.5">
-            <div className="flex items-center justify-center gap-2">
-              <span className="text-[10px] font-semibold text-white/35 line-through">
-                ${precioBase.toLocaleString("es-AR")}
-              </span>
-            </div>
             <span className="text-[16px] font-black tracking-tight text-red-600">
-              ${precioVisualFinal.toLocaleString("es-AR")}
+              ${precioBase.toLocaleString("es-AR")}
             </span>
           </div>
         </div>
@@ -319,11 +316,11 @@ const ProductCard = ({ producto, index }) => {
           </div>
         )}
 
-        {!puedeAgregar && stock && (
-          <p className="mt-1 text-center text-[9px] font-medium text-red-400">
+        {(!puedeAgregar && stock) || proximamente ? (
+          <p className="mt-1 text-center text-[9px] font-medium text-amber-500">
             {textoBoton}
           </p>
-        )}
+        ) : null}
       </div>
     </motion.div>
   );

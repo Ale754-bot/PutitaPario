@@ -1,5 +1,23 @@
 [
   {
+    "id": 526,
+    "nombre": "Plug Dorado Corazon - Rojo",
+    "descripcion": "",
+    "imagen": "/PLUG DORADO CORAZON.jpg",
+    "categoria": "Plugs",
+    "subcategoria": "",
+    "stock": true,
+    "proximamente": true,
+    "marca": "",
+    "linea": "",
+    "variantes": [
+      {
+        "talle": "S",
+        "precio": 26000
+      }
+    ]
+  },
+  {
     "id": 521,
     "nombre": "Plug Anal a C/R y USB",
     "descripcion": "",
@@ -66,7 +84,7 @@
     ]
   },
   {
-    "id": 523,
+    "id": 525,
     "nombre": "Corazón Azul",
     "descripcion": "",
     "imagen": "/NUEVOPLUG3.jpg",
@@ -82,6 +100,7 @@
       }
     ]
   },
+   
   {
     "id": 500,
     "nombre": "Corazón Acero Hipoalergénico - Rojo",

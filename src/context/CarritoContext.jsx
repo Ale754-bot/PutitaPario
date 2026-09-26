@@ -1,3 +1,4 @@
+// CarritoContext.jsx
 import React, { createContext, useState, useContext } from 'react';
 
 const CarritoContext = createContext();
@@ -5,16 +6,12 @@ const CarritoContext = createContext();
 export const CarritoProvider = ({ children }) => {
   const [items, setItems] = useState([]);
 
-  // El subtotal y el total se calculan directamente en base a los precios ya con el 40% aplicado
   const subtotal = items.reduce((acc, item) => acc + (item.precio * item.cantidad), 0);
   const total = subtotal;
 
   const agregarItem = (producto, cantidad = 1) => {
-    // Tomamos el precio base original del producto (sea cual fuere la propiedad que traiga)
+    // Tomamos el precio real original del producto
     const precioBaseOriginal = producto.precio || producto.precioBase || producto.precioOriginal || 0;
-    
-    // Aplicamos el 40% OFF permanente (el producto queda al 60% de su valor original)
-    const precioFinal = Math.round(precioBaseOriginal * 0.60);
 
     setItems(prevItems => {
       const itemExistente = prevItems.find(
@@ -33,8 +30,7 @@ export const CarritoProvider = ({ children }) => {
           { 
             ...producto, 
             cantidad, 
-            precioOriginal: precioBaseOriginal, 
-            precio: precioFinal // Guardamos el precio ya con el 40% off aplicado
+            precio: precioBaseOriginal // Guardamos el precio real sin descuentos
           }
         ];
       }
@@ -60,7 +56,7 @@ export const CarritoProvider = ({ children }) => {
       const subtotalItem = (item.precio * item.cantidad).toFixed(2);
       mensaje += `— ${item.nombre} (${variante})\n`;
       mensaje += `  Cantidad: ${item.cantidad} ${item.cantidad === 1 ? 'unidad' : 'unidades'}\n`;
-      mensaje += `  Precio unitario (40% OFF): $${item.precio.toLocaleString("es-AR")}\n`;
+      mensaje += `  Precio unitario: $${item.precio.toLocaleString("es-AR")}\n`;
       mensaje += `  Subtotal: $${Number(subtotalItem).toLocaleString("es-AR")}\n\n`;
     });
 

@@ -1,5 +1,41 @@
 [
   {
+  "id": 441,
+  "nombre": "Microscopium Microfono Vibrador c/ USB",
+  "descripcion": "",
+  "imagen": "/MICROFONO VIBRADOR.jpg",
+  "categoria": "Juguetes",
+  "stock": true,
+  "proximamente": true,
+  "marca": "",
+  "linea": "",
+  "precio": 64000
+},
+{
+  "id": 442,
+  "nombre": "Microfono Masajeador c/ USB",
+  "descripcion": "",
+  "imagen": "/MICROFONO MASAJEADOR.jpg",
+  "categoria": "Juguetes",
+  "stock": true,
+  "proximamente": true,
+  "marca": "",
+  "linea": "",
+  "precio": 86000
+},
+{
+  "id": 443,
+  "nombre": "Scopium Doble Vibrador c/ USB",
+  "descripcion": "",
+  "imagen": "/DOBLE VIBRADOR USB.jpg",
+  "categoria": "Juguetes",
+  "stock": true,
+  "proximamente": true,
+  "marca": "",
+  "linea": "",
+  "precio": 98000
+},
+  {
   "id": 439,
   "nombre": "Abeja Estimuladora",
   "descripcion": "",

@@ -12,11 +12,11 @@ const BannerPerfumesHombre = () => {
         "
       >
         <Link
-          to="/productos?categoria=Perfumes#hombre"
+          to="/productos"
           className="group block overflow-hidden"
         >
           <img
-            src="/Banner pagina.png"
+            src="/ING.jpg"
             alt="Perfumes de Hombre"
             className="
               w-full object-cover

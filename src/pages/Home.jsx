@@ -9,7 +9,6 @@ import PageTransition from "../components/PageTransition";
 import { motion } from "framer-motion";
 import { useCarrito } from "../context/CarritoContext";
 import TrustBanner from "../components/TrustBanner";
-import CarruselAnuncios from "../components/CarruselAnuncios";
 import BannerPerfumesHombre from "../components/BannerPerfumesHombre";
 
 const sectionAnimation = {
@@ -68,9 +67,6 @@ const Home = () => {
             <TrustBanner />
           </HomeSection>
 
-          <HomeSection className="mb-10">
-            <CarruselAnuncios />
-          </HomeSection>
 
           <BannerPerfumesHombre />
 

@@ -38,7 +38,7 @@
   "descripcion": "",
   "imagen": "/NuevoIngreso3.jpg",
   "categoria": "Juguetes",
-  "stock": true,
+  "stock": false,
   "marca": "",
   "linea": "",
   "precio": 68000,
@@ -53,7 +53,7 @@
   "stock": true,
   "marca": "",
   "linea": "",
-  "precio": 75000
+  "precio": 115000
 },
 
   {
@@ -75,7 +75,7 @@
   "descripcion": "",
   "imagen": "/huevo.jpg",
   "categoria": "Juguetes",
-  "stock": true,
+  "stock": false,
   "marca": "",
   "linea": "",
   "precio": 75000
@@ -109,7 +109,7 @@
   "descripcion": "",
   "imagen": "/masturbadorreal2.jpg",
   "categoria": "Juguetes",
-  "stock": true,
+  "stock": false,
   "marca": "",
   "linea": "",
   "precio": 168000
@@ -167,7 +167,7 @@
     "descripcion": "Arnd es pequeño, tierno y suave. Su cuerpo siliconado posee una punta en forma de glande para una estimulación en el Clítoris y en el Punto G. Sus 10 funciones de vibración están pensadas para hacerte gozar.",
     "imagen": "/images/juguetes/arnd.webp",
     "categoria": "Juguetes",
-    "stock": true,
+    "stock": false,
     "marca": "pretty love",
     "precio": 40000,
     "mostrarColor": false,
@@ -203,7 +203,7 @@
     "descripcion": "Blithe es pequeño, tierno y suave. Su cuerpo siliconado posee una punta en forma de glande para una estimulación en el Clítoris y en el Punto G.",
     "imagen": "/images/juguetes/blithe.webp",
     "categoria": "Juguetes",
-    "stock": true,
+    "stock": false,
     "marca": "pretty love",
     "precio": 39000,
     "mostrarColor": false,

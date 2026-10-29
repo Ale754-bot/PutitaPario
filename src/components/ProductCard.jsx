@@ -71,10 +71,15 @@ const ProductCard = ({ producto, index }) => {
 
   const mostrarPrecioSiempre = categoriasPrecioVisible.includes(categoria);
 
-  // Precio base real del producto
-  const precioBase = mostrarPrecioSiempre
+  // --- OBTENCIÓN DEL PRECIO (Prioriza precioOferta si existe, sino usa precio normal) ---
+  const precioCrudo = mostrarPrecioSiempre
     ? precio ?? varianteSeleccionada?.precio ?? precioOriginal ?? 0
     : varianteSeleccionada?.precio ?? precio ?? precioOriginal ?? 0;
+
+  // Verificamos si la variante seleccionada o el producto general tiene precio de oferta
+  const precioOfertaCrudo = varianteSeleccionada?.precioOferta ?? producto.precioOferta;
+  const precioBase = precioOfertaCrudo ?? precioCrudo;
+  const precioOriginalTachado = precioOfertaCrudo ? precioCrudo : null;
 
   const imagenFinal =
     varianteSeleccionada?.imagen || imagen || imagenUrl || "/images/placeholder.png";
@@ -232,8 +237,13 @@ const ProductCard = ({ producto, index }) => {
             {nombre}
           </h2>
 
-          {/* PRECIO REAL */}
+          {/* PRECIO (Muestra tachado el original si hay oferta) */}
           <div className="flex flex-col items-center justify-center gap-0.5">
+            {precioOriginalTachado && (
+              <span className="text-[10px] font-semibold text-white/35 line-through">
+                ${precioOriginalTachado.toLocaleString("es-AR")}
+              </span>
+            )}
             <span className="text-[16px] font-black tracking-tight text-red-600">
               ${precioBase.toLocaleString("es-AR")}
             </span>

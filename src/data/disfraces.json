@@ -12,7 +12,8 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 35000
+        "precio": 35000,
+        "precioOferta": 30000
       }
     ]
   },
@@ -29,7 +30,8 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 35000
+        "precio": 35000,
+        "precioOferta": 30000
       }
     ]
   },
@@ -44,7 +46,7 @@
     "marca": "",
     "linea": "",
     "precio": 35000,
-    "precioOferta": 25000, 
+    "precioOferta": 30000, 
     "variantes": [
       {
         "talle": "Unico"
@@ -62,7 +64,7 @@
     "marca": "",
     "linea": "",
     "precio": 35000,
-    "precioOferta": 25000, 
+    "precioOferta": 30000, 
     "variantes": [
       {
         "talle": "Unico"
@@ -116,7 +118,8 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 35000
+        "precio": 35000,
+        "precioOferta": 30000
       }
     ]
   },
@@ -133,7 +136,8 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 35000
+        "precio": 35000,
+        "precioOferta": 30000
       }
     ]
   },
@@ -150,7 +154,8 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 35000
+        "precio": 35000,
+        "precioOferta": 30000
       }
     ]
   },
@@ -167,7 +172,8 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 35000
+        "precio": 35000,
+        "precioOferta": 30000
       }
     ]
   },
@@ -201,7 +207,8 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 35000
+        "precio": 35000,
+        "precioOferta": 30000
       }
     ]
   },
@@ -218,7 +225,8 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 40000
+        "precio": 40000,
+        "precioOferta": 32000
       }
     ]
   },
@@ -235,7 +243,8 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 35000
+        "precio": 35000,
+        "precioOferta": 30000
       }
     ]
   },
@@ -253,7 +262,8 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 40000
+        "precio": 40000,
+        "precioOferta": 32000
       }
     ]
   },
@@ -270,7 +280,8 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 35000
+        "precio": 35000,
+        "precioOferta": 30000
       }
     ]
   },
@@ -287,7 +298,8 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 40000
+        "precio": 40000,
+        "precioOferta": 32000
       }
     ]
   },
@@ -304,7 +316,8 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 40000
+        "precio": 40000,
+        "precioOferta": 32000
       }
     ]
   },
@@ -322,7 +335,8 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 40000
+        "precio": 40000,
+        "precioOferta": 32000
       }
     ]
   },
@@ -374,7 +388,8 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 40000
+        "precio": 40000,
+        "precioOferta": 32000
       }
     ]
   },
@@ -408,7 +423,8 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 35000
+        "precio": 35000,
+        "precioOferta": 30000
       }
     ]
   },
@@ -442,7 +458,8 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 40000
+        "precio": 40000,
+        "precioOferta": 32000
       }
     ]
   },
@@ -459,7 +476,8 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 40000
+        "precio": 40000,
+        "precioOferta": 32000
       }
     ]
   },
@@ -476,7 +494,8 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 40000
+        "precio": 40000,
+        "precioOferta": 32000
       }
     ]
   },
@@ -493,12 +512,13 @@
     "variantes": [
       {
         "talle": "Unico",
-        "precio": 40000
+        "precio": 40000,
+        "precioOferta": 32000
       }
     ]
   },
   {
-    "id": 826,
+    "id": 829,
     "nombre": "Disfraz Reina de Corazones - Simple",
     "descripcion": "",
     "imagen": "/images/disfraces/ReinaCorazonesSimple.jpg",
